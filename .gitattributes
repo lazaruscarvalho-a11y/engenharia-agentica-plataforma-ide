@@ -1,0 +1,3 @@
+# Preservar os bytes da candidata e do acervo; sem conversão de texto ou filtros.
+docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/** -text -filter -ident
+acervo/** -text -filter -ident
