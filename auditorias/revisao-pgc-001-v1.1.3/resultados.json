@@ -1,0 +1,20 @@
+{
+  "status": "PROPOSTO_NAO_RATIFICADO_NAO_IMPLEMENTADO",
+  "static_checks": "Checks: 76/76 PASS",
+  "document_regression_tests": 10,
+  "norm_case_pairs": 99,
+  "lost_associations": 0,
+  "matrix_catalog_differences": 0,
+  "case_oracles_and_steps_preserved": 49,
+  "original_v112_files_byte_identical": 18,
+  "original_zip_byte_identical": true,
+  "package_files": 20,
+  "zip_sha256": "40829bb2ddfaa8b739c2d7b19918a703845dd6bc7d97c205f8b1ad5528db4b43",
+  "zip_bytes": 279050,
+  "zip_repeat_bytes_equal": true,
+  "native_platform": "Windows",
+  "linux_macos_native_execution": false,
+  "operational_CA_tests_executed": 0,
+  "not_run_CA_cases": 49,
+  "candidate_manifest_entries": 19
+}

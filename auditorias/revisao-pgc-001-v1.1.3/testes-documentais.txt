@@ -1,0 +1,15 @@
+test_catalogo_crlf_rejeitado_sem_escrita (__main__.DocumentRevisionTests.test_catalogo_crlf_rejeitado_sem_escrita) ... ok
+test_conferencia_sucesso_nao_escreve (__main__.DocumentRevisionTests.test_conferencia_sucesso_nao_escreve) ... ok
+test_created_at_nao_substitui_emissao (__main__.DocumentRevisionTests.test_created_at_nao_substitui_emissao) ... ok
+test_data_sem_fuso_rejeitada (__main__.DocumentRevisionTests.test_data_sem_fuso_rejeitada) ... ok
+test_ordem_de_enumeracao_invertida (__main__.DocumentRevisionTests.test_ordem_de_enumeracao_invertida) ... ok
+test_relatorio_crlf_rejeitado_sem_escrita (__main__.DocumentRevisionTests.test_relatorio_crlf_rejeitado_sem_escrita) ... ok
+test_repeticao_e_seeds (__main__.DocumentRevisionTests.test_repeticao_e_seeds) ... ok
+test_versao_contratual_antiga_rejeitada (__main__.DocumentRevisionTests.test_versao_contratual_antiga_rejeitada) ... ok
+test_vinculo_indevido_na_matriz_detectado (__main__.DocumentRevisionTests.test_vinculo_indevido_na_matriz_detectado) ... ok
+test_vinculo_removido_do_json_detectado (__main__.DocumentRevisionTests.test_vinculo_removido_do_json_detectado) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.650s
+
+OK
