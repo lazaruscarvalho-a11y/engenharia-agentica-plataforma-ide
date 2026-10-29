@@ -1,0 +1,29 @@
+{
+  "zip_sha256": "8e2ae296829e5dfcdd313d9c088470c23aa825d72b8c518442ff1a3e338c42fd",
+  "zip_bytes": 75550,
+  "zip_crc": "PASS",
+  "entries": 18,
+  "manifest_entries_verified": 17,
+  "manifest_sha256": "b931897dc3cbbb339032ba1866fa802b5bf6aff78e28fbe26610bc4fffff050a",
+  "files": [
+    "MATRIZ-DE-RASTREABILIDADE.md",
+    "PGC-001.md",
+    "RATIFICACAO-INICIAL-MODELO.md",
+    "README.md",
+    "REGISTRO-DE-EMENDAS.md",
+    "SHA256SUMS.txt",
+    "contratos/CT-001-classificacao-aprovacao.md",
+    "contratos/CT-002-modelo-proveniencia.md",
+    "contratos/CT-003-publicacao-concorrencia.md",
+    "contratos/CT-004-rastreabilidade-impactos.md",
+    "contratos/CT-005-seguranca-autorizacao.md",
+    "contratos/CT-006-continuidade-recuperacao.md",
+    "contratos/CT-007-organizacao-contexto.md",
+    "contratos/CT-008-verificacao-adversarial.md",
+    "verificacoes/auditar_pacote.py",
+    "verificacoes/casos-adversariais.json",
+    "verificacoes/gerar_catalogo.py",
+    "verificacoes/relatorio-verificacao.md"
+  ],
+  "broken_file_links": []
+}

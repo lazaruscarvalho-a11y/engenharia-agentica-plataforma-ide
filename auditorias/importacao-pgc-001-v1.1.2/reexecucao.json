@@ -1,0 +1,115 @@
+{
+  "catalog_regeneration": "IDENTICAL_AFTER_CRLF_NORMALIZATION",
+  "static_checks": "Checks: 65/65 PASS",
+  "report_identical_after_path_separator_normalization": false,
+  "check_table_identical": true,
+  "inventory_rows_identical_after_path_normalization": true,
+  "matrix_catalog_differences": [
+    {
+      "requirement": "PGC-N-002",
+      "matrix_only": [
+        "CA-02",
+        "CA-03",
+        "CA-04",
+        "CA-05",
+        "CA-06"
+      ],
+      "catalog_only": [
+        "CA-44"
+      ]
+    },
+    {
+      "requirement": "PGC-N-006",
+      "matrix_only": [
+        "CA-05"
+      ],
+      "catalog_only": [
+        "CA-43"
+      ]
+    },
+    {
+      "requirement": "PGC-N-007",
+      "matrix_only": [],
+      "catalog_only": [
+        "CA-43",
+        "CA-49"
+      ]
+    },
+    {
+      "requirement": "PGC-N-009",
+      "matrix_only": [
+        "CA-32"
+      ],
+      "catalog_only": []
+    },
+    {
+      "requirement": "PGC-N-010",
+      "matrix_only": [
+        "CA-07",
+        "CA-12",
+        "CA-46"
+      ],
+      "catalog_only": []
+    },
+    {
+      "requirement": "PGC-N-012",
+      "matrix_only": [
+        "CA-35"
+      ],
+      "catalog_only": []
+    },
+    {
+      "requirement": "PGC-N-013",
+      "matrix_only": [
+        "CA-28"
+      ],
+      "catalog_only": []
+    },
+    {
+      "requirement": "PGC-N-014",
+      "matrix_only": [],
+      "catalog_only": [
+        "CA-28"
+      ]
+    },
+    {
+      "requirement": "PGC-N-015",
+      "matrix_only": [],
+      "catalog_only": [
+        "CA-03",
+        "CA-24"
+      ]
+    },
+    {
+      "requirement": "PGC-N-016",
+      "matrix_only": [],
+      "catalog_only": [
+        "CA-43"
+      ]
+    },
+    {
+      "requirement": "PGC-N-022",
+      "matrix_only": [
+        "CA-46",
+        "CA-47"
+      ],
+      "catalog_only": []
+    },
+    {
+      "requirement": "PGC-N-023",
+      "matrix_only": [],
+      "catalog_only": [
+        "CA-47"
+      ]
+    },
+    {
+      "requirement": "PGC-N-025",
+      "matrix_only": [
+        "CA-35"
+      ],
+      "catalog_only": []
+    }
+  ],
+  "operational_cases_executed": 0,
+  "not_run_cases": 49
+}
