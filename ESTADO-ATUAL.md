@@ -2,28 +2,20 @@
 
 **29/10/2026 — PROPOSTO / NÃO RATIFICADO / NÃO IMPLEMENTADO / NÃO TESTADO OPERACIONALMENTE.**
 
-## Fase e fontes
+## Revisão em análise
 
-Fundação documental: importação fiel da candidata para revisão humana. Fonte: [README original do PGC-001 v1.1.2](docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md), com contratos CT-001 a CT-008 v1.0.2. Este resumo não constitui lock, política vigente ou recibo de ativação.
+O usuário autorizou a revisão técnica dos três pontos da auditoria da v1.1.2. Foi preparada a [PGC-001 v1.1.3 candidata](docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md), com oito contratos v1.0.3. A [v1.1.2 original](docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md) e seu ZIP permanecem íntegros.
 
-Repositório de destino: [engenharia-agentica-plataforma-ide](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide), privado na inspeção. Leitura autenticada confirmada e gravação comprovada pelo commit inicial `ba820cbb7b92bd570e4848c4ca7eff48c44f04cd`, que contém somente um marcador vazio `.gitkeep`. Esse commit inicializa a base Git para revisão e não é o bootstrap normativo de ratificação descrito no PGC.
+EM-007 alinha 99 vínculos norma/caso nas duas direções, sem retirar associações; EM-008 padroniza issued_at para emissão da aprovação; EM-009 torna geração e conferência de bytes explícitas. As [justificativas](docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md) explicam vínculos de cobertura parcial. Não houve renumeração ou enfraquecimento dos oráculos CA.
 
-Branch proposta: `proposta/importacao-pgc-001-v1.1.2`. A publicação deve ser confirmada por consulta do remoto e pelo recibo separado de entrega; a simples existência deste arquivo não prova envio. A principal recebe apenas a base mínima, sem importação do pacote nesta etapa.
+## Evidências e publicação
 
-## Evidências documentais
+76/76 checks estáticos e 10/10 regressões documentais aprovados, com evidências na [auditoria da revisão](auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md). Os 49 cenários operacionais seguem NOT_RUN; nenhum harness foi implementado. Execução nativa das regressões: Windows; não foi executada segunda plataforma.
 
-- ZIP original: SHA-256 `8e2ae296829e5dfcdd313d9c088470c23aa825d72b8c518442ff1a3e338c42fd`.
-- 18 arquivos; 17 hashes originais conferidos; nove documentos normativos/contratuais preservados.
-- PGC v1.1.2, contratos v1.0.2, 25 obrigações, 20 achados anteriores e seis emendas identificados.
-- 65/65 checks estáticos reproduzidos em cópia isolada; catálogo de 49 casos e 18 fixtures reproduzível com ressalva de quebras de linha no Windows.
-- 49/49 casos continuam `NOT_RUN`. Nenhum harness operacional foi implementado ou validado.
-- [Auditoria e ressalvas](auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md): diferenças entre associações de testes da matriz e do catálogo; nomenclatura de campos de aprovação; limites de reprodução entre plataformas.
+A branch proposta é `proposta/revisao-pgc-001-v1.1.3`, derivada do commit `4f0450ac996505639d2d34ff79519e00dd8d1aa8` da importação v1.1.2. O PR desta revisão usa a branch de importação como base para apresentar apenas as correções. O recibo separado identificará commit, PR e conferência remota; este resumo não antecipa nem comprova publicação.
+
+Na inspeção, main estava no commit mínimo `ba820cbb7b92bd570e4848c4ca7eff48c44f04cd`, contendo só .gitkeep vazio. Nenhum merge é autorizado nesta etapa. O PR #1 da importação permanece separado; a revisão não o ratifica.
 
 ## Pendências
 
-1. Revisar o PR e os achados, definindo se exigem nova candidata antes de qualquer ratificação. As fontes permanecem íntegras.
-2. Se houver intenção de ratificar, obter manifestação explícita sobre o conjunto exato e verificar autoridade, ausência de política efetiva anterior e demais condições aplicáveis. Nenhuma ratificação foi concedida nesta importação.
-3. Definir e implementar controles reais, política de dados, esquema e runner antes de alegar conformidade operacional.
-4. Configuração do Projeto no ChatGPT, continuidade entre sessões, proteções de branch e sincronização automática não foram implementadas por este trabalho.
-
-Nenhum manifesto efetivo, assinatura ou registro preenchido de ratificação foi criado. Não houve merge para a principal.
+Revisão humana da nova candidata e de seu PR; eventual ratificação exige consentimento explícito sobre arquivos e hashes exatos, com verificação de autoridade e das demais condições aplicáveis. Esquema concreto, controles técnicos, runner, proteções, política de dados e sincronização continuam pendentes. Não há manifesto efetivo, assinatura ou registro preenchido de ratificação criado por este trabalho.
