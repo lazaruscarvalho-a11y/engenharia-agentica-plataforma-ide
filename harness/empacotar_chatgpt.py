@@ -27,7 +27,9 @@ def main():
     pgc='docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/'
     groups={
       'FONTES-01-FUNDACAO.md':[
-        'ESTADO-ATUAL.md','README.md','AGENTS.md',
+        'ESTADO-ATUAL.md','README.md','AGENTS.md','RETOMADA.md',
+        'docs/fundacao/PROVENIENCIA-RECUPERADA.md',
+        'docs/continuidade/CONT-REG-0001.json','docs/continuidade/MANIFESTO.json',
         *['docs/fundacao/'+x+'.md' for x in ['visao-produto','ecossistema-atual',
           'capacidades','metodologia-fases','protocolo-sessoes','roteamento-contexto',
           'registro-conhecimento','construcao-internalizacao']],

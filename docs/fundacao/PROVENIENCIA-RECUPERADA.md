@@ -2,9 +2,9 @@
 
 30/10/2026. Documento de reconciliação; não é aprovação de requisitos nem escolha de stack. As fontes abaixo são mensagens reais recuperadas, e não normas corporativas verificadas.
 
-## SRC-004 — pedido original do Work recuperado
+## SRC-REC-001 — pedido original do Work recuperado
 
-Chat Codex “Executar ecossistema PM-FUND”, `01a18e62-614f-7ae1-9501-ec880685d164`, mensagem `01a18e64-dcb7-7670-83bc-439d2f6f0503`. O pedido contém dossiê explícito e instrui a distinção entre fatos relatados, hipóteses, recomendações e decisões. Ele é a origem direta verificável da consolidação do Work; não substitui todas as falas anteriores da concepção.
+Chat Codex “Executar ecossistema PM-FUND”, `01a18e62-614f-7ae1-9501-ec880685d164`, mensagem `01a18e64-dcb7-7670-83bc-439d2f6f0503`. O pedido contém dossiê explícito e instrui a distinção entre fatos relatados, hipóteses, recomendações e decisões. Ele detalha a fonte histórica SRC-001 e é a origem direta verificável da consolidação do Work; não substitui todas as falas anteriores da concepção. O namespace SRC-REC evita colisão com SRC-004 histórico, que identifica a documentação oficial de Projetos no inventário original.
 
 | Afirmação consolidada | Localização no pedido | Documento resultante |
 |---|---|---|
@@ -18,7 +18,7 @@ Chat Codex “Executar ecossistema PM-FUND”, `01a18e62-614f-7ae1-9501-ec880685
 | Não confundir testes do piloto com os 49 CA | PM-FUND-002 / AUDITORIA INDEPENDENTE | auditorias/fundacao-integral |
 | Sem merge, ratificação ou permissões novas | LIMITES DE AUTORIZAÇÃO | pontos de entrada e relatórios |
 
-## SRC-005 — fonte adicional de produto recuperada
+## SRC-REC-002 — fonte adicional de produto recuperada
 
 Chat ChatGPT “Plataforma AI Nativa”, `6ae4ed58-4fe8-83e8-8081-99a9e1d782c8`. Cinco turnos disponíveis, sem cursor mais antigo. Somente as falas do usuário abaixo são usadas como relatos/intenções. As recomendações do assistente nesse chat NÃO foram promovidas a decisões.
 

@@ -1,5 +1,11 @@
 # Inicialização do Projeto no ChatGPT
 
+## Estado observado após a auditoria
+
+Projeto “Plataforma/IDE — Engenharia Agêntica.” identificado em list_projects, ID `g-p-6ae4fdf0eb688191bb6536420421ef69`. A conversa “Iniciar discovery da IDE” pertence a ele. Sua resposta relata Fontes acessíveis, mas os bytes carregados e o campo Instruções não foram inspecionados diretamente. A nova tentativa de navegador redireciona para login. Portanto, o estado atual verificável é **CONFIGURAÇÃO NATIVA NÃO VERIFICADA**, e não a inferência de que o Projeto inexiste ou necessariamente continua vazio.
+
+Os parágrafos seguintes registram a missão original de preparação. Para trabalhar agora, use a rota GitHub em [RETOMADA.md](../../RETOMADA.md). O pacote atualizado contém a entrada de retomada e fontes adicionais. O upload e aplicação das novas Instruções exigem interface autenticada; nenhuma sincronização é presumida.
+
 Versão 0.1.0 — preparação PM-FUND-003. **Estado da configuração real: NÃO CONFIGURADO.** Preparação documental não é configuração nativa.
 
 ## Evidência de acesso nesta missão

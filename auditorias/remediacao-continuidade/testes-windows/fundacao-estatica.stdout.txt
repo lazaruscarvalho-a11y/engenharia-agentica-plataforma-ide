@@ -1,0 +1,883 @@
+{
+  "scope": "ESTATICO_FUNDACAO_NAO_49_CA",
+  "checks": [
+    {
+      "check": "historico-intacto:.gitattributes",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:acervo/PGC-001_v1.1.2_candidata_ratificacao.zip",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:acervo/PGC-001_v1.1.3_candidata_ratificacao.zip",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:acervo/PGC-001_v1.1.3_candidata_ratificacao.zip.sha256",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:acervo/SHA256SUMS.txt",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/implementacao-inc-gov-001/RELATORIO.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/implementacao-inc-gov-001/conector-cas-real.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/implementacao-inc-gov-001/retomada-processo-isolado.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/implementacao-inc-gov-001/testes-locais.txt",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/importacao-pgc-001-v1.1.2/SHA256-IMPORTACAO.txt",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/importacao-pgc-001-v1.1.2/integridade.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/importacao-pgc-001-v1.1.2/reexecucao.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/importacao-pgc-001-v1.1.2/relatorio-estatico-reexecutado.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/importacao-pgc-001-v1.1.2/verificar_importacao.py",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/revisao-pgc-001-v1.1.3/SHA256-REVISAO.txt",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/revisao-pgc-001-v1.1.3/comparacao-fontes.diff",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/revisao-pgc-001-v1.1.3/resultados.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/revisao-pgc-001-v1.1.3/testes-documentais.txt",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:auditorias/revisao-pgc-001-v1.1.3/verificar_revisao.py",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/PGC-001.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/SHA256SUMS.txt",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/SHA256SUMS.txt",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/testar_revisao.py",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/01-discovery/governanca-assistida/INDICE.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/01-discovery/governanca-assistida/INICIO.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/01-discovery/governanca-assistida/aceites/GOV-OP-0001.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/01-discovery/governanca-assistida/ensaios/controle-condicional.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/01-discovery/governanca-assistida/recibos/GOV-OP-0001.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:docs/06-execucao/propostas/README.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:harness/governanca_assistida/OPERACAO.md",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:harness/governanca_assistida/fluxo.py",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:harness/governanca_assistida/modelos/aceite-nao-preenchido.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:harness/governanca_assistida/modelos/recibo-nao-preenchido.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:harness/governanca_assistida/modelos/registro.json",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:harness/governanca_assistida/retomar_snapshot.py",
+      "pass": true
+    },
+    {
+      "check": "historico-intacto:harness/governanca_assistida/test_fluxo.py",
+      "pass": true
+    },
+    {
+      "check": "zip-crc:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:MATRIZ-DE-RASTREABILIDADE.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:PGC-001.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:RATIFICACAO-INICIAL-MODELO.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:README.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:REGISTRO-DE-EMENDAS.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:SHA256SUMS.txt:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-001-classificacao-aprovacao.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-002-modelo-proveniencia.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-003-publicacao-concorrencia.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-004-rastreabilidade-impactos.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-005-seguranca-autorizacao.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-006-continuidade-recuperacao.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-007-organizacao-contexto.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-008-verificacao-adversarial.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:verificacoes\\auditar_pacote.py:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:verificacoes\\casos-adversariais.json:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:verificacoes\\gerar_catalogo.py:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:verificacoes\\relatorio-verificacao.md:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "49-CA-preservados-NOT_RUN:1.1.2",
+      "pass": true
+    },
+    {
+      "check": "zip-crc:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:MATRIZ-DE-RASTREABILIDADE.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:PGC-001.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:RATIFICACAO-INICIAL-MODELO.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:README.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:REGISTRO-DE-EMENDAS.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:REVISAO-TECNICA.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:SHA256SUMS.txt:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-001-classificacao-aprovacao.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-002-modelo-proveniencia.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-003-publicacao-concorrencia.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-004-rastreabilidade-impactos.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-005-seguranca-autorizacao.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-006-continuidade-recuperacao.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-007-organizacao-contexto.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:contratos\\CT-008-verificacao-adversarial.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:verificacoes\\auditar_pacote.py:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:verificacoes\\casos-adversariais.json:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:verificacoes\\gerar_catalogo.py:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:verificacoes\\relatorio-verificacao.md:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "zip-bytes:verificacoes\\testar_revisao.py:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "49-CA-preservados-NOT_RUN:1.1.3",
+      "pass": true
+    },
+    {
+      "check": "entrada:README.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:AGENTS.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:ESTADO-ATUAL.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/fundacao/visao-produto.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/fundacao/ecossistema-atual.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/fundacao/capacidades.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/fundacao/metodologia-fases.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/fundacao/registro-conhecimento.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/fundacao/construcao-internalizacao.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/fundacao/protocolo-sessoes.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/fundacao/roteamento-contexto.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "pass": true
+    },
+    {
+      "check": "entrada:docs/01-discovery/INICIO-DISCOVERY.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->RETOMADA.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->ESTADO-ATUAL.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/fundacao/visao-produto.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/fundacao/ecossistema-atual.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/fundacao/capacidades.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/fundacao/metodologia-fases.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/fundacao/construcao-internalizacao.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/fundacao/protocolo-sessoes.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/fundacao/roteamento-contexto.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/fundacao/registro-conhecimento.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/01-discovery/INICIO-DISCOVERY.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->harness/governanca_assistida/OPERACAO.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->auditorias/fundacao-integral/INVENTARIO.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->auditorias/fundacao-integral/MATRIZ-COBERTURA.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->auditorias/fundacao-integral/RELATORIO-FINAL.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md",
+      "pass": true
+    },
+    {
+      "check": "link:README.md->docs/01-discovery/governanca-assistida/INICIO.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->RETOMADA.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->ESTADO-ATUAL.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->docs/fundacao/visao-produto.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->docs/fundacao/roteamento-contexto.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->docs/fundacao/metodologia-fases.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->docs/fundacao/protocolo-sessoes.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->docs/01-discovery/INICIO-DISCOVERY.md",
+      "pass": true
+    },
+    {
+      "check": "link:AGENTS.md->auditorias/fundacao-integral/RELATORIO-FINAL.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->RETOMADA.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/continuidade/MANIFESTO.json",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/fundacao/visao-produto.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/fundacao/capacidades.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/fundacao/construcao-internalizacao.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/01-discovery/INICIO-DISCOVERY.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/fundacao/metodologia-fases.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/fundacao/ecossistema-atual.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/fundacao/registro-conhecimento.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->auditorias/fundacao-integral/INVENTARIO.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/fundacao/protocolo-sessoes.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->docs/fundacao/roteamento-contexto.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->harness/governanca_assistida/OPERACAO.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->harness/governanca_assistida/OPERACAO-FUNDACAO.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->auditorias/fundacao-integral/MATRIZ-COBERTURA.md",
+      "pass": true
+    },
+    {
+      "check": "link:ESTADO-ATUAL.md->auditorias/fundacao-integral/RELATORIO-FINAL.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/visao-produto.md->registro-conhecimento.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/visao-produto.md->capacidades.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/ecossistema-atual.md->registro-conhecimento.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/ecossistema-atual.md->visao-produto.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/ecossistema-atual.md->capacidades.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/protocolo-sessoes.md->../../ESTADO-ATUAL.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/protocolo-sessoes.md->roteamento-contexto.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->../../AGENTS.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->../../ESTADO-ATUAL.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->visao-produto.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->capacidades.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->ecossistema-atual.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->../01-discovery/INICIO-DISCOVERY.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->registro-conhecimento.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->metodologia-fases.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->protocolo-sessoes.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->construcao-internalizacao.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->../chatgpt/MANIFESTO-FONTES.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->../chatgpt/CONFIGURACAO.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->../00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/fundacao/roteamento-contexto.md->../../harness/governanca_assistida/OPERACAO.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/01-discovery/INICIO-DISCOVERY.md->../chatgpt/PRIMEIRA-SESSAO.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/CONFIGURACAO.md->INSTRUCOES-PERMANENTES.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/CONFIGURACAO.md->MANIFESTO-FONTES.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/CONFIGURACAO.md->PRIMEIRA-SESSAO.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->INSTRUCOES-PERMANENTES.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../../ESTADO-ATUAL.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../fundacao/roteamento-contexto.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../fundacao/visao-produto.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../fundacao/ecossistema-atual.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../fundacao/capacidades.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../fundacao/metodologia-fases.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../fundacao/protocolo-sessoes.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../fundacao/registro-conhecimento.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../fundacao/construcao-internalizacao.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../01-discovery/INICIO-DISCOVERY.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../../README.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../../AGENTS.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/MANIFESTO-FONTES.md->../../harness/governanca_assistida/OPERACAO.md",
+      "pass": true
+    },
+    {
+      "check": "link:docs/chatgpt/PRIMEIRA-SESSAO.md->../01-discovery/INICIO-DISCOVERY.md",
+      "pass": true
+    }
+  ],
+  "passed": 219,
+  "total": 219
+}

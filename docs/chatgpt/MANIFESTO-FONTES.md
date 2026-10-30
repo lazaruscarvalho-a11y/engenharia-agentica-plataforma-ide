@@ -1,5 +1,9 @@
 # Manifesto curado das Fontes do Projeto
 
+## Atualização de continuidade — 30/10/2026
+
+A entrada atual da proposta é [RETOMADA.md](../../RETOMADA.md), acompanhada de [MANIFESTO de continuidade](../continuidade/MANIFESTO.json) e [proveniência recuperada](../fundacao/PROVENIENCIA-RECUPERADA.md). O empacotador atualizado inclui esses arquivos e o registro CONT-REG-0001 nas Fontes de fundação. O recibo do novo pacote deve informar seu commit próprio; não atribuir os hashes do pacote antigo à nova versão. O restante deste documento preserva o procedimento e a seleção originais como histórico.
+
 Versão do manifesto: 0.1.0, 30/10/2026. Estado: PREPARADO; Projeto ChatGPT NÃO CONFIGURADO nesta verificação. É um manifesto de distribuição de contexto, sem efeito normativo. Fontes primárias da reconciliação: SRC-001 (pedido atual) e SRC-002 (cinco turnos recuperados da conversa de origem; resposta PM truncada a 20.000 caracteres, sem acesso ao planejamento original completo).
 
 ## Autoridade, revisão e atualização

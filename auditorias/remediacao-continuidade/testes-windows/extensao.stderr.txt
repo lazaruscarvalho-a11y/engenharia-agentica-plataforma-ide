@@ -1,0 +1,21 @@
+test_FUND_T_001_C0_persistencia_recibo_releitura (__main__.FoundationTests.test_FUND_T_001_C0_persistencia_recibo_releitura) ... ok
+test_FUND_T_002_C0_idempotencia_payload_alterado (__main__.FoundationTests.test_FUND_T_002_C0_idempotencia_payload_alterado) ... ok
+test_FUND_T_003_C0_revisao_CAS_historico (__main__.FoundationTests.test_FUND_T_003_C0_revisao_CAS_historico) ... ok
+test_FUND_T_004_C0_concorrencia_real_duas_conexoes (__main__.FoundationTests.test_FUND_T_004_C0_concorrencia_real_duas_conexoes) ... ok
+test_FUND_T_005_injecao_e_sensivel_sintetico_sem_efeito (__main__.FoundationTests.test_FUND_T_005_injecao_e_sensivel_sintetico_sem_efeito) ... ok
+test_FUND_T_006_esquema_proveniencia_e_C2_C3_bloqueados (__main__.FoundationTests.test_FUND_T_006_esquema_proveniencia_e_C2_C3_bloqueados) ... ok
+test_FUND_T_007_recuperacao_novo_processo_sem_historico (__main__.FoundationTests.test_FUND_T_007_recuperacao_novo_processo_sem_historico) ... ok
+test_FUND_T_008_C0_adulteracao_detectada (__main__.FoundationTests.test_FUND_T_008_C0_adulteracao_detectada) ... ok
+test_FUND_T_009_C1_reuso_piloto_SQLite_recuperacao (__main__.FoundationTests.test_FUND_T_009_C1_reuso_piloto_SQLite_recuperacao) ... ok
+test_FUND_T_010_C1_aceite_parcial_ambiguo_antigo (__main__.FoundationTests.test_FUND_T_010_C1_aceite_parcial_ambiguo_antigo) ... ok
+test_FUND_T_011_C1_timeout_antes_nao_repete (__main__.FoundationTests.test_FUND_T_011_C1_timeout_antes_nao_repete) ... ok
+test_FUND_T_012_C1_timeout_depois_reconcilia_sem_duplicar (__main__.FoundationTests.test_FUND_T_012_C1_timeout_depois_reconcilia_sem_duplicar) ... ok
+test_FUND_T_013_C1_CAS_real_entre_conexoes (__main__.FoundationTests.test_FUND_T_013_C1_CAS_real_entre_conexoes) ... ok
+test_FUND_T_014_destinos_restritos_e_sem_escrita_externa (__main__.FoundationTests.test_FUND_T_014_destinos_restritos_e_sem_escrita_externa) ... ok
+test_FUND_T_015_C1_id_operacao_nao_aceita_outro_payload (__main__.FoundationTests.test_FUND_T_015_C1_id_operacao_nao_aceita_outro_payload) ... ok
+test_FUND_T_016_SQLite_lock_timeout_sem_efeito (__main__.FoundationTests.test_FUND_T_016_SQLite_lock_timeout_sem_efeito) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.801s
+
+OK
