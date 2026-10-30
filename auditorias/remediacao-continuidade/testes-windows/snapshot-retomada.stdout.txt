@@ -1,0 +1,14 @@
+{
+  "status": "VERIFICADO_LOCALMENTE",
+  "record_id": "CONT-REG-0001",
+  "revision": 1,
+  "files": {
+    "RETOMADA.md": "ea15db4c98254e01496083a016b9a62b4cbf21cfcc0ee9f13d845216569c684f",
+    "docs/continuidade/CONT-REG-0001.json": "fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36",
+    "docs/fundacao/PROVENIENCIA-RECUPERADA.md": "ef04efb8a5c096205f84cdf34547f54a7bf2dc749a94fcc2608d36a219247629",
+    "docs/chatgpt/INSTRUCOES-PERMANENTES.md": "86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d"
+  },
+  "normative_effect": "AUSENTE",
+  "product_approval": "NAO_CONCEDIDA",
+  "limit": "Compara��o de bytes; origem do manifesto e commit remoto devem ser conferidos pelo operador."
+}

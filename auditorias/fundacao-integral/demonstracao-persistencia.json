@@ -1,0 +1,34 @@
+{
+  "scope": "LOCAL_SINTETICO_SUBPROCESSO_NAO_CHAT_NOVO",
+  "receipt": {
+    "schema_version": "fundacao-local-1",
+    "operation_id": "FUND-OP-0099",
+    "record_id": "FUND-IDEA-0099",
+    "revision": 1,
+    "sha256": "abcaff1df5e31b63d3572ae33bac6d3bd197bb9ee417d38f85693778bae5ac0f",
+    "request_digest": "321b521fb2cbaf67b327c05d9eeb0b42100217282b18eb5914d3335b12b616e9",
+    "publication": "LOCAL_SINTETICA",
+    "normative_effect": "AUSENTE",
+    "content_acceptance": "NAO_SOLICITADO_C0",
+    "source_trust": "UNTRUSTED_DATA"
+  },
+  "readback_other_process": {
+    "record": {
+      "record_id": "FUND-IDEA-0099",
+      "revision": 1,
+      "kind": "IDEIA",
+      "title": "Demonstração sintética",
+      "body": "Examinar fluxo de trabalho fictício.",
+      "source_ref": "synthetic://missao/fundacao",
+      "source_kind": "SYNTHETIC_INPUT",
+      "classification": "SINTETICO",
+      "nature": "C0",
+      "maturity": "PROPOSTO"
+    },
+    "sha256": "abcaff1df5e31b63d3572ae33bac6d3bd197bb9ee417d38f85693778bae5ac0f",
+    "normative_effect": "AUSENTE",
+    "publication": "LOCAL_SINTETICA",
+    "source_trust": "UNTRUSTED_DATA"
+  },
+  "byte_hash_equal": true
+}

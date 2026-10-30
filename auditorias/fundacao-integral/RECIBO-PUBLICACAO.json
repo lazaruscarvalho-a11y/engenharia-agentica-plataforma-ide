@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-10-30T20:15:52Z",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/fundacao-integral-pm-fund-001-003",
+  "pr": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/pull/5",
+  "tested_and_source_commit": "6167e59103440add7bc4e30f9cf37b1cdbf2770f",
+  "tested_tree_sha": "6f5b803b257a30b2c7258b7189c1bb9bdd624986",
+  "ref_readback": "6167e59103440add7bc4e30f9cf37b1cdbf2770f",
+  "tree_readback": {
+    "blobs": 118,
+    "all_git_blob_hashes_equal_to_local_bytes": true,
+    "prior_protected_blobs_unchanged": 74
+  },
+  "immutable_file_readbacks": [
+    {
+      "path": "README.md",
+      "sha256": "d59ae0efe00c17ccf83ae3fb319e056c3e9a920002822d807f714287c76b7bc4",
+      "bytes_equal": true
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "434269224d24cf8927d9c98a64e7c61463582ce87a19f4e863f6aab91e63ab33",
+      "bytes_equal": true
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "sha256": "99647a8efc9d0c3ac62374f5217fcd8186f79a115062c4feb2398e3bde5c04de",
+      "bytes_equal": true
+    },
+    {
+      "path": "harness/governanca_assistida/fundacao.py",
+      "sha256": "a4d30fab1a3b07928d9150da166444ac54ee303f3ca0212aeb29f904c77665d9",
+      "bytes_equal": true
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "sha256": "7d84e47b4b5df34c586725e1a78e3db7091140fea7a3bb9940f4868620c6e5a5",
+      "bytes_equal": true
+    }
+  ],
+  "main_before": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+  "main_after": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+  "merge_performed": false,
+  "pgc_status": "NAO_RATIFICADO",
+  "ca_operational": "49_NOT_RUN",
+  "chatgpt_configuration": "NAO_CONFIGURADO",
+  "tests": {
+    "pilot": 14,
+    "extension": 16,
+    "independent_adversarial": 16,
+    "pgc_documentary_regression": 10,
+    "foundation_static_checks": 214,
+    "pgc_static_checks": 76,
+    "package_revalidation_checks": 10
+  },
+  "package": {
+    "name": "pacote-chatgpt-fundacao.zip",
+    "sha256": "08e36eed6d9bebf0bc212b3fb76ebd38764c7508dedb331e716b85544c0fb41f",
+    "source_files": 28,
+    "export_files": 7,
+    "source_commit": "6167e59103440add7bc4e30f9cf37b1cdbf2770f"
+  },
+  "limits": [
+    "Histórico original parcial: cinco turnos recuperados; resposta PM limitada a 20000 caracteres.",
+    "Proteção main/rulesets retornam 403; nenhuma alteração administrativa.",
+    "Harness SQLite local/sintético e Gateway assistido não autenticam pessoas.",
+    "Subprocessos e agente novo não são nova conversa nativa iniciada pelo usuário.",
+    "Configuração ChatGPT sem ferramenta e navegador sem login; Instruções/Fontes preparadas, não carregadas."
+  ],
+  "receipt_semantics": "Recibo publicado em commit posterior; descreve a revisão auditada acima, sem tentar conter seu próprio SHA. Commit de recibo não altera fontes auditadas."
+}

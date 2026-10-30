@@ -1,0 +1,14 @@
+test_arquivo_ausente_nao_e_sucesso (__main__.RecoveryTests.test_arquivo_ausente_nao_e_sucesso) ... ok
+test_bytes_alterados_detectados (__main__.RecoveryTests.test_bytes_alterados_detectados) ... ok
+test_caminho_duplicado (__main__.RecoveryTests.test_caminho_duplicado) ... ok
+test_caminho_fora_da_raiz (__main__.RecoveryTests.test_caminho_fora_da_raiz) ... ok
+test_efeito_normativo_recusado_mesmo_com_hash_valido (__main__.RecoveryTests.test_efeito_normativo_recusado_mesmo_com_hash_valido) ... ok
+test_id_revisao_do_payload_devem_corresponder (__main__.RecoveryTests.test_id_revisao_do_payload_devem_corresponder) ... ok
+test_manifesto_de_outro_repositorio (__main__.RecoveryTests.test_manifesto_de_outro_repositorio) ... ok
+test_origem_ausente_recusada (__main__.RecoveryTests.test_origem_ausente_recusada) ... ok
+test_snapshot_valido_recupera_sem_aprovar (__main__.RecoveryTests.test_snapshot_valido_recupera_sem_aprovar) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.092s
+
+OK

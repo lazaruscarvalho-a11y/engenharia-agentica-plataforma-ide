@@ -1,0 +1,21 @@
+test_A01_C0_same_operation_concurrent_different_records (__main__.AdversarialAudit.test_A01_C0_same_operation_concurrent_different_records) ... ok
+test_A02_C0_conflict_rolls_back_operation_id (__main__.AdversarialAudit.test_A02_C0_conflict_rolls_back_operation_id) ... ok
+test_A03_C0_lock_timeout_has_no_partial_effect (__main__.AdversarialAudit.test_A03_C0_lock_timeout_has_no_partial_effect) ... ok
+test_A04_C0_replay_must_reverify_missing_persisted_record (__main__.AdversarialAudit.test_A04_C0_replay_must_reverify_missing_persisted_record) ... ok
+test_A05_C0_recovery_must_bind_requested_storage_key (__main__.AdversarialAudit.test_A05_C0_recovery_must_bind_requested_storage_key) ... ok
+test_A06_C0_source_marker_is_quarantined (__main__.AdversarialAudit.test_A06_C0_source_marker_is_quarantined) ... ok
+test_A07_C1_same_known_sensitive_marker_in_source_must_not_persist (__main__.AdversarialAudit.test_A07_C1_same_known_sensitive_marker_in_source_must_not_persist) ... ok
+test_A08_C1_unrecognized_injection_is_data_without_normative_effect (__main__.AdversarialAudit.test_A08_C1_unrecognized_injection_is_data_without_normative_effect) ... ok
+test_A09_C1_partial_ambiguous_other_revision_other_destination_no_writes (__main__.AdversarialAudit.test_A09_C1_partial_ambiguous_other_revision_other_destination_no_writes) ... ok
+test_A10_C1_old_review_cannot_approve_changed_packet_even_same_record (__main__.AdversarialAudit.test_A10_C1_old_review_cannot_approve_changed_packet_even_same_record) ... ok
+test_A11_local_review_object_is_attestation_not_human_authentication (__main__.AdversarialAudit.test_A11_local_review_object_is_attestation_not_human_authentication) ... ok
+test_A12_C1_recovery_in_fresh_process_with_only_database (__main__.AdversarialAudit.test_A12_C1_recovery_in_fresh_process_with_only_database) ... ok
+test_A13_C1_receipt_timeout_reconcile_performs_no_publish (__main__.AdversarialAudit.test_A13_C1_receipt_timeout_reconcile_performs_no_publish) ... ok
+test_A14_C1_precommit_timeout_old_journal_blocks_even_when_head_changed (__main__.AdversarialAudit.test_A14_C1_precommit_timeout_old_journal_blocks_even_when_head_changed) ... ok
+test_A15_C1_no_extra_file_can_hide_inside_allowed_prefix (__main__.AdversarialAudit.test_A15_C1_no_extra_file_can_hide_inside_allowed_prefix) ... ok
+test_A16_C1_same_operation_changed_base_is_not_silent_replay (__main__.AdversarialAudit.test_A16_C1_same_operation_changed_base_is_not_silent_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.839s
+
+OK

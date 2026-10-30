@@ -1,0 +1,120 @@
+{
+  "natureza": "RECHECAGEM_OFFLINE_MANIFESTO_SINTETICO_NAO_PROVA_REMOTA",
+  "local_snapshot_label": "5f3a168849a9fc18a70e2dca9a20becb9ff39eb3",
+  "input_sha256": {
+    "ESTADO-ATUAL.md": "c5dcf4b766ad1b5d24e598ba08815397348aaaf18294ee9c393976c27e63c3bc",
+    "README.md": "d59ae0efe00c17ccf83ae3fb319e056c3e9a920002822d807f714287c76b7bc4",
+    "AGENTS.md": "434269224d24cf8927d9c98a64e7c61463582ce87a19f4e863f6aab91e63ab33",
+    "docs/fundacao/visao-produto.md": "79c185bde0b2034bb75efe7a7da0e0251271d457f9365d1691f1b5b839760a38",
+    "docs/fundacao/ecossistema-atual.md": "ffc855b144062aa1d1d200e5f2a9aadb284f40ea3503b2956ce8f613d86cd2fe",
+    "docs/fundacao/capacidades.md": "eafadbd4e10de4ab3f3f397b1c74d18230fc42e7ae5237f50ac2917f72a8f3b1",
+    "docs/fundacao/metodologia-fases.md": "8d958a4ecd5feb44d03b8679224ea52d3f6e8243f5cda69dbee11942882a234a",
+    "docs/fundacao/protocolo-sessoes.md": "4e598caaca0141e0c864f4c45bcd7498b948c333600a0e9e9428d8824e693579",
+    "docs/fundacao/roteamento-contexto.md": "51630ea37f9f65b6b86ff445087891f8c49285f34401675f393fe0c2ea93d1af",
+    "docs/fundacao/registro-conhecimento.md": "05a64f5b2912a01feaf84e3cdc55b61b7e45a5aa8355f18a11d6314f81bb6b0d",
+    "docs/fundacao/construcao-internalizacao.md": "a9384ac36e52b49664f5afda51e84301a2c8dd239dcd13d0806dfa400dc0aef6",
+    "docs/01-discovery/INICIO-DISCOVERY.md": "3585caafc3684c93e7cec9e424c2bf2b22a83488bcbb048bfe26ac3adada46cb",
+    "docs/chatgpt/MANIFESTO-FONTES.md": "d776b5d0de016f52780064975dc44955c40cea1c5b5848fa15fe0aa58ac63e63",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md": "daf62ebdb18f7982e3f1ab4044e040fc0e859661a416f4e1fb92e174742eda54",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md": "99a6586b230f426a6b2f8a23179f5fd6047c472c5713abb239e3a0680fad961b",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md": "4f9e94dab864868de60b57ec4d4859d66640b3eb4721455ecde0a19357cb2428",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md": "1002e1988e8a264e00eed5f097ad7d5bb4bac94bc84c67df7a31450af88cb9a4",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md": "95f42a4e4be4b5a2f44bb313019abf5fccc7890183dad4e56f464e337b542458",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md": "c048b0679bdb5cd24da7ee58ecc986d4986c8843d045920966996b563f18ce0e",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md": "d41f85e689d871a2fd9ed0f02e0c53c38e422367a917afe8277e4a8c4ff057a7",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md": "ff560118fd1939732187626e1c2e3ad370d45901920a24cf5ac242f7853f8738",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md": "c0dd230f58453d43011a2c8fd15e4a788ae507493274239cf586b273af15c7dd",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md": "230869fcc1e1f8d7f515b7b0424a489c84179710e75595c8df76fbaafca2d0f0",
+    "auditorias/fundacao-integral/INVENTARIO.md": "fdc62927409af5b654a09790d13487f149e492ea8b32c843877da01cce3c1460",
+    "auditorias/fundacao-integral/MATRIZ-COBERTURA.md": "4e77e598d6365384a4e026dae074bbc7c05d1718a02a76bd05fe2133081198ff",
+    "auditorias/fundacao-integral/RELATORIO-FINAL.md": "cc63c83e5247e0f97d749f2fe9f9165462a510e33991e19c3f399faa58ff6609",
+    "harness/governanca_assistida/OPERACAO.md": "67cd5925b06093f69757d8d52be1b92ee8e1b60afe32c0192b6fab384a9646da",
+    "harness/governanca_assistida/OPERACAO-FUNDACAO.md": "d3718a7346d849e43c3274ca5b81a1183c146577c5d86a22235e821d44c44649",
+    "docs/chatgpt/INSTRUCOES-PERMANENTES.md": "7d84e47b4b5df34c586725e1a78e3db7091140fea7a3bb9940f4868620c6e5a5",
+    "docs/chatgpt/CONFIGURACAO.md": "caca634c3f77078b3cda14e71bc9d320abccfba4d72d19c06dea4da90524a21f",
+    "docs/chatgpt/PRIMEIRA-SESSAO.md": "4431da66a878f0c8d4126c41f748e4a8f50620c595e521357027ea3fc594a0b4",
+    "harness/empacotar_chatgpt.py": "84797904cd229ae0b8f7218234eb686c22feef554aff0456aaef9f2fb997105f"
+  },
+  "proof_sha256": "b49652d5722e2a0caf1723387052718e2d8cb3eea4becd3222a52a45b2a4afa9",
+  "results": [
+    {
+      "label": "positivo",
+      "returncode": 0,
+      "expected_returncode": 0,
+      "passed": true,
+      "output_exists": true,
+      "stderr": ""
+    },
+    {
+      "label": "sem-manifesto",
+      "returncode": 2,
+      "expected_returncode": 2,
+      "passed": true,
+      "output_exists": false,
+      "stderr": "usage: empacotar_chatgpt.py [-h] --commit COMMIT --snapshot-remoto\r\n                            SNAPSHOT_REMOTO --saida SAIDA\r\nempacotar_chatgpt.py: error: the following arguments are required: --snapshot-remoto"
+    },
+    {
+      "label": "sha-divergente",
+      "returncode": 2,
+      "expected_returncode": 2,
+      "passed": true,
+      "output_exists": false,
+      "stderr": "usage: empacotar_chatgpt.py [-h] --commit COMMIT --snapshot-remoto\r\n                            SNAPSHOT_REMOTO --saida SAIDA\r\nempacotar_chatgpt.py: error: Commit diverge da consulta remota fornecida"
+    },
+    {
+      "label": "caminho-sem-prova",
+      "returncode": 2,
+      "expected_returncode": 2,
+      "passed": true,
+      "output_exists": false,
+      "stderr": "usage: empacotar_chatgpt.py [-h] --commit COMMIT --snapshot-remoto\r\n                            SNAPSHOT_REMOTO --saida SAIDA\r\nempacotar_chatgpt.py: error: Arquivo ausente/divergente da revisão remota: docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md"
+    },
+    {
+      "label": "prova-duplicada",
+      "returncode": 2,
+      "expected_returncode": 2,
+      "passed": true,
+      "output_exists": false,
+      "stderr": "usage: empacotar_chatgpt.py [-h] --commit COMMIT --snapshot-remoto\r\n                            SNAPSHOT_REMOTO --saida SAIDA\r\nempacotar_chatgpt.py: error: Manifesto remoto contém caminhos duplicados"
+    },
+    {
+      "label": "contrato-ausente",
+      "returncode": 1,
+      "expected_returncode": 1,
+      "passed": true,
+      "output_exists": false,
+      "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\Carvalhos\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an-9\\work\\acxr\\fx\\harness\\empacotar_chatgpt.py\", line 94, in <module>\r\n    if __name__=='__main__': main()\r\n                             ^^^^^^\r\n  File \"C:\\Users\\Carvalhos\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an-9\\work\\acxr\\fx\\harness\\empacotar_chatgpt.py\", line 55, in main\r\n    data=(ROOT/path).read_bytes()\r\n         ^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\pathlib.py\", line 1050, in read_bytes\r\n    with self.open(mode='rb') as f:\r\n         ^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\pathlib.py\", line 1044, in open\r\n    return io.open(self, mode, buffering, encoding, errors, newline)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Carvalhos\\\\Documents\\\\Codex\\\\2026-10-30\\\\referenced-chatgpt-conversation-this-is-an-9\\\\work\\\\acxr\\\\fx\\\\docs\\\\00-governanca\\\\PGC-001_v1.1.3_candidata_ratificacao\\\\contratos\\\\CT-001-classificacao-aprovacao.md'"
+    },
+    {
+      "label": "contrato-alterado",
+      "returncode": 2,
+      "expected_returncode": 2,
+      "passed": true,
+      "output_exists": false,
+      "stderr": "usage: empacotar_chatgpt.py [-h] --commit COMMIT --snapshot-remoto\r\n                            SNAPSHOT_REMOTO --saida SAIDA\r\nempacotar_chatgpt.py: error: Arquivo ausente/divergente da revisão remota: docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md"
+    },
+    {
+      "label": "auxiliar-alterado",
+      "returncode": 2,
+      "expected_returncode": 2,
+      "passed": true,
+      "output_exists": false,
+      "stderr": "usage: empacotar_chatgpt.py [-h] --commit COMMIT --snapshot-remoto\r\n                            SNAPSHOT_REMOTO --saida SAIDA\r\nempacotar_chatgpt.py: error: Arquivo ausente/divergente da revisão remota: docs/chatgpt/PRIMEIRA-SESSAO.md"
+    },
+    {
+      "label": "mutacao-apos-validacao-cache",
+      "returncode": 0,
+      "disk_mutated": true,
+      "export_uses_validated_original": true,
+      "passed": true
+    },
+    {
+      "label": "verificar-fundacao-delta",
+      "returncode": 0,
+      "passed": true,
+      "checks_passed": 214,
+      "total": 214
+    }
+  ],
+  "all_pass": true
+}

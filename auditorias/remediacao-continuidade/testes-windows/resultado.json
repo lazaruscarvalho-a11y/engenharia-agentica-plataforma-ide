@@ -1,0 +1,142 @@
+{
+  "scope": "EXPLORATORIO_LOCAL_NAO_CONFORMIDADE_PGC",
+  "results": [
+    {
+      "name": "piloto",
+      "command": [
+        "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+        "-B",
+        "harness/governanca_assistida/test_fluxo.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "extensao",
+      "command": [
+        "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+        "-B",
+        "harness/governanca_assistida/test_fundacao.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "adversariais",
+      "command": [
+        "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+        "-B",
+        "auditorias/fundacao-integral/test_adversarial.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "regressao-pgc",
+      "command": [
+        "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+        "-B",
+        "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/testar_revisao.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "retomada",
+      "command": [
+        "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+        "-B",
+        "harness/test_retomada.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "fundacao-estatica",
+      "command": [
+        "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+        "-B",
+        "harness/verificar_fundacao.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "pgc-estatico",
+      "command": [
+        "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+        "-B",
+        "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/auditar_pacote.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "catalogo-estatico",
+      "command": [
+        "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+        "-B",
+        "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "snapshot-retomada",
+      "command": [
+        "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+        "-B",
+        "harness/verificar_retomada.py",
+        "--manifesto",
+        "docs/continuidade/MANIFESTO.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "ca_operacionais": {
+    "CA-01": "NOT_RUN",
+    "CA-02": "NOT_RUN",
+    "CA-03": "NOT_RUN",
+    "CA-04": "NOT_RUN",
+    "CA-05": "NOT_RUN",
+    "CA-06": "NOT_RUN",
+    "CA-07": "NOT_RUN",
+    "CA-08": "NOT_RUN",
+    "CA-09": "NOT_RUN",
+    "CA-10": "NOT_RUN",
+    "CA-11": "NOT_RUN",
+    "CA-12": "NOT_RUN",
+    "CA-13": "NOT_RUN",
+    "CA-14": "NOT_RUN",
+    "CA-15": "NOT_RUN",
+    "CA-16": "NOT_RUN",
+    "CA-17": "NOT_RUN",
+    "CA-18": "NOT_RUN",
+    "CA-19": "NOT_RUN",
+    "CA-20": "NOT_RUN",
+    "CA-21": "NOT_RUN",
+    "CA-22": "NOT_RUN",
+    "CA-23": "NOT_RUN",
+    "CA-24": "NOT_RUN",
+    "CA-25": "NOT_RUN",
+    "CA-26": "NOT_RUN",
+    "CA-27": "NOT_RUN",
+    "CA-28": "NOT_RUN",
+    "CA-29": "NOT_RUN",
+    "CA-30": "NOT_RUN",
+    "CA-31": "NOT_RUN",
+    "CA-32": "NOT_RUN",
+    "CA-33": "NOT_RUN",
+    "CA-34": "NOT_RUN",
+    "CA-35": "NOT_RUN",
+    "CA-36": "NOT_RUN",
+    "CA-37": "NOT_RUN",
+    "CA-38": "NOT_RUN",
+    "CA-39": "NOT_RUN",
+    "CA-40": "NOT_RUN",
+    "CA-41": "NOT_RUN",
+    "CA-42": "NOT_RUN",
+    "CA-43": "NOT_RUN",
+    "CA-44": "NOT_RUN",
+    "CA-45": "NOT_RUN",
+    "CA-46": "NOT_RUN",
+    "CA-47": "NOT_RUN",
+    "CA-48": "NOT_RUN",
+    "CA-49": "NOT_RUN"
+  },
+  "success": true
+}
