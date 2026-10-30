@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "status": "INICIAL_ANTES_AUDITORIA",
+  "version": "0.2.0",
+  "scope": "FUNDACAO_AUDITADA_NAO_REQUISITOS_APROVADOS_IDE",
   "rows": [
     {
       "id": "F-001",
@@ -8,7 +8,7 @@
       "requirement": "Visão integral e lacuna além do PGC",
       "path": "docs/fundacao/visao-produto.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-002",
@@ -16,7 +16,7 @@
       "requirement": "Banco: squads, hierarquia, PM/TL/SME e reuniões Teams",
       "path": "docs/fundacao/ecossistema-atual.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-003",
@@ -24,7 +24,7 @@
       "requirement": "ServiceNow/IuClick: features, histórias, bugs, tasks",
       "path": "docs/fundacao/ecossistema-atual.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-004",
@@ -32,7 +32,7 @@
       "requirement": "Provisionamento GitHub via issue e iupipes.yml",
       "path": "docs/fundacao/ecossistema-atual.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-005",
@@ -40,7 +40,7 @@
       "requirement": "Terraform e AWS DEV/HOM/PROD",
       "path": "docs/fundacao/ecossistema-atual.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-006",
@@ -48,7 +48,7 @@
       "requirement": "Defect Dojo, sigla app e aprovação arquitetural",
       "path": "docs/fundacao/ecossistema-atual.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-007",
@@ -56,7 +56,7 @@
       "requirement": "Sonar; IUQuali/TAAC/TestSpec com incerteza preservada",
       "path": "docs/fundacao/ecossistema-atual.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-008",
@@ -64,7 +64,7 @@
       "requirement": "feature→develop→release/HOM→main/PROD; GMUD, janela, incidentes/hotfix, Datadog, break-glass",
       "path": "docs/fundacao/ecossistema-atual.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-009",
@@ -72,7 +72,7 @@
       "requirement": "Workspaces, indexação e análise de repositórios",
       "path": "docs/fundacao/capacidades.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-010",
@@ -80,7 +80,7 @@
       "requirement": "AGENTS e contexto ótimo/mínimo suficiente",
       "path": "docs/fundacao/roteamento-contexto.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-011",
@@ -88,7 +88,7 @@
       "requirement": "Ingestão autorizada reuniões, requisitos, decisões, dúvidas/contradições",
       "path": "docs/fundacao/capacidades.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-012",
@@ -96,7 +96,7 @@
       "requirement": "Correlação histórias, arquitetura, APIs, AWS e equipes",
       "path": "docs/fundacao/capacidades.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-013",
@@ -104,7 +104,7 @@
       "requirement": "Plataforma coordenadora, Devin CLI executor; agentes/subagentes",
       "path": "docs/fundacao/visao-produto.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-014",
@@ -112,7 +112,7 @@
       "requirement": "Supervisão, interrupção, testes independentes e rastreabilidade",
       "path": "docs/fundacao/capacidades.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-015",
@@ -120,7 +120,7 @@
       "requirement": "Diagnóstico incidente e hotfix produtivo com autorização específica",
       "path": "docs/fundacao/construcao-internalizacao.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-016",
@@ -128,7 +128,7 @@
       "requirement": "Construção futura externa REAL: frontend/backend/persistência/orquestração/agentes",
       "path": "docs/fundacao/construcao-internalizacao.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-017",
@@ -136,7 +136,7 @@
       "requirement": "Conectores desacoplados, mocks, contratos, testes, docs e empacotamento",
       "path": "docs/fundacao/construcao-internalizacao.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-018",
@@ -144,7 +144,7 @@
       "requirement": "Internalização posterior por autorizados; sem dados/serviços internos agora",
       "path": "docs/fundacao/construcao-internalizacao.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-019",
@@ -152,7 +152,7 @@
       "requirement": "Sete etapas da metodologia do usuário",
       "path": "docs/fundacao/metodologia-fases.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-020",
@@ -160,7 +160,7 @@
       "requirement": "Fases 00–09 com entradas/saídas/gates/retornos",
       "path": "docs/fundacao/metodologia-fases.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-021",
@@ -168,7 +168,7 @@
       "requirement": "Negócio, perfis, jornadas, funcionalidades e UX visual da IDE",
       "path": "docs/01-discovery/INICIO-DISCOVERY.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-022",
@@ -176,7 +176,7 @@
       "requirement": "Conversa natural: brainstorm não aprova; detalhes não herdam aprovação",
       "path": "docs/fundacao/protocolo-sessoes.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-023",
@@ -184,7 +184,7 @@
       "requirement": "IDs, estados, revisão de decisões/documentos, hipóteses e pendências",
       "path": "docs/fundacao/registro-conhecimento.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-024",
@@ -192,23 +192,23 @@
       "requirement": "Proveniência original disponível e limitação do histórico",
       "path": "auditorias/fundacao-integral/INVENTARIO.md",
       "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "SRC-001 e 5 turnos SRC-002 conferidos; histórico integral anterior indisponível, resposta PM truncada. AUDITORIA-PRODUTO.md."
     },
     {
       "id": "F-025",
       "source": "SRC-001",
       "requirement": "Inventário main/PRs/commits/arquivos, integridade e permissões reais",
       "path": "auditorias/fundacao-integral/baseline-remoto.json",
-      "status": "Verificado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Parcial",
+      "evidence": "Inventário/árvore/histórico/permissões consultados; proteção/rulesets:403, configuração administrativa Não inspecionável."
     },
     {
       "id": "F-026",
       "source": "SRC-001",
       "requirement": "Branch/PR revisável, trabalho anterior e cadeia preservados",
       "path": "auditorias/fundacao-integral/INVENTARIO.md",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-027",
@@ -216,7 +216,7 @@
       "requirement": "README/AGENTS/ESTADO abrangendo produto inteiro",
       "path": "README.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-028",
@@ -224,7 +224,7 @@
       "requirement": "Instruções Permanentes exatas e enxutas",
       "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-029",
@@ -232,7 +232,7 @@
       "requirement": "Manifesto curado: prioridades/versões/limites e ausência de sync automática",
       "path": "docs/chatgpt/MANIFESTO-FONTES.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-030",
@@ -240,7 +240,7 @@
       "requirement": "Projeto ChatGPT efetivamente configurado ou pendência honesta",
       "path": "docs/chatgpt/CONFIGURACAO.md",
       "status": "Bloqueado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "CONFIGURACAO.md: navegador sem autenticação; ausência de ferramenta de Instruções/Fontes. Conteúdo/pacote preparados; upload não executado."
     },
     {
       "id": "F-031",
@@ -248,55 +248,55 @@
       "requirement": "Reutilizar piloto C1 sem falsificar aceite/ratificação",
       "path": "harness/governanca_assistida/fluxo.py",
       "status": "Verificado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-032",
       "source": "SRC-001",
       "requirement": "C0/C1 exploratório: IDs/esquemas/proveniência/propostas/decisões",
       "path": "harness/governanca_assistida/fundacao.py",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-033",
       "source": "SRC-001",
       "requirement": "Preparação changeset, aprovação delimitada e bloqueio C2/C3",
       "path": "harness/governanca_assistida/fundacao.py",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-034",
       "source": "SRC-001",
       "requirement": "CAS, revisão antiga e concorrência",
       "path": "harness/governanca_assistida/test_fundacao.py",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-035",
       "source": "SRC-001",
       "requirement": "Idempotência e conflito de payload/operation ID",
       "path": "harness/governanca_assistida/test_fundacao.py",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-036",
       "source": "SRC-001",
       "requirement": "Escrita/releitura, recibos, persistência e recuperação de outro processo",
       "path": "harness/governanca_assistida/test_fundacao.py",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-037",
       "source": "SRC-001",
       "requirement": "Timeouts e falhas antes/depois da gravação; sem repetição cega",
       "path": "harness/governanca_assistida/test_fundacao.py",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-038",
@@ -304,31 +304,31 @@
       "requirement": "Aprovação parcial, ambígua, fonte indireta e revisão alterada",
       "path": "harness/governanca_assistida/test_fluxo.py",
       "status": "Verificado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-039",
       "source": "SRC-001",
       "requirement": "Injeções, sensíveis sintéticos, perda de contexto",
       "path": "harness/governanca_assistida/test_fundacao.py",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-040",
       "source": "SRC-001",
       "requirement": "Verificações documentais executáveis",
       "path": "harness/verificar_fundacao.py",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-041",
       "source": "SRC-001",
       "requirement": "Auditoria independente após congelar arquivos, com correção P0/P1",
       "path": "auditorias/fundacao-integral/RELATORIO-FINAL.md",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-042",
@@ -336,7 +336,7 @@
       "requirement": "49 CA PGC sem falsa aprovação operacional",
       "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
       "status": "Verificado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-043",
@@ -344,15 +344,15 @@
       "requirement": "Nova conversa independente sem respostas antecipadas se possível",
       "path": "auditorias/fundacao-integral/RELATORIO-FINAL.md",
       "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Novo agente sem histórico recuperou contexto por arquivos (AUDITORIA-CONTEXTO.md); subprocessos novos passaram. Nova conversa nativa de usuário Não inspecionável/não executada."
     },
     {
       "id": "F-044",
       "source": "SRC-001",
       "requirement": "Segurança/permissões, sem merge/ratificação/ativação/mudanças de proteção",
       "path": "auditorias/fundacao-integral/RELATORIO-FINAL.md",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-045",
@@ -360,7 +360,7 @@
       "requirement": "Primeira sessão discovery pronta e critérios formalização/aceitação",
       "path": "docs/01-discovery/INICIO-DISCOVERY.md",
       "status": "Documentado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Cobertura documental conferida em AUDITORIA-PRODUTO.md e/ou AUDITORIA-CONTEXTO.md; capacidade futura da IDE não implementada. F-020 rechecado após correção."
     },
     {
       "id": "F-046",
@@ -368,15 +368,15 @@
       "requirement": "Orquestração com arquivos exclusivos, interfaces e auditores distintos",
       "path": "auditorias/fundacao-integral/INVENTARIO.md",
       "status": "Verificado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-047",
       "source": "SRC-001",
       "requirement": "Recibo remoto SHA/PR/releitura de arquivos e main inalterada",
       "path": "auditorias/fundacao-integral/RECIBO-PUBLICACAO.json",
-      "status": "Parcial",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "status": "Verificado",
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     },
     {
       "id": "F-048",
@@ -384,7 +384,7 @@
       "requirement": "Não desenvolver IDE final antes refinamento/aprovação",
       "path": "ESTADO-ATUAL.md",
       "status": "Verificado",
-      "evidence": "Auditoria final determinará comportamento verificado; documentação de capacidade futura não prova implementação."
+      "evidence": "Evidência delimitada em AUDITORIA-CODIGO.md, AUDITORIA-CONTEXTO.md, execucoes.json, cas-publicacao-inicial.json e/ou RECIBO-PUBLICACAO.json. Não extrapolar para IDE, C2/C3 ou 49 CA."
     }
   ]
 }

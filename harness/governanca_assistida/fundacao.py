@@ -123,6 +123,13 @@ class SQLiteGateway:
                 all(type(v) is bytes for v in files.values()), 'CHANGESET_INVALIDO')
         for path in files:
             safe_path(path)
+            # A borda nova examina também metadados e source_ref serializados;
+            # o piloto histórico não é alterado nem apresentado como DLP completo.
+            text = files[path].decode('utf-8')
+            require(not re.search(r'CHAVE_FICTICIA_SINTETICA_TESTE|-----BEGIN .*PRIVATE KEY|'
+                                  r'gh[pousr]_[A-Za-z0-9]{20,}|(?i:ignore (?:o protocolo|as regras)|'
+                                  r'ignore previous instructions|INSTRUÇÃO PRIORITÁRIA)', text),
+                    'QUARENTENA_REQUER_REVISAO')
         op = operation_id.removesuffix('-RECIBO')
         if operation_id.endswith('-RECIBO'):
             require(set(files) == {PREFIX+'recibos/'+op+'.json', PREFIX+'INDICE.json'},
@@ -174,6 +181,8 @@ class SQLiteGateway:
                              (operation_id,)).fetchone()
             if old:
                 require(old[0] == request_digest, 'OPERACAO_REUSADA_COM_OUTRO_PAYLOAD')
+                recovered = self.recover_draft(draft.record_id, draft.revision)
+                require(recovered['sha256'] == digest(data), 'REPLAY_C0_DIVERGENTE')
                 return json.loads(old[1])
             current = db.execute('SELECT MAX(revision) FROM drafts WHERE id=?', (draft.record_id,)).fetchone()[0] or 0
             if current != expected_revision:
@@ -196,20 +205,22 @@ class SQLiteGateway:
         require(revision is None or type(revision) is int and revision >= 1, 'REVISAO_INVALIDA')
         with self._connect() as db:
             if revision is None:
-                row = db.execute('SELECT data FROM drafts WHERE id=? ORDER BY revision DESC LIMIT 1', (record_id,)).fetchone()
+                row = db.execute('SELECT id,revision,data FROM drafts WHERE id=? ORDER BY revision DESC LIMIT 1', (record_id,)).fetchone()
             else:
-                row = db.execute('SELECT data FROM drafts WHERE id=? AND revision=?', (record_id, revision)).fetchone()
+                row = db.execute('SELECT id,revision,data FROM drafts WHERE id=? AND revision=?', (record_id, revision)).fetchone()
         if row is None:
             raise FileNotFoundError('REGISTRO_C0_AUSENTE')
-        value = Draft(**json.loads(row[0]))
+        value = Draft(**json.loads(row[2]))
         validate_draft(value)
+        require(value.record_id == record_id == row[0] and value.revision == row[1] and
+                (revision is None or value.revision == revision), 'CHAVE_C0_DIVERGENTE')
         with self._connect() as db:
             receipts = [json.loads(r[0]) for r in db.execute('SELECT receipt FROM draft_operations')]
         matching = [r for r in receipts if r['record_id'] == value.record_id and
                     r['revision'] == value.revision]
-        require(len(matching) == 1 and matching[0]['sha256'] == digest(row[0]),
+        require(len(matching) == 1 and matching[0]['sha256'] == digest(row[2]),
                 'RECIBO_C0_AUSENTE_OU_DIVERGENTE')
-        return {'record': asdict(value), 'sha256': digest(row[0]), 'normative_effect': 'AUSENTE',
+        return {'record': asdict(value), 'sha256': digest(row[2]), 'normative_effect': 'AUSENTE',
                 'publication': 'LOCAL_SINTETICA', 'source_trust': 'UNTRUSTED_DATA'}
 
 

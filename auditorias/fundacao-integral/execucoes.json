@@ -1,0 +1,58 @@
+[
+  {
+    "name": "piloto",
+    "command": [
+      "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+      "-B",
+      "harness/governanca_assistida/test_fluxo.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "extensao",
+    "command": [
+      "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+      "-B",
+      "harness/governanca_assistida/test_fundacao.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "documental",
+    "command": [
+      "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+      "-B",
+      "harness/verificar_fundacao.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "catalogo-pgc",
+    "command": [
+      "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+      "-B",
+      "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "auditor-pgc",
+    "command": [
+      "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+      "-B",
+      "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "--check"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "regressoes-pgc",
+    "command": [
+      "C:\\Users\\Carvalhos\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+      "-B",
+      "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/testar_revisao.py"
+    ],
+    "exit_code": 0
+  }
+]

@@ -4,7 +4,7 @@ Fundação em branch de proposta `proposta/fundacao-integral-pm-fund-001-003`, d
 ## Produto e fase
 Queremos uma Plataforma/IDE corporativa que coordene conhecimento, discovery, repositórios, engenharia, agentes, testes e operação supervisionada. [Visão](docs/fundacao/visao-produto.md), [capacidades](docs/fundacao/capacidades.md) e [construção externa/internalização](docs/fundacao/construcao-internalizacao.md) descrevem intenção e maturidade; frontend/backend/IDE final NÃO IMPLEMENTADOS nesta missão. Escolhas de tecnologia, requisitos detalhados, UX e métricas aguardam discovery e aprovação de produto.
 
-Fase 00: documentação e harness inicial preparados para revisão e auditoria. Fase 01: [primeira sessão de discovery pronta](docs/01-discovery/INICIO-DISCOVERY.md); pode começar como exploração C0/C1 sem ratificação normativa. Fases 02–09: [mapa e gates](docs/fundacao/metodologia-fases.md), sem execução antecipada.
+Fase 00: documentação e harness inicial implementados em proposta e auditados independentemente; correções revalidadas. Fase 01: [primeira sessão de discovery pronta](docs/01-discovery/INICIO-DISCOVERY.md); pode começar como exploração C0/C1 sem ratificação normativa. Fases 02–09: [mapa e gates](docs/fundacao/metodologia-fases.md), sem execução antecipada.
 
 ## Conhecimento e continuidade
 [Ecossistema atual](docs/fundacao/ecossistema-atual.md) contém relatos do banco, não verificação interna ou requisitos da IDE. [Registro](docs/fundacao/registro-conhecimento.md) distingue decisões de intenção, hipóteses e pendências. Fontes SRC-001/002/003 e limitação do histórico constam do [inventário](auditorias/fundacao-integral/INVENTARIO.md). A conversa recuperada tem cinco turnos, um truncado; não foi possível recuperar toda a transcrição original.
@@ -23,6 +23,8 @@ PGC-001 v1.1.3 e CT-001..CT-008 v1.0.3 continuam PROPOSTOS/NÃO RATIFICADOS. v1.
 
 ## Verificação e riscos
 A [matriz](auditorias/fundacao-integral/MATRIZ-COBERTURA.md) e o [relatório final](auditorias/fundacao-integral/RELATORIO-FINAL.md) distinguem documentação, implementação local e evidência executada. Relatórios anteriores são históricos, não prova transferível. Os 49 CA operacionais PGC permanecem NOT_RUN. Recuperação por outro processo é ensaio técnico; nova conversa real de usuário é distinta.
+
+Executados: 14 testes do piloto, 16 da extensão, 16 adversariais independentes e 10 regressões documentais; todos passaram após as correções. Auditor PGC 76/76, fundação 214/214 e dez verificações do empacotador passaram. Publicação revisável está no PR #5, dependente do #4; o recibo separado confere a revisão final e os hashes, sem tratar existência em branch como presença em main.
 
 GET proteção main retornou 403; branch lista protected=false; rulesets retornam 403 de disponibilidade de plano. Não foi alterada qualquer configuração administrativa. Usar só dados sintéticos; sem credenciais ou material interno.
 

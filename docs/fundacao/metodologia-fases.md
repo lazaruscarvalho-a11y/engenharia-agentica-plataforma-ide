@@ -33,6 +33,23 @@ M-07 é transversal. Não significa esperar seis etapas para pensar em agentes. 
 
 As fases são uma estrutura de raciocínio, não dez pastas vazias nem autorização de implementação antecipada. Materializar um documento quando houver conteúdo e necessidade de manutenção. O diretório histórico `docs/06-execucao` conserva seu nome e proveniência; ele não redefine a fase 06 deste mapa.
 
+## Entradas, saídas e retorno por fase
+
+| Fase | Entrada mínima | Saída verificável | Retorno quando o gate falhar |
+|---|---|---|---|
+| 00 | Dossiê e fontes acessíveis, autorização de escopo, snapshot real do repositório | Fundação reconciliada, evidências e limites; configuração comprovada ou pendência honesta | Permanecer em 00 para corrigir cobertura/persistência; discovery exploratório independente pode avançar |
+| 01 | Fundação, relatos, intenções e pendências com proveniência | Problemas, perfis, jornadas, hipóteses e prioridades propostas | Retomar investigação em 01; se faltar fonte ou contexto, reconciliar também em 00 |
+| 02 | Problemas e oportunidades refinados em 01 | Requisitos de negócio com objetivos, regras e critérios delimitados | Voltar a 01 se problema/valor for incerto; revisar 02 se houver contradição de escopo |
+| 03 | Requisitos de negócio e jornadas, perfis e restrições conhecidos | Requisitos funcionais/UX, fluxos, telas e estados testáveis | Voltar a 02 para conflitos de regra; a 01 para necessidade desconhecida; revisar 03 para falha de usabilidade |
+| 04 | Requisitos funcionais, riscos e restrições de ambiente | RNFs mensuráveis com orçamento e método de medição | Retomar 02/03 se metas conflitam com escopo; revisar 04 se medição ou limite for inviável |
+| 05 | Requisitos revisados e RNFs; contratos disponíveis ou lacunas identificadas | Arquitetura/contratos e decisões técnicas justificadas | Voltar a 03/04 se requisito inviável; revisar 05 e realizar prova isolada se risco técnico persistir |
+| 06 | Requisitos, riscos, arquitetura e contratos versionados | Estratégia, dados, oráculos, ambientes e matriz de testes | Voltar a 02–05 quando não houver oráculo/contrato; revisar 06 se houver lacuna de cobertura |
+| 07 | Arquitetura, estratégia de testes e requisitos revisados | Plano de entregas e prompts especializados com dependências, arquivos e critérios | Voltar a 05/06 se não for possível decompor/testar; a 02–04 se escopo ainda for ambíguo |
+| 08 | Plano autorizado ligado a revisões exatas, ambiente e permissões reais | Plataforma externa executável, testes, auditoria, documentação e pacote | Corrigir implementação em 08; replanejar em 07 ou reabrir 02–06 diante de mudança material |
+| 09 | Pacote externo verificado, contratos internos e profissionais autorizados | Evidências de internalização/homologação e operação autorizada | Voltar a 05/08 para incompatibilidade técnica; 04 para restrição interna; manter produção bloqueada até controles reais |
+
+Cada retorno abre revisão rastreável nos documentos afetados e preserva decisões anteriores; não apaga histórico nem autoriza automaticamente a nova versão.
+
 ## Gates e decisões
 
 Antes de construir uma funcionalidade da IDE, ligar necessidade → decisão/requisito aprovado → critérios de aceite → plano → tarefa → implementação → testes → evidência. Ausência de aprovação material mantém o item como proposta; não bloquear investigação ou preparação reversível autorizadas.

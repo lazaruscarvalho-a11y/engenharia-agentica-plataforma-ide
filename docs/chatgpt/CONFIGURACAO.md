@@ -8,6 +8,8 @@ O inventário de Projetos acessível pelo aplicativo retornou apenas um projeto 
 
 Portanto: Instruções PREPARADAS, Fontes PREPARADAS, upload NÃO EXECUTADO, releitura no Projeto NÃO EXECUTADA. Nenhum recibo de configuração foi preenchido como sucesso.
 
+O pacote de entrega contém três Fontes consolidadas, Instruções separadas e manifesto com hashes por arquivo e commit. Sua geração exige `harness/empacotar_chatgpt.py --commit SHA --snapshot-remoto MANIFESTO --saida PASTA_NOVA`. A coordenação obtém o manifesto por consulta remota ao commit imutável; a ferramenta offline compara todos os bytes ao manifesto e usa exclusivamente os bytes conferidos. Ela não autentica a origem do manifesto nem concede autoridade. Faltas ou divergências impedem a geração; os oito contratos são obrigatórios.
+
 ## Passos mínimos quando houver acesso autenticado
 
 1. Abrir ou criar o Projeto destinado à Plataforma/IDE no ChatGPT; sugestão de nome: “Plataforma/IDE de Engenharia Agêntica”. Confirmar o destino antes de adicionar arquivos. Não precisa iniciar novas missões de implementação.

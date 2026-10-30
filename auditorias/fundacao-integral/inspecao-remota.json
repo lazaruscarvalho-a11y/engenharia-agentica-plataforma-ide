@@ -1,0 +1,147 @@
+{
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "observed_date": "2026-10-30",
+  "main": {
+    "sha": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+    "url": "https://api.github.com/repos/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/git/trees/ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+    "tree": [
+      {
+        "path": ".gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      }
+    ],
+    "truncated": false
+  },
+  "history": [
+    {
+      "sha": "f2189bf9481a48fb6281844326d35501952ebd0e",
+      "parents": [
+        "a99a916803cb273b03ca5d1d8fa042fe95cdff78"
+      ],
+      "message": "GOV-OP-0001-RECIBO: verify exploratory record and publish recovery entry; no policy activation"
+    },
+    {
+      "sha": "a99a916803cb273b03ca5d1d8fa042fe95cdff78",
+      "parents": [
+        "996af047cf8bfd83be69da9cebaac6a723e0a912"
+      ],
+      "message": "GOV-OP-0001: register accepted synthetic GOV-REG-0001 R1; no normative effect"
+    },
+    {
+      "sha": "996af047cf8bfd83be69da9cebaac6a723e0a912",
+      "parents": [
+        "16311452d93293e1edcbd9eddf258cc9210579c2"
+      ],
+      "message": "feat: implement assisted C1 governance pilot; PGC remains unratified"
+    },
+    {
+      "sha": "16311452d93293e1edcbd9eddf258cc9210579c2",
+      "parents": [
+        "2a93d82f61091e0fdfc9a828d9359c4cdc5d7dd3"
+      ],
+      "message": "test: differential expected-head probe; synthetic fixture only"
+    },
+    {
+      "sha": "2a93d82f61091e0fdfc9a828d9359c4cdc5d7dd3",
+      "parents": [
+        "50a37b409370bae058b6514dd2d5ba99726c416f"
+      ],
+      "message": "test: synthetic connector CAS probe; no human record acceptance"
+    },
+    {
+      "sha": "50a37b409370bae058b6514dd2d5ba99726c416f",
+      "parents": [
+        "2e7cb6019e7412dad8fb06315f624492feaf4fc1"
+      ],
+      "message": "docs: propose first assisted governance increment for human review"
+    },
+    {
+      "sha": "2e7cb6019e7412dad8fb06315f624492feaf4fc1",
+      "parents": [
+        "4f0450ac996505639d2d34ff79519e00dd8d1aa8"
+      ],
+      "message": "docs: prepare unratified PGC-001 v1.1.3 technical revision (EM-007..009)"
+    },
+    {
+      "sha": "4f0450ac996505639d2d34ff79519e00dd8d1aa8",
+      "parents": [
+        "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd"
+      ],
+      "message": "docs: import PGC-001 v1.1.2 candidate intact for review; not ratified or activated"
+    },
+    {
+      "sha": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+      "parents": [],
+      "message": "chore: initialize empty base for reviewable proposals; no policy activation"
+    }
+  ],
+  "branches": [
+    {
+      "name": "main",
+      "commit": {
+        "sha": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+        "url": "https://api.github.com/repos/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/commits/ba820cbb7b92bd570e4848c4ca7eff48c44f04cd"
+      },
+      "protected": false
+    },
+    {
+      "name": "piloto/governanca-assistida",
+      "commit": {
+        "sha": "f2189bf9481a48fb6281844326d35501952ebd0e",
+        "url": "https://api.github.com/repos/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/commits/f2189bf9481a48fb6281844326d35501952ebd0e"
+      },
+      "protected": false
+    },
+    {
+      "name": "proposta/importacao-pgc-001-v1.1.2",
+      "commit": {
+        "sha": "4f0450ac996505639d2d34ff79519e00dd8d1aa8",
+        "url": "https://api.github.com/repos/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/commits/4f0450ac996505639d2d34ff79519e00dd8d1aa8"
+      },
+      "protected": false
+    },
+    {
+      "name": "proposta/incremento-governanca-assistida-001",
+      "commit": {
+        "sha": "50a37b409370bae058b6514dd2d5ba99726c416f",
+        "url": "https://api.github.com/repos/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/commits/50a37b409370bae058b6514dd2d5ba99726c416f"
+      },
+      "protected": false
+    },
+    {
+      "name": "proposta/revisao-pgc-001-v1.1.3",
+      "commit": {
+        "sha": "2e7cb6019e7412dad8fb06315f624492feaf4fc1",
+        "url": "https://api.github.com/repos/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/commits/2e7cb6019e7412dad8fb06315f624492feaf4fc1"
+      },
+      "protected": false
+    }
+  ],
+  "permissions": {
+    "admin": true,
+    "maintain": true,
+    "push": true,
+    "triage": true,
+    "pull": true
+  },
+  "main_protection": "GET retornou 403 Resource not accessible by integration",
+  "rulesets": "GET retornou 403 Upgrade to GitHub Pro or make this repository public",
+  "read_thread": {
+    "threadId": "6add5e12-021c-83e8-9d16-2a4917ea9700",
+    "turnLimit": 10,
+    "returned_turns": 5,
+    "hasMore": false,
+    "nextCursor": null,
+    "maxOutputCharsPerItem": 20000,
+    "truncated_message": "ecf720a8-dc21-4bdf-82e5-9bb590be4f7d"
+  },
+  "chatgpt_configuration": {
+    "status": "NAO_CONFIGURADO",
+    "tool": "list_projects + browser AX",
+    "result": "Sem ferramenta Instruções/Fontes; projeto alvo ausente na listagem; navegador em chatgpt.com mostra Entrar/Cadastre-se; nenhuma mutação de Projeto."
+  }
+}
