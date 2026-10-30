@@ -1,0 +1,31 @@
+{
+  "source_commit": "b010b9a25ac23eb157c4b63ac25dfb5b2f64bda6",
+  "scope": "NEGATIVE_PACKAGE_TESTS_IN_DISPOSABLE_COPY",
+  "results": [
+    {
+      "name": "continuidade-ausente",
+      "returncode": 2,
+      "no_output_created": true,
+      "pass": true
+    },
+    {
+      "name": "contrato-ausente",
+      "returncode": 2,
+      "no_output_created": true,
+      "pass": true
+    },
+    {
+      "name": "bytes-alterados",
+      "returncode": 2,
+      "no_output_created": true,
+      "pass": true
+    },
+    {
+      "name": "sha-divergente",
+      "returncode": 2,
+      "no_output_created": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

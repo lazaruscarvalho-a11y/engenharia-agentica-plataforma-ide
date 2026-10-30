@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "scope": "INDEPENDENT_LOCAL_CODEX_CHAT_READONLY_GITHUB",
+  "thread_id": "01a18e96-7c35-71c0-a1f6-93e7395c02b0",
+  "tested_commit": "885b859b439e7fdbb7c4a88b969491916a9afd88",
+  "published_record_commit": "f6606efc33c79230b2cc93d48fc340ce96194e78",
+  "current_source_commit": "b010b9a25ac23eb157c4b63ac25dfb5b2f64bda6",
+  "checks": {
+    "id": true,
+    "revision": true,
+    "original_source": true,
+    "all_four_hashes": true,
+    "no_other_chat_read_in_trace": true,
+    "no_remote_mutation_in_trace": true
+  },
+  "source_record_sha256": "fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36",
+  "delta_limit": "Registro idêntico em b010; correção de namespace da proveniência e empacotamento foi auditada separadamente; teste cego não é configuração nativa nem conformidade PGC.",
+  "tools": [
+    {
+      "tool": "github.fetch_file",
+      "path": "RETOMADA.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/continuidade/MANIFESTO.json",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "ESTADO-ATUAL.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/fundacao/visao-produto.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/continuidade/CONT-REG-0001.json",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/fundacao/capacidades.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/fundacao/metodologia-fases.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/chatgpt/PRIMEIRA-SESSAO.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch",
+      "url": "https://api.github.com/repos/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/git/trees/885b859b439e7fdbb7c4a88b969491916a9afd88?recursive=1"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/continuidade/OPERACAO.md",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "github.fetch_file",
+      "path": "docs/continuidade/RECIBO-PUBLICACAO.json",
+      "ref": "885b859b439e7fdbb7c4a88b969491916a9afd88"
+    },
+    {
+      "tool": "js"
+    }
+  ],
+  "response": "Teste de retomada **concluído com recuperação documental e integridade confirmadas**, somente leitura. Não consultei outras conversas nem executei publicação, edição, merge, ratificação ou decisão de produto.\n\nTodas as leituras usaram a revisão imutável `885b859b439e7fdbb7c4a88b969491916a9afd88` do repositório `lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide`, associada documentalmente à branch `proposta/fundacao-integral-pm-fund-001-003`. Não consultei o HEAD móvel.\n\n**Continuidade recuperada**\n\nO percurso começou em [RETOMADA.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/885b859b439e7fdbb7c4a88b969491916a9afd88/RETOMADA.md), seguindo para estado, manifesto, registro e recibo.\n\n- **Identidade:** `CONT-REG-0001`, revisão `1`, natureza `PEDIDO_OPERACIONAL`, fonte `USER_DIRECT`.\n- **Conteúdo preservado:** corrigir achados P1/P2 com autonomia, sem merge ou ratificação, e comprovar continuidade entre sessões para permitir avanço do discovery.\n- **Fonte original registrada:** chat `01a18e89-a666-7230-8614-bbfc50c173af`; turno `01a18e92-5879-7340-9ed7-2ef3e85637f7`; mensagem `01a18e92-58d1-72a2-8e7f-835e60d2c210`. Recuperei essa referência pelo arquivo; **não abri o chat original**.\n- **Escopo histórico:** correções de fundação/evidências, teste de recuperação e discovery exploratório. Efeito normativo `AUSENTE`; aprovação de produto `NAO_CONCEDIDA`.\n- **Proibições:** merge, ratificação, ativação normativa e aprovação de produto em nome do usuário. Esse registro histórico não amplia a autorização deste teste.\n- **Pendências:** configuração nativa sem interface autenticada, conformidade operacional integral do PGC e transcrição inicial integral ainda não recuperada.\n\nEsses dados constam do [registro](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/885b859b439e7fdbb7c4a88b969491916a9afd88/docs/continuidade/CONT-REG-0001.json).\n\n**Conferência de integridade**\n\nCalculei SHA-256 sobre o conteúdo UTF-8 recuperado, sem normalizar quebras de linha. Os quatro tamanhos e hashes coincidem com o manifesto e o recibo. Também recalculei a identidade Git de cada blob: quatro coincidências.\n\n| Arquivo | Bytes | SHA-256 calculado |\n|---|---:|---|\n| `RETOMADA.md` | 2429 | `ea15db4c98254e01496083a016b9a62b4cbf21cfcc0ee9f13d845216569c684f` |\n| `docs/continuidade/CONT-REG-0001.json` | 1189 | `fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36` |\n| `docs/fundacao/PROVENIENCIA-RECUPERADA.md` | 4021 | `ef04efb8a5c096205f84cdf34547f54a7bf2dc749a94fcc2608d36a219247629` |\n| `docs/chatgpt/INSTRUCOES-PERMANENTES.md` | 3920 | `86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d` |\n\nO [recibo](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/885b859b439e7fdbb7c4a88b969491916a9afd88/docs/continuidade/RECIBO-PUBLICACAO.json) identifica o mesmo registro/revisão, mas seu `source_commit` é `f6606efc33c79230b2cc93d48fc340ce96194e78`. Portanto, ele registra uma publicação anterior à revisão examinada. **Não houve divergência nos quatro arquivos**, mas não reproduzi suas alegações históricas `13_FILES_BYTES_EQUAL` e `LOCAL_WINDOWS_9_COMMANDS_EXIT_0`, nem consultei aquele outro commit.\n\n**Estado recuperado**\n\nA [documentação de estado](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/885b859b439e7fdbb7c4a88b969491916a9afd88/ESTADO-ATUAL.md) declara:\n\n- PGC-001 `v1.1.3` e CT-001…008 `v1.0.3` propostos/não ratificados; **49 CA operacionais `NOT_RUN`**.\n- Aceite exploratório histórico específico de `GOV-REG-0001`, sem extensão automática a outros registros. Aceite operacional completo do piloto pendente.\n- Harness local/sintético e verificações exploratórias separados da IDE final e da conformidade integral. Não executei testes do harness nesta sessão.\n\nO produto pretendido é uma Plataforma/IDE corporativa para coordenar conhecimento, discovery, repositórios, agentes, implementação, testes e supervisão. A fundação está documentada em proposta; a IDE final não está implementada. A fase 01 começou apenas com abertura e primeira pergunta, sem resposta de entrevista ou novos requisitos persistidos; fases 02–09 não foram antecipadas.\n\nO método recuperado contém sete etapas: discovery/refinamento; especificação aprofundada; revisões profundas; plano de implementação/testes; prompts especializados; prompt final de execução; contexto e paralelismo como prática transversal. Isso consta de [metodologia-fases.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/885b859b439e7fdbb7c4a88b969491916a9afd88/docs/fundacao/metodologia-fases.md).\n\n**Definições adicionais**\n\nA [proveniência recuperada](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/885b859b439e7fdbb7c4a88b969491916a9afd88/docs/fundacao/PROVENIENCIA-RECUPERADA.md) distingue explicitamente:\n\n- Harness plataforma → conta/sigla → repositório: relato/proposta; hierarquia, herança e acesso a refinar.\n- Cobertura até preparação de GMUD: intenção; sem autorização de implantação.\n- Theia AI, OpenSpec, OpenHands SDK, Serena e Temporal: alternativas em avaliação, sem stack aprovada.\n- ai-memory, context-mode, caveman e rtk: uso relatado e integração a avaliar; identificação e contratos pendentes.\n\nNão encontrei nesses artefatos aprovação das escolhas adicionais nem substituição aprovada de Devin CLI por OpenHands.\n\nA próxima ação útil é retomar a primeira pergunta: em uma demanda fictícia ou anonimizada, localizar onde houve maior espera ou retrabalho entre a conversa inicial da squad e a preparação para desenvolvimento. Depois, explorar escopo/herança do harness e preparação de GMUD, mantendo alternativas como propostas.\n\n**Ferramentas e fontes efetivamente consultadas**\n\nUsei `mcp__codex_apps__github_fetch_file` para ler 13 arquivos: `RETOMADA.md`, `ESTADO-ATUAL.md`; manifesto, registro, recibo e operação de continuidade; proveniência, visão, capacidades e metodologia da fundação; instruções permanentes, primeira sessão e roteiro de discovery. Usei `mcp__codex_apps__github_fetch` para listar a árvore da revisão e localizar o recibo. Usei `mcp__node_repl__js` com `node:crypto` exclusivamente para os cálculos em memória, sem gravar arquivos.\n\nNão acessei Fontes nativas nem o campo nativo de Instruções do Projeto ChatGPT. O arquivo `INSTRUCOES-PERMANENTES.md` lido é um artefato do repositório; sua presença não comprova configuração nativa. As referências a conversas e ao Projeto foram recuperadas documentalmente, sem verificação direta dessas superfícies."
+}

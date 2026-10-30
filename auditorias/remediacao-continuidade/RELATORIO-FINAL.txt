@@ -1,0 +1,76 @@
+REMEDIAÇÃO DOS ACHADOS — CONTINUIDADE DO DISCOVERY
+30/10/2026 — America/Sao_Paulo
+Repositório: lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide
+Branch: proposta/fundacao-integral-pm-fund-001-003
+PR: https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/pull/5
+
+PARECER
+GO para continuar o discovery assistido com consulta ao GitHub pela entrada RETOMADA.md.
+O fechamento integral da configuração nativa e da conformidade operacional PGC é uma dimensão distinta. Não se declara todos os P1/P2 encerrados fora do escopo exploratório. Nenhum merge, ratificação, ativação normativa, concessão de permissão ou requisito aprovado em nome do usuário.
+
+RESULTADO CONCRETO
+- Persistido novo registro CONT-REG-0001, revisão 1: pedido operacional real desta missão, com referência à mensagem humana e proibições explícitas. Não é o registro C1 histórico nem aprovação de produto.
+- Manifesto vincula ID, revisão e quatro arquivos a tamanhos/SHA-256.
+- Recibo remoto separado, associado à revisão imutável.
+- RETOMADA.md resolve a entrada na proposta e alerta que main não contém a fundação.
+- Verificador somente leitura rejeita arquivo alterado/ausente, fonte ausente, manifesto de outro repo, caminho fora da raiz, duplicidade, divergência de identidade e promoção indevida de aprovação.
+- Runner executa nove comandos reais e preserva os 49 CA em NOT_RUN, sem confundir sucesso exploratório com conformidade integral.
+- CI GitHub adicionada com contents:read, timeout e upload de logs inclusive em falha.
+- Rastreabilidade melhorada a partir do pedido original do Work e de cinco turnos de produto em outra conversa acessível. Fontes novas usam SRC-REC-001/002, sem colidir com SRC-004 histórico.
+- Empacotador passou a incluir entrada, registro, manifesto de continuidade e proveniência. Novo pacote possui 32 documentos de origem e sete arquivos de distribuição; não faz upload nem sincroniza Fontes automaticamente.
+
+CONTINUIDADE ENTRE SESSÕES
+1. Registro publicado em f6606efc33c79230b2cc93d48fc340ce96194e78.
+2. Recibo separado em 885b859b439e7fdbb7c4a88b969491916a9afd88.
+3. Novo chat local “Verificar retomada independente da IDE”, ID 01a18e96-7c35-71c0-a1f6-93e7395c02b0, recebeu somente repositório, branch, revisão e ponto de entrada; nenhum ID, conteúdo ou hash esperado foi fornecido como resposta.
+4. O chat consultou 13 arquivos e a árvore via GitHub, recuperou CONT-REG-0001/revisão 1, pedido, fonte humana, limites, pendências, produto/fase/método e próxima ação. Calculou os quatro SHA-256 e hashes Git, todos corretos.
+5. Li a trilha de ferramentas e conferi o resultado contra o gabarito mantido na sessão autora: nenhum read_thread de outro chat, nenhuma mutação GitHub. A prova foi persistida em PROVA-CHAT-INDEPENDENTE.json.
+6. Chat real criado no Projeto ChatGPT, ID 6ae503b7-84e4-83e8-9e46-ac57a7cb70b6, “Verificar continuidade do discovery”. Recuperou os mesmos documentos, identificadores e hashes; verificou o recibo no commit pai. A sessão declarou receber contexto histórico automaticamente: essa rodada NÃO é teste cego estrito e complementa a prova local isolada.
+7. O teste de recuperação usa snapshot 885b859b. O registro e seu hash permanecem iguais na revisão posterior b010b9a25ac23eb157c4b63ac25dfb5b2f64bda6. A alteração posterior do namespace da proveniência e o delta do empacotador foram auditados separadamente; o teste não é transferido silenciosamente para arquivos diferentes.
+A continuidade assistida por fonte versionada foi demonstrada. Não se demonstrou captura automática de toda conversa nem memória infalível.
+
+NATIVO
+A nova sessão no Projeto abriu os quatro arquivos reais fornecidos (três Fontes e manifesto), relatou leitura por Python/Path.read_bytes/hashlib e confirmou os hashes das três Fontes e 28 documentos incorporados. Snapshot efetivamente disponível: 6167e59103440add7bc4e30f9cf37b1cdbf2770f. Texto disponibilizado como Instruções: 3580 bytes, SHA-256 7d84e47b4b5df34c586725e1a78e3db7091140fea7a3bb9940f4868620c6e5a5, conforme manifesto original. Não faltam os quatro arquivos previstos. O manifesto conserva estados históricos NÃO CONFIGURADO/UPLOAD NÃO EXECUTADO; a disponibilidade atual à sessão foi demonstrada. Não houve inspeção do campo pela UI nem upload do pacote atualizado. O histórico ChatGPT não expõe chamadas brutas: esta conclusão é evidência da nova execução com referências aos arquivos, complementada pela prova local com trilha inspecionada. As Fontes nativas permanecem um snapshot antigo; o estado atual e as correções são recuperáveis pelo GitHub, como testado em ambos os chats.
+
+TESTES E REVISÃO
+- Windows/Python 3.11.9: 14 piloto + 16 extensão + 16 adversariais + 10 regressões documentais + 9 retomada = 65 testes, todos aprovados.
+- Nove comandos exploratórios retornaram zero.
+- Fundação estática: 219 checks na primeira revisão; 223 após delta de links/configuração.
+- PGC estático: 76/76. Catálogo --check aprovado.
+- Novo pacote gerado a partir da árvore GitHub real da revisão b010b9a25ac23eb157c4b63ac25dfb5b2f64bda6; todos os bytes selecionados conferidos pelo empacotador antes da geração.
+- Quatro testes negativos adicionais do pacote, em cópia descartável: registro ausente no manifesto, contrato ausente, bytes alterados e SHA divergente; todos falharam como esperado sem criar saída.
+- GitHub Actions em Linux, revisão b010: runs 41126959090 e 41126952061 concluídos com success. Job 124307846856 e log real consultados, incluindo runner, nine-command summary e CA NOT_RUN.
+- Auditor distinto revisou versão congelada e executou as suítes em cópia isolada. Encontrou colisão SRC-004, que foi corrigida para SRC-REC e rechecada; nenhum P0/P1/P2 residual no código/documentos examinados. Parecer preserva limites: não é aprovação humana, UI nativa, homologação ou conformidade integral PGC.
+- 49 casos CA continuam NOT_RUN. GATES-PGC.json individualiza contratos, requisitos, operações necessárias e próximo passo de cada caso. A CI não executa nem aprova esses 49 casos.
+- Não há nova execução da IDE final; suas capacidades permanecem documentadas.
+
+INTEGRIDADE E PRESERVAÇÃO
+Baseline: d696cda959695fcf46fd7c51a8f3bbb9e96126e2.
+Revisão de implementação e documentação auditada: b010b9a25ac23eb157c4b63ac25dfb5b2f64bda6.
+Foram preservados 113 dos 120 blobs herdados sem mudança. As sete mudanças herdadas são README, AGENTS, ESTADO-ATUAL, CONFIGURACAO, INSTRUCOES-PERMANENTES, MANIFESTO-FONTES e empacotar_chatgpt.py. Nenhuma remoção. Pacotes PGC, ZIPs, contratos e aceites históricos preservados.
+Na revisão b010, 29 arquivos de texto novos/alterados foram reobtidos com igualdade de conteúdo. Os outros nove logs são arquivos vazios: a API de conteúdo não retorna corpo utilizável; a árvore remota confirmou tamanho zero e hash Git canônico vazio. Não foram ocultadas divergências como se houvesse bytes diferentes.
+main permanece ba820cbb7b92bd570e4848c4ca7eff48c44f04cd. Escritas na branch foram condicionadas ao HEAD esperado; não houve substituição de trabalho concorrente.
+
+DISPOSIÇÃO DOS ACHADOS
+A-01/P1 — configuração/leitura nativa: RESOLVIDO quanto à disponibilidade e consistência funcional do snapshot original no contexto de nova sessão; inspeção da UI e atualização do pacote nativo permanecem não executadas. Recuperação GitHub comprovada em chat local e no Projeto. A inspeção da interface nativa não é substituída por leitura do arquivo INSTRUCOES-PERMANENTES no repo.
+A-02/P1 — continuidade: RESOLVIDO no escopo assistido testado, com novo registro remoto e recuperação em chats distintos. Não significa monitoramento/captura automática de contribuições futuras.
+A-03/P1 — conformidade PGC: NÃO ENCERRADO para operação normativa. Gate permanece bloqueado, 49 NOT_RUN e runtime completo ainda não implementado; piloto/CI não substituem identidade, política, impacto e oráculos semânticos dos contratos. MITIGADO para discovery pela separação explícita de escopos. Não é necessário construir toda a governança normativa para entrevistar/refinar o produto.
+A-04/P2 — main vazia: MITIGADO sem merge, por entrada RETOMADA/branch/commit e teste de recuperação. A ausência em main é preservada deliberadamente.
+A-05/P2 — proveniência: MELHORADA E PARCIAL. Pedido original Work localizado, falas adicionais sanitizadas e classificadas; transcrição inicial integral continua indisponível no mecanismo de histórico. Não declarar completude histórica.
+A-06/P2 — reprodutibilidade: RESOLVIDO para as suítes/checks exploratórios em Windows e CI Linux, com logs, artefatos e auditor independente. Reviews humanas formais da cadeia e configuração administrativa continuam dimensões não aprovadas/alteradas.
+
+FONTES RECUPERADAS
+SRC-REC-001: chat Codex 01a18e62-614f-7ae1-9501-ec880685d164, mensagem 01a18e64-dcb7-7670-83bc-439d2f6f0503. É o dossiê original do Work, detalhando SRC-001; não é validação institucional.
+SRC-REC-002: chat “Plataforma AI Nativa”, 6ae4ed58-4fe8-83e8-8081-99a9e1d782c8, mensagens 52c8ef5e-bf22-4513-8697-c030cf941889, 6a8d3a6c-d019-4e30-a6a6-7fe7f2757066, eee66623-067b-47cb-ad1a-12e25d5d0aa7, 49adb2e0-c927-4c9d-9fdf-485275c70bc2 e 22256cc8-f9d8-4f7e-aa5a-5213614e5b2e.
+As intenções adicionais são harness por plataforma/conta/repo, preparação de GMUD e avaliação de ferramentas. Não há stack aprovada; OpenHands não foi declarado substituto aprovado de Devin CLI.
+Documentação oficial usada para orientar a distinção entre Projeto, Instruções e Fontes: https://learn.chatgpt.com/docs/projects . Não foi usada como prova de configuração da conta.
+
+PRÓXIMO PASSO DO USUÁRIO
+Pode continuar a entrevista em “Iniciar discovery da IDE”, discutindo o ponto de maior espera/retrabalho em uma demanda fictícia/anonimizada. A rota GitHub já está publicada e testada na branch existente; não é necessário coordenar correções técnicas, fazer merge ou ratificar para avançar.
+Apenas escolhas materiais de produto e acessos não disponíveis permanecem dependentes do responsável. Conhecimento novo deve ser registrado com fonte/revisão e confirmado por releitura, sem reutilizar o aceite exclusivo GOV-REG-0001.
+
+PACOTE
+pacote-chatgpt-continuidade.zip
+Fonte: b010b9a25ac23eb157c4b63ac25dfb5b2f64bda6
+SHA-256: e3074cf382e96ba8c56266d85dce4821a2246bff87a4f22a598bc4b4aa193229
+O pacote pode ser usado para atualização futura de Fontes; sua existência não é upload.

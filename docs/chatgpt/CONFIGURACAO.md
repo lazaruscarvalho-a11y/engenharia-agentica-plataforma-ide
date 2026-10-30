@@ -1,5 +1,9 @@
 # Inicialização do Projeto no ChatGPT
 
+## Rechecagem pelo contexto de nova sessão
+
+O chat “Verificar continuidade do discovery”, 6ae503b7-84e4-83e8-9e46-ac57a7cb70b6, abriu as quatro cópias reais fornecidas ao Projeto e confirmou as três Fontes e 28 documentos do snapshot 6167e591. O texto disponibilizado como Instruções corresponde aos 3580 bytes/SHA-256 do pacote original. Isso confirma o contexto efetivo da sessão, não inspeção da UI. O novo pacote de continuidade ainda não foi carregado; usar o GitHub para o estado atual. A resposta e ressalvas estão em auditorias/remediacao-continuidade/PROVA-FONTES-NATIVAS.json.
+
 ## Estado observado após a auditoria
 
 Projeto “Plataforma/IDE — Engenharia Agêntica.” identificado em list_projects, ID `g-p-6ae4fdf0eb688191bb6536420421ef69`. A conversa “Iniciar discovery da IDE” pertence a ele. Sua resposta relata Fontes acessíveis, mas os bytes carregados e o campo Instruções não foram inspecionados diretamente. A nova tentativa de navegador redireciona para login. Portanto, o estado atual verificável é **CONFIGURAÇÃO NATIVA NÃO VERIFICADA**, e não a inferência de que o Projeto inexiste ou necessariamente continua vazio.

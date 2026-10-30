@@ -1,6 +1,12 @@
 # Estado integral — 30/10/2026
 Fundação em branch de proposta `proposta/fundacao-integral-pm-fund-001-003`, derivada de `piloto/governanca-assistida` em f2189bf9481a48fb6281844326d35501952ebd0e. main observado: ba820cbb7b92bd570e4848c4ca7eff48c44f04cd, só .gitkeep. Nenhum merge autorizado.
 
+## Verificação de continuidade concluída
+
+O novo registro CONT-REG-0001/revisão 1 foi recuperado em um chat local novo sem histórico e em um novo chat no Projeto ChatGPT. Os quatro hashes conferiram. A sessão do Projeto também leu suas três Fontes reais e o manifesto: são do snapshot 6167e591, com 28 documentos; o texto disponibilizado como Instruções coincide com o pacote original. Não houve inspeção do campo pela UI ou upload do pacote atualizado. As correções novas são recuperadas pelo GitHub, sem presumir sync.
+
+A remediação tem 65 testes aprovados, 223 checks da fundação no delta final e CI real Linux aprovada. Evidências, limites e disposição dos achados estão em auditorias/remediacao-continuidade/RELATORIO-FINAL.txt. Os 49 CA continuam NOT_RUN; conformidade normativa integral não foi liberada.
+
 ## Retomada atual
 
 Consulte [RETOMADA.md](RETOMADA.md) e [MANIFESTO de continuidade](docs/continuidade/MANIFESTO.json). O registro CONT-REG-0001 preserva o pedido de remediação com fonte e revisão; não aprova requisitos de produto. A sessão real “Iniciar discovery da IDE” foi lida: um turno de abertura e primeira pergunta, sem resposta de entrevista; discovery iniciado e ainda sem requisitos novos persistidos.
