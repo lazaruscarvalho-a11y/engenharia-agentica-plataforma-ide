@@ -1,21 +1,31 @@
-# Estado atual
+# Estado integral — 30/10/2026
+Fundação em branch de proposta `proposta/fundacao-integral-pm-fund-001-003`, derivada de `piloto/governanca-assistida` em f2189bf9481a48fb6281844326d35501952ebd0e. main observado: ba820cbb7b92bd570e4848c4ca7eff48c44f04cd, só .gitkeep. Nenhum merge autorizado.
 
-**29/10/2026 — PROPOSTO / NÃO RATIFICADO / NÃO IMPLEMENTADO / NÃO TESTADO OPERACIONALMENTE.**
+## Produto e fase
+Queremos uma Plataforma/IDE corporativa que coordene conhecimento, discovery, repositórios, engenharia, agentes, testes e operação supervisionada. [Visão](docs/fundacao/visao-produto.md), [capacidades](docs/fundacao/capacidades.md) e [construção externa/internalização](docs/fundacao/construcao-internalizacao.md) descrevem intenção e maturidade; frontend/backend/IDE final NÃO IMPLEMENTADOS nesta missão. Escolhas de tecnologia, requisitos detalhados, UX e métricas aguardam discovery e aprovação de produto.
 
-## Revisão em análise
+Fase 00: documentação e harness inicial preparados para revisão e auditoria. Fase 01: [primeira sessão de discovery pronta](docs/01-discovery/INICIO-DISCOVERY.md); pode começar como exploração C0/C1 sem ratificação normativa. Fases 02–09: [mapa e gates](docs/fundacao/metodologia-fases.md), sem execução antecipada.
 
-O usuário autorizou a revisão técnica dos três pontos da auditoria da v1.1.2. Foi preparada a [PGC-001 v1.1.3 candidata](docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md), com oito contratos v1.0.3. A [v1.1.2 original](docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md) e seu ZIP permanecem íntegros.
+## Conhecimento e continuidade
+[Ecossistema atual](docs/fundacao/ecossistema-atual.md) contém relatos do banco, não verificação interna ou requisitos da IDE. [Registro](docs/fundacao/registro-conhecimento.md) distingue decisões de intenção, hipóteses e pendências. Fontes SRC-001/002/003 e limitação do histórico constam do [inventário](auditorias/fundacao-integral/INVENTARIO.md). A conversa recuperada tem cinco turnos, um truncado; não foi possível recuperar toda a transcrição original.
 
-EM-007 alinha 99 vínculos norma/caso nas duas direções, sem retirar associações; EM-008 padroniza issued_at para emissão da aprovação; EM-009 torna geração e conferência de bytes explícitas. As [justificativas](docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md) explicam vínculos de cobertura parcial. Não houve renumeração ou enfraquecimento dos oráculos CA.
+[Protocolo de sessões](docs/fundacao/protocolo-sessoes.md) e [roteamento](docs/fundacao/roteamento-contexto.md) orientam recuperação por documentos e revisão exata. Só alegar persistência com recibo e releitura do destino. Não há captura contínua de todas as conversas nem sincronização automática das Fontes.
 
-## Evidências e publicação
+## ChatGPT
+[Instruções permanentes](docs/chatgpt/INSTRUCOES-PERMANENTES.md) prontas; manifesto e procedimento estão em docs/chatgpt. **Projeto NÃO CONFIGURADO nesta missão:** conector não expõe edição de Instruções/Fontes; navegador acessível mostra login e não possui sessão autenticada. O projeto retornado por list_projects é de outro assunto. Nenhum projeto foi criado, alterado ou recebido fontes.
 
-76/76 checks estáticos e 10/10 regressões documentais aprovados, com evidências na [auditoria da revisão](auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md). Os 49 cenários operacionais seguem NOT_RUN; nenhum harness foi implementado. Execução nativa das regressões: Windows; não foi executada segunda plataforma.
+## Governança e harness
+PGC-001 v1.1.3 e CT-001..CT-008 v1.0.3 continuam PROPOSTOS/NÃO RATIFICADOS. v1.1.2, ZIPs e recibos históricos preservados. PRs #1–#4 permanecem encadeados; esta proposta depende de #4. Aprovação de PR não é ratificação. Nenhum manifesto de ativação ou aceite humano foi preenchido.
 
-A branch proposta é `proposta/revisao-pgc-001-v1.1.3`, derivada do commit `4f0450ac996505639d2d34ff79519e00dd8d1aa8` da importação v1.1.2. O PR desta revisão usa a branch de importação como base para apresentar apenas as correções. O recibo separado identificará commit, PR e conferência remota; este resumo não antecipa nem comprova publicação.
+[Piloto C1 original](harness/governanca_assistida/OPERACAO.md): preparação, verificação, diário, Gateway assistido e recibos. GOV-REG-0001 tem aceite exploratório histórico específico, preservado; não aceita outras revisões ou este incremento. Aceite operacional completo do piloto permanece pendente.
 
-Na inspeção, main estava no commit mínimo `ba820cbb7b92bd570e4848c4ca7eff48c44f04cd`, contendo só .gitkeep vazio. Nenhum merge é autorizado nesta etapa. O PR #1 da importação permanece separado; a revisão não o ratifica.
+[Extensão da fundação](harness/governanca_assistida/OPERACAO-FUNDACAO.md): captura C0 e adaptador SQLite LOCAL/SINTÉTICO para ensaiar o contrato C1 existente. Não é conector remoto novo nem autenticação humana. Não habilita C2/C3, produção ou publicação normativa. Fonte documental nunca concede permissão.
 
-## Pendências
+## Verificação e riscos
+A [matriz](auditorias/fundacao-integral/MATRIZ-COBERTURA.md) e o [relatório final](auditorias/fundacao-integral/RELATORIO-FINAL.md) distinguem documentação, implementação local e evidência executada. Relatórios anteriores são históricos, não prova transferível. Os 49 CA operacionais PGC permanecem NOT_RUN. Recuperação por outro processo é ensaio técnico; nova conversa real de usuário é distinta.
 
-Revisão humana da nova candidata e de seu PR; eventual ratificação exige consentimento explícito sobre arquivos e hashes exatos, com verificação de autoridade e das demais condições aplicáveis. Esquema concreto, controles técnicos, runner, proteções, política de dados e sincronização continuam pendentes. Não há manifesto efetivo, assinatura ou registro preenchido de ratificação criado por este trabalho.
+GET proteção main retornou 403; branch lista protected=false; rulesets retornam 403 de disponibilidade de plano. Não foi alterada qualquer configuração administrativa. Usar só dados sintéticos; sem credenciais ou material interno.
+
+## Próxima ação e decisões humanas
+Pode-se iniciar agora discovery pela pergunta inicial do roteiro, nesta conversa, usando a branch proposta como snapshot e sem promover ideias a requisitos aprovados. Configurar o Projeto ChatGPT exige sessão autenticada/interface autorizada, com pacote já preparado. Revisar/mesclar a cadeia de PRs e eventual ratificação são decisões humanas separadas, sem necessidade de interromper brainstorm ou discovery. Ambiguidades de produto serão resolvidas durante o refinamento, não inventadas nesta fundação.
+

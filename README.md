@@ -1,18 +1,23 @@
 # Plataforma/IDE de Engenharia de Software Agêntica
+Fundação proposta para transformar conversas naturais em discovery, requisitos, UX, arquitetura e implementação rastreável de uma plataforma real. A implementação da IDE final ainda não começou.
 
-**PROPOSTO / NÃO RATIFICADO / NÃO IMPLEMENTADO / NÃO TESTADO OPERACIONALMENTE.**
+**30/10/2026 — branch de proposta; sem merge em main; PGC-001 v1.1.3 NÃO RATIFICADO.**
 
-Repositório privado para revisão documental do projeto. A candidata mais recente é **PGC-001 v1.1.3**, com CT-001 a CT-008 v1.0.3. Publicação em branch e aprovação de PR não ratificam nem ativam uma política.
+## Comece aqui
+- [Estado integral e próxima ação](ESTADO-ATUAL.md).
+- [Visão do produto](docs/fundacao/visao-produto.md), [contexto relatado do banco](docs/fundacao/ecossistema-atual.md) e [capacidades/maturidade](docs/fundacao/capacidades.md).
+- [Método de sete etapas e fases 00–09](docs/fundacao/metodologia-fases.md), [construção externa e internalização](docs/fundacao/construcao-internalizacao.md).
+- [Protocolo de sessões](docs/fundacao/protocolo-sessoes.md), [roteamento de contexto](docs/fundacao/roteamento-contexto.md) e [conhecimento/pendências](docs/fundacao/registro-conhecimento.md).
+- [Iniciar discovery agora](docs/01-discovery/INICIO-DISCOVERY.md); conversação natural, sem aprovar detalhes por inferência.
+- [Instruções do Projeto ChatGPT](docs/chatgpt/INSTRUCOES-PERMANENTES.md). Configuração efetiva deve ser comprovada à parte.
 
-- [Índice da candidata v1.1.3](docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md).
-- [Mudanças e justificativas da revisão técnica](docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md).
-- [Auditoria da revisão](auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md).
-- [Estado e pendências](ESTADO-ATUAL.md) e [orientações para agentes](AGENTS.md).
-- [Candidata v1.1.2 preservada](docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md) e [auditoria da sua importação](auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md), como histórico.
-- [ZIP v1.1.3](acervo/PGC-001_v1.1.3_candidata_ratificacao.zip) e [ZIP original v1.1.2](acervo/PGC-001_v1.1.2_candidata_ratificacao.zip).
+## Implementação e provas
+O [piloto C1](harness/governanca_assistida/OPERACAO.md) é reutilizado com seus controles; extensão e testes estão no mesmo diretório. Não é a Plataforma/IDE final nem publicação normativa.
+- [Inventário e estratégia](auditorias/fundacao-integral/INVENTARIO.md).
+- [Matriz requisito/evidência](auditorias/fundacao-integral/MATRIZ-COBERTURA.md).
+- [Auditoria e gates](auditorias/fundacao-integral/RELATORIO-FINAL.md).
 
-Cada ZIP é a evidência de distribuição de seu diretório, sem criar uma segunda autoridade normativa. Os índices apontam às fontes sem repetir as normas. Não há versão ratificada ou manifesto efetivo criado por este trabalho.
+## Governança preservada
+[Candidata v1.1.3 e CT-001..008](docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md), [origem v1.1.2](docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md), [proposta INC-GOV-001](docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md), [registro sintético aceito GOV-REG-0001](docs/01-discovery/governanca-assistida/INICIO.md).
+Pacotes, ZIPs, recibos e auditorias anteriores permanecem históricos. Aceite daquele registro não ratifica PGC, não aceita o incremento inteiro nem aprova a presente fundação. Os 49 CA operacionais não foram executados nesta missão.
 
-Para conferir este snapshot, execute `python auditorias/revisao-pgc-001-v1.1.3/verificar_revisao.py`: somente leitura. O inventário e o verificador antigos de importação descrevem o commit antigo; não devem ser usados para validar os índices atualizados deste snapshot.
-
-A revisão técnica foi autorizada pelo usuário e permanece candidata. Os 49 cenários do harness continuam NOT_RUN; verificações documentais não equivalem a implementação ou aprovação operacional.
