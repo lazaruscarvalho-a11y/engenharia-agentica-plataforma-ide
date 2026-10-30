@@ -1,0 +1,12 @@
+{
+  "record_id": "GOV-REG-0001",
+  "revision": 1,
+  "title": "Exemplo sintético de continuidade",
+  "user_content": "Este registro sintético serve apenas para demonstrar gravação e recuperação entre sessões. Não define funcionalidade da Plataforma/IDE.",
+  "proposed_details": [],
+  "source_ref": "exemplo-local:registro-sintetico-para-revisao",
+  "source_kind": "SYNTHETIC_INPUT",
+  "data_classification": "SINTETICO",
+  "nature": "C1",
+  "previous_revision": null
+}

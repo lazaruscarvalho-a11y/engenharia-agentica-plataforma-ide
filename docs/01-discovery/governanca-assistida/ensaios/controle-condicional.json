@@ -1,0 +1,6 @@
+{
+  "kind": "ENSAIO_TECNICO_SINTETICO_NAO_ACEITE_HUMANO",
+  "id": "CAS-REAL-001",
+  "purpose": "Verificar recusa de atualização com expected_sha obsoleto",
+  "pgc_status": "NAO_RATIFICADO"
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "SIMULACAO_COM_EXPORTACAO_NAO_CONVERSA_NOVA",
+  "record_id": "GOV-REG-0001",
+  "content_matches": true,
+  "acceptance_origin_status": "NAO_REVALIDADA_NESTA_SESSAO",
+  "native_platform": "Windows",
+  "human_decision": "FIXTURE_SIMULADA",
+  "new_real_conversation_performed": false
+}

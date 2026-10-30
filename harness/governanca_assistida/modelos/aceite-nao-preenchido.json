@@ -1,0 +1,15 @@
+{
+  "kind": "MODELO_NAO_PREENCHIDO_NAO_E_APROVACAO",
+  "review_code": "",
+  "request_digest": "",
+  "source_ref": "",
+  "actor_ref": "",
+  "issued_at": "",
+  "decision": "PENDENTE",
+  "scope": [],
+  "destination_repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "destination_branch": "piloto/governanca-assistida",
+  "original_source_checked": false,
+  "source_kind": "USER_DIRECT",
+  "revoked": false
+}

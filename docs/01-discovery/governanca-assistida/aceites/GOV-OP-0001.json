@@ -1,0 +1,30 @@
+{
+  "accepted_record_sha256": "55d5027ebfba91cc442de55f7c966352c42f4db38693424c638f94e429e833b2",
+  "authority_scope": "Aceite contextual do solicitante para este registro sintético C1; não ratificação, identidade corporativa ou aprovação normativa.",
+  "human_review": {
+    "actor_ref": "user-message:01a18b14-fa96-7a52-82b3-9e98a63f21f2",
+    "decision": "ACEITO_PARA_REGISTRO",
+    "destination_branch": "piloto/governanca-assistida",
+    "destination_repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+    "issued_at": "2026-10-30T04:32:50.000Z",
+    "original_source_checked": true,
+    "request_digest": "5b207b91d13c3804230460df7c4c141f78a6c36a2085ecb4e71a973b67632900",
+    "review_code": "GOV-OP-0001-R1-5b207b91d13c",
+    "revoked": false,
+    "scope": [
+      "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md"
+    ],
+    "source_kind": "USER_DIRECT",
+    "source_ref": "thread:01a1899d-08f6-7d61-8f1e-d21d7bf8d936;turn:01a18b14-fa1c-7d53-8ce4-3cde94f2fced;message:01a18b14-fa96-7a52-82b3-9e98a63f21f2"
+  },
+  "issued_at_basis": "startedAt do turno que contém a manifestação, conforme metadados do aplicativo; precisão de segundos",
+  "kind": "ACEITE_DE_REGISTRO_NAO_NORMATIVO",
+  "prepared_base_sha": "996af047cf8bfd83be69da9cebaac6a723e0a912",
+  "request_digest": "5b207b91d13c3804230460df7c4c141f78a6c36a2085ecb4e71a973b67632900",
+  "source_locator": {
+    "message_id": "01a18b14-fa96-7a52-82b3-9e98a63f21f2",
+    "thread_id": "01a1899d-08f6-7d61-8f1e-d21d7bf8d936",
+    "turn_id": "01a18b14-fa1c-7d53-8ce4-3cde94f2fced"
+  },
+  "source_manifestation": "Aceito registrar o arquivo GOV-REG-0001, identificado pelo código GOV-OP-0001-R1-5b207b91d13c, na branch piloto/governanca-assistida. Pode prosseguir com a gravação e a verificação, mantendo o PGC não ratificado e sem merge na principal."
+}

@@ -1,0 +1,13 @@
+{
+  "branch": "piloto/governanca-assistida",
+  "path": "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+  "pgc_status": "NAO_RATIFICADO",
+  "receipt_path": "docs/01-discovery/governanca-assistida/recibos/GOV-OP-0001.json",
+  "receipt_sha256": "b26c8105996ac116b11bd2d08babeb6bf7e2ed5d8996645f0a8a5cb9d7575876",
+  "record_commit": "a99a916803cb273b03ca5d1d8fa042fe95cdff78",
+  "record_id": "GOV-REG-0001",
+  "record_sha256": "55d5027ebfba91cc442de55f7c966352c42f4db38693424c638f94e429e833b2",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "revision": 1,
+  "schema_version": "1.0"
+}

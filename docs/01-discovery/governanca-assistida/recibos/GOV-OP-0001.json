@@ -1,0 +1,36 @@
+{
+  "acceptance_source": "thread:01a1899d-08f6-7d61-8f1e-d21d7bf8d936;turn:01a18b14-fa1c-7d53-8ce4-3cde94f2fced;message:01a18b14-fa96-7a52-82b3-9e98a63f21f2",
+  "acceptance_source_locator": {
+    "message_id": "01a18b14-fa96-7a52-82b3-9e98a63f21f2",
+    "thread_id": "01a1899d-08f6-7d61-8f1e-d21d7bf8d936",
+    "turn_id": "01a18b14-fa1c-7d53-8ce4-3cde94f2fced"
+  },
+  "branch": "piloto/governanca-assistida",
+  "content_acceptance": "ACEITO_PARA_REGISTRO_EXPLORATORIO",
+  "increment_operational_acceptance": "PENDENTE",
+  "issued_at": "2026-10-30T04:32:50.000Z",
+  "issued_at_basis": "startedAt do turno que contém a manifestação, conforme metadados do aplicativo; precisão de segundos",
+  "new_conversation_demonstration": "PENDENTE",
+  "next_action": "Retomar por INDICE.json em outra conversa; revalidar a origem antes de nova escrita.",
+  "normative_approval": false,
+  "normative_effect": "AUSENTE",
+  "operation_id": "GOV-OP-0001",
+  "path": "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+  "pending": [
+    "Demonstrar a retomada em nova conversa real sem histórico anterior.",
+    "Revisar as evidências restantes antes de declarar o incremento concluído."
+  ],
+  "pgc_status": "NAO_RATIFICADO",
+  "publication": "PUBLICADO",
+  "record_commit": "a99a916803cb273b03ca5d1d8fa042fe95cdff78",
+  "record_id": "GOV-REG-0001",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "request_digest": "5b207b91d13c3804230460df7c4c141f78a6c36a2085ecb4e71a973b67632900",
+  "review_code": "GOV-OP-0001-R1-5b207b91d13c",
+  "revision": 1,
+  "schema_version": "1.0",
+  "sha256": "55d5027ebfba91cc442de55f7c966352c42f4db38693424c638f94e429e833b2",
+  "verification": "BYTES_CONFERIDOS",
+  "verification_scope": "Bytes de registro e aceite reobtidos por commit imutável; SHA-256 e hash Git conferidos.",
+  "verified_at": "2026-10-30T04:36:05.473824+00:00"
+}
