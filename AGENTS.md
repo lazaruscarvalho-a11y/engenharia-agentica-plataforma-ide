@@ -1,4 +1,6 @@
 # Entrada para agentes
+
+Ponto operacional: [RETOMADA.md](RETOMADA.md). Consulte HEAD remoto da branch de proposta e seu manifesto de continuidade antes de usar cópias do Projeto; main não contém a fundação.
 Missão: conceber uma Plataforma/IDE corporativa de engenharia agêntica completa. Esta branch implementa sua fundação documental e um harness assistido; a IDE final depende de discovery e aprovação de requisitos.
 
 Leia [ESTADO-ATUAL.md](ESTADO-ATUAL.md), [visão](docs/fundacao/visao-produto.md) e [roteamento](docs/fundacao/roteamento-contexto.md). Selecione só fontes pertinentes à tarefa e confira branch/SHA antes de escrever. [Metodologia](docs/fundacao/metodologia-fases.md) orienta sete etapas e fases 00–09; [sessões](docs/fundacao/protocolo-sessoes.md) distingue conversa, proposta, decisão e persistência.

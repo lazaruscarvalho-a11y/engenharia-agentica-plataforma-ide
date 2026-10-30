@@ -4,6 +4,8 @@ Fundação proposta para transformar conversas naturais em discovery, requisitos
 **30/10/2026 — branch de proposta; sem merge em main; PGC-001 v1.1.3 NÃO RATIFICADO.**
 
 ## Comece aqui
+- [Retomada verificada e revisão correta](RETOMADA.md).
+- [Proveniência recuperada e intenções adicionais](docs/fundacao/PROVENIENCIA-RECUPERADA.md).
 - [Estado integral e próxima ação](ESTADO-ATUAL.md).
 - [Visão do produto](docs/fundacao/visao-produto.md), [contexto relatado do banco](docs/fundacao/ecossistema-atual.md) e [capacidades/maturidade](docs/fundacao/capacidades.md).
 - [Método de sete etapas e fases 00–09](docs/fundacao/metodologia-fases.md), [construção externa e internalização](docs/fundacao/construcao-internalizacao.md).

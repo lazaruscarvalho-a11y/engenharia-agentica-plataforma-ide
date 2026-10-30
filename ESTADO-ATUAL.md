@@ -1,6 +1,12 @@
 # Estado integral — 30/10/2026
 Fundação em branch de proposta `proposta/fundacao-integral-pm-fund-001-003`, derivada de `piloto/governanca-assistida` em f2189bf9481a48fb6281844326d35501952ebd0e. main observado: ba820cbb7b92bd570e4848c4ca7eff48c44f04cd, só .gitkeep. Nenhum merge autorizado.
 
+## Retomada atual
+
+Consulte [RETOMADA.md](RETOMADA.md) e [MANIFESTO de continuidade](docs/continuidade/MANIFESTO.json). O registro CONT-REG-0001 preserva o pedido de remediação com fonte e revisão; não aprova requisitos de produto. A sessão real “Iniciar discovery da IDE” foi lida: um turno de abertura e primeira pergunta, sem resposta de entrevista; discovery iniciado e ainda sem requisitos novos persistidos.
+
+Fontes adicionais foram recuperadas em [PROVENIENCIA-RECUPERADA](docs/fundacao/PROVENIENCIA-RECUPERADA.md): dossiê original do Work e intenções adicionais do usuário sobre harness hierárquico, preparação de GMUD e ferramentas em avaliação. Nenhuma escolha de stack é aprovada.
+
 ## Produto e fase
 Queremos uma Plataforma/IDE corporativa que coordene conhecimento, discovery, repositórios, engenharia, agentes, testes e operação supervisionada. [Visão](docs/fundacao/visao-produto.md), [capacidades](docs/fundacao/capacidades.md) e [construção externa/internalização](docs/fundacao/construcao-internalizacao.md) descrevem intenção e maturidade; frontend/backend/IDE final NÃO IMPLEMENTADOS nesta missão. Escolhas de tecnologia, requisitos detalhados, UX e métricas aguardam discovery e aprovação de produto.
 
@@ -12,7 +18,10 @@ Fase 00: documentação e harness inicial implementados em proposta e auditados 
 [Protocolo de sessões](docs/fundacao/protocolo-sessoes.md) e [roteamento](docs/fundacao/roteamento-contexto.md) orientam recuperação por documentos e revisão exata. Só alegar persistência com recibo e releitura do destino. Não há captura contínua de todas as conversas nem sincronização automática das Fontes.
 
 ## ChatGPT
-[Instruções permanentes](docs/chatgpt/INSTRUCOES-PERMANENTES.md) prontas; manifesto e procedimento estão em docs/chatgpt. **Projeto NÃO CONFIGURADO nesta missão:** conector não expõe edição de Instruções/Fontes; navegador acessível mostra login e não possui sessão autenticada. O projeto retornado por list_projects é de outro assunto. Nenhum projeto foi criado, alterado ou recebido fontes.
+
+Projeto alvo localizado: `g-p-6ae4fdf0eb688191bb6536420421ef69`, “Plataforma/IDE — Engenharia Agêntica.”. A conversa de discovery pertence a esse Projeto. Sua resposta declara leitura de três Fontes e manifesto; o histórico acessível não expõe os bytes carregados nem chamadas de ferramenta. Configuração nativa NÃO VERIFICADA DIRETAMENTE; o navegador autorizado redireciona para login.
+
+Os recibos anteriores que dizem NÃO CONFIGURADO são históricos da missão de preparação, não prova do estado posterior. Enquanto não houver inspeção nativa, use o GitHub pela rota de RETOMADA. Fontes anexadas continuam snapshots; não há atualização automática.
 
 ## Governança e harness
 PGC-001 v1.1.3 e CT-001..CT-008 v1.0.3 continuam PROPOSTOS/NÃO RATIFICADOS. v1.1.2, ZIPs e recibos históricos preservados. PRs #1–#4 permanecem encadeados; esta proposta depende de #4. Aprovação de PR não é ratificação. Nenhum manifesto de ativação ou aceite humano foi preenchido.
