@@ -1,0 +1,17 @@
+{
+  "kind": "ENSAIO_DIFERENCIAL_REAL_DO_CONECTOR_SOMENTE_FIXTURE",
+  "branch": "piloto/governanca-assistida",
+  "stale_expected_sha": "50a37b409370bae058b6514dd2d5ba99726c416f",
+  "head_preserved_on_stale": "2a93d82f61091e0fdfc9a828d9359c4cdc5d7dd3",
+  "candidate_descendant": "16311452d93293e1edcbd9eddf258cc9210579c2",
+  "stale_request_failed": true,
+  "same_candidate_with_current_expected_sha_succeeded": true,
+  "confirmed_final_head": "16311452d93293e1edcbd9eddf258cc9210579c2",
+  "limitation": "O conector retornou erro GraphQL genérico UNKNOWN para a revisão esperada antiga; o estado foi consultado antes de nova operação. O ensaio diferencial comprova o comportamento observado, não uma certificação universal do serviço.",
+  "pgc_ratified": false,
+  "real_record_accepted": false,
+  "stale_response": {
+    "error": "GithubGraphQLAPIError: [{'message': 'Something went wrong while executing your query on 2026-10-30T04:08:19Z. Please include `1029:B1F20:10B4357:1AD36BA:6AE41832` when reporting this issue.'}]",
+    "error_code": "UNKNOWN"
+  }
+}
