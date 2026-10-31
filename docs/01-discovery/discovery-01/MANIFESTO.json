@@ -1,0 +1,186 @@
+{
+  "schema_version": "discovery-01-manifest-1",
+  "revision": 1,
+  "date_local": "2026-10-30",
+  "timezone": "America/Sao_Paulo",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/discovery-01-onboarding-agent-first",
+  "base_commit": "f8d7c60955a1250ae4d94a428386787f4aaa24b0",
+  "kind": "EXPLORATORY_CONSOLIDATION",
+  "normative_effect": "AUSENTE",
+  "historical_completeness": "NAO_COMPROVADA",
+  "native_sources_updated": false,
+  "files": [
+    {
+      "path": "ESTADO-ATUAL.md",
+      "bytes": 8506,
+      "sha256": "8650ff75c88cc7aa9e2264cc1125be5a9ed1d6322cff4b914431741852c5800d",
+      "git_blob_sha": "5cbc3b6a83c302f0138075f61070b768d2779f5d"
+    },
+    {
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "bytes": 6953,
+      "sha256": "9df9fe8b03d02551f4a4af8f6531aaac62587db8ea4646b32a91c6240646cdf3",
+      "git_blob_sha": "9a2eafa32649cef1e2f1dfa119590b452b19ec48"
+    },
+    {
+      "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+      "bytes": 6773,
+      "sha256": "cc34945c80d5a8e9427264765b0247962f721f8a9d7767839bd9d88f8f71fc97",
+      "git_blob_sha": "0e372c854c2bae973555ec6f91e6fa80c066c78d"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/README.md",
+      "bytes": 2819,
+      "sha256": "8d8b1dc335f903c46be14c8e0e0bedf8b3532e6c77c655ac1a7f2ceab58688cc",
+      "git_blob_sha": "2c2a978237514dba0f438b54ad5d744eb7a967e3"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/FONTES.md",
+      "bytes": 5969,
+      "sha256": "ceb9b32e07a918f680192b9df5f5a48153575f9cb6698b0c60d37acefcc23f4a",
+      "git_blob_sha": "f4a9258bf1eb66410f8611e58b494085bbc1543b"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REGISTRO.md",
+      "bytes": 8342,
+      "sha256": "2e68a79065cba5286c698347dc7d21544194b7ce6a1e0aab783204d3ec3da70d",
+      "git_blob_sha": "08ddd6e52a4a340cafe09dd5146614855b930834"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MODELO-FUNCIONAL.md",
+      "bytes": 8559,
+      "sha256": "a461744c0fd6f1bdcc5ea3d6ec1ca0c4df50c131f217b4fc222e8d704121717b",
+      "git_blob_sha": "d74ee9bd37cb87ff8544afdb2b940caf15c07655"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MATRIZ.md",
+      "bytes": 6997,
+      "sha256": "dfae9b4e1ce7d07d618ede7079eb9886c1176bcf5ec36721133b1ac16a0ed2d4",
+      "git_blob_sha": "3e1843eb95e39fb52d6c38e71998de7d6f0c1c11"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REVISAO.md",
+      "bytes": 6130,
+      "sha256": "dd2ca547779b2bf18cd6a87f5848fe5968c9524808fecefb57fee7990c625ea0",
+      "git_blob_sha": "d2c7cac83f201b473ef4c2e4070ac6dab01fd57f"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "bytes": 5618,
+      "sha256": "d61706fe2b5bc1f859255308ea4a36571e820a58a2ea90b64e0f7af48363477e",
+      "git_blob_sha": "bace475ab818da21f8a9ad27a4c70728de4dbb82"
+    },
+    {
+      "path": "auditorias/discovery-01/REVISAO-LOCAL.json",
+      "bytes": 1866,
+      "sha256": "b61a8aea0a083325190d73f78a5654822e72fc76131ac2183c51ceccab9ad459",
+      "git_blob_sha": "28ae1ced60a98a651b8d18321684c5e896b1cfb6"
+    }
+  ],
+  "source_snapshot": {
+    "commit": "f8d7c60955a1250ae4d94a428386787f4aaa24b0",
+    "files": [
+      {
+        "path": "ESTADO-ATUAL.md",
+        "git_blob_sha": "5f632c7202aba77d25e4f912f0ba0fe86d3d1711",
+        "sha256": "d5e1c8512ed3566985c8fae4937ce2eb8e4351951c6f6c798f7e18a50da3a611"
+      },
+      {
+        "path": "RETOMADA.md",
+        "git_blob_sha": "3963b2f26b88d71c9dc4be7bd03f2647c6b806e0",
+        "sha256": "ea15db4c98254e01496083a016b9a62b4cbf21cfcc0ee9f13d845216569c684f"
+      },
+      {
+        "path": "docs/continuidade/MANIFESTO.json",
+        "git_blob_sha": "98f125e6d77d9c2cde1150a1e6e3d54ccf6fad12",
+        "sha256": "4fcb123d5fe3cce51dce9103d65c152936f60602da1d3a167cd60a75fa5a2e45"
+      },
+      {
+        "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+        "git_blob_sha": "cdccee6883d523a0650bbba7ceb3d4b0aaa1cdfb",
+        "sha256": "1e1831791bc8f0fa7897041d1edf9a26139cf4e8e11e7a725b77b472212ec397"
+      },
+      {
+        "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+        "git_blob_sha": "9d68ca327adac32034602b24f93365117f648551",
+        "sha256": "3585caafc3684c93e7cec9e424c2bf2b22a83488bcbb048bfe26ac3adada46cb"
+      },
+      {
+        "path": "docs/fundacao/visao-produto.md",
+        "git_blob_sha": "01205981adbde233450b2c32cb424eba8a08d0b8",
+        "sha256": "79c185bde0b2034bb75efe7a7da0e0251271d457f9365d1691f1b5b839760a38"
+      },
+      {
+        "path": "docs/fundacao/roteamento-contexto.md",
+        "git_blob_sha": "25a9661effa2bc0338cf45146ec23a654a79987d",
+        "sha256": "51630ea37f9f65b6b86ff445087891f8c49285f34401675f393fe0c2ea93d1af"
+      },
+      {
+        "path": "docs/fundacao/capacidades.md",
+        "git_blob_sha": "4a72fc7e6f5f716f40e6b52c8497c31d22af1d8d",
+        "sha256": "eafadbd4e10de4ab3f3f397b1c74d18230fc42e7ae5237f50ac2917f72a8f3b1"
+      },
+      {
+        "path": "docs/fundacao/protocolo-sessoes.md",
+        "git_blob_sha": "a470a04f2d89f465457f54fecf65d56bbb195967",
+        "sha256": "4e598caaca0141e0c864f4c45bcd7498b948c333600a0e9e9428d8824e693579"
+      },
+      {
+        "path": "docs/fundacao/registro-conhecimento.md",
+        "git_blob_sha": "cd978b93ee306431fad0125e0bfd88b1d201450f",
+        "sha256": "05a64f5b2912a01feaf84e3cdc55b61b7e45a5aa8355f18a11d6314f81bb6b0d"
+      },
+      {
+        "path": "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+        "git_blob_sha": "13d863c04d2670ec49b824ed74fa59cae6d0f033",
+        "sha256": "87739fa4430fe5a8b3108503b31d939b9a58b5599f9792569378057ae361c034"
+      },
+      {
+        "path": "docs/fundacao/construcao-internalizacao.md",
+        "git_blob_sha": "1700d40d2b32dffc43408f95ddb55dc2226b791c",
+        "sha256": "a9384ac36e52b49664f5afda51e84301a2c8dd239dcd13d0806dfa400dc0aef6"
+      },
+      {
+        "path": "docs/fundacao/metodologia-fases.md",
+        "git_blob_sha": "8e9254fffba42bb9271eee1744708e027f6124a3",
+        "sha256": "8d958a4ecd5feb44d03b8679224ea52d3f6e8243f5cda69dbee11942882a234a"
+      },
+      {
+        "path": "docs/fundacao/ecossistema-atual.md",
+        "git_blob_sha": "e82322d5f217e7bdeb9a510f017a578a9523818e",
+        "sha256": "ffc855b144062aa1d1d200e5f2a9aadb284f40ea3503b2956ce8f613d86cd2fe"
+      },
+      {
+        "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+        "git_blob_sha": "1dda671836dee6acb92394c6f8374a19c6cbb3be",
+        "sha256": "95f42a4e4be4b5a2f44bb313019abf5fccc7890183dad4e56f464e337b542458"
+      },
+      {
+        "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+        "git_blob_sha": "04c7c1d65cae633962b3a31e8c00239e78c9d5ca",
+        "sha256": "d41f85e689d871a2fd9ed0f02e0c53c38e422367a917afe8277e4a8c4ff057a7"
+      },
+      {
+        "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+        "git_blob_sha": "765475a7cb1df2b9555fdc12f243b0cf123c61ff",
+        "sha256": "c0dd230f58453d43011a2c8fd15e4a788ae507493274239cf586b273af15c7dd"
+      },
+      {
+        "path": "docs/continuidade/CONT-REG-0001.json",
+        "git_blob_sha": "a921d76f4fe636c89548a7dc444b4cfbd3fab680",
+        "sha256": "fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36"
+      },
+      {
+        "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+        "git_blob_sha": "f93b61cb57a58a2955c6394cc1b65b360d312694",
+        "sha256": "86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d"
+      }
+    ]
+  },
+  "exclusions": [
+    "O proprio manifesto nao inclui seu hash; o recibo posterior o verifica.",
+    "O recibo posterior nao pertence a este conjunto nem calcula hash de si mesmo.",
+    "Fontes e Instrucoes nativas nao foram atualizadas."
+  ]
+}

@@ -1,3 +1,9 @@
+# Atualização de percurso — Discovery 01 e 02
+
+30/10/2026. O roteiro abaixo é o snapshot inicial da fundação. A conversa posterior “Iniciar discovery funcional” produziu definições sobre onboarding/conhecimento; somente seus cinco turnos finais estão disponíveis nesta consolidação. Consulte o [Discovery 01](discovery-01/README.md), a [revisão e lacuna de completude](discovery-01/REVISAO.md) e a [entrada Discovery 02](discovery-02/RETOMADA.md). O texto histórico “nenhuma entrevista” abaixo não descreve a totalidade das conversas posteriores. Nenhum requisito derivado é aprovado implicitamente.
+
+## Roteiro inicial preservado
+
 # Discovery inicial da Plataforma/IDE
 
 Versão 0.1.0 — preparado para início; nenhuma entrevista de produto executada por este arquivo. Fontes SRC-001/SRC-002. Trabalhar com exemplos sintéticos e relatos autorizados; o escopo do produto continua em refinamento.

@@ -1,0 +1,64 @@
+{
+  "schema_version": "discovery-document-review-1",
+  "date_local": "2026-10-30",
+  "timezone": "America/Sao_Paulo",
+  "reviewer_kind": "SELF_REVIEW",
+  "scope": "documentary-only",
+  "base_commit": "f8d7c60955a1250ae4d94a428386787f4aaa24b0",
+  "checks": {
+    "unique_registry": true,
+    "registry_count_27": true,
+    "matrix_same_ids": true,
+    "unique_pending": true,
+    "local_links_resolve": true,
+    "references_resolve": true,
+    "utf8_lf": true,
+    "prior_manifest_unchanged_and_matches": true,
+    "historical_bodies_preserved": true,
+    "no_receipt_self_hash": true
+  },
+  "registry_count": 27,
+  "matrix_rows": 27,
+  "pending_count": 10,
+  "link_count": 73,
+  "failed_links": [],
+  "unknown_references": [],
+  "prior_manifest_checks": [
+    {
+      "path": "RETOMADA.md",
+      "sha256": "ea15db4c98254e01496083a016b9a62b4cbf21cfcc0ee9f13d845216569c684f",
+      "bytes": 2429,
+      "pass": true
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0001.json",
+      "sha256": "fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36",
+      "bytes": 1189,
+      "pass": true
+    },
+    {
+      "path": "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "sha256": "87739fa4430fe5a8b3108503b31d939b9a58b5599f9792569378057ae361c034",
+      "bytes": 4202,
+      "pass": true
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "sha256": "86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d",
+      "bytes": 3920,
+      "pass": true
+    }
+  ],
+  "not_run": [
+    "D01-V01..D01-V21",
+    "49 CA operacionais PGC",
+    "teste em nova conversa real",
+    "auditoria independente",
+    "atualizacao de Fontes nativas"
+  ],
+  "completeness": "PARTIAL_HISTORY_ONLY",
+  "limits": [
+    "Somente cinco turnos finais recuperados; fechamento integral pendente.",
+    "Nenhuma funcionalidade da IDE testada."
+  ]
+}

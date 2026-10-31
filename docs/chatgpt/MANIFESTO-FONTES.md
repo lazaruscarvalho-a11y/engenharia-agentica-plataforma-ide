@@ -1,3 +1,11 @@
+# Adendo de distribuição — Discovery 01
+
+30/10/2026. O [conjunto D01](../01-discovery/discovery-01/README.md) e a [entrada D02](../01-discovery/discovery-02/RETOMADA.md) são novas fontes versionadas em branch de proposta. Seu [manifesto](../01-discovery/discovery-01/MANIFESTO.json) e [recibo](../../auditorias/discovery-01/RECIBO-PUBLICACAO.json) identificam arquivos e revisão própria. **Não foi gerado/carregado novo pacote nativo nem atualizadas Instruções ou Fontes do Projeto nesta consolidação.** Consultar GitHub por SHA.
+
+A seleção futura sugerida inclui índice, registro, fontes, modelo, matriz, revisão e entrada D02; esses documentos não constam automaticamente dos pacotes antigos. Se houver atualização nativa autorizada, emitir recibo de distribuição separado, conferir hashes e testar releitura, sem confundir com o recibo Git. A lacuna de histórico D01 permanece visível em qualquer cópia. Este adendo não altera os manifestos/recibos históricos de continuidade ou de pacotes.
+
+## Manifesto anterior preservado
+
 # Manifesto curado das Fontes do Projeto
 
 ## Atualização de continuidade — 30/10/2026
