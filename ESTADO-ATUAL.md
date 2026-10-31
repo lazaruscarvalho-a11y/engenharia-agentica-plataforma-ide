@@ -1,3 +1,13 @@
+# Estado D01-R2 — revisão 2
+
+Reconciliação material do Discovery 01 a partir das 36 âncoras do Prompt-Master v2.0 fornecido pelo usuário. Fonte reproduzida, distinta de recuperação das mensagens originais. Ver [índice D01](docs/01-discovery/discovery-01/README.md), [registro canônico](docs/01-discovery/discovery-01/REGISTRO.md), [retificações](docs/01-discovery/discovery-01/RETIFICACOES.md) e [revisão](docs/01-discovery/discovery-01/REVISAO.md).
+
+D01-PEN-001 tem dois eixos: A, reconciliação material E01..E36, cujo fechamento depende do [recibo R2](auditorias/discovery-01-r2/RECIBO-PUBLICACAO.json) e da [auditoria](auditorias/discovery-01-r2/RELATORIO.md); B, transcrição original integral ainda não recuperada. Escolhas conceituais declaradas não são rebaixadas a relatos por falta de refinamento técnico. A topologia Micro/Meso/Macro e Submodules é preservada. Próxima frente: [D02](docs/01-discovery/discovery-02/RETOMADA.md), sem execução antecipada.
+
+Branch/PR #6 existentes; main inicial; PGC/CT NÃO RATIFICADOS; 49 CA NOT_RUN. Sem alteração administrativa/execução corporativa ou implementação da IDE. Fontes/Instruções nativas não atualizadas. Manifestos/recibos anteriores provam seus snapshots. O conteúdo abaixo é HISTÓRICO e suas pendências/classificações R1 devem ser lidas à luz da revisão 2.
+
+## Histórico preservado — R1 e fundação
+
 # Atualização D01 — 30/10/2026
 
 A consolidação do **Discovery 01 — Onboarding e conhecimento Agent-First** está em preparação/publicação exploratória na branch `proposta/discovery-01-onboarding-agent-first`, derivada do commit `f8d7c60955a1250ae4d94a428386787f4aaa24b0` do PR #5. A referência de publicação e verificação é o [recibo D01](auditorias/discovery-01/RECIBO-PUBLICACAO.json), não este texto de estado.

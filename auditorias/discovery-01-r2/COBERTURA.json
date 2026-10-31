@@ -1,0 +1,1331 @@
+{
+  "schema_version": "d01-r2-traceability-1",
+  "revision": 2,
+  "base_commit": "d9e48c3d36598d40f9d2e38caf836bccb5fac97f",
+  "canonical_file": "docs/01-discovery/discovery-01/REGISTRO.md",
+  "source_file": "auditorias/discovery-01-r2/DOSSIE-REPRODUZIDO.md",
+  "scope": "E01..E36 as reproduced in current user request; not recovered full original transcript",
+  "entries": [
+    {
+      "anchor": "E01",
+      "id": "D01-INT-001",
+      "kind": "Intenção explícita de produto",
+      "source": "D01-S05/E01",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-001",
+        "CAP-002",
+        "CAP-006",
+        "CAP-008"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-007"
+      ],
+      "criterion": "D01-R2-V01",
+      "criterionText": "Importar e utilizar conhecimento de repositórios heterogêneos sem declarar compreensão perfeita.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E01, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "um ou mais repositórios",
+        "independentemente de organização, natureza, finalidade, linguagens e tecnologias",
+        "explicações, esclarecimentos, investigação, planejamento, modificações de código e validações",
+        "sem garantia absoluta"
+      ],
+      "derived": [
+        "D01-PROP-012",
+        "D01-PROP-021"
+      ],
+      "artifactAnchor": "d01-int-001",
+      "title": "Objetivo central do onboarding",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E02",
+      "id": "D01-REL-001",
+      "kind": "Intenção explícita reproduzida; classe retificada",
+      "source": "D01-S05/E02",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-002",
+        "CAP-006"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-007"
+      ],
+      "criterion": "D01-R2-V02",
+      "criterionText": "Achados cobrem as dimensões declaradas com fonte e limites; atualização incremental mantém revisão.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E02, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "engenheiro experiente",
+        "finalidade/contexto de negócio, regras, fluxos, arquitetura e responsabilidades",
+        "linguagens/frameworks, componentes, integrações/contratos e dependências",
+        "infraestrutura/configurações, execução local e testes",
+        "particularidades, limitações e riscos",
+        "investigação inicial ampla, enriquecimento incremental, cobertura e limites"
+      ],
+      "derived": [
+        "D01-PROP-012",
+        "D01-PROP-021"
+      ],
+      "artifactAnchor": "d01-rel-001",
+      "title": "Compreensão inicial profunda e evolução contínua",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E03",
+      "id": "D01-RST-001",
+      "kind": "Restrição expressa reproduzida",
+      "source": "D01-S05/E03",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-013"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V03",
+      "criterionText": "Documentação de execução não dispara instalação/inicialização; decisão permanece com o engenheiro.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E03, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "decisão exclusiva do engenheiro",
+        "documentar e preparar análise",
+        "sem instalar dependências, subir aplicações ou inicializar por iniciativa própria",
+        "outras ações sujeitas a autorização"
+      ],
+      "derived": [],
+      "artifactAnchor": "d01-rst-001",
+      "title": "Execução local reservada ao engenheiro",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E04",
+      "id": "D01-INT-002",
+      "kind": "Intenção explícita de produto",
+      "source": "D01-S05/E04",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-003",
+        "CAP-008",
+        "CAP-020"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-006"
+      ],
+      "criterion": "D01-R2-V04",
+      "criterionText": "Estrutura candidata atende às qualidades declaradas sem apresentar árvore/schema como aprovado.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E04, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "Agent-First; AI-centric; AI-based; Specification-Driven Development; Harness Engineering; AI-intent",
+        "concreto, conciso, hierarquizado, estruturado, padronizado e otimizado",
+        "AGENTS.md, diretórios, índices, esquemas, artefatos",
+        "sem árvore/schema/armazenamento técnico definitivo"
+      ],
+      "derived": [
+        "D01-PROP-014"
+      ],
+      "artifactAnchor": "d01-int-002",
+      "title": "Paradigma Agent-First",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E05",
+      "id": "D01-INT-003",
+      "kind": "Intenção e fronteira de confiança reproduzidas",
+      "source": "D01-S05/E05",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-003",
+        "CAP-008"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-006",
+        "D01-PEN-010"
+      ],
+      "criterion": "D01-R2-V05",
+      "criterionText": "Agente recupera contexto relevante e evidência sem tratar texto de fonte como permissão.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E05, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "navegar, localizar, recuperar, compreender e utilizar",
+        "contexto mínimo suficiente",
+        "reutilização e aprofundamento dirigido",
+        "sem releitura integral desnecessária",
+        "resumo rastreável não substitui evidência; arquivo não autoriza"
+      ],
+      "derived": [
+        "D01-PROP-013",
+        "D01-PROP-014"
+      ],
+      "artifactAnchor": "d01-int-003",
+      "title": "Uso do conhecimento pelos agentes",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E06",
+      "id": "D01-REL-003",
+      "kind": "Decisão conceitual reproduzida; classe retificada",
+      "source": "D01-S05/E06",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-001",
+        "CAP-003",
+        "CAP-008"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-002"
+      ],
+      "criterion": "D01-R2-V06",
+      "criterionText": "Recuperação distingue Micro/Meso/Macro conforme correspondência escolhida sem inventar equivalência organizacional.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E06, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "Micro=repositório individual",
+        "Meso=domínio/contexto de sigla, projeto ou agrupamento de contas",
+        "Macro=workspace ou ecossistema",
+        "relação organizacional exata pendente"
+      ],
+      "derived": [
+        "D01-HIP-002"
+      ],
+      "artifactAnchor": "d01-rel-003",
+      "title": "Três camadas de conhecimento",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E07",
+      "id": "D01-DEC-005",
+      "kind": "Decisão explícita reproduzida",
+      "source": "D01-S05/E07",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-008",
+        "CAP-016",
+        "CAP-020"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-006"
+      ],
+      "criterion": "D01-R2-V07",
+      "criterionText": "Fonte canônica acompanha Git e auxiliares são identificados como derivados, com portabilidade e acesso autorizado.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E07, sem alegar recuperação da mensagem histórica original.",
+      "question": "Armazenamento interno aos repositórios, externo à Plataforma ou híbrido?",
+      "response": "Primeira alternativa, conforme reprodução de E07; literal não fornecido.",
+      "elements": [
+        "alternativa interna aos repositórios",
+        "Git canônico versionável, portátil e reutilizável",
+        "engenheiros autorizados",
+        "auxiliares permitidos sem substituir canônico"
+      ],
+      "derived": [
+        "D01-HIP-001"
+      ],
+      "artifactAnchor": "d01-dec-005",
+      "title": "Conhecimento canônico em Git",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E08",
+      "id": "D01-REL-002",
+      "kind": "Intenção/restrição reproduzida; classe retificada",
+      "source": "D01-S05/E08",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-003",
+        "CAP-019",
+        "CAP-020"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-006"
+      ],
+      "criterion": "D01-R2-V08",
+      "criterionText": "Modelo e projeções candidatas preservam semântica sem dependência obrigatória de fornecedor.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E08, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "Devin, Claude, GitHub Copilot",
+        "independência do canônico",
+        "instruções, skills, hooks e configurações",
+        "adaptações somente necessárias",
+        "formatos e contratos pendentes"
+      ],
+      "derived": [
+        "D01-HIP-001"
+      ],
+      "artifactAnchor": "d01-rel-002",
+      "title": "Agnosticidade de ferramentas",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E09",
+      "id": "D01-REL-004",
+      "kind": "Decisão de topologia reproduzida; classe retificada",
+      "source": "D01-S05/E09",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-001",
+        "CAP-008",
+        "CAP-012"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-002",
+        "D01-PEN-003"
+      ],
+      "criterion": "D01-R2-V09",
+      "criterionText": "Topologia mantém repositório Meso versionado e Micro como Submodules sem assumir políticas técnicas.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E09, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "sigla/conta com repositório próprio versionado",
+        "aplicações, bibliotecas e infraestrutura como Git Submodules",
+        "topologia escolhida",
+        "clonagem, atualização, permissões e publicação pendentes"
+      ],
+      "derived": [
+        "D01-HIP-002"
+      ],
+      "artifactAnchor": "d01-rel-004",
+      "title": "Repositório Meso com Git Submodules",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E10",
+      "id": "D01-DEC-006",
+      "kind": "Decisão de topologia reproduzida",
+      "source": "D01-S05/E10",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-001",
+        "CAP-008",
+        "CAP-012"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-002",
+        "D01-PEN-003"
+      ],
+      "criterion": "D01-R2-V10",
+      "criterionText": "Hierarquia escolhida é recuperável sem presumir sincronização ou acesso herdado.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E10, sem alegar recuperação da mensagem histórica original.",
+      "question": "O Workspace também deverá ter repositório Git incorporando os repositórios de sigla como submódulos?",
+      "response": "Sim.",
+      "elements": [
+        "workspace Git com siglas submódulos",
+        "siglas com repositórios individuais submódulos",
+        "Sim vinculado à pergunta Macro",
+        "sem sincronização de commits presumida",
+        "sem acesso por herança do pai"
+      ],
+      "derived": [
+        "D01-HIP-002"
+      ],
+      "artifactAnchor": "d01-dec-006",
+      "title": "Repositório Macro com submódulos Meso",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E11",
+      "id": "D01-NEC-001",
+      "kind": "Necessidade declarada",
+      "source": "D01-S05/E11",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-001",
+        "CAP-008",
+        "CAP-010",
+        "CAP-013"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-003"
+      ],
+      "criterion": "D01-R2-V11",
+      "criterionText": "Contribuições concorrentes conservam descobertas, autonomia e acesso sem escolher modalidade de workspace por inferência.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E11, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "dezenas de engenheiros simultâneos",
+        "compartilhamento autorizado sem divergência/perda",
+        "autonomia e segurança individuais",
+        "workspace individual/compartilhado/ambos pendente"
+      ],
+      "derived": [
+        "D01-PROP-015"
+      ],
+      "artifactAnchor": "d01-nec-001",
+      "title": "Compartilhamento entre engenheiros",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E12",
+      "id": "D01-REL-005",
+      "kind": "Decisão de intenção reproduzida; classe retificada",
+      "source": "D01-S05/E12",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-008",
+        "CAP-013",
+        "CAP-015",
+        "CAP-016"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-003"
+      ],
+      "criterion": "D01-R2-V12",
+      "criterionText": "Consolidação automatiza o resolúvel com evidências e escala incerteza, sem assumir autoridade irrestrita.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E12, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "incorporação majoritariamente automática",
+        "resolver conflitos com fatos/evidências",
+        "revisão/aprovação humana quando não seguro",
+        "confiança verbal insuficiente",
+        "não autoriza merge irrestrito"
+      ],
+      "derived": [
+        "D01-PROP-015",
+        "D01-PROP-016"
+      ],
+      "artifactAnchor": "d01-rel-005",
+      "title": "Consolidação predominantemente automática",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E13",
+      "id": "D01-RST-002",
+      "kind": "Exigência de confiabilidade reproduzida",
+      "source": "D01-S05/E13",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-008",
+        "CAP-015",
+        "CAP-016"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-003",
+        "D01-PEN-005",
+        "D01-PEN-007"
+      ],
+      "criterion": "D01-R2-V13",
+      "criterionText": "Casos sintéticos de erro/perda são detectados ou mantidos como incerteza, sem alegar infalibilidade.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E13, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "alucinações e inferências não comprovadas",
+        "contradições e incoerências",
+        "conflitos de versões",
+        "perda silenciosa e informação incorreta",
+        "critérios/classificadores/verificadores/limiares pendentes"
+      ],
+      "derived": [
+        "D01-PROP-007",
+        "D01-PROP-016",
+        "D01-PROP-021"
+      ],
+      "artifactAnchor": "d01-rst-002",
+      "title": "Barreiras contra conhecimento incorreto",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E14",
+      "id": "D01-DEC-007",
+      "kind": "Decisão explícita reproduzida",
+      "source": "D01-S05/E14",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-008",
+        "CAP-012",
+        "CAP-013",
+        "CAP-016"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-003"
+      ],
+      "criterion": "D01-R2-V14",
+      "criterionText": "Push de trabalho não aparece como publicação canônica; controles antecedem consolidação autorizada.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E14, sem alegar recuperação da mensagem histórica original.",
+      "question": "Consolidação automática somente após verificações e controles, mantendo pushes de trabalho separados da publicação oficial?",
+      "response": "Sim, concordo.",
+      "elements": [
+        "verificações e controles antes da consolidação",
+        "pushes de trabalho separados da publicação oficial",
+        "preparação/validação/publicação distintas",
+        "sem merge ou alteração de proteção irrestritos"
+      ],
+      "derived": [
+        "D01-PROP-016",
+        "D01-PROP-017"
+      ],
+      "artifactAnchor": "d01-dec-007",
+      "title": "Separação entre trabalho e publicação canônica",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E15",
+      "id": "D01-CTX-001",
+      "kind": "Restrição de ambiente relatada",
+      "source": "D01-S05/E15",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-012",
+        "CAP-015",
+        "CAP-019"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-003",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V15",
+      "criterionText": "Desenho respeita restrição relatada e distingue validação local de imposição no servidor.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E15, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "ausência atual de autonomia para novas pipelines corporativas",
+        "relato de ambiente, não política universal/permanente",
+        "motor IDE proposto",
+        "validação local não garante contra push externo"
+      ],
+      "derived": [
+        "D01-PROP-017"
+      ],
+      "artifactAnchor": "d01-ctx-001",
+      "title": "Restrição de GitHub Actions",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E16",
+      "id": "D01-CTX-002",
+      "kind": "Fluxo corporativo relatado",
+      "source": "D01-S05/E16",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-012",
+        "CAP-017",
+        "CAP-018",
+        "CAP-019"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V16",
+      "criterionText": "Representar etapas relatadas e exceção de hotfix sem executar pipeline ou promovê-las a política universal.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E16, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "feature→Action→PR develop",
+        "aprovação e duas Actions para release",
+        "PR main→Action→scheduled",
+        "GMUD ServiceNow/IUClick aprovada e janela",
+        "hotfix bug/incidente com caminho próprio para main",
+        "varia por repositório, relato não norma"
+      ],
+      "derived": [],
+      "artifactAnchor": "d01-ctx-002",
+      "title": "CI/CD corporativo relatado",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E17",
+      "id": "D01-DEC-008",
+      "kind": "Decisão explícita reproduzida",
+      "source": "D01-S05/E17",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-002",
+        "CAP-006",
+        "CAP-008",
+        "CAP-012"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-006",
+        "D01-PEN-007",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V17",
+      "criterionText": "Uma referência main sem evidência de deployment não é classificada como versão produtiva implantada.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E17, sem alegar recuperação da mensagem histórica original.",
+      "question": "Distinguir conhecimento de código em branches e das versões efetivamente implantadas em DEV/HOM/PROD?",
+      "response": "Concordância reproduzida; literal não fornecido em E17.",
+      "elements": [
+        "branches versus implantação real",
+        "DEV, HOM e PROD distintos",
+        "main não comprova PROD",
+        "modelo de verificação de deployments pendente"
+      ],
+      "derived": [
+        "D01-PROP-018"
+      ],
+      "artifactAnchor": "d01-dec-008",
+      "title": "Conhecimento por ambiente",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E18",
+      "id": "D01-INT-004",
+      "kind": "Intenção de comportamento reproduzida",
+      "source": "D01-S05/E18",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-001",
+        "CAP-002",
+        "CAP-006",
+        "CAP-008"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-006",
+        "D01-PEN-007"
+      ],
+      "criterion": "D01-R2-V18",
+      "criterionText": "Contexto registra revisões e comportamentos diferentes por repositório sem uniformização automática.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E18, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "vários repositórios em feature branches",
+        "dependências com comportamento PROD ou HOM",
+        "sem mesma branch/versão/ambiente presumida",
+        "modelo composto candidato"
+      ],
+      "derived": [
+        "D01-PROP-018"
+      ],
+      "artifactAnchor": "d01-int-004",
+      "title": "Desenvolvimento multirrepositório com comportamentos mistos",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E19",
+      "id": "D01-DEC-009",
+      "kind": "Decisão explícita reproduzida",
+      "source": "D01-S05/E19",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-006",
+        "CAP-019",
+        "CAP-020"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-007",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V19",
+      "criterionText": "Modo simulado e modo real autorizado são distinguíveis; decisão de suporte não desbloqueia serviço real.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E19, sem alegar recuperação da mensagem histórica original.",
+      "question": "Reprodução controlada/simulações ou integrações reais autorizadas?",
+      "response": "Ambas, conforme reprodução de E19; literal não fornecido.",
+      "elements": [
+        "ambas: reprodução controlada e integração real",
+        "contratos/comportamentos, simulações e mocks",
+        "acesso e autorização apropriados",
+        "sem concessão de acesso interno"
+      ],
+      "derived": [
+        "D01-PROP-018"
+      ],
+      "artifactAnchor": "d01-dec-009",
+      "title": "Reprodução e integração real",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E20",
+      "id": "D01-INT-005",
+      "kind": "Intenção com contexto relatado",
+      "source": "D01-S05/E20",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-002",
+        "CAP-006",
+        "CAP-019"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-006",
+        "D01-PEN-007",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V20",
+      "criterionText": "Achado externo limita-se a interface/dependência evidenciada e não inventa implementação interna.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E20, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "numerosas equipes/repositórios/fronteiras",
+        "sem código usar fontes autorizadas",
+        "Camunda, IBM ODM, APIs, plataformas/serviços restritos",
+        "interface/dependência não é implementação interna"
+      ],
+      "derived": [
+        "D01-PROP-019"
+      ],
+      "artifactAnchor": "d01-int-005",
+      "title": "Sistemas externos inacessíveis",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E21",
+      "id": "D01-INT-006",
+      "kind": "Intenção de fontes indiretas reproduzida",
+      "source": "D01-S05/E21",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-003",
+        "CAP-006",
+        "CAP-019"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-006",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V21",
+      "criterionText": "Recuperação pode usar fontes indiretas autorizadas sem exigir submódulo para todo sistema.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E21, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "GitHub Pages, SharePoint, contratos, testes, documentação e outras fontes",
+        "sem exigir todos sistemas como submódulos",
+        "catálogo federado proposto",
+        "identificação não autoriza consulta"
+      ],
+      "derived": [
+        "D01-PROP-019"
+      ],
+      "artifactAnchor": "d01-int-006",
+      "title": "Fontes documentais indiretas",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E22",
+      "id": "D01-DEC-010",
+      "kind": "Decisão explícita reproduzida",
+      "source": "D01-S05/E22",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-003",
+        "CAP-008",
+        "CAP-013",
+        "CAP-016"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004",
+        "D01-PEN-006",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V22",
+      "criterionText": "Fonte acessível mas sem direito de compartilhamento não é copiada ao Git compartilhado.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E22, sem alegar recuperação da mensagem histórica original.",
+      "question": "Preservar referência externa e consolidar no Git da sigla só derivado legitimamente armazenável e compartilhável?",
+      "response": "Sim.",
+      "elements": [
+        "referência externa preservada",
+        "derivado legítimo armazenável e compartilhável no Git sigla",
+        "origem, versão, escopo, autorização, limites, atualidade",
+        "acessibilidade não permite copiar/redistribuir"
+      ],
+      "derived": [
+        "D01-PROP-019"
+      ],
+      "artifactAnchor": "d01-dec-010",
+      "title": "Referência original e conhecimento derivado",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E23",
+      "id": "D01-DEC-011",
+      "kind": "Decisão restritiva expressa reproduzida",
+      "source": "D01-S05/E23",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-006",
+        "CAP-013",
+        "CAP-019"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004",
+        "D01-PEN-008",
+        "D01-PEN-010"
+      ],
+      "criterion": "D01-R2-V23",
+      "criterionText": "Busca exterior sem permissão não ocorre; autorização de consulta não permite publicação.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E23, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "informar antes e executar só autorizado",
+        "finalidade, fonte e escopo",
+        "identificar necessidade não permite consulta",
+        "externo distinto de legado e escrita"
+      ],
+      "derived": [
+        "D01-PROP-019"
+      ],
+      "artifactAnchor": "d01-dec-011",
+      "title": "Autorização prévia para buscas exteriores",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E24",
+      "id": "D01-DEC-012",
+      "kind": "Decisão explícita reproduzida",
+      "source": "D01-S05/E24",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-013",
+        "CAP-019"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V24",
+      "criterionText": "Permissão reutilizada é rejeitada fora de seu escopo; suporte a ambas não cria permissão permanente.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E24, sem alegar recuperação da mensagem histórica original.",
+      "question": "Autorizações pontuais e autorizações reutilizáveis?",
+      "response": "Permito ambas as modalidades.",
+      "elements": [
+        "pontual e reutilizável",
+        "ambas responde às modalidades",
+        "reutilizável delimitada, não permanente/irrestrita",
+        "validade/revogação/identidade pendentes"
+      ],
+      "derived": [],
+      "artifactAnchor": "d01-dec-012",
+      "title": "Autorizações pontuais e reutilizáveis",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E25",
+      "id": "D01-DEC-013",
+      "kind": "Decisão explícita reproduzida",
+      "source": "D01-S05/E25",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-013",
+        "CAP-019"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004",
+        "D01-PEN-008"
+      ],
+      "criterion": "D01-R2-V25",
+      "criterionText": "Concessão coletiva sem autoridade ou direito efetivo não libera acesso.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E25, sem alegar recuperação da mensagem histórica original.",
+      "question": "Permissões individuais e coletivas para equipes/siglas?",
+      "response": "Suportar ambas.",
+      "elements": [
+        "individual e coletiva para equipes/siglas",
+        "resposta associada às duas modalidades",
+        "autoridade concedente e permissões efetivas",
+        "registro não cria direito de acesso"
+      ],
+      "derived": [],
+      "artifactAnchor": "d01-dec-013",
+      "title": "Autorizações individuais e coletivas",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E26",
+      "id": "D01-REL-006",
+      "kind": "Intenção determinada reproduzida; classe retificada",
+      "source": "D01-S05/E26",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-002",
+        "CAP-003",
+        "CAP-008"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-006",
+        "D01-PEN-010"
+      ],
+      "criterion": "D01-R2-V26",
+      "criterionText": "Inventário e relatório explicitam preservação/transformação/descarte/inconclusões sem excluir original por inferência.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E26, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "documentação, skills, instruções, configurações e demais artefatos",
+        "inventariar, compreender, reconciliar, adaptar",
+        "substituir estruturas redundantes",
+        "informar identificado/preservado/transformado/descartado/inconclusivo",
+        "máxima compreensão com limites",
+        "sem excluir por inferência"
+      ],
+      "derived": [
+        "D01-PROP-020",
+        "D01-HIP-003"
+      ],
+      "artifactAnchor": "d01-rel-006",
+      "title": "Absorção do conhecimento legado",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E27",
+      "id": "D01-REL-008",
+      "kind": "Decisão restritiva reproduzida; classe retificada",
+      "source": "D01-S05/E27",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-008",
+        "CAP-013"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004"
+      ],
+      "criterion": "D01-R2-V27",
+      "criterionText": "Mesmo migração bem-sucedida preserva originais sem aprovação explícita do objeto/revisão.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E27, sem alegar recuperação da mensagem histórica original.",
+      "question": "Excluir originais sempre com aprovação humana ou automaticamente após migração bem-sucedida?",
+      "response": "Sempre exija.",
+      "elements": [
+        "sempre aprovação explícita responsável",
+        "pergunta aprovação versus remoção automática",
+        "objeto e revisão, mudança material reavaliada",
+        "migração/padrão/leitura não autorizam excluir",
+        "sem exclusão na missão"
+      ],
+      "derived": [
+        "D01-PROP-020"
+      ],
+      "artifactAnchor": "d01-rel-008",
+      "title": "Exclusão de artefatos originais",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E28",
+      "id": "D01-REL-007",
+      "kind": "Decisão explícita reproduzida; desdobramento",
+      "source": "D01-S05/E28",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-003",
+        "CAP-008",
+        "CAP-013"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004",
+        "D01-PEN-005"
+      ],
+      "criterion": "D01-R2-V28",
+      "criterionText": "Provisória é utilizável sem excluir originais nem anunciar verificação definitiva.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E28, sem alegar recuperação da mensagem histórica original.",
+      "question": "Permitir uso provisório antes da conclusão/exclusão dos originais?",
+      "response": "permitir o uso provisório",
+      "elements": [
+        "uso antes de concluir migração/excluir",
+        "avaliar e utilizar",
+        "originais preservados",
+        "não verificação definitiva",
+        "código desdobrado DEC014"
+      ],
+      "derived": [
+        "D01-PROP-005",
+        "D01-PROP-020"
+      ],
+      "artifactAnchor": "d01-rel-007",
+      "title": "Uso provisório",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E29",
+      "id": "D01-DEC-014",
+      "kind": "Decisão explícita reproduzida",
+      "source": "D01-S05/E29",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-012",
+        "CAP-013"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004"
+      ],
+      "criterion": "D01-R2-V29",
+      "criterionText": "Consulta e mudança autorizada podem usar provisória; permissão genérica de código é recusada.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E29, sem alegar recuperação da mensagem histórica original.",
+      "question": "Uso provisório só para consultas/explicações ou também alterações reais de código em escopo autorizado?",
+      "response": "PErmitir ambas",
+      "elements": [
+        "consultas/explicações e alterações reais de código",
+        "ambas vinculado às alternativas",
+        "escopo autorizado",
+        "sem permissão genérica"
+      ],
+      "derived": [],
+      "artifactAnchor": "d01-dec-014",
+      "title": "Modificações de código durante uso provisório",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E30",
+      "id": "D01-DEC-015",
+      "kind": "Decisão explícita reproduzida",
+      "source": "D01-S05/E30",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-003",
+        "CAP-008",
+        "CAP-013"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004",
+        "D01-PEN-006",
+        "D01-PEN-010"
+      ],
+      "criterion": "D01-R2-V30",
+      "criterionText": "Agente usa provisória como padrão e pede autorização para legado diante de lacuna, sem fonte concorrente silenciosa.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E30, sem alegar recuperação da mensagem histórica original.",
+      "question": "Escolher entre estrutura original e provisória ou usar provisória como referência padrão?",
+      "response": "Provisória, sempre devemos prezar pelo nosso padrão estrutural.",
+      "elements": [
+        "provisória como padrão",
+        "resposta à escolha original/provisória",
+        "legado sem instruções concorrentes silenciosas",
+        "lacuna segue DEC001, sem exclusão"
+      ],
+      "derived": [
+        "D01-PROP-002",
+        "D01-PROP-014"
+      ],
+      "artifactAnchor": "d01-dec-015",
+      "title": "Estrutura provisória como padrão",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E31",
+      "id": "D01-DEC-001",
+      "kind": "Decisão explícita diretamente recuperada e reproduzida",
+      "source": "D01-S05/E31",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-008",
+        "CAP-013",
+        "CAP-016"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-004",
+        "D01-PEN-010"
+      ],
+      "criterion": "D01-R2-V31",
+      "criterionText": "Lacuna posterior gera aviso e permissão sem bloquear inventário inicial autorizado nem liberar escrita.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E31, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "permissão e aviso da inconformidade",
+        "lacuna posterior versus inventário inicial autorizado",
+        "sem proibição de inventário",
+        "consulta não autoriza escrita/execução/exclusão"
+      ],
+      "derived": [
+        "D01-PROP-001",
+        "D01-PROP-002",
+        "D01-PROP-003"
+      ],
+      "artifactAnchor": "d01-dec-001",
+      "title": "Consulta ao legado diante de lacuna",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "REPRODUZIDA_E_DIRETA_R1"
+    },
+    {
+      "anchor": "E32",
+      "id": "D01-DEC-002",
+      "kind": "Decisão explícita diretamente recuperada e reproduzida",
+      "source": "D01-S05/E32",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-008",
+        "CAP-013",
+        "CAP-015"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-005",
+        "D01-PEN-010"
+      ],
+      "criterion": "D01-R2-V32",
+      "criterionText": "Conclusão com ressalvas mantém pendências e evidências; falha crítica não é resolvida por rótulo.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E32, sem alegar recuperação da mensagem histórica original.",
+      "question": "Concluir com pendências não críticas catalogadas ou exigir resolver todas antes?",
+      "response": "Permitir.",
+      "elements": [
+        "concluir com pendências não críticas catalogadas/controladas",
+        "Permitir responde à alternativa",
+        "não ocultar, eliminar evidência ou resolver falha crítica por declaração",
+        "estados/transições propostos"
+      ],
+      "derived": [
+        "D01-PROP-003",
+        "D01-PROP-005",
+        "D01-PROP-009"
+      ],
+      "artifactAnchor": "d01-dec-002",
+      "title": "Conclusão com inconformidades não críticas",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "REPRODUZIDA_E_DIRETA_R1"
+    },
+    {
+      "anchor": "E33",
+      "id": "D01-DEC-003",
+      "kind": "Decisão explícita diretamente recuperada e reproduzida",
+      "source": "D01-S05/E33",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-002",
+        "CAP-008",
+        "CAP-013",
+        "CAP-015"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-005",
+        "D01-PEN-010"
+      ],
+      "criterion": "D01-R2-V33",
+      "criterionText": "Criticidade incerta escala ao engenheiro; confiança verbal ou taxonomia proposta não libera dependentes por si.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E33, sem alegar recuperação da mensagem histórica original.",
+      "question": "Classificar autonomamente com critérios rigorosos, objetivos e verificáveis, recorrendo ao engenheiro se incerto?",
+      "response": "Sim.",
+      "elements": [
+        "classificação automática rigorosa/objetiva/verificável",
+        "engenheiro quando incerto",
+        "Sim restrito à pergunta",
+        "taxonomia/limiares/detalhes posteriores candidatos"
+      ],
+      "derived": [
+        "D01-PROP-006",
+        "D01-PROP-007",
+        "D01-PROP-008"
+      ],
+      "artifactAnchor": "d01-dec-003",
+      "title": "Classificação automática de criticidade",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "REPRODUZIDA_E_DIRETA_R1"
+    },
+    {
+      "anchor": "E34",
+      "id": "D01-DEC-016",
+      "kind": "Determinação de produto reproduzida",
+      "source": "D01-S05/E34",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-003",
+        "CAP-005",
+        "CAP-008",
+        "CAP-013",
+        "CAP-016"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-005",
+        "D01-PEN-006",
+        "D01-PEN-007",
+        "D01-PEN-010"
+      ],
+      "criterion": "D01-R2-V34",
+      "criterionText": "Cada ciclo encontra pendências relevantes e comunica estado sem exigir carga integral de todos os registros.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E34, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "dúvidas/conflitos/impedimentos/lacunas",
+        "estruturada, hierarquizada, instrutiva, detalhada, rastreável",
+        "disponível a agentes/engenheiros",
+        "cada leitura/ciclo identifica relevantes e comunica estado",
+        "sem contexto integral obrigatório, índice/roteamento pendentes"
+      ],
+      "derived": [
+        "D01-PROP-009",
+        "D01-PROP-014"
+      ],
+      "artifactAnchor": "d01-dec-016",
+      "title": "Gestão estruturada e contínua de pendências",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E35",
+      "id": "D01-DEC-017",
+      "kind": "Determinação de produto reproduzida",
+      "source": "D01-S05/E35",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-003",
+        "CAP-008",
+        "CAP-013",
+        "CAP-016"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-003",
+        "D01-PEN-006",
+        "D01-PEN-007",
+        "D01-PEN-010"
+      ],
+      "criterion": "D01-R2-V35",
+      "criterionText": "Esclarecimento posterior gera contribuição rastreável aos níveis afetados sob controles, sem sobrescrita silenciosa.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E35, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "informações/esclarecimentos/diretrizes/decisões posteriores",
+        "Micro/Meso/Macro afetados",
+        "verificação/proveniência/autorização/consistência/publicação canônica",
+        "sem assíncrono presumido ou sobrescrita",
+        "mecanismos/gatilhos pendentes"
+      ],
+      "derived": [
+        "D01-PROP-015",
+        "D01-PROP-016"
+      ],
+      "artifactAnchor": "d01-dec-017",
+      "title": "Esclarecimentos posteriores e retroalimentação contínua",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "DECLARACAO_REPRODUZIDA"
+    },
+    {
+      "anchor": "E36",
+      "id": "D01-DEC-004",
+      "kind": "Decisão de continuidade diretamente recuperada e reproduzida",
+      "source": "D01-S05/E36",
+      "revision": 2,
+      "state": "EM_DISCOVERY",
+      "capabilities": [
+        "CAP-008",
+        "CAP-016"
+      ],
+      "pending": [
+        "D01-PEN-001",
+        "D01-PEN-007",
+        "D01-PEN-009"
+      ],
+      "criterion": "D01-R2-V36",
+      "criterionText": "Nova sessão recupera artefatos e distingue decisões/propostas sem antecipação do Discovery 02.",
+      "justification": "Declaração reproduzida em D01-S05; incorpora elementos materiais e limites de E36, sem alegar recuperação da mensagem histórica original.",
+      "question": null,
+      "response": null,
+      "elements": [
+        "consolidar antes do próximo aprofundamento",
+        "preservar contexto/decisões/detalhes",
+        "autorização consolidação e revisão corretiva",
+        "preparar sem executar D02/arquitetura",
+        "não criar chat automaticamente"
+      ],
+      "derived": [
+        "D01-PROP-011"
+      ],
+      "artifactAnchor": "d01-dec-004",
+      "title": "Encerramento do Discovery 01 e continuidade do Discovery 02",
+      "coverage": "INTEGRAL_NO_ESCOPO_REPRODUZIDO",
+      "evidence_quality": "REPRODUZIDA_E_DIRETA_R1"
+    }
+  ]
+}

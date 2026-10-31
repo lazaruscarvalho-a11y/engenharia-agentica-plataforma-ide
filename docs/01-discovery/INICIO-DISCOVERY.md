@@ -1,3 +1,9 @@
+# Percurso atualizado — D01-R2
+
+Revisão 2 do [Discovery 01](discovery-01/README.md): E01..E36 reconciliados a partir de declaração reproduzida no pedido, sem presumir transcrição integral recuperada. As escolhas conceituais e suas propostas derivadas estão separadas no [registro](discovery-01/REGISTRO.md). O [Discovery 02](discovery-02/RETOMADA.md) tem entrada preparada para o Motor de Compreensão Profunda de Repositórios. Ver [pendências](discovery-01/REVISAO.md) e recibo R2 para o estado de fechamento.
+
+As seções abaixo são roteiro e estados HISTÓRICOS anteriores à R2. Não usar suas classificações antigas para desfazer as retificações documentadas.
+
 # Atualização de percurso — Discovery 01 e 02
 
 30/10/2026. O roteiro abaixo é o snapshot inicial da fundação. A conversa posterior “Iniciar discovery funcional” produziu definições sobre onboarding/conhecimento; somente seus cinco turnos finais estão disponíveis nesta consolidação. Consulte o [Discovery 01](discovery-01/README.md), a [revisão e lacuna de completude](discovery-01/REVISAO.md) e a [entrada Discovery 02](discovery-02/RETOMADA.md). O texto histórico “nenhuma entrevista” abaixo não descreve a totalidade das conversas posteriores. Nenhum requisito derivado é aprovado implicitamente.

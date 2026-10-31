@@ -1,25 +1,33 @@
-# Discovery 01 — Onboarding e conhecimento Agent-First
+# Discovery 01 — Onboarding, conhecimento e arquitetura Agent-First
 
-Revisão documental 1 · 30/10/2026 (America/Sao_Paulo). **CONSOLIDAÇÃO DAS FONTES ACESSÍVEIS; INTEGRALIDADE HISTÓRICA NÃO COMPROVADA.** Acervo exploratório para revisão, sem efeito normativo, implementação ou aceite de requisitos derivados.
+**Revisão 2 — missão D01-R2 v2.0**, 30/10/2026 (America/Sao_Paulo). Consolidação exploratória corrigida para o PR #6 existente. Sem efeito normativo, implementação da IDE ou aprovação de propostas derivadas.
 
-O objetivo é preservar o entendimento do onboarding da Plataforma/IDE corporativa e preparar o Discovery 02 — Motor de Compreensão Profunda de Repositórios. Há decisões humanas recuperáveis, propostas técnicas e definições anteriores conhecidas somente pela síntese do assistente. Essas categorias permanecem separadas.
+A revisão incorpora as **36 âncoras reproduzidas no pedido atual**. Micro/Meso/Macro, Git canônico, Submodules, agnosticidade e demais escolhas declaradas são preservados como decisões/intencões nos seus escopos; detalhes técnicos futuros não invalidam essas escolhas. A proveniência reproduzida permanece distinguida de mensagem original recuperada.
 
-## Percurso de leitura
+## Ler e retomar
 
-1. [Fontes e proveniência](FONTES.md): revisões, mensagens efetivamente disponíveis e limites.
-2. [Registro de definições](REGISTRO.md): decisões explícitas, definições relatadas e propostas, com IDs estáveis deste conjunto.
-3. [Modelo funcional](MODELO-FUNCIONAL.md): jornada, conhecimento, migração, segurança e concorrência, sem transformar desenho candidato em decisão.
-4. [Matriz de rastreabilidade](MATRIZ.md): fonte → definição → capacidade → verificação futura → pendência.
-5. [Revisão e pendências](REVISAO.md): consistência, cobertura, riscos e condições de fechamento.
-6. [Entrada do Discovery 02](../discovery-02/RETOMADA.md): objetivo, contexto e primeira investigação.
-7. [Manifesto deste conjunto](MANIFESTO.json) e [recibo remoto](../../../auditorias/discovery-01/RECIBO-PUBLICACAO.json): verificar arquivos pelo commit registrado no recibo.
+- [FONTES](FONTES.md): qualidade de evidência, mensagens e recorte reproduzido.
+- [REGISTRO canônico](REGISTRO.md): definições com IDs estáveis, classe, revisão e limites.
+- [RETIFICAÇÕES](RETIFICACOES.md): classificação R1 → R2, justificativa e desdobramentos.
+- [MODELO FUNCIONAL](MODELO-FUNCIONAL.md): organização coesa das escolhas e propostas.
+- [MATRIZ](MATRIZ.md): disposição E01..E36, propostas P-A..P-L e cobertura inversa.
+- [REVISÃO](REVISAO.md): pendências históricas, interpretativas, funcionais, técnicas e corporativas.
+- [MANIFESTO](MANIFESTO.json): inventário e hashes do conjunto.
+- [Entrada D02](../discovery-02/RETOMADA.md): contexto mínimo, fontes, objetivo e próxima pergunta.
+- [Auditoria R2](../../../auditorias/discovery-01-r2/RELATORIO.md) e [recibo R2](../../../auditorias/discovery-01-r2/RECIBO-PUBLICACAO.json): versão congelada e prova remota.
 
-## Estado inequívoco
+## Fechamento em dois eixos
 
-O pedido atual autoriza preparar e publicar esta consolidação em branch/PR revisável. Não aprova detalhes acrescentados pelo assistente. A publicação é exploratória e não usa nem preenche o aceite específico do piloto GOV-REG-0001. PGC-001 v1.1.3 e CT v1.0.3 continuam candidatos NÃO RATIFICADOS; os 49 CA operacionais permanecem NOT_RUN.
+**D01-PEN-001/A:** reconciliação material E01..E36, com estado final sustentado pelo recibo e auditoria. Não significa inexistência absoluta de omissões além das fontes acessíveis.
 
-Todos os exemplos novos são sintéticos. A transcrição real não é copiada para este acervo: são preservadas sínteses autorizadas e referências às mensagens. Não foram acessados sistemas corporativos, executores, hooks ou repositórios empresariais.
+**D01-PEN-001/B:** transcrição original integral não recuperada. Essa limitação não mantém como meras sugestões as escolhas humanas reproduzidas no pedido.
 
-A documentação da fundação é herdada do commit `f8d7c60955a1250ae4d94a428386787f4aaa24b0`, PR #5. A `main` observada contém só `.gitkeep`; a existência desta branch não significa integração na principal. Os manifestos antigos e seus recibos continuam provas de seus respectivos snapshots. O manifesto novo não substitui manifesto de ativação normativa nem comprova atualização das Fontes do Projeto.
+Propostas, hipóteses e refinamentos continuam abertos sem impedir a preparação do Discovery 02. Não se escolhem parsers, modelos, banco, framework ou motor vetorial nesta missão.
 
-O fechamento integral permanece pendente da recuperação dos turnos anteriores. O Discovery 02 pode avançar nas questões independentes, mantendo em aberto os detalhes cujo fundamento não foi recuperado.
+## Limites preservados
+
+Somente branch `proposta/discovery-01-onboarding-agent-first` e PR #6; sem merge, ratificação PGC/CT, ativação C2/C3 ou mudança de permissões/proteções/pipelines. Nenhum acesso corporativo ou execução de aplicações. Exemplos novos sintéticos; sem segredos nem transcrições empresariais.
+
+Os 49 CA operacionais do PGC e os oráculos funcionais futuros da IDE são separados dos ensaios documentais R2. Fontes/Instruções nativas continuam snapshots não atualizados por esta missão. A [entrada RETOMADA anterior](../../../RETOMADA.md) e manifestos/recibos R1 são históricos de conjuntos distintos e não devem ser usados para provar a R2.
+
+[Snapshot R1](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/ceedbc1f0fcb4133ce8109ec889676dca966193d/docs/01-discovery/discovery-01/README.md), preservado no Git.
