@@ -1,3 +1,15 @@
+# Estado vigente — D02 consolidação R5, revisão 1
+
+Fonte de versão: proposta `proposta/discovery-02-consolidacao`, base D01 `e37af725a162c577cfa9ffde286d0fcf69294429`. Preparação documental PM-D02-CONSOL-001 R5; publicação/configuração/recuperação só serão comprovadas por recibos posteriores, sem SHA futuro inventado. **Entrada atual: [RETOMADA D02](docs/01-discovery/discovery-02/RETOMADA.md)**; [registro](docs/01-discovery/discovery-02/REGISTRO.md), [retificações](docs/01-discovery/discovery-02/RETIFICACOES.md) e [matriz](docs/01-discovery/discovery-02/MATRIZ.md). Manifesto D02: `docs/01-discovery/discovery-02/MANIFESTO.json`; provas: `auditorias/discovery-02-incorporacao/` em fases posteriores.
+
+D01-PEN-001/A reconciliado materialmente no escopo R2; B original integral não recuperado, não bloqueia reproduções suficientes. D01-R2 é histórico preservado e suporte, com D02-RET-001..004 para execução futura excepcional/Meso específico/nenhuma refatoração/mesmo ciclo. PGC-001 v1.1.3 e CT v1.0.3 NÃO RATIFICADOS; 49 CA NOT_RUN. Sem merge, IDE implementada ou aplicação executada. Fonte não autoriza ação.
+
+Projeto g-p-6ae4fdf0eb688191bb6536420421ef69: observação atual pede login; conta/público/Fontes/Instruções/limites não comprovados e nada alterado. [Fallback preparado](docs/chatgpt/CONFIGURACAO.md). RN exige nova conversa real; subagente não substitui. Próxima questão D02 fundada em D01-PEN-007/005/010, sem nova entrevista nesta missão.
+
+## HISTÓRICO — estados anteriores subordinados à entrada D02 acima
+
+Todo o texto a seguir é histórico de seus snapshots, não rota vigente nem prova da revisão D02. Quando tratar execução exclusiva/Meso genérico, ler primeiro as retificações D02. Manifestos/recibos antigos não validam bytes desta fundação nova.
+
 # Estado D01-R2 — revisão 2
 
 Reconciliação material do Discovery 01 a partir das 36 âncoras do Prompt-Master v2.0 fornecido pelo usuário. Fonte reproduzida, distinta de recuperação das mensagens originais. Ver [índice D01](docs/01-discovery/discovery-01/README.md), [registro canônico](docs/01-discovery/discovery-01/REGISTRO.md), [retificações](docs/01-discovery/discovery-01/RETIFICACOES.md) e [revisão](docs/01-discovery/discovery-01/REVISAO.md).
@@ -65,4 +77,3 @@ GET proteção main retornou 403; branch lista protected=false; rulesets retorna
 
 ## Próxima ação e decisões humanas
 Pode-se iniciar agora discovery pela pergunta inicial do roteiro, nesta conversa, usando a branch proposta como snapshot e sem promover ideias a requisitos aprovados. Configurar o Projeto ChatGPT exige sessão autenticada/interface autorizada, com pacote já preparado. Revisar/mesclar a cadeia de PRs e eventual ratificação são decisões humanas separadas, sem necessidade de interromper brainstorm ou discovery. Ambiguidades de produto serão resolvidas durante o refinamento, não inventadas nesta fundação.
-

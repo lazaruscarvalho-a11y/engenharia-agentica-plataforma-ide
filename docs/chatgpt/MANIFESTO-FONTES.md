@@ -1,58 +1,35 @@
-# Adendo R2 — distribuição não realizada
+# Composição candidata das Fontes D02 — revisão 1
 
-A revisão D01-R2 substitui semanticamente a R1 nos documentos ativos do [conjunto D01](../01-discovery/discovery-01/README.md), com [retificações](../01-discovery/discovery-01/RETIFICACOES.md), [manifesto](../01-discovery/discovery-01/MANIFESTO.json) e [recibo próprios](../../auditorias/discovery-01-r2/RECIBO-PUBLICACAO.json). Incluir D02, fontes e limites de proveniência se houver futura distribuição autorizada.
+Missão PM-D02-CONSOL-001 R5, 31/10/2026. Projeto ID g-p-6ae4fdf0eb688191bb6536420421ef69. Preparação documental; nenhuma Fonte/Instrução nativa foi inspecionada/atualizada nesta missão. PS/PI são provas independentes do Git e do pacote. Limites atuais da conta/interface desconhecidos por login; não fixar quantidade/tamanho por memória. [Configuração e fallback](CONFIGURACAO.md).
 
-Nenhum upload, novo pacote nativo, atualização de Fontes ou Instruções foi realizado nesta missão. GitHub por commit é a rota de recuperação; não presumir sincronização automática. O histórico abaixo descreve pacotes e verificações anteriores, não uma distribuição da R2.
+## Conjunto integral e cobertura
 
-# Adendo de distribuição — Discovery 01
+A projeção planejada para upload contém cinco Fontes: `00-ENTRADA-E-CONFIGURACAO.md` (entradas e índice), `01-DISCOVERY-02.md` (D02/axiomas/blueprint), `02-DISCOVERY-01-HISTORICO.md` (fontes canônicas D01 históricas), `03-FUNDACAO-E-CANDIDATOS.md` (fundação/PGC/CT) e `04-PROVENIENCIA-E-PROVAS.md` (fontes, proveniência e identidades; sem rubrica de recuperação). São projeções, não arquivos nativos já aplicados. Cada trecho preserva origem por caminho/commit/blob/SHA-256/linhas; JSON pertinente é incluído integralmente. Links relativos são mapeados a URLs imutáveis e conferidos no mapa do pacote; o conteúdo indispensável deve estar no conjunto, sem exigir Git durante RF. O ZIP durável também preserva originais documentais byte a byte e fornece manifesto, hashes, mapa de links, instruções integrais e configuração separadas. Não aplicar se o conjunto completo exceder o limite real sem nova segmentação fiel verificada; quantidade planejada não prova capacidade da conta.
 
-30/10/2026. O [conjunto D01](../01-discovery/discovery-01/README.md) e a [entrada D02](../01-discovery/discovery-02/RETOMADA.md) são novas fontes versionadas em branch de proposta. Seu [manifesto](../01-discovery/discovery-01/MANIFESTO.json) e [recibo](../../auditorias/discovery-01/RECIBO-PUBLICACAO.json) identificam arquivos e revisão própria. **Não foi gerado/carregado novo pacote nativo nem atualizadas Instruções ou Fontes do Projeto nesta consolidação.** Consultar GitHub por SHA.
+O pacote final F deve ser gerado somente a partir do content_commit remoto G verificado, por GET autenticado/base64 ou objetos Git, comparando todos os bytes/blobs selecionados. Não basta manifesto local arbitrário ou árvore da autoria. Preservar arquivos/caminhos separados; se segmentar/concatenar por limite real, fornecer índice de origem repo/commit/caminho/âncora e mapa testado de links/âncoras, mantendo originais autorizados no pacote durável. Timestamps reais de emissão ficam em recibo externo. ZIP idêntico só é alegado se metadados fixos e duas gerações comparadas; caso contrário apenas composição lógica determinística.
 
-A seleção futura sugerida inclui índice, registro, fontes, modelo, matriz, revisão e entrada D02; esses documentos não constam automaticamente dos pacotes antigos. Se houver atualização nativa autorizada, emitir recibo de distribuição separado, conferir hashes e testar releitura, sem confundir com o recibo Git. A lacuna de histórico D01 permanece visível em qualquer cópia. Este adendo não altera os manifestos/recibos históricos de continuidade ou de pacotes.
+A tabela abaixo é a composição integral do ZIP para o operador. As exclusões do upload do recuperador estão explicitadas ao final e no manifesto do pacote, preservando proprietários canônicos de todo conhecimento material.
 
-## Manifesto anterior preservado
+| Prioridade | Conteúdo necessário no ZIP integral | Cobertura e motivo |
+|---|---|---|
+| P0 | ESTADO-ATUAL, RETOMADA raiz, AGENTS e RETOMADA D02 | Uma rota vigente, base/estado/limites e ponto de continuidade; histórico subordinado às retificações |
+| P0 | D02 REGISTRO, RETIFICACOES, FONTES, MATRIZ e manifesto D02 | HUM-01..11, restrições/proveniência, decisões/propostas/pendências, inversa e revisão |
+| P0 | docs/fundacao/axiomas-arquiteturais.md e ARCHITECTURE_BLUEPRINT.MD | Dez axiomas completos com cinco classes e integração rastreável; síntese substituta explícita |
+| P1 | D02 MODELO-FUNCIONAL, CONTRATOS-CANDIDATOS, AVALIACAO, REVISAO, README | Fluxos/estados/UX/interfaces/métricas candidatas e controles da missão; nenhuma implementação/aprovação técnica |
+| P1 | D01 README, FONTES, REGISTRO, RETIFICACOES, MODELO-FUNCIONAL, MATRIZ, REVISAO, MANIFESTO e auditoria/recibo R2 pertinentes | E01..36/P-A..L e fontes herdadas, suporte HUM-06/09; conteúdo histórico não reescrito, D02 tem ponte vigente |
+| P1 | Visão/roteamento/metodologia/sessões/capacidades/registro de conhecimento/proveniência recuperada da fundação e dependências materiais | Produto completo, maturidade/método e contexto mínimo suficiente; expandir só dependências que alterem interpretação/autoridade |
+| P1 | PM R5, matriz 74 e relatório R5, BLUEPRINT-ORIGEM e provas D02 existentes da fase de conteúdo | Dossiês curados autorizados e limitação histórica; testes antigos não novos |
+| P1 | docs/chatgpt/INSTRUCOES-PERMANENTES.md, CONFIGURACAO.md e este inventário | Texto integral para campo separado, aplicação/verificação/recuperação, inventário/cobertura |
+| P2 | Governança candidata/contratos e auditorias antigas quando dependência pertinente | Preservados no Git; sem ratificação por upload; rota imutável e motivo de exclusão/impacto no manifesto do pacote |
 
-# Manifesto curado das Fontes do Projeto
+Seleção exige fechamento de dependências transitivas e prova de que nenhuma decisão/restrição crítica disponível ficou só em arquivo excluído/link indisponível. O manifesto do pacote contém caminhos normalizados, modos, bytes, SHA-256, blobs conhecidos, content_commit/tree e exclusões por categoria/motivo/impacto/rota alternativa. Zero perda silenciosa. Pacote integral durável e fontes prontas para upload têm tamanho/hash/releitura após cópia; recibos de eventos posteriores seguem em suplemento separado.
 
-## Atualização de continuidade — 30/10/2026
+## Manter, substituir logicamente e excluir
 
-A entrada atual da proposta é [RETOMADA.md](../../RETOMADA.md), acompanhada de [MANIFESTO de continuidade](../continuidade/MANIFESTO.json) e [proveniência recuperada](../fundacao/PROVENIENCIA-RECUPERADA.md). O empacotador atualizado inclui esses arquivos e o registro CONT-REG-0001 nas Fontes de fundação. O recibo do novo pacote deve informar seu commit próprio; não atribuir os hashes do pacote antigo à nova versão. O restante deste documento preserva o procedimento e a seleção originais como histórico.
+Manter originais, Fontes anteriores e regras nativas não revogadas até inspeção/backup; não remover fisicamente por esta instrução. Substituição lógica: rota atual D02 e retificações D02-RET-001..004; fonte antiga fica histórica identificada, nunca instrução concorrente silenciosa. Se coexistência causar recuperação material incorreta, suspenda ativação e diagnostique. Excluídos da redistribuição nova: credenciais/segredos, dados/código corporativos, transcrições reais, caches/temporários/logs crus. R3/blueprint original inexistentes no escopo não são fingidos como anexos recuperados. Acervos normativos não são reescritos nem gerados de novo.
 
-Versão do manifesto: 0.1.0, 30/10/2026. Estado: PREPARADO; Projeto ChatGPT NÃO CONFIGURADO nesta verificação. É um manifesto de distribuição de contexto, sem efeito normativo. Fontes primárias da reconciliação: SRC-001 (pedido atual) e SRC-002 (cinco turnos recuperados da conversa de origem; resposta PM truncada a 20.000 caracteres, sem acesso ao planejamento original completo).
+Instruções são texto separado da Fonte, aplicadas só após conteúdo/cobertura/ensaio de conflito PS; não assumir que carregar este inventário aplica o campo nativo. Histórico Git anterior de instruções/configuração/inventário está em `historico/pre-d02/*.md.snapshot`, sem uso ativo e sem substituir backup nativo. Fontes são snapshots; nova mudança autorizada requer pacote/conferência/aplicação/verificação/recibo novos, sem sync automático.
 
-## Autoridade, revisão e atualização
+## Separação entre operador e recuperador
 
-Repositório oficial: https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide . A branch desta fundação é proposta; não substitui `main`. O pacote distribuído deve informar commit imutável e hashes exatos em recibo próprio. Não usar nome de branch como prova suficiente de versão.
-
-O conteúdo de [INSTRUCOES-PERMANENTES.md](INSTRUCOES-PERMANENTES.md) é o texto exato para o campo Instruções; não carregar o PGC inteiro nesse campo. As Fontes contêm o contexto. Instruções, Fontes, GitHub, estado de persistência e vigência são verificações separadas.
-
-## Seleção inicial
-
-| Prioridade | Documento no repositório | Versão/estado | Uso e limite |
-|---|---|---|---|
-| P0 | [ESTADO-ATUAL.md](../../ESTADO-ATUAL.md) | Snapshot da fundação; verificar commit do pacote | Fase, próximos passos, limites e evidências atuais; não prova ratificação |
-| P0 | [roteamento-contexto.md](../fundacao/roteamento-contexto.md) | 0.1.0 proposta | Entrada por tema e dependências |
-| P0 | [visao-produto.md](../fundacao/visao-produto.md) | Fundação proposta; versão no documento | Visão integral e fronteiras; não especificação aprovada |
-| P0 | [ecossistema-atual.md](../fundacao/ecossistema-atual.md) | Relatos com proveniência | Contexto do banco; não norma corporativa verificada |
-| P0 | [capacidades.md](../fundacao/capacidades.md) | Catálogo inicial com maturidade | Distingue pretendido, documentado e comprovado |
-| P0 | [metodologia-fases.md](../fundacao/metodologia-fases.md) | 0.1.0 proposta | Sete etapas e dez fases, gates e revisão |
-| P0 | [protocolo-sessoes.md](../fundacao/protocolo-sessoes.md) | 0.1.0 proposta | Conversas, formalização e persistência |
-| P0 | [registro-conhecimento.md](../fundacao/registro-conhecimento.md) | Registro inicial com fontes e estados | Decisões, hipóteses e pendências; não inferir aprovação |
-| P1 | [construcao-internalizacao.md](../fundacao/construcao-internalizacao.md) | Estratégia proposta | Plataforma real externa e integração interna futura |
-| P1 | [INICIO-DISCOVERY.md](../01-discovery/INICIO-DISCOVERY.md) | 0.1.0 proposta | Primeira conversa de negócio e UX, critérios de formalização |
-| P1 | [README.md](../../README.md) e [AGENTS.md](../../AGENTS.md) | Snapshot da fundação | Navegação e orientações de agentes |
-| P1 | [índice PGC v1.1.3](../00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md) e [PGC-001](../00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md) | 1.1.3 candidata NÃO RATIFICADA | Consultar quando assunto exigir governança; sem ativação por upload |
-| P2 | CT-001..CT-008 em `docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/` | 1.0.3 candidatos | Recuperação por contrato relacionado, sem repetição nas Instruções |
-| P2 | Auditorias da fundação e [operação assistida](../../harness/governanca_assistida/OPERACAO.md) | Versão/commit nas evidências | Verificar alegações técnicas; testes do piloto não equivalem aos 49 CA |
-
-Caso o Projeto imponha limite de quantidade/tamanho, conferir a limitação real na UI e consolidar o conjunto P0 em uma fonte com índice e proveniência; manter arquivos originais no GitHub. Não afirmar limite fixo sem confirmação. Orçamento inicial sugerido: P0 disponível para recuperação, leitura inicial de estado/roteamento mais documentos do tema; é uma escolha operacional, não limite técnico do produto.
-
-## Procedimento de atualização
-
-1. Escolher o commit/escopo autorizado e conferir diffs; não promover versão candidata a vigente.
-2. Gerar pacote com os documentos selecionados, manifesto de caminhos, tamanho e SHA-256, commit e horário real de geração. Se algum caminho faltar, interromper o empacotamento e registrar erro.
-3. Na configuração acessível, substituir/adicionar as cópias afetadas; preservar origem e verificar que versões antigas não continuam oferecendo instruções conflitantes.
-4. Ler as fontes na nova conversa e confirmar versão/estado, visão, método e próxima ação. Registrar o resultado real e o acesso utilizado.
-5. Atualizar recibo de distribuição: Projeto alvo, arquivos carregados, versões/hashes, momento e prova de releitura. Sem isso, manter NÃO CONFIGURADO ou CONFIGURAÇÃO NÃO VERIFICADA.
-
-A documentação oficial [Projects and chats](https://learn.chatgpt.com/docs/projects), consultada em 30/10/2026, descreve Instruções compartilhadas e Fontes do Projeto; acesso a arquivo e sincronização de conversa são coisas distintas. A existência de arquivo neste repositório não comprova upload, aplicação das Instruções nem atualização automática.
+O ZIP integral preserva documentos e provas; RF não recebe esse ZIP. As cinco Fontes de upload contêm proprietários canônicos de conhecimento de produto/autoridade e proveniência, sem o PM completo, fixtures, pareceres, respostas de recuperação, CONFIGURACAO, REVISAO e matriz de controles D02 reservados ao avaliador. Esses originais permanecem disponíveis ao operador no pacote durável. O manifesto do pacote enumera native_source_paths/operator_only_paths e comprova que todo elemento material HUM/AX/D01 continua nas Fontes; exclusão de rubrica não exclui decisão ou restrição. No upload, 04 reúne FONTES/proveniência/identidades, não respostas esperadas; 00 é entrada/índice. Registre o campo de Instruções e memória como canais automáticos; regras canônicas de produto não são prova de leitura das Fontes por si. Se outro canal puder explicar a resposta e faltar atribuição suficiente, RF é INCONCLUSIVO.

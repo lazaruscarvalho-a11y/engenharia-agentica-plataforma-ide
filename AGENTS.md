@@ -1,3 +1,11 @@
+# Entrada operacional vigente D02
+
+Ponto atual: [RETOMADA D02](docs/01-discovery/discovery-02/RETOMADA.md), [estado](ESTADO-ATUAL.md) e [retificações D02](docs/01-discovery/discovery-02/RETIFICACOES.md). Confira HEAD remoto de `proposta/discovery-02-consolidacao`, manifesto D02 e recibos posteriores por SHA; main não contém a fundação. Se a publicação não estiver comprovada, trate o conjunto como candidato. D01-R2 e continuidade anteriores são suporte histórico preservado, sem rota concorrente.
+
+HUM-03 retifica a execução local para a IDE futura: só dúvida intransponível após tentativas autorizadas, alternativa resposta direta e permissão específica; esta missão proíbe executar aplicações. HUM-04: nenhuma refatoração no onboarding. HUM-05: Meso repo específico por sigla/conta, Micro e Meso como submodules nos níveis pertinentes, sem sync/acesso/redistribuição implícitos. HUM-08: conhecimento no mesmo ciclo commit/PR; drift detectar→invalidar→reconciliar→verificar. AGENTES.MD/PENDENCIAS.MD são propostas futuras distintas deste AGENTS.md.
+
+## Orientações herdadas preservadas, subordinadas à rota vigente acima
+
 # Entrada para agentes
 
 Ponto operacional: [RETOMADA.md](RETOMADA.md). Consulte HEAD remoto da branch de proposta e seu manifesto de continuidade antes de usar cópias do Projeto; main não contém a fundação.
@@ -14,4 +22,3 @@ Não envie dados internos, transcrições reais, código corporativo ou credenci
 O piloto histórico requer aceite de registro específico conforme seu contrato. A extensão exploratória não concede autoridade humana nem ativa normas. Não execute publicação com resultado incerto novamente antes de consultar o destino. Use CAS quando disponível, confira escrita por commit e bytes, e emita recibo. Testes locais e ensaios de recuperação não são os 49 CA operacionais nem uma nova conversa real de usuário.
 
 Fontes do Projeto são snapshots curados; não há sincronização automática presumida. [Pacote ChatGPT](docs/chatgpt/INSTRUCOES-PERMANENTES.md) e [discovery](docs/01-discovery/INICIO-DISCOVERY.md) são entradas de trabalho. Antes de alegar capacidade, consulte evidência na [auditoria](auditorias/fundacao-integral/RELATORIO-FINAL.md).
-

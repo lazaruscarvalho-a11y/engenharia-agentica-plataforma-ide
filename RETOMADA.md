@@ -1,3 +1,13 @@
+# Entrada vigente — Discovery 02, consolidação R5
+
+Consulte o HEAD remoto de `proposta/discovery-02-consolidacao` e leia por SHA imutável. Base conhecida `e37af725a162c577cfa9ffde286d0fcf69294429`; candidato preparatório sem publicação comprovada neste texto. [Estado vigente](ESTADO-ATUAL.md) → [RETOMADA D02](docs/01-discovery/discovery-02/RETOMADA.md) → [retificações](docs/01-discovery/discovery-02/RETIFICACOES.md). Manifesto D02 no caminho `docs/01-discovery/discovery-02/MANIFESTO.json`; recibos posteriores em `auditorias/discovery-02-incorporacao/`. Conteúdo e prova posterior são revisões distintas; não retomar de main ou da rota histórica abaixo.
+
+Leia HUM-01..11 e AX-01..10, estados e limites. Meso é repo específico por sigla/conta com Micro submodules; Macro workspace Git contém Meso submodules; sem sync/acesso/redistribuição implícitos. Execução local é exceção futura condicionada, proibida nesta missão; nenhuma refatoração no onboarding. Mesmo ciclo commit/PR e drift detectar→invalidar→reconciliar→verificar. PGC/CT NÃO RATIFICADOS; 49 CA NOT_RUN. RN não é ensaio de subagente.
+
+## HISTÓRICO preservado — retomada da fundação, não entrada atual
+
+O restante identifica o snapshot anterior. Aplicar a rota D02 acima e suas retificações antes de expandir fontes herdadas; seus hashes antigos não provam o conteúdo D02.
+
 # Retomada do discovery
 
 Entrada operacional da proposta `proposta/fundacao-integral-pm-fund-001-003`. Consulte o HEAD pelo GitHub e leia os arquivos pelo SHA retornado. `main` contém apenas a base mínima; não usá-la para recuperar a fundação. Merge e ratificação não são necessários para discovery exploratório.

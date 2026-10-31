@@ -1,31 +1,34 @@
 {
   "schema_version": "continuidade-1",
   "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
-  "branch": "proposta/fundacao-integral-pm-fund-001-003",
-  "record_id": "CONT-REG-0001",
+  "branch": "proposta/discovery-02-consolidacao",
+  "record_id": "CONT-REG-0002",
   "revision": 1,
-  "record_path": "docs/continuidade/CONT-REG-0001.json",
+  "record_path": "docs/continuidade/CONT-REG-0002.json",
   "normative_effect": "AUSENTE",
+  "status": "CANDIDATO_DOCUMENTAL_SEM_C1_NORMATIVO",
+  "replaces_active_route": "CONT-REG-0001; registro e manifesto historicos preservados byte a byte, validaveis com --root docs/continuidade/historico/pre-d02/snapshot e manifesto historico",
+  "historical_manifest": "docs/continuidade/historico/pre-d02/MANIFESTO.json",
   "files": [
     {
       "path": "RETOMADA.md",
-      "sha256": "ea15db4c98254e01496083a016b9a62b4cbf21cfcc0ee9f13d845216569c684f",
-      "bytes": 2429
+      "sha256": "1e060f64797d26741a644b315ccc7159b9c7162059e845377e8c06d5229eafe0",
+      "bytes": 3821
     },
     {
-      "path": "docs/continuidade/CONT-REG-0001.json",
-      "sha256": "fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36",
-      "bytes": 1189
-    },
-    {
-      "path": "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
-      "sha256": "87739fa4430fe5a8b3108503b31d939b9a58b5599f9792569378057ae361c034",
-      "bytes": 4202
+      "path": "docs/continuidade/CONT-REG-0002.json",
+      "sha256": "e1166d9dd2940c12df8b24e29683069be519ae6cde3ee463c94910977ccc8d47",
+      "bytes": 1929
     },
     {
       "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
-      "sha256": "86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d",
-      "bytes": 3920
+      "sha256": "d2cd062d9296ef232781b4efbfef8f139eb10be38fd9c64765c4312032c08e2c",
+      "bytes": 8524
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "sha256": "c04090103c9e0684fda56d3b21ae4a8bf9c1a5828b8b6d6ccc7517ac08918f59",
+      "bytes": 3525
     }
   ]
 }
