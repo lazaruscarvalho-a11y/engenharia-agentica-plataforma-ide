@@ -1,0 +1,250 @@
+{
+  "schema_version": "d02-final-result-1",
+  "mission": {
+    "id": "PM-D02-CONSOL-001",
+    "revision": "R5",
+    "bytes": 75442,
+    "sha256": "ada7257fabb483c921ab3ead2eb6fe7db2d1ccb742502da28dfa9c33b7431da6"
+  },
+  "observed_at_utc": "2026-10-31 19:08:05 UTC",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/discovery-02-consolidacao",
+  "pull_request": {
+    "number": 7,
+    "url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/pull/7",
+    "draft": true,
+    "merged": false,
+    "base": "proposta/discovery-01-onboarding-agent-first",
+    "base_sha": "e37af725a162c577cfa9ffde286d0fcf69294429"
+  },
+  "content_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+  "content_tree": "40f49154cb8626a74d35c6435688df5ef89d1292",
+  "receipts_commit": "fffcfef7df7e09fdd53bc72e8c36e24b09521c1c",
+  "receipts_tree": "4246de68ea5bfd83e4c833fcd5f1ec2369ce20b9",
+  "gates": {
+    "A": "PASS",
+    "G": "PASS",
+    "F": "PASS",
+    "PS": "BLOQUEADO",
+    "PI": "BLOQUEADO",
+    "RG": "FAIL",
+    "RF": "BLOQUEADO",
+    "RN": "NOT_RUN",
+    "Z": "PASS"
+  },
+  "P": "BLOQUEADO",
+  "R": "FAIL",
+  "global": "COM_FALHAS",
+  "gate_basis": {
+    "A": "Independent prepublication freeze3 audit;44/44,171protected; no blocker then",
+    "G": "57 remote Buffer.equals/SHA256/blob; correct draft PR7/base,parent; content CI41231611766 success;171protected; no merge",
+    "F": "163 authentic remote originals;174 package files;73 canonical bodies in5 upload sources;571links326fragments; deterministic ZIP repeated/reopened and durable delivery",
+    "PS": "Login blocks native Sources inventory/content and configuration",
+    "PI": "PS dependency and unknown native text/concurrency; no edit",
+    "RG": "Known mandatory shared attempt-control violation R4-010 in second recovery, despite11/11 semantic criteria; first inconclusive preserved; no third recovery",
+    "RF": "Native PS/PI prerequisites absent; local package not substituted",
+    "RN": "No new real user conversation; no substitute agent; native prerequisites absent",
+    "Z": "Actual16 receipt files were persisted with conditional fast-forward and reobtained by immutable receipts_commit; byte equals, hashes and content preservation verified before this result was written"
+  },
+  "RG_finding": {
+    "id": "AUD-D02-SUP-001",
+    "severity": "MEDIO_OBRIGATORIO",
+    "state": "ABERTO_NAO_REMEDIAVEL_RETROATIVAMENTE",
+    "cause": "Coordinator did not propagate exhausted branch-route counter to second isolated recovery; agent/context change did not reset initial-plus-alternative limit",
+    "semantic_result": "PASS_11_OF_11_SEPARATE",
+    "next_control": "No third attempt in this mission; future new work must preserve known route/counters and explicit distinct scope, without renaming a retry"
+  },
+  "Z_proof": {
+    "operation_id": "PM-D02-R5-Z-PERSIST-001",
+    "semantics": "github_update_ref(expected_sha=991e56a96180afac435469f81dfc06498d6fa7b1,sha=receipts_commit,force=false) then immutable fetch_file base64",
+    "expected_old_sha": "991e56a96180afac435469f81dfc06498d6fa7b1",
+    "applied_sha": "fffcfef7df7e09fdd53bc72e8c36e24b09521c1c",
+    "result": "APLICADO_VERIFICADO",
+    "files_reobtained": 16,
+    "all_byte_equal": true,
+    "all_sha256_equal": true,
+    "all_git_blobs_equal": true,
+    "content_files_unchanged": 228,
+    "tree_nontruncated": true,
+    "files": [
+      {
+        "path": "auditorias/discovery-02-incorporacao/ACHADOS-SUPLEMENTO.json",
+        "bytes": 8271,
+        "sha256": "f1a9a68a6534c02b8ba5beab33dffcf1d3d0e10eb4b57911d7cfd8a5b5851ca0",
+        "git_blob_sha": "1ea54acb4ec83e0867052b4ca38f27c9df5a5c0f",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/AUDITORIA-SUPLEMENTO.md",
+        "bytes": 9129,
+        "sha256": "dd1f0dd0838f0e6b9db01a14f98cbfeedd2b9d3016b598ddbd9a8b2b005dbc9e",
+        "git_blob_sha": "14da4cde23dce875630e3142eb69962bde804123",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/CONTINUIDADE-AVALIACAO-INICIAL.json",
+        "bytes": 5706,
+        "sha256": "988fc196cb47e79a0a147a98441c0d52a94b79394409765163912f96e9455710",
+        "git_blob_sha": "8c11bca1479748b31a366f9c67e03e45c6d16466",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/DIARIO-OPERACOES.json",
+        "bytes": 6934,
+        "sha256": "0c38ceeb6f937f40a8fdfc53be1053ab6a409481349d2cd17879cd3fd200cf96",
+        "git_blob_sha": "ccbf4e0b41159f74d86a418d4eb80ca2b20a40d8",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/ORIGEM-PACOTE.json",
+        "bytes": 54008,
+        "sha256": "65357ba9cdb259a6272e78c28bd05840c422b20cfed374cd6100203a239b7257",
+        "git_blob_sha": "c2739fe3530ff6981cd7089fb1795ff902936233",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/RECIBO-CONFIGURACAO.json",
+        "bytes": 3480,
+        "sha256": "5cb7f571d7444d8d8b987971b796a2cf3e459b970a272716544c9910ed8664de",
+        "git_blob_sha": "812ce92d3b66e083c647c123478ab336fcb29207",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/RECIBO-CONTINUIDADE.json",
+        "bytes": 7074,
+        "sha256": "35785b77bf8a9abf8e0ed8414408417b2763b48d19bbf5f7f34287aa0b25b18c",
+        "git_blob_sha": "e8c375b8b8da6708e1378ae91bfc966a5806bb4d",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/RECIBO-PACOTE.json",
+        "bytes": 1361,
+        "sha256": "15dede5743d8e5b84486c00131dff9dcd8d2a0fdce4e5c9df4e370f0dc0467a4",
+        "git_blob_sha": "506ff479a5fb4ac3f59beea4c5752c8168bcbeba",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/RECIBO-PUBLICACAO.json",
+        "bytes": 23558,
+        "sha256": "f3c066cdb5c3227118e5efb451e5a732230a3ae9b758180804f58c6b4e831777",
+        "git_blob_sha": "a462351ae9d5a3a15160d292250e5ade2117faa2",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/RELATORIO.md",
+        "bytes": 10364,
+        "sha256": "b0c60c4a8b3eaeafe8c7c2b04b0d5c4dce53b75a03739bbaa2aa44d50957586d",
+        "git_blob_sha": "c0110fce589e7739b8c88d5d65f3934119aefd44",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/RG-TENTATIVA-1.md",
+        "bytes": 14483,
+        "sha256": "386b18d4dd1bb5cbd8a1a06174fbb83d86c3637f43e4a44b9ef4f18996449d56",
+        "git_blob_sha": "292311772931c8e038d661bfe1969cea5b0b968c",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/RG-TENTATIVA-2.md",
+        "bytes": 32618,
+        "sha256": "be2bd10a062e2e639b820d6d95f6b80023e15aa47c088d305aa370eb5eb1fbd1",
+        "git_blob_sha": "f5e3aca6e961b17bcbb68d426adfb4dc8f6bce8b",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/VERIFICACAO-PACOTE-RODADA1.json",
+        "bytes": 398,
+        "sha256": "a8be88ff94ea833d708a602bc7e260f871743172475d115864ef2dfee39ea65c",
+        "git_blob_sha": "38491848d4172f228a6f39701fedf594230131a2",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/VERIFICACAO-PACOTE.json",
+        "bytes": 1892,
+        "sha256": "eec0da31ed39a79ba64e3648adcb03cec033a78c392ead12f513c0f893c4f368",
+        "git_blob_sha": "6b5f976b20623a7ac4694d34fb26861d42d6ed0e",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/VETOR-PRE-PERSISTENCIA.json",
+        "bytes": 884,
+        "sha256": "5eaafa804b0b8ccb82511fd751a94272d7a488dfa7bf5a007e169089c88ba992",
+        "git_blob_sha": "259d3b236dbcf53ee9a94abfbaac402c1a3698bf",
+        "remote_byte_equal": true
+      },
+      {
+        "path": "auditorias/discovery-02-incorporacao/finalizar-pacote.py",
+        "bytes": 5740,
+        "sha256": "9f6e459e777512c875573f72e1d7190cbdda18b239c8bdce4c91990c8ac6aaca",
+        "git_blob_sha": "53583929ee0ee5450ba8d2b31262b77d1d4136be",
+        "remote_byte_equal": true
+      }
+    ],
+    "meaning": "Persists real outcomes including failures/blocked/NOT_RUN; does not approve other gates",
+    "own_persistence": "This result is a posterior file with no own digest/commit; its final immutable readback identity will be delivered in external durable verification, avoiding recursion"
+  },
+  "package": {
+    "revision": 2,
+    "durable_path": "C:/Users/Carvalhos/Documents/ChatGPT/D02-PM-R5-20261031/entrega-fontes-D02-v2/FONTES-D02.zip",
+    "bytes": 3841747,
+    "sha256": "d5a85f6be63850d8d9230349a786e23dcc1193ae663e350a29b5a736ed3bbd9e",
+    "manifest_sha256": "993f2a25d60b3a09295909099b3b44aeb0edd8ed8cab8c92c3efdfaa53db1def",
+    "source_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+    "posterior_receipts": "Separate supplement; not retroactively inside source ZIP",
+    "native_sources_applied": false,
+    "native_instructions_applied": false
+  },
+  "CI": {
+    "content_run": {
+      "id": 41231611766,
+      "event": "pull_request",
+      "conclusion": "success",
+      "head_sha": "991e56a96180afac435469f81dfc06498d6fa7b1"
+    },
+    "receipts_runs": [
+      {
+        "id": 41232673975,
+        "event": "pull_request",
+        "head_sha": "fffcfef7df7e09fdd53bc72e8c36e24b09521c1c",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/actions/runs/41232673975"
+      }
+    ],
+    "manual_reruns": 0,
+    "legacy_combined": "pending,total_count0,statuses[] is no legacy context; actual Actions check success"
+  },
+  "limits": {
+    "PGC_CT": "NAO_RATIFICADOS",
+    "ca_operacionais": "49 NOT_RUN",
+    "IDE": "NOT_IMPLEMENTED",
+    "applications_executed": false,
+    "source_original_R3_blueprint": "INACCESSIBLE; curated R5 dossier and substitute blueprint identified",
+    "signature": "No human signature/authorship proven by hashes",
+    "native_project_id_name_inventory_confirmed": true,
+    "native_account_workspace_visibility_content": "NOT_VERIFIED_LOGIN_REQUIRED",
+    "new_real_user_chat_created": false
+  },
+  "next_discovery": {
+    "entry": "docs/01-discovery/discovery-02/RETOMADA.md",
+    "content_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+    "pending": [
+      "D02-PEN-001",
+      "D02-PEN-002",
+      "D01-PEN-007",
+      "D01-PEN-005",
+      "D01-PEN-010"
+    ],
+    "question": "No cenário sintético escolhido, que evidências distinguem compreensão suficiente de uma lacuna que torna insegura a alteração pretendida, e como isso deve aparecer ao engenheiro?",
+    "answer_simulated": false
+  },
+  "human_remaining": [
+    "Apply and verify prepared Sources/Instructions in authenticated exact Project with backup/read-before-write and safe concurrency",
+    "Later initiate real user conversation for RN after actual prerequisites; record real result in authorized durable supplement"
+  ],
+  "independent_evidence": [
+    "AUDITORIA-INDEPENDENTE.md",
+    "AUDITORIA-SUPLEMENTO.md",
+    "ACHADOS-SUPLEMENTO.json"
+  ]
+}
