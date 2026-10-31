@@ -1,0 +1,26 @@
+{
+  "schema_version": "d02-gates-pre-persistence-1",
+  "mission": "PM-D02-CONSOL-001 R5",
+  "content_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+  "gates": {
+    "A": "PASS",
+    "G": "PASS",
+    "F": "PASS",
+    "PS": "BLOQUEADO",
+    "PI": "BLOQUEADO",
+    "RG": "FAIL",
+    "RF": "BLOQUEADO",
+    "RN": "NOT_RUN",
+    "Z": "NOT_RUN"
+  },
+  "P": "BLOQUEADO",
+  "R": "FAIL",
+  "global": "COM_FALHAS",
+  "phase": "EVENT_RESULTS_BEFORE_CANONICAL_RECEIPT_PERSISTENCE",
+  "Z_note": "Not claimed before actual immutable receipt commit and reread; final state will be separate posterior RESULTADO-FINAL.json without self digest/commit",
+  "ca_operacionais": "49 NOT_RUN",
+  "PGC_CT": "NAO_RATIFICADOS",
+  "native_mutations": 0,
+  "new_real_user_chat": false,
+  "RG_reason": "Known shared attempt-counter breach after semantic recovery; no third attempt; see procedural finding"
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "d02-continuity-receipt-1",
+  "mission": "PM-D02-CONSOL-001 R5",
+  "content_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+  "RG": "FAIL",
+  "RF": "BLOQUEADO",
+  "RN": "NOT_RUN",
+  "RG_scope": "This exact immutable Git snapshot and observed connector access only; not future account access, native Sources or real user conversation",
+  "attempts": [
+    {
+      "attempt": 1,
+      "agent": "/root/recuperacao_git",
+      "fork_turns": "none",
+      "initial_inputs": "repo/branch/commit/entry and generic recovery request; no semantic answers",
+      "result": "INCONCLUSIVO",
+      "reason": "Agent autonomously opened REVISAO and CONFIGURACAO evaluation rubrics; output semantics not used as isolated proof",
+      "report": "auditorias/discovery-02-incorporacao/RG-TENTATIVA-1.md",
+      "bytes": 14483,
+      "sha256": "386b18d4dd1bb5cbd8a1a06174fbb83d86c3637f43e4a44b9ef4f18996449d56"
+    },
+    {
+      "attempt": 2,
+      "agent": "/root/recuperacao_git_sem_rubrica",
+      "fork_turns": "none",
+      "initial_inputs": "repo/branch/commit/entry plus generic access segregation excluding evaluator files; no semantic answers or original dossier",
+      "result": "SEMANTIC_PASS_PROCEDURAL_FAIL",
+      "observable_method_change": "New context, product canonical owners only, evaluator materials inaccessible by task constraint; no chat/local sources; no later external data used for requested detail",
+      "followup": "Asked for fuller description of already recovered AX01..10/HUM03/HUM06 by ID only; no expected facts/answers supplied; same attempt, not a third recovery",
+      "report": "auditorias/discovery-02-incorporacao/RG-TENTATIVA-2.md",
+      "bytes": 32618,
+      "sha256": "be2bd10a062e2e639b820d6d95f6b80023e15aa47c088d305aa370eb5eb1fbd1",
+      "automatic_context": "System/developer instructions, tools/skills, user operational AGENTS, cwd/date and delegation; no root history (fork none). No dedicated memory queried; hidden mechanisms not certifiably absent.",
+      "source_channels": "GitHub connector fetch and fetch_file only; local file written only as output after recovery",
+      "sources": "13 canonical product/context files at exact SHA; manifest and D01 register partially read explicitly, not claimed integral; details in report",
+      "rubrics_opened": false,
+      "root_evaluation": [
+        {
+          "criterion": "D01-A-B",
+          "observation": "§3: reconciliação material R2; original integral não recuperado; limite não bloqueante",
+          "status": "PASS"
+        },
+        {
+          "criterion": "investigacao-evidencia",
+          "observation": "§4 HUM01/02 e §6: repo/commit/arquivo/linhas/contrato, contraevidências e escopo lido/não lido",
+          "status": "PASS"
+        },
+        {
+          "criterion": "execucao-local",
+          "observation": "§4.1: dúvida intransponível,tentativas autorizadas,alternativa direta,permissão específica,ambiente/dados/comandos/efeitos/insumos; veto missão",
+          "status": "PASS"
+        },
+        {
+          "criterion": "sem-refatoracao",
+          "observation": "§4 HUM04/AX01: nenhuma refatoração no onboarding; posteriores mudanças só escopo autorizado",
+          "status": "PASS"
+        },
+        {
+          "criterion": "dez-axiomas",
+          "observation": "§5 AX01..10 individualizados com direção/interpretação proposta,dependências e ausência de capacidade/tecnologia aprovada",
+          "status": "PASS"
+        },
+        {
+          "criterion": "topologia",
+          "observation": "§4 HUM05: Micro individual,Meso específico sigla/conta e submodules,Macro Git/Meso submodules;sem sync/acesso/redistribuição implícitos",
+          "status": "PASS"
+        },
+        {
+          "criterion": "permissoes",
+          "observation": "§4.2 oito operações distintas;inicial vs legado posterior;exterior informado/autorizado;derivado legítimo;provisório/originais/modalidades;exclusão expressa",
+          "status": "PASS"
+        },
+        {
+          "criterion": "mesmo-ciclo-drift",
+          "observation": "§4 HUM08: mesmo ciclo commit/PR;detectar,invalidar,reconciliar,verificar;multirepo ponteiros sem atomicidade física",
+          "status": "PASS"
+        },
+        {
+          "criterion": "natureza-autoridade",
+          "observation": "§3/4 HUM06 editorial,propostas técnicas não humanas,nomes futuros propostos,original não autenticado",
+          "status": "PASS"
+        },
+        {
+          "criterion": "normas-CA",
+          "observation": "§3: PGC/CT NÃO RATIFICADOS,49 CA NOT_RUN,harness não IDE",
+          "status": "PASS"
+        },
+        {
+          "criterion": "pendencias-proximo",
+          "observation": "§6: D02PEN001..006,D01PEN007/005/010 e pergunta sem resposta simulada",
+          "status": "PASS"
+        }
+      ],
+      "material_decision_errors_identified": 0,
+      "isolation_limit": "Procedural isolation observed through fresh context and source list; not absolute absence of every platform context or independent human authentication",
+      "procedural_failure": "Shared route exhaustion was not propagated. RG1 consumed encoded D02 branch request400 and valid ref alternative; RG2 repeated encoded route without observable progress. New agent/context did not reset total initial-plus-alternative counter."
+    }
+  ],
+  "RF_dependency": "PS/PI not proven; local package cannot substitute native Sources; no RF execution",
+  "RN_dependency": "User did not initiate a new real conversation in exact Project; PS/PI also blocked; explicit RN NOT_RUN per PM15",
+  "RN_simulated": false,
+  "new_user_conversation_created": false,
+  "recovery_attempt_limit": "Two recovery contexts were created; embedded repeated branch-resolution actions violated the shared initial-plus-one-alternative rule. Prior claim of compliance was withdrawn. No third recovery context or exhausted-route retry will be performed.",
+  "semantic_recovery": "PASS_11_OF_11_SEPARATE_FROM_PROCEDURAL_GATE",
+  "procedural_result": {
+    "status": "FAIL",
+    "clause": "R4-010 / R4-039",
+    "finding": "AUD-D02-SUP-001",
+    "severity": "MEDIO_OBRIGATORIO_RG",
+    "cause": "Shared route exhaustion was not propagated. RG1 consumed encoded D02 branch request400 and valid ref alternative; RG2 repeated encoded route without observable progress. New agent/context did not reset total initial-plus-alternative counter.",
+    "impact": "Cannot certify RG procedure; no semantic decision error identified. G/F bytes and prior A snapshot not retroactively disproved.",
+    "remediation": "No third recovery attempt or repeated exhausted route. Document actual breach; future assessment must have genuine new authorized scope and shared operation counters, not a renamed retry.",
+    "state": "OPEN_NOT_RETROACTIVELY_REMEDIABLE",
+    "coordinator_acknowledged": true
+  },
+  "assessment_history": "Initial coordinator summary RG PASS retified after independent procedural review; positive semantic observations retained without masking failure."
+}

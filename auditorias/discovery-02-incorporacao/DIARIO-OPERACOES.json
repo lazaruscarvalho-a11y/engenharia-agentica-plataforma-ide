@@ -1,0 +1,129 @@
+{
+  "schema_version": "d02-operation-journal-1",
+  "account": "lazaruscarvalho-a11y",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "authority": "Pedido direto vigente do usuario; escopo documental branch/PR sem merge e fallback nativo",
+  "operations": [
+    {
+      "operation_id": "PM-D02-R5-A-GUARD-001",
+      "destination": "local candidate",
+      "expected": "A PASS consistent",
+      "result": "REFUSED_BEFORE_ANY_REMOTE_WRITE",
+      "observed": "Audit output top-level stale NOT_RUN conflicted with final assessment; auditor updated own output and preserved history"
+    },
+    {
+      "operation_id": "PM-D02-R5-A-GUARD-002",
+      "destination": "local candidate",
+      "expected": "A PASS freeze3 and no mandatory finding open",
+      "result": "PASS",
+      "observed": "A and candidate_review reconciled by independent auditor; 44 frozen bytes unchanged"
+    },
+    {
+      "operation_id": "PM-D02-R5-G-OBJECTS-001",
+      "destination": "private repository Git objects",
+      "expected": "57 allowed paths against base tree7c580558",
+      "result": "57_BLOBS_AND_TREE_COMMIT_SHA_VERIFIED",
+      "actual_content_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+      "actual_tree": "40f49154cb8626a74d35c6435688df5ef89d1292"
+    },
+    {
+      "operation_id": "PM-D02-R5-G-REF-CREATE-001",
+      "destination": "refs/heads/proposta/discovery-02-consolidacao",
+      "expected": "branch absent; D01 parent e37af725",
+      "semantics": "create-if-absent",
+      "result": "APLICADO_VERIFICADO"
+    },
+    {
+      "operation_id": "PM-D02-R5-G-PR-001",
+      "destination": "PR7",
+      "expected": "draft against D01 branch",
+      "result": "APLICADO_VERIFICADO",
+      "created_at_utc": "2026-10-31T18:53:48Z",
+      "url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/pull/7"
+    },
+    {
+      "operation_id": "PM-D02-R5-G-READBACK-001",
+      "destination": "content immutable commit",
+      "result": "57 Buffer.equals/SHA256/blob PASS;171 protected mode/blob unchanged;165 base64 byte reads"
+    },
+    {
+      "operation_id": "PM-D02-R5-G-CI-001",
+      "destination": "GitHub Actions run41231611766",
+      "result": "completed success",
+      "event": "pull_request",
+      "manual_rerun": false
+    },
+    {
+      "operation_id": "PM-D02-R5-F-ORIGIN-001",
+      "destination": "local remote cache origin proof",
+      "result": "INITIAL_METADATA_WRITE_NOT_MATERIALIZED",
+      "cause": "Node tool rejected oversized metadata code; first packaging failed before payload directory creation because origin proof missing",
+      "failure_counter": 1
+    },
+    {
+      "operation_id": "PM-D02-R5-F-ORIGIN-002",
+      "destination": "same origin proof",
+      "result": "APPLIED_VERIFIED",
+      "method_change": "Compact identity fields for228 remote blobs, preserve selected163 paths and authenticated provenance; confirmed target package output absent before retry",
+      "failure_counter": 2
+    },
+    {
+      "operation_id": "PM-D02-R5-F-EMIT-001",
+      "destination": "entrega-fontes-D02-v1",
+      "result": "EMITTED_AND_PRESERVED; later manual navigation check FAIL on2 relative links",
+      "notes": "All163 raw originals matched remote; upload coverage no missing critical unit and no evaluator leak"
+    },
+    {
+      "operation_id": "PM-D02-R5-F-LINKS-002",
+      "destination": "new entrega-fontes-D02-v2",
+      "result": "PASS",
+      "method_change": "Keep v1; copy to new version, map standalone manual links to immutable URLs; update package manifest and remote proof; regenerate/reopen two deterministic ZIPs",
+      "verification": "571 mapped links,326 fragments/lines,0 failures;174 files; raw163 originals equal remote cache"
+    },
+    {
+      "operation_id": "PM-D02-R5-NATIVE-READ-001",
+      "destination": "Project g-p-6ae4fdf0eb688191bb6536420421ef69",
+      "result": "LOGIN_REQUIRED_NO_MUTATION",
+      "attempts": 1,
+      "follow_on": "manual fallback; no credentials entered"
+    },
+    {
+      "operation_id": "PM-D02-R5-RG-001",
+      "destination": "fresh recovery agent via Git",
+      "result": "INCONCLUSIVO",
+      "cause": "Agent autonomously read evaluation rubrics in REVISAO/CONFIGURACAO; semantic report preserved, insufficient blinding"
+    },
+    {
+      "operation_id": "PM-D02-R5-RG-002",
+      "destination": "fresh recovery agent via Git only, no evaluation docs",
+      "result": "FAIL_SHARED_ATTEMPT_CONTROL;SEMANTIC_11_OF_11_PASS",
+      "method_change": "New context and explicit access segregation of evaluator documents, no expected answers supplied; same maximum2 attempts, not RN",
+      "proof": "auditorias/discovery-02-incorporacao/RG-TENTATIVA-2.md",
+      "followup": "Detail of already recovered IDs only, no answers or additional source queries; not a third attempt",
+      "procedural_breach": {
+        "status": "FAIL",
+        "clause": "R4-010 / R4-039",
+        "finding": "AUD-D02-SUP-001",
+        "severity": "MEDIO_OBRIGATORIO_RG",
+        "cause": "Shared route exhaustion was not propagated. RG1 consumed encoded D02 branch request400 and valid ref alternative; RG2 repeated encoded route without observable progress. New agent/context did not reset total initial-plus-alternative counter.",
+        "impact": "Cannot certify RG procedure; no semantic decision error identified. G/F bytes and prior A snapshot not retroactively disproved.",
+        "remediation": "No third recovery attempt or repeated exhausted route. Document actual breach; future assessment must have genuine new authorized scope and shared operation counters, not a renamed retry.",
+        "state": "OPEN_NOT_RETROACTIVELY_REMEDIABLE",
+        "coordinator_acknowledged": true
+      }
+    },
+    {
+      "operation_id": "PM-D02-R5-RG-REVIEW-001",
+      "destination": "continuity receipt/vector",
+      "result": "RETIFIED_TO_FAIL",
+      "actor": "coordinator after independent audit",
+      "observed": "No third recovery; semantic evidence retained separate; globalCOM_FALHAS"
+    }
+  ],
+  "limits": "No timeout occurred during remote mutations; no uncertain publication was repeated. Timestamps not exposed are omitted, not invented. Later CAS receipt persistence recorded in its subsequent proof.",
+  "connector_route_observations": {
+    "baseline_D01": "One invalid encoded branch route then collection success in initial baseline verification",
+    "recovery_D02": "Each of two recovery agents disclosed one invalid encoded branch route; alternate search/ref reads succeeded. Two D02 invalid-route failures total, no third request of that route. No mutation involved.",
+    "corrected_interpretation": "R4-010 counts total attempts initial plus one alternative, not only failed encoded-route requests. The RG2 repeated route exceeded the already consumed D02 route counter; changing agent/context did not reset it. Initial counting was wrong and is explicitly withdrawn."
+  }
+}

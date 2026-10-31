@@ -1,0 +1,1545 @@
+{
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "repository_id": 1438986621,
+  "visibility": "private",
+  "authenticated_login": "lazaruscarvalho-a11y",
+  "content_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+  "content_tree": "40f49154cb8626a74d35c6435688df5ef89d1292",
+  "origin_channel": "GitHub connector fetch_file(ref=immutable content_commit, encoding=base64); remote tree complete, compact identity fields preserved",
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "sha": "e5c54d9162a3054ee5ad983c71e934782fbed69e",
+      "size": 274
+    },
+    {
+      "path": ".github/workflows/fundacao.yml",
+      "mode": "100644",
+      "sha": "c5c2a7b9c2dc24290a182e40cc0aec218126960f",
+      "size": 610
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "sha": "b263fdaa949c13e46ff920c669a546cc27d1e500",
+      "size": 49
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "sha": "aa990775ec12929ac94fbaa1789c4ca528e8f607",
+      "size": 3920
+    },
+    {
+      "path": "ARCHITECTURE_BLUEPRINT.MD",
+      "mode": "100644",
+      "sha": "7015dc526c83720116add3d7da32de4b5d7fb018",
+      "size": 3755
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "mode": "100644",
+      "sha": "b37eb5c381a23dd161f70b6d19f9070d9a846d97",
+      "size": 11742
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "sha": "76eaf2e542c2909f2f3642a86873bd220747295b",
+      "size": 2459
+    },
+    {
+      "path": "RETOMADA.md",
+      "mode": "100644",
+      "sha": "a90434bdbf32d92b8cafe7749dd3946e071f501c",
+      "size": 3821
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.2_candidata_ratificacao.zip",
+      "mode": "100644",
+      "sha": "c4af413f0f552df18bd96094920bf272a6e1b54e",
+      "size": 75550
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.3_candidata_ratificacao.zip",
+      "mode": "100644",
+      "sha": "3bab4af9afe14641f045c856061fe83f286cebdd",
+      "size": 279050
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.3_candidata_ratificacao.zip.sha256",
+      "mode": "100644",
+      "sha": "dceaf11d3a9fa4b1f3557fde1c399a94c0f3b505",
+      "size": 107
+    },
+    {
+      "path": "acervo/SHA256SUMS.txt",
+      "mode": "100644",
+      "sha": "836bd7c2669f83690062ae46c5335949a1f5badd",
+      "size": 107
+    },
+    {
+      "path": "auditorias/discovery-01-r2/AUDITORIA-INDEPENDENTE.md",
+      "mode": "100644",
+      "sha": "ae554ba93ab11758024a83a7e85126dd198db262",
+      "size": 27288
+    },
+    {
+      "path": "auditorias/discovery-01-r2/CANDIDATO-CONGELADO.json",
+      "mode": "100644",
+      "sha": "83c2318422a55f367184c9ad48523ae581d4ccab",
+      "size": 3063
+    },
+    {
+      "path": "auditorias/discovery-01-r2/COBERTURA.json",
+      "mode": "100644",
+      "sha": "16f5044266882327f38d943a3b01b13210ee7ddc",
+      "size": 48756
+    },
+    {
+      "path": "auditorias/discovery-01-r2/CONTINUIDADE-SUBAGENTE.md",
+      "mode": "100644",
+      "sha": "579ec7d93868f97d559d199f377537913eec4611",
+      "size": 5088
+    },
+    {
+      "path": "auditorias/discovery-01-r2/DOSSIE-REPRODUZIDO.md",
+      "mode": "100644",
+      "sha": "60d936da31aa67eb9dc888f0658116a287fc06b7",
+      "size": 22738
+    },
+    {
+      "path": "auditorias/discovery-01-r2/INTEGRIDADE-LOCAL.json",
+      "mode": "100644",
+      "sha": "7da30520d975af5734c2695d6eebb8ffe4e4b5aa",
+      "size": 2111
+    },
+    {
+      "path": "auditorias/discovery-01-r2/RECIBO-PUBLICACAO.json",
+      "mode": "100644",
+      "sha": "f538b7fbe49f2185fd0a8afc9541ae767ea8ed50",
+      "size": 38342
+    },
+    {
+      "path": "auditorias/discovery-01-r2/RELATORIO.md",
+      "mode": "100644",
+      "sha": "35a57281ce85ae85d9a828d308da2087605e6578",
+      "size": 6762
+    },
+    {
+      "path": "auditorias/discovery-01-r2/TESTES-DOCUMENTAIS.json",
+      "mode": "100644",
+      "sha": "34a714e71ce6d461307bb6697fb2f9ed63fce3ce",
+      "size": 4522
+    },
+    {
+      "path": "auditorias/discovery-01-r2/verificar_integridade.mjs",
+      "mode": "100644",
+      "sha": "b6a1f26a8224a1f9a06f87f81a409670671c93ca",
+      "size": 2551
+    },
+    {
+      "path": "auditorias/discovery-01-r2/verificar_r2.mjs",
+      "mode": "100644",
+      "sha": "9bbd6a1f901cfb2f42ac906ff4626464cb2e3318",
+      "size": 6976
+    },
+    {
+      "path": "auditorias/discovery-01/RECIBO-PUBLICACAO.json",
+      "mode": "100644",
+      "sha": "8e635051c8999e4a34539ad4b6f00d43c77d4948",
+      "size": 32875
+    },
+    {
+      "path": "auditorias/discovery-01/REVISAO-LOCAL.json",
+      "mode": "100644",
+      "sha": "28ae1ced60a98a651b8d18321684c5e896b1cfb6",
+      "size": 1866
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/ACHADOS.json",
+      "mode": "100644",
+      "sha": "726caf575c777dfe71315208c13d40babe697a0e",
+      "size": 11179
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/AUDITORIA-INDEPENDENTE.md",
+      "mode": "100644",
+      "sha": "6bc23c96ccdecc4116fc5cf25fa667b99102e8b4",
+      "size": 13687
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/AUTORIA.json",
+      "mode": "100644",
+      "sha": "99565c26f64de5f7e0711fb1796a8c196f156b5f",
+      "size": 10289
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/BASELINE-REMOTA.json",
+      "mode": "100644",
+      "sha": "3e9bb08e8ef1b8a6838d93308eb740bc7edaf3b7",
+      "size": 34233
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/BLUEPRINT-ORIGEM.md",
+      "mode": "100644",
+      "sha": "5e76c9e2fa60db8951089865bbc6c622720ae1ef",
+      "size": 1507
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO-1.json",
+      "mode": "100644",
+      "sha": "cfe52f8ed034298f85f88b48dea09c7771e264db",
+      "size": 12663
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO-2.json",
+      "mode": "100644",
+      "sha": "ce0ae9ef32dbc030c870293228600f6855613697",
+      "size": 13071
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO.json",
+      "mode": "100644",
+      "sha": "5740d6aeed5f70963704fd74e1b91b4601f42574",
+      "size": 13158
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/CENARIOS-AUDITORIA.json",
+      "mode": "100644",
+      "sha": "f006cccc4bc4b118a27276f6236a2722196ded90",
+      "size": 178669
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/CENARIOS-PREDEFINIDOS.json",
+      "mode": "100644",
+      "sha": "017f9505288a8f651767d05182b581f507d8e444",
+      "size": 128849
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/IDENTIDADE-ENTRADAS.json",
+      "mode": "100644",
+      "sha": "6a0cb4a2d8707ac109186dc83a55f4d471fe65ae",
+      "size": 471
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/INSPECAO-CI.json",
+      "mode": "100644",
+      "sha": "c7acf0f6ba7936f0deebbb8024284005c09f2fe0",
+      "size": 5733
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/OBSERVACOES-E-OPERACOES.json",
+      "mode": "100644",
+      "sha": "1e64b768755b5adc2bb226252e15a93746851f88",
+      "size": 3085
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/ORACULOS-PREVIOS.json",
+      "mode": "100644",
+      "sha": "29bda35256e980f54d543176bcdc4fb687586965",
+      "size": 912
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/TESTES-DELTA-FREEZE3.json",
+      "mode": "100644",
+      "sha": "2893ee66c356202782d3140c848f23ad08d1f057",
+      "size": 545
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/TESTES-DOCUMENTAIS.json",
+      "mode": "100644",
+      "sha": "daf0b9c304754f7aae43c9fe20208b34c7a6bc37",
+      "size": 198320
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/TESTES-FREEZE2.json",
+      "mode": "100644",
+      "sha": "6b52195d871264d2a05f66751e58c567d4cf6b75",
+      "size": 198320
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/TESTES-HERDADOS-RESUMO.json",
+      "mode": "100644",
+      "sha": "e67b28ce9c7dcdfa450a274429697628fc020a9b",
+      "size": 7284
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/TESTES-RODADA-INICIAL.json",
+      "mode": "100644",
+      "sha": "6a7e3690e5657ee698e852f5ac175782d602ecad",
+      "size": 199172
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/empacotar-fontes.py",
+      "mode": "100644",
+      "sha": "730b88994a74bdf8f7a8daf835947c8e7947b69e",
+      "size": 10797
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/entradas/MATRIZ-CORRECOES-74.md",
+      "mode": "100644",
+      "sha": "712b3334c11ec4f786eafb8a3318083a32a5b3a8",
+      "size": 34636
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md",
+      "mode": "100644",
+      "sha": "7d4f0989ae48d9239c2b220488a1b3da8c0d025f",
+      "size": 75442
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/entradas/RELATORIO-LIMITACOES-E-VERIFICACAO.md",
+      "mode": "100644",
+      "sha": "5f0b645f36ff0b3738c43cfadbabb141f3637b82",
+      "size": 6151
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/verificador-freeze1.mjs.snapshot",
+      "mode": "100644",
+      "sha": "78b8f9819e7808d5648055756813cb269682f913",
+      "size": 7237
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/verificar-documentos.mjs",
+      "mode": "100644",
+      "sha": "a6f9477879246593c445cb00f24e07453c6e2f7d",
+      "size": 7265
+    },
+    {
+      "path": "auditorias/fundacao-integral/AUDITORIA-CODIGO.md",
+      "mode": "100644",
+      "sha": "8f35c0102d73ed4db1512a90c8dcd95efce965b8",
+      "size": 13782
+    },
+    {
+      "path": "auditorias/fundacao-integral/AUDITORIA-CONTEXTO.md",
+      "mode": "100644",
+      "sha": "c6a409e689c7a26f68ab465a30b228520915d895",
+      "size": 22525
+    },
+    {
+      "path": "auditorias/fundacao-integral/AUDITORIA-PRODUTO.md",
+      "mode": "100644",
+      "sha": "9599c9e5072ecd4967ed3a2ddcbe1813bf43ffb8",
+      "size": 16875
+    },
+    {
+      "path": "auditorias/fundacao-integral/INVENTARIO.md",
+      "mode": "100644",
+      "sha": "bebd606a42b6c7faa02115900a4b164342187028",
+      "size": 3839
+    },
+    {
+      "path": "auditorias/fundacao-integral/MATRIZ-COBERTURA.md",
+      "mode": "100644",
+      "sha": "dd97af3f813c445e0b7b2b629dcd33f8852d1979",
+      "size": 15106
+    },
+    {
+      "path": "auditorias/fundacao-integral/RECIBO-PUBLICACAO.json",
+      "mode": "100644",
+      "sha": "08abd7b0579ccb627241aee1eb64c31d403b609a",
+      "size": 2918
+    },
+    {
+      "path": "auditorias/fundacao-integral/RELATORIO-FINAL.md",
+      "mode": "100644",
+      "sha": "c9417c70e09cc87cc9b7cc6b887d96440d76c888",
+      "size": 6988
+    },
+    {
+      "path": "auditorias/fundacao-integral/adversariais.txt",
+      "mode": "100644",
+      "sha": "353d9a94b40fcc2991c2a9ac6edd69d9ef9a8c03",
+      "size": 2584
+    },
+    {
+      "path": "auditorias/fundacao-integral/auditor-pgc.txt",
+      "mode": "100644",
+      "sha": "3afd22d87132f9e5e43e0cfd2bc866925122cd79",
+      "size": 20
+    },
+    {
+      "path": "auditorias/fundacao-integral/baseline-remoto.json",
+      "mode": "100644",
+      "sha": "2462cd2aa809d7f70b40015c97d4eb3ab64c3a40",
+      "size": 13733
+    },
+    {
+      "path": "auditorias/fundacao-integral/cas-publicacao-inicial.json",
+      "mode": "100644",
+      "sha": "db0bfdafd607468ea57606d4983cafa5ef0262b4",
+      "size": 1807
+    },
+    {
+      "path": "auditorias/fundacao-integral/catalogo-pgc.txt",
+      "mode": "100644",
+      "sha": "6c2504aaff6f25eb404efbd9191d79175fac4384",
+      "size": 26
+    },
+    {
+      "path": "auditorias/fundacao-integral/cobertura.json",
+      "mode": "100644",
+      "sha": "5351195c13800fe8ea6ae02230be8e3d734a65eb",
+      "size": 20281
+    },
+    {
+      "path": "auditorias/fundacao-integral/contexto-rechecagem.json",
+      "mode": "100644",
+      "sha": "d29235c1e094f3341e8f78da8fee67d06a76292e",
+      "size": 9043
+    },
+    {
+      "path": "auditorias/fundacao-integral/demonstracao-persistencia.json",
+      "mode": "100644",
+      "sha": "bd0047be2e9033251f921e08c8ab5c8c7e1e164d",
+      "size": 1208
+    },
+    {
+      "path": "auditorias/fundacao-integral/documental.txt",
+      "mode": "100644",
+      "sha": "7d4ab82aa1c9d82b23ae35bbcdb860106868565a",
+      "size": 26173
+    },
+    {
+      "path": "auditorias/fundacao-integral/execucoes.json",
+      "mode": "100644",
+      "sha": "a12cae32b98649d607d3daed9c1ece7a3d081786",
+      "size": 1866
+    },
+    {
+      "path": "auditorias/fundacao-integral/extensao.txt",
+      "mode": "100644",
+      "sha": "efeb904fdbc4309a56f4ebd036cbb9e4d2eeeef4",
+      "size": 2272
+    },
+    {
+      "path": "auditorias/fundacao-integral/inspecao-remota.json",
+      "mode": "100644",
+      "sha": "43b3c569e87675375eb06092c16e48ada0126294",
+      "size": 5304
+    },
+    {
+      "path": "auditorias/fundacao-integral/pacote-chatgpt-manifesto.json",
+      "mode": "100644",
+      "sha": "760ad0cc1f98af19ee0352b578bfeda409cc5c35",
+      "size": 8339
+    },
+    {
+      "path": "auditorias/fundacao-integral/piloto.txt",
+      "mode": "100644",
+      "sha": "d11f82f5cb3cd0446cf8814340ee8ba4bdd6cd00",
+      "size": 1910
+    },
+    {
+      "path": "auditorias/fundacao-integral/regressoes-pgc.txt",
+      "mode": "100644",
+      "sha": "ec746eb64206d9eca524948d86fa6072baad77fe",
+      "size": 1248
+    },
+    {
+      "path": "auditorias/fundacao-integral/revalidacao-final.json",
+      "mode": "100644",
+      "sha": "be8f09bdfef46cfa689007e260b3a9cbb4ca7267",
+      "size": 659
+    },
+    {
+      "path": "auditorias/fundacao-integral/test_adversarial.py",
+      "mode": "100644",
+      "sha": "21c54e5163bad923d9a49079a0f896c7f1c607ad",
+      "size": 12301
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/RELATORIO.md",
+      "mode": "100644",
+      "sha": "b64b8eeb365e27748a7708646428e31405dc0b9a",
+      "size": 6734
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/conector-cas-real.json",
+      "mode": "100644",
+      "sha": "8d46d71e0af5f49acf845ea043d2d6251a1d8fbd",
+      "size": 1065
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/retomada-processo-isolado.json",
+      "mode": "100644",
+      "sha": "fdf1533d6877bd0f23a7236c0c7c2e889b27151c",
+      "size": 295
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/testes-locais.txt",
+      "mode": "100644",
+      "sha": "bce16b9d58eabed6927c671585c6285e74b5d325",
+      "size": 1891
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md",
+      "mode": "100644",
+      "sha": "b8e8a0d2a4e2a23199ee60ba742a04b028013ec5",
+      "size": 8187
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/SHA256-IMPORTACAO.txt",
+      "mode": "100644",
+      "sha": "d92e487e96d25be92bd26fa20a27af12007b5346",
+      "size": 3932
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/integridade.json",
+      "mode": "100644",
+      "sha": "2c868a82be0dd0e4504b424f877d91c2f691591f",
+      "size": 1068
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/reexecucao.json",
+      "mode": "100644",
+      "sha": "b9ce4bcb5215dc9d318a6b7b67c6011d5e36960b",
+      "size": 2234
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/relatorio-estatico-reexecutado.md",
+      "mode": "100644",
+      "sha": "5d9e9c515e71d77e9e3e3b5ee6965c0403edd391",
+      "size": 6770
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/verificar_importacao.py",
+      "mode": "100644",
+      "sha": "c432c6e31df069a32112b241024966953d73aa91",
+      "size": 1880
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/GATES-PGC.json",
+      "mode": "100644",
+      "sha": "5cb0171f599566f8ac11679201694fcc95b5333f",
+      "size": 36217
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PARECER-INDEPENDENTE.txt",
+      "mode": "100644",
+      "sha": "67fb897450458d999c81d2864c206a4dde509b58",
+      "size": 2397
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PROVA-CHAT-INDEPENDENTE.json",
+      "mode": "100644",
+      "sha": "55bea9f52efa6ba8170d228dcaf43481dc8a3e62",
+      "size": 9926
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PROVA-FONTES-NATIVAS.json",
+      "mode": "100644",
+      "sha": "2314ab552822942dbcf49006bd1f413ca8e7c611",
+      "size": 5760
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PROVA-PROJETO-CHATGPT.json",
+      "mode": "100644",
+      "sha": "7605fa0d8a639a0ea88f6377b5ea969f448330d8",
+      "size": 9379
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/RELATORIO-FINAL.txt",
+      "mode": "100644",
+      "sha": "a5a0e42f0f3b94feee93432bc233d39cfaf76601",
+      "size": 10614
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/ci-b010-linux.log",
+      "mode": "100644",
+      "sha": "6061e04100823afa6a6e7d0cc7c31f10be87ca33",
+      "size": 18936
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/pacote-fontes-manifesto.json",
+      "mode": "100644",
+      "sha": "d424aa3537d2c3d65f72d9f9940b3bca3ad355c6",
+      "size": 9398
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/pacote-negativos.json",
+      "mode": "100644",
+      "sha": "1c90c1bcda6e57d6692f4d8492bee3fc4a212f0e",
+      "size": 677
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/adversariais.stderr.txt",
+      "mode": "100644",
+      "sha": "506917a117e0cdccc6dd3b39aff525e571811309",
+      "size": 2584
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/adversariais.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/catalogo-estatico.stderr.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/catalogo-estatico.stdout.txt",
+      "mode": "100644",
+      "sha": "6c2504aaff6f25eb404efbd9191d79175fac4384",
+      "size": 26
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/extensao.stderr.txt",
+      "mode": "100644",
+      "sha": "b18df4323397d583c5c334081bd946d6d7332c20",
+      "size": 2272
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/extensao.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/fundacao-estatica-delta.stdout.txt",
+      "mode": "100644",
+      "sha": "b30c35e6910ee5034f5c7d678204b89a2473fe45",
+      "size": 27121
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/fundacao-estatica.stderr.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/fundacao-estatica.stdout.txt",
+      "mode": "100644",
+      "sha": "5b87db11467e09334fae7b3410a5c88e61bfe583",
+      "size": 26647
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/pgc-estatico.stderr.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/pgc-estatico.stdout.txt",
+      "mode": "100644",
+      "sha": "3afd22d87132f9e5e43e0cfd2bc866925122cd79",
+      "size": 20
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/piloto.stderr.txt",
+      "mode": "100644",
+      "sha": "d11f82f5cb3cd0446cf8814340ee8ba4bdd6cd00",
+      "size": 1910
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/piloto.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/regressao-pgc.stderr.txt",
+      "mode": "100644",
+      "sha": "e63f646d82d5f361659686390b6a9b9b8ac1ad23",
+      "size": 1248
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/regressao-pgc.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/resultado.json",
+      "mode": "100644",
+      "sha": "efce1fc453911f2b3f540d077988f57fada356a3",
+      "size": 4299
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/retomada.stderr.txt",
+      "mode": "100644",
+      "sha": "a3eaa2a01e341b5c9e925594661ea02dd5866ad1",
+      "size": 1044
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/retomada.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/snapshot-retomada.stderr.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/snapshot-retomada.stdout.txt",
+      "mode": "100644",
+      "sha": "0d08d8c5678ac861f1a50a2a75e938b8798732b4",
+      "size": 732
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md",
+      "mode": "100644",
+      "sha": "5f59fe2b43a96b8df91740a018dc51e7b29beb35",
+      "size": 3515
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/SHA256-REVISAO.txt",
+      "mode": "100644",
+      "sha": "8078b648d58ed1fd13c810dfe1ef641176b5360e",
+      "size": 7978
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/comparacao-fontes.diff",
+      "mode": "100644",
+      "sha": "434f91830954dcdd7ca867fb66a537f6de74c711",
+      "size": 50721
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/resultados.json",
+      "mode": "100644",
+      "sha": "1d5e532d6bd6143747f9177a6379aa9fe7cb8ccc",
+      "size": 683
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/testes-documentais.txt",
+      "mode": "100644",
+      "sha": "ba930c3918e72d2f25f4947095232a1d9a6f68dd",
+      "size": 1233
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/verificar_revisao.py",
+      "mode": "100644",
+      "sha": "4c81908d566e130c6783888e2acdda5e9086e66a",
+      "size": 2073
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "mode": "100644",
+      "sha": "33db43725d92cdc82f64ec2c5790a8f1f7f2a6f2",
+      "size": 7704
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/PGC-001.md",
+      "mode": "100644",
+      "sha": "305deba10a36b047f01ebc231a9951f47b68a1d7",
+      "size": 16758
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "mode": "100644",
+      "sha": "e7e2146f01073727ca6eb46b51328f601524315d",
+      "size": 1756
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md",
+      "mode": "100644",
+      "sha": "9e0951c66dddd0cc36ca0e1e833272b7492d9819",
+      "size": 5671
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "mode": "100644",
+      "sha": "60556f99c5ed4da708c168115206e9011812e26e",
+      "size": 3587
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/SHA256SUMS.txt",
+      "mode": "100644",
+      "sha": "5c531d5ce171bd8f9fb6bd4dc227b757aed1efe7",
+      "size": 1741
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "mode": "100644",
+      "sha": "0fdbe2fe021539b12eef747e3c251f831b4c65a4",
+      "size": 12076
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "mode": "100644",
+      "sha": "d5b47213b5a6d6fb08b36535c57ca4c8f157d148",
+      "size": 11827
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "mode": "100644",
+      "sha": "98409771e7f8bc15a0af6af7704f34616fac0952",
+      "size": 13544
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "mode": "100644",
+      "sha": "7a60e183a9f377e301535feeed8aeb934083faf0",
+      "size": 7238
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "mode": "100644",
+      "sha": "30318700e329f3ba0545fd3db1f9953b91de2251",
+      "size": 10294
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "mode": "100644",
+      "sha": "f43f4997e78f3695be9f829d825d32f2dafc89e3",
+      "size": 7850
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "mode": "100644",
+      "sha": "3409537ec6c49d9c7a42b1946bc104a13abc9158",
+      "size": 7081
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "mode": "100644",
+      "sha": "e5169766602de8657417557c5ca1287c8e530f18",
+      "size": 14370
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "mode": "100644",
+      "sha": "cdccc9dc8cc1612fb0ade6581b42ab69e1d498bf",
+      "size": 8991
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "mode": "100644",
+      "sha": "900d3772f85b4cc8dd1ff6dea95dcf6cf22b9f80",
+      "size": 100677
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "mode": "100644",
+      "sha": "16b895215920d450b0ef2c6aaeea9dbc1a3a07fc",
+      "size": 16874
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "mode": "100644",
+      "sha": "8b5ed705cc9654eea071f7f2d716d4c1ec5923dc",
+      "size": 6663
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "mode": "100644",
+      "sha": "94026a20e0a2fb6f16f121d45d4ee6e12ec7f455",
+      "size": 8753
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md",
+      "mode": "100644",
+      "sha": "e5fe025c2f571a409500deffbee67fff6174fef3",
+      "size": 16818
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "mode": "100644",
+      "sha": "e0cba634035ae9574ca055199a6961881924eae3",
+      "size": 1756
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "mode": "100644",
+      "sha": "be566753c11d908411312b78dfb321e9e0c58f04",
+      "size": 6958
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "mode": "100644",
+      "sha": "4bafb291d14728ce917f830c2737713db3faa81f",
+      "size": 5416
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md",
+      "mode": "100644",
+      "sha": "1252e5c072efc815ece01ac7f017e2bc55ab1597",
+      "size": 4064
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/SHA256SUMS.txt",
+      "mode": "100644",
+      "sha": "f3edadd9216464a8c3ec820b165dd21647bae9bd",
+      "size": 1927
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "mode": "100644",
+      "sha": "da687425dae237ffda799808aea25f8be166f457",
+      "size": 12481
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "mode": "100644",
+      "sha": "bedd4ca71a6c6abc02cb41b04548324f432243ab",
+      "size": 12216
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "mode": "100644",
+      "sha": "1dda671836dee6acb92394c6f8374a19c6cbb3be",
+      "size": 13544
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "mode": "100644",
+      "sha": "fa00706e27f90e78454161d1bf00b4562345f0bb",
+      "size": 7238
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "mode": "100644",
+      "sha": "04c7c1d65cae633962b3a31e8c00239e78c9d5ca",
+      "size": 10294
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "mode": "100644",
+      "sha": "69e52b8e7fcf832dfe74079f73f0cb36e52abbce",
+      "size": 7850
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "mode": "100644",
+      "sha": "765475a7cb1df2b9555fdc12f243b0cf123c61ff",
+      "size": 7081
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "mode": "100644",
+      "sha": "2bb768a1c4e6ba0db394c9e2b208713ceffb30af",
+      "size": 15367
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "mode": "100644",
+      "sha": "de967da34bd95828a11c3f70d36ac7f242540553",
+      "size": 11322
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "mode": "100644",
+      "sha": "ea72c3d4c8c1b3868ab2e46208bb0d69e0d8e05f",
+      "size": 101145
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "mode": "100644",
+      "sha": "18b01636e441739a1c4c4105e65fd727d90ebc04",
+      "size": 17532
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "mode": "100644",
+      "sha": "10e6b7c6c4e59d91723777122936e68de3229b7e",
+      "size": 7513
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/testar_revisao.py",
+      "mode": "100644",
+      "sha": "01e2be93498c958d876e6bd357e9297710095868",
+      "size": 5493
+    },
+    {
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "mode": "100644",
+      "sha": "93f4c66fbafffb686343459db1f2d56f34ca0fc5",
+      "size": 8148
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/FONTES.md",
+      "mode": "100644",
+      "sha": "136ac411410a9afc8ea3215ee0167428787ab78e",
+      "size": 6150
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MANIFESTO.json",
+      "mode": "100644",
+      "sha": "c4575568cffd698fb53a14556761b7141e18865f",
+      "size": 34233
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MATRIZ.md",
+      "mode": "100644",
+      "sha": "b1f96b223cba2d5f6c4eed39e5aaf30fc674c382",
+      "size": 48361
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MODELO-FUNCIONAL.md",
+      "mode": "100644",
+      "sha": "87dfe08edc00dff44d5cd1fb78faf78fc8c8a4f5",
+      "size": 22158
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/README.md",
+      "mode": "100644",
+      "sha": "346c4feb0fefe62c05150a8d11cd8a5391d4ecba",
+      "size": 3016
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REGISTRO.md",
+      "mode": "100644",
+      "sha": "c9324ef105ff3feda27330411f47f5843fac93d1",
+      "size": 47232
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/RETIFICACOES.md",
+      "mode": "100644",
+      "sha": "d51f6ea1a8f40a4b7920d8fa4701af11886b4a9f",
+      "size": 9079
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REVISAO.md",
+      "mode": "100644",
+      "sha": "13993e6120c8afbb8bf66b93009f3e3a7225a01d",
+      "size": 7793
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/AVALIACAO.md",
+      "mode": "100644",
+      "sha": "5f6fbf979c3409e0ffeb555169ea1a675f02027d",
+      "size": 4925
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md",
+      "mode": "100644",
+      "sha": "b5ce7963be871e087839bc3d627acefeac349106",
+      "size": 5840
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/FONTES.md",
+      "mode": "100644",
+      "sha": "55a6afe84221a64b837f032667064de76af364a8",
+      "size": 7226
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MANIFESTO.json",
+      "mode": "100644",
+      "sha": "475e097696b79c2e1738783095530fa67338283d",
+      "size": 76725
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MATRIZ.md",
+      "mode": "100644",
+      "sha": "96acb7825717add337b63a82736787e416571d16",
+      "size": 51944
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md",
+      "mode": "100644",
+      "sha": "3df94540eb71291b144cdefd041ef82590cdb872",
+      "size": 6922
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/README.md",
+      "mode": "100644",
+      "sha": "2de88fff1884ee38dbd1321dde21c199c81cebf4",
+      "size": 1083
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REGISTRO.md",
+      "mode": "100644",
+      "sha": "ea5f7328239e92ca16ea82d67d67fd574e7e4cf1",
+      "size": 14928
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETIFICACOES.md",
+      "mode": "100644",
+      "sha": "77665e1eca3f01f9af5534a1a6bea0604373e322",
+      "size": 5214
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "mode": "100644",
+      "sha": "c3fa7a9e118a3d00230f3e7cc4d298db5fdef174",
+      "size": 3525
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REVISAO.md",
+      "mode": "100644",
+      "sha": "a02a3fd7f5e4c0bd767977552500d6717e15cd7c",
+      "size": 9377
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/INDICE.json",
+      "mode": "100644",
+      "sha": "6de4c82bca2cf9bd952b27b99af8661045605676",
+      "size": 631
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/INICIO.md",
+      "mode": "100644",
+      "sha": "55a52148590ae5ea92ca32f5226429795085f682",
+      "size": 2811
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/aceites/GOV-OP-0001.json",
+      "mode": "100644",
+      "sha": "2624ee505449e5ad478644f5d55914455d2bfccd",
+      "size": 1863
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/ensaios/controle-condicional.json",
+      "mode": "100644",
+      "sha": "4b0b3ce44cbff5ef576859a2c4a480b8acaea086",
+      "size": 193
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/recibos/GOV-OP-0001.json",
+      "mode": "100644",
+      "sha": "f1a6a17b54d8396a76b08053b823cf7e1fb247e5",
+      "size": 1900
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+      "mode": "100644",
+      "sha": "cf29296d8f5265bf50f3c9c96a9636a1b59a2354",
+      "size": 474
+    },
+    {
+      "path": "docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md",
+      "mode": "100644",
+      "sha": "478df24983121c27b6ea1237b2295a7891c205f2",
+      "size": 19695
+    },
+    {
+      "path": "docs/06-execucao/propostas/README.md",
+      "mode": "100644",
+      "sha": "23687abef4e80c7988ee439040269a5a64cdb92b",
+      "size": 654
+    },
+    {
+      "path": "docs/chatgpt/CONFIGURACAO.md",
+      "mode": "100644",
+      "sha": "e9d77f6b956cf89623d1075767a04966cc73c4a9",
+      "size": 9802
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "mode": "100644",
+      "sha": "bb8eb886f50804c2c4186b6c3c7f097d66df629d",
+      "size": 8524
+    },
+    {
+      "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+      "mode": "100644",
+      "sha": "ab161a93253f3be50d5ea336ae8663dd14caa9ef",
+      "size": 7006
+    },
+    {
+      "path": "docs/chatgpt/PRIMEIRA-SESSAO.md",
+      "mode": "100644",
+      "sha": "28bb4928d3f064a7e849d8f7414ec1f0429f166a",
+      "size": 1384
+    },
+    {
+      "path": "docs/chatgpt/historico/pre-d02/CONFIGURACAO.md.snapshot",
+      "mode": "100644",
+      "sha": "c1dea24313c43ed24216bb1fe37d9c97c871f4d6",
+      "size": 4883
+    },
+    {
+      "path": "docs/chatgpt/historico/pre-d02/INSTRUCOES-PERMANENTES.md.snapshot",
+      "mode": "100644",
+      "sha": "f93b61cb57a58a2955c6394cc1b65b360d312694",
+      "size": 3920
+    },
+    {
+      "path": "docs/chatgpt/historico/pre-d02/MANIFESTO-FONTES.md.snapshot",
+      "mode": "100644",
+      "sha": "ec5dffa649a52666c8c06b3bd267b030b14bc9f2",
+      "size": 7536
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0001.json",
+      "mode": "100644",
+      "sha": "a921d76f4fe636c89548a7dc444b4cfbd3fab680",
+      "size": 1189
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0002.json",
+      "mode": "100644",
+      "sha": "7b092a59d9b651c2e4908cdbe928a485d6997619",
+      "size": 1929
+    },
+    {
+      "path": "docs/continuidade/MANIFESTO.json",
+      "mode": "100644",
+      "sha": "861a1faf4764e84e2ca6872688174adcb28e2f4e",
+      "size": 1312
+    },
+    {
+      "path": "docs/continuidade/OPERACAO.md",
+      "mode": "100644",
+      "sha": "0909e7daf215faacd48714c7dc343f90473b1cab",
+      "size": 1751
+    },
+    {
+      "path": "docs/continuidade/RECIBO-PUBLICACAO.json",
+      "mode": "100644",
+      "sha": "69f2418e1a7b54024625d9bc161fc32965611ff4",
+      "size": 1237
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/LEIA-ME.md",
+      "mode": "100644",
+      "sha": "3098c4bab970c04371c174860ad70d6f64610067",
+      "size": 848
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/MANIFESTO.json",
+      "mode": "100644",
+      "sha": "98f125e6d77d9c2cde1150a1e6e3d54ccf6fad12",
+      "size": 995
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/RETOMADA.md",
+      "mode": "100644",
+      "sha": "3963b2f26b88d71c9dc4be7bd03f2647c6b806e0",
+      "size": 2429
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "mode": "100644",
+      "sha": "f93b61cb57a58a2955c6394cc1b65b360d312694",
+      "size": 3920
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/docs/continuidade/CONT-REG-0001.json",
+      "mode": "100644",
+      "sha": "a921d76f4fe636c89548a7dc444b4cfbd3fab680",
+      "size": 1189
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "mode": "100644",
+      "sha": "13d863c04d2670ec49b824ed74fa59cae6d0f033",
+      "size": 4202
+    },
+    {
+      "path": "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "mode": "100644",
+      "sha": "13d863c04d2670ec49b824ed74fa59cae6d0f033",
+      "size": 4202
+    },
+    {
+      "path": "docs/fundacao/axiomas-arquiteturais.md",
+      "mode": "100644",
+      "sha": "591533e42eb978af1b0b3d4aafc1ded16f5f7a74",
+      "size": 9210
+    },
+    {
+      "path": "docs/fundacao/capacidades.md",
+      "mode": "100644",
+      "sha": "4a72fc7e6f5f716f40e6b52c8497c31d22af1d8d",
+      "size": 8760
+    },
+    {
+      "path": "docs/fundacao/construcao-internalizacao.md",
+      "mode": "100644",
+      "sha": "1700d40d2b32dffc43408f95ddb55dc2226b791c",
+      "size": 8224
+    },
+    {
+      "path": "docs/fundacao/ecossistema-atual.md",
+      "mode": "100644",
+      "sha": "e82322d5f217e7bdeb9a510f017a578a9523818e",
+      "size": 7470
+    },
+    {
+      "path": "docs/fundacao/metodologia-fases.md",
+      "mode": "100644",
+      "sha": "8e9254fffba42bb9271eee1744708e027f6124a3",
+      "size": 9730
+    },
+    {
+      "path": "docs/fundacao/protocolo-sessoes.md",
+      "mode": "100644",
+      "sha": "a470a04f2d89f465457f54fecf65d56bbb195967",
+      "size": 5172
+    },
+    {
+      "path": "docs/fundacao/registro-conhecimento.md",
+      "mode": "100644",
+      "sha": "cd978b93ee306431fad0125e0bfd88b1d201450f",
+      "size": 12140
+    },
+    {
+      "path": "docs/fundacao/roteamento-contexto.md",
+      "mode": "100644",
+      "sha": "41340941c473788bdcb963a8063bc97a7b56e0c0",
+      "size": 3424
+    },
+    {
+      "path": "docs/fundacao/visao-produto.md",
+      "mode": "100644",
+      "sha": "01205981adbde233450b2c32cb424eba8a08d0b8",
+      "size": 10910
+    },
+    {
+      "path": "harness/empacotar_chatgpt.py",
+      "mode": "100644",
+      "sha": "96b5f366bd3b72592473a3d67a3e82314f00225b",
+      "size": 5781
+    },
+    {
+      "path": "harness/executar_verificacoes.py",
+      "mode": "100644",
+      "sha": "e152eb24a9f910583f75187a58116a96e6591080",
+      "size": 2193
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO-FUNDACAO.md",
+      "mode": "100644",
+      "sha": "7128ab883c73cc62d1862a944763515ac9038f04",
+      "size": 6365
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO.md",
+      "mode": "100644",
+      "sha": "a0d633067dab6c0508188bab9be9bca36af8ea36",
+      "size": 7715
+    },
+    {
+      "path": "harness/governanca_assistida/fluxo.py",
+      "mode": "100644",
+      "sha": "65080c65d839aa2240532f4b2035183fc3f0de9b",
+      "size": 17639
+    },
+    {
+      "path": "harness/governanca_assistida/fundacao.py",
+      "mode": "100644",
+      "sha": "9e6dafdab8331448f8b07d76570d97827aa17764",
+      "size": 14033
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/aceite-nao-preenchido.json",
+      "mode": "100644",
+      "sha": "ce3354e6459c1be3ca480d08dc76c7bab38d90e7",
+      "size": 428
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/recibo-nao-preenchido.json",
+      "mode": "100644",
+      "sha": "db53b3c3ef4e124cfe4b6c39d20f45570eb5049c",
+      "size": 358
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/registro.json",
+      "mode": "100644",
+      "sha": "3452296643e02221c8ebe1bc08ef45a1500aac45",
+      "size": 476
+    },
+    {
+      "path": "harness/governanca_assistida/retomar_snapshot.py",
+      "mode": "100644",
+      "sha": "246741bb6f6c8ce6dc1818a0ca9308a5d7057b4b",
+      "size": 1248
+    },
+    {
+      "path": "harness/governanca_assistida/test_fluxo.py",
+      "mode": "100644",
+      "sha": "d1f48af16cc0b0aaa43685160ad982c29a4e0554",
+      "size": 9678
+    },
+    {
+      "path": "harness/governanca_assistida/test_fundacao.py",
+      "mode": "100644",
+      "sha": "cc1158c939d616e8a2c5ef1ef3d2a85f95d0ff8c",
+      "size": 9896
+    },
+    {
+      "path": "harness/test_retomada.py",
+      "mode": "100644",
+      "sha": "adbc69b7d6c7841a9d64acc09feaaaea05b618dc",
+      "size": 3210
+    },
+    {
+      "path": "harness/verificar_fundacao.py",
+      "mode": "100644",
+      "sha": "b822ad954e64f4dba6d69fc7f9620f91b18bcc91",
+      "size": 3646
+    },
+    {
+      "path": "harness/verificar_retomada.py",
+      "mode": "100644",
+      "sha": "1f3b10c01ff862ade6766c215bfc5afae5b934bf",
+      "size": 2816
+    }
+  ],
+  "selected_paths": [
+    "AGENTS.md",
+    "ARCHITECTURE_BLUEPRINT.MD",
+    "ESTADO-ATUAL.md",
+    "README.md",
+    "RETOMADA.md",
+    "auditorias/discovery-01-r2/AUDITORIA-INDEPENDENTE.md",
+    "auditorias/discovery-01-r2/CANDIDATO-CONGELADO.json",
+    "auditorias/discovery-01-r2/COBERTURA.json",
+    "auditorias/discovery-01-r2/CONTINUIDADE-SUBAGENTE.md",
+    "auditorias/discovery-01-r2/DOSSIE-REPRODUZIDO.md",
+    "auditorias/discovery-01-r2/INTEGRIDADE-LOCAL.json",
+    "auditorias/discovery-01-r2/RECIBO-PUBLICACAO.json",
+    "auditorias/discovery-01-r2/RELATORIO.md",
+    "auditorias/discovery-01-r2/TESTES-DOCUMENTAIS.json",
+    "auditorias/discovery-01/RECIBO-PUBLICACAO.json",
+    "auditorias/discovery-01/REVISAO-LOCAL.json",
+    "auditorias/discovery-02-incorporacao/ACHADOS.json",
+    "auditorias/discovery-02-incorporacao/AUDITORIA-INDEPENDENTE.md",
+    "auditorias/discovery-02-incorporacao/AUTORIA.json",
+    "auditorias/discovery-02-incorporacao/BASELINE-REMOTA.json",
+    "auditorias/discovery-02-incorporacao/BLUEPRINT-ORIGEM.md",
+    "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO-1.json",
+    "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO-2.json",
+    "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO.json",
+    "auditorias/discovery-02-incorporacao/CENARIOS-AUDITORIA.json",
+    "auditorias/discovery-02-incorporacao/CENARIOS-PREDEFINIDOS.json",
+    "auditorias/discovery-02-incorporacao/IDENTIDADE-ENTRADAS.json",
+    "auditorias/discovery-02-incorporacao/INSPECAO-CI.json",
+    "auditorias/discovery-02-incorporacao/OBSERVACOES-E-OPERACOES.json",
+    "auditorias/discovery-02-incorporacao/ORACULOS-PREVIOS.json",
+    "auditorias/discovery-02-incorporacao/TESTES-DELTA-FREEZE3.json",
+    "auditorias/discovery-02-incorporacao/TESTES-DOCUMENTAIS.json",
+    "auditorias/discovery-02-incorporacao/TESTES-FREEZE2.json",
+    "auditorias/discovery-02-incorporacao/TESTES-HERDADOS-RESUMO.json",
+    "auditorias/discovery-02-incorporacao/TESTES-RODADA-INICIAL.json",
+    "auditorias/discovery-02-incorporacao/entradas/MATRIZ-CORRECOES-74.md",
+    "auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md",
+    "auditorias/discovery-02-incorporacao/entradas/RELATORIO-LIMITACOES-E-VERIFICACAO.md",
+    "auditorias/discovery-02-incorporacao/verificador-freeze1.mjs.snapshot",
+    "auditorias/fundacao-integral/AUDITORIA-CODIGO.md",
+    "auditorias/fundacao-integral/AUDITORIA-CONTEXTO.md",
+    "auditorias/fundacao-integral/AUDITORIA-PRODUTO.md",
+    "auditorias/fundacao-integral/INVENTARIO.md",
+    "auditorias/fundacao-integral/MATRIZ-COBERTURA.md",
+    "auditorias/fundacao-integral/RECIBO-PUBLICACAO.json",
+    "auditorias/fundacao-integral/RELATORIO-FINAL.md",
+    "auditorias/fundacao-integral/baseline-remoto.json",
+    "auditorias/fundacao-integral/cas-publicacao-inicial.json",
+    "auditorias/fundacao-integral/cobertura.json",
+    "auditorias/fundacao-integral/contexto-rechecagem.json",
+    "auditorias/fundacao-integral/demonstracao-persistencia.json",
+    "auditorias/fundacao-integral/execucoes.json",
+    "auditorias/fundacao-integral/inspecao-remota.json",
+    "auditorias/fundacao-integral/pacote-chatgpt-manifesto.json",
+    "auditorias/fundacao-integral/revalidacao-final.json",
+    "auditorias/implementacao-inc-gov-001/RELATORIO.md",
+    "auditorias/implementacao-inc-gov-001/conector-cas-real.json",
+    "auditorias/implementacao-inc-gov-001/retomada-processo-isolado.json",
+    "auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md",
+    "auditorias/importacao-pgc-001-v1.1.2/integridade.json",
+    "auditorias/importacao-pgc-001-v1.1.2/reexecucao.json",
+    "auditorias/importacao-pgc-001-v1.1.2/relatorio-estatico-reexecutado.md",
+    "auditorias/remediacao-continuidade/GATES-PGC.json",
+    "auditorias/remediacao-continuidade/PROVA-CHAT-INDEPENDENTE.json",
+    "auditorias/remediacao-continuidade/PROVA-FONTES-NATIVAS.json",
+    "auditorias/remediacao-continuidade/PROVA-PROJETO-CHATGPT.json",
+    "auditorias/remediacao-continuidade/pacote-fontes-manifesto.json",
+    "auditorias/remediacao-continuidade/pacote-negativos.json",
+    "auditorias/remediacao-continuidade/testes-windows/resultado.json",
+    "auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md",
+    "auditorias/revisao-pgc-001-v1.1.3/resultados.json",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/PGC-001.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/casos-adversariais.json",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+    "docs/01-discovery/INICIO-DISCOVERY.md",
+    "docs/01-discovery/discovery-01/FONTES.md",
+    "docs/01-discovery/discovery-01/MANIFESTO.json",
+    "docs/01-discovery/discovery-01/MATRIZ.md",
+    "docs/01-discovery/discovery-01/MODELO-FUNCIONAL.md",
+    "docs/01-discovery/discovery-01/README.md",
+    "docs/01-discovery/discovery-01/REGISTRO.md",
+    "docs/01-discovery/discovery-01/RETIFICACOES.md",
+    "docs/01-discovery/discovery-01/REVISAO.md",
+    "docs/01-discovery/discovery-02/AVALIACAO.md",
+    "docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md",
+    "docs/01-discovery/discovery-02/FONTES.md",
+    "docs/01-discovery/discovery-02/MANIFESTO.json",
+    "docs/01-discovery/discovery-02/MATRIZ.md",
+    "docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md",
+    "docs/01-discovery/discovery-02/README.md",
+    "docs/01-discovery/discovery-02/REGISTRO.md",
+    "docs/01-discovery/discovery-02/RETIFICACOES.md",
+    "docs/01-discovery/discovery-02/RETOMADA.md",
+    "docs/01-discovery/discovery-02/REVISAO.md",
+    "docs/01-discovery/governanca-assistida/INDICE.json",
+    "docs/01-discovery/governanca-assistida/INICIO.md",
+    "docs/01-discovery/governanca-assistida/aceites/GOV-OP-0001.json",
+    "docs/01-discovery/governanca-assistida/ensaios/controle-condicional.json",
+    "docs/01-discovery/governanca-assistida/recibos/GOV-OP-0001.json",
+    "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+    "docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md",
+    "docs/06-execucao/propostas/README.md",
+    "docs/chatgpt/CONFIGURACAO.md",
+    "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+    "docs/chatgpt/MANIFESTO-FONTES.md",
+    "docs/chatgpt/PRIMEIRA-SESSAO.md",
+    "docs/chatgpt/historico/pre-d02/CONFIGURACAO.md.snapshot",
+    "docs/chatgpt/historico/pre-d02/INSTRUCOES-PERMANENTES.md.snapshot",
+    "docs/chatgpt/historico/pre-d02/MANIFESTO-FONTES.md.snapshot",
+    "docs/continuidade/CONT-REG-0001.json",
+    "docs/continuidade/CONT-REG-0002.json",
+    "docs/continuidade/MANIFESTO.json",
+    "docs/continuidade/OPERACAO.md",
+    "docs/continuidade/RECIBO-PUBLICACAO.json",
+    "docs/continuidade/historico/pre-d02/LEIA-ME.md",
+    "docs/continuidade/historico/pre-d02/MANIFESTO.json",
+    "docs/continuidade/historico/pre-d02/snapshot/RETOMADA.md",
+    "docs/continuidade/historico/pre-d02/snapshot/docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+    "docs/continuidade/historico/pre-d02/snapshot/docs/continuidade/CONT-REG-0001.json",
+    "docs/continuidade/historico/pre-d02/snapshot/docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+    "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+    "docs/fundacao/axiomas-arquiteturais.md",
+    "docs/fundacao/capacidades.md",
+    "docs/fundacao/construcao-internalizacao.md",
+    "docs/fundacao/ecossistema-atual.md",
+    "docs/fundacao/metodologia-fases.md",
+    "docs/fundacao/protocolo-sessoes.md",
+    "docs/fundacao/registro-conhecimento.md",
+    "docs/fundacao/roteamento-contexto.md",
+    "docs/fundacao/visao-produto.md",
+    "harness/governanca_assistida/OPERACAO-FUNDACAO.md",
+    "harness/governanca_assistida/OPERACAO.md",
+    "harness/governanca_assistida/modelos/aceite-nao-preenchido.json",
+    "harness/governanca_assistida/modelos/recibo-nao-preenchido.json",
+    "harness/governanca_assistida/modelos/registro.json"
+  ],
+  "signature": "not verified"
+}

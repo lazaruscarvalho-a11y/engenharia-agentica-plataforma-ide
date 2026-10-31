@@ -1,0 +1,30 @@
+{
+  "schema_version": "d02-package-receipt-2",
+  "scope": "REMOTE_VERIFIED_DOCUMENT_PACKAGE_NOT_NATIVE_CONFIGURATION",
+  "package_revision": 2,
+  "content_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+  "content_tree": "40f49154cb8626a74d35c6435688df5ef89d1292",
+  "selected_originals": 163,
+  "files": 174,
+  "native_source_paths": 73,
+  "upload_files": [
+    "upload/00-ENTRADA-E-CONFIGURACAO.md",
+    "upload/01-DISCOVERY-02.md",
+    "upload/02-DISCOVERY-01-HISTORICO.md",
+    "upload/03-FUNDACAO-E-CANDIDATOS.md",
+    "upload/04-PROVENIENCIA-E-PROVAS.md"
+  ],
+  "all_original_bytes_equal_remote_cache": true,
+  "critical_owners_all_in_upload": true,
+  "evaluator_rubrics_excluded_from_upload": true,
+  "active_links_validated": true,
+  "mapped_links": 571,
+  "zip_bytes": 3841747,
+  "zip_sha256": "d5a85f6be63850d8d9230349a786e23dcc1193ae663e350a29b5a736ed3bbd9e",
+  "zip_repeat_identical": true,
+  "zip_metadata": "sorted files, timestamp1980, Unix100644, ZIP_STORED",
+  "logical_digest": "f1bc412fb4bed4e58f581279bc2108f1626a34fd5f8077b2445f08e8bb34ce38",
+  "manifest_sha256": "993f2a25d60b3a09295909099b3b44aeb0edd8ed8cab8c92c3efdfaa53db1def",
+  "payload_reopened_and_verified": true,
+  "prior_emission": "entrega-fontes-D02-v1 retained; first package verification found two unadapted manual relative links; revision2 corrected projection only"
+}
