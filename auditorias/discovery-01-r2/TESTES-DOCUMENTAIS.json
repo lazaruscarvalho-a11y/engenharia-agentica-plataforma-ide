@@ -1,0 +1,175 @@
+{
+  "schema_version": "d01-r2-document-checks-1",
+  "kind": "DOCUMENTARY_ONLY",
+  "checks": [
+    {
+      "name": "36 source anchors, unique and ordered",
+      "pass": true
+    },
+    {
+      "name": "coverage exact to independently archived source headings",
+      "pass": true
+    },
+    {
+      "name": "canonical IDs, explicit anchors and source references resolve",
+      "pass": true
+    },
+    {
+      "name": "E12 does not fabricate unavailable antecedent",
+      "pass": true
+    },
+    {
+      "name": "inverse pending scope preserves review commitments",
+      "pass": true
+    },
+    {
+      "name": "all historical IDs retained",
+      "pass": true
+    },
+    {
+      "name": "P-A..P-L retained in canonical proposal inventory",
+      "pass": true
+    },
+    {
+      "name": "positive documentary fixture admitted",
+      "pass": true
+    }
+  ],
+  "negative": [
+    {
+      "id": "N01",
+      "source": "E34",
+      "scenario": "Human determination omitted",
+      "expected": "ANCHOR_OR_CANONICAL_OMISSION",
+      "observed": [
+        "ANCHOR_OR_CANONICAL_OMISSION"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N02",
+      "source": "E10/E22",
+      "scenario": "Short answer attached to another question",
+      "expected": "SHORT_ANSWER_CONTEXT",
+      "observed": [
+        "SHORT_ANSWER_CONTEXT"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N03",
+      "source": "P-G",
+      "scenario": "Proposal promoted to approved decision",
+      "expected": "PROPOSAL_PROMOTION",
+      "observed": [
+        "PROPOSAL_PROMOTION"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N04",
+      "source": "E23/E31",
+      "scenario": "Consultation authorization treated as writing",
+      "expected": "READ_NOT_WRITE",
+      "observed": [
+        "READ_NOT_WRITE"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N05",
+      "source": "E27",
+      "scenario": "Migration approval used to delete originals",
+      "expected": "MIGRATION_NOT_DELETE",
+      "observed": [
+        "MIGRATION_NOT_DELETE"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N06",
+      "source": "E17",
+      "scenario": "Main treated as deployed PROD",
+      "expected": "MAIN_NOT_DEPLOYMENT",
+      "observed": [
+        "MAIN_NOT_DEPLOYMENT"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N07",
+      "source": "E09/E10",
+      "scenario": "Submodule reference treated as synchronized",
+      "expected": "SUBMODULE_NOT_SYNC",
+      "observed": [
+        "SUBMODULE_NOT_SYNC"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N08",
+      "source": "E22",
+      "scenario": "Accessible external source treated as shareable",
+      "expected": "ACCESS_NOT_REDISTRIBUTION",
+      "observed": [
+        "ACCESS_NOT_REDISTRIBUTION"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N09",
+      "source": "E15/E16",
+      "scenario": "Corporate report promoted to institutional policy",
+      "expected": "REPORT_NOT_POLICY",
+      "observed": [
+        "REPORT_NOT_POLICY"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N10",
+      "source": "E32/E34",
+      "scenario": "Noncritical pending hidden after completion",
+      "expected": "PENDING_NOT_HIDDEN",
+      "observed": [
+        "PENDING_NOT_HIDDEN"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N11",
+      "source": "all",
+      "scenario": "Unattributed claim presented as proven fact",
+      "expected": "SOURCE_REQUIRED",
+      "observed": [
+        "SOURCE_REQUIRED"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N12",
+      "source": "E36",
+      "scenario": "D02 points to incompatible revision/base/path",
+      "expected": "RESUME_REVISION",
+      "observed": [
+        "RESUME_REVISION"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "id": "N13",
+      "source": "E03",
+      "scenario": "Documented startup treated as agent permission",
+      "expected": "ENGINEER_LOCAL_RUN",
+      "observed": [
+        "ENGINEER_LOCAL_RUN"
+      ],
+      "result": "REJECTED_AS_EXPECTED"
+    }
+  ],
+  "limits": [
+    "Synthetic structured documentary counterexamples; not a general natural-language semantic verifier.",
+    "Semantic coverage requires independent source-to-document audit.",
+    "No application or IDE functionality executed; PGC operational CA not run."
+  ]
+}
