@@ -1,0 +1,814 @@
+{
+  "schema_version": "discovery-01-publication-receipt-1",
+  "date_local": "2026-10-30",
+  "timezone": "America/Sao_Paulo",
+  "verified_at_utc": "2026-10-31 01:02:07 UTC",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/discovery-01-onboarding-agent-first",
+  "pull_request": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/pull/6",
+  "pull_request_state_at_observation": "OPEN_DRAFT_NOT_MERGED",
+  "base_commit": "f8d7c60955a1250ae4d94a428386787f4aaa24b0",
+  "content_commit": "ceedbc1f0fcb4133ce8109ec889676dca966193d",
+  "content_tree": "a664d969b3a5028e330f4c7586e7bc08b752490e",
+  "publication_state": "CONTENT_PUBLISHED_AND_VERIFIED_BY_IMMUTABLE_COMMIT",
+  "historical_completeness": "PARTIAL_FIVE_FINAL_TURNS_ONLY",
+  "definitions": {
+    "explicit_decisions": 4,
+    "previous_definitions_reported_by_assistant": 9,
+    "proposals": 11,
+    "new_hypotheses": 3,
+    "pending": 10
+  },
+  "verification": {
+    "method": "GitHub fetch_file(ref=content_commit, encoding=base64), decode bytes, compare with prepared local bytes, SHA-256 and Git blob SHA-1. Full nontruncated tree comparison for inherited paths.",
+    "files_verified": 12,
+    "byte_comparisons_passed": 12,
+    "sha256_comparisons_passed": 12,
+    "git_blob_comparisons_passed": 12,
+    "inherited_files_preserved": 156,
+    "prior_continuity_manifest_entries_checked": 4,
+    "local_links_checked": 73,
+    "registry_matrix_matching_ids": 27,
+    "review_type": "SELF_REVIEW_DOCUMENTARY_ONLY",
+    "not_run": [
+      "D01-V01..D01-V21 future-platform oracles",
+      "49 CA operacionais PGC",
+      "independent audit",
+      "new user conversation recovery test",
+      "native Sources upload/update/reverification"
+    ]
+  },
+  "files": [
+    {
+      "path": "ESTADO-ATUAL.md",
+      "bytes": 8506,
+      "sha256": "8650ff75c88cc7aa9e2264cc1125be5a9ed1d6322cff4b914431741852c5800d",
+      "git_blob_sha": "5cbc3b6a83c302f0138075f61070b768d2779f5d",
+      "remote_blob_sha": "5cbc3b6a83c302f0138075f61070b768d2779f5d",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "bytes": 6953,
+      "sha256": "9df9fe8b03d02551f4a4af8f6531aaac62587db8ea4646b32a91c6240646cdf3",
+      "git_blob_sha": "9a2eafa32649cef1e2f1dfa119590b452b19ec48",
+      "remote_blob_sha": "9a2eafa32649cef1e2f1dfa119590b452b19ec48",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+      "bytes": 6773,
+      "sha256": "cc34945c80d5a8e9427264765b0247962f721f8a9d7767839bd9d88f8f71fc97",
+      "git_blob_sha": "0e372c854c2bae973555ec6f91e6fa80c066c78d",
+      "remote_blob_sha": "0e372c854c2bae973555ec6f91e6fa80c066c78d",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/README.md",
+      "bytes": 2819,
+      "sha256": "8d8b1dc335f903c46be14c8e0e0bedf8b3532e6c77c655ac1a7f2ceab58688cc",
+      "git_blob_sha": "2c2a978237514dba0f438b54ad5d744eb7a967e3",
+      "remote_blob_sha": "2c2a978237514dba0f438b54ad5d744eb7a967e3",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/FONTES.md",
+      "bytes": 5969,
+      "sha256": "ceb9b32e07a918f680192b9df5f5a48153575f9cb6698b0c60d37acefcc23f4a",
+      "git_blob_sha": "f4a9258bf1eb66410f8611e58b494085bbc1543b",
+      "remote_blob_sha": "f4a9258bf1eb66410f8611e58b494085bbc1543b",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REGISTRO.md",
+      "bytes": 8342,
+      "sha256": "2e68a79065cba5286c698347dc7d21544194b7ce6a1e0aab783204d3ec3da70d",
+      "git_blob_sha": "08ddd6e52a4a340cafe09dd5146614855b930834",
+      "remote_blob_sha": "08ddd6e52a4a340cafe09dd5146614855b930834",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MODELO-FUNCIONAL.md",
+      "bytes": 8559,
+      "sha256": "a461744c0fd6f1bdcc5ea3d6ec1ca0c4df50c131f217b4fc222e8d704121717b",
+      "git_blob_sha": "d74ee9bd37cb87ff8544afdb2b940caf15c07655",
+      "remote_blob_sha": "d74ee9bd37cb87ff8544afdb2b940caf15c07655",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MATRIZ.md",
+      "bytes": 6997,
+      "sha256": "dfae9b4e1ce7d07d618ede7079eb9886c1176bcf5ec36721133b1ac16a0ed2d4",
+      "git_blob_sha": "3e1843eb95e39fb52d6c38e71998de7d6f0c1c11",
+      "remote_blob_sha": "3e1843eb95e39fb52d6c38e71998de7d6f0c1c11",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REVISAO.md",
+      "bytes": 6130,
+      "sha256": "dd2ca547779b2bf18cd6a87f5848fe5968c9524808fecefb57fee7990c625ea0",
+      "git_blob_sha": "d2c7cac83f201b473ef4c2e4070ac6dab01fd57f",
+      "remote_blob_sha": "d2c7cac83f201b473ef4c2e4070ac6dab01fd57f",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "bytes": 5618,
+      "sha256": "d61706fe2b5bc1f859255308ea4a36571e820a58a2ea90b64e0f7af48363477e",
+      "git_blob_sha": "bace475ab818da21f8a9ad27a4c70728de4dbb82",
+      "remote_blob_sha": "bace475ab818da21f8a9ad27a4c70728de4dbb82",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "auditorias/discovery-01/REVISAO-LOCAL.json",
+      "bytes": 1866,
+      "sha256": "b61a8aea0a083325190d73f78a5654822e72fc76131ac2183c51ceccab9ad459",
+      "git_blob_sha": "28ae1ced60a98a651b8d18321684c5e896b1cfb6",
+      "remote_blob_sha": "28ae1ced60a98a651b8d18321684c5e896b1cfb6",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MANIFESTO.json",
+      "bytes": 7900,
+      "sha256": "df71342100a3030c1a10d9e1a80442c471f5a298d2ebe4c99d8cc018be4a1d04",
+      "git_blob_sha": "c0c675bc3e69c68cd7dc6afaec02bf7d94c0af32",
+      "remote_blob_sha": "c0c675bc3e69c68cd7dc6afaec02bf7d94c0af32",
+      "bytes_equal": true,
+      "sha256_matches": true,
+      "git_hash_matches": true
+    }
+  ],
+  "preserved_inherited_files": [
+    {
+      "path": ".gitattributes",
+      "git_blob_sha": "e5c54d9162a3054ee5ad983c71e934782fbed69e"
+    },
+    {
+      "path": ".github/workflows/fundacao.yml",
+      "git_blob_sha": "c5c2a7b9c2dc24290a182e40cc0aec218126960f"
+    },
+    {
+      "path": ".gitignore",
+      "git_blob_sha": "b263fdaa949c13e46ff920c669a546cc27d1e500"
+    },
+    {
+      "path": "AGENTS.md",
+      "git_blob_sha": "5e09ac4abb17076a46c444aff6318ef274208cdf"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "76eaf2e542c2909f2f3642a86873bd220747295b"
+    },
+    {
+      "path": "RETOMADA.md",
+      "git_blob_sha": "3963b2f26b88d71c9dc4be7bd03f2647c6b806e0"
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.2_candidata_ratificacao.zip",
+      "git_blob_sha": "c4af413f0f552df18bd96094920bf272a6e1b54e"
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.3_candidata_ratificacao.zip",
+      "git_blob_sha": "3bab4af9afe14641f045c856061fe83f286cebdd"
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.3_candidata_ratificacao.zip.sha256",
+      "git_blob_sha": "dceaf11d3a9fa4b1f3557fde1c399a94c0f3b505"
+    },
+    {
+      "path": "acervo/SHA256SUMS.txt",
+      "git_blob_sha": "836bd7c2669f83690062ae46c5335949a1f5badd"
+    },
+    {
+      "path": "auditorias/fundacao-integral/AUDITORIA-CODIGO.md",
+      "git_blob_sha": "8f35c0102d73ed4db1512a90c8dcd95efce965b8"
+    },
+    {
+      "path": "auditorias/fundacao-integral/AUDITORIA-CONTEXTO.md",
+      "git_blob_sha": "c6a409e689c7a26f68ab465a30b228520915d895"
+    },
+    {
+      "path": "auditorias/fundacao-integral/AUDITORIA-PRODUTO.md",
+      "git_blob_sha": "9599c9e5072ecd4967ed3a2ddcbe1813bf43ffb8"
+    },
+    {
+      "path": "auditorias/fundacao-integral/INVENTARIO.md",
+      "git_blob_sha": "bebd606a42b6c7faa02115900a4b164342187028"
+    },
+    {
+      "path": "auditorias/fundacao-integral/MATRIZ-COBERTURA.md",
+      "git_blob_sha": "dd97af3f813c445e0b7b2b629dcd33f8852d1979"
+    },
+    {
+      "path": "auditorias/fundacao-integral/RECIBO-PUBLICACAO.json",
+      "git_blob_sha": "08abd7b0579ccb627241aee1eb64c31d403b609a"
+    },
+    {
+      "path": "auditorias/fundacao-integral/RELATORIO-FINAL.md",
+      "git_blob_sha": "c9417c70e09cc87cc9b7cc6b887d96440d76c888"
+    },
+    {
+      "path": "auditorias/fundacao-integral/adversariais.txt",
+      "git_blob_sha": "353d9a94b40fcc2991c2a9ac6edd69d9ef9a8c03"
+    },
+    {
+      "path": "auditorias/fundacao-integral/auditor-pgc.txt",
+      "git_blob_sha": "3afd22d87132f9e5e43e0cfd2bc866925122cd79"
+    },
+    {
+      "path": "auditorias/fundacao-integral/baseline-remoto.json",
+      "git_blob_sha": "2462cd2aa809d7f70b40015c97d4eb3ab64c3a40"
+    },
+    {
+      "path": "auditorias/fundacao-integral/cas-publicacao-inicial.json",
+      "git_blob_sha": "db0bfdafd607468ea57606d4983cafa5ef0262b4"
+    },
+    {
+      "path": "auditorias/fundacao-integral/catalogo-pgc.txt",
+      "git_blob_sha": "6c2504aaff6f25eb404efbd9191d79175fac4384"
+    },
+    {
+      "path": "auditorias/fundacao-integral/cobertura.json",
+      "git_blob_sha": "5351195c13800fe8ea6ae02230be8e3d734a65eb"
+    },
+    {
+      "path": "auditorias/fundacao-integral/contexto-rechecagem.json",
+      "git_blob_sha": "d29235c1e094f3341e8f78da8fee67d06a76292e"
+    },
+    {
+      "path": "auditorias/fundacao-integral/demonstracao-persistencia.json",
+      "git_blob_sha": "bd0047be2e9033251f921e08c8ab5c8c7e1e164d"
+    },
+    {
+      "path": "auditorias/fundacao-integral/documental.txt",
+      "git_blob_sha": "7d4ab82aa1c9d82b23ae35bbcdb860106868565a"
+    },
+    {
+      "path": "auditorias/fundacao-integral/execucoes.json",
+      "git_blob_sha": "a12cae32b98649d607d3daed9c1ece7a3d081786"
+    },
+    {
+      "path": "auditorias/fundacao-integral/extensao.txt",
+      "git_blob_sha": "efeb904fdbc4309a56f4ebd036cbb9e4d2eeeef4"
+    },
+    {
+      "path": "auditorias/fundacao-integral/inspecao-remota.json",
+      "git_blob_sha": "43b3c569e87675375eb06092c16e48ada0126294"
+    },
+    {
+      "path": "auditorias/fundacao-integral/pacote-chatgpt-manifesto.json",
+      "git_blob_sha": "760ad0cc1f98af19ee0352b578bfeda409cc5c35"
+    },
+    {
+      "path": "auditorias/fundacao-integral/piloto.txt",
+      "git_blob_sha": "d11f82f5cb3cd0446cf8814340ee8ba4bdd6cd00"
+    },
+    {
+      "path": "auditorias/fundacao-integral/regressoes-pgc.txt",
+      "git_blob_sha": "ec746eb64206d9eca524948d86fa6072baad77fe"
+    },
+    {
+      "path": "auditorias/fundacao-integral/revalidacao-final.json",
+      "git_blob_sha": "be8f09bdfef46cfa689007e260b3a9cbb4ca7267"
+    },
+    {
+      "path": "auditorias/fundacao-integral/test_adversarial.py",
+      "git_blob_sha": "21c54e5163bad923d9a49079a0f896c7f1c607ad"
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/RELATORIO.md",
+      "git_blob_sha": "b64b8eeb365e27748a7708646428e31405dc0b9a"
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/conector-cas-real.json",
+      "git_blob_sha": "8d46d71e0af5f49acf845ea043d2d6251a1d8fbd"
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/retomada-processo-isolado.json",
+      "git_blob_sha": "fdf1533d6877bd0f23a7236c0c7c2e889b27151c"
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/testes-locais.txt",
+      "git_blob_sha": "bce16b9d58eabed6927c671585c6285e74b5d325"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md",
+      "git_blob_sha": "b8e8a0d2a4e2a23199ee60ba742a04b028013ec5"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/SHA256-IMPORTACAO.txt",
+      "git_blob_sha": "d92e487e96d25be92bd26fa20a27af12007b5346"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/integridade.json",
+      "git_blob_sha": "2c868a82be0dd0e4504b424f877d91c2f691591f"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/reexecucao.json",
+      "git_blob_sha": "b9ce4bcb5215dc9d318a6b7b67c6011d5e36960b"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/relatorio-estatico-reexecutado.md",
+      "git_blob_sha": "5d9e9c515e71d77e9e3e3b5ee6965c0403edd391"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/verificar_importacao.py",
+      "git_blob_sha": "c432c6e31df069a32112b241024966953d73aa91"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/GATES-PGC.json",
+      "git_blob_sha": "5cb0171f599566f8ac11679201694fcc95b5333f"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PARECER-INDEPENDENTE.txt",
+      "git_blob_sha": "67fb897450458d999c81d2864c206a4dde509b58"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PROVA-CHAT-INDEPENDENTE.json",
+      "git_blob_sha": "55bea9f52efa6ba8170d228dcaf43481dc8a3e62"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PROVA-FONTES-NATIVAS.json",
+      "git_blob_sha": "2314ab552822942dbcf49006bd1f413ca8e7c611"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PROVA-PROJETO-CHATGPT.json",
+      "git_blob_sha": "7605fa0d8a639a0ea88f6377b5ea969f448330d8"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/RELATORIO-FINAL.txt",
+      "git_blob_sha": "a5a0e42f0f3b94feee93432bc233d39cfaf76601"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/ci-b010-linux.log",
+      "git_blob_sha": "6061e04100823afa6a6e7d0cc7c31f10be87ca33"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/pacote-fontes-manifesto.json",
+      "git_blob_sha": "d424aa3537d2c3d65f72d9f9940b3bca3ad355c6"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/pacote-negativos.json",
+      "git_blob_sha": "1c90c1bcda6e57d6692f4d8492bee3fc4a212f0e"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/adversariais.stderr.txt",
+      "git_blob_sha": "506917a117e0cdccc6dd3b39aff525e571811309"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/adversariais.stdout.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/catalogo-estatico.stderr.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/catalogo-estatico.stdout.txt",
+      "git_blob_sha": "6c2504aaff6f25eb404efbd9191d79175fac4384"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/extensao.stderr.txt",
+      "git_blob_sha": "b18df4323397d583c5c334081bd946d6d7332c20"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/extensao.stdout.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/fundacao-estatica-delta.stdout.txt",
+      "git_blob_sha": "b30c35e6910ee5034f5c7d678204b89a2473fe45"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/fundacao-estatica.stderr.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/fundacao-estatica.stdout.txt",
+      "git_blob_sha": "5b87db11467e09334fae7b3410a5c88e61bfe583"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/pgc-estatico.stderr.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/pgc-estatico.stdout.txt",
+      "git_blob_sha": "3afd22d87132f9e5e43e0cfd2bc866925122cd79"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/piloto.stderr.txt",
+      "git_blob_sha": "d11f82f5cb3cd0446cf8814340ee8ba4bdd6cd00"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/piloto.stdout.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/regressao-pgc.stderr.txt",
+      "git_blob_sha": "e63f646d82d5f361659686390b6a9b9b8ac1ad23"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/regressao-pgc.stdout.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/resultado.json",
+      "git_blob_sha": "efce1fc453911f2b3f540d077988f57fada356a3"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/retomada.stderr.txt",
+      "git_blob_sha": "a3eaa2a01e341b5c9e925594661ea02dd5866ad1"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/retomada.stdout.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/snapshot-retomada.stderr.txt",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/snapshot-retomada.stdout.txt",
+      "git_blob_sha": "0d08d8c5678ac861f1a50a2a75e938b8798732b4"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md",
+      "git_blob_sha": "5f59fe2b43a96b8df91740a018dc51e7b29beb35"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/SHA256-REVISAO.txt",
+      "git_blob_sha": "8078b648d58ed1fd13c810dfe1ef641176b5360e"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/comparacao-fontes.diff",
+      "git_blob_sha": "434f91830954dcdd7ca867fb66a537f6de74c711"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/resultados.json",
+      "git_blob_sha": "1d5e532d6bd6143747f9177a6379aa9fe7cb8ccc"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/testes-documentais.txt",
+      "git_blob_sha": "ba930c3918e72d2f25f4947095232a1d9a6f68dd"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/verificar_revisao.py",
+      "git_blob_sha": "4c81908d566e130c6783888e2acdda5e9086e66a"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "git_blob_sha": "33db43725d92cdc82f64ec2c5790a8f1f7f2a6f2"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/PGC-001.md",
+      "git_blob_sha": "305deba10a36b047f01ebc231a9951f47b68a1d7"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "git_blob_sha": "e7e2146f01073727ca6eb46b51328f601524315d"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md",
+      "git_blob_sha": "9e0951c66dddd0cc36ca0e1e833272b7492d9819"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "git_blob_sha": "60556f99c5ed4da708c168115206e9011812e26e"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/SHA256SUMS.txt",
+      "git_blob_sha": "5c531d5ce171bd8f9fb6bd4dc227b757aed1efe7"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "git_blob_sha": "0fdbe2fe021539b12eef747e3c251f831b4c65a4"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "git_blob_sha": "d5b47213b5a6d6fb08b36535c57ca4c8f157d148"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "git_blob_sha": "98409771e7f8bc15a0af6af7704f34616fac0952"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "git_blob_sha": "7a60e183a9f377e301535feeed8aeb934083faf0"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "git_blob_sha": "30318700e329f3ba0545fd3db1f9953b91de2251"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "git_blob_sha": "f43f4997e78f3695be9f829d825d32f2dafc89e3"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "git_blob_sha": "3409537ec6c49d9c7a42b1946bc104a13abc9158"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "git_blob_sha": "e5169766602de8657417557c5ca1287c8e530f18"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "git_blob_sha": "cdccc9dc8cc1612fb0ade6581b42ab69e1d498bf"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "git_blob_sha": "900d3772f85b4cc8dd1ff6dea95dcf6cf22b9f80"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "git_blob_sha": "16b895215920d450b0ef2c6aaeea9dbc1a3a07fc"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "git_blob_sha": "8b5ed705cc9654eea071f7f2d716d4c1ec5923dc"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "git_blob_sha": "94026a20e0a2fb6f16f121d45d4ee6e12ec7f455"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md",
+      "git_blob_sha": "e5fe025c2f571a409500deffbee67fff6174fef3"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "git_blob_sha": "e0cba634035ae9574ca055199a6961881924eae3"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "git_blob_sha": "be566753c11d908411312b78dfb321e9e0c58f04"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "git_blob_sha": "4bafb291d14728ce917f830c2737713db3faa81f"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md",
+      "git_blob_sha": "1252e5c072efc815ece01ac7f017e2bc55ab1597"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/SHA256SUMS.txt",
+      "git_blob_sha": "f3edadd9216464a8c3ec820b165dd21647bae9bd"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "git_blob_sha": "da687425dae237ffda799808aea25f8be166f457"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "git_blob_sha": "bedd4ca71a6c6abc02cb41b04548324f432243ab"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "git_blob_sha": "1dda671836dee6acb92394c6f8374a19c6cbb3be"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "git_blob_sha": "fa00706e27f90e78454161d1bf00b4562345f0bb"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "git_blob_sha": "04c7c1d65cae633962b3a31e8c00239e78c9d5ca"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "git_blob_sha": "69e52b8e7fcf832dfe74079f73f0cb36e52abbce"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "git_blob_sha": "765475a7cb1df2b9555fdc12f243b0cf123c61ff"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "git_blob_sha": "2bb768a1c4e6ba0db394c9e2b208713ceffb30af"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "git_blob_sha": "de967da34bd95828a11c3f70d36ac7f242540553"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "git_blob_sha": "ea72c3d4c8c1b3868ab2e46208bb0d69e0d8e05f"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "git_blob_sha": "18b01636e441739a1c4c4105e65fd727d90ebc04"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "git_blob_sha": "10e6b7c6c4e59d91723777122936e68de3229b7e"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/testar_revisao.py",
+      "git_blob_sha": "01e2be93498c958d876e6bd357e9297710095868"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/INDICE.json",
+      "git_blob_sha": "6de4c82bca2cf9bd952b27b99af8661045605676"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/INICIO.md",
+      "git_blob_sha": "55a52148590ae5ea92ca32f5226429795085f682"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/aceites/GOV-OP-0001.json",
+      "git_blob_sha": "2624ee505449e5ad478644f5d55914455d2bfccd"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/ensaios/controle-condicional.json",
+      "git_blob_sha": "4b0b3ce44cbff5ef576859a2c4a480b8acaea086"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/recibos/GOV-OP-0001.json",
+      "git_blob_sha": "f1a6a17b54d8396a76b08053b823cf7e1fb247e5"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+      "git_blob_sha": "cf29296d8f5265bf50f3c9c96a9636a1b59a2354"
+    },
+    {
+      "path": "docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md",
+      "git_blob_sha": "478df24983121c27b6ea1237b2295a7891c205f2"
+    },
+    {
+      "path": "docs/06-execucao/propostas/README.md",
+      "git_blob_sha": "23687abef4e80c7988ee439040269a5a64cdb92b"
+    },
+    {
+      "path": "docs/chatgpt/CONFIGURACAO.md",
+      "git_blob_sha": "c1dea24313c43ed24216bb1fe37d9c97c871f4d6"
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "git_blob_sha": "f93b61cb57a58a2955c6394cc1b65b360d312694"
+    },
+    {
+      "path": "docs/chatgpt/PRIMEIRA-SESSAO.md",
+      "git_blob_sha": "28bb4928d3f064a7e849d8f7414ec1f0429f166a"
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0001.json",
+      "git_blob_sha": "a921d76f4fe636c89548a7dc444b4cfbd3fab680"
+    },
+    {
+      "path": "docs/continuidade/MANIFESTO.json",
+      "git_blob_sha": "98f125e6d77d9c2cde1150a1e6e3d54ccf6fad12"
+    },
+    {
+      "path": "docs/continuidade/OPERACAO.md",
+      "git_blob_sha": "0909e7daf215faacd48714c7dc343f90473b1cab"
+    },
+    {
+      "path": "docs/continuidade/RECIBO-PUBLICACAO.json",
+      "git_blob_sha": "69f2418e1a7b54024625d9bc161fc32965611ff4"
+    },
+    {
+      "path": "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "git_blob_sha": "13d863c04d2670ec49b824ed74fa59cae6d0f033"
+    },
+    {
+      "path": "docs/fundacao/capacidades.md",
+      "git_blob_sha": "4a72fc7e6f5f716f40e6b52c8497c31d22af1d8d"
+    },
+    {
+      "path": "docs/fundacao/construcao-internalizacao.md",
+      "git_blob_sha": "1700d40d2b32dffc43408f95ddb55dc2226b791c"
+    },
+    {
+      "path": "docs/fundacao/ecossistema-atual.md",
+      "git_blob_sha": "e82322d5f217e7bdeb9a510f017a578a9523818e"
+    },
+    {
+      "path": "docs/fundacao/metodologia-fases.md",
+      "git_blob_sha": "8e9254fffba42bb9271eee1744708e027f6124a3"
+    },
+    {
+      "path": "docs/fundacao/protocolo-sessoes.md",
+      "git_blob_sha": "a470a04f2d89f465457f54fecf65d56bbb195967"
+    },
+    {
+      "path": "docs/fundacao/registro-conhecimento.md",
+      "git_blob_sha": "cd978b93ee306431fad0125e0bfd88b1d201450f"
+    },
+    {
+      "path": "docs/fundacao/roteamento-contexto.md",
+      "git_blob_sha": "25a9661effa2bc0338cf45146ec23a654a79987d"
+    },
+    {
+      "path": "docs/fundacao/visao-produto.md",
+      "git_blob_sha": "01205981adbde233450b2c32cb424eba8a08d0b8"
+    },
+    {
+      "path": "harness/empacotar_chatgpt.py",
+      "git_blob_sha": "96b5f366bd3b72592473a3d67a3e82314f00225b"
+    },
+    {
+      "path": "harness/executar_verificacoes.py",
+      "git_blob_sha": "e152eb24a9f910583f75187a58116a96e6591080"
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO-FUNDACAO.md",
+      "git_blob_sha": "7128ab883c73cc62d1862a944763515ac9038f04"
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO.md",
+      "git_blob_sha": "a0d633067dab6c0508188bab9be9bca36af8ea36"
+    },
+    {
+      "path": "harness/governanca_assistida/fluxo.py",
+      "git_blob_sha": "65080c65d839aa2240532f4b2035183fc3f0de9b"
+    },
+    {
+      "path": "harness/governanca_assistida/fundacao.py",
+      "git_blob_sha": "9e6dafdab8331448f8b07d76570d97827aa17764"
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/aceite-nao-preenchido.json",
+      "git_blob_sha": "ce3354e6459c1be3ca480d08dc76c7bab38d90e7"
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/recibo-nao-preenchido.json",
+      "git_blob_sha": "db53b3c3ef4e124cfe4b6c39d20f45570eb5049c"
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/registro.json",
+      "git_blob_sha": "3452296643e02221c8ebe1bc08ef45a1500aac45"
+    },
+    {
+      "path": "harness/governanca_assistida/retomar_snapshot.py",
+      "git_blob_sha": "246741bb6f6c8ce6dc1818a0ca9308a5d7057b4b"
+    },
+    {
+      "path": "harness/governanca_assistida/test_fluxo.py",
+      "git_blob_sha": "d1f48af16cc0b0aaa43685160ad982c29a4e0554"
+    },
+    {
+      "path": "harness/governanca_assistida/test_fundacao.py",
+      "git_blob_sha": "cc1158c939d616e8a2c5ef1ef3d2a85f95d0ff8c"
+    },
+    {
+      "path": "harness/test_retomada.py",
+      "git_blob_sha": "adbc69b7d6c7841a9d64acc09feaaaea05b618dc"
+    },
+    {
+      "path": "harness/verificar_fundacao.py",
+      "git_blob_sha": "b822ad954e64f4dba6d69fc7f9620f91b18bcc91"
+    },
+    {
+      "path": "harness/verificar_retomada.py",
+      "git_blob_sha": "1f3b10c01ff862ade6766c215bfc5afae5b934bf"
+    }
+  ],
+  "permissions": {
+    "publication_authority": "Current user request: prepare and publish only reviewable branch/PR",
+    "normative_effect": "AUSENTE",
+    "merge_performed": false,
+    "ratification_performed": false,
+    "administrative_permission_changes_performed": false,
+    "original_deletions_performed": false,
+    "native_sources_updated": false,
+    "corporate_systems_accessed": false
+  },
+  "main_observed_before_publication": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+  "limitations": [
+    "Nao e possivel declarar consolidacao integral: somente cinco turnos finais da conversa foram retornados; sem cursor. Navegador disponivel pede login.",
+    "Definicoes Micro/Meso/Macro, Submodules, agnosticismo e outras sinteses anteriores requerem reconciliacao com falas originais; nao foram promovidas a decisoes explicitas.",
+    "Todos os exemplos novos sao sinteticos; transcricao real nao publicada.",
+    "Nenhuma funcionalidade da IDE, classificador, motor de compreensao ou integracao interna foi implementada ou testada.",
+    "Fontes e Instrucoes do Projeto nao foram atualizadas; nao ha sincronizacao automatica presumida.",
+    "Hashes comprovam integridade e identidade de bytes; nao demonstram completude do historico, veracidade de inferencias ou assinatura corporativa.",
+    "Este recibo e publicado em commit posterior ao content_commit; seu proprio commit/hash deve ser conferido pela entrega externa, evitando autorreferencia circular."
+  ],
+  "resume_path": "docs/01-discovery/discovery-02/RETOMADA.md",
+  "reproduction": {
+    "content": "Obtain each files[].path from repository at content_commit as raw bytes. Verify byte count and SHA-256. Git blob SHA-1 input: UTF-8 bytes for 'blob ' plus decimal byte count, then one NUL byte (0x00), then the raw file bytes. Compare tree entries for preserved_inherited_files. Read MANIFESTO.json for source and document scope.",
+    "receipt": "Use the later immutable receipt commit and SHA-256 supplied in the delivery; the receipt intentionally does not contain its own digest."
+  }
+}
