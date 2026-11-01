@@ -1,3 +1,7 @@
+# Prontidão vigente do Discovery — 01/11/2026
+
+Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa. Leia docs/01-discovery/discovery-02/PRONTIDAO.md. Esta determinação operacional do usuário prevalece sobre critérios anteriores de liberação da entrevista; os limites de produto e autorização abaixo continuam aplicáveis.
+
 # Entrada operacional vigente D02
 
 Ponto atual: [RETOMADA D02](docs/01-discovery/discovery-02/RETOMADA.md), [estado](ESTADO-ATUAL.md) e [retificações D02](docs/01-discovery/discovery-02/RETIFICACOES.md). Confira HEAD remoto de `proposta/discovery-02-consolidacao`, manifesto D02 e recibos posteriores por SHA; main não contém a fundação. Se a publicação não estiver comprovada, trate o conjunto como candidato. D01-R2 e continuidade anteriores são suporte histórico preservado, sem rota concorrente.

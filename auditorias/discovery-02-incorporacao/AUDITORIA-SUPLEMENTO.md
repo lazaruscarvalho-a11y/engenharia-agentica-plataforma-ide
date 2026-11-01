@@ -1,3 +1,7 @@
+# Escopo encerrado — não é orientação de prontidão
+
+Este documento relata a execução PM-R5 de 31/10/2026. Não constitui pendência nem bloqueio do Discovery atual. A regra vigente determinada pelo usuário está em docs/01-discovery/discovery-02/PRONTIDAO.md. Não reexecutar estes ensaios para liberar a entrevista.
+
 # Auditoria independente do suplemento D02 — revisão 1
 
 31/10/2026 · America/Sao_Paulo · Auditor `/root/auditoria_independente`.

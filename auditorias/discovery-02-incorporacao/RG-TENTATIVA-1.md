@@ -1,3 +1,7 @@
+# Escopo encerrado — não é orientação de prontidão
+
+Este documento relata a execução PM-R5 de 31/10/2026. Não constitui pendência nem bloqueio do Discovery atual. A regra vigente determinada pelo usuário está em docs/01-discovery/discovery-02/PRONTIDAO.md. Não reexecutar estes ensaios para liberar a entrevista.
+
 # RG — tentativa 1: recuperação documental pelo GitHub
 
 Data de referência do ambiente: 31/10/2026. Identidade operacional do recuperador: tarefa `/root/recuperacao_git`, delegada pelo coordenador `/root`. Não foi observado um identificador independente de modelo, pessoa ou conversa real do usuário que permita autenticação adicional do recuperador.

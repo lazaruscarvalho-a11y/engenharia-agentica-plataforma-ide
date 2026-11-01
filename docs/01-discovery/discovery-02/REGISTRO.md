@@ -1,4 +1,8 @@
-# Registro canônico D02 — revisão documental 1
+# Regra operacional vigente
+
+Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa. Ver [PRONTIDAO](PRONTIDAO.md).
+
+# Registro canônico D02 — revisão documental 2
 
 Consolidação PM-D02-CONSOL-001 R5, 31/10/2026. **Em discovery, sem ratificação normativa, aprovação de implementação ou capacidade funcional demonstrada.** Este ledger possui IDs, natureza, proveniência, validade, autoridade, maturidade, propostas e pendências. Os axiomas AX têm dono temático em [axiomas-arquiteturais.md](../../fundacao/axiomas-arquiteturais.md). Modelo/blueprint/contratos são projeções ou propostas, sem definições humanas concorrentes.
 
@@ -117,6 +121,6 @@ Detalhes acima são autoria editorial desta consolidação; não herdam aprovaç
 | D02-PEN-003 | D01-PEN-002/003; HUM-05/08: revisões/ponteiros e concorrência multirrepositório | Contratos de clonagem, atualização, permissões e fechamento lógico a especificar |
 | D02-PEN-004 | D01-PEN-004/008; HUM-03/06: autoridade, validade, revogação, dados e efeitos | Especificação futura; não pedir permissão para executar aplicação nesta missão |
 | D02-PEN-005 | D01-PEN-006; HUM-07/10: schemas, índices, adaptadores e nomes futuros | Sem stack/protocolo/forma definitiva aprovada |
-| D02-PEN-006 | D01-PEN-009; distribuição/continuidade | Projeto exige login na observação de 31/10/2026; PS/PI não comprovados. Nova conversa real ainda não realizada; não substituir por subagente |
+| D02-PEN-006 | D01-PEN-009; manutenção das cópias de referência | Manter revisão/identidade das Fontes quando houver nova publicação. Acesso autenticado e leitura foram observados em 01/11/2026; esta manutenção não é bloqueio da entrevista. Ver PRONTIDAO.md e recibo de aplicação da revisão. |
 
 D01-PEN-001/A está materialmente reconciliado no escopo do recibo R2; B continua transcrição original integral não recuperada, limitação não bloqueante para conteúdo reproduzido suficiente. Não se reabrem escolhas conceituais por faltar algoritmo/original. Resultados históricos 8 checks/13 negativos não são novos testes D02; os 49 CA operacionais continuam NOT_RUN.

@@ -1,6 +1,6 @@
 {
   "schema_version": "discovery-02-manifest-1",
-  "revision": 3,
+  "revision": 4,
   "mission": {
     "id": "PM-D02-CONSOL-001",
     "revision": "R5",
@@ -12,7 +12,7 @@
   "branch": "proposta/discovery-02-consolidacao",
   "base_commit": "e37af725a162c577cfa9ffde286d0fcf69294429",
   "base_tree": "7c580558a308162430b061b58857e11e254e960b",
-  "document_revision": "D02-doc-1",
+  "document_revision": "D02-doc-2",
   "scope": "Consolidacao documental; candidatos de produto; sem IDE implementada",
   "normative_effect": "AUSENTE",
   "PGC_CT": "NAO_RATIFICADOS",
@@ -57,9 +57,9 @@
     {
       "path": "AGENTS.md",
       "mode": "100644",
-      "bytes": 3920,
-      "sha256": "535e1b624b5b14aecaf27427a30ff12b61bf56d3db6a32f84ed590d0481a896c",
-      "git_blob_sha": "aa990775ec12929ac94fbaa1789c4ca528e8f607"
+      "bytes": 4663,
+      "sha256": "a9e98dc4d85021b90289915b1657e536b02e35760b05995d5a672fdcea44de12",
+      "git_blob_sha": "dd53ab45c51e19659aaf415420064c81ccfee49d"
     },
     {
       "path": "ARCHITECTURE_BLUEPRINT.MD",
@@ -71,16 +71,16 @@
     {
       "path": "ESTADO-ATUAL.md",
       "mode": "100644",
-      "bytes": 11742,
-      "sha256": "1410f7ebf7eef8749557d58fb947d916ab482eb68f5ed22afb715a0ec0aecde2",
-      "git_blob_sha": "b37eb5c381a23dd161f70b6d19f9070d9a846d97"
+      "bytes": 2276,
+      "sha256": "f78dd5e9c507f14d824b1cef812cef760f6f579a7fe5337e9223ccc888b84530",
+      "git_blob_sha": "9ca17a0fcf09cd2becd215d3ff4d3da2ce612ab3"
     },
     {
       "path": "RETOMADA.md",
       "mode": "100644",
-      "bytes": 3821,
-      "sha256": "1e060f64797d26741a644b315ccc7159b9c7162059e845377e8c06d5229eafe0",
-      "git_blob_sha": "a90434bdbf32d92b8cafe7749dd3946e071f501c"
+      "bytes": 1315,
+      "sha256": "7481b231f0691ed3b4c110c9e49766c7e23baa1e9c5ad5ce9c69531122859059",
+      "git_blob_sha": "c68dfe973928f05cdd710efd7e999334c44c10e1"
     },
     {
       "path": "auditorias/discovery-02-incorporacao/AUTORIA.json",
@@ -176,9 +176,9 @@
     {
       "path": "docs/01-discovery/INICIO-DISCOVERY.md",
       "mode": "100644",
-      "bytes": 8148,
-      "sha256": "8d3abb6862600f1795f36b9c18a870545b868ffe4508d141a3046d7fe372a78d",
-      "git_blob_sha": "93f4c66fbafffb686343459db1f2d56f34ca0fc5"
+      "bytes": 8692,
+      "sha256": "ce0fb8355133c16b4bf4f36fdf65f7bdfc2f9b1cf0fb3356d263f6f2ec0251b3",
+      "git_blob_sha": "28d9d5c8f3773ed77d48ebeacd90d9e68547b8f3"
     },
     {
       "path": "docs/01-discovery/discovery-02/AVALIACAO.md",
@@ -204,9 +204,9 @@
     {
       "path": "docs/01-discovery/discovery-02/MATRIZ.md",
       "mode": "100644",
-      "bytes": 51944,
-      "sha256": "e1bc4966ffe5d78afb163427866ea96751afc5c4f002196519a8032970567c23",
-      "git_blob_sha": "96acb7825717add337b63a82736787e416571d16"
+      "bytes": 52582,
+      "sha256": "6f463678c5c2d1f9b6f7a9fbfcbb690dd8cc7c0e1f15651c6e7ffb92a2f2ee1c",
+      "git_blob_sha": "7eedd46f1e76e68d7e38209bc86a0fd8fbaa86cd"
     },
     {
       "path": "docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md",
@@ -214,6 +214,13 @@
       "bytes": 6922,
       "sha256": "cd5ac777065c01fd9a601858a58d07cbd855386df18f363da63ddb0ff47d1b1e",
       "git_blob_sha": "3df94540eb71291b144cdefd041ef82590cdb872"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/PRONTIDAO.md",
+      "mode": "100644",
+      "bytes": 3658,
+      "sha256": "ef35add1f16037211d48a0c398435dcfc961df9850161765d0fb1b2bc85043f0",
+      "git_blob_sha": "5046b4201a2cdb70d99bc46b0f6fd3fbfdd3866b"
     },
     {
       "path": "docs/01-discovery/discovery-02/README.md",
@@ -225,51 +232,51 @@
     {
       "path": "docs/01-discovery/discovery-02/REGISTRO.md",
       "mode": "100644",
-      "bytes": 14928,
-      "sha256": "03d7884f556e21f0dfcf9b1a0a239cf592f04633b283a40d5d96d77edd84a8d6",
-      "git_blob_sha": "ea5f7328239e92ca16ea82d67d67fd574e7e4cf1"
+      "bytes": 15553,
+      "sha256": "345b560989981e56a5cb8e0f11086c5696e273499b27174815b0543811994979",
+      "git_blob_sha": "218644384fd07a999590f237586e941b1655407b"
     },
     {
       "path": "docs/01-discovery/discovery-02/RETIFICACOES.md",
       "mode": "100644",
-      "bytes": 5214,
-      "sha256": "f6c3361f8716dfbe1ae2e0c396229706bc16b388cc52efbc34ce435f5d350e18",
-      "git_blob_sha": "77665e1eca3f01f9af5534a1a6bea0604373e322"
+      "bytes": 6332,
+      "sha256": "978527c89c87216ff180b23509f9e4b65d9dba0430c7c5533a2007973f0ad286",
+      "git_blob_sha": "a89e4c6341bbdbfe1907dbd18a7191fb93d328ae"
     },
     {
       "path": "docs/01-discovery/discovery-02/RETOMADA.md",
       "mode": "100644",
-      "bytes": 3525,
-      "sha256": "c04090103c9e0684fda56d3b21ae4a8bf9c1a5828b8b6d6ccc7517ac08918f59",
-      "git_blob_sha": "c3fa7a9e118a3d00230f3e7cc4d298db5fdef174"
+      "bytes": 3614,
+      "sha256": "9c98611ac71c3c005062c0a932de0aeec587af80d97cf4b52e0b7d5e4aa45aa1",
+      "git_blob_sha": "59373c3f484a6c90821f8c707a80a32a8e29f229"
     },
     {
       "path": "docs/01-discovery/discovery-02/REVISAO.md",
       "mode": "100644",
-      "bytes": 9377,
-      "sha256": "a9a9391525a73f05c5a1cd9394a2f57ac01cc024fb3194e6adbb0a24b6fa9bea",
-      "git_blob_sha": "a02a3fd7f5e4c0bd767977552500d6717e15cd7c"
+      "bytes": 1652,
+      "sha256": "33fe3d14af200199f2e32847356741b4963e7b9f248fa66b120afbdf1a98be43",
+      "git_blob_sha": "707b095a8e76c94e687ddd3adf9e59fef85a4712"
     },
     {
       "path": "docs/chatgpt/CONFIGURACAO.md",
       "mode": "100644",
-      "bytes": 9802,
-      "sha256": "e83f0d19b18419ea78d8a717480e4eeba6d287e8be570bf46ebae3506d52a8c9",
-      "git_blob_sha": "e9d77f6b956cf89623d1075767a04966cc73c4a9"
+      "bytes": 2417,
+      "sha256": "6d1cbe3458ab70a0f680293599a3c6a6b3bd25836f97720c0c732785192da407",
+      "git_blob_sha": "5818cd33a3a620c63240277c8938a3e07a29aa7e"
     },
     {
       "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
       "mode": "100644",
-      "bytes": 8524,
-      "sha256": "d2cd062d9296ef232781b4efbfef8f139eb10be38fd9c64765c4312032c08e2c",
-      "git_blob_sha": "bb8eb886f50804c2c4186b6c3c7f097d66df629d"
+      "bytes": 8273,
+      "sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+      "git_blob_sha": "e5d2c1f186d6b3ae24e6df90b74db4f0dc9efddd"
     },
     {
       "path": "docs/chatgpt/MANIFESTO-FONTES.md",
       "mode": "100644",
-      "bytes": 7006,
-      "sha256": "aa9598e4cfd0bda2ddd9f13cd82b3081ddcbbf20a2acae25758c863a9271179a",
-      "git_blob_sha": "ab161a93253f3be50d5ea336ae8663dd14caa9ef"
+      "bytes": 2100,
+      "sha256": "18c3cff63d28f4aa31ca10e0e826548561668b960e21a83b886fd01c7471161f",
+      "git_blob_sha": "76638d0b6d3e76249b3b92f075a791ce9491c40d"
     },
     {
       "path": "docs/chatgpt/historico/pre-d02/CONFIGURACAO.md.snapshot",
@@ -300,11 +307,18 @@
       "git_blob_sha": "7b092a59d9b651c2e4908cdbe928a485d6997619"
     },
     {
+      "path": "docs/continuidade/CONT-REG-0003.json",
+      "mode": "100644",
+      "bytes": 1564,
+      "sha256": "206de92f2b32d7a2d80f1e22d82c16406ef044fafc4f6df6ca00afde59f66ce2",
+      "git_blob_sha": "ece7572696b026a47c1f73f748bda7a7b4bac443"
+    },
+    {
       "path": "docs/continuidade/MANIFESTO.json",
       "mode": "100644",
-      "bytes": 1312,
-      "sha256": "f24929d3dd72ce31ad731ca4ba8f8caad66a7e6d4a2ccfa7d6ce776cf26ba803",
-      "git_blob_sha": "861a1faf4764e84e2ca6872688174adcb28e2f4e"
+      "bytes": 1427,
+      "sha256": "3d032ce188e5c6e12262c86d5d53a85c07b7a142e15d475320f3e4a375ca72cb",
+      "git_blob_sha": "cfdc693cca5a9b91863a0f895733fc09da8199ac"
     },
     {
       "path": "docs/continuidade/historico/pre-d02/LEIA-ME.md",
@@ -389,15 +403,6 @@
       "size": 49,
       "bytes": 49,
       "sha256": "44cca863478fb9d07a7407dfa175ad0602c788dff9fcdb0c61a7d6162351b1bc",
-      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
-    },
-    {
-      "path": "README.md",
-      "mode": "100644",
-      "sha": "76eaf2e542c2909f2f3642a86873bd220747295b",
-      "size": 2459,
-      "bytes": 2459,
-      "sha256": "52d2fb1ff4daaa89ca4ec376086fec864637e3c37efadc7ec1bb0ce6d7a1eab0",
       "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
     },
     {
@@ -1661,15 +1666,6 @@
       "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
     },
     {
-      "path": "docs/chatgpt/PRIMEIRA-SESSAO.md",
-      "mode": "100644",
-      "sha": "28bb4928d3f064a7e849d8f7414ec1f0429f166a",
-      "size": 1384,
-      "bytes": 1384,
-      "sha256": "4431da66a878f0c8d4126c41f748e4a8f50620c595e521357027ea3fc594a0b4",
-      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
-    },
-    {
       "path": "docs/continuidade/CONT-REG-0001.json",
       "mode": "100644",
       "sha": "a921d76f4fe636c89548a7dc444b4cfbd3fab680",
@@ -1920,16 +1916,14 @@
     "D01": "PR6; depends on PR5",
     "retifications": "docs/01-discovery/discovery-02/RETIFICACOES.md",
     "historical_continuity_manifest": "docs/continuidade/historico/pre-d02/MANIFESTO.json",
-    "native_configuration": "blocked by login; fallback prepared"
+    "native_configuration": "Aplicação verificada separadamente por download dos cinco arquivos e releitura das Instruções; ver recibo posterior."
   },
   "tests": {
     "criteria": "auditorias/discovery-02-incorporacao/ORACULOS-PREVIOS.json",
     "fixtures": "auditorias/discovery-02-incorporacao/CENARIOS-PREDEFINIDOS.json",
     "results": "auditorias/discovery-02-incorporacao/TESTES-DOCUMENTAIS.json",
-    "status": "POST_FREEZE_RESULT_SEPARATE"
+    "status": "CRITERIOS_PM_R5_ENCERRADOS_NAO_DEFINEM_PRONTIDAO_DISCOVERY"
   },
-  "freeze_digest": "99eae003f97711e19d0448c855952ea761119629b21d712feafbf2fa73d585ae",
-  "freeze_path": "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO.json",
   "posterior_evidence": [
     "auditorias/discovery-02-incorporacao/RECIBO-PUBLICACAO.json",
     "auditorias/discovery-02-incorporacao/RECIBO-CONFIGURACAO.json",
@@ -1938,5 +1932,26 @@
   ],
   "own_commit": null,
   "own_commit_reason": "proven externally by posterior receipt; no self digest",
-  "verification": "Validate normalized unique paths/modes; compare bytes/SHA256/blob SHA1 to freeze; check inherited hashes vs baseline remote tree; reobtain by immutable content_commit; metadata/outcomes separately audited"
+  "verification": "Validate normalized unique paths/modes; compare bytes/SHA256/blob SHA1 to freeze; check inherited hashes vs baseline remote tree; reobtain by immutable content_commit; metadata/outcomes separately audited",
+  "readiness_rule": "docs/01-discovery/discovery-02/PRONTIDAO.md",
+  "acceptance_scope": "Prontidão documental atual; gates PM-R5 não bloqueiam Discovery",
+  "prior_freeze_reference": {
+    "path": "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO.json",
+    "digest": "99eae003f97711e19d0448c855952ea761119629b21d712feafbf2fa73d585ae",
+    "scope": "snapshot anterior; não valida o delta desta correção"
+  },
+  "authorized_updates_to_prior_protected": [
+    {
+      "path": "README.md",
+      "prior_blob": "76eaf2e542c2909f2f3642a86873bd220747295b",
+      "current_blob": "4c1357e89a77bcfe1c1a0a3cd058b8669ff47170",
+      "reason": "Atualização documental de prontidão expressamente autorizada em 01/11/2026"
+    },
+    {
+      "path": "docs/chatgpt/PRIMEIRA-SESSAO.md",
+      "prior_blob": "28bb4928d3f064a7e849d8f7414ec1f0429f166a",
+      "current_blob": "58860b2b114a5d1f2bcf71a6d2d2bfc7d7621eaf",
+      "reason": "Atualização documental de prontidão expressamente autorizada em 01/11/2026"
+    }
+  ]
 }

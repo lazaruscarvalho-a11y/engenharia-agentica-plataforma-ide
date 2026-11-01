@@ -1,195 +1,201 @@
 {
-  "schema_version": "d02-supplement-independent-audit-1",
-  "auditor": "/root/auditoria_independente",
-  "documentary_delta_accuracy": "PASS",
-  "scope": "Accuracy of post-content evidence and package, before canonical receipt persistence. Known RG procedural failure retained; no new authority.",
-  "content_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
-  "content_tree": "40f49154cb8626a74d35c6435688df5ef89d1292",
-  "source_authorship": "Coordinator authored receipts/package/finalizer; auditor wrote only AUDITORIA-SUPLEMENTO.md and ACHADOS-SUPLEMENTO.json",
-  "observed_remote": {
-    "commit": {
-      "sha": "991e56a96180afac435469f81dfc06498d6fa7b1",
-      "tree": "40f49154cb8626a74d35c6435688df5ef89d1292",
-      "parents": [
-        "e37af725a162c577cfa9ffde286d0fcf69294429"
-      ]
-    },
-    "pr": {
-      "number": 7,
-      "state": "open",
-      "draft": true,
-      "merged": false,
-      "base": {
-        "ref": "proposta/discovery-01-onboarding-agent-first",
-        "sha": "e37af725a162c577cfa9ffde286d0fcf69294429",
-        "repo": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide"
-      },
-      "head": {
-        "ref": "proposta/discovery-02-consolidacao",
+  "scope": "EXECUCAO_PM_R5_ENCERRADA_NAO_DEFINE_PRONTIDAO_ATUAL",
+  "current_readiness": "docs/01-discovery/discovery-02/PRONTIDAO.md",
+  "discovery_blockers": [],
+  "instruction": "Não usar estes resultados como pendência ou bloqueio do Discovery. Aplicar a orientação vigente determinada pelo usuário.",
+  "execution_record": {
+    "schema_version": "d02-supplement-independent-audit-1",
+    "auditor": "/root/auditoria_independente",
+    "documentary_delta_accuracy": "PASS",
+    "scope": "Accuracy of post-content evidence and package, before canonical receipt persistence. Known RG procedural failure retained; no new authority.",
+    "content_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+    "content_tree": "40f49154cb8626a74d35c6435688df5ef89d1292",
+    "source_authorship": "Coordinator authored receipts/package/finalizer; auditor wrote only AUDITORIA-SUPLEMENTO.md and ACHADOS-SUPLEMENTO.json",
+    "observed_remote": {
+      "commit": {
         "sha": "991e56a96180afac435469f81dfc06498d6fa7b1",
-        "repo": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide"
+        "tree": "40f49154cb8626a74d35c6435688df5ef89d1292",
+        "parents": [
+          "e37af725a162c577cfa9ffde286d0fcf69294429"
+        ]
+      },
+      "pr": {
+        "number": 7,
+        "state": "open",
+        "draft": true,
+        "merged": false,
+        "base": {
+          "ref": "proposta/discovery-01-onboarding-agent-first",
+          "sha": "e37af725a162c577cfa9ffde286d0fcf69294429",
+          "repo": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide"
+        },
+        "head": {
+          "ref": "proposta/discovery-02-consolidacao",
+          "sha": "991e56a96180afac435469f81dfc06498d6fa7b1",
+          "repo": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide"
+        }
+      },
+      "ci": {
+        "id": 41231611766,
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "991e56a96180afac435469f81dfc06498d6fa7b1",
+        "event": "pull_request"
+      },
+      "counts": {
+        "runs": 1,
+        "checks": 1,
+        "legacy": 0,
+        "legacy_state": "pending"
       }
     },
-    "ci": {
-      "id": 41231611766,
-      "status": "completed",
-      "conclusion": "success",
-      "head_sha": "991e56a96180afac435469f81dfc06498d6fa7b1",
-      "event": "pull_request"
+    "verification": {
+      "remote_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
+      "tree_blob_count": 228,
+      "modified_checked": 57,
+      "modified_errors": [],
+      "protected_checked": 171,
+      "protected_errors": [],
+      "freeze_checked": 44,
+      "freeze_errors": [],
+      "originals_checked": 163,
+      "original_errors": [],
+      "emission_symlinks": []
     },
-    "counts": {
-      "runs": 1,
-      "checks": 1,
-      "legacy": 0,
-      "legacy_state": "pending"
-    }
-  },
-  "verification": {
-    "remote_commit": "991e56a96180afac435469f81dfc06498d6fa7b1",
-    "tree_blob_count": 228,
-    "modified_checked": 57,
-    "modified_errors": [],
-    "protected_checked": 171,
-    "protected_errors": [],
-    "freeze_checked": 44,
-    "freeze_errors": [],
-    "originals_checked": 163,
-    "original_errors": [],
-    "emission_symlinks": []
-  },
-  "package": {
-    "zip_bytes": 3841747,
-    "zip_sha256": "d5a85f6be63850d8d9230349a786e23dcc1193ae663e350a29b5a736ed3bbd9e",
-    "zip_entries": 174,
-    "manifest_entries": 173,
-    "all_payload_bytes_reopened": true,
-    "CRC": "PASS",
-    "metadata": "1980 timestamp, Unix100644, ZIP_STORED, Windows pathlib.Path ordering",
-    "repeat_identical": true,
-    "manifest_sha256": "993f2a25d60b3a09295909099b3b44aeb0edd8ed8cab8c92c3efdfaa53db1def",
-    "logical_digest": "f1bc412fb4bed4e58f581279bc2108f1626a34fd5f8077b2445f08e8bb34ce38",
-    "links_and_coverage": {
-      "mapping_entries": 571,
-      "links_checked": 571,
-      "anchors_checked": 326,
-      "link_errors": [],
-      "source_bodies_checked": 73,
-      "coverage_errors": [],
-      "evaluator_paths_in_native": [],
-      "critical_owners_present": true
+    "package": {
+      "zip_bytes": 3841747,
+      "zip_sha256": "d5a85f6be63850d8d9230349a786e23dcc1193ae663e350a29b5a736ed3bbd9e",
+      "zip_entries": 174,
+      "manifest_entries": 173,
+      "all_payload_bytes_reopened": true,
+      "CRC": "PASS",
+      "metadata": "1980 timestamp, Unix100644, ZIP_STORED, Windows pathlib.Path ordering",
+      "repeat_identical": true,
+      "manifest_sha256": "993f2a25d60b3a09295909099b3b44aeb0edd8ed8cab8c92c3efdfaa53db1def",
+      "logical_digest": "f1bc412fb4bed4e58f581279bc2108f1626a34fd5f8077b2445f08e8bb34ce38",
+      "links_and_coverage": {
+        "mapping_entries": 571,
+        "links_checked": 571,
+        "anchors_checked": 326,
+        "link_errors": [],
+        "source_bodies_checked": 73,
+        "coverage_errors": [],
+        "evaluator_paths_in_native": [],
+        "critical_owners_present": true
+      },
+      "diagnostic": {
+        "initial_check": "ZIP_NAMES because audit assumed POSIX string ordering",
+        "recheck": "Actual ordering exactly matches sorted Windows PureWindowsPath; no collisions. Source generator fixes that ordering and two emitted ZIP bytes match.",
+        "disposition": "Not package defect; deterministic in observed environment, no cross-platform identity claim."
+      }
     },
-    "diagnostic": {
-      "initial_check": "ZIP_NAMES because audit assumed POSIX string ordering",
-      "recheck": "Actual ordering exactly matches sorted Windows PureWindowsPath; no collisions. Source generator fixes that ordering and two emitted ZIP bytes match.",
-      "disposition": "Not package defect; deterministic in observed environment, no cross-platform identity claim."
-    }
-  },
-  "findings": [
-    {
-      "id": "AUD-D02-SUP-001",
-      "severity": "MEDIO",
-      "mandatory_criterion": true,
-      "affected_gate": "RG",
-      "state": "ABERTO_NAO_REMEDIAVEL_RETROATIVAMENTE",
-      "clauses": [
-        "R4-010",
-        "R4-039"
-      ],
-      "source": "RG-TENTATIVA-1.md consultation section; RG-TENTATIVA-2.md §7 items5–7; DIARIO connector_route_observations",
-      "observed": "For exact D02 branch resolution, RG1 used encoded branch GET400 then successful ref alternative. RG2 repeated the failed encoded route after the initial-plus-alternative allowance had been consumed. Shared exhaustion was not propagated. Changing agent/context did not reset it.",
-      "counter_scope": "D02 route alone suffices; no need to combine earlier D01 baseline object to establish breach.",
-      "impact": "RG procedure FAIL despite 11/11 positive semantic criteria. Prior A/content/G/F evidence remains valid in its own earlier scope.",
-      "correction_of_claim": "Coordinator withdrew RG PASS, preserved initial evaluation as historical_only, corrected continuity/journal/report/vector to RG FAIL and COM_FALHAS.",
-      "remediation": "No third recovery attempt or repeat of exhausted route; occurrence cannot be remediated retrospectively. Persist accurate failure and limits. Future genuinely new scope cannot be a renamed retry.",
-      "coordinator_acknowledged": true
-    }
-  ],
-  "semantic_recovery": {
-    "criteria": 11,
-    "passed": 11,
-    "material_errors_identified": 0,
-    "source_review": "Read complete RG2 report and initial/follow-up messages; each AX and HUM03/06 conditions/negatives present; this is distinct from failed procedural gate.",
-    "RG1": "INCONCLUSIVO due rubric exposure; preserved",
-    "RG2": "SEMANTIC_PASS_PROCEDURAL_FAIL",
-    "RF": "BLOQUEADO",
-    "RN": "NOT_RUN",
-    "new_real_user_conversation": false
-  },
-  "gates": {
-    "A": "PASS",
-    "G": "PASS",
-    "F": "PASS",
-    "PS": "BLOQUEADO",
-    "PI": "BLOQUEADO",
-    "RG": "FAIL",
-    "RF": "BLOQUEADO",
-    "RN": "NOT_RUN",
-    "Z": "NOT_RUN"
-  },
-  "P": "BLOQUEADO",
-  "R": "FAIL",
-  "global": "COM_FALHAS",
-  "Z": "NOT_RUN",
-  "Z_reason": "Canonical receipt commit and immutable reread not yet observed at this cut; later proof may set Z PASS while global remains COM_FALHAS.",
-  "receipt_hashes": {
-    "RECIBO-PUBLICACAO.json": {
-      "bytes": 23558,
-      "sha256": "f3c066cdb5c3227118e5efb451e5a732230a3ae9b758180804f58c6b4e831777"
+    "findings": [
+      {
+        "id": "AUD-D02-SUP-001",
+        "severity": "MEDIO",
+        "mandatory_criterion": true,
+        "affected_gate": "RG",
+        "state": "ABERTO_NAO_REMEDIAVEL_RETROATIVAMENTE",
+        "clauses": [
+          "R4-010",
+          "R4-039"
+        ],
+        "source": "RG-TENTATIVA-1.md consultation section; RG-TENTATIVA-2.md §7 items5–7; DIARIO connector_route_observations",
+        "observed": "For exact D02 branch resolution, RG1 used encoded branch GET400 then successful ref alternative. RG2 repeated the failed encoded route after the initial-plus-alternative allowance had been consumed. Shared exhaustion was not propagated. Changing agent/context did not reset it.",
+        "counter_scope": "D02 route alone suffices; no need to combine earlier D01 baseline object to establish breach.",
+        "impact": "RG procedure FAIL despite 11/11 positive semantic criteria. Prior A/content/G/F evidence remains valid in its own earlier scope.",
+        "correction_of_claim": "Coordinator withdrew RG PASS, preserved initial evaluation as historical_only, corrected continuity/journal/report/vector to RG FAIL and COM_FALHAS.",
+        "remediation": "No third recovery attempt or repeat of exhausted route; occurrence cannot be remediated retrospectively. Persist accurate failure and limits. Future genuinely new scope cannot be a renamed retry.",
+        "coordinator_acknowledged": true
+      }
+    ],
+    "semantic_recovery": {
+      "criteria": 11,
+      "passed": 11,
+      "material_errors_identified": 0,
+      "source_review": "Read complete RG2 report and initial/follow-up messages; each AX and HUM03/06 conditions/negatives present; this is distinct from failed procedural gate.",
+      "RG1": "INCONCLUSIVO due rubric exposure; preserved",
+      "RG2": "SEMANTIC_PASS_PROCEDURAL_FAIL",
+      "RF": "BLOQUEADO",
+      "RN": "NOT_RUN",
+      "new_real_user_conversation": false
     },
-    "RECIBO-CONFIGURACAO.json": {
-      "bytes": 3480,
-      "sha256": "5cb7f571d7444d8d8b987971b796a2cf3e459b970a272716544c9910ed8664de"
+    "gates": {
+      "A": "PASS",
+      "G": "PASS",
+      "F": "PASS",
+      "PS": "BLOQUEADO",
+      "PI": "BLOQUEADO",
+      "RG": "FAIL",
+      "RF": "BLOQUEADO",
+      "RN": "NOT_RUN",
+      "Z": "NOT_RUN"
     },
-    "RECIBO-CONTINUIDADE.json": {
-      "bytes": 7074,
-      "sha256": "35785b77bf8a9abf8e0ed8414408417b2763b48d19bbf5f7f34287aa0b25b18c"
+    "P": "BLOQUEADO",
+    "R": "FAIL",
+    "global": "COM_FALHAS",
+    "Z": "NOT_RUN",
+    "Z_reason": "Canonical receipt commit and immutable reread not yet observed at this cut; later proof may set Z PASS while global remains COM_FALHAS.",
+    "receipt_hashes": {
+      "RECIBO-PUBLICACAO.json": {
+        "bytes": 23558,
+        "sha256": "f3c066cdb5c3227118e5efb451e5a732230a3ae9b758180804f58c6b4e831777"
+      },
+      "RECIBO-CONFIGURACAO.json": {
+        "bytes": 3480,
+        "sha256": "5cb7f571d7444d8d8b987971b796a2cf3e459b970a272716544c9910ed8664de"
+      },
+      "RECIBO-CONTINUIDADE.json": {
+        "bytes": 7074,
+        "sha256": "35785b77bf8a9abf8e0ed8414408417b2763b48d19bbf5f7f34287aa0b25b18c"
+      },
+      "RECIBO-PACOTE.json": {
+        "bytes": 1361,
+        "sha256": "15dede5743d8e5b84486c00131dff9dcd8d2a0fdce4e5c9df4e370f0dc0467a4"
+      },
+      "VERIFICACAO-PACOTE.json": {
+        "bytes": 1892,
+        "sha256": "eec0da31ed39a79ba64e3648adcb03cec033a78c392ead12f513c0f893c4f368"
+      },
+      "ORIGEM-PACOTE.json": {
+        "bytes": 54008,
+        "sha256": "65357ba9cdb259a6272e78c28bd05840c422b20cfed374cd6100203a239b7257"
+      },
+      "DIARIO-OPERACOES.json": {
+        "bytes": 6934,
+        "sha256": "0c38ceeb6f937f40a8fdfc53be1053ab6a409481349d2cd17879cd3fd200cf96"
+      },
+      "RELATORIO.md": {
+        "bytes": 10341,
+        "sha256": "5d8be325e55c1f2824be644a2b83edc29e04685d339c949ac3ef5457e6e63ede"
+      },
+      "VETOR-PRE-PERSISTENCIA.json": {
+        "bytes": 884,
+        "sha256": "5eaafa804b0b8ccb82511fd751a94272d7a488dfa7bf5a007e169089c88ba992"
+      },
+      "CONTINUIDADE-AVALIACAO-INICIAL.json": {
+        "bytes": 5706,
+        "sha256": "988fc196cb47e79a0a147a98441c0d52a94b79394409765163912f96e9455710"
+      },
+      "RG-TENTATIVA-1.md": {
+        "bytes": 14483,
+        "sha256": "386b18d4dd1bb5cbd8a1a06174fbb83d86c3637f43e4a44b9ef4f18996449d56"
+      },
+      "RG-TENTATIVA-2.md": {
+        "bytes": 32618,
+        "sha256": "be2bd10a062e2e639b820d6d95f6b80023e15aa47c088d305aa370eb5eb1fbd1"
+      },
+      "finalizar-pacote.py": {
+        "bytes": 5740,
+        "sha256": "9f6e459e777512c875573f72e1d7190cbdda18b239c8bdce4c91990c8ac6aaca"
+      }
     },
-    "RECIBO-PACOTE.json": {
-      "bytes": 1361,
-      "sha256": "15dede5743d8e5b84486c00131dff9dcd8d2a0fdce4e5c9df4e370f0dc0467a4"
-    },
-    "VERIFICACAO-PACOTE.json": {
-      "bytes": 1892,
-      "sha256": "eec0da31ed39a79ba64e3648adcb03cec033a78c392ead12f513c0f893c4f368"
-    },
-    "ORIGEM-PACOTE.json": {
-      "bytes": 54008,
-      "sha256": "65357ba9cdb259a6272e78c28bd05840c422b20cfed374cd6100203a239b7257"
-    },
-    "DIARIO-OPERACOES.json": {
-      "bytes": 6934,
-      "sha256": "0c38ceeb6f937f40a8fdfc53be1053ab6a409481349d2cd17879cd3fd200cf96"
-    },
-    "RELATORIO.md": {
-      "bytes": 10341,
-      "sha256": "5d8be325e55c1f2824be644a2b83edc29e04685d339c949ac3ef5457e6e63ede"
-    },
-    "VETOR-PRE-PERSISTENCIA.json": {
-      "bytes": 884,
-      "sha256": "5eaafa804b0b8ccb82511fd751a94272d7a488dfa7bf5a007e169089c88ba992"
-    },
-    "CONTINUIDADE-AVALIACAO-INICIAL.json": {
-      "bytes": 5706,
-      "sha256": "988fc196cb47e79a0a147a98441c0d52a94b79394409765163912f96e9455710"
-    },
-    "RG-TENTATIVA-1.md": {
-      "bytes": 14483,
-      "sha256": "386b18d4dd1bb5cbd8a1a06174fbb83d86c3637f43e4a44b9ef4f18996449d56"
-    },
-    "RG-TENTATIVA-2.md": {
-      "bytes": 32618,
-      "sha256": "be2bd10a062e2e639b820d6d95f6b80023e15aa47c088d305aa370eb5eb1fbd1"
-    },
-    "finalizar-pacote.py": {
-      "bytes": 5740,
-      "sha256": "9f6e459e777512c875573f72e1d7190cbdda18b239c8bdce4c91990c8ac6aaca"
-    }
-  },
-  "limitations": [
-    "Auditor did not author/edit content, receipts, package or finalizer and performed no external mutation.",
-    "Coordinator base64 readbacks recorded; auditor independently queried commit/tree/PR/CI and matched every selected cache blob and original to that remote tree, plus local ZIP payload/manifest.",
-    "No human signature or corporate identity authenticated by hashes. Native Sources/Instructions inaccessible; project metadata inventory does not prove native content.",
-    "Late finalizer is scoped to the inspected source/output directories; it is not a general security-hardened packaging tool. Current v1/v2 contain no symlinks and all source originals match authenticated objects.",
-    "Evidence persistence must retain RG failure; later Z PASS does not fix RG or authorize another attempt."
-  ]
+    "limitations": [
+      "Auditor did not author/edit content, receipts, package or finalizer and performed no external mutation.",
+      "Coordinator base64 readbacks recorded; auditor independently queried commit/tree/PR/CI and matched every selected cache blob and original to that remote tree, plus local ZIP payload/manifest.",
+      "No human signature or corporate identity authenticated by hashes. Native Sources/Instructions inaccessible; project metadata inventory does not prove native content.",
+      "Late finalizer is scoped to the inspected source/output directories; it is not a general security-hardened packaging tool. Current v1/v2 contain no symlinks and all source originals match authenticated objects.",
+      "Evidence persistence must retain RG failure; later Z PASS does not fix RG or authorize another attempt."
+    ]
+  }
 }

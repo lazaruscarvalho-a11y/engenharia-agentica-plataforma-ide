@@ -1,3 +1,7 @@
+# Alcance da matriz de consolidação
+
+Esta matriz descreve controles da missão documental PM-R5. Para prontidão atual da entrevista prevalece [PRONTIDAO.md](PRONTIDAO.md): Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa.
+
 # Matriz bidirecional D02 — revisão 1
 
 Inventário semântico preparado para auditoria, não autoatribuição de PASS. Fonte curada PM R5 §4; original histórico inacessível: confronto literal NOT_RUN. Todas as linhas têm revisão documental 1, inclusão por relevância material e lacuna literal declarada. Cada elemento/condição da unidade deve ser confrontado com o parágrafo integral correspondente do ledger e com o trecho da fonte. Não basta contagem de IDs. Definições humanas só se encontram nos donos indicados; blueprint/modelo são projeções. Detalhes operacionais candidatos não recebem aprovação por derivação.

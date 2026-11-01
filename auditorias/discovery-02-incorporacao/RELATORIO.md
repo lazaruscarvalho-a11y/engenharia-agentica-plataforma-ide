@@ -1,3 +1,7 @@
+# Escopo encerrado — não é orientação de prontidão
+
+Este documento relata a execução PM-R5 de 31/10/2026. Não constitui pendência nem bloqueio do Discovery atual. A regra vigente determinada pelo usuário está em docs/01-discovery/discovery-02/PRONTIDAO.md. Não reexecutar estes ensaios para liberar a entrevista.
+
 # Execução PM-D02-CONSOL-001 R5 — evidências de conteúdo e eventos
 
 31/10/2026 · proposta documental, sem merge ou ratificação. Este relatório foi produzido depois de A/G/F/RG e da constatação do impedimento nativo, antes da persistência canônica final Z. O último vetor e a prova de persistência serão registrados separadamente em `RESULTADO-FINAL.json`, quando existir; este relatório não prevê o commit que o conterá.
