@@ -1,0 +1,35 @@
+{
+  "project_id": "g-p-6ae4fdf0eb688191bb6536420421ef69",
+  "mode": "Campo nativo completo lido pela interface autenticada; comparação literal e SHA-256 calculado sobre UTF-8 sem normalização.",
+  "before_sha256": "f2b869334490bbec66508fc10d1f4a2ca6576aa96e3b988cc2cea80491486bb5",
+  "expected_sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+  "expected_characters": 7959,
+  "last_reread_sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+  "last_reread_characters": 7959,
+  "exact_match": true,
+  "status": "APLICADO_E_VERIFICADO",
+  "attempts": [
+    {
+      "attempt": 1,
+      "action": "Preencher campo e fechar; recarregar/reabrir",
+      "result": "Texto anterior permaneceu; não persistido"
+    },
+    {
+      "attempt": 2,
+      "action": "Preencher campo e sair com Tab antes de fechar; recarregar/reabrir",
+      "result": "Texto anterior permaneceu; não persistido"
+    }
+  ],
+  "automatic_writes_remaining": 0,
+  "native_CAS_available": false,
+  "scope": "Campo atual aplicado pelo usuário e relido integralmente em nova aba autenticada; memória, compartilhamento, permissões, nome e conversas não alterados.",
+  "canonical_file_sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+  "comparison_result": "Campo nativo coincide literalmente com o arquivo canônico completo, incluindo seu LF terminador. O pacote previa opcionalmente retirar esse único LF ao preencher; aqui foi mantido, com igualdade binária UTF-8 ao arquivo.",
+  "completed_by": "Edição manual do usuário; posterior conferência integral do coordenador em nova aba autenticada",
+  "automatic_writes_after_exhaustion": 0,
+  "manual_completion_reported": true,
+  "expected_input_without_final_LF": {
+    "sha256": "0173628e6ec637a52e5048e32c76ecf052bce7a594998bf8ad00a3931aed8260",
+    "characters": 7958
+  }
+}

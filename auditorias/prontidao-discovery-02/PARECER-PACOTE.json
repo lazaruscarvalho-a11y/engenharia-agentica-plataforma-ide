@@ -1,0 +1,68 @@
+{
+  "schema_version": "auditoria-pacote-prontidao-1",
+  "auditor": "/root/auditoria_prontidao_atual",
+  "scope": "Verificação independente local do pacote gerado após publicação; não é RG/RF/RN nem prova de aplicação nativa",
+  "content_commit": "93af0d7a570d0390d32c01c0a423a27903519e80",
+  "content_tree": "5ea0a412d13342060aa00c3bb4e0453e4c650c28",
+  "verdict": "APROVADO_NO_ESCOPO_DO_PACOTE",
+  "checks": {
+    "total": 1199,
+    "passed": 1198,
+    "failed": 1,
+    "native_bodies": 74,
+    "originals": 165,
+    "sources": 5,
+    "mapped_links": 534
+  },
+  "blocking_findings": [],
+  "verified": [
+    "Identidade de commit/tree nos metadados fornecidos e separação de prova remota relatada.",
+    "165 originais iguais aos bytes locais e blobs/tamanhos da árvore publicada fornecida.",
+    "Cinco tamanhos e SHA-256 de Fontes corretos, 74 corpos e inventário exato, 73 projeções de corpo completas e coerentes.",
+    "534 destinos mapeados existem na árvore e apontam para commit imutável correto.",
+    "PRONTIDAO na Fonte00, CONT-REG-0003 na Fonte04 e corpo de CONT-REG-0002 fora do upload.",
+    "Ausência de expressão RG...FAIL no conteúdo nativo; regra de não bloqueio presente nos cinco cabeçalhos.",
+    "Instruções iguais ao repositório/pacote, 7.958 caracteres efetivos, referência às retificações001..006 e retirada da exigência antiga de todos gates PASS.",
+    "ZIP CRC/inventário e bytes de cada item coincidem com pacote em disco."
+  ],
+  "limits": [
+    "Auditor não fez consulta remota ou operação nativa.",
+    "Este parecer comprova o pacote local e sua correspondência aos objetos fornecidos, não a aplicação nativa."
+  ],
+  "resolved_findings": [
+    {
+      "id": "AUD-PRONT-PAC-001",
+      "severity": "MEDIO_DOCUMENTAL",
+      "state": "CLOSED_CORRECTION_VERIFIED",
+      "source": "01-DISCOVERY-02.md",
+      "path": "ARCHITECTURE_BLUEPRINT.MD",
+      "observed": "Documento Markdown com extensão maiúscula foi envolvido em cerca ```json e não passou pelo remapeamento de links Markdown. O texto integral está presente.",
+      "correction": "Reconhecer extensão Markdown sem distinguir maiúsculas/minúsculas e regerar somente Fonte01/mapa/manifesto/ZIP afetados."
+    }
+  ],
+  "final_package_path": "C:\\Users\\Carvalhos\\Documents\\ChatGPT\\D02-CORRECAO-PRONTIDAO-20261101\\pacote-aplicacao-final",
+  "final_zip_path": "C:\\Users\\Carvalhos\\Documents\\ChatGPT\\D02-CORRECAO-PRONTIDAO-20261101\\FONTES-D02-APLICADAS.zip",
+  "final_zip_sha256": "f7806ba11d089e7b6a23e7ac11e9c7068eaaba288362dfc046a40c328749d766",
+  "remediation_review": {
+    "passed": 1224,
+    "failed": 0,
+    "mapped_links": 543,
+    "fragments_verified": 326,
+    "blueprint_markdown_and_remapping": "VERIFIED",
+    "other_four_sources": "IDENTICAL"
+  },
+  "previous_zip_before_metadata_update": {
+    "path": "C:\\Users\\Carvalhos\\Documents\\ChatGPT\\D02-CORRECAO-PRONTIDAO-20261101\\FONTES-D02-REVISAO-2-VERIFICADO.zip",
+    "sha256": "7e3c5bc4b0b8950a76bda91e07664c3587b69761e0e07ad7a1bd35d37ea5b0cf"
+  },
+  "metadata_only_addendum": {
+    "scope": "Ajuste dos campos de caracteres esperados para o arquivo completo7959, mantendo modalidade7958 sem LF em campo separado; os cinco arquivos e Instruções não mudaram",
+    "canonical_instruction_metadata_verified": true,
+    "zip_checks": {
+      "passed": 177,
+      "failed": 0
+    },
+    "zip_bytes": 904657,
+    "source_and_instruction_contents": "UNCHANGED"
+  }
+}

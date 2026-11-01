@@ -1,0 +1,675 @@
+{
+  "revision": 2,
+  "document_revision": "D02-doc-2",
+  "content_commit": "93af0d7a570d0390d32c01c0a423a27903519e80",
+  "content_tree": "5ea0a412d13342060aa00c3bb4e0453e4c650c28",
+  "project_id": "g-p-6ae4fdf0eb688191bb6536420421ef69",
+  "selected_paths": [
+    "AGENTS.md",
+    "ARCHITECTURE_BLUEPRINT.MD",
+    "ESTADO-ATUAL.md",
+    "README.md",
+    "RETOMADA.md",
+    "auditorias/discovery-01-r2/AUDITORIA-INDEPENDENTE.md",
+    "auditorias/discovery-01-r2/CANDIDATO-CONGELADO.json",
+    "auditorias/discovery-01-r2/COBERTURA.json",
+    "auditorias/discovery-01-r2/CONTINUIDADE-SUBAGENTE.md",
+    "auditorias/discovery-01-r2/DOSSIE-REPRODUZIDO.md",
+    "auditorias/discovery-01-r2/INTEGRIDADE-LOCAL.json",
+    "auditorias/discovery-01-r2/RECIBO-PUBLICACAO.json",
+    "auditorias/discovery-01-r2/RELATORIO.md",
+    "auditorias/discovery-01-r2/TESTES-DOCUMENTAIS.json",
+    "auditorias/discovery-01/RECIBO-PUBLICACAO.json",
+    "auditorias/discovery-01/REVISAO-LOCAL.json",
+    "auditorias/discovery-02-incorporacao/ACHADOS.json",
+    "auditorias/discovery-02-incorporacao/AUDITORIA-INDEPENDENTE.md",
+    "auditorias/discovery-02-incorporacao/AUTORIA.json",
+    "auditorias/discovery-02-incorporacao/BASELINE-REMOTA.json",
+    "auditorias/discovery-02-incorporacao/BLUEPRINT-ORIGEM.md",
+    "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO-1.json",
+    "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO-2.json",
+    "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO.json",
+    "auditorias/discovery-02-incorporacao/CENARIOS-AUDITORIA.json",
+    "auditorias/discovery-02-incorporacao/CENARIOS-PREDEFINIDOS.json",
+    "auditorias/discovery-02-incorporacao/IDENTIDADE-ENTRADAS.json",
+    "auditorias/discovery-02-incorporacao/INSPECAO-CI.json",
+    "auditorias/discovery-02-incorporacao/OBSERVACOES-E-OPERACOES.json",
+    "auditorias/discovery-02-incorporacao/ORACULOS-PREVIOS.json",
+    "auditorias/discovery-02-incorporacao/TESTES-DELTA-FREEZE3.json",
+    "auditorias/discovery-02-incorporacao/TESTES-DOCUMENTAIS.json",
+    "auditorias/discovery-02-incorporacao/TESTES-FREEZE2.json",
+    "auditorias/discovery-02-incorporacao/TESTES-HERDADOS-RESUMO.json",
+    "auditorias/discovery-02-incorporacao/TESTES-RODADA-INICIAL.json",
+    "auditorias/discovery-02-incorporacao/entradas/MATRIZ-CORRECOES-74.md",
+    "auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md",
+    "auditorias/discovery-02-incorporacao/entradas/RELATORIO-LIMITACOES-E-VERIFICACAO.md",
+    "auditorias/discovery-02-incorporacao/verificador-freeze1.mjs.snapshot",
+    "auditorias/fundacao-integral/AUDITORIA-CODIGO.md",
+    "auditorias/fundacao-integral/AUDITORIA-CONTEXTO.md",
+    "auditorias/fundacao-integral/AUDITORIA-PRODUTO.md",
+    "auditorias/fundacao-integral/INVENTARIO.md",
+    "auditorias/fundacao-integral/MATRIZ-COBERTURA.md",
+    "auditorias/fundacao-integral/RECIBO-PUBLICACAO.json",
+    "auditorias/fundacao-integral/RELATORIO-FINAL.md",
+    "auditorias/fundacao-integral/baseline-remoto.json",
+    "auditorias/fundacao-integral/cas-publicacao-inicial.json",
+    "auditorias/fundacao-integral/cobertura.json",
+    "auditorias/fundacao-integral/contexto-rechecagem.json",
+    "auditorias/fundacao-integral/demonstracao-persistencia.json",
+    "auditorias/fundacao-integral/execucoes.json",
+    "auditorias/fundacao-integral/inspecao-remota.json",
+    "auditorias/fundacao-integral/pacote-chatgpt-manifesto.json",
+    "auditorias/fundacao-integral/revalidacao-final.json",
+    "auditorias/implementacao-inc-gov-001/RELATORIO.md",
+    "auditorias/implementacao-inc-gov-001/conector-cas-real.json",
+    "auditorias/implementacao-inc-gov-001/retomada-processo-isolado.json",
+    "auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md",
+    "auditorias/importacao-pgc-001-v1.1.2/integridade.json",
+    "auditorias/importacao-pgc-001-v1.1.2/reexecucao.json",
+    "auditorias/importacao-pgc-001-v1.1.2/relatorio-estatico-reexecutado.md",
+    "auditorias/remediacao-continuidade/GATES-PGC.json",
+    "auditorias/remediacao-continuidade/PROVA-CHAT-INDEPENDENTE.json",
+    "auditorias/remediacao-continuidade/PROVA-FONTES-NATIVAS.json",
+    "auditorias/remediacao-continuidade/PROVA-PROJETO-CHATGPT.json",
+    "auditorias/remediacao-continuidade/pacote-fontes-manifesto.json",
+    "auditorias/remediacao-continuidade/pacote-negativos.json",
+    "auditorias/remediacao-continuidade/testes-windows/resultado.json",
+    "auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md",
+    "auditorias/revisao-pgc-001-v1.1.3/resultados.json",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/PGC-001.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/casos-adversariais.json",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+    "docs/01-discovery/INICIO-DISCOVERY.md",
+    "docs/01-discovery/discovery-01/FONTES.md",
+    "docs/01-discovery/discovery-01/MANIFESTO.json",
+    "docs/01-discovery/discovery-01/MATRIZ.md",
+    "docs/01-discovery/discovery-01/MODELO-FUNCIONAL.md",
+    "docs/01-discovery/discovery-01/README.md",
+    "docs/01-discovery/discovery-01/REGISTRO.md",
+    "docs/01-discovery/discovery-01/RETIFICACOES.md",
+    "docs/01-discovery/discovery-01/REVISAO.md",
+    "docs/01-discovery/discovery-02/AVALIACAO.md",
+    "docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md",
+    "docs/01-discovery/discovery-02/FONTES.md",
+    "docs/01-discovery/discovery-02/MANIFESTO.json",
+    "docs/01-discovery/discovery-02/MATRIZ.md",
+    "docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md",
+    "docs/01-discovery/discovery-02/PRONTIDAO.md",
+    "docs/01-discovery/discovery-02/README.md",
+    "docs/01-discovery/discovery-02/REGISTRO.md",
+    "docs/01-discovery/discovery-02/RETIFICACOES.md",
+    "docs/01-discovery/discovery-02/RETOMADA.md",
+    "docs/01-discovery/discovery-02/REVISAO.md",
+    "docs/01-discovery/governanca-assistida/INDICE.json",
+    "docs/01-discovery/governanca-assistida/INICIO.md",
+    "docs/01-discovery/governanca-assistida/aceites/GOV-OP-0001.json",
+    "docs/01-discovery/governanca-assistida/ensaios/controle-condicional.json",
+    "docs/01-discovery/governanca-assistida/recibos/GOV-OP-0001.json",
+    "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+    "docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md",
+    "docs/06-execucao/propostas/README.md",
+    "docs/chatgpt/CONFIGURACAO.md",
+    "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+    "docs/chatgpt/MANIFESTO-FONTES.md",
+    "docs/chatgpt/PRIMEIRA-SESSAO.md",
+    "docs/chatgpt/historico/pre-d02/CONFIGURACAO.md.snapshot",
+    "docs/chatgpt/historico/pre-d02/INSTRUCOES-PERMANENTES.md.snapshot",
+    "docs/chatgpt/historico/pre-d02/MANIFESTO-FONTES.md.snapshot",
+    "docs/continuidade/CONT-REG-0001.json",
+    "docs/continuidade/CONT-REG-0002.json",
+    "docs/continuidade/CONT-REG-0003.json",
+    "docs/continuidade/MANIFESTO.json",
+    "docs/continuidade/OPERACAO.md",
+    "docs/continuidade/RECIBO-PUBLICACAO.json",
+    "docs/continuidade/historico/pre-d02/LEIA-ME.md",
+    "docs/continuidade/historico/pre-d02/MANIFESTO.json",
+    "docs/continuidade/historico/pre-d02/snapshot/RETOMADA.md",
+    "docs/continuidade/historico/pre-d02/snapshot/docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+    "docs/continuidade/historico/pre-d02/snapshot/docs/continuidade/CONT-REG-0001.json",
+    "docs/continuidade/historico/pre-d02/snapshot/docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+    "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+    "docs/fundacao/axiomas-arquiteturais.md",
+    "docs/fundacao/capacidades.md",
+    "docs/fundacao/construcao-internalizacao.md",
+    "docs/fundacao/ecossistema-atual.md",
+    "docs/fundacao/metodologia-fases.md",
+    "docs/fundacao/protocolo-sessoes.md",
+    "docs/fundacao/registro-conhecimento.md",
+    "docs/fundacao/roteamento-contexto.md",
+    "docs/fundacao/visao-produto.md",
+    "harness/governanca_assistida/OPERACAO-FUNDACAO.md",
+    "harness/governanca_assistida/OPERACAO.md",
+    "harness/governanca_assistida/modelos/aceite-nao-preenchido.json",
+    "harness/governanca_assistida/modelos/recibo-nao-preenchido.json",
+    "harness/governanca_assistida/modelos/registro.json"
+  ],
+  "native_bodies": [
+    {
+      "path": "AGENTS.md",
+      "source": 0,
+      "sha256": "a9e98dc4d85021b90289915b1657e536b02e35760b05995d5a672fdcea44de12"
+    },
+    {
+      "path": "ARCHITECTURE_BLUEPRINT.MD",
+      "source": 1,
+      "sha256": "d88f88544173826be7728d206ef51543cc0c4e4be2b7331726d73928cc606536"
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "source": 0,
+      "sha256": "f78dd5e9c507f14d824b1cef812cef760f6f579a7fe5337e9223ccc888b84530"
+    },
+    {
+      "path": "README.md",
+      "source": 0,
+      "sha256": "ddd7eded1f8f837a415be890931f09ebc6e52c5b4b53e20ca4f772f6cf45a95f"
+    },
+    {
+      "path": "RETOMADA.md",
+      "source": 0,
+      "sha256": "7481b231f0691ed3b4c110c9e49766c7e23baa1e9c5ad5ce9c69531122859059"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/BLUEPRINT-ORIGEM.md",
+      "source": 4,
+      "sha256": "46668cc33df6daabdc11cc2e994a88169a72c38b2ec0f1e47d4f2c0a9ee971a9"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/IDENTIDADE-ENTRADAS.json",
+      "source": 4,
+      "sha256": "5112ec234f5a0404a7f4922fac848f161391bec97c881ac2bf9473f495f8148f"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "source": 3,
+      "sha256": "a53116c6aa5708d6e400343beed13054894090e29e04b4be5a9e76019115ffc7"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/PGC-001.md",
+      "source": 3,
+      "sha256": "dd4b8850314013945fdf71ca675f936bf00096398b0b4dd5c6d9dadb814164c8"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "source": 3,
+      "sha256": "bb587176c53d8dd4917dad073eab3a9118984583cf2cd960b6a79eaa7831db43"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md",
+      "source": 3,
+      "sha256": "8c3ede1272d30e9422e164b5bafc74c75188563b31eec0d46461a071e871aff5"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "source": 3,
+      "sha256": "e44178b1213ca280eb22f9944e8c708ea333a9499bb797205cb0d2db1cea172a"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "source": 3,
+      "sha256": "f686be94623a8722e5907d8925d553369dbbd7bf9e8b5e96c99b9c71b6562357"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "source": 3,
+      "sha256": "fae426f2946fdcc22993289e7743d9523306d841fd92dc2f1f5aa2b0297bdf00"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "source": 3,
+      "sha256": "adcc71348a9a3516f0ee07324de684cf28508cdaf3b55ccecd8543b2fee726b5"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "source": 3,
+      "sha256": "13a27b93470cfc0ca0b7ddf54f90596dde10d2c3967c2dd5679d603456844745"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "source": 3,
+      "sha256": "a121f946fc9348449e1e6842c223d62257b390dcceb56e6bcbe5ffc6446287cc"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "source": 3,
+      "sha256": "0e1521e44b8c7e55dd4d781644a4dfe060538cdfb1215e76df03d029880c3574"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "source": 3,
+      "sha256": "c2c42d33255ffa1ca1e8b591afb63c867592d47b810834bfba1b7ba5e55c34ad"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "source": 3,
+      "sha256": "6579e12d2e22b581d6cd6df47b157248baa4d9059982f00853e5a8c1eaa13ea8"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "source": 3,
+      "sha256": "2c06392df01ef6005dbd84f3eeeb862bcec9d72cb25afc7d81c745ad59e681ed"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "source": 3,
+      "sha256": "a62626c4c942d73dbc74ceebe424a0a581669e334dbd153ac815994449534218"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md",
+      "source": 3,
+      "sha256": "99a6586b230f426a6b2f8a23179f5fd6047c472c5713abb239e3a0680fad961b"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "source": 3,
+      "sha256": "2e64fa721d7e940026e4f90424519ba8cfcd93981f64ce15af0791b10543ed64"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "source": 3,
+      "sha256": "daf62ebdb18f7982e3f1ab4044e040fc0e859661a416f4e1fb92e174742eda54"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "source": 3,
+      "sha256": "eac3add951e677e6142a87f7bf98d4bf62f5a43db3969a3d8b9e9bc498ccb2ab"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md",
+      "source": 3,
+      "sha256": "390b1f06a458a5f40a99c843e99ef51b98bb7013b86222d3b7c197b385d47d09"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "source": 3,
+      "sha256": "4f9e94dab864868de60b57ec4d4859d66640b3eb4721455ecde0a19357cb2428"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "source": 3,
+      "sha256": "1002e1988e8a264e00eed5f097ad7d5bb4bac94bc84c67df7a31450af88cb9a4"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "source": 3,
+      "sha256": "95f42a4e4be4b5a2f44bb313019abf5fccc7890183dad4e56f464e337b542458"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "source": 3,
+      "sha256": "c048b0679bdb5cd24da7ee58ecc986d4986c8843d045920966996b563f18ce0e"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "source": 3,
+      "sha256": "d41f85e689d871a2fd9ed0f02e0c53c38e422367a917afe8277e4a8c4ff057a7"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "source": 3,
+      "sha256": "ff560118fd1939732187626e1c2e3ad370d45901920a24cf5ac242f7853f8738"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "source": 3,
+      "sha256": "c0dd230f58453d43011a2c8fd15e4a788ae507493274239cf586b273af15c7dd"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "source": 3,
+      "sha256": "230869fcc1e1f8d7f515b7b0424a489c84179710e75595c8df76fbaafca2d0f0"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "source": 3,
+      "sha256": "78dedad07607d131415d43a433d7793e91c96d2e8d048452b6ba02f373b91a4b"
+    },
+    {
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "source": 0,
+      "sha256": "ce0fb8355133c16b4bf4f36fdf65f7bdfc2f9b1cf0fb3356d263f6f2ec0251b3"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/FONTES.md",
+      "source": 4,
+      "sha256": "c5c60b902937a06d9b52a1e228064fa8a0fb3f1c8d2b8033300b1d4cc989ec2a"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MATRIZ.md",
+      "source": 2,
+      "sha256": "4b55ef449ca673b7e8ff8f82a84da5b793173da27128eb8bdad39590a3bfc068"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MODELO-FUNCIONAL.md",
+      "source": 2,
+      "sha256": "a8ed633cd41f51c1c6b51da8f68a04f517c4af76c1d38dea573d0b6606d47e50"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/README.md",
+      "source": 2,
+      "sha256": "7eb6296ef4b05ddea674329898b6d552a783ae8ef72a06bb884504b45788e7bc"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REGISTRO.md",
+      "source": 2,
+      "sha256": "0d57d323870968f1ed4201d9cd2bc075ddb0f77c973a0f07c1e766e7f3e658b8"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/RETIFICACOES.md",
+      "source": 2,
+      "sha256": "7e1f4ed9fddbbbadad4082785eb92d1492e8eb9a084c0759b71e83bbac21ab38"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REVISAO.md",
+      "source": 2,
+      "sha256": "049026bc7e61f53c6bf2e87bc5dbe8c213debc6aabab31686749ec06660f67b8"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/AVALIACAO.md",
+      "source": 1,
+      "sha256": "bd954fd5098bf4225fc9cf76f5ac64442126dd3d97ccfe75066f6232571d9282"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md",
+      "source": 1,
+      "sha256": "d03c9824a31069e48ad30c7089e930ad6b110ac76bdb476fb0874f4d64296448"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/FONTES.md",
+      "source": 4,
+      "sha256": "74e4d79a9722dcffcd0c6709314c9702e537e851dc193d7d7a86fd5b593345c7"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MANIFESTO.json",
+      "source": 1,
+      "sha256": "a38aea8d0ecf9849fefed4e12973da03151683bc7cb2da41949b457340095d21"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md",
+      "source": 1,
+      "sha256": "cd5ac777065c01fd9a601858a58d07cbd855386df18f363da63ddb0ff47d1b1e"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/PRONTIDAO.md",
+      "source": 0,
+      "sha256": "ef35add1f16037211d48a0c398435dcfc961df9850161765d0fb1b2bc85043f0"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/README.md",
+      "source": 1,
+      "sha256": "ae4093bae20189642729940eea8f32786322932e981214706047fafb33a43b2d"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REGISTRO.md",
+      "source": 1,
+      "sha256": "345b560989981e56a5cb8e0f11086c5696e273499b27174815b0543811994979"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETIFICACOES.md",
+      "source": 1,
+      "sha256": "978527c89c87216ff180b23509f9e4b65d9dba0430c7c5533a2007973f0ad286"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "source": 1,
+      "sha256": "9c98611ac71c3c005062c0a932de0aeec587af80d97cf4b52e0b7d5e4aa45aa1"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/INICIO.md",
+      "source": 0,
+      "sha256": "be31e374f8b96f6a53ce50bcf629fbcce33a84b9276ab473e3419c5f12b6963e"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+      "source": 0,
+      "sha256": "55d5027ebfba91cc442de55f7c966352c42f4db38693424c638f94e429e833b2"
+    },
+    {
+      "path": "docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md",
+      "source": 3,
+      "sha256": "0f54a70e51c226ae67421bcc05d08d921f847e6d7cb2fdecf5201c40ed3805b5"
+    },
+    {
+      "path": "docs/06-execucao/propostas/README.md",
+      "source": 3,
+      "sha256": "693a62b808e8559a02a7d3928033aaf01a92eb4f634cd70599a119f37a4a6720"
+    },
+    {
+      "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+      "source": 0,
+      "sha256": "18c3cff63d28f4aa31ca10e0e826548561668b960e21a83b886fd01c7471161f"
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0003.json",
+      "source": 4,
+      "sha256": "206de92f2b32d7a2d80f1e22d82c16406ef044fafc4f6df6ca00afde59f66ce2"
+    },
+    {
+      "path": "docs/continuidade/MANIFESTO.json",
+      "source": 4,
+      "sha256": "3d032ce188e5c6e12262c86d5d53a85c07b7a142e15d475320f3e4a375ca72cb"
+    },
+    {
+      "path": "docs/continuidade/OPERACAO.md",
+      "source": 4,
+      "sha256": "595664b24a248f7ebd59b677dca21caec17343ca4ca9e87c32fad5c85315516b"
+    },
+    {
+      "path": "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "source": 4,
+      "sha256": "87739fa4430fe5a8b3108503b31d939b9a58b5599f9792569378057ae361c034"
+    },
+    {
+      "path": "docs/fundacao/axiomas-arquiteturais.md",
+      "source": 1,
+      "sha256": "427abd63c45728e2d11b5c8f2b9dfee561ddb1402b3a0fdb84f1b23481027b79"
+    },
+    {
+      "path": "docs/fundacao/capacidades.md",
+      "source": 3,
+      "sha256": "eafadbd4e10de4ab3f3f397b1c74d18230fc42e7ae5237f50ac2917f72a8f3b1"
+    },
+    {
+      "path": "docs/fundacao/construcao-internalizacao.md",
+      "source": 3,
+      "sha256": "a9384ac36e52b49664f5afda51e84301a2c8dd239dcd13d0806dfa400dc0aef6"
+    },
+    {
+      "path": "docs/fundacao/ecossistema-atual.md",
+      "source": 3,
+      "sha256": "ffc855b144062aa1d1d200e5f2a9aadb284f40ea3503b2956ce8f613d86cd2fe"
+    },
+    {
+      "path": "docs/fundacao/metodologia-fases.md",
+      "source": 3,
+      "sha256": "8d958a4ecd5feb44d03b8679224ea52d3f6e8243f5cda69dbee11942882a234a"
+    },
+    {
+      "path": "docs/fundacao/protocolo-sessoes.md",
+      "source": 3,
+      "sha256": "4e598caaca0141e0c864f4c45bcd7498b948c333600a0e9e9428d8824e693579"
+    },
+    {
+      "path": "docs/fundacao/registro-conhecimento.md",
+      "source": 3,
+      "sha256": "05a64f5b2912a01feaf84e3cdc55b61b7e45a5aa8355f18a11d6314f81bb6b0d"
+    },
+    {
+      "path": "docs/fundacao/roteamento-contexto.md",
+      "source": 3,
+      "sha256": "cbdbad56379ad63ebd9bbbf968b8e312c55a45321ddb68c529b7ad8eb782f282"
+    },
+    {
+      "path": "docs/fundacao/visao-produto.md",
+      "source": 3,
+      "sha256": "79c185bde0b2034bb75efe7a7da0e0251271d457f9365d1691f1b5b839760a38"
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO-FUNDACAO.md",
+      "source": 0,
+      "sha256": "d3718a7346d849e43c3274ca5b81a1183c146577c5d86a22235e821d44c44649"
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO.md",
+      "source": 0,
+      "sha256": "67cd5925b06093f69757d8d52be1b92ee8e1b60afe32c0192b6fab384a9646da"
+    }
+  ],
+  "operator_only_paths": [
+    "auditorias/discovery-01-r2/AUDITORIA-INDEPENDENTE.md",
+    "auditorias/discovery-01-r2/CANDIDATO-CONGELADO.json",
+    "auditorias/discovery-01-r2/COBERTURA.json",
+    "auditorias/discovery-01-r2/CONTINUIDADE-SUBAGENTE.md",
+    "auditorias/discovery-01-r2/DOSSIE-REPRODUZIDO.md",
+    "auditorias/discovery-01-r2/INTEGRIDADE-LOCAL.json",
+    "auditorias/discovery-01-r2/RECIBO-PUBLICACAO.json",
+    "auditorias/discovery-01-r2/RELATORIO.md",
+    "auditorias/discovery-01-r2/TESTES-DOCUMENTAIS.json",
+    "auditorias/discovery-01/RECIBO-PUBLICACAO.json",
+    "auditorias/discovery-01/REVISAO-LOCAL.json",
+    "auditorias/discovery-02-incorporacao/ACHADOS.json",
+    "auditorias/discovery-02-incorporacao/AUDITORIA-INDEPENDENTE.md",
+    "auditorias/discovery-02-incorporacao/AUTORIA.json",
+    "auditorias/discovery-02-incorporacao/BASELINE-REMOTA.json",
+    "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO-1.json",
+    "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO-2.json",
+    "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO.json",
+    "auditorias/discovery-02-incorporacao/CENARIOS-AUDITORIA.json",
+    "auditorias/discovery-02-incorporacao/CENARIOS-PREDEFINIDOS.json",
+    "auditorias/discovery-02-incorporacao/INSPECAO-CI.json",
+    "auditorias/discovery-02-incorporacao/OBSERVACOES-E-OPERACOES.json",
+    "auditorias/discovery-02-incorporacao/ORACULOS-PREVIOS.json",
+    "auditorias/discovery-02-incorporacao/TESTES-DELTA-FREEZE3.json",
+    "auditorias/discovery-02-incorporacao/TESTES-DOCUMENTAIS.json",
+    "auditorias/discovery-02-incorporacao/TESTES-FREEZE2.json",
+    "auditorias/discovery-02-incorporacao/TESTES-HERDADOS-RESUMO.json",
+    "auditorias/discovery-02-incorporacao/TESTES-RODADA-INICIAL.json",
+    "auditorias/discovery-02-incorporacao/entradas/MATRIZ-CORRECOES-74.md",
+    "auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md",
+    "auditorias/discovery-02-incorporacao/entradas/RELATORIO-LIMITACOES-E-VERIFICACAO.md",
+    "auditorias/discovery-02-incorporacao/verificador-freeze1.mjs.snapshot",
+    "auditorias/fundacao-integral/AUDITORIA-CODIGO.md",
+    "auditorias/fundacao-integral/AUDITORIA-CONTEXTO.md",
+    "auditorias/fundacao-integral/AUDITORIA-PRODUTO.md",
+    "auditorias/fundacao-integral/INVENTARIO.md",
+    "auditorias/fundacao-integral/MATRIZ-COBERTURA.md",
+    "auditorias/fundacao-integral/RECIBO-PUBLICACAO.json",
+    "auditorias/fundacao-integral/RELATORIO-FINAL.md",
+    "auditorias/fundacao-integral/baseline-remoto.json",
+    "auditorias/fundacao-integral/cas-publicacao-inicial.json",
+    "auditorias/fundacao-integral/cobertura.json",
+    "auditorias/fundacao-integral/contexto-rechecagem.json",
+    "auditorias/fundacao-integral/demonstracao-persistencia.json",
+    "auditorias/fundacao-integral/execucoes.json",
+    "auditorias/fundacao-integral/inspecao-remota.json",
+    "auditorias/fundacao-integral/pacote-chatgpt-manifesto.json",
+    "auditorias/fundacao-integral/revalidacao-final.json",
+    "auditorias/implementacao-inc-gov-001/RELATORIO.md",
+    "auditorias/implementacao-inc-gov-001/conector-cas-real.json",
+    "auditorias/implementacao-inc-gov-001/retomada-processo-isolado.json",
+    "auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md",
+    "auditorias/importacao-pgc-001-v1.1.2/integridade.json",
+    "auditorias/importacao-pgc-001-v1.1.2/reexecucao.json",
+    "auditorias/importacao-pgc-001-v1.1.2/relatorio-estatico-reexecutado.md",
+    "auditorias/remediacao-continuidade/GATES-PGC.json",
+    "auditorias/remediacao-continuidade/PROVA-CHAT-INDEPENDENTE.json",
+    "auditorias/remediacao-continuidade/PROVA-FONTES-NATIVAS.json",
+    "auditorias/remediacao-continuidade/PROVA-PROJETO-CHATGPT.json",
+    "auditorias/remediacao-continuidade/pacote-fontes-manifesto.json",
+    "auditorias/remediacao-continuidade/pacote-negativos.json",
+    "auditorias/remediacao-continuidade/testes-windows/resultado.json",
+    "auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md",
+    "auditorias/revisao-pgc-001-v1.1.3/resultados.json",
+    "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/casos-adversariais.json",
+    "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
+    "docs/01-discovery/discovery-01/MANIFESTO.json",
+    "docs/01-discovery/discovery-02/MATRIZ.md",
+    "docs/01-discovery/discovery-02/REVISAO.md",
+    "docs/01-discovery/governanca-assistida/INDICE.json",
+    "docs/01-discovery/governanca-assistida/aceites/GOV-OP-0001.json",
+    "docs/01-discovery/governanca-assistida/ensaios/controle-condicional.json",
+    "docs/01-discovery/governanca-assistida/recibos/GOV-OP-0001.json",
+    "docs/chatgpt/CONFIGURACAO.md",
+    "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+    "docs/chatgpt/PRIMEIRA-SESSAO.md",
+    "docs/chatgpt/historico/pre-d02/CONFIGURACAO.md.snapshot",
+    "docs/chatgpt/historico/pre-d02/INSTRUCOES-PERMANENTES.md.snapshot",
+    "docs/chatgpt/historico/pre-d02/MANIFESTO-FONTES.md.snapshot",
+    "docs/continuidade/CONT-REG-0001.json",
+    "docs/continuidade/CONT-REG-0002.json",
+    "docs/continuidade/RECIBO-PUBLICACAO.json",
+    "docs/continuidade/historico/pre-d02/LEIA-ME.md",
+    "docs/continuidade/historico/pre-d02/MANIFESTO.json",
+    "docs/continuidade/historico/pre-d02/snapshot/RETOMADA.md",
+    "docs/continuidade/historico/pre-d02/snapshot/docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+    "docs/continuidade/historico/pre-d02/snapshot/docs/continuidade/CONT-REG-0001.json",
+    "docs/continuidade/historico/pre-d02/snapshot/docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+    "harness/governanca_assistida/modelos/aceite-nao-preenchido.json",
+    "harness/governanca_assistida/modelos/recibo-nao-preenchido.json",
+    "harness/governanca_assistida/modelos/registro.json"
+  ],
+  "sources": [
+    {
+      "name": "00-ENTRADA-E-CONFIGURACAO.md",
+      "bytes": 56969,
+      "sha256": "6311cc982868ba3ee9ab6c0629c81ba326731b2955765518223f84ee749eec83"
+    },
+    {
+      "name": "01-DISCOVERY-02.md",
+      "bytes": 146056,
+      "sha256": "6241ab88bd8f28e510b20645c4256f786f4b599955e2c2e5c59af25835bd1b49"
+    },
+    {
+      "name": "02-DISCOVERY-01-HISTORICO.md",
+      "bytes": 193101,
+      "sha256": "f0e6ff6e2bea535b47573c4c92ded7900230bf622d268b5c68ad4fa9fb604996"
+    },
+    {
+      "name": "03-FUNDACAO-E-CANDIDATOS.md",
+      "bytes": 382192,
+      "sha256": "461a5235292da2282ddcaa28fadfc07e335fe57792bc5ed339c30d9c2f8e80ba"
+    },
+    {
+      "name": "04-PROVENIENCIA-E-PROVAS.md",
+      "bytes": 29018,
+      "sha256": "4762018bda27321ffb0c740fcce620c5e98a777b9bfe0690c59ac2bebe81ecbe"
+    }
+  ],
+  "instructions": {
+    "bytes": 8273,
+    "sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+    "native_expected_characters": 7959,
+    "comparison": "Comparação literal com o arquivo canônico completo, incluindo LF final. Retirar exclusivamente esse LF ao preencher também é documentalmente equivalente; essa modalidade deve ser identificada separadamente.",
+    "native_input_without_final_LF_characters": 7958
+  },
+  "origin": "Arquivos comparados aos blobs/modos/tamanhos da árvore remota; delta relido por commit e texto UTF-8 exato.",
+  "native_application": "Cinco Fontes e Instruções aplicadas; ver recibo posterior da aplicação para leitura nativa e hashes observados."
+}

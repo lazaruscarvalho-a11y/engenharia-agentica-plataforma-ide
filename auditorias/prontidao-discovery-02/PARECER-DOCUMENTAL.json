@@ -1,0 +1,140 @@
+{
+  "schema_version": "auditoria-documental-prontidao-1",
+  "auditor": "/root/auditoria_prontidao_atual",
+  "scope": "Revisão independente local do candidato documental; não é RG/RF/RN nem prova de aplicação nativa",
+  "candidate_path": "C:\\Users\\Carvalhos\\Documents\\ChatGPT\\D02-CORRECAO-PRONTIDAO-20261101\\CANDIDATO-DOCUMENTAL.json",
+  "candidate_sha256": "14c07eb1a8647d0757ef92334e941422c2164a937b7292228c244506a1031bc4",
+  "base_commit": "27d20a7d839f35ae0014c54cd121157a656c91b1",
+  "verdict": "APROVADO_NO_ESCOPO_DOCUMENTAL",
+  "blocking_findings": [],
+  "checks": {
+    "total": 425,
+    "passed": 425,
+    "failed": 0,
+    "freeze_files": 29,
+    "unchanged_base_files": 219,
+    "d02_manifest_files": 46,
+    "continuity_manifest_files": 5,
+    "manifest_unique_paths": 2,
+    "relative_links": 110,
+    "hum_sections_byte_identical_as_text": 11,
+    "native_instruction_checks": 3
+  },
+  "semantic_findings": [
+    "RG e demais gates do PM-R5 são explicitamente retirados da prontidão da entrevista nas entradas, estado, Instruções, revisão e configuração.",
+    "Não há PASS retroativo atribuído; avaliações anteriores são explicitamente limitadas à execução encerrada.",
+    "HUM-01..HUM-11 preservados integralmente; AX, governança candidata, pipelines e código fora do delta mantêm identidade da base.",
+    "Acesso e backup nativo são relatados, mas a nova aplicação e releitura não são declaradas como já realizadas.",
+    "PEN-001/002 seguem como trabalho de produto; PEN-006 descreve manutenção, sem bloqueio da entrevista.",
+    "Referência das Instruções às retificações atualizada para D02-RET-001..006, preservando demais parágrafos e 7.958 caracteres."
+  ],
+  "required_followup": [
+    "Gerar pacote pelo commit efetivamente publicado/reobtido. Incluir PRONTIDAO na Fonte00 e CONT-REG-0003; excluir corpo CONT-REG-0002 antigo do upload.",
+    "Conferir cinco arquivos nativos após aplicação e campo completo após salvar/reabrir.",
+    "Revalidar somente hashes/textos dependentes se houver mudança após este congelamento."
+  ],
+  "limits": [
+    "Nenhuma consulta externa, navegador, Library ou execução de aplicações foi realizada pelo auditor.",
+    "Fontes novas ainda não geradas/aplicadas no momento desta primeira avaliação; nenhum PASS para essas etapas.",
+    "Parecer não garante comportamento de toda conversa futura nem sincronização automática."
+  ],
+  "initial_candidate_sha256": "53651213521d49900072eec927194541ef3f55a1cb809bf47f4fe87acbee7338",
+  "amendment_review": {
+    "passed": 7,
+    "failed": 1,
+    "scope": "Três arquivos afetados; parou na divergência de hash dependente. Nenhuma consulta externa."
+  },
+  "resolved_findings": [
+    {
+      "id": "AUD-PRONT-001",
+      "state": "CLOSED_CORRECTION_VERIFIED",
+      "file": "docs/01-discovery/discovery-02/MANIFESTO.json",
+      "entry": "docs/continuidade/MANIFESTO.json",
+      "observed": "Após a alteração das Instruções e do manifesto de continuidade, a entrada desse manifesto no manifesto D02 conserva SHA-256/blob antigo.",
+      "impact": "O pacote e a verificação remota não podem ser certificados contra esse manifesto.",
+      "correction": "Atualizar bytes, SHA-256 e git_blob_sha dessa entrada e recongelar somente D02 MANIFESTO."
+    },
+    {
+      "id": "AUD-PRONT-002",
+      "identified_by": "coordenador antes de ativar branch",
+      "state": "CLOSED_CORRECTION_VERIFIED",
+      "observed": "Manifesto herdava declaração de preservação para dois arquivos agora legitimamente alterados.",
+      "correction": "Somente README e PRIMEIRA-SESSAO passaram à lista de alterações autorizadas com blob anterior e atual; 169 metadados de preservação ficaram idênticos."
+    }
+  ],
+  "remediation_review": {
+    "scope": "Somente manifesto D02 alterado e dependência de continuidade anteriormente divergente",
+    "checks": [
+      {
+        "check": "D02-freeze-current",
+        "pass": true
+      },
+      {
+        "check": "continuity-size",
+        "pass": true
+      },
+      {
+        "check": "continuity-SHA256",
+        "pass": true
+      },
+      {
+        "check": "continuity-Git-blob",
+        "pass": true
+      }
+    ],
+    "passed": 4,
+    "failed": 0
+  },
+  "previous_candidate_sha256_before_metadata_fix": "e56a23ed6bef35f6a72dd8932dbb31abefcfa8bcafbec4977661cee281ce3d44",
+  "protection_metadata_review": {
+    "scope": "Somente classificação de README e PRIMEIRA-SESSAO já legitimamente alterados; nenhum conteúdo adicional modificado",
+    "checks": [
+      {
+        "check": "D02-freeze",
+        "pass": true
+      },
+      {
+        "check": "only-two-removed",
+        "pass": true
+      },
+      {
+        "check": "169-protected-remain",
+        "pass": true
+      },
+      {
+        "check": "remaining-metadata-identical",
+        "pass": true
+      },
+      {
+        "check": "exact-two-authorized-updates",
+        "pass": true
+      },
+      {
+        "check": "prior-blob:README.md",
+        "pass": true
+      },
+      {
+        "check": "current-blob:README.md",
+        "pass": true
+      },
+      {
+        "check": "documentary-authority:README.md",
+        "pass": true
+      },
+      {
+        "check": "prior-blob:docs/chatgpt/PRIMEIRA-SESSAO.md",
+        "pass": true
+      },
+      {
+        "check": "current-blob:docs/chatgpt/PRIMEIRA-SESSAO.md",
+        "pass": true
+      },
+      {
+        "check": "documentary-authority:docs/chatgpt/PRIMEIRA-SESSAO.md",
+        "pass": true
+      }
+    ],
+    "passed": 11,
+    "failed": 0
+  }
+}

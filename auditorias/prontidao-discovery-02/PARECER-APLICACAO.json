@@ -1,0 +1,276 @@
+{
+  "schema_version": "auditoria-aplicacao-prontidao-1",
+  "auditor": "/root/auditoria_prontidao_atual",
+  "status": "APLICADO_E_VERIFICADO_NO_ESCOPO_OBSERVADO",
+  "complete": true,
+  "content_commit": "93af0d7a570d0390d32c01c0a423a27903519e80",
+  "project_id": "g-p-6ae4fdf0eb688191bb6536420421ef69",
+  "checks": {
+    "passed": 13,
+    "failed": 0,
+    "details": [
+      {
+        "check": "native-file-exact-canonical",
+        "pass": true
+      },
+      {
+        "check": "expected-equals-actual-hash",
+        "pass": true
+      },
+      {
+        "check": "expected-equals-actual-characters",
+        "pass": true
+      },
+      {
+        "check": "input-modality-without-LF-separated",
+        "pass": true
+      },
+      {
+        "check": "native-status-applied",
+        "pass": true
+      },
+      {
+        "check": "manual-attribution",
+        "pass": true
+      },
+      {
+        "check": "no-extra-automatic-write",
+        "pass": true
+      },
+      {
+        "check": "current-scope-not-awaiting-user",
+        "pass": true
+      },
+      {
+        "check": "receipt-instructions-identical",
+        "pass": true
+      },
+      {
+        "check": "receipt-source-pairs-preserved",
+        "pass": true
+      },
+      {
+        "check": "receipt-current-status",
+        "pass": true
+      },
+      {
+        "check": "identity-consistent",
+        "pass": true
+      },
+      {
+        "check": "package-instruction-canonical-metadata",
+        "pass": true
+      }
+    ],
+    "prior_native_source_pairs": 5,
+    "prior_source_checks_preserved": true
+  },
+  "sources": {
+    "status": "CINCO_PARES_NATIVOS_CONFERIDOS",
+    "count": 5,
+    "pairs": [
+      {
+        "name": "00-ENTRADA-E-CONFIGURACAO.md",
+        "bytes": 56969,
+        "sha256": "6311cc982868ba3ee9ab6c0629c81ba326731b2955765518223f84ee749eec83",
+        "exact_bytes": true
+      },
+      {
+        "name": "01-DISCOVERY-02.md",
+        "bytes": 146056,
+        "sha256": "6241ab88bd8f28e510b20645c4256f786f4b599955e2c2e5c59af25835bd1b49",
+        "exact_bytes": true
+      },
+      {
+        "name": "02-DISCOVERY-01-HISTORICO.md",
+        "bytes": 193101,
+        "sha256": "f0e6ff6e2bea535b47573c4c92ded7900230bf622d268b5c68ad4fa9fb604996",
+        "exact_bytes": true
+      },
+      {
+        "name": "03-FUNDACAO-E-CANDIDATOS.md",
+        "bytes": 382192,
+        "sha256": "461a5235292da2282ddcaa28fadfc07e335fe57792bc5ed339c30d9c2f8e80ba",
+        "exact_bytes": true
+      },
+      {
+        "name": "04-PROVENIENCIA-E-PROVAS.md",
+        "bytes": 29018,
+        "sha256": "4762018bda27321ffb0c740fcce620c5e98a777b9bfe0690c59ac2bebe81ecbe",
+        "exact_bytes": true
+      }
+    ],
+    "provenance": "Downloads nativos realizados pelo coordenador na interface; o auditor conferiu os arquivos baixados contra pacote aprovado e recibo local, sem operar o navegador."
+  },
+  "instructions": {
+    "project_id": "g-p-6ae4fdf0eb688191bb6536420421ef69",
+    "mode": "Campo nativo completo lido pela interface autenticada; comparação literal e SHA-256 calculado sobre UTF-8 sem normalização.",
+    "before_sha256": "f2b869334490bbec66508fc10d1f4a2ca6576aa96e3b988cc2cea80491486bb5",
+    "expected_sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+    "expected_characters": 7959,
+    "last_reread_sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+    "last_reread_characters": 7959,
+    "exact_match": true,
+    "status": "APLICADO_E_VERIFICADO",
+    "attempts": [
+      {
+        "attempt": 1,
+        "action": "Preencher campo e fechar; recarregar/reabrir",
+        "result": "Texto anterior permaneceu; não persistido"
+      },
+      {
+        "attempt": 2,
+        "action": "Preencher campo e sair com Tab antes de fechar; recarregar/reabrir",
+        "result": "Texto anterior permaneceu; não persistido"
+      }
+    ],
+    "automatic_writes_remaining": 0,
+    "native_CAS_available": false,
+    "scope": "Campo atual aplicado pelo usuário e relido integralmente em nova aba autenticada; memória, compartilhamento, permissões, nome e conversas não alterados.",
+    "canonical_file_sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+    "comparison_result": "Campo nativo coincide literalmente com o arquivo canônico completo, incluindo seu LF terminador. O pacote previa opcionalmente retirar esse único LF ao preencher; aqui foi mantido, com igualdade binária UTF-8 ao arquivo.",
+    "completed_by": "Edição manual do usuário; posterior conferência integral do coordenador em nova aba autenticada",
+    "automatic_writes_after_exhaustion": 0,
+    "manual_completion_reported": true,
+    "expected_input_without_final_LF": {
+      "sha256": "0173628e6ec637a52e5048e32c76ecf052bce7a594998bf8ad00a3931aed8260",
+      "characters": 7958
+    }
+  },
+  "current_effect": "As cinco Fontes correspondem ao pacote aprovado e as Instruções correspondem literalmente ao arquivo canônico completo. A orientação vigente não usa RG/gates PM-R5 como pendência ou bloqueio do Discovery. A etapa parcial anterior está encerrada; não é pendência atual.",
+  "scope_limits": [
+    "A leitura da interface foi feita pelo coordenador, após edição manual confirmada pelo usuário. O auditor conferiu os arquivos e recibos locais; não operou UI/Git nem executou RG/RF/RN/aplicações.",
+    "A ausência de CAS e de garantia sobre toda sessão futura permanece explicitamente limitada.",
+    "A publicação/releitura do recibo e destes pareceres em commit posterior será comprovada pelo coordenador; este parecer não antecipa seu commit futuro."
+  ],
+  "history": [
+    {
+      "phase": "APOS_FONTES_ANTES_DA_EDICAO_MANUAL_DAS_INSTRUCOES",
+      "status": "PARCIAL_FONTES_APLICADAS_INSTRUCOES_NAO_APLICADAS",
+      "complete": false,
+      "checks": {
+        "passed": 25,
+        "failed": 0,
+        "details": [
+          {
+            "check": "native-five-names-match-package",
+            "pass": true
+          },
+          {
+            "check": "project-id-consistent",
+            "pass": true
+          },
+          {
+            "check": "source-revision-consistent",
+            "pass": true
+          },
+          {
+            "check": "native-exact-bytes:00-ENTRADA-E-CONFIGURACAO.md",
+            "pass": true
+          },
+          {
+            "check": "native-package-sha-size:00-ENTRADA-E-CONFIGURACAO.md",
+            "pass": true
+          },
+          {
+            "check": "native-receipt-sha-size:00-ENTRADA-E-CONFIGURACAO.md",
+            "pass": true
+          },
+          {
+            "check": "native-exact-bytes:01-DISCOVERY-02.md",
+            "pass": true
+          },
+          {
+            "check": "native-package-sha-size:01-DISCOVERY-02.md",
+            "pass": true
+          },
+          {
+            "check": "native-receipt-sha-size:01-DISCOVERY-02.md",
+            "pass": true
+          },
+          {
+            "check": "native-exact-bytes:02-DISCOVERY-01-HISTORICO.md",
+            "pass": true
+          },
+          {
+            "check": "native-package-sha-size:02-DISCOVERY-01-HISTORICO.md",
+            "pass": true
+          },
+          {
+            "check": "native-receipt-sha-size:02-DISCOVERY-01-HISTORICO.md",
+            "pass": true
+          },
+          {
+            "check": "native-exact-bytes:03-FUNDACAO-E-CANDIDATOS.md",
+            "pass": true
+          },
+          {
+            "check": "native-package-sha-size:03-FUNDACAO-E-CANDIDATOS.md",
+            "pass": true
+          },
+          {
+            "check": "native-receipt-sha-size:03-FUNDACAO-E-CANDIDATOS.md",
+            "pass": true
+          },
+          {
+            "check": "native-exact-bytes:04-PROVENIENCIA-E-PROVAS.md",
+            "pass": true
+          },
+          {
+            "check": "native-package-sha-size:04-PROVENIENCIA-E-PROVAS.md",
+            "pass": true
+          },
+          {
+            "check": "native-receipt-sha-size:04-PROVENIENCIA-E-PROVAS.md",
+            "pass": true
+          },
+          {
+            "check": "native-before-hash-matches-backup",
+            "pass": true
+          },
+          {
+            "check": "expected-field-hash-matches-candidate",
+            "pass": true
+          },
+          {
+            "check": "expected-field-character-count",
+            "pass": true
+          },
+          {
+            "check": "last-read-is-old-text",
+            "pass": true
+          },
+          {
+            "check": "actual-mismatch-explicit",
+            "pass": true
+          },
+          {
+            "check": "automatic-attempts-exhausted",
+            "pass": true
+          },
+          {
+            "check": "candidate-file-matches-manifest",
+            "pass": true
+          }
+        ]
+      },
+      "instructions": {
+        "status": "NAO_APLICADO_AGUARDA_INTERVENCAO_MANUAL",
+        "before_sha256": "f2b869334490bbec66508fc10d1f4a2ca6576aa96e3b988cc2cea80491486bb5",
+        "expected_sha256": "0173628e6ec637a52e5048e32c76ecf052bce7a594998bf8ad00a3931aed8260",
+        "expected_characters": 7958,
+        "last_reread_sha256": "f2b869334490bbec66508fc10d1f4a2ca6576aa96e3b988cc2cea80491486bb5",
+        "last_reread_characters": 7936,
+        "exact_match": false,
+        "attempts_used": 2,
+        "automatic_writes_remaining": 0,
+        "native_CAS_available": false
+      },
+      "remaining_action_then": "Usuário aplicar o texto completo preparado no campo nativo e confirmar; depois reler integralmente, inclusive após recarregar/reabrir, para conferir igualdade literal/hash. Não efetuar terceira gravação automática.",
+      "current_pending": false,
+      "resolution": "Usuário aplicou manualmente; coordenador releu integralmente em nova aba e o auditor confirmou o arquivo idêntico ao canônico."
+    }
+  ],
+  "completion_scope": "Cinco Fontes nativas e campo de Instruções conforme pacote do commit93af0d7a570d0390d32c01c0a423a27903519e80; identidade UI observada pelo coordenador, consistência local verificada pelo auditor",
+  "remaining_essential_actions": []
+}
