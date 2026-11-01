@@ -1,0 +1,82 @@
+{
+  "mission": "PM-D02-CONSOL-001 R5",
+  "observed_utc": "2026-10-31 18:41:26 UTC",
+  "source_request": "Pedido direto do usuário nesta conversa: executar integralmente R5, publicar documentalmente branch/PR sem merge e configurar Projeto se controlável, fallback caso contrário.",
+  "classification": "Sinteses de produto autorizadas e fixtures sinteticas; nenhum dado interno real, credencial ou transcricao corporativa",
+  "repository": {
+    "full_name": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+    "visibility": "private",
+    "authenticated_login": "lazaruscarvalho-a11y",
+    "permissions": {
+      "pull": true,
+      "push": true
+    },
+    "head_D01": "e37af725a162c577cfa9ffde286d0fcf69294429",
+    "PR6": {
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "base": "proposta/fundacao-integral-pm-fund-001-003",
+      "base_sha": "f8d7c60955a1250ae4d94a428386787f4aaa24b0"
+    },
+    "main": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd"
+  },
+  "native": {
+    "project_id": "g-p-6ae4fdf0eb688191bb6536420421ef69",
+    "channel": "IAB",
+    "requested_url": "https://chatgpt.com/g/g-p-6ae4fdf0eb688191bb6536420421ef69/project",
+    "observed_url": "https://chatgpt.com/auth/login?next=%2Fg%2Fg-p-6ae4fdf0eb688191bb6536420421ef69%2Fproject",
+    "observed_text": "Entre ou cadastre-se",
+    "identity_account_workspace": "NAO_COMPROVADA",
+    "sources_instructions_inventory": "NAO_ACESSIVEL",
+    "mutation_performed": false,
+    "limit_effective": "DESCONHECIDO",
+    "official_docs": "https://learn.chatgpt.com/docs/projects"
+  },
+  "attempts": [
+    {
+      "failure": "clone CLI sem credencial",
+      "attempts": 1,
+      "result": "Repository not found",
+      "alternative": "integracao GitHub autenticada, snapshot materializado em base64 e hash Git",
+      "alternative_result": "181 blobs identicos"
+    },
+    {
+      "failure": "branch URL encoded recusada conector",
+      "attempts": 2,
+      "alternative": "colecao branches",
+      "result": "HEAD e37 confirmado"
+    },
+    {
+      "failure": "read_thread limite de argumento",
+      "attempts": 2,
+      "alternative": "maxOutputCharsPerItem 20000",
+      "result": "leitura oficial parcial sem cursor; sem solicitar catalogo; dossie R5 utilizado"
+    },
+    {
+      "failure": "Projeto login",
+      "attempts": 1,
+      "result": "rota identica encerrada; fallback"
+    },
+    {
+      "failure": "node payload limite 64000 bytes",
+      "attempts": 2,
+      "alternative": "inventario compacto sem URLs e arvore de diretorios",
+      "result": "sucesso sem eliminar blobs"
+    },
+    {
+      "failure": "API workflows URL nao permitida",
+      "attempts": 1,
+      "result": "inventario workflow por arvore Git completo e arquivo fonte; sem retry identico"
+    }
+  ],
+  "historical_source": {
+    "conversation_id": "6ae62519-a31c-83e9-8c21-b72543be825e",
+    "read_turn_limit": 10,
+    "cursor": null,
+    "access": "PARCIAL_TRUNCADO",
+    "original_R3_digest": null,
+    "blueprint_original": "ORIGINAL_INACESSIVEL",
+    "raw_transcript_archived": false
+  }
+}

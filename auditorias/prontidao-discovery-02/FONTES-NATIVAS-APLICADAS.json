@@ -1,0 +1,39 @@
+{
+  "project_id": "g-p-6ae4fdf0eb688191bb6536420421ef69",
+  "url": "https://chatgpt.com/g/g-p-6ae4fdf0eb688191bb6536420421ef69/project?tab=sources",
+  "content_commit": "93af0d7a570d0390d32c01c0a423a27903519e80",
+  "sources": [
+    {
+      "name": "00-ENTRADA-E-CONFIGURACAO.md",
+      "bytes": 56969,
+      "sha256": "6311cc982868ba3ee9ab6c0629c81ba326731b2955765518223f84ee749eec83",
+      "exact_bytes": true
+    },
+    {
+      "name": "01-DISCOVERY-02.md",
+      "bytes": 146056,
+      "sha256": "6241ab88bd8f28e510b20645c4256f786f4b599955e2c2e5c59af25835bd1b49",
+      "exact_bytes": true
+    },
+    {
+      "name": "02-DISCOVERY-01-HISTORICO.md",
+      "bytes": 193101,
+      "sha256": "f0e6ff6e2bea535b47573c4c92ded7900230bf622d268b5c68ad4fa9fb604996",
+      "exact_bytes": true
+    },
+    {
+      "name": "03-FUNDACAO-E-CANDIDATOS.md",
+      "bytes": 382192,
+      "sha256": "461a5235292da2282ddcaa28fadfc07e335fe57792bc5ed339c30d9c2f8e80ba",
+      "exact_bytes": true
+    },
+    {
+      "name": "04-PROVENIENCIA-E-PROVAS.md",
+      "bytes": 29018,
+      "sha256": "4762018bda27321ffb0c740fcce620c5e98a777b9bfe0690c59ac2bebe81ecbe",
+      "exact_bytes": true
+    }
+  ],
+  "source_count": 5,
+  "comparison": "Cada download nativo após upload comparado byte a byte ao arquivo aprovado; todas iguais."
+}

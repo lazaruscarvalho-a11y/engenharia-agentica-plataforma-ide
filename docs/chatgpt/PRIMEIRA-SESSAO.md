@@ -1,3 +1,7 @@
+# Continuidade vigente D02
+
+Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa. A entrada atual é [RETOMADA D02](../01-discovery/discovery-02/RETOMADA.md); roteiros anteriores abaixo não reiniciam a entrevista.
+
 # Primeira sessão pronta para discovery
 
 Versão 0.1.0 — proposta de roteiro. Não é um prompt adicional para executar a fundação. A fundação PM-FUND-001..003 é conduzida pela missão atual; este texto abre a conversa de concepção do produto após ou durante sua preparação.

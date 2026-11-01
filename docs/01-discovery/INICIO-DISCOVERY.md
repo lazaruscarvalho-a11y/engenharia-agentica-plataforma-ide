@@ -1,3 +1,13 @@
+# Prontidão vigente D02
+
+Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa. Continue por [RETOMADA D02](discovery-02/RETOMADA.md).
+
+# Entrada vigente D02 — revisão documental 3
+
+Continue pela [retomada D02](discovery-02/RETOMADA.md), suas [retificações](discovery-02/RETIFICACOES.md) e pelo manifesto D02. D01-R2 materialmente reconciliado; histórico integral ainda não recuperado. A exceção futura de execução local não autoriza executar aplicações nesta missão; nenhuma refatoração no onboarding. O conteúdo anterior abaixo é histórico ou roteiro geral subordinado à entrada D02.
+
+## Histórico preservado e roteiro geral
+
 # Percurso atualizado — D01-R2
 
 Revisão 2 do [Discovery 01](discovery-01/README.md): E01..E36 reconciliados a partir de declaração reproduzida no pedido, sem presumir transcrição integral recuperada. As escolhas conceituais e suas propostas derivadas estão separadas no [registro](discovery-01/REGISTRO.md). O [Discovery 02](discovery-02/RETOMADA.md) tem entrada preparada para o Motor de Compreensão Profunda de Repositórios. Ver [pendências](discovery-01/REVISAO.md) e recibo R2 para o estado de fechamento.

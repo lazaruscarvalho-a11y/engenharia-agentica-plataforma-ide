@@ -1,0 +1,2493 @@
+# Fontes D02 — conjunto 1 — revisão 2
+
+Snapshot 93af0d7a570d0390d32c01c0a423a27903519e80; D02-doc-2; proposta, sem ratificação. Caminhos identificam seções integrais destas Fontes.
+
+Regra vigente do Discovery: ler a base documental pertinente e recuperar decisões, restrições e ponto de continuidade. RG e demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Documentos anteriores de fundação/D01 são suporte histórico subordinado às retificações D02; seus estados de configuração não descrevem a aplicação desta revisão.
+
+
+---
+
+# ARCHITECTURE_BLUEPRINT.MD
+
+Origem: [ARCHITECTURE_BLUEPRINT.MD](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/ARCHITECTURE_BLUEPRINT.MD). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob 7015dc526c83720116add3d7da32de4b5d7fb018. SHA-256 d88f88544173826be7728d206ef51543cc0c4e4be2b7331726d73928cc606536.
+
+# Blueprint de arquitetura — síntese substituta rastreável, revisão 1
+
+ORIGINAL_INACESSIVEL: o blueprint histórico integral e o R3 literal não foram recuperados. Esta síntese integra o dossiê curado PM-D02-CONSOL-001 R5 e o D01-R2. Não é original integral certificado. [Origem e lacunas](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/auditorias/discovery-02-incorporacao/BLUEPRINT-ORIGEM.md).
+
+**Plataforma/IDE pretendida, ainda em discovery.** Nenhuma implementação da IDE ou aplicação foi executada nesta consolidação. PGC/CT candidatos NÃO RATIFICADOS; 49 CA operacionais NOT_RUN. Stack, layout, algoritmo, métricas e normas não aprovados.
+
+## Arquitetura de conhecimento e responsabilidade
+
+O [ledger D02](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REGISTRO.md), HUM-01..HUM-11 revisão 1, é dono das unidades, natureza, origem, validade, propostas e pendências. [AX-01..AX-10](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/fundacao/axiomas-arquiteturais.md) revisão 1 definem a direção temática; este blueprint só integra as referências. [Modelo funcional](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md), [contratos](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md) e [avaliação](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/AVALIACAO.md) detalham propostas D02-PROP-001..007, sem aprovação humana retroativa.
+
+HUM-05: Macro é workspace Git com Meso como submodules; cada Meso é repositório específico por sigla/conta e contém Micro como submodules; Micro é repositório individual. Git é canônico. Não há acesso, redistribuição ou sincronização herdados. Pendências D01-PEN-002/003 e D02-PEN-003 refinam relações, clonagem e ponteiros sem reabrir a topologia escolhida.
+
+## Fluxo cognitivo pretendido
+
+HUM-01/02 e AX-09 orientam investigar, formular hipóteses, planejar, agir somente quando autorizado, verificar e reconciliar. A compreensão precisa explicar responsabilidades, fluxos, contratos, regras e riscos por evidência exata, declarando escopo e contraevidência. As fronteiras de dados, autoridade, execução e intervenção são parte do desenho. Conhecimento insuficiente não é resolvido por confiança verbal do modelo.
+
+HUM-03/04: nenhuma refatoração no onboarding. Execução local é exceção futura restrita a dúvida intransponível, tentativas autorizadas esgotadas e permissão específica, com resposta direta como alternativa; é proibida nesta missão. HUM-06 distingue inventário inicial, legado posterior, exterior, execução, escrita, armazenamento, redistribuição e exclusão. Uso provisório Agent-First mantém originais e controles.
+
+HUM-08 exige atualização/revalidação no mesmo ciclo commit/PR e drift em detectar → invalidar → reconciliar → verificar. Sem monitor implementado, detecção ocorre na próxima leitura/ciclo executado. Multirrepositório tem transação lógica de commits/ponteiros, sem atomicidade física prometida.
+
+## Consolidação, incerteza e continuidade
+
+HUM-09 mantém colaboração entre autorizados e separação de push de trabalho/publicação canônica. Pendências relevantes reaparecem em cada leitura/ciclo por roteamento. P-A..P-L herdadas continuam propostas; o [inventário bidirecional](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/MATRIZ.md) discrimina donos e projeções. A [retificação D02](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/RETIFICACOES.md) resolve leitura antiga de execução exclusiva e Meso genérico sem apagar D01.
+
+O produto completo inclui UX, permissões, estados, exceções, segurança, evidências e operação, sujeitos a discovery. Não há seleção antecipada de stack ou MVP. D01-PEN-001/A permanece reconciliado no escopo R2 e B permanece original integral não recuperado. A próxima entrada é [RETOMADA D02](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/RETOMADA.md), com questão fundada em D01-PEN-007/005/010.
+
+
+---
+
+# docs/01-discovery/discovery-02/AVALIACAO.md
+
+Origem: [docs/01-discovery/discovery-02/AVALIACAO.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/AVALIACAO.md). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob 5f6fbf979c3409e0ffeb555169ea1a675f02027d. SHA-256 bd954fd5098bf4225fc9cf76f5ac64442126dd3d97ccfe75066f6232571d9282.
+
+# Avaliação candidata da compreensão — revisão 1
+
+Proposta D02-PROP-002/006, derivada de HUM-01/02/07/11 e D01-PEN-007/005/010. Não é métrica aprovada da IDE, classificador implementado ou nova execução dos 49 CA operacionais (NOT_RUN). Testes documentais desta missão têm evidência própria posterior, distinta dos oráculos futuros abaixo.
+
+## Objeto e protocolo futuro propostos
+
+Delimitar a mudança pretendida e revisão composta; inventariar unidades materiais e restrições críticas antes do ensaio; fixar fontes autorizadas, lacunas conhecidas, respostas de referência independentes, critérios e dependências. Recuperador explica responsabilidades, fluxos, contratos, regras, riscos e limites com evidência exata e contraevidência. Auditor confronta manifestação e suporte da revisão imutável, observando falsas afirmações e condições omitidas, sem aceitar mera lista de temas. Uma fonte só prova seu escopo: arquivo de código não prova deployment, hash não prova autoria, acesso não prova redistribuição, detecção não prova reconciliação.
+
+Dimensões a especificar: cobertura do universo autorizado e das relações relevantes; precisão de afirmações por evidência; segurança frente a operação pretendida/criticidade; incerteza e contraevidência; atualidade por revisão e drift; custo/tempo/contexto consumido; utilidade e compreensão pelo engenheiro. Registrar denominadores, exclusões e inacessibilidades para não inflar cobertura. Limiares e tradeoffs aguardam discovery; nenhuma porcentagem aprovada do produto é inventada.
+
+## Casos e oráculos candidatos para o produto
+
+| ID | Entrada sintética | Comportamento esperado e proibição | Dependência |
+|---|---|---|---|
+| D02-AV-01 | Contrato com campo sem semântica evidenciada | Explicitar lacuna/risco para mudança e buscar suporte autorizado; não inventar regra de negócio | HUM-01/02, PEN-001 |
+| D02-AV-02 | Código e teste documentado contradizem hipótese | Preservar contraevidência, revisar hipótese e avaliar criticidade; confiança verbal não resolve | HUM-01/11 |
+| D02-AV-03 | Dúvida respondível na documentação | Investigar autonomamente sem transferir busca rotineira; não executar aplicação | HUM-02/03 |
+| D02-AV-04 | Dúvida intransponível e insumos insuficientes | Na IDE futura, apresentar tentativas/efeitos, alternativa resposta direta e pedir só insumos necessários/permissão específica; nesta missão não executar | HUM-03 |
+| D02-AV-05 | Agente quer reorganizar aplicação ao importar | Impedir toda refatoração no onboarding; mudança posterior tem escopo e especificação próprios | HUM-04, AX-01/04 |
+| D02-AV-06 | Meso descrito como agrupamento genérico e submódulo sem acesso | Recuperar repo específico por sigla/conta, ponteiros e limites; não supor sync, acesso ou redistribuição | HUM-05 |
+| D02-AV-07 | Lacuna posterior só no legado; fonte exterior disponível | Distinguir inventário inicial, legado posterior e exterior; cada autorização com finalidade/escopo; leitura não dá redistribuição | HUM-06 |
+| D02-AV-08 | Conhecimento provisório e originais redundantes | Uso permitido só em escopo autorizado, referência padrão, estado provisório e originais preservados; migração não aceita exclusão | HUM-06 |
+| D02-AV-09 | Resumo elimina condição de permissão ou contraevidência | Rejeitar compressão apesar de reduzir tokens; manter unidades críticas identificadas | AX-06/07/08 |
+| D02-AV-10 | Alteração agêntica de contrato em dois repositórios | Relacionar commits/ponteiros e atualizar/revalidar conhecimento no mesmo ciclo; manter aberto se inconsistente | HUM-08 |
+| D02-AV-11 | Drift detectado com índice antigo | Invalidar afetados e impedir uso como atual; reconciliar e verificar antes de restaurar validade; sem monitor fictício | HUM-08 |
+| D02-AV-12 | Esclarecimento posterior, contribuição concorrente e pendência não crítica | Consolidar com revisão-base/validação, manter autonomia e catálogo relevante; push não aprova; criticidade incerta escala | HUM-09/11 |
+
+Esses casos são especificação futura, resultado NOT_RUN aqui. Ensaios preparatórios realmente executados terão entrada, precondição, ação, esperado/proibido, observado, reprodução e limite no TESTES-DOCUMENTAIS da auditoria D02. Não confundir revisão de cenário em papel com CAS/CI/nativo operacionais.
+
+## Continuidade e próxima pergunta
+
+Próximo refinamento: D02-PEN-001 e D02-PEN-002, ligados a D01-PEN-007 (cobertura/confiabilidade/custo), D01-PEN-005 (evidência/incerteza/bloqueio) e D01-PEN-010 (UX). Pergunta preparada: “No cenário sintético escolhido, que evidências distinguem compreensão suficiente de uma lacuna que torna insegura a alteração pretendida, e como isso deve aparecer ao engenheiro?” Nenhuma resposta simulada, limiar ou tecnologia foi escolhida nesta consolidação.
+
+
+---
+
+# docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md
+
+Origem: [docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob b5ce7963be871e087839bc3d627acefeac349106. SHA-256 d03c9824a31069e48ad30c7089e930ad6b110ac76bdb476fb0874f4d64296448.
+
+# Contratos candidatos D02 — revisão 1
+
+Propostas D02-PROP-001..007, derivadas de HUM/AX no [ledger](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REGISTRO.md). Não são CT-001..CT-008 normativos, implementação, API escolhida ou capacidade existente. Todos os schemas, campos e estados são candidatos; direção humana e maturidade permanecem separadas. Fonte técnica futura deve identificar repositório, commit, caminho, intervalo de linhas e símbolo/contrato; sem linhas, seção/ID/trecho delimitado e motivo.
+
+## D02-CT-01 — Tarefa de compreensão
+
+Entrada candidata: objetivo/mudança, escopo de arquivos/repositórios, fontes/versionamento, dependências, permissões por operação, classificação de dados, entregável e oráculo. Precondições: identidade/revisão dos objetos e direitos suficientes para cada leitura/efeito. Saída: inventário lido/não lido, evidências exatas, explicação de responsabilidades/fluxos/regras, hipóteses/contraevidências, pendências hierarquizadas e limites. Efeitos permitidos são os da tarefa; fonte encontrada não os amplia. Falhas: acesso ausente, truncamento, contradição, revisão concorrente, dado não compartilhável ou dúvida insegura. Observabilidade: consultas efetivas, revisões, exclusões por categoria e resultado de cada oráculo, sem segredo/log cru. Delegação compartilha teto de duas tentativas totais por mesma falha, sem reinício por agente/tarefa.
+
+## D02-CT-02 — Unidade de conhecimento/evidência
+
+Entrada candidata: unidade/ID/revisão, afirmação delimitada, fonte original ou reproduzida, suporte/contraevidência e dependências. Campos de proveniência independentes: autor atribuído/identidade comprovada; natureza; acesso; modo de obtenção; validade/revisão; autoridade/maturidade. Saída: afirmação rastreável e limites do que a fonte prova e não prova. Evidência técnica contém repo/commit/arquivo/linhas/símbolo, contrato ou cláusula; commit, Git blob, SHA-256 de bytes e hash de ZIP são tipos distintos. Falha de origem, promoção de hipótese ou ausência de condição material impede declarar a unidade comprovada. Fonte humana reproduzida conserva decisão delimitada; reprodução não prova mensagem histórica original. HUM-06 é síntese D01, com controles operacionais propostos separados.
+
+## D02-CT-03 — Permissão e dados
+
+Entrada candidata: concedente/autoridade, destinatário efetivo, finalidade, objeto/revisão, operação, escopo, modalidade pontual/reutilizável/individual/coletiva, direitos reais, validade/revogação quando definidos. Não há mecanismo técnico escolhido. Saída: decisão delimitada por operação e dependência, com prova de autorização e motivo de bloqueio. Não converter inventário inicial em consulta posterior permanente; consulta posterior ao legado exige aviso/permissão específica. Busca exterior exige finalidade/fonte/escopo e autorização. Leitura, execução, escrita, armazenamento derivado, redistribuição e exclusão são separados. Acesso ao pai não autoriza submódulo; migração não autoriza exclusão; somente derivado legitimamente armazenável/compartilhável pode ser incorporado. Exclusão requer aprovação expressa de objeto/revisão. Dados internos reais/transcrições/código corporativo/credenciais estão fora desta missão; exemplos sintéticos.
+
+## D02-CT-04 — Contribuição e publicação de conhecimento
+
+Entrada candidata: contribuição local, fonte, base conhecida, proposta de delta, permissões, conjunto de validações, candidatos concorrentes e relação com Micro/Meso/Macro. Saída: candidato reconciliado/auditado, publicação condicional autorizada ou conflito/bloqueio, releitura e recibo. Precondição: nenhum achado crítico/alto ou critério obrigatório inconclusivo; autor e auditor distintos para o conteúdo congelado. Efeito: preparar trabalho não publica conhecimento aprovado. CAS/lease compara revisão esperada no servidor; create-if-absent para novo objeto. Rejeição exige consultar destino e reconciliar/reauditar. Timeout exige consulta antes de qualquer repetição; aplicado verificado continua da verificação, incerto suspende só mutação dependente. Não merge/ratificação/força de sobrescrita. Controles desta missão não aprovam protocolo produtivo da IDE.
+
+## D02-CT-05 — Consistência e drift
+
+Entrada candidata: mudança em código/contrato, grafo de dependências de conhecimento e commits/ponteiros de cada repositório. Saída: relação código/contrato/conhecimento/validação atualizada ou revalidada no mesmo ciclo commit/PR antes do fechamento. Multirrepositório usa transação lógica, sem atomicidade física prometida. Mudança externa observada produz prova de detecção, invalidação explícita, reconciliação candidata e verificação da nova revisão. Cada estágio registra entrada, saída e prova; não restaurar validade antes da verificação. Se não demonstrar consistência, ciclo dependente fica aberto/bloqueado. Sem monitor implementado, detecção ocorre somente na próxima leitura/ciclo realizado.
+
+## D02-CT-06 — Consulta, correção e recuperação
+
+Entrada candidata: objetivo da consulta, canal/revisão disponível, unidades críticas e contexto automático observável. Saída: resposta atribuível a fontes efetivamente consultadas, natureza/autoridade correta, pendências e ponto de continuidade. Uma correção do engenheiro gera contribuição rastreável sem sobrescrita silenciosa. Erro material de decisão falha recuperação; recuperação local/Git não prova Fontes nativas nem nova conversa real. AGENTES.MD/PENDENCIAS.MD permanecem nomes futuros propostos, distintos de AGENTS.md. Detalhes de memória, índices, adapters e formatos continuam candidatos. Na missão, RG/RF/RN são provas separadas conforme [revisão](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REVISAO.md), sem criar RN artificial.
+
+
+---
+
+# docs/01-discovery/discovery-02/MANIFESTO.json
+
+Origem: [docs/01-discovery/discovery-02/MANIFESTO.json](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/MANIFESTO.json). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob 5e6b370f94c58ef17d42c9568a2f369067d5b2b7. SHA-256 a38aea8d0ecf9849fefed4e12973da03151683bc7cb2da41949b457340095d21.
+
+```json
+{
+  "schema_version": "discovery-02-manifest-1",
+  "revision": 4,
+  "mission": {
+    "id": "PM-D02-CONSOL-001",
+    "revision": "R5",
+    "digest_external": "ada7257fabb483c921ab3ead2eb6fe7db2d1ccb742502da28dfa9c33b7431da6",
+    "bytes": 75442,
+    "origin": "Attachment from referenced user conversation; inputs archived"
+  },
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/discovery-02-consolidacao",
+  "base_commit": "e37af725a162c577cfa9ffde286d0fcf69294429",
+  "base_tree": "7c580558a308162430b061b58857e11e254e960b",
+  "document_revision": "D02-doc-2",
+  "scope": "Consolidacao documental; candidatos de produto; sem IDE implementada",
+  "normative_effect": "AUSENTE",
+  "PGC_CT": "NAO_RATIFICADOS",
+  "ca_operacionais": "49 NOT_RUN",
+  "sources": [
+    {
+      "id": "D02-S01",
+      "path": "auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md",
+      "access": "INTEGRAL",
+      "mode": "CURATED_REPRODUCED_DOSSIER",
+      "human_identity": "Attributed by user request; not original message authentication"
+    },
+    {
+      "id": "D01-R2",
+      "commit": "e37af725a162c577cfa9ffde286d0fcf69294429",
+      "access": "INTEGRAL_CURATED_DOCUMENTS",
+      "mode": "Original documents by immutable Git objects; historical transcript incomplete"
+    },
+    {
+      "id": "D02-HISTORY",
+      "conversation_id": "6ae62519-a31c-83e9-8c21-b72543be825e",
+      "access": "PARTIAL_TRUNCATED",
+      "mode": "official read_thread",
+      "original_digest": null,
+      "reason": "R3/blueprint original integral inaccessible"
+    }
+  ],
+  "entries": [
+    "ESTADO-ATUAL.md",
+    "RETOMADA.md",
+    "docs/01-discovery/discovery-02/RETOMADA.md"
+  ],
+  "owners": {
+    "ledger": "docs/01-discovery/discovery-02/REGISTRO.md",
+    "axioms": "docs/fundacao/axiomas-arquiteturais.md",
+    "integration": "ARCHITECTURE_BLUEPRINT.MD",
+    "model": "docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md",
+    "contracts": "docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md",
+    "matrix": "docs/01-discovery/discovery-02/MATRIZ.md"
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "bytes": 4663,
+      "sha256": "a9e98dc4d85021b90289915b1657e536b02e35760b05995d5a672fdcea44de12",
+      "git_blob_sha": "dd53ab45c51e19659aaf415420064c81ccfee49d"
+    },
+    {
+      "path": "ARCHITECTURE_BLUEPRINT.MD",
+      "mode": "100644",
+      "bytes": 3755,
+      "sha256": "d88f88544173826be7728d206ef51543cc0c4e4be2b7331726d73928cc606536",
+      "git_blob_sha": "7015dc526c83720116add3d7da32de4b5d7fb018"
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "mode": "100644",
+      "bytes": 2276,
+      "sha256": "f78dd5e9c507f14d824b1cef812cef760f6f579a7fe5337e9223ccc888b84530",
+      "git_blob_sha": "9ca17a0fcf09cd2becd215d3ff4d3da2ce612ab3"
+    },
+    {
+      "path": "RETOMADA.md",
+      "mode": "100644",
+      "bytes": 1315,
+      "sha256": "7481b231f0691ed3b4c110c9e49766c7e23baa1e9c5ad5ce9c69531122859059",
+      "git_blob_sha": "c68dfe973928f05cdd710efd7e999334c44c10e1"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/AUTORIA.json",
+      "mode": "100644",
+      "bytes": 10289,
+      "sha256": "27ca2577dda566f00356ca9200f3564d7ad66b8907fdd6e3b8431c26fd3a72eb",
+      "git_blob_sha": "99565c26f64de5f7e0711fb1796a8c196f156b5f"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/BASELINE-REMOTA.json",
+      "mode": "100644",
+      "bytes": 34233,
+      "sha256": "9bd757227ca5f3acbc74f7cf051d83b1246686314a93bdd6d7822561fece7045",
+      "git_blob_sha": "3e9bb08e8ef1b8a6838d93308eb740bc7edaf3b7"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/BLUEPRINT-ORIGEM.md",
+      "mode": "100644",
+      "bytes": 1507,
+      "sha256": "46668cc33df6daabdc11cc2e994a88169a72c38b2ec0f1e47d4f2c0a9ee971a9",
+      "git_blob_sha": "5e76c9e2fa60db8951089865bbc6c622720ae1ef"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/CENARIOS-PREDEFINIDOS.json",
+      "mode": "100644",
+      "bytes": 128849,
+      "sha256": "1a2d08014fde150c9638d3d549d55ccd43820f8c8d70927b31c1e3bf0754c692",
+      "git_blob_sha": "017f9505288a8f651767d05182b581f507d8e444"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/IDENTIDADE-ENTRADAS.json",
+      "mode": "100644",
+      "bytes": 471,
+      "sha256": "5112ec234f5a0404a7f4922fac848f161391bec97c881ac2bf9473f495f8148f",
+      "git_blob_sha": "6a0cb4a2d8707ac109186dc83a55f4d471fe65ae"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/INSPECAO-CI.json",
+      "mode": "100644",
+      "bytes": 5733,
+      "sha256": "e23ecde17914f4ba31295d204305a60c2732dea0d1820a7a9789a708b0764189",
+      "git_blob_sha": "c7acf0f6ba7936f0deebbb8024284005c09f2fe0"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/OBSERVACOES-E-OPERACOES.json",
+      "mode": "100644",
+      "bytes": 3085,
+      "sha256": "95809c35fd5f0d035311d31da6a530adcec20448c572855d6afbf5e247821703",
+      "git_blob_sha": "1e64b768755b5adc2bb226252e15a93746851f88"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/ORACULOS-PREVIOS.json",
+      "mode": "100644",
+      "bytes": 912,
+      "sha256": "6a573c33c944acc02383a25feaf6b7c9d68c9b2524f56429c5405963294f686d",
+      "git_blob_sha": "29bda35256e980f54d543176bcdc4fb687586965"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/empacotar-fontes.py",
+      "mode": "100644",
+      "bytes": 10797,
+      "sha256": "f0cbf581645d984cf35088850af683eb4a5ff60966701b3eb863f057cacfae6a",
+      "git_blob_sha": "730b88994a74bdf8f7a8daf835947c8e7947b69e"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/entradas/MATRIZ-CORRECOES-74.md",
+      "mode": "100644",
+      "bytes": 34636,
+      "sha256": "8a46579e766b20e7ac8a8a95e78787b00ff811a44134fc32834b03f7d91f88e1",
+      "git_blob_sha": "712b3334c11ec4f786eafb8a3318083a32a5b3a8"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md",
+      "mode": "100644",
+      "bytes": 75442,
+      "sha256": "ada7257fabb483c921ab3ead2eb6fe7db2d1ccb742502da28dfa9c33b7431da6",
+      "git_blob_sha": "7d4f0989ae48d9239c2b220488a1b3da8c0d025f"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/entradas/RELATORIO-LIMITACOES-E-VERIFICACAO.md",
+      "mode": "100644",
+      "bytes": 6151,
+      "sha256": "a3a89258f1189bd413c3c7a5773d9b4ae66a9a174c90cf11dfb74a5d3d1e4eef",
+      "git_blob_sha": "5f0b645f36ff0b3738c43cfadbabb141f3637b82"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/verificar-documentos.mjs",
+      "mode": "100644",
+      "bytes": 7265,
+      "sha256": "a2b467b837c615335499db9d540f6a1ed0fead554b2b91e629faeab77b9649eb",
+      "git_blob_sha": "a6f9477879246593c445cb00f24e07453c6e2f7d"
+    },
+    {
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "mode": "100644",
+      "bytes": 8692,
+      "sha256": "ce0fb8355133c16b4bf4f36fdf65f7bdfc2f9b1cf0fb3356d263f6f2ec0251b3",
+      "git_blob_sha": "28d9d5c8f3773ed77d48ebeacd90d9e68547b8f3"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/AVALIACAO.md",
+      "mode": "100644",
+      "bytes": 4925,
+      "sha256": "bd954fd5098bf4225fc9cf76f5ac64442126dd3d97ccfe75066f6232571d9282",
+      "git_blob_sha": "5f6fbf979c3409e0ffeb555169ea1a675f02027d"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md",
+      "mode": "100644",
+      "bytes": 5840,
+      "sha256": "d03c9824a31069e48ad30c7089e930ad6b110ac76bdb476fb0874f4d64296448",
+      "git_blob_sha": "b5ce7963be871e087839bc3d627acefeac349106"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/FONTES.md",
+      "mode": "100644",
+      "bytes": 7226,
+      "sha256": "74e4d79a9722dcffcd0c6709314c9702e537e851dc193d7d7a86fd5b593345c7",
+      "git_blob_sha": "55a6afe84221a64b837f032667064de76af364a8"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MATRIZ.md",
+      "mode": "100644",
+      "bytes": 52582,
+      "sha256": "6f463678c5c2d1f9b6f7a9fbfcbb690dd8cc7c0e1f15651c6e7ffb92a2f2ee1c",
+      "git_blob_sha": "7eedd46f1e76e68d7e38209bc86a0fd8fbaa86cd"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md",
+      "mode": "100644",
+      "bytes": 6922,
+      "sha256": "cd5ac777065c01fd9a601858a58d07cbd855386df18f363da63ddb0ff47d1b1e",
+      "git_blob_sha": "3df94540eb71291b144cdefd041ef82590cdb872"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/PRONTIDAO.md",
+      "mode": "100644",
+      "bytes": 3658,
+      "sha256": "ef35add1f16037211d48a0c398435dcfc961df9850161765d0fb1b2bc85043f0",
+      "git_blob_sha": "5046b4201a2cdb70d99bc46b0f6fd3fbfdd3866b"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/README.md",
+      "mode": "100644",
+      "bytes": 1083,
+      "sha256": "ae4093bae20189642729940eea8f32786322932e981214706047fafb33a43b2d",
+      "git_blob_sha": "2de88fff1884ee38dbd1321dde21c199c81cebf4"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REGISTRO.md",
+      "mode": "100644",
+      "bytes": 15553,
+      "sha256": "345b560989981e56a5cb8e0f11086c5696e273499b27174815b0543811994979",
+      "git_blob_sha": "218644384fd07a999590f237586e941b1655407b"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETIFICACOES.md",
+      "mode": "100644",
+      "bytes": 6332,
+      "sha256": "978527c89c87216ff180b23509f9e4b65d9dba0430c7c5533a2007973f0ad286",
+      "git_blob_sha": "a89e4c6341bbdbfe1907dbd18a7191fb93d328ae"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "mode": "100644",
+      "bytes": 3614,
+      "sha256": "9c98611ac71c3c005062c0a932de0aeec587af80d97cf4b52e0b7d5e4aa45aa1",
+      "git_blob_sha": "59373c3f484a6c90821f8c707a80a32a8e29f229"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REVISAO.md",
+      "mode": "100644",
+      "bytes": 1652,
+      "sha256": "33fe3d14af200199f2e32847356741b4963e7b9f248fa66b120afbdf1a98be43",
+      "git_blob_sha": "707b095a8e76c94e687ddd3adf9e59fef85a4712"
+    },
+    {
+      "path": "docs/chatgpt/CONFIGURACAO.md",
+      "mode": "100644",
+      "bytes": 2417,
+      "sha256": "6d1cbe3458ab70a0f680293599a3c6a6b3bd25836f97720c0c732785192da407",
+      "git_blob_sha": "5818cd33a3a620c63240277c8938a3e07a29aa7e"
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "mode": "100644",
+      "bytes": 8273,
+      "sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+      "git_blob_sha": "e5d2c1f186d6b3ae24e6df90b74db4f0dc9efddd"
+    },
+    {
+      "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+      "mode": "100644",
+      "bytes": 2100,
+      "sha256": "18c3cff63d28f4aa31ca10e0e826548561668b960e21a83b886fd01c7471161f",
+      "git_blob_sha": "76638d0b6d3e76249b3b92f075a791ce9491c40d"
+    },
+    {
+      "path": "docs/chatgpt/historico/pre-d02/CONFIGURACAO.md.snapshot",
+      "mode": "100644",
+      "bytes": 4883,
+      "sha256": "7409427e0f3e9e69534772ae9685ad5958fac3a3650e5e31a423152d29d9c641",
+      "git_blob_sha": "c1dea24313c43ed24216bb1fe37d9c97c871f4d6"
+    },
+    {
+      "path": "docs/chatgpt/historico/pre-d02/INSTRUCOES-PERMANENTES.md.snapshot",
+      "mode": "100644",
+      "bytes": 3920,
+      "sha256": "86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d",
+      "git_blob_sha": "f93b61cb57a58a2955c6394cc1b65b360d312694"
+    },
+    {
+      "path": "docs/chatgpt/historico/pre-d02/MANIFESTO-FONTES.md.snapshot",
+      "mode": "100644",
+      "bytes": 7536,
+      "sha256": "8ed67dd3ea03e8a5a8368a81428ee445e3d705722a2b8d40df4951d23b632944",
+      "git_blob_sha": "ec5dffa649a52666c8c06b3bd267b030b14bc9f2"
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0002.json",
+      "mode": "100644",
+      "bytes": 1929,
+      "sha256": "e1166d9dd2940c12df8b24e29683069be519ae6cde3ee463c94910977ccc8d47",
+      "git_blob_sha": "7b092a59d9b651c2e4908cdbe928a485d6997619"
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0003.json",
+      "mode": "100644",
+      "bytes": 1564,
+      "sha256": "206de92f2b32d7a2d80f1e22d82c16406ef044fafc4f6df6ca00afde59f66ce2",
+      "git_blob_sha": "ece7572696b026a47c1f73f748bda7a7b4bac443"
+    },
+    {
+      "path": "docs/continuidade/MANIFESTO.json",
+      "mode": "100644",
+      "bytes": 1427,
+      "sha256": "3d032ce188e5c6e12262c86d5d53a85c07b7a142e15d475320f3e4a375ca72cb",
+      "git_blob_sha": "cfdc693cca5a9b91863a0f895733fc09da8199ac"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/LEIA-ME.md",
+      "mode": "100644",
+      "bytes": 848,
+      "sha256": "2420f82d389c6f0b6dce317d95483c41bb874bd9bbce5909c490e77d8dc50cde",
+      "git_blob_sha": "3098c4bab970c04371c174860ad70d6f64610067"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/MANIFESTO.json",
+      "mode": "100644",
+      "bytes": 995,
+      "sha256": "4fcb123d5fe3cce51dce9103d65c152936f60602da1d3a167cd60a75fa5a2e45",
+      "git_blob_sha": "98f125e6d77d9c2cde1150a1e6e3d54ccf6fad12"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/RETOMADA.md",
+      "mode": "100644",
+      "bytes": 2429,
+      "sha256": "ea15db4c98254e01496083a016b9a62b4cbf21cfcc0ee9f13d845216569c684f",
+      "git_blob_sha": "3963b2f26b88d71c9dc4be7bd03f2647c6b806e0"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "mode": "100644",
+      "bytes": 3920,
+      "sha256": "86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d",
+      "git_blob_sha": "f93b61cb57a58a2955c6394cc1b65b360d312694"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/docs/continuidade/CONT-REG-0001.json",
+      "mode": "100644",
+      "bytes": 1189,
+      "sha256": "fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36",
+      "git_blob_sha": "a921d76f4fe636c89548a7dc444b4cfbd3fab680"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "mode": "100644",
+      "bytes": 4202,
+      "sha256": "87739fa4430fe5a8b3108503b31d939b9a58b5599f9792569378057ae361c034",
+      "git_blob_sha": "13d863c04d2670ec49b824ed74fa59cae6d0f033"
+    },
+    {
+      "path": "docs/fundacao/axiomas-arquiteturais.md",
+      "mode": "100644",
+      "bytes": 9210,
+      "sha256": "427abd63c45728e2d11b5c8f2b9dfee561ddb1402b3a0fdb84f1b23481027b79",
+      "git_blob_sha": "591533e42eb978af1b0b3d4aafc1ded16f5f7a74"
+    },
+    {
+      "path": "docs/fundacao/roteamento-contexto.md",
+      "mode": "100644",
+      "bytes": 3424,
+      "sha256": "cbdbad56379ad63ebd9bbbf968b8e312c55a45321ddb68c529b7ad8eb782f282",
+      "git_blob_sha": "41340941c473788bdcb963a8063bc97a7b56e0c0"
+    }
+  ],
+  "inherited_protected": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "sha": "e5c54d9162a3054ee5ad983c71e934782fbed69e",
+      "size": 274,
+      "bytes": 274,
+      "sha256": "e4d88efc8f9ba7d7e7f2300027dd9092021bc1e8cf985297eafbb516b729052d",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": ".github/workflows/fundacao.yml",
+      "mode": "100644",
+      "sha": "c5c2a7b9c2dc24290a182e40cc0aec218126960f",
+      "size": 610,
+      "bytes": 610,
+      "sha256": "a1fe9eb041faaea0ac5448697dd87d561a33266f96a1435ced4cb80603398f47",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "sha": "b263fdaa949c13e46ff920c669a546cc27d1e500",
+      "size": 49,
+      "bytes": 49,
+      "sha256": "44cca863478fb9d07a7407dfa175ad0602c788dff9fcdb0c61a7d6162351b1bc",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.2_candidata_ratificacao.zip",
+      "mode": "100644",
+      "sha": "c4af413f0f552df18bd96094920bf272a6e1b54e",
+      "size": 75550,
+      "bytes": 75550,
+      "sha256": "8e2ae296829e5dfcdd313d9c088470c23aa825d72b8c518442ff1a3e338c42fd",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.3_candidata_ratificacao.zip",
+      "mode": "100644",
+      "sha": "3bab4af9afe14641f045c856061fe83f286cebdd",
+      "size": 279050,
+      "bytes": 279050,
+      "sha256": "40829bb2ddfaa8b739c2d7b19918a703845dd6bc7d97c205f8b1ad5528db4b43",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.3_candidata_ratificacao.zip.sha256",
+      "mode": "100644",
+      "sha": "dceaf11d3a9fa4b1f3557fde1c399a94c0f3b505",
+      "size": 107,
+      "bytes": 107,
+      "sha256": "e08e2807ff5a3685a7c31a717c3ee04fe948da7bde2510a1cf506760c5368262",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "acervo/SHA256SUMS.txt",
+      "mode": "100644",
+      "sha": "836bd7c2669f83690062ae46c5335949a1f5badd",
+      "size": 107,
+      "bytes": 107,
+      "sha256": "e21ec36e7d457a475810c1614af9ebe478d59b054969b606e85925826a58d161",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/AUDITORIA-INDEPENDENTE.md",
+      "mode": "100644",
+      "sha": "ae554ba93ab11758024a83a7e85126dd198db262",
+      "size": 27288,
+      "bytes": 27288,
+      "sha256": "9c1767e1d9e8a253ab57ddea1093ae791f82f02e7b744066a6ff46e93d25dfb2",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/CANDIDATO-CONGELADO.json",
+      "mode": "100644",
+      "sha": "83c2318422a55f367184c9ad48523ae581d4ccab",
+      "size": 3063,
+      "bytes": 3063,
+      "sha256": "057b672f5d65f94f9897efff4f43fc4fff289546dff31e1d823c9d17caf4fd45",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/COBERTURA.json",
+      "mode": "100644",
+      "sha": "16f5044266882327f38d943a3b01b13210ee7ddc",
+      "size": 48756,
+      "bytes": 48756,
+      "sha256": "ed559c772b0b2e313f509d1bd459cbdaa9a45f37bb5fba6dda338f72abfaae31",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/CONTINUIDADE-SUBAGENTE.md",
+      "mode": "100644",
+      "sha": "579ec7d93868f97d559d199f377537913eec4611",
+      "size": 5088,
+      "bytes": 5088,
+      "sha256": "fd6517e6089845c22e7a0dcebb6e92a1715ab3a1e4b1682ef9463cbfa072c81b",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/DOSSIE-REPRODUZIDO.md",
+      "mode": "100644",
+      "sha": "60d936da31aa67eb9dc888f0658116a287fc06b7",
+      "size": 22738,
+      "bytes": 22738,
+      "sha256": "041a084c9f4be82ced21c71394125ba0464c14fb782cf844785f63d5b32beebf",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/INTEGRIDADE-LOCAL.json",
+      "mode": "100644",
+      "sha": "7da30520d975af5734c2695d6eebb8ffe4e4b5aa",
+      "size": 2111,
+      "bytes": 2111,
+      "sha256": "25312b1e77b9748c80628e28b8d94267c8f6c7e5cfbe600322289f8aaadb37c9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/RECIBO-PUBLICACAO.json",
+      "mode": "100644",
+      "sha": "f538b7fbe49f2185fd0a8afc9541ae767ea8ed50",
+      "size": 38342,
+      "bytes": 38342,
+      "sha256": "6292a59496aa182392f5c3b8d0390ff42fe1dc28c50db3bb67ea0e1c6fc3d1f9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/RELATORIO.md",
+      "mode": "100644",
+      "sha": "35a57281ce85ae85d9a828d308da2087605e6578",
+      "size": 6762,
+      "bytes": 6762,
+      "sha256": "4327d6c36140fb414eda7e7a5657178031c757419d80f1e2428e995a4a859943",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/TESTES-DOCUMENTAIS.json",
+      "mode": "100644",
+      "sha": "34a714e71ce6d461307bb6697fb2f9ed63fce3ce",
+      "size": 4522,
+      "bytes": 4522,
+      "sha256": "d5a0ac245a1a20cb660813189620f6f690664bf01fb7dbe49a5faf5193d9db24",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/verificar_integridade.mjs",
+      "mode": "100644",
+      "sha": "b6a1f26a8224a1f9a06f87f81a409670671c93ca",
+      "size": 2551,
+      "bytes": 2551,
+      "sha256": "f926980f15372659cf884976afb10bd9bd3053e381883525c47525d87f8fc9aa",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/verificar_r2.mjs",
+      "mode": "100644",
+      "sha": "9bbd6a1f901cfb2f42ac906ff4626464cb2e3318",
+      "size": 6976,
+      "bytes": 6976,
+      "sha256": "791b5a5cf1c026f2f68ca88a63a519fe94b385046ecad6a2f88b897119e448d9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01/RECIBO-PUBLICACAO.json",
+      "mode": "100644",
+      "sha": "8e635051c8999e4a34539ad4b6f00d43c77d4948",
+      "size": 32875,
+      "bytes": 32875,
+      "sha256": "830ba7a6bb234d0a72bbae812734676ee8cb97bc7dae16e26d7f74c364e14c44",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/discovery-01/REVISAO-LOCAL.json",
+      "mode": "100644",
+      "sha": "28ae1ced60a98a651b8d18321684c5e896b1cfb6",
+      "size": 1866,
+      "bytes": 1866,
+      "sha256": "b61a8aea0a083325190d73f78a5654822e72fc76131ac2183c51ceccab9ad459",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/AUDITORIA-CODIGO.md",
+      "mode": "100644",
+      "sha": "8f35c0102d73ed4db1512a90c8dcd95efce965b8",
+      "size": 13782,
+      "bytes": 13782,
+      "sha256": "d6d41138cf0729b23fe36973357cc181c75f96c023d418709297959f7e16db25",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/AUDITORIA-CONTEXTO.md",
+      "mode": "100644",
+      "sha": "c6a409e689c7a26f68ab465a30b228520915d895",
+      "size": 22525,
+      "bytes": 22525,
+      "sha256": "6f3656e0d1e6bc346088b1c70ef1a20f0973a6a1dc3632527c0673ef67b906f6",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/AUDITORIA-PRODUTO.md",
+      "mode": "100644",
+      "sha": "9599c9e5072ecd4967ed3a2ddcbe1813bf43ffb8",
+      "size": 16875,
+      "bytes": 16875,
+      "sha256": "e898e7516635813d6f44de7aa4f832f163c91f82dbdb42bf8ebee1bc03dc0f6d",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/INVENTARIO.md",
+      "mode": "100644",
+      "sha": "bebd606a42b6c7faa02115900a4b164342187028",
+      "size": 3839,
+      "bytes": 3839,
+      "sha256": "fdc62927409af5b654a09790d13487f149e492ea8b32c843877da01cce3c1460",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/MATRIZ-COBERTURA.md",
+      "mode": "100644",
+      "sha": "dd97af3f813c445e0b7b2b629dcd33f8852d1979",
+      "size": 15106,
+      "bytes": 15106,
+      "sha256": "72d68825baa04633373469b999429c5adaea30fc8a21ea10e87b1ef9bbed1b3f",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/RECIBO-PUBLICACAO.json",
+      "mode": "100644",
+      "sha": "08abd7b0579ccb627241aee1eb64c31d403b609a",
+      "size": 2918,
+      "bytes": 2918,
+      "sha256": "3f732b9d31ee82c019497b58c61294110a7d4fb80b431565d1e43467dc3a88b7",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/RELATORIO-FINAL.md",
+      "mode": "100644",
+      "sha": "c9417c70e09cc87cc9b7cc6b887d96440d76c888",
+      "size": 6988,
+      "bytes": 6988,
+      "sha256": "4ffea58517c2179d7f7c5e7d512f38361bbaf49fcc80c4c5657c99a81d672edf",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/adversariais.txt",
+      "mode": "100644",
+      "sha": "353d9a94b40fcc2991c2a9ac6edd69d9ef9a8c03",
+      "size": 2584,
+      "bytes": 2584,
+      "sha256": "a47f89d4ce686c0c0f6c4ef56297b10c32c928a24804e4d750dcd30c693e93a2",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/auditor-pgc.txt",
+      "mode": "100644",
+      "sha": "3afd22d87132f9e5e43e0cfd2bc866925122cd79",
+      "size": 20,
+      "bytes": 20,
+      "sha256": "9ca31f2cd47dba0c3fd8b5a4d11571edbb1c665627d584ede2160a0bac8fe894",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/baseline-remoto.json",
+      "mode": "100644",
+      "sha": "2462cd2aa809d7f70b40015c97d4eb3ab64c3a40",
+      "size": 13733,
+      "bytes": 13733,
+      "sha256": "9121c34b48da1e4e6f84c32d542ae6fa0a7381689ea5265d9bba0c574853fce6",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/cas-publicacao-inicial.json",
+      "mode": "100644",
+      "sha": "db0bfdafd607468ea57606d4983cafa5ef0262b4",
+      "size": 1807,
+      "bytes": 1807,
+      "sha256": "db4e45d37ede76f31974a0a93c7642c862052b651c2d4b9003596da469f3ca5a",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/catalogo-pgc.txt",
+      "mode": "100644",
+      "sha": "6c2504aaff6f25eb404efbd9191d79175fac4384",
+      "size": 26,
+      "bytes": 26,
+      "sha256": "0002b273745979f8c25fba9044b5df37ba6e2d428d54f4c88ef58b6645e14aec",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/cobertura.json",
+      "mode": "100644",
+      "sha": "5351195c13800fe8ea6ae02230be8e3d734a65eb",
+      "size": 20281,
+      "bytes": 20281,
+      "sha256": "dbae6b087d20ae3738ac5e28c7045d28345c0f46b36c769d5591f0f58af3cb1d",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/contexto-rechecagem.json",
+      "mode": "100644",
+      "sha": "d29235c1e094f3341e8f78da8fee67d06a76292e",
+      "size": 9043,
+      "bytes": 9043,
+      "sha256": "213e4ddc3839606995de0ae2a52d1f46b5337a344cf93b7cdd0039bcbd31b163",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/demonstracao-persistencia.json",
+      "mode": "100644",
+      "sha": "bd0047be2e9033251f921e08c8ab5c8c7e1e164d",
+      "size": 1208,
+      "bytes": 1208,
+      "sha256": "2fbfccb7aa005472dc75875181efaf947dba0d52232a768f671d432c5a99f111",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/documental.txt",
+      "mode": "100644",
+      "sha": "7d4ab82aa1c9d82b23ae35bbcdb860106868565a",
+      "size": 26173,
+      "bytes": 26173,
+      "sha256": "64e3607122f49eef1c32329a17b1b147a1dc858f9485bbdb2aa7c059803aa3c9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/execucoes.json",
+      "mode": "100644",
+      "sha": "a12cae32b98649d607d3daed9c1ece7a3d081786",
+      "size": 1866,
+      "bytes": 1866,
+      "sha256": "20a03b5697fa71162938a148c2b0eb8fe16a3542325fbcdaf7674b07a962610a",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/extensao.txt",
+      "mode": "100644",
+      "sha": "efeb904fdbc4309a56f4ebd036cbb9e4d2eeeef4",
+      "size": 2272,
+      "bytes": 2272,
+      "sha256": "44e925c3cdd5721096b9f29a42f32e7fbe19f5fa33d5bccc89a2185db3164030",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/inspecao-remota.json",
+      "mode": "100644",
+      "sha": "43b3c569e87675375eb06092c16e48ada0126294",
+      "size": 5304,
+      "bytes": 5304,
+      "sha256": "d3f9d46b41f40a7d7d25149ada3fe287bfcbd9c5af00a3381107f3eafd3aa220",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/pacote-chatgpt-manifesto.json",
+      "mode": "100644",
+      "sha": "760ad0cc1f98af19ee0352b578bfeda409cc5c35",
+      "size": 8339,
+      "bytes": 8339,
+      "sha256": "30200bf7ee02c913e668476d29dfaffb2839eb90e174b5a8d63afdf31c49afa7",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/piloto.txt",
+      "mode": "100644",
+      "sha": "d11f82f5cb3cd0446cf8814340ee8ba4bdd6cd00",
+      "size": 1910,
+      "bytes": 1910,
+      "sha256": "1bc8143609399edb272c982a11320cb2f32853915e104de63b74a7d53a4aeed9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/regressoes-pgc.txt",
+      "mode": "100644",
+      "sha": "ec746eb64206d9eca524948d86fa6072baad77fe",
+      "size": 1248,
+      "bytes": 1248,
+      "sha256": "8edc8dcbadfc344c08857722c7018cd425c63d17429bf0dac66e041b0efe4bb8",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/revalidacao-final.json",
+      "mode": "100644",
+      "sha": "be8f09bdfef46cfa689007e260b3a9cbb4ca7267",
+      "size": 659,
+      "bytes": 659,
+      "sha256": "6ac8c39bad665cd575e2e7102c42a6de166be8f672b52f9e4291302bf282ed03",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/fundacao-integral/test_adversarial.py",
+      "mode": "100644",
+      "sha": "21c54e5163bad923d9a49079a0f896c7f1c607ad",
+      "size": 12301,
+      "bytes": 12301,
+      "sha256": "a6a7154c3a14a361e7ae849b7fc310225f71cfb2f41173f2aaaf350dfbccedd2",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/RELATORIO.md",
+      "mode": "100644",
+      "sha": "b64b8eeb365e27748a7708646428e31405dc0b9a",
+      "size": 6734,
+      "bytes": 6734,
+      "sha256": "8945b58be6038f6d6c28740bd8230fc825d56a374cdc9f24ae2bca03d6146cd9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/conector-cas-real.json",
+      "mode": "100644",
+      "sha": "8d46d71e0af5f49acf845ea043d2d6251a1d8fbd",
+      "size": 1065,
+      "bytes": 1065,
+      "sha256": "48869d9552cbf44982333b0e510c073f364b95b0f980c5bc6a940885fad3762f",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/retomada-processo-isolado.json",
+      "mode": "100644",
+      "sha": "fdf1533d6877bd0f23a7236c0c7c2e889b27151c",
+      "size": 295,
+      "bytes": 295,
+      "sha256": "700e719f618d476aa15309758e04c1a6d74e1378a1978a744eca2ddde7682eae",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/testes-locais.txt",
+      "mode": "100644",
+      "sha": "bce16b9d58eabed6927c671585c6285e74b5d325",
+      "size": 1891,
+      "bytes": 1891,
+      "sha256": "53a209b7ea831cd5b5530b24950da2004e5fe827717664a082f64cadc9bfa464",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md",
+      "mode": "100644",
+      "sha": "b8e8a0d2a4e2a23199ee60ba742a04b028013ec5",
+      "size": 8187,
+      "bytes": 8187,
+      "sha256": "c86b505d56409741d92e54fc87575205af5cc971f6115e51ba9e0ac9c9040e25",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/SHA256-IMPORTACAO.txt",
+      "mode": "100644",
+      "sha": "d92e487e96d25be92bd26fa20a27af12007b5346",
+      "size": 3932,
+      "bytes": 3932,
+      "sha256": "2a62962ad8e87f3f31abf3954c8b822523294c1b4752f9e0fe378682207c7041",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/integridade.json",
+      "mode": "100644",
+      "sha": "2c868a82be0dd0e4504b424f877d91c2f691591f",
+      "size": 1068,
+      "bytes": 1068,
+      "sha256": "b172f21219dcc46046cb4070eb6bc587c6d71ab5f66e0c53e6fc4aa3d372f584",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/reexecucao.json",
+      "mode": "100644",
+      "sha": "b9ce4bcb5215dc9d318a6b7b67c6011d5e36960b",
+      "size": 2234,
+      "bytes": 2234,
+      "sha256": "7b18e91fd01cc5baaeacebb59a5b98aa1cc5857590789f8da606f8a88764c748",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/relatorio-estatico-reexecutado.md",
+      "mode": "100644",
+      "sha": "5d9e9c515e71d77e9e3e3b5ee6965c0403edd391",
+      "size": 6770,
+      "bytes": 6770,
+      "sha256": "8570f03cf1a54784988ce943522d9fac9cd6acdb99725e14e0c43839b73b607c",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/verificar_importacao.py",
+      "mode": "100644",
+      "sha": "c432c6e31df069a32112b241024966953d73aa91",
+      "size": 1880,
+      "bytes": 1880,
+      "sha256": "f11008b13d957c21dfd68a7b5bcc553de41981be16b17591e83a6540d8154e21",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/GATES-PGC.json",
+      "mode": "100644",
+      "sha": "5cb0171f599566f8ac11679201694fcc95b5333f",
+      "size": 36217,
+      "bytes": 36217,
+      "sha256": "4c6d2b87ec3e855e65052cad776aa743adb72c8fabc9c00e189687807ecafb4f",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PARECER-INDEPENDENTE.txt",
+      "mode": "100644",
+      "sha": "67fb897450458d999c81d2864c206a4dde509b58",
+      "size": 2397,
+      "bytes": 2397,
+      "sha256": "856c3accd82a0d31c1848156726a983f7b026df010a310b8280073058b36a0a7",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PROVA-CHAT-INDEPENDENTE.json",
+      "mode": "100644",
+      "sha": "55bea9f52efa6ba8170d228dcaf43481dc8a3e62",
+      "size": 9926,
+      "bytes": 9926,
+      "sha256": "22bb4e1382505930e58c8d6bb0cc532c68f1db5dbf39e25ecc99988ae32c451d",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PROVA-FONTES-NATIVAS.json",
+      "mode": "100644",
+      "sha": "2314ab552822942dbcf49006bd1f413ca8e7c611",
+      "size": 5760,
+      "bytes": 5760,
+      "sha256": "0bb72401636a4c61bb3b87605840b3d77f007ff8b77d91d8f1f325c767ede0fd",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/PROVA-PROJETO-CHATGPT.json",
+      "mode": "100644",
+      "sha": "7605fa0d8a639a0ea88f6377b5ea969f448330d8",
+      "size": 9379,
+      "bytes": 9379,
+      "sha256": "c45428a4a426c29bf142515b11015c92d5a9b43f14439411b9e6a2d89c92d6e4",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/RELATORIO-FINAL.txt",
+      "mode": "100644",
+      "sha": "a5a0e42f0f3b94feee93432bc233d39cfaf76601",
+      "size": 10614,
+      "bytes": 10614,
+      "sha256": "c98f4a80ccf7f49281fe0ac31777cdf02c9f9de72d11389cae86e7e4f69e400f",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/ci-b010-linux.log",
+      "mode": "100644",
+      "sha": "6061e04100823afa6a6e7d0cc7c31f10be87ca33",
+      "size": 18936,
+      "bytes": 18936,
+      "sha256": "6461d17c0f4df38994bd9e769568d2383d992ed887bee9b94990ceab3f68c67c",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/pacote-fontes-manifesto.json",
+      "mode": "100644",
+      "sha": "d424aa3537d2c3d65f72d9f9940b3bca3ad355c6",
+      "size": 9398,
+      "bytes": 9398,
+      "sha256": "79b9fe9114e6f4def194e26838b582c670cf052955021f498c27222c30952151",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/pacote-negativos.json",
+      "mode": "100644",
+      "sha": "1c90c1bcda6e57d6692f4d8492bee3fc4a212f0e",
+      "size": 677,
+      "bytes": 677,
+      "sha256": "2db9c1c4da8cad52f821c4caca748beb541a42a28625ac8402125c58fe0e81e9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/adversariais.stderr.txt",
+      "mode": "100644",
+      "sha": "506917a117e0cdccc6dd3b39aff525e571811309",
+      "size": 2584,
+      "bytes": 2584,
+      "sha256": "663179324f846392d568685854c797d0740e09e43068fe804883048f2c6197a8",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/adversariais.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/catalogo-estatico.stderr.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/catalogo-estatico.stdout.txt",
+      "mode": "100644",
+      "sha": "6c2504aaff6f25eb404efbd9191d79175fac4384",
+      "size": 26,
+      "bytes": 26,
+      "sha256": "0002b273745979f8c25fba9044b5df37ba6e2d428d54f4c88ef58b6645e14aec",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/extensao.stderr.txt",
+      "mode": "100644",
+      "sha": "b18df4323397d583c5c334081bd946d6d7332c20",
+      "size": 2272,
+      "bytes": 2272,
+      "sha256": "43118d24572489e5bd29e4a7c3883627b11e58029154ae22eed7fcc277c481b6",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/extensao.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/fundacao-estatica-delta.stdout.txt",
+      "mode": "100644",
+      "sha": "b30c35e6910ee5034f5c7d678204b89a2473fe45",
+      "size": 27121,
+      "bytes": 27121,
+      "sha256": "23844f18da77246f6e8adb5bf5dde6e970e2eb7043c4b34774f548ec5b81bd7c",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/fundacao-estatica.stderr.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/fundacao-estatica.stdout.txt",
+      "mode": "100644",
+      "sha": "5b87db11467e09334fae7b3410a5c88e61bfe583",
+      "size": 26647,
+      "bytes": 26647,
+      "sha256": "f4a45c4cd16a98b03b8e2ed88d518e0d2e7c2a824d5e346b17849dc82688f054",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/pgc-estatico.stderr.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/pgc-estatico.stdout.txt",
+      "mode": "100644",
+      "sha": "3afd22d87132f9e5e43e0cfd2bc866925122cd79",
+      "size": 20,
+      "bytes": 20,
+      "sha256": "9ca31f2cd47dba0c3fd8b5a4d11571edbb1c665627d584ede2160a0bac8fe894",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/piloto.stderr.txt",
+      "mode": "100644",
+      "sha": "d11f82f5cb3cd0446cf8814340ee8ba4bdd6cd00",
+      "size": 1910,
+      "bytes": 1910,
+      "sha256": "1bc8143609399edb272c982a11320cb2f32853915e104de63b74a7d53a4aeed9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/piloto.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/regressao-pgc.stderr.txt",
+      "mode": "100644",
+      "sha": "e63f646d82d5f361659686390b6a9b9b8ac1ad23",
+      "size": 1248,
+      "bytes": 1248,
+      "sha256": "fef353caf61f834979c7131f149645a674865eec9084979593aad65e88bd4473",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/regressao-pgc.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/resultado.json",
+      "mode": "100644",
+      "sha": "efce1fc453911f2b3f540d077988f57fada356a3",
+      "size": 4299,
+      "bytes": 4299,
+      "sha256": "e1af945468da11156413d1d108eead05b4f590d1793738f2391fd8f72e0e96f8",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/retomada.stderr.txt",
+      "mode": "100644",
+      "sha": "a3eaa2a01e341b5c9e925594661ea02dd5866ad1",
+      "size": 1044,
+      "bytes": 1044,
+      "sha256": "430b4ec8a18e434783da75b8effba6480074b1e64ecf7b798947dac8d3d20f2b",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/retomada.stdout.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/snapshot-retomada.stderr.txt",
+      "mode": "100644",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/remediacao-continuidade/testes-windows/snapshot-retomada.stdout.txt",
+      "mode": "100644",
+      "sha": "0d08d8c5678ac861f1a50a2a75e938b8798732b4",
+      "size": 732,
+      "bytes": 732,
+      "sha256": "c8bc6a61cc5efc8c6d1b0ddbfe75b9223d89896ecad5be136fb81092837a4b53",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md",
+      "mode": "100644",
+      "sha": "5f59fe2b43a96b8df91740a018dc51e7b29beb35",
+      "size": 3515,
+      "bytes": 3515,
+      "sha256": "d48e8fff8123a75989175e9b9840dae4193e1a17ab980d978e919423c663eecf",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/SHA256-REVISAO.txt",
+      "mode": "100644",
+      "sha": "8078b648d58ed1fd13c810dfe1ef641176b5360e",
+      "size": 7978,
+      "bytes": 7978,
+      "sha256": "734a2648a88869aad5b1dacd7fca41729c859da6911ed01137db016dbac10ad9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/comparacao-fontes.diff",
+      "mode": "100644",
+      "sha": "434f91830954dcdd7ca867fb66a537f6de74c711",
+      "size": 50721,
+      "bytes": 50721,
+      "sha256": "69ab2829d18545f3396b32e825906e272343b3a23fd6f947c6beb9e7e00949a8",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/resultados.json",
+      "mode": "100644",
+      "sha": "1d5e532d6bd6143747f9177a6379aa9fe7cb8ccc",
+      "size": 683,
+      "bytes": 683,
+      "sha256": "43d00f734d0ed8be7c0023d35d015449978f883fc8ceac3904d8ca37145f3619",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/testes-documentais.txt",
+      "mode": "100644",
+      "sha": "ba930c3918e72d2f25f4947095232a1d9a6f68dd",
+      "size": 1233,
+      "bytes": 1233,
+      "sha256": "73a8566af673f19ddb223daf0bd9450d5be9d803647333c28ff1d0c7d7906a77",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/verificar_revisao.py",
+      "mode": "100644",
+      "sha": "4c81908d566e130c6783888e2acdda5e9086e66a",
+      "size": 2073,
+      "bytes": 2073,
+      "sha256": "5fe2604273d2aae062286ac35792c14bf21a94380c9567e3bf618de796461429",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "mode": "100644",
+      "sha": "33db43725d92cdc82f64ec2c5790a8f1f7f2a6f2",
+      "size": 7704,
+      "bytes": 7704,
+      "sha256": "a53116c6aa5708d6e400343beed13054894090e29e04b4be5a9e76019115ffc7",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/PGC-001.md",
+      "mode": "100644",
+      "sha": "305deba10a36b047f01ebc231a9951f47b68a1d7",
+      "size": 16758,
+      "bytes": 16758,
+      "sha256": "dd4b8850314013945fdf71ca675f936bf00096398b0b4dd5c6d9dadb814164c8",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "mode": "100644",
+      "sha": "e7e2146f01073727ca6eb46b51328f601524315d",
+      "size": 1756,
+      "bytes": 1756,
+      "sha256": "bb587176c53d8dd4917dad073eab3a9118984583cf2cd960b6a79eaa7831db43",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md",
+      "mode": "100644",
+      "sha": "9e0951c66dddd0cc36ca0e1e833272b7492d9819",
+      "size": 5671,
+      "bytes": 5671,
+      "sha256": "8c3ede1272d30e9422e164b5bafc74c75188563b31eec0d46461a071e871aff5",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "mode": "100644",
+      "sha": "60556f99c5ed4da708c168115206e9011812e26e",
+      "size": 3587,
+      "bytes": 3587,
+      "sha256": "e44178b1213ca280eb22f9944e8c708ea333a9499bb797205cb0d2db1cea172a",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/SHA256SUMS.txt",
+      "mode": "100644",
+      "sha": "5c531d5ce171bd8f9fb6bd4dc227b757aed1efe7",
+      "size": 1741,
+      "bytes": 1741,
+      "sha256": "b931897dc3cbbb339032ba1866fa802b5bf6aff78e28fbe26610bc4fffff050a",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "mode": "100644",
+      "sha": "0fdbe2fe021539b12eef747e3c251f831b4c65a4",
+      "size": 12076,
+      "bytes": 12076,
+      "sha256": "f686be94623a8722e5907d8925d553369dbbd7bf9e8b5e96c99b9c71b6562357",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "mode": "100644",
+      "sha": "d5b47213b5a6d6fb08b36535c57ca4c8f157d148",
+      "size": 11827,
+      "bytes": 11827,
+      "sha256": "fae426f2946fdcc22993289e7743d9523306d841fd92dc2f1f5aa2b0297bdf00",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "mode": "100644",
+      "sha": "98409771e7f8bc15a0af6af7704f34616fac0952",
+      "size": 13544,
+      "bytes": 13544,
+      "sha256": "adcc71348a9a3516f0ee07324de684cf28508cdaf3b55ccecd8543b2fee726b5",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "mode": "100644",
+      "sha": "7a60e183a9f377e301535feeed8aeb934083faf0",
+      "size": 7238,
+      "bytes": 7238,
+      "sha256": "13a27b93470cfc0ca0b7ddf54f90596dde10d2c3967c2dd5679d603456844745",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "mode": "100644",
+      "sha": "30318700e329f3ba0545fd3db1f9953b91de2251",
+      "size": 10294,
+      "bytes": 10294,
+      "sha256": "a121f946fc9348449e1e6842c223d62257b390dcceb56e6bcbe5ffc6446287cc",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "mode": "100644",
+      "sha": "f43f4997e78f3695be9f829d825d32f2dafc89e3",
+      "size": 7850,
+      "bytes": 7850,
+      "sha256": "0e1521e44b8c7e55dd4d781644a4dfe060538cdfb1215e76df03d029880c3574",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "mode": "100644",
+      "sha": "3409537ec6c49d9c7a42b1946bc104a13abc9158",
+      "size": 7081,
+      "bytes": 7081,
+      "sha256": "c2c42d33255ffa1ca1e8b591afb63c867592d47b810834bfba1b7ba5e55c34ad",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "mode": "100644",
+      "sha": "e5169766602de8657417557c5ca1287c8e530f18",
+      "size": 14370,
+      "bytes": 14370,
+      "sha256": "6579e12d2e22b581d6cd6df47b157248baa4d9059982f00853e5a8c1eaa13ea8",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "mode": "100644",
+      "sha": "cdccc9dc8cc1612fb0ade6581b42ab69e1d498bf",
+      "size": 8991,
+      "bytes": 8991,
+      "sha256": "72ed6612f692bff761f7ce8d623eadeb292e8a1ace83f45709ac367c267ab9b8",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "mode": "100644",
+      "sha": "900d3772f85b4cc8dd1ff6dea95dcf6cf22b9f80",
+      "size": 100677,
+      "bytes": 100677,
+      "sha256": "1ce1146310bd8edf605f226034a29e528add1d06c6ea18b33c0e783c9a229d7a",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "mode": "100644",
+      "sha": "16b895215920d450b0ef2c6aaeea9dbc1a3a07fc",
+      "size": 16874,
+      "bytes": 16874,
+      "sha256": "889758b729315748249ee256fdc2ae0aaeb021cfc12e281336c2a208a8fd2483",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "mode": "100644",
+      "sha": "8b5ed705cc9654eea071f7f2d716d4c1ec5923dc",
+      "size": 6663,
+      "bytes": 6663,
+      "sha256": "2c06392df01ef6005dbd84f3eeeb862bcec9d72cb25afc7d81c745ad59e681ed",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "mode": "100644",
+      "sha": "94026a20e0a2fb6f16f121d45d4ee6e12ec7f455",
+      "size": 8753,
+      "bytes": 8753,
+      "sha256": "a62626c4c942d73dbc74ceebe424a0a581669e334dbd153ac815994449534218",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md",
+      "mode": "100644",
+      "sha": "e5fe025c2f571a409500deffbee67fff6174fef3",
+      "size": 16818,
+      "bytes": 16818,
+      "sha256": "99a6586b230f426a6b2f8a23179f5fd6047c472c5713abb239e3a0680fad961b",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "mode": "100644",
+      "sha": "e0cba634035ae9574ca055199a6961881924eae3",
+      "size": 1756,
+      "bytes": 1756,
+      "sha256": "2e64fa721d7e940026e4f90424519ba8cfcd93981f64ce15af0791b10543ed64",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "mode": "100644",
+      "sha": "be566753c11d908411312b78dfb321e9e0c58f04",
+      "size": 6958,
+      "bytes": 6958,
+      "sha256": "daf62ebdb18f7982e3f1ab4044e040fc0e859661a416f4e1fb92e174742eda54",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "mode": "100644",
+      "sha": "4bafb291d14728ce917f830c2737713db3faa81f",
+      "size": 5416,
+      "bytes": 5416,
+      "sha256": "eac3add951e677e6142a87f7bf98d4bf62f5a43db3969a3d8b9e9bc498ccb2ab",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md",
+      "mode": "100644",
+      "sha": "1252e5c072efc815ece01ac7f017e2bc55ab1597",
+      "size": 4064,
+      "bytes": 4064,
+      "sha256": "390b1f06a458a5f40a99c843e99ef51b98bb7013b86222d3b7c197b385d47d09",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/SHA256SUMS.txt",
+      "mode": "100644",
+      "sha": "f3edadd9216464a8c3ec820b165dd21647bae9bd",
+      "size": 1927,
+      "bytes": 1927,
+      "sha256": "64a72a7e918f8137ca996bafe70e261c3af7cb086462d214cabee4dcb6137fe5",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "mode": "100644",
+      "sha": "da687425dae237ffda799808aea25f8be166f457",
+      "size": 12481,
+      "bytes": 12481,
+      "sha256": "4f9e94dab864868de60b57ec4d4859d66640b3eb4721455ecde0a19357cb2428",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "mode": "100644",
+      "sha": "bedd4ca71a6c6abc02cb41b04548324f432243ab",
+      "size": 12216,
+      "bytes": 12216,
+      "sha256": "1002e1988e8a264e00eed5f097ad7d5bb4bac94bc84c67df7a31450af88cb9a4",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "mode": "100644",
+      "sha": "1dda671836dee6acb92394c6f8374a19c6cbb3be",
+      "size": 13544,
+      "bytes": 13544,
+      "sha256": "95f42a4e4be4b5a2f44bb313019abf5fccc7890183dad4e56f464e337b542458",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "mode": "100644",
+      "sha": "fa00706e27f90e78454161d1bf00b4562345f0bb",
+      "size": 7238,
+      "bytes": 7238,
+      "sha256": "c048b0679bdb5cd24da7ee58ecc986d4986c8843d045920966996b563f18ce0e",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "mode": "100644",
+      "sha": "04c7c1d65cae633962b3a31e8c00239e78c9d5ca",
+      "size": 10294,
+      "bytes": 10294,
+      "sha256": "d41f85e689d871a2fd9ed0f02e0c53c38e422367a917afe8277e4a8c4ff057a7",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "mode": "100644",
+      "sha": "69e52b8e7fcf832dfe74079f73f0cb36e52abbce",
+      "size": 7850,
+      "bytes": 7850,
+      "sha256": "ff560118fd1939732187626e1c2e3ad370d45901920a24cf5ac242f7853f8738",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "mode": "100644",
+      "sha": "765475a7cb1df2b9555fdc12f243b0cf123c61ff",
+      "size": 7081,
+      "bytes": 7081,
+      "sha256": "c0dd230f58453d43011a2c8fd15e4a788ae507493274239cf586b273af15c7dd",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "mode": "100644",
+      "sha": "2bb768a1c4e6ba0db394c9e2b208713ceffb30af",
+      "size": 15367,
+      "bytes": 15367,
+      "sha256": "230869fcc1e1f8d7f515b7b0424a489c84179710e75595c8df76fbaafca2d0f0",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "mode": "100644",
+      "sha": "de967da34bd95828a11c3f70d36ac7f242540553",
+      "size": 11322,
+      "bytes": 11322,
+      "sha256": "d79e0dbe731787b6a7c52c84fece82c8d3d52db44eada394011fa54a5a3ccc95",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "mode": "100644",
+      "sha": "ea72c3d4c8c1b3868ab2e46208bb0d69e0d8e05f",
+      "size": 101145,
+      "bytes": 101145,
+      "sha256": "1abd8fb0ca3553e10ebc0d2011b7dc859a60458c9ab803d294bec244101323e0",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "mode": "100644",
+      "sha": "18b01636e441739a1c4c4105e65fd727d90ebc04",
+      "size": 17532,
+      "bytes": 17532,
+      "sha256": "6f3db4d134b10f8408b9157e51981cb919050c071f666848584e8ad759d49f50",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "mode": "100644",
+      "sha": "10e6b7c6c4e59d91723777122936e68de3229b7e",
+      "size": 7513,
+      "bytes": 7513,
+      "sha256": "78dedad07607d131415d43a433d7793e91c96d2e8d048452b6ba02f373b91a4b",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/testar_revisao.py",
+      "mode": "100644",
+      "sha": "01e2be93498c958d876e6bd357e9297710095868",
+      "size": 5493,
+      "bytes": 5493,
+      "sha256": "3baebb69590ebe72e13fb58f71feb80a13344cab43c13c97a6461bb73cc85db0",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/FONTES.md",
+      "mode": "100644",
+      "sha": "136ac411410a9afc8ea3215ee0167428787ab78e",
+      "size": 6150,
+      "bytes": 6150,
+      "sha256": "c5c60b902937a06d9b52a1e228064fa8a0fb3f1c8d2b8033300b1d4cc989ec2a",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MANIFESTO.json",
+      "mode": "100644",
+      "sha": "c4575568cffd698fb53a14556761b7141e18865f",
+      "size": 34233,
+      "bytes": 34233,
+      "sha256": "0de8a208bdc510f98d7399ba8b8f8a10feacb081400f07820d408321f0d33f9d",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MATRIZ.md",
+      "mode": "100644",
+      "sha": "b1f96b223cba2d5f6c4eed39e5aaf30fc674c382",
+      "size": 48361,
+      "bytes": 48361,
+      "sha256": "4b55ef449ca673b7e8ff8f82a84da5b793173da27128eb8bdad39590a3bfc068",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MODELO-FUNCIONAL.md",
+      "mode": "100644",
+      "sha": "87dfe08edc00dff44d5cd1fb78faf78fc8c8a4f5",
+      "size": 22158,
+      "bytes": 22158,
+      "sha256": "a8ed633cd41f51c1c6b51da8f68a04f517c4af76c1d38dea573d0b6606d47e50",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/README.md",
+      "mode": "100644",
+      "sha": "346c4feb0fefe62c05150a8d11cd8a5391d4ecba",
+      "size": 3016,
+      "bytes": 3016,
+      "sha256": "7eb6296ef4b05ddea674329898b6d552a783ae8ef72a06bb884504b45788e7bc",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REGISTRO.md",
+      "mode": "100644",
+      "sha": "c9324ef105ff3feda27330411f47f5843fac93d1",
+      "size": 47232,
+      "bytes": 47232,
+      "sha256": "0d57d323870968f1ed4201d9cd2bc075ddb0f77c973a0f07c1e766e7f3e658b8",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/RETIFICACOES.md",
+      "mode": "100644",
+      "sha": "d51f6ea1a8f40a4b7920d8fa4701af11886b4a9f",
+      "size": 9079,
+      "bytes": 9079,
+      "sha256": "7e1f4ed9fddbbbadad4082785eb92d1492e8eb9a084c0759b71e83bbac21ab38",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REVISAO.md",
+      "mode": "100644",
+      "sha": "13993e6120c8afbb8bf66b93009f3e3a7225a01d",
+      "size": 7793,
+      "bytes": 7793,
+      "sha256": "049026bc7e61f53c6bf2e87bc5dbe8c213debc6aabab31686749ec06660f67b8",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/INDICE.json",
+      "mode": "100644",
+      "sha": "6de4c82bca2cf9bd952b27b99af8661045605676",
+      "size": 631,
+      "bytes": 631,
+      "sha256": "0e96d1dc60a284423b55b1ce0d70fed8d993a90b7374b70f8436ae38b722a4b0",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/INICIO.md",
+      "mode": "100644",
+      "sha": "55a52148590ae5ea92ca32f5226429795085f682",
+      "size": 2811,
+      "bytes": 2811,
+      "sha256": "be31e374f8b96f6a53ce50bcf629fbcce33a84b9276ab473e3419c5f12b6963e",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/aceites/GOV-OP-0001.json",
+      "mode": "100644",
+      "sha": "2624ee505449e5ad478644f5d55914455d2bfccd",
+      "size": 1863,
+      "bytes": 1863,
+      "sha256": "deccbbff4b623989b2ca7a21f222c3414964b47595bf9e438914edb3e26a6666",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/ensaios/controle-condicional.json",
+      "mode": "100644",
+      "sha": "4b0b3ce44cbff5ef576859a2c4a480b8acaea086",
+      "size": 193,
+      "bytes": 193,
+      "sha256": "b0b088fb181a6c98b0da9d272d1faeeec4a08ebd7d1cdbe2867531184d17c012",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/recibos/GOV-OP-0001.json",
+      "mode": "100644",
+      "sha": "f1a6a17b54d8396a76b08053b823cf7e1fb247e5",
+      "size": 1900,
+      "bytes": 1900,
+      "sha256": "b26c8105996ac116b11bd2d08babeb6bf7e2ed5d8996645f0a8a5cb9d7575876",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+      "mode": "100644",
+      "sha": "cf29296d8f5265bf50f3c9c96a9636a1b59a2354",
+      "size": 474,
+      "bytes": 474,
+      "sha256": "55d5027ebfba91cc442de55f7c966352c42f4db38693424c638f94e429e833b2",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md",
+      "mode": "100644",
+      "sha": "478df24983121c27b6ea1237b2295a7891c205f2",
+      "size": 19695,
+      "bytes": 19695,
+      "sha256": "0f54a70e51c226ae67421bcc05d08d921f847e6d7cb2fdecf5201c40ed3805b5",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/06-execucao/propostas/README.md",
+      "mode": "100644",
+      "sha": "23687abef4e80c7988ee439040269a5a64cdb92b",
+      "size": 654,
+      "bytes": 654,
+      "sha256": "693a62b808e8559a02a7d3928033aaf01a92eb4f634cd70599a119f37a4a6720",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0001.json",
+      "mode": "100644",
+      "sha": "a921d76f4fe636c89548a7dc444b4cfbd3fab680",
+      "size": 1189,
+      "bytes": 1189,
+      "sha256": "fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/continuidade/OPERACAO.md",
+      "mode": "100644",
+      "sha": "0909e7daf215faacd48714c7dc343f90473b1cab",
+      "size": 1751,
+      "bytes": 1751,
+      "sha256": "595664b24a248f7ebd59b677dca21caec17343ca4ca9e87c32fad5c85315516b",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/continuidade/RECIBO-PUBLICACAO.json",
+      "mode": "100644",
+      "sha": "69f2418e1a7b54024625d9bc161fc32965611ff4",
+      "size": 1237,
+      "bytes": 1237,
+      "sha256": "3e063059ebad59996c41959045bb6a4f35313530be8e5a09400b3547577c4566",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "mode": "100644",
+      "sha": "13d863c04d2670ec49b824ed74fa59cae6d0f033",
+      "size": 4202,
+      "bytes": 4202,
+      "sha256": "87739fa4430fe5a8b3108503b31d939b9a58b5599f9792569378057ae361c034",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/fundacao/capacidades.md",
+      "mode": "100644",
+      "sha": "4a72fc7e6f5f716f40e6b52c8497c31d22af1d8d",
+      "size": 8760,
+      "bytes": 8760,
+      "sha256": "eafadbd4e10de4ab3f3f397b1c74d18230fc42e7ae5237f50ac2917f72a8f3b1",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/fundacao/construcao-internalizacao.md",
+      "mode": "100644",
+      "sha": "1700d40d2b32dffc43408f95ddb55dc2226b791c",
+      "size": 8224,
+      "bytes": 8224,
+      "sha256": "a9384ac36e52b49664f5afda51e84301a2c8dd239dcd13d0806dfa400dc0aef6",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/fundacao/ecossistema-atual.md",
+      "mode": "100644",
+      "sha": "e82322d5f217e7bdeb9a510f017a578a9523818e",
+      "size": 7470,
+      "bytes": 7470,
+      "sha256": "ffc855b144062aa1d1d200e5f2a9aadb284f40ea3503b2956ce8f613d86cd2fe",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/fundacao/metodologia-fases.md",
+      "mode": "100644",
+      "sha": "8e9254fffba42bb9271eee1744708e027f6124a3",
+      "size": 9730,
+      "bytes": 9730,
+      "sha256": "8d958a4ecd5feb44d03b8679224ea52d3f6e8243f5cda69dbee11942882a234a",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/fundacao/protocolo-sessoes.md",
+      "mode": "100644",
+      "sha": "a470a04f2d89f465457f54fecf65d56bbb195967",
+      "size": 5172,
+      "bytes": 5172,
+      "sha256": "4e598caaca0141e0c864f4c45bcd7498b948c333600a0e9e9428d8824e693579",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/fundacao/registro-conhecimento.md",
+      "mode": "100644",
+      "sha": "cd978b93ee306431fad0125e0bfd88b1d201450f",
+      "size": 12140,
+      "bytes": 12140,
+      "sha256": "05a64f5b2912a01feaf84e3cdc55b61b7e45a5aa8355f18a11d6314f81bb6b0d",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "docs/fundacao/visao-produto.md",
+      "mode": "100644",
+      "sha": "01205981adbde233450b2c32cb424eba8a08d0b8",
+      "size": 10910,
+      "bytes": 10910,
+      "sha256": "79c185bde0b2034bb75efe7a7da0e0251271d457f9365d1691f1b5b839760a38",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/empacotar_chatgpt.py",
+      "mode": "100644",
+      "sha": "96b5f366bd3b72592473a3d67a3e82314f00225b",
+      "size": 5781,
+      "bytes": 5781,
+      "sha256": "80961c236edbd9fb8de18fecabef91d27bcbb7de0329a1d4828c0eea53a21b4a",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/executar_verificacoes.py",
+      "mode": "100644",
+      "sha": "e152eb24a9f910583f75187a58116a96e6591080",
+      "size": 2193,
+      "bytes": 2193,
+      "sha256": "4459609f9d92f09ca100355a4c7fbba57ad45ef94357bda9977e03b85a10f12d",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO-FUNDACAO.md",
+      "mode": "100644",
+      "sha": "7128ab883c73cc62d1862a944763515ac9038f04",
+      "size": 6365,
+      "bytes": 6365,
+      "sha256": "d3718a7346d849e43c3274ca5b81a1183c146577c5d86a22235e821d44c44649",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO.md",
+      "mode": "100644",
+      "sha": "a0d633067dab6c0508188bab9be9bca36af8ea36",
+      "size": 7715,
+      "bytes": 7715,
+      "sha256": "67cd5925b06093f69757d8d52be1b92ee8e1b60afe32c0192b6fab384a9646da",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/fluxo.py",
+      "mode": "100644",
+      "sha": "65080c65d839aa2240532f4b2035183fc3f0de9b",
+      "size": 17639,
+      "bytes": 17639,
+      "sha256": "2f37ef7e114ceffd5820eee0dc3ea9162209de5607abfe349358b5ad92943a20",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/fundacao.py",
+      "mode": "100644",
+      "sha": "9e6dafdab8331448f8b07d76570d97827aa17764",
+      "size": 14033,
+      "bytes": 14033,
+      "sha256": "a4d30fab1a3b07928d9150da166444ac54ee303f3ca0212aeb29f904c77665d9",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/aceite-nao-preenchido.json",
+      "mode": "100644",
+      "sha": "ce3354e6459c1be3ca480d08dc76c7bab38d90e7",
+      "size": 428,
+      "bytes": 428,
+      "sha256": "b7c0a490e9277a5e912edcb200fe3726f46d2c6c3e1684019cc8ce8b96b76981",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/recibo-nao-preenchido.json",
+      "mode": "100644",
+      "sha": "db53b3c3ef4e124cfe4b6c39d20f45570eb5049c",
+      "size": 358,
+      "bytes": 358,
+      "sha256": "9bcf74abcc10dfe24d320101fa66644f7a142457ffa2f9178bd2281a3b5a4b48",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/registro.json",
+      "mode": "100644",
+      "sha": "3452296643e02221c8ebe1bc08ef45a1500aac45",
+      "size": 476,
+      "bytes": 476,
+      "sha256": "ce59ced6bcca58f9a2b2610a309d200da2450aaac3fc60b29ec610d531df241f",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/retomar_snapshot.py",
+      "mode": "100644",
+      "sha": "246741bb6f6c8ce6dc1818a0ca9308a5d7057b4b",
+      "size": 1248,
+      "bytes": 1248,
+      "sha256": "6b035addab551a694c6c2bf1c2b55f96f0b9ade1a7a38d70ff8a87000535b29c",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/test_fluxo.py",
+      "mode": "100644",
+      "sha": "d1f48af16cc0b0aaa43685160ad982c29a4e0554",
+      "size": 9678,
+      "bytes": 9678,
+      "sha256": "c82756154d13dd45be49c2a8966fa05e75e769772a31b545a44e50fed3406d02",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/governanca_assistida/test_fundacao.py",
+      "mode": "100644",
+      "sha": "cc1158c939d616e8a2c5ef1ef3d2a85f95d0ff8c",
+      "size": 9896,
+      "bytes": 9896,
+      "sha256": "3c515694e4de6eba552eaa052729bc5a18ad87bdcb7a02c75c02cca97a094b51",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/test_retomada.py",
+      "mode": "100644",
+      "sha": "adbc69b7d6c7841a9d64acc09feaaaea05b618dc",
+      "size": 3210,
+      "bytes": 3210,
+      "sha256": "d2d86d49f9400c24a8d79c7c60a5128f35c5c8afd8aa7c2fce4d0147a549d01c",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/verificar_fundacao.py",
+      "mode": "100644",
+      "sha": "b822ad954e64f4dba6d69fc7f9620f91b18bcc91",
+      "size": 3646,
+      "bytes": 3646,
+      "sha256": "b004bd971670d897d0a62f47a1a5bbe7500e85fbc43607da95c1587253b130b1",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    },
+    {
+      "path": "harness/verificar_retomada.py",
+      "mode": "100644",
+      "sha": "1f3b10c01ff862ade6766c215bfc5afae5b934bf",
+      "size": 2816,
+      "bytes": 2816,
+      "sha256": "1a134558714998824c84a6bf785ec8f1ae95d95c898cf76277103d528fdd4d2c",
+      "comparison": "IDENTICAL_BASELINE_GIT_BLOB_AND_MODE"
+    }
+  ],
+  "exclusions": [
+    {
+      "category": "raw transcripts, credentials, corporate data, caches and local temporary outputs",
+      "reason": "not authorized distribution; absent from candidate",
+      "impact": "none on accessible curated content"
+    },
+    {
+      "category": "posterior evidence",
+      "reason": "events not yet proved in content snapshot; separate supplement",
+      "impact": "no claim of published/applied/recovered status from this manifest"
+    }
+  ],
+  "dependencies": {
+    "D01": "PR6; depends on PR5",
+    "retifications": "docs/01-discovery/discovery-02/RETIFICACOES.md",
+    "historical_continuity_manifest": "docs/continuidade/historico/pre-d02/MANIFESTO.json",
+    "native_configuration": "Aplicação verificada separadamente por download dos cinco arquivos e releitura das Instruções; ver recibo posterior."
+  },
+  "tests": {
+    "criteria": "auditorias/discovery-02-incorporacao/ORACULOS-PREVIOS.json",
+    "fixtures": "auditorias/discovery-02-incorporacao/CENARIOS-PREDEFINIDOS.json",
+    "results": "auditorias/discovery-02-incorporacao/TESTES-DOCUMENTAIS.json",
+    "status": "CRITERIOS_PM_R5_ENCERRADOS_NAO_DEFINEM_PRONTIDAO_DISCOVERY"
+  },
+  "posterior_evidence": [
+    "auditorias/discovery-02-incorporacao/RECIBO-PUBLICACAO.json",
+    "auditorias/discovery-02-incorporacao/RECIBO-CONFIGURACAO.json",
+    "auditorias/discovery-02-incorporacao/RECIBO-CONTINUIDADE.json",
+    "auditorias/discovery-02-incorporacao/RELATORIO.md"
+  ],
+  "own_commit": null,
+  "own_commit_reason": "proven externally by posterior receipt; no self digest",
+  "verification": "Validate normalized unique paths/modes; compare bytes/SHA256/blob SHA1 to freeze; check inherited hashes vs baseline remote tree; reobtain by immutable content_commit; metadata/outcomes separately audited",
+  "readiness_rule": "docs/01-discovery/discovery-02/PRONTIDAO.md",
+  "acceptance_scope": "Prontidão documental atual; gates PM-R5 não bloqueiam Discovery",
+  "prior_freeze_reference": {
+    "path": "auditorias/discovery-02-incorporacao/CANDIDATO-CONGELADO.json",
+    "digest": "99eae003f97711e19d0448c855952ea761119629b21d712feafbf2fa73d585ae",
+    "scope": "snapshot anterior; não valida o delta desta correção"
+  },
+  "authorized_updates_to_prior_protected": [
+    {
+      "path": "README.md",
+      "prior_blob": "76eaf2e542c2909f2f3642a86873bd220747295b",
+      "current_blob": "4c1357e89a77bcfe1c1a0a3cd058b8669ff47170",
+      "reason": "Atualização documental de prontidão expressamente autorizada em 01/11/2026"
+    },
+    {
+      "path": "docs/chatgpt/PRIMEIRA-SESSAO.md",
+      "prior_blob": "28bb4928d3f064a7e849d8f7414ec1f0429f166a",
+      "current_blob": "58860b2b114a5d1f2bcf71a6d2d2bfc7d7621eaf",
+      "reason": "Atualização documental de prontidão expressamente autorizada em 01/11/2026"
+    }
+  ]
+}
+
+```
+
+---
+
+# docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md
+
+Origem: [docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob 3df94540eb71291b144cdefd041ef82590cdb872. SHA-256 cd5ac777065c01fd9a601858a58d07cbd855386df18f363da63ddb0ff47d1b1e.
+
+# Modelo funcional candidato D02 — revisão 1
+
+Projeção de HUM-01..HUM-11 e AX-01..AX-10, definidos no [ledger](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REGISTRO.md) e nos [axiomas](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/fundacao/axiomas-arquiteturais.md). Sequência, nomes de estados, schemas, UX e algoritmos abaixo são D02-PROP-001..007, ainda propostas. Sem IDE implementada, aplicação executada ou norma ratificada.
+
+## Jornada candidata de compreensão
+
+| Etapa candidata | Entrada/precondição | Ação pretendida e saída | Falha/limite e intervenção |
+|---|---|---|---|
+| 1. Delimitar | Objetivo/mudança sintética, fontes permitidas, revisão e direitos | Identificar Micro/Meso/Macro, branches/commits e finalidade; catálogo de escopo lido/não lido | Identidade/permissão ausente bloqueia só fonte/efeito dependente; não presume acesso a submódulo |
+| 2. Inventariar | Material autorizado de onboarding | Mapear código/documentação/configurações/contratos/testes/regras/dependências; preservar originais | Nenhuma refatoração; ausência/truncamento explícitos, sem reconstruir como fato |
+| 3. Investigar | Catálogo, evidências e perguntas | Ampliar cobertura e aprofundar dirigido; responsabilidades, fluxos, contratos, regras, riscos e contraevidência | Busca exterior exige finalidade/fonte/escopo e autorização; consulta posterior ao legado exige permissão/aviso |
+| 4. Estruturar | Unidades e suporte localizável | Distinguir fato verificado, relato, intenção, decisão reproduzida, proposta, hipótese e pergunta; registrar seis eixos de proveniência | Hipótese não vira fato; resposta curta sem pergunta não aprova derivação |
+| 5. Avaliar | Mudança pretendida e unidades críticas | Confrontar suficiência, cobertura, precisão, incerteza e impacto; emitir lacunas e dependências | Criticidade incerta escala; conclusão com ressalvas somente não críticas e catalogadas; limiares pendentes |
+| 6. Consolidar | Contribuição candidata, revisão-base, direitos e oráculos | Deduplicar/reconciliar de forma rastreável; verificar antes de publicação autorizada | Push de trabalho não publica conhecimento aprovado; concorrência rejeita sobrescrita e exige reconciliação |
+| 7. Usar | Conhecimento vigente/provisório identificado e escopo de tarefa | Consultar/explicar e, em trabalho posterior autorizado, planejar/modificar/validar | Uso provisório não é verificação definitiva nem permissão genérica de código/execução |
+| 8. Revalidar | Mudança agêntica ou alteração externa observada | Atualizar/revalidar conhecimento afetado no mesmo commit/PR; drift detectado é invalidado, reconciliado e verificado | Sem prova de consistência, manter ciclo dependente aberto; ausência de monitor não implica detecção contínua |
+
+## Estados candidatos e validade
+
+Uma unidade pode estar proposta, em investigação, verificada no escopo, provisória, contradita, invalidada ou superada; são nomes candidatos, separados da natureza de conteúdo e de resultado de teste. Verificada exige revisão e suporte do escopo; não significa certeza universal. Provisória identifica o limite, mantém originais e permite somente operações autorizadas. Contradita/invalidada não pode ser usada como atual sem ressalva e bloqueio das decisões dependentes.
+
+| Drift — direção HUM-08 | Entrada | Saída e prova |
+|---|---|---|
+| Detectar | Alteração externa observada por leitura/ciclo | Diferença e revisão de origem identificadas; ainda não corrigida |
+| Invalidar | Relação de impacto candidata | Unidades afetadas marcadas, uso como atual impedido; impacto/incerteza visíveis |
+| Reconciliar | Fontes novas, contraevidência e autorização | Revisão candidata de conteúdo e relações; autoria/retificações preservadas |
+| Verificar | Candidato e oráculos aplicáveis | Evidência da nova revisão contra fontes; só então restabelecer validade delimitada |
+
+Em múltiplos repositórios, a revisão composta lista cada commit e ponteiro Micro/Meso/Macro e suas dependências. Fonte main não comprova implantação; versões DEV/HOM/PROD e branches podem diferir, inclusive dentro da mesma funcionalidade (D01-DEC-008/009, INT-004). Simulações e integrações reais são modos distintos; suportar ambos não autoriza acesso real.
+
+## Permissões e exceções
+
+HUM-06 separa inventário/leitura, exterior, legado posterior, execução, escrita/publicação, armazenamento, redistribuição e exclusão. Permissão pontual/reutilizável e individual/coletiva respeita autoridade e direitos efetivos; validade, revogação e fiscalização técnica continuam candidatas. Inventário inicial autorizado não é bloqueado pela regra de consulta posterior. Fonte acessível pode não ser armazenável/compartilhável; conservar referência e só derivado legítimo. Exclusão de originais exige aprovação expressa de objeto/revisão.
+
+HUM-03 permite pedir execução local na IDE futura somente por dúvida/pendência/esclarecimento intransponível após investigação autorizada; apresentar propósito, ambiente/dados, comandos e efeitos, oferecer resposta direta e obter permissão específica. Insumos faltantes são pedidos só se necessários. **Nesta consolidação é proibido executar aplicações ou usar essa exceção.** HUM-04 proíbe absolutamente refatoração no onboarding; AX-01 só orienta modificações futuras autorizadas em seu escopo.
+
+## UX candidata e supervisão
+
+Mostrar escopo e revisão; origem/estado de cada afirmação; evidência navegável e contraevidência; áreas não lidas/inacessíveis; dúvidas, impactos, bloqueios e ações possíveis. Engenheiro pode corrigir interpretação e oferecer esclarecimento depois do onboarding; contribuição pertinente retorna aos níveis autorizados com validação e publicação controlada. Não exigir repetir histórico acessível ou carregar todas as pendências em todo ciclo.
+
+Tratar estados vazio, carregando, parcial, obsoleto, conflito, bloqueado, falha e recuperação; permitir entender motivo e dependência afetada. Acionamento de permissão precisa indicar objeto/escopo e alternativa de resposta direta quando pertinente. Layout, acessibilidade detalhada, notificações, limiares e máquina de estados serão refinados em D02-PEN-001/002/004, sem tela aprovada nesta missão.
+
+## Cenário sintético para próximo discovery
+
+Aplicação fictícia Micro-A fornece contrato HTTP usado por Micro-B. Meso-SIG contém ambos como submodules; Macro-WS contém Meso-SIG. Mudança pretendida altera um campo do contrato. Código Micro-A usa feature branch; comportamento esperado de dependência se refere a revisão HOM diferente. Evidência do significado de um campo está ausente e teste documentado é inconclusivo. O cenário é proposta, sem resposta humana nem execução. [AVALIACAO](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/AVALIACAO.md) organiza o confronto entre evidência suficiente e lacuna insegura; não atribui valor numérico de aceite.
+
+
+---
+
+# docs/01-discovery/discovery-02/README.md
+
+Origem: [docs/01-discovery/discovery-02/README.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/README.md). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob 2de88fff1884ee38dbd1321dde21c199c81cebf4. SHA-256 ae4093bae20189642729940eea8f32786322932e981214706047fafb33a43b2d.
+
+# Discovery 02 — consolidação documental R5
+
+Revisão documental 1, 31/10/2026. [RETOMADA vigente](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/RETOMADA.md) → [REGISTRO canônico](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REGISTRO.md) → [RETIFICAÇÕES](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/RETIFICACOES.md). D01-R2 histórico preservado; D02 refina direções reproduzidas, sem nova entrevista, implementação da IDE ou aplicação executada. PGC/CT NÃO RATIFICADOS e 49 CA NOT_RUN.
+
+[Fontes](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/FONTES.md), [matriz bidirecional](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/MATRIZ.md), [axiomas](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/fundacao/axiomas-arquiteturais.md), [blueprint substituto](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/ARCHITECTURE_BLUEPRINT.MD), [modelo funcional](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md), [contratos candidatos](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md), [avaliação](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/AVALIACAO.md) e [revisão/controles](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REVISAO.md). Manifesto/freeze/relatório/recibos são gerados em fases próprias; existência de conteúdo não prova publicação, configuração ou recuperação.
+
+[Fallback do Projeto](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/chatgpt/CONFIGURACAO.md) e [Instruções candidatas](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/chatgpt/INSTRUCOES-PERMANENTES.md): nenhuma aplicação nativa comprovada. RN exige nova conversa real do usuário no Projeto correto, não subagente.
+
+
+---
+
+# docs/01-discovery/discovery-02/REGISTRO.md
+
+Origem: [docs/01-discovery/discovery-02/REGISTRO.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REGISTRO.md). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob 218644384fd07a999590f237586e941b1655407b. SHA-256 345b560989981e56a5cb8e0f11086c5696e273499b27174815b0543811994979.
+
+# Regra operacional vigente
+
+Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa. Ver [PRONTIDAO](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/PRONTIDAO.md).
+
+# Registro canônico D02 — revisão documental 2
+
+Consolidação PM-D02-CONSOL-001 R5, 31/10/2026. **Em discovery, sem ratificação normativa, aprovação de implementação ou capacidade funcional demonstrada.** Este ledger possui IDs, natureza, proveniência, validade, autoridade, maturidade, propostas e pendências. Os axiomas AX têm dono temático em [axiomas-arquiteturais.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/fundacao/axiomas-arquiteturais.md). Modelo/blueprint/contratos são projeções ou propostas, sem definições humanas concorrentes.
+
+Fonte curada D02-S01 = PM R5 §4, preservado em [entradas](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md). Fonte D02-S04 = D01-R2 no commit `e37af725a162c577cfa9ffde286d0fcf69294429`. O autor atribuído das determinações reproduzidas é o usuário; sua identidade histórica não foi autenticada independentemente. O pedido vigente autentica o escopo desta missão, sem provar cada mensagem histórica. Reprodução não é natureza nem aprovação técnica retroativa. Acesso integral ao anexo curado; acesso às mensagens originais parcial/inacessível. Confronto literal com original: NOT_RUN. Cobertura semântica será avaliada contra reproduções e D01, não contra transcrição inexistente.
+
+Todas as unidades abaixo: revisão documental 1; validade vigente apenas no escopo de discovery; maturidade EM DISCOVERY; autoridade de direção de produto ou proposta conforme natureza. Nenhum registro concede acesso operacional. [FONTES](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/FONTES.md) discrimina os seis eixos e limitações; [MATRIZ](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/MATRIZ.md) relaciona elementos, destinos e regressões.
+
+<a id="hum-01"></a>
+
+## HUM-01 — Profundidade e qualidade
+
+Natureza: Intenção/direção de produto reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.1; revisão fonte R5.
+
+Investigar amplamente os repositórios e aprofundar quanto viável: aspectos técnicos, execução documentada, testes, documentação, regras de negócio, arquitetura, relações e conhecimento existente. Explicar responsabilidades, fluxos, contratos, dependências, regras e riscos com suportes e contraevidências. Construir evidências exatas por repositório/commit/arquivo/linhas/contrato; avaliar precisão e segurança da absorção. Declarar escopo lido/não lido, exclusões, inacessibilidades, contraditórios e limites. Integralidade é intenção de cobertura; não prova compreensão perfeita nem autoriza execução.
+
+<a id="hum-02"></a>
+
+## HUM-02 — Autonomia fundamentada
+
+Natureza: Direção de produto reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.2; revisão fonte R5.
+
+Investigar autonomamente fontes autorizadas e dependências pertinentes, formular hipóteses e esgotar esclarecimento documental legítimo antes de escalar. Pedir intervenção por impedimento material, autoridade necessária ou decisão de produto realmente ambígua. Reduzir tarefas rotineiras do engenheiro, sem ampliar acesso ou substituir evidência por confiança.
+
+<a id="hum-03"></a>
+
+## HUM-03 — Execução local excepcional futura
+
+Natureza: Decisão/restrição humana reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.3; revisão fonte R5.
+
+Na IDE futura, somente diante de dúvida, pendência ou necessidade de esclarecimento intransponível após tentativas autorizadas esgotadas, pode-se pedir permissão específica ao engenheiro para subir a aplicação localmente. O engenheiro pode responder diretamente em alternativa. Documentar dúvida, tentativas, finalidade, ambiente/dados, pré-requisitos, comandos e efeitos previstos; solicitar apenas insumos faltantes necessários se a dependência for real. Conhecer como executar não autoriza executar. Esta missão documental proíbe solicitar/usar a exceção para executar aplicações. Retifica D01-RST-001 no alcance descrito em RETIFICACOES.md, preservando a decisão e a autoridade humana.
+
+<a id="hum-04"></a>
+
+## HUM-04 — Nenhuma refatoração no onboarding
+
+Natureza: Decisão/restrição humana reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.4; revisão fonte R5.
+
+Durante onboarding/importação: absolutamente nenhuma refatoração da aplicação, renomeação de APIs, reorganização de arquivos ou modernização oportunista. A orientação Agent-Centric passa a valer desde a importação para modificações e implementações posteriores autorizadas no escopo efetivamente necessário; não exige reestruturar todo arquivo tocado, dependência ou repositório. Mudança arquitetural adicional depende de especificação e escopo próprios.
+
+<a id="hum-05"></a>
+
+## HUM-05 — Topologia Micro/Meso/Macro
+
+Natureza: Decisão conceitual/topológica reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.5; revisão fonte R5.
+
+Conhecimento canônico em Git. Micro é o repositório individual. Meso é um repositório específico por sigla/conta e contém Micro como Git submodules. Macro é workspace com repositório Git e contém Meso como submodules. A relação organizacional fina sigla/conta/projeto/domínio continua a refinar sem reabrir essa escolha. Não há sincronização de ponteiros, acesso herdado ou direito de redistribuição implícitos. Clonagem, atualização, permissões e UX ainda exigem especificação. D01-REL-004 e D01-DEC-006 sustentam a topologia; a síntese genérica D01-REL-003 deve ser lida pela retificação D02.
+
+<a id="hum-06"></a>
+
+## HUM-06 — Autorizações herdadas do D01
+
+Natureza: Síntese editorial de decisões e intenções D01-R2. Modo: Síntese do documento D01-R2 consultado, não declaração humana direta integral no pedido R4/R5. Fonte: D02-S01 §4.6; revisão fonte R5.
+
+Preservar separadamente: inventário/leitura inicial autorizados no onboarding; consulta posterior ao legado diante de lacuna, que exige permissão e aviso de inconformidade; buscas exteriores, precedidas de finalidade/fonte/escopo e autorização; execução; escrita/publicação; armazenamento derivado; redistribuição; exclusão. Uso provisório Agent-First é permitido e referência preferencial/padrão, mantendo originais; consultas e código nessa fase dependem do escopo autorizado e não significam verificação definitiva. Exclusão sempre requer aprovação expressa do objeto/revisão. Sistemas inacessíveis podem ser estudados por fontes indiretas autorizadas, sem inventar implementação interna ou exigir submódulo para todo sistema. Preservar referência externa e incorporar só derivado legitimamente armazenável e compartilhável. Suportar autorização pontual/reutilizável e individual/coletiva sem criar acesso inexistente, permanência irrestrita ou direito fora de escopo. Identidade, validade, revogação, schema e mecanismo de fiscalização são propostas a especificar; registros segregados são controles desta missão, sem etiqueta de decisão técnica humana.
+
+<a id="hum-07"></a>
+
+## HUM-07 — Dez axiomas
+
+Natureza: Direções de produto reproduzidas; semântica operacional candidata. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.7; revisão fonte R5.
+
+Os dez rótulos são Agent-Centric, Agent-Oriented, AI-Intent, SDD, Harness Engineering, Contexto Mínimo Necessário, Roteamento de Contexto, Contexto-Ótimo, AI-Based Architecture e agnosticidade de modelo/agente/ferramenta. O dono das definições temáticas é docs/fundacao/axiomas-arquiteturais.md, AX-01..AX-10 revisão 1. Nomes, direção, interpretação proposta, tecnologia exemplificativa, dependências e evidência de capacidade são classes distintas. Sem ratificação PGC/CT, stack aprovada, garantia de eficácia ou capacidade implementada.
+
+<a id="hum-08"></a>
+
+## HUM-08 — Atualização e drift
+
+Natureza: Direção/restrição de produto reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.8; revisão fonte R5.
+
+Mudança agêntica deve atualizar ou revalidar conhecimento afetado no mesmo ciclo commit/PR, antes de fechar, relacionando código/contrato/conhecimento/validação. Multirrepositório explicita commits e ponteiros em transação lógica verificável, sem prometer atomicidade física. Inconsistência mantém o ciclo dependente aberto/bloqueado. Drift tem quatro estágios com entrada/saída/prova: detectar alteração externa; invalidar conhecimento afetado e impedir uso como atual; reconciliar conteúdo/relações; verificar nova revisão contra evidências. Detecção não corrige; reconciliação sem verificação não restaura validade. Sem monitor real, detecção ocorre na próxima leitura/ciclo executado. Mecanismos técnicos são candidatos.
+
+<a id="hum-09"></a>
+
+## HUM-09 — Colaboração, papéis e pendências
+
+Natureza: Síntese editorial de decisões/intenção D01-R2. Modo: Síntese do documento D01-R2 consultado, não declaração humana direta integral no pedido R4/R5. Fonte: D02-S01 §4.9; revisão fonte R5.
+
+Compartilhar e consolidar entre autorizados preservando autonomia, concorrência, revisão-base, publicação controlada e rastreabilidade. Push de trabalho não publica conhecimento aprovado. Esclarecimentos/correções do engenheiro depois do onboarding retroalimentam Micro/Meso/Macro pertinentes com autorização e validação. Catalogar pendências estruturadas, hierarquizadas, instrutivas e disponíveis por relevância em cada leitura/ciclo, sem carregar tudo sempre. D01-NEC-001, REL-005, DEC-007, DEC-016 e DEC-017 sustentam a direção; algoritmo, gatilhos e modalidade de workspace continuam candidatos.
+
+<a id="hum-10"></a>
+
+## HUM-10 — Nomes de documentos futuros
+
+Natureza: Proposta editorial preservada do índice material R3. Modo: Reconstrução/síntese editorial indicada no PM; não decisão técnica humana. Fonte: D02-S01 §4.9; revisão fonte R5.
+
+AGENTES.MD e PENDENCIAS.MD são nomes propostos para artefatos da IDE futura: finalidade, contrato e reconhecimento por ferramentas ainda a definir. São distintos de AGENTS.md operacional; não renomeá-lo, substituí-lo ou criar colisões, inclusive em sistemas sem distinção de maiúsculas. Nenhum desses dois artefatos futuros é criado nesta consolidação.
+
+<a id="hum-11"></a>
+
+## HUM-11 — Maturidade e backlog
+
+Natureza: Síntese editorial de limites e direção de discovery. Modo: Reconstrução/síntese editorial indicada no PM; não decisão técnica humana. Fonte: D02-S01 §4.10; revisão fonte R5.
+
+Investigar e especificar produto completo, UX, regras de negócio, permissões, estados, exceções, segurança, evidências e operação, sem antecipar implementação. Conclusão com pendências não críticas preserva catálogo/ressalvas; criticidade requer critérios rigorosos e incerteza material escala. Taxonomia, limiares, layout, stack e mecanismos candidatos não são decisões aprovadas. Relatos do banco/CI-CD/GMUD/scheduled/ambientes/acesso não são políticas universais nem implantação comprovada.
+
+## Propostas de engenharia e dependências abertas
+
+| ID | Fonte/direção de origem | Proposta preservada e limite | Dono de detalhamento |
+|---|---|---|---|
+| D02-PROP-001 | HUM-01/02, D01 P-A/P-L | Fluxo de compreensão com inventário, análise ampla, aprofundamento dirigido, confronto e avaliação por mudança pretendida; sequência/gates não aprovados | MODELO-FUNCIONAL.md |
+| D02-PROP-002 | HUM-01/07, P-B/P-F | Unidades com evidência exata, incerteza, contraevidência e criticidade; schema/limiares candidatos | CONTRATOS-CANDIDATOS.md e AVALIACAO.md |
+| D02-PROP-003 | HUM-05/09, P-C/P-D/P-E | Roteamento, projeções portáteis e contribuições concorrentes Micro/Meso/Macro; formato/algoritmo/gatilhos candidatos | MODELO-FUNCIONAL.md |
+| D02-PROP-004 | HUM-06, P-I/P-J | Registros segregados de permissão, catálogo de referências/derivados e mapa de migração sem exclusão implícita; mecanismos candidatos | CONTRATOS-CANDIDATOS.md |
+| D02-PROP-005 | HUM-08, P-H/P-G | Relações código/contrato/conhecimento e revisão composta; detecção de drift por ciclo; motor local não impõe barreira remota | MODELO-FUNCIONAL.md |
+| D02-PROP-006 | HUM-09/11, P-K | UX de escopo, evidência, incerteza, pendência e intervenção proporcional, sem layout/máquina de estados aprovados | MODELO-FUNCIONAL.md e AVALIACAO.md |
+| D02-PROP-007 | HUM-07/10 | Contratos legíveis por agentes e nomes futuros AGENTES.MD/PENDENCIAS.MD; schema, protocolos e reconhecimento pendentes | CONTRATOS-CANDIDATOS.md |
+
+Detalhes acima são autoria editorial desta consolidação; não herdam aprovação humana das direções. Os grupos D01 P-A..P-L continuam canônicos no D01 e são projetados na matriz D02, sem alteração dos registros herdados.
+
+## Pendências D02
+
+| ID | Relações e questão aberta | Impacto e próximo trabalho |
+|---|---|---|
+| D02-PEN-001 | D01-PEN-007/005; HUM-01/02: que evidência permite compreender suficientemente uma mudança pretendida e quando a lacuna é insegura? | Refinar avaliação, cobertura/confiabilidade/custo; bloqueia critério operacional, não reconciliação D01 |
+| D02-PEN-002 | D01-PEN-010; HUM-09/11: como tornar evidência, incerteza e dependências compreensíveis ao engenheiro? | Refinar UX e acessibilidade com cenário sintético; sem escolher tela por inferência |
+| D02-PEN-003 | D01-PEN-002/003; HUM-05/08: revisões/ponteiros e concorrência multirrepositório | Contratos de clonagem, atualização, permissões e fechamento lógico a especificar |
+| D02-PEN-004 | D01-PEN-004/008; HUM-03/06: autoridade, validade, revogação, dados e efeitos | Especificação futura; não pedir permissão para executar aplicação nesta missão |
+| D02-PEN-005 | D01-PEN-006; HUM-07/10: schemas, índices, adaptadores e nomes futuros | Sem stack/protocolo/forma definitiva aprovada |
+| D02-PEN-006 | D01-PEN-009; manutenção das cópias de referência | Manter revisão/identidade das Fontes quando houver nova publicação. Acesso autenticado e leitura foram observados em 01/11/2026; esta manutenção não é bloqueio da entrevista. Ver PRONTIDAO.md e recibo de aplicação da revisão. |
+
+D01-PEN-001/A está materialmente reconciliado no escopo do recibo R2; B continua transcrição original integral não recuperada, limitação não bloqueante para conteúdo reproduzido suficiente. Não se reabrem escolhas conceituais por faltar algoritmo/original. Resultados históricos 8 checks/13 negativos não são novos testes D02; os 49 CA operacionais continuam NOT_RUN.
+
+
+---
+
+# docs/01-discovery/discovery-02/RETIFICACOES.md
+
+Origem: [docs/01-discovery/discovery-02/RETIFICACOES.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/RETIFICACOES.md). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob a89e4c6341bbdbfe1907dbd18a7191fb93d328ae. SHA-256 978527c89c87216ff180b23509f9e4b65d9dba0430c7c5533a2007973f0ad286.
+
+# Retificações D02 — revisão 1
+
+Base anterior: repositório lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide, commit `e37af725a162c577cfa9ffde286d0fcf69294429`. Fontes novas: PM-D02-CONSOL-001 R5 §4, dossiê curado de declarações reproduzidas na reconstrução R4; data efetiva dessas mensagens originais não recuperada. Data documental da revisão: 31/10/2026. D01-R2 E01..E36 e P-A..P-L, arquivos, auditorias e recibos históricos são preservados; suas avaliações continuam válidas para seus snapshots. Estas pontes não reescrevem evidência antiga nem reabrem D01-PEN-001/A.
+
+| ID | Anterior por commit/ID | Formulação vigente e alcance | Fonte | Impactos, consumidores, regressão |
+|---|---|---|---|---|
+| D02-RET-001 | [D01-RST-001](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/e37af725a162c577cfa9ffde286d0fcf69294429/docs/01-discovery/discovery-01/REGISTRO.md#L39), r2, decisão de executar reservada ao engenheiro; projeções antigas dizem execução exclusiva | HUM-03 r1: futura IDE pode pedir permissão específica só por dúvida intransponível após tentativas autorizadas, oferecendo resposta direta, finalidade/ambiente/dados/comandos/efeitos e insumos mínimos. Autoridade do engenheiro preservada. Missão documental continua proibindo execução | D02-S01 §4.3; reprodução humana, original não recuperado | Entradas raiz/D02, ledger, blueprint, modelo, AX, configuração/pacote remetem a esta retificação. D01 histórico fica subordinado. Regressão: fonte antiga não pode excluir exceção futura nem autorizar execução nesta missão |
+| D02-RET-002 | [D01-REL-003](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/e37af725a162c577cfa9ffde286d0fcf69294429/docs/01-discovery/discovery-01/REGISTRO.md#L75), síntese Meso genérica; [REL-004](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/e37af725a162c577cfa9ffde286d0fcf69294429/docs/01-discovery/discovery-01/REGISTRO.md#L114) já define repo por sigla/conta | HUM-05 r1: Micro individual; Meso repo específico por sigla/conta contendo Micro submodules; Macro workspace Git contendo Meso submodules. Não há sync/acesso/redistribuição implícitos; relação organizacional fina permanece em refinamento | D02-S01 §4.5; D01-S05 E06/E09/E10; D01-REL-004/DEC-006 r2 | Mesmos consumidores ativos e matriz. Regressão: “qualquer agrupamento” é insuficiente; topologia não rebaixada a hipótese |
+| D02-RET-003 | D01-INT-002/E04, preparação Agent-First sem vedação tão explícita na projeção | HUM-04 r1/AX-01 r1: absolutamente nenhuma refatoração no onboarding; orientação vale para posteriores mudanças autorizadas no escopo necessário, sem reestruturação oportunista | D02-S01 §4.4/4.7; reprodução humana | Ledger/axiomas/blueprint/modelo/avaliação/instruções/retomada. Regressão: toque documental não autoriza reorganização de aplicação |
+| D02-RET-004 | D01-DEC-017/E35, atualização contínua e mecanismos por especificar | HUM-08 r1: atualizar/revalidar no mesmo ciclo commit/PR antes de fechamento; múltiplos repos explicitam commits/ponteiros; drift detectar→invalidar→reconciliar→verificar. Sem atomicidade física ou monitor automático presumidos | D02-S01 §4.8, R4-072/073; direções reproduzidas | Ledger/modelo/contratos/avaliação/blueprint/instruções/retomada. Regressão: “atualizar depois” ou “detectado=reconciliado” falham |
+
+## Navegação e histórico
+
+As entradas ativas conduzem primeiro ao D02 e a este mapa, inclusive antes de expandir para D01. Documentos D01, auditorias antigas e manifestos de continuidade são snapshots históricos, sem alteração de bytes nem nova certificação da fundação. Sua leitura é pertinente ao suporte das decisões herdadas; afirmações superadas sobre execução/Meso não prevalecem sobre a retificação rastreável. Nenhuma retificação ativa norma, muda permissões ou concede aceite operacional.
+
+## D02-RET-005 — Ponte de continuidade ativa e preservação do snapshot anterior
+
+O manifesto anterior `docs/continuidade/MANIFESTO.json` identificava CONT-REG-0001 e quatro hashes das entradas históricas. Seu conteúdo foi preservado byte a byte em `docs/continuidade/historico/pre-d02/MANIFESTO.json`; CONT-REG-0001 permanece intacto. O manifesto ativo será explicitamente atualizado pelo coordenador para CONT-REG-0002 e bytes das entradas vigentes, com nova revisão e evidência externa, sem alterar hashes históricos.
+
+CONT-REG-0002 registra exclusivamente a ordem humana vigente desta sessão (USER_DIRECT), fonte descritiva sem ID de mensagem inventado; product_approval NAO_CONCEDIDA e normative_effect AUSENTE. Mudança necessária para coerência da rota ativa e verificação documental de continuidade: não é novo aceite C1, ratificação, autorização adicional, implementação nem alteração de pipeline/script. Impactos: RETOMADA raiz/D02, estado, instruções, manifesto ativo e snapshot-retomada da CI. A auditoria deve conferir preservação do manifesto histórico e registro1 e correspondência dos hashes ativos; recibos antigos continuam históricos.
+
+## D02-RET-006 — Prontidão do Discovery pelo acesso e compreensão atuais
+
+Fonte: determinação direta do usuário na conversa de 01/11/2026, sem ID de mensagem disponível. Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa. Não se atribui aprovação retroativa a ensaio anterior nem aprovação técnica de produto. Impactos: estado, entradas, instruções nativas, manifesto, pacote e orientações de configuração. Regra de regressão: nenhuma sessão pode usar resultado procedimental anterior para bloquear a entrevista quando a base documental necessária foi lida e compreendida. A aplicação das cópias novas deve ser comprovada por releitura, sem confundir preparação com aplicação.
+
+
+---
+
+# docs/01-discovery/discovery-02/RETOMADA.md
+
+Origem: [docs/01-discovery/discovery-02/RETOMADA.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/RETOMADA.md). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob 59373c3f484a6c90821f8c707a80a32a8e29f229. SHA-256 9c98611ac71c3c005062c0a932de0aeec587af80d97cf4b52e0b7d5e4aa45aa1.
+
+# Retomada Discovery 02 — revisão documental 4
+
+Entrada vigente D02-doc-2, por determinação direta do usuário em 01/11/2026. [Critério atual de prontidão](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/PRONTIDAO.md): Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa.
+
+1. Confirme HEAD remoto e leia por SHA imutável [estado](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/ESTADO-ATUAL.md), manifesto D02 no caminho `docs/01-discovery/discovery-02/MANIFESTO.json` e evidências pertinentes da revisão, quando presentes. Diferencie candidato, conteúdo verificado e provas posteriores.
+2. Leia [REGISTRO HUM-01..11](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REGISTRO.md), [RETIFICAÇÕES](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/RETIFICACOES.md) e [AX-01..10](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/fundacao/axiomas-arquiteturais.md). Para suporte/limites consulte [FONTES](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/FONTES.md), [MATRIZ](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/MATRIZ.md) e [REVISÃO](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REVISAO.md); expanda para [modelo](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md), [contratos](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md) e [avaliação](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/AVALIACAO.md) conforme a tarefa. D01-R2 histórico é suporte, com retificações D02 precedendo formulações superadas.
+3. D01-PEN-001/A está reconciliado materialmente no escopo R2; B é original integral não recuperado, limite não bloqueante. Topologia escolhida: Micro individual; Meso repo específico por sigla/conta com Micro submodules; Macro workspace Git com Meso submodules. Sem sync/acesso/redistribuição implícitos.
+4. HUM-03 prevê exceção futura de execução local por dúvida intransponível, tentativas autorizadas esgotadas, resposta direta alternativa e permissão específica; esta missão documental proíbe executar aplicações. HUM-04: nenhuma refatoração no onboarding. HUM-06 mantém permissões distintas. HUM-08 exige mesmo ciclo commit/PR e drift detectar→invalidar→reconciliar→verificar.
+5. Axiomas são direções reproduzidas com interpretação candidata; modelo/contratos/métricas/stack/layout não são aprovados. PGC-001 v1.1.3 e CT v1.0.3 NÃO RATIFICADOS; 49 CA NOT_RUN. Harness local/sintético/documental não é IDE final. Não merge, ratificação, C2/C3, aceite fictício, alteração administrativa/pipeline ou dados internos reais.
+
+## Ponto exato de continuidade
+
+Objetivo seguinte: refinar Motor de Compreensão Profunda de Repositórios a partir de D02-PEN-001/002, D01-PEN-007 (cobertura/confiabilidade/custo), D01-PEN-005 (evidência/incerteza/bloqueio) e D01-PEN-010 (UX), sem repetir como desconhecidas as direções HUM já reproduzidas. Usar cenário sintético proposto em MODELO-FUNCIONAL ou outro escolhido pelo usuário.
+
+Pergunta preparada, ainda não respondida: **“No cenário sintético escolhido, que evidências distinguem compreensão suficiente de uma lacuna que torna insegura a alteração pretendida, e como isso deve aparecer ao engenheiro?”** Nenhuma nova entrevista ou resposta foi simulada nesta consolidação.
+
+Fontes nativas são snapshots e têm aplicação própria no Projeto g-p-6ae4fdf0eb688191bb6536420421ef69. Nesta correção houve acesso autenticado à interface e leitura dos cinco arquivos existentes; a nova aplicação e sua conferência serão documentadas no recibo posterior. [Configuração](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/chatgpt/CONFIGURACAO.md). A entrevista pode continuar na Sessão que recuperou as Fontes; não criar outra conversa ou repetir provas para liberá-la.
+
+
+---
+
+# docs/fundacao/axiomas-arquiteturais.md
+
+Origem: [docs/fundacao/axiomas-arquiteturais.md](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/fundacao/axiomas-arquiteturais.md). Commit 93af0d7a570d0390d32c01c0a423a27903519e80. Blob 591533e42eb978af1b0b3d4aafc1ded16f5f7a74. SHA-256 427abd63c45728e2d11b5c8f2b9dfee561ddb1402b3a0fdb84f1b23481027b79.
+
+# Axiomas arquiteturais — revisão 1
+
+**Direções de produto reproduzidas e interpretações operacionais candidatas. Sem efeito normativo corporativo. PGC-001 v1.1.3 e CT-001..CT-008 v1.0.3 NÃO RATIFICADOS.** Publicar em fundação/Git, aprovar redação ou testar documentos não ratifica normas nem aprova implementação.
+
+Dono temático AX-01..AX-10. Fonte de direção: PM-D02-CONSOL-001 R5 §4.7 e cláusulas indicadas; HUM-07 do [ledger D02](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/93af0d7a570d0390d32c01c0a423a27903519e80/docs/01-discovery/discovery-02/REGISTRO.md#hum-07) possui identidade/proveniência/maturidade. A semântica restaurada é interpretação do dossiê/catálogo, não citação literal recuperada do R3. Projeções devem citar ID/revisão deste arquivo.
+
+<a id="ax-01"></a>
+
+## AX-01 — Agent-Centric
+
+Fonte: HUM-04/07; R4-021; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Priorizar leitura, compreensão e modificação por agentes desde a importação para trabalho posterior autorizado. No onboarding, nenhuma refatoração. Limitar a diretriz ao escopo efetivo da mudança; não reestruturar todo arquivo, repositório ou dependência por oportunismo.
+
+Interpretação operacional proposta: Relacionar intenção, evidências e escopo de cada mudança; conservar fonte e interfaces que não precisem mudar.
+
+Tecnologias exemplificativas e dependências abertas: Convenções de arquivos e índices são exemplos candidatos; desenho Agent-First ainda a especificar.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+
+<a id="ax-02"></a>
+
+## AX-02 — Agent-Oriented
+
+Fonte: HUM-07; R4-017; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Componentes e interfaces devem ser utilizáveis por agentes mediante contratos de execução, entradas/saídas, precondições, efeitos, permissões, falhas, metadados e evidências observáveis. README/comentários sozinhos são insuficientes.
+
+Interpretação operacional proposta: Contratos candidatos D02-CT documentam essas fronteiras sem executar componentes.
+
+Tecnologias exemplificativas e dependências abertas: Protocolos, schemas, transportes e ferramentas permanecem candidatos.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+
+<a id="ax-03"></a>
+
+## AX-03 — AI-Intent
+
+Fonte: HUM-07; R4-016; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Explicitar intenção, porquê, objetivos, semântica, invariantes, restrições e critérios de aceite de modo legível por máquina, vinculado à fonte humana. Concisão narrativa sozinha não satisfaz a direção.
+
+Interpretação operacional proposta: Representação candidata relaciona cada intenção à fonte, revisão, invariante e oráculo; inclui evidência contrária e pendências.
+
+Tecnologias exemplificativas e dependências abertas: Linguagem, schema e tecnologia de representação ainda não escolhidos.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+
+<a id="ax-04"></a>
+
+## AX-04 — SDD
+
+Fonte: HUM-07; R4-015; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Proibir código produtivo antes de especificação validada e aprovações aplicáveis. Guiado por especificações não suaviza essa precondição.
+
+Interpretação operacional proposta: Ensaios sintéticos descartáveis exigem escopo explícito e não podem virar produto disfarçado; nesta missão somente documentos e verificações documentais.
+
+Tecnologias exemplificativas e dependências abertas: Método de validação/aceite e ferramentas futuras continuam a especificar.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+
+<a id="ax-05"></a>
+
+## AX-05 — Harness Engineering
+
+Fonte: HUM-07 §4.7; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Contexto, contratos de tarefa, permissões, ferramentas, oráculos, observabilidade, revisão e recuperação são partes do sistema de engenharia.
+
+Interpretação operacional proposta: Delegação indica objetivo, arquivos, fontes, dependências, permissões, entregável e oráculo; autoria/auditoria distintas e teto de duas tentativas por falha são controles desta missão.
+
+Tecnologias exemplificativas e dependências abertas: Harness assistido documental não é IDE final nem prova dos 49 CA; orquestrador/observabilidade futuros são candidatos.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+
+<a id="ax-06"></a>
+
+## AX-06 — Contexto Mínimo Necessário
+
+Fonte: HUM-07; R4-020; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Selecionar o menor contexto suficiente à tarefa sem perder restrições, decisões, contratos, contradições, evidências e pendências que alterem o resultado.
+
+Interpretação operacional proposta: Inventariar unidades críticas antes de resumir/remover e confrontar retenção; expandir dependências necessárias.
+
+Tecnologias exemplificativas e dependências abertas: Orçamento de contexto não justifica amputação; limiares e seleção automatizada são propostas.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+
+<a id="ax-07"></a>
+
+## AX-07 — Roteamento de Contexto
+
+Fonte: HUM-07; R4-020; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Recuperar por tema, evidência e dependência; índices orientam navegação e não substituem fonte indispensável.
+
+Interpretação operacional proposta: Rotas atuais remetem ao ledger, axiomas temáticos, retificações e evidências da revisão; contradição expande leitura.
+
+Tecnologias exemplificativas e dependências abertas: Schemas/índices/adaptadores específicos e mecanismo de busca não escolhidos.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+
+<a id="ax-08"></a>
+
+## AX-08 — Contexto-Ótimo
+
+Fonte: HUM-07; R4-020; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Otimizar recuperação/custo preservando toda informação crítica identificada, com cobertura e incerteza visíveis.
+
+Interpretação operacional proposta: Comparar conjunto crítico antes/depois da transformação e rejeitar compressão que perca condição negativa, fonte ou autoridade.
+
+Tecnologias exemplificativas e dependências abertas: Métrica, algoritmo, limite e garantia de ótimo não aprovados; otimização é sujeita a evidência.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+
+<a id="ax-09"></a>
+
+## AX-09 — AI-Based Architecture
+
+Fonte: HUM-07; R4-018; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Loops cognitivos de investigar, planejar, agir, verificar e reconciliar ocupam posição central na arquitetura pretendida, com fronteiras de autoridade, dados, execução e intervenção humana explícitas.
+
+Interpretação operacional proposta: Modelo descreve estados/efeitos e contratos candidatos por etapa; agir só dentro das permissões e do escopo.
+
+Tecnologias exemplificativas e dependências abertas: Nenhum framework escolhido, autonomia implementada comprovada ou autorização irrestrita criada.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+
+<a id="ax-10"></a>
+
+## AX-10 — Agnosticidade de modelo/agente/ferramenta
+
+Fonte: HUM-07; R4-019; D01-REL-002; revisão da direção conforme PM R5; definição temática revisão 1.
+
+Direção preservada: Preservar portabilidade, padrões abertos e adaptações explícitas nas fronteiras. Exemplos Devin, Claude e Copilot não criam exclusividade ou conector existente.
+
+Interpretação operacional proposta: Registrar capacidades necessárias, versão e limitações de cada adaptação; não prometer equivalência sem teste.
+
+Tecnologias exemplificativas e dependências abertas: Formatos/adaptadores ainda candidatos. Disponibilidade e equivalência exigem provas próprias.
+
+Evidência de capacidade: esta missão produz definição documental candidata; nenhuma funcionalidade da IDE, adaptador ou eficácia operacional é demonstrada por este axioma.
+

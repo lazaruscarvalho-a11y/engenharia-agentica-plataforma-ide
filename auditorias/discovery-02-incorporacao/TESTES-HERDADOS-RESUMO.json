@@ -1,0 +1,210 @@
+{
+  "schema_version": "d02-inherited-local-tests-1",
+  "scope": "EXPLORATORIO_LOCAL_SINTETICO_DOCUMENTAL_NOT_PRODUCT",
+  "freeze_revision": 2,
+  "source_scripts": "Inspected unchanged baseline blobs in INSPECAO-CI.json",
+  "environment": "Windows Python3.11, separate isolated repository copy; child environment PATH/SystemRoot/WINDIR/TEMP/TMP/encoding only; no credentials provided; scripts contain no network access",
+  "suites": [
+    {
+      "suite": "piloto",
+      "command": [
+        "-B",
+        "harness/governanca_assistida/test_fluxo.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "unit_tests": 14,
+      "static_checks": null,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "7ffcafbf21007535d409b8a3628ee61220c0a2541863b7b13f81c7066b4824b8",
+      "raw_logs_location": "Local isolated output verificacao-local-r1; excluded from Git/package as raw logs"
+    },
+    {
+      "suite": "extensao",
+      "command": [
+        "-B",
+        "harness/governanca_assistida/test_fundacao.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "unit_tests": 16,
+      "static_checks": null,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "aadf0bad72aacdd5857142418867f8766ede6f318b2bbc77fc7ad37f64978179",
+      "raw_logs_location": "Local isolated output verificacao-local-r1; excluded from Git/package as raw logs"
+    },
+    {
+      "suite": "adversariais",
+      "command": [
+        "-B",
+        "auditorias/fundacao-integral/test_adversarial.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "unit_tests": 16,
+      "static_checks": null,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "8508363daa6b817da9c61ca796c7f702dcb9275a429d416a0466a5ee4a527c18",
+      "raw_logs_location": "Local isolated output verificacao-local-r1; excluded from Git/package as raw logs"
+    },
+    {
+      "suite": "regressao-pgc",
+      "command": [
+        "-B",
+        "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/testar_revisao.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "unit_tests": 10,
+      "static_checks": null,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "238c8c48ca07d0aa231ea1e2b304e17ced71ff299971f6abccd43071602850dc",
+      "raw_logs_location": "Local isolated output verificacao-local-r1; excluded from Git/package as raw logs"
+    },
+    {
+      "suite": "retomada",
+      "command": [
+        "-B",
+        "harness/test_retomada.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "unit_tests": 9,
+      "static_checks": null,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "237a1d4fe7413fec5294f89a542fd3330b2679c498b8361424c7a58293a58b29",
+      "raw_logs_location": "Local isolated output verificacao-local-r1; excluded from Git/package as raw logs"
+    },
+    {
+      "suite": "fundacao-estatica",
+      "command": [
+        "-B",
+        "harness/verificar_fundacao.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "unit_tests": null,
+      "static_checks": {
+        "passed": 236,
+        "total": 236
+      },
+      "stdout_sha256": "57ad54cd96dee0b488804847c6468e92895f2a936e15deb6ea7068b4709d80b0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_logs_location": "Local isolated output verificacao-local-r1; excluded from Git/package as raw logs"
+    },
+    {
+      "suite": "pgc-estatico",
+      "command": [
+        "-B",
+        "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/auditar_pacote.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "unit_tests": null,
+      "static_checks": {
+        "passed": 76,
+        "total": 76
+      },
+      "stdout_sha256": "9ca31f2cd47dba0c3fd8b5a4d11571edbb1c665627d584ede2160a0bac8fe894",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_logs_location": "Local isolated output verificacao-local-r1; excluded from Git/package as raw logs"
+    },
+    {
+      "suite": "catalogo-estatico",
+      "command": [
+        "-B",
+        "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "unit_tests": null,
+      "static_checks": null,
+      "stdout_sha256": "0002b273745979f8c25fba9044b5df37ba6e2d428d54f4c88ef58b6645e14aec",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_logs_location": "Local isolated output verificacao-local-r1; excluded from Git/package as raw logs"
+    },
+    {
+      "suite": "snapshot-retomada",
+      "command": [
+        "-B",
+        "harness/verificar_retomada.py",
+        "--manifesto",
+        "docs/continuidade/MANIFESTO.json"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "unit_tests": null,
+      "static_checks": null,
+      "stdout_sha256": "dbc81ad7211584aaec804ec07eff2d85c5a2d150b558524a4a852c821cc6c09d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "raw_logs_location": "Local isolated output verificacao-local-r1; excluded from Git/package as raw logs"
+    }
+  ],
+  "success": true,
+  "unit_total": 65,
+  "ca_operacionais": {
+    "CA-01": "NOT_RUN",
+    "CA-02": "NOT_RUN",
+    "CA-03": "NOT_RUN",
+    "CA-04": "NOT_RUN",
+    "CA-05": "NOT_RUN",
+    "CA-06": "NOT_RUN",
+    "CA-07": "NOT_RUN",
+    "CA-08": "NOT_RUN",
+    "CA-09": "NOT_RUN",
+    "CA-10": "NOT_RUN",
+    "CA-11": "NOT_RUN",
+    "CA-12": "NOT_RUN",
+    "CA-13": "NOT_RUN",
+    "CA-14": "NOT_RUN",
+    "CA-15": "NOT_RUN",
+    "CA-16": "NOT_RUN",
+    "CA-17": "NOT_RUN",
+    "CA-18": "NOT_RUN",
+    "CA-19": "NOT_RUN",
+    "CA-20": "NOT_RUN",
+    "CA-21": "NOT_RUN",
+    "CA-22": "NOT_RUN",
+    "CA-23": "NOT_RUN",
+    "CA-24": "NOT_RUN",
+    "CA-25": "NOT_RUN",
+    "CA-26": "NOT_RUN",
+    "CA-27": "NOT_RUN",
+    "CA-28": "NOT_RUN",
+    "CA-29": "NOT_RUN",
+    "CA-30": "NOT_RUN",
+    "CA-31": "NOT_RUN",
+    "CA-32": "NOT_RUN",
+    "CA-33": "NOT_RUN",
+    "CA-34": "NOT_RUN",
+    "CA-35": "NOT_RUN",
+    "CA-36": "NOT_RUN",
+    "CA-37": "NOT_RUN",
+    "CA-38": "NOT_RUN",
+    "CA-39": "NOT_RUN",
+    "CA-40": "NOT_RUN",
+    "CA-41": "NOT_RUN",
+    "CA-42": "NOT_RUN",
+    "CA-43": "NOT_RUN",
+    "CA-44": "NOT_RUN",
+    "CA-45": "NOT_RUN",
+    "CA-46": "NOT_RUN",
+    "CA-47": "NOT_RUN",
+    "CA-48": "NOT_RUN",
+    "CA-49": "NOT_RUN"
+  },
+  "historical_continuity": {
+    "result": "PASS",
+    "record_id": "CONT-REG-0001",
+    "files": 4,
+    "root": "docs/continuidade/historico/pre-d02/snapshot",
+    "manifest": "docs/continuidade/historico/pre-d02/MANIFESTO.json"
+  },
+  "current_continuity": {
+    "result": "PASS",
+    "record_id": "CONT-REG-0002"
+  },
+  "attempt_note": "Node orchestration attempt did not start Python because process was undefined; alternate Python invocation ran once successfully. No application or generator v1.1.2 executed."
+}

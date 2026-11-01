@@ -1,0 +1,12 @@
+{
+  "status": "FAIL",
+  "scope": "Active standalone manual links and native coverage",
+  "manualBrokenLinks": [
+    "MANIFESTO-FONTES.md",
+    "../01-discovery/discovery-02/RETOMADA.md"
+  ],
+  "nativePaths": 73,
+  "criticalMissing": [],
+  "artifact": "entrega-fontes-D02-v1",
+  "cause": "Standalone manual copied from docs/chatgpt without adapting relative paths; original bytes remain archived"
+}

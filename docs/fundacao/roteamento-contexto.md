@@ -1,3 +1,7 @@
+# Rota vigente para Discovery 02
+
+Para esta frente, parta de [ESTADO-ATUAL](../../ESTADO-ATUAL.md), [retomada D02](../01-discovery/discovery-02/RETOMADA.md) e [retificações D02](../01-discovery/discovery-02/RETIFICACOES.md), por SHA imutável. O mapa geral abaixo permanece auxiliar; não substitui a rota D02 nem suas restrições atuais.
+
 # Roteamento de contexto
 
 Versão 0.1.0 — proposta; fontes SRC-001 e SRC-002. Objetivo: contexto mínimo suficiente, com recuperação por necessidade e proveniência visível.

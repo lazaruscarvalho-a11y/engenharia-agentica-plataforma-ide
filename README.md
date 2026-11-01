@@ -1,3 +1,7 @@
+## Discovery 02 — orientação vigente
+
+Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa. Consulte [estado](ESTADO-ATUAL.md) e [retomada](docs/01-discovery/discovery-02/RETOMADA.md).
+
 # Plataforma/IDE de Engenharia de Software Agêntica
 Fundação proposta para transformar conversas naturais em discovery, requisitos, UX, arquitetura e implementação rastreável de uma plataforma real. A implementação da IDE final ainda não começou.
 
@@ -22,4 +26,3 @@ O [piloto C1](harness/governanca_assistida/OPERACAO.md) é reutilizado com seus 
 ## Governança preservada
 [Candidata v1.1.3 e CT-001..008](docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md), [origem v1.1.2](docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md), [proposta INC-GOV-001](docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md), [registro sintético aceito GOV-REG-0001](docs/01-discovery/governanca-assistida/INICIO.md).
 Pacotes, ZIPs, recibos e auditorias anteriores permanecem históricos. Aceite daquele registro não ratifica PGC, não aceita o incremento inteiro nem aprova a presente fundação. Os 49 CA operacionais não foram executados nesta missão.
-

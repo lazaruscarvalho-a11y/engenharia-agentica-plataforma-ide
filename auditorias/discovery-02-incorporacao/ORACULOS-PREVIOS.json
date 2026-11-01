@@ -1,0 +1,23 @@
+{
+  "mission": "PM-D02-CONSOL-001 R5",
+  "revision": 1,
+  "scope": "PREPARATORY_ORACLES_FIXED_BEFORE_FREEZE",
+  "thresholds": {
+    "material_disposition": "100% accessible units incl. conditions and negatives",
+    "axioms": 10,
+    "unsupported_decisions": 0,
+    "promoted_proposals": 0,
+    "broken_active_links": 0,
+    "unexpected_protected_changes": 0,
+    "mandatory_preparatory_checks": "ALL PASS",
+    "independent_auditor": "not author; frozen revision; no critical/high/mandatory medium unresolved"
+  },
+  "G": {
+    "freeze_bytes": "100% exact remotely re-read",
+    "required_CI": "observed satisfactory; not waived",
+    "PR_base": "D01 branch",
+    "no_merge": true
+  },
+  "recovery": "PM R4-059 full semantic oracle; evaluator holds criteria separately from recoverer",
+  "post_evidence": "manifest/audit/test outputs/receipts outside content freeze audited as integration by explicit hashes"
+}

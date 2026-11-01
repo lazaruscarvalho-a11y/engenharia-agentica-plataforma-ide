@@ -1,0 +1,28 @@
+{
+  "schema_version": "continuidade-1",
+  "record_id": "CONT-REG-0001",
+  "revision": 1,
+  "kind": "PEDIDO_OPERACIONAL",
+  "source_kind": "USER_DIRECT",
+  "source_ref": "thread:01a18e89-a666-7230-8614-bbfc50c173af;turn:01a18e92-5879-7340-9ed7-2ef3e85637f7;message:01a18e92-58d1-72a2-8e7f-835e60d2c210",
+  "request": "Agora resolva os achados P1 e P2 com o máximo de autonomia possível, sem merge ou ratificação, e comprove a continuidade entre sessões para eu poder avançar no discovery sem precisar coordenar essas correções.",
+  "normative_effect": "AUSENTE",
+  "product_approval": "NAO_CONCEDIDA",
+  "scope": [
+    "correcoes de fundacao e evidencias",
+    "teste de recuperacao entre sessoes",
+    "discovery exploratorio"
+  ],
+  "prohibited": [
+    "merge",
+    "ratificacao",
+    "ativacao normativa",
+    "aprovar produto em nome do usuario"
+  ],
+  "pending": [
+    "configuracao nativa sem interface autenticada",
+    "conformidade operacional integral do PGC",
+    "transcricao inicial integral nao recuperada"
+  ],
+  "next_action": "Retomar entrevista sobre espera e retrabalho; investigar harness plataforma/conta/repositorio e preparacao de GMUD sem escolher stack."
+}
