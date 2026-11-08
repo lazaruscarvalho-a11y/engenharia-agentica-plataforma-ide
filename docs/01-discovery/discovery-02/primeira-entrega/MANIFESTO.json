@@ -1,0 +1,126 @@
+{
+  "pacote": "Primeira entrega · publicação documental inicial",
+  "revisao_funcional": 1,
+  "repositorio": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch_de_publicacao": "proposta/d02-primeira-entrega-refinamentos",
+  "base_d02": "8bbd93151640865995fa8a8dfe3d2d5db15da6ec",
+  "commit_pai": "766f3323997e1cc4ae1fff7fc2bf31ce3ccd1455",
+  "escopo_do_manifesto": "Inventário inicial que inclui a retomada temática modificada. O manifesto omite seu próprio hash e o SHA do commit que o publica. O recibo no PR fornece essas identidades depois da releitura. Novas rodadas registram nova revisão.",
+  "originais": {
+    "D02-escopo-de-ferramentas-da-primeira-entrega.md": {
+      "sha256": "58a01b05695a7c2ea75f237b1742674681b09a914457d4ba61be7e25d1818bc4",
+      "bytes": 3683,
+      "edicao_git": "docs/01-discovery/discovery-02/primeira-entrega/notas/FERRAMENTAS.md"
+    },
+    "D02-atuacao-do-agente-por-etapa.md": {
+      "sha256": "6243c7f7d6d2fc3578ef570fa87c50319756073955b5c69967083bbaf8057d4e",
+      "bytes": 5715,
+      "edicao_git": "docs/01-discovery/discovery-02/primeira-entrega/notas/ATUACAO-POR-ETAPA.md"
+    },
+    "D02-extensoes-por-escopo-apos-onboarding.md": {
+      "sha256": "fb95798c22d5f0597bd6d50768a4b28cc615113388840e8fb09433a5a89106e9",
+      "bytes": 4589,
+      "edicao_git": "docs/01-discovery/discovery-02/primeira-entrega/notas/EXTENSOES-POR-ESCOPO.md"
+    },
+    "D02-distribuicao-da-raiz-e-acesso-aos-workspaces.md": {
+      "sha256": "236e7b42a3c98a389dbe6235cdbb6930010d88b052bdd465cde1783d9e368550",
+      "bytes": 8877,
+      "edicao_git": "docs/01-discovery/discovery-02/primeira-entrega/notas/DISTRIBUICAO-E-ACESSO.md"
+    },
+    "D02-conhecimento-de-negocios.md": {
+      "sha256": "676aa65d2d27aff77f695259a110cd48085c1b591410c545ff830feeff71fbae",
+      "bytes": 4225,
+      "edicao_git": "docs/01-discovery/discovery-02/primeira-entrega/notas/NEGOCIOS.md"
+    },
+    "Escopo-da-primeira-entrega.md": {
+      "sha256": "1ca488aa8ac2f8a20e8064b65357f51cc31c2439f7a7e0893249fc8b32db1cef",
+      "bytes": 40648,
+      "edicao_git": "docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md"
+    },
+    "plataforma_workspace_R06.zip": {
+      "sha256": "b4e93b4866805be87140afd281061de0f57acd4b39769e890c8b9f3df9ffd72e",
+      "bytes": 1602115,
+      "edicao_git": "docs/01-discovery/discovery-02/primeira-entrega/evidencias/WORKSPACE-R06.md",
+      "tratamento": "Síntese do recorte. ZIP preservado fora desta publicação."
+    }
+  },
+  "adaptacoes": [
+    "Preservada a revisão funcional do escopo e das cinco notas. Adaptadas remissões pessoais para navegação local e registros de persistência para o contexto histórico.",
+    "R06 recuperada por síntese rastreável. Incluídos esclarecimentos de onboarding, referência funcional ao caso Devin e roteiro de refinamento por frente.",
+    "A síntese funcional sobre Devin contextualiza a experiência relatada. O documento operacional interno e seus detalhes não são parte da publicação."
+  ],
+  "arquivos": [
+    {
+      "caminho": "docs/01-discovery/discovery-02/RETOMADA-MOTOR-E-ARQUITETURA.md",
+      "bytes": 8512,
+      "sha256": "8b31e40e8fa16017a424da23343d529a8aa3365bf209e92799c6406b650fd4a6",
+      "git_blob_sha1": "7cc6642ee6b0e9c8c456ceae925caf61c81cc647"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md",
+      "bytes": 40757,
+      "sha256": "2a811fe27e3b7d259ae7019f7561982b9ad6274581ba404b4342ecc907f28321",
+      "git_blob_sha1": "3de31efd22c26afd680b510b7e7f80e2a4c38983"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/README.md",
+      "bytes": 6004,
+      "sha256": "1236f4545070bc664a8c1e493df0fd830254ec9bdb75a39f09c127c979eaa80b",
+      "git_blob_sha1": "d1b6dd493690c732a3ba0d270ab859f72848d851"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/evidencias/DEVIN-FERRAMENTAS.md",
+      "bytes": 1810,
+      "sha256": "d00615763f84a103e62d9f8f762f441c1e56d709ef633ba49a085b710c44399c",
+      "git_blob_sha1": "9496a8dfea09a4ba134d3813d9970d95fba58386"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/evidencias/ESCLARECIMENTOS-ONBOARDING.md",
+      "bytes": 4068,
+      "sha256": "040f6c523c62e43a39f34331e5ac221bf8585f5eac8875519d94df2d848101ed",
+      "git_blob_sha1": "a907fdbabb2dc952fe46ff4542b219041d4fad7b"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/evidencias/WORKSPACE-R06.md",
+      "bytes": 5329,
+      "sha256": "7b074f0af71b11f52864e844a012aed5acda3e84bcba5b15263b40d79f415ddb",
+      "git_blob_sha1": "189b5c375c32c9556b8f2090d5a8ed6615023521"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/notas/ATUACAO-POR-ETAPA.md",
+      "bytes": 5507,
+      "sha256": "83f0859c519b69ff07e1e7de33cb031d643485873039f067e32dbbea3066d5c8",
+      "git_blob_sha1": "b2d8cbca8535e4f85e186a5380017c8cb74d9005"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/notas/DISTRIBUICAO-E-ACESSO.md",
+      "bytes": 8570,
+      "sha256": "32ba98624f6d6b0f549d27f301f84d67d830d9348f05b47d8f39e56d75b7a2d2",
+      "git_blob_sha1": "19ce7c341b4aa4d3bbd720f5a9df42c0e4d16906"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/notas/EXTENSOES-POR-ESCOPO.md",
+      "bytes": 4374,
+      "sha256": "26e427125e774dd6e1ca057771f132c74cc2a8ff2a98eafd0fb8641922f2e707",
+      "git_blob_sha1": "8544a21f6f84120b9ce2233c2edec2073d10eb69"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/notas/FERRAMENTAS.md",
+      "bytes": 3557,
+      "sha256": "6568e0b05ae8957b0424a187949734f0dea4bc82a942a902e51005f9e776a412",
+      "git_blob_sha1": "1bfa9dcfe125ab30a1b840e5c32d5d7cc433592b"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/notas/NEGOCIOS.md",
+      "bytes": 4169,
+      "sha256": "1a4f727f39f5a6afb3cce1ba10acbc5ebec7fc7a8cd59216893414aa287d2819",
+      "git_blob_sha1": "cfe7bec42ef07874f368a93d0f05ea5fe9d45b6c"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/roteiro/REFINAMENTO-E-REVISAO.md",
+      "bytes": 9124,
+      "sha256": "9020eeabc9eaa8db2d73c5f66271ef0811f837128089d778cc8c8648da147665",
+      "git_blob_sha1": "9e26463c1a5330a4d49716e3cd99df0cd0beea7e"
+    }
+  ]
+}

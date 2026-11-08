@@ -1,5 +1,7 @@
 # Retomada do Discovery do Motor e da Arquitetura
 
+> **Primeira entrega — sequência deste Discovery.** A [entrada da primeira entrega](primeira-entrega/README.md) reúne o escopo fechado para refinamento, as decisões posteriores e o roteiro para os próximos chats. O registro abaixo conserva o contexto e as perguntas da revisão 1 do Motor.
+
 **Registro:** D02-CONT-MOTOR-001 · **Revisão:** 1 · **Data:** 07/11/2026 · **Estado:** continuidade de produto em Discovery na proposta do PR #8.
 
 Leia esta entrada depois da [retomada D02](RETOMADA.md) e junto à [especificação de motor e workspaces D02-ESP-001](MOTOR-E-WORKSPACES-DE-ATIVIDADE.md). A [consolidação integral da sessão](referencias/CONSOLIDACAO-MOTOR-E-CONHECIMENTO.pdf) reúne definições, exemplos, questões abertas e referências. O registro abaixo acrescenta as direções posteriores à D02-ESP-001 e organiza o próximo refinamento. A especificação histórica e os manifestos dos snapshots anteriores permanecem como evidência de suas revisões.
@@ -11,7 +13,7 @@ Leia esta entrada depois da [retomada D02](RETOMADA.md) e junto à [especificaç
 | Conversa de refinamento de 07/11/2026 | Fonte direta das direções atuais. A consolidação em PDF distingue manifestações, interpretações e pendências. |
 | [D02-ESP-001](MOTOR-E-WORKSPACES-DE-ATIVIDADE.md) | Primeira incorporação revisável da relação motor e workspaces, publicada em `23711b042faca15bd1be53e8a89fb35010006148`. |
 | [D02](REGISTRO.md) e [axiomas](../../fundacao/axiomas-arquiteturais.md) | Base anterior consultada em `8bbd93151640865995fa8a8dfe3d2d5db15da6ec`. As retificações D02 governam as formulações históricas pertinentes. |
-| [Arquivo de workspaces na Biblioteca](https://chatgpt.com/space/file/libfile_bf76604522208191a034a3b222a85db8) | Fonte privada do panorama BASE-01, em particular P-008 e P-009/E-001. O acesso ao arquivo depende da conta. O PDF e D02-ESP-001 preservam a síntese necessária à retomada. |
+| Arquivo de Workspaces do panorama BASE-01 | Fonte privada utilizada na revisão 1, em particular P-008 e P-009/E-001. A [síntese R06 disponível no repositório](primeira-entrega/evidencias/WORKSPACE-R06.md) preserva as decisões posteriores pertinentes ao escopo da primeira entrega. |
 
 ## Direções de produto para preservar
 
