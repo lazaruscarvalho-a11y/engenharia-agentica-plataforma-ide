@@ -1,0 +1,47 @@
+{
+  "revisao_do_escopo": 2,
+  "branch": "proposta/d02-primeira-entrega-refinamentos",
+  "commit_base": "5f1d502a0b75fa24eb7616f930c2cf0415485ec8",
+  "estado": "Discovery; P03 encerrado no alcance funcional, P04 aberto",
+  "fonte": "Caderno integral de esclarecimentos, edição de trabalho 11 de 08/11/2026, reproduzido byte a byte em refinamentos/historico/CADERNO-ED11.md. As rodadas históricas conservam seu estado no momento do registro.",
+  "retomada": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md#p04-rodada-1",
+  "escopo_do_manifesto": "Relaciona os seis documentos desta revisão. A identificação do próprio manifesto e do commit é obtida por releitura do Git após publicação.",
+  "arquivos": [
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md",
+      "bytes": 43174,
+      "sha256": "6ea2790d5110cccd31f82ce67d46aa21296b9faeff3420ba497a9a7a36754e1d",
+      "git_blob_sha1": "73e3e163f9d59ab69a05de71728910bf8bb9d1f6"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/README.md",
+      "bytes": 7033,
+      "sha256": "7335bb886c59fcf513c44f7c7116ee44f973e46101b127f0187d05954bc648ce",
+      "git_blob_sha1": "380e05796b1290bf4cbe7065cef64c1885a94b2c"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+      "bytes": 25645,
+      "sha256": "69276855b9f5a73babae69ecd51780a1aff42d800b1e5c686efaa0b5e8df6239",
+      "git_blob_sha1": "6669c743169d3eeb71837c5f0b2fafbf12002b97"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md",
+      "bytes": 23855,
+      "sha256": "2c2c1bd91788e7ea46e3678d22727a7fce0cb19785869ded7805b994afbc4535",
+      "git_blob_sha1": "c71f83d96cb19d09b4347ec44e6acf7cda754d28"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md",
+      "bytes": 215491,
+      "sha256": "d0554f2fb4207d6999b1bb9fa7a17d81abc2c3cb9da417c1f772997883bc5406",
+      "git_blob_sha1": "5befdddf1221d258463859c0f8cda2e625920705"
+    },
+    {
+      "caminho": "docs/01-discovery/discovery-02/primeira-entrega/roteiro/REFINAMENTO-E-REVISAO.md",
+      "bytes": 9301,
+      "sha256": "a2b9146b63a1ec0810b180619de077b458360b288a456fb4cabb15572c06c0cb",
+      "git_blob_sha1": "37c9b6c3657927ecf1eb894ba4a5d8b30d1b875c"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
 
 ## Pergunta inicial e entrega de cada frente
 
-Começar por **PE-03 com P03** é a sequência sugerida no escopo. Ler PE-04 como dependência ao tratar o exemplo A/B/C. Se o usuário escolher outra frente, usar diretamente a linha correspondente. Ajustar a pergunta quando a base vigente já contiver a resposta.
+A revisão 1 iniciou por **PE-03 com P03**. A [rodada atual do P04](../refinamentos/P04-ATUALIDADE.md) parte do [fechamento funcional de P03](../refinamentos/P03-CONHECIMENTO.md). A tabela abaixo mantém as perguntas de partida de cada frente. Ler PE-04 como dependência ao tratar o exemplo A/B/C. Se o usuário escolher outra frente, usar diretamente a linha correspondente. Ajustar a pergunta quando a base vigente já contiver a resposta.
 
 | Frente e pendências relacionadas | Primeira pergunta concreta | Insumos mínimos | Entrega para revisão |
 |---|---|---|---|
