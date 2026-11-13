@@ -1,3 +1,11 @@
+# Rota vigente R03 — 13/11/2026
+
+Leia a [consolidação P03/P04 R03](../consolidacao-r03/P04-CONSOLIDADO.md) na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o manifesto R03 e o recibo posterior por commit imutável. P03 conserva seus aceites e adiamentos; P04 está funcionalmente encerrado no alcance qualificado pela fonte recuperada, com proveniência indireta dos aceites iniciais. P01–P09 têm catálogo granular e prompt de continuidade. A R03 distingue decisão, proposta, relato corporativo e comprovação; sem código de produto, merge, ratificação ou mudança de permissões.
+
+O conteúdo abaixo é o snapshot anterior, preservado literalmente. Pontos de retomada, estados de entrevista e hashes anteriores valem para a revisão ali identificada; ler a sobreposição R03 para o saldo atual. Os manifestos D02-doc-2/R01/R02 permanecem históricos, sem certificar os novos bytes desta navegação.
+
+---
+
 # P04 · Atualidade, autoridade e compartilhamento do conhecimento
 
 **Rodada aberta.** Há doze fichas. P04.1 a P04.5 e P04.7 a P04.12 apresentam as onze decisões que aguardam resposta do usuário. Em P04.6, o caso descrito já está coberto pelas decisões de P03. O próximo ponto de retomada é [P04.1 · Atualização incremental](#p04-rodada-1).

@@ -1,3 +1,11 @@
+# Rota vigente R03 — 13/11/2026
+
+Leia a [consolidação P03/P04 R03](../consolidacao-r03/CONTINUIDADE.md) na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o manifesto R03 e o recibo posterior por commit imutável. P03 conserva seus aceites e adiamentos; P04 está funcionalmente encerrado no alcance qualificado pela fonte recuperada, com proveniência indireta dos aceites iniciais. P01–P09 têm catálogo granular e prompt de continuidade. A R03 distingue decisão, proposta, relato corporativo e comprovação; sem código de produto, merge, ratificação ou mudança de permissões.
+
+O conteúdo abaixo é o snapshot anterior, preservado literalmente. Pontos de retomada, estados de entrevista e hashes anteriores valem para a revisão ali identificada; ler a sobreposição R03 para o saldo atual. Os manifestos D02-doc-2/R01/R02 permanecem históricos, sem certificar os novos bytes desta navegação.
+
+---
+
 # Refinamento por frente e revisão geral da primeira entrega
 
 **Roteiro de trabalho proposto para as próximas sessões.** O [escopo consolidado](../ESCOPO.md) registra as decisões, suas fontes e as perguntas em aberto. O [índice de continuidade](../README.md) orienta a retomada. Use uma frente PE como assunto principal por sessão. Uma pendência P pode afetar várias frentes e uma frente pode depender de várias pendências. Os exemplos abaixo usam dados sintéticos. São casos para discutir critérios de aceite, sem resultados de testes atribuídos.

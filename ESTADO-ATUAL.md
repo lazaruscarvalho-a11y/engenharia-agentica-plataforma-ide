@@ -1,3 +1,11 @@
+# Rota vigente R03 — 13/11/2026
+
+Leia a [consolidação P03/P04 R03](docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/README.md) na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o manifesto R03 e o recibo posterior por commit imutável. P03 conserva seus aceites e adiamentos; P04 está funcionalmente encerrado no alcance qualificado pela fonte recuperada, com proveniência indireta dos aceites iniciais. P01–P09 têm catálogo granular e prompt de continuidade. A R03 distingue decisão, proposta, relato corporativo e comprovação; sem código de produto, merge, ratificação ou mudança de permissões.
+
+O conteúdo abaixo é o snapshot anterior, preservado literalmente. Pontos de retomada, estados de entrevista e hashes anteriores valem para a revisão ali identificada; ler a sobreposição R03 para o saldo atual. Os manifestos D02-doc-2/R01/R02 permanecem históricos, sem certificar os novos bytes desta navegação.
+
+---
+
 # Estado vigente — Discovery 02, revisão documental 2
 
 **Pronto para continuar o Discovery documental.** A regra vigente é [PRONTIDAO.md](docs/01-discovery/discovery-02/PRONTIDAO.md), por determinação direta do usuário em 01/11/2026. Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa.

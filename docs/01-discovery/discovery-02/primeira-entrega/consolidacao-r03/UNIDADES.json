@@ -1,0 +1,1354 @@
+[
+  {
+    "id": "P01.1",
+    "group": "P01",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p01-1",
+    "source_excerpt": "**P01.1 · Qual deve ser a visibilidade padrão do repositório de Workspaces de uma Sigla?** · Agenda\n\nA escolha alcança conteúdo ativo e arquivado.\n\n*Exemplo.* Uma atividade contém requisitos reservados à equipe. Uma branch própria ainda tem o público de leitura do repositório.\n\n*Recomendação.* Usar o menor público compatível com a finalidade. Documentar quando uma exceção é admissível e quem pode autorizá-la segundo as políticas do banco.",
+    "destination": "PENDENCIAS-P01-P09.md#p01-1",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P01.2",
+    "group": "P01",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p01-2",
+    "source_excerpt": "**P01.2 · Quem deve poder descobrir um mapa que referencia componentes de duas Siglas?** · Agenda\n\nMetadados no pai podem revelar existência, origem e revisão.\n\n*Exemplo.* O leitor de um mapa consegue ver que C participa de um fluxo, mesmo sem poder abrir C.\n\n*Recomendação.* Escolher o público pelo que o próprio mapa revela. Aplicar a decisão ao local de publicação depois de P08.1.",
+    "destination": "PENDENCIAS-P01-P09.md#p01-2",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P01.3",
+    "group": "P01",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p01-3",
+    "source_excerpt": "**P01.3 · Qual relação física a instalação deve manter com a raiz Git Macro?** · Agenda\n\nA topologia Macro–Meso–Micro está definida, mas o clone de distribuição e a pasta local têm finalidades próprias.\n\n*Exemplo.* A raiz comum recebe uma atualização mesmo se o usuário não puder baixar uma das Siglas.\n\n*Recomendação.* Demonstrar o percurso desse usuário antes de decidir se o clone comum também pode exercer a função de Macro.",
+    "destination": "PENDENCIAS-P01-P09.md#p01-3",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P01.4",
+    "group": "P01",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p01-4",
+    "source_excerpt": "**P01.4 · Como o engenheiro deve iniciar a Plataforma na primeira entrega?** · Agenda\n\nFalta escolher a interação esperada e o resultado visível da atualização inicial.\n\n*Exemplo.* O usuário abre a Plataforma pela manhã e precisa identificar a revisão comum obtida.\n\n*Recomendação.* Definir uma entrada reconhecível e o que comprova a atualização. A equipe autorizada poderá selecionar o mecanismo compatível com a estação corporativa.",
+    "destination": "PENDENCIAS-P01-P09.md#p01-4",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P01.5",
+    "group": "P01",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p01-5",
+    "source_excerpt": "**P01.5 · Que trabalho pode continuar quando a atualização da raiz falha?** · Agenda\n\nA situação difere de uma dependência privada que falha mais tarde, ao abrir a atividade.\n\n*Exemplo.* A máquina possui uma cópia de ontem e não consegue consultar o remoto.\n\n*Recomendação.* Mostrar a última revisão confirmada e o impedimento. Delimitar o que é seguro consultar nessa condição e o que exige atualização verificada.",
+    "destination": "PENDENCIAS-P01-P09.md#p01-5",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P01.6",
+    "group": "P01",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p01-6",
+    "source_excerpt": "**P01.6 · Quais operações com o remoto a primeira entrega precisa autenticar?** · Agenda\n\nÉ preciso distinguir obter a raiz, ler dependências e enviar trabalho.\n\n*Exemplo.* Uma credencial permite clonar A, mas não publicar o resultado derivado no Meso.\n\n*Recomendação.* Fazer uma matriz de operação, destino e autoridade requerida. Deixar credenciais e fluxos corporativos para validação interna.",
+    "destination": "PENDENCIAS-P01-P09.md#p01-6",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P01.7",
+    "group": "P01",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p01-7",
+    "source_excerpt": "**P01.7 · Que publicação remota o usuário precisa conseguir iniciar pela Plataforma?** · Agenda\n\nO fechamento local de um estudo e a publicação da revisão são eventos distintos.\n\n*Exemplo.* O Motor conclui um estudo local de A e o engenheiro deseja encaminhá-lo para revisão.\n\n*Recomendação.* Decidir se o produto prepara o material, oferece publicação revisável ou prevê outra entrega. Vincular cada opção ao destino, à autorização e ao recibo correspondente. P04.11 trata de quando o conteúdo se torna referência validada.\n\n\n## P02 · Ferramentas de IA — PE-02\n\nAs modalidades priorizadas são Devin Web, Devin CLI, Devin Desktop e Claude Code. O núcleo e as bases precisam continuar portáveis. O guia corporativo do Devin relata uma experiência específica. A equipe autorizada terá de validar mecanismos de obtenção, recursos e permissões na empresa. [Ferramentas](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/notas/FERRAMENTAS.md) · [Referência corporativa do Devin](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/evidencias/DEVIN-FERRAMENTAS.md)",
+    "destination": "PENDENCIAS-P01-P09.md#p01-7",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P02.1",
+    "group": "P02",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p02-1",
+    "source_excerpt": "**P02.1 · Quais tarefas definem suporte suficiente em cada modalidade?** · Agenda\n\nExplorar recursos próprios preservando o uso das bases comuns.\n\n*Exemplo.* O mesmo estudo de integração é consultado no Devin Web e no Claude Code.\n\n*Recomendação.* Comparar as modalidades por tarefa e resultado verificável, como localizar no mesmo Micro a evidência da chamada, e documentar diferenças aceitas.",
+    "destination": "PENDENCIAS-P01-P09.md#p02-1",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P02.2",
+    "group": "P02",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p02-2",
+    "source_excerpt": "**P02.2 · Como cada modalidade deve encontrar o conhecimento comum?** · Agenda\n\nFalta estabelecer quais instruções próprias são necessárias para chegar à mesma revisão.\n\n*Exemplo.* Uma instrução de entrada do CLI precisa encaminhar o agente para a mesma base que o Desktop.\n\n*Recomendação.* Manter a definição canônica em uma origem compartilhada. Usar configurações específicas para encaminhar o agente ao conteúdo ou expor capacidades próprias.",
+    "destination": "PENDENCIAS-P01-P09.md#p02-2",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P02.3",
+    "group": "P02",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p02-3",
+    "source_excerpt": "**P02.3 · Em que momento a Plataforma pode preparar configurações específicas no repositório?** · Agenda\n\nGravar arquivos exige autoridade sobre o destino.\n\n*Exemplo.* O Micro está disponível para leitura, mas acrescentar instruções a uma pasta específica da ferramenta exige escrita.\n\n*Recomendação.* Prever proposta revisável com indicação do arquivo, revisão e finalidade. Validar internamente quem pode autorizar a escrita.",
+    "destination": "PENDENCIAS-P01-P09.md#p02-3",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P02.4",
+    "group": "P02",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p02-4",
+    "source_excerpt": "**P02.4 · Qual evidência de versão efetiva é aceitável em cada modalidade?** · Agenda\n\nA observabilidade do serviço Web pode diferir da de um cliente local.\n\n*Exemplo.* A CLI exibe uma versão. A interface Web, neste exemplo, só permite verificar se um recurso está disponível.\n\n*Recomendação.* Distinguir versão identificada, capacidade demonstrada e versão desconhecida. Testar quais evidências existem de fato no ambiente corporativo.",
+    "destination": "PENDENCIAS-P01-P09.md#p02-4",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P02.5",
+    "group": "P02",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p02-5",
+    "source_excerpt": "**P02.5 · Qual é a continuidade esperada quando a atualização ou sua verificação falha?** · Agenda\n\nO objetivo de trabalhar com a última versão já está definido.\n\n*Exemplo.* Um agente instalado abre o Micro, mas não há comprovação de atualização da função exigida para a próxima ação.\n\n*Recomendação.* Avisar prontamente e mostrar as tarefas cujos pré-requisitos ainda são demonstráveis, explicitando a ação dependente.\n\n\n## P05 · Workspace de Atividades — PE-05\n\nA R06 resolveu a escolha da Sigla que hospeda a branch. O Engenheiro informa a Sigla executora. Ele também decide sobre incluir repositórios sugeridos. O Analista permite vincular a Sigla para consulta dos índices. Encerramento do refinamento, término da atividade e estado da história são marcos diferentes. [Workspace de Atividades, síntese R06](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/evidencias/WORKSPACE-R06.md)",
+    "destination": "PENDENCIAS-P01-P09.md#p02-5",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P03.1",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-1",
+    "source_excerpt": "**P03.1 · Ao abrir o Micro de A, o que uma integração precisa mostrar para você conseguir explicá-la e conferir até onde a explicação vale?** · Agenda\n\nEste é o conteúdo mínimo de **uma integração**. No exemplar, ver o campo em uma classe diz pouco sobre quem o envia, em qual fluxo e com qual destino.\n\n*Recomendação.* Adotar como ponto de partida o fluxo e seu gatilho, origem e destino, dado ou contrato relevante, revisão e trecho que sustentam a explicação, lado ainda desconhecido e consequência prática. Ajustar esse mínimo pelo que você faria com a informação.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-1",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.2",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-2",
+    "source_excerpt": "**P03.2 · Além das integrações, que perguntas toda base Micro precisa responder para merecer uso como entrada em um repositório desconhecido?** · Agenda\n\nUm serviço de decisão tem regras e contratos de entrada e saída. Um repositório de infraestrutura pode descrever recursos, dependências e efeitos sem expor uma API de negócio. A direção ampla de análise já está definida.\n\n*Recomendação.* Usar um núcleo comum de finalidade, responsabilidades, pontos de entrada, fluxos, regras ou efeitos, dependências, operação documentada e meios de verificação. Indicar, por tema, o que foi demonstrado, o que não se aplica e o que não foi localizado.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-2",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.3",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-3",
+    "source_excerpt": "**P03.3 · Que precisão torna uma referência conferível por outra pessoa ou agente?** · Agenda\n\nUma pasta com quarenta arquivos não localiza a condição que omite um campo. Linhas de uma branch móvel podem passar a mostrar outro código. Um teste escrito prova que um caso foi especificado. Um resultado de execução é outra evidência.\n\n*Recomendação.* Para cada afirmação material, indicar repositório, revisão e menor trecho identificável que sustenta a condição. Usar linhas, símbolo, cláusula de contrato ou seção conforme o material. Associar uma segunda fonte quando a conclusão depender das duas.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-3",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.4",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-4",
+    "source_excerpt": "**P03.4 · O que o Meso precisa acrescentar para que o engenheiro entenda a Sigla sem abrir todos os seus Micro?** · Agenda\n\nO índice de Alfa pode listar A@a1. Para explicar o caminho de uma proposta, interessa também saber por que procurar A, qual relação atravessa a Sigla e o que é compartilhado ali, como contexto autorizado de infraestrutura.\n\n*Recomendação.* Incluir o inventário coberto e suas revisões, a responsabilidade de cada Micro, as relações relevantes, o conhecimento realmente comum e os limites coletivos. Manter no Micro o detalhe próprio e apontar para a evidência conforme o público.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-4",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.5",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-5",
+    "source_excerpt": "**P03.5 · Como o Meso deve declarar a cobertura quando a seleção de repositórios é conhecida e o universo da Sigla é parcial ou desconhecido?** · Agenda\n\nSe A foi o único repositório de Alfa solicitado e foi lido, a execução cobriu o pedido. Sem inventário autorizado da Sigla, continua impossível concluir que toda Alfa foi estudada. B está em Beta e C pode ter Sigla desconhecida.\n\n*Recomendação.* Nomear o universo de cada contagem. Identificar selecionados, analisados integral ou parcialmente, inacessíveis e apenas referenciados. Só declarar o total da Sigla quando houver inventário adequado com origem e revisão.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-5",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.6",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-6",
+    "source_excerpt": "**P03.6 · Até que ponto representar uma relação quando só um dos lados foi estudado?** · Agenda\n\nA publica um evento com destino conhecido. Sem a fonte de C, o Motor pode conhecer a publicação e ignorar qual consumidor lê o evento, as condições de consumo ou o retorno. Uma relação também pode envolver ramos, retornos ou ciclos.\n\n*Recomendação.* Representar direção, contrato ou evento observado, fonte, lado conhecido e ponto onde a evidência termina. Permitir identificar o próximo documento ou repositório relevante. Manter inclusão na atividade e delimitação de solução sob suas autoridades já definidas.\n\n### Entrada, limites da leitura e continuidade da coleta",
+    "destination": "PENDENCIAS-P01-P09.md#p03-6",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.7",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-7",
+    "source_excerpt": "**P03.7 · O que o Engenheiro precisa fornecer ou confirmar para iniciar o onboarding de um conjunto de repositórios na revisão correta?** · Agenda\n\nO pedido pode chegar como duas URLs de branch ou como uma lista da Sigla. Uma branch pode avançar enquanto B é obtido. Falta decidir quais ambiguidades exigem intervenção e quais dados o agente resolve sozinho.\n\n*Recomendação.* Aceitar referências que o engenheiro já usa, resolver cada fonte autorizada a uma revisão imutável e devolver o conjunto efetivo. Se o pedido mencionar HOM, registrar também a finalidade e verificar a implantação antes de atribuir efeitos ao ambiente.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-7",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.8",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-8",
+    "source_excerpt": "**P03.8 · Qual fonte resolve a Sigla de um repositório quando nome, cadastro ou informação do solicitante divergem?** · Desdobramento\n\nUm nome sugere Alfa, mas um cadastro acessível aponta Beta. Classificar pelo nome pode atribuir conhecimento ou acesso ao grupo errado. A correspondência fina entre Sigla, conta e domínio segue aberta.\n\n*Recomendação.* Registrar a divergência, localizar uma fonte organizacional autorizada e pedir confirmação apenas se o conflito persistir e afetar a agregação. Manter a parcela válida do Micro utilizável enquanto o vínculo em disputa aguarda definição.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-8",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.9",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-9",
+    "source_excerpt": "**P03.9 · Qual resultado o Motor deve entregar quando parte do material indicado não pôde ser obtida ou examinada?** · Agenda\n\nA e parte dos contratos foram lidos, mas B falhou por credencial, um arquivo de A está truncado ou faltou a revisão pedida. A ausência de um teste nas fontes lidas tem significado diferente de um diretório de testes inacessível.\n\n*Recomendação.* Dar um resultado por repositório e por área material. Informar a revisão lida, o que faltou, o motivo conhecido, o efeito e o ponto para retomar. Preservar a análise independente de A e adiar a conclusão que exige B.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-9",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.10",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-10",
+    "source_excerpt": "**P03.10 · Quando o Motor encontra um Meso já existente, que resultado deve produzir nessa rodada?** · Desdobramento\n\nAlfa já indexa D em uma revisão anterior. O novo pedido abrange somente A. Criar um índice vazio pode apagar da visão um componente legítimo. Reapresentar D como reanalisado também falseia a cobertura.\n\n*Recomendação.* Reutilizar a identidade do Meso quando comprovada. Distinguir a cobertura desta rodada das entradas históricas preservadas. Se não houver Meso, identificar se a criação cabe à operação autorizada e indicar o que pode ser preparado localmente.\n\n### Suficiência, contradições e intervenção humana",
+    "destination": "PENDENCIAS-P01-P09.md#p03-10",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.11",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-11",
+    "source_excerpt": "**P03.11 · Que evidência basta para a ação concreta que a pessoa pretende tomar?** · Agenda\n\nAs fontes de A podem bastar para explicar que um campo é enviado. Para documentar uma promessa de compatibilidade, planejar a retirada do campo ou atribuir comportamento a C, o alcance exigido muda.\n\n*Recomendação.* Registrar a ação avaliada e os elos indispensáveis à sua conclusão. Usar pelo menos um par de pedidos sobre a mesma evidência, um que possa avançar e outro que dependa de um elo ausente. Explicitar a parcela do planejamento que continua segura.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-11",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.12",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-12",
+    "source_excerpt": "**P03.12 · Quando duas fontes sustentam interpretações incompatíveis, que resultado deve aparecer até a divergência ser resolvida?** · Desdobramento\n\nUm contrato marca o campo obrigatório, enquanto um teste documentado trata sua ausência. Podem refletir revisões, consumidores ou condições diferentes. As duas regras de segmento em A ilustram outro caso em que o nome não determina precedência.\n\n*Recomendação.* Comparar objeto, revisão, condição e natureza das fontes. Expor os trechos conflitantes, a leitura que cada um sustenta e qual evidência os distinguiria. Se a contradição afetar uma decisão, restringir a conclusão a seu alcance demonstrado.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-12",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.13",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-13",
+    "source_excerpt": "**P03.13 · Fora dos dois casos aceitos de A, qual diferença observável torna uma lacuna impeditiva para concluir o onboarding no objetivo declarado?** · Agenda\n\nDescobrir uma exceção sem impacto no objetivo pode admitir ressalva. Se nem o ponto de entrada do fluxo principal puder ser identificado, certificar que esse fluxo foi compreendido passa a ser inseguro. Mais de uma lacuna pequena pode afetar o mesmo elo.\n\n*Recomendação.* Avaliar impacto sobre uma afirmação indispensável ao objetivo e possibilidade de delimitar o que ainda vale. Comparar um caso aceitável, um impeditivo e um de criticidade incerta. No último, o Engenheiro decide após a investigação cabível.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-13",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.14",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-14",
+    "source_excerpt": "**P03.14 · Qual evidência da implantação permite estender uma afirmação de uma revisão Git a um ambiente específico?** · Desdobramento\n\nUm contrato mudou na branch da história, enquanto a informação sobre HOM se refere a outra revisão. Para duas aplicações ou regras ativadas por configuração, uma única versão pode não descrever o fluxo inteiro.\n\n*Recomendação.* Partir de uma evidência autorizada que ligue componente, artefato ou revisão ao ambiente pertinente. Incluir a configuração material quando ela muda o comportamento. Se faltar o vínculo, responder apenas sobre a revisão observada e identificar a verificação faltante.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-14",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.15",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-15",
+    "source_excerpt": "**P03.15 · O que deve chegar ao responsável quando o agente já investigou e precisa de intervenção?** · Desdobramento\n\nAo encontrar duas regras de segmento, avisar o usuário é imediato. A intervenção posterior é diferente se faltar uma cláusula de contrato, se faltarem direitos para consultá-la ou se o time precisar definir uma regra de produto.\n\n*Recomendação.* Levar uma pergunta específica, com objetivo, hipóteses ainda compatíveis, fontes e tentativas autorizadas, ação afetada e menor esclarecimento necessário. Na exceção futura de execução local, preservar todos os requisitos de HUM-03 e a alternativa de resposta direta.\n\n### Comunicação, uso e avaliação",
+    "destination": "PENDENCIAS-P01-P09.md#p03-15",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.16",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-16",
+    "source_excerpt": "**P03.16 · Que conteúdo e forma tornam o primeiro aviso compreensível enquanto o impacto ainda está em investigação?** · Agenda\n\nO agente encontra a chamada a C antes de saber quais histórias a utilizam. Uma mensagem genérica como “onboarding parcial” esconde a dúvida. Esperar o fim da varredura violaria o momento já acordado.\n\n*Recomendação.* Apresentar a lacuna concreta, onde surgiu, o que já tem evidência, a consequência conhecida e o que está sendo investigado. Agrupar ocorrências relacionadas com acesso individual a cada uma e distinguir aviso de solicitação de decisão.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-16",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.17",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-17",
+    "source_excerpt": "**P03.17 · Como demonstrar ao usuário por que uma pendência antiga afeta o pedido que ele acaba de fazer?** · Agenda\n\nRetirar o campo tem dependência direta. Alterar uma tarifa pode depender indiretamente de qual regra calcula o segmento. Uma simples mudança na descrição visual da tarifa pode ser independente desse cálculo.\n\n*Recomendação.* Mostrar uma cadeia curta da atividade à regra e à lacuna, com o efeito sobre o passo atual. Quando a relação for só hipótese, sinalizá-la como tal. Validar o comportamento dentro do Workspace e em uma consulta isolada, mantendo consultáveis as demais pendências.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-17",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.18",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-18",
+    "source_excerpt": "**P03.18 · Como a pessoa deve conseguir localizar uma ressalva, conferir a fonte e saber o que ainda pode fazer, inclusive com necessidades de acessibilidade?** · Agenda\n\nEm uma lista extensa, um ícone colorido ou um percentual isolado pode ocultar que só a decisão sobre C depende de evidência. Na ferramenta em texto, pode faltar a ação equivalente a abrir um detalhe.\n\n*Recomendação.* Propor um resumo em linguagem direta, estados escritos, navegação por assunto e acesso ao trecho e ao histórico. Na interface escolhida, validar o percurso também sem depender de cor e, quando aplicável, por teclado e leitura assistida.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-18",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.19",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-19",
+    "source_excerpt": "**P03.19 · Que sinais justificam aprofundar a investigação ou encerrá-la com o limite registrado?** · Agenda\n\nLer todos os repositórios de duas Siglas para responder sobre uma chamada simples tem custo. Encerrar na primeira correspondência textual pode omitir o caminho de falha, uma exceção ou uma contraevidência.\n\n*Recomendação.* Começar pelo índice e aprofundar quando houver elo material sem suporte, conflito ou risco para a ação. Finalizar a busca quando os elos necessários estiverem sustentados ou o limite autorizado estiver explícito. Comparar custo e qualidade sem impor agora teto de tempo, tokens ou arquivos.",
+    "destination": "PENDENCIAS-P01-P09.md#p03-19",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.20",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-20",
+    "source_excerpt": "**P03.20 · Que demonstração permite aceitar a qualidade das duas bases para uso por outro engenheiro ou agente?** · Agenda\n\nUm índice pode conter todas as seções e ainda conduzir ao contrato errado. Uma síntese mais curta pode omitir justamente a ressalva que impede a retirada do campo.\n\n*Recomendação.* Entregar os dois exemplares a um leitor que não os produziu. Verificar se localiza a cláusula na revisão correta, explica o fluxo, identifica uma ressalva e evita a conclusão indevida. Registrar o material consultado e o esforço, preservando a verificabilidade e a independência de ferramenta.\n\n### Limites da primeira versão do Motor",
+    "destination": "PENDENCIAS-P01-P09.md#p03-20",
+    "status": "AVALIACAO_ADIADA"
+  },
+  {
+    "id": "P03.21",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-21",
+    "source_excerpt": "**P03.21 · O Motor da primeira entrega deve oferecer o fluxo de solicitação de execução local excepcional?** · Agenda\n\nA exceção e a autoridade do Engenheiro já estão delimitadas para a IDE futura. A inclusão desse fluxo no Motor inicial ficou expressamente aberta. Imagine que, depois de esgotar a investigação autorizada, só um esclarecimento do Engenheiro ou uma observação local específica distinguiria dois comportamentos.\n\n*Recomendação.* Tomar uma decisão sobre o alcance da versão. Ela pode entregar a lacuna com pedido de esclarecimento ou também preparar a solicitação excepcional. Neste último caso, especificar tentativas, finalidade, ambiente, dados, pré-requisitos, comandos, efeitos, alternativa de resposta direta e permissão específica. [Consolidação do Motor, §1.4](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/referencias/CONSOLIDACAO-MOTOR-E-CONHECIMENTO.pdf)",
+    "destination": "PENDENCIAS-P01-P09.md#p03-21",
+    "status": "RESOLVIDO_FUNCIONALMENTE"
+  },
+  {
+    "id": "P03.22",
+    "group": "P03",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p03-22",
+    "source_excerpt": "**P03.22 · De que forma o usuário precisa conseguir abrir e percorrer as bases produzidas localmente?** · Agenda\n\nO Git canônico e o pertencimento de Micro/Meso estão definidos. Ainda precisam de escolha o formato de entrega, a organização local e a entrada por onde pessoas e agentes chegam ao índice, às evidências e às pendências. Por exemplo, ao abrir o repositório fora da interface da Plataforma, o engenheiro ainda precisa reconhecer qual base corresponde à revisão analisada.\n\n*Recomendação.* Validar dois percursos com os mesmos exemplares, um na área local e outro a partir da revisão em Git. Escolher o formato e os diretórios após comprovar nesses exemplos a legibilidade, a portabilidade e o acesso às fontes. [Consolidação do Motor, §8.1](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/referencias/CONSOLIDACAO-MOTOR-E-CONHECIMENTO.pdf)\n\n## P04 · Fichas da agenda original\n\nO [roteiro da rodada atual](#p04-abertura) incorpora as respostas posteriores dadas em P03.\n\n**Premissas.** A mudança realizada por um agente exige atualizar ou revalidar o conhecimento afetado no mesmo ciclo de commit ou PR, antes do fechamento. Alterações externas seguem a sequência detectar → invalidar → reconciliar → verificar. Na ausência de monitor, a detecção acontece na próxima leitura ou ciclo. Na composição multirrepositório, o fechamento depende da coerência entre revisões e ponteiros. O envio de uma contribuição de trabalho ao remoto não lhe confere aprovação. Direitos de consultar, armazenar, publicar e redistribuir têm escopos próprios.\n\nA agenda atribui a P04 as pendências históricas D02-PEN-003 a 005. As perguntas abaixo detalham o efeito delas sobre Micro e Meso. Visibilidade padrão de repositórios e autenticação também dependem de P01. Os nomes A, B e C e as revisões `a1`, `a2` e `m1` são sintéticos. [Agenda da primeira entrega](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md#pendencias) · [HUM-05 a HUM-09 e D02-PEN-003 a 005](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/REGISTRO.md) · [D02-RET-002 e 004](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/RETIFICACOES.md) · [Distribuição e acesso r3](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/notas/DISTRIBUICAO-E-ACESSO.md) · [Consolidação do Motor, §§5.3, 7 e 8.1](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/referencias/CONSOLIDACAO-MOTOR-E-CONHECIMENTO.pdf)",
+    "destination": "PENDENCIAS-P01-P09.md#p03-22",
+    "status": "DIRECAO_ACEITA_DESENHO_POSTERGADO"
+  },
+  {
+    "id": "P04.1",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-1",
+    "source_excerpt": "**P04.1 · Que atualização a primeira entrega deve conseguir fazer quando o engenheiro encontra uma revisão nova de um repositório já analisado?** · Agenda\n\nO alcance muda o tempo até obter uma base utilizável e o trabalho que pode ser reaproveitado.\n\n*Exemplo.* Entre `a1` e `a2`, A muda o campo de uma chamada. A explicação sobre o agendamento permanece sustentada por outra fonte.\n\n*Recomendação.* Validar primeiro uma atualização acionada na consulta ou em um ciclo explícito, com reaproveitamento do que conserva evidência válida. Quando o alcance da mudança for incerto, ampliar a revisão e registrar a cobertura efetivamente reconferida.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-1",
+    "status": "ACEITE_ANTERIOR_RELATADO"
+  },
+  {
+    "id": "P04.2",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-2",
+    "source_excerpt": "**P04.2 · Ao detectar alteração externa, até onde a conclusão deve perder a condição de atual?** · Desdobramento\n\nA direção de invalidar está decidida. Falta delimitar a unidade atingida e os consumidores a alcançar por dependência direta ou indireta.\n\n*Exemplo.* A muda a emissão de `codigoSegmento`. O Meso reproduz a afirmação antiga e uma tarefa usa essa afirmação para estimar o efeito de uma mudança tarifária.\n\n*Recomendação.* Vincular a invalidação à afirmação e aos usos conhecidos que dependem dela. Se o consumidor estiver inacessível, registrar o alcance da verificação e a reconciliação pendente. Outras partes com evidência independente continuam disponíveis.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-2",
+    "status": "ACEITE_ANTERIOR_RELATADO"
+  },
+  {
+    "id": "P04.3",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-3",
+    "source_excerpt": "**P04.3 · Que prova permite voltar a usar como atual uma conclusão reconciliada?** · Desdobramento\n\nEsta questão trata da recuperação de conhecimento antes invalidado. Editar o texto e conferir sua correspondência com a nova fonte são atos distintos.\n\n*Exemplo.* O Motor corrige a descrição do campo de A em `a2`. O teste encontrado ainda se refere a `a1`, e a aceitação de campo ausente em C continua desconhecida.\n\n*Recomendação.* Restaurar somente as afirmações conferidas na revisão pertinente. Guardar referência anterior, evidência nova e resultado da verificação. A parte sobre C conserva sua ressalva própria.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-3",
+    "status": "ACEITE_ANTERIOR_RELATADO"
+  },
+  {
+    "id": "P04.4",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-4",
+    "source_excerpt": "**P04.4 · Qual conjunto de revisões deve estar coerente para encerrar uma atualização que afeta o Micro e seu Meso?** · Agenda\n\nUm ponteiro é a referência Git à revisão exata de um submódulo. O produto precisa permitir conferir a composição publicada, inclusive quando apenas parte das escritas ocorreu.\n\n*Exemplo.* A já contém a correção em `a2`, mas o Meso `m1` ainda aponta a `a1` e descreve o contrato antigo.\n\n*Recomendação.* Identificar a revisão efetiva de cada componente, a relação entre versões e a verificação pendente. A composição histórica pode continuar consultável como histórica. O ciclo da composição pretendida fica aberto até reconciliar e conferir os ponteiros pertinentes.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-4",
+    "status": "ACEITE_ANTERIOR_RELATADO"
+  },
+  {
+    "id": "P04.5",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-5",
+    "source_excerpt": "**P04.5 · Que divergências entre duas contribuições sobre a mesma base o agente pode reconciliar autonomamente?** · Agenda\n\nUma diferença textual pode ser compatível, e um conflito de significado pode passar por uma combinação automática de arquivos.\n\n*Exemplo.* Duas pessoas partem de `a1`. Uma descreve o campo como opcional na emissão. A outra o descreve como obrigatório segundo um contrato de outra revisão.\n\n*Recomendação.* Reavaliar as duas origens e revisões. Integrar contribuições independentes após verificação. Se persistirem leituras incompatíveis do mesmo fato, preservar ambas com sua evidência e levar ao responsável a divergência exata.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-5",
+    "status": "ACEITE_ANTERIOR_RELATADO"
+  },
+  {
+    "id": "P04.6",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-6",
+    "source_excerpt": "**P04.6 · Qual validação permite incorporar um esclarecimento do engenheiro às bases utilizadas por outras atividades?** · Desdobramento\n\nA retroalimentação dos níveis pertinentes e autorizados já está prevista. A questão é quando a afirmação muda de estado e em quais consumidores ela pode entrar.\n\n*Exemplo.* Um engenheiro esclarece em um Workspace que a regra da proposta vale para um canal específico. Outros consumidores consultam o mesmo Micro.\n\n*Recomendação.* Identificar quem esclareceu, para qual canal, período e revisão o esclarecimento vale, que tipo de conclusão ele sustenta e quem tem autoridade sobre ela. Relacionar a correção aos registros pertinentes com direito de recebê-la. Uma observação local pode conservar esse alcance.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-6",
+    "status": "P03_S2_PRESERVADO"
+  },
+  {
+    "id": "P04.7",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-7",
+    "source_excerpt": "**P04.7 · Que informação o Motor precisa ter para reconhecer quem pode autorizar uma operação sobre uma fonte específica?** · Agenda\n\nHá modalidades pontual ou reutilizável e individual ou coletiva. É preciso definir como verificar que a operação concreta cabe na concessão, inclusive quando o titular ou o serviço muda.\n\n*Exemplo.* A equipe pode consultar A no GitHub durante o inventário. Depois, um agente deseja consultar documentação legada para preencher uma lacuna ou operar em outra conta AWS.\n\n*Recomendação.* Vincular a decisão à pessoa ou grupo competente, operação, objeto, finalidade, público, vigência e direito efetivo no serviço. Para retorno ao legado, preservar o aviso de inconformidade e a permissão pertinente. Para pesquisa externa, informar previamente finalidade, fonte e escopo e obter a autorização correspondente.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-7",
+    "status": "DECISAO_HUMANA_RECUPERADA"
+  },
+  {
+    "id": "P04.8",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-8",
+    "source_excerpt": "**P04.8 · O que deve acontecer com usos futuros e material já obtido quando a autorização vence ou é revogada?** · Agenda\n\nA mudança pode afetar a consulta da fonte, uma cópia local e consumidores de um derivado em condições diferentes.\n\n*Exemplo.* Um usuário perde acesso a C depois de ler um contrato e gerar uma síntese destinada à equipe.\n\n*Recomendação.* Suspender o uso dependente da concessão vencida e verificar separadamente os direitos de retenção e uso do derivado. Registrar destino, alcance e ações que dependem de responsável autorizado. A exclusão de um original exige aprovação expressa de objeto e revisão.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-8",
+    "status": "DECISAO_HUMANA_RECUPERADA"
+  },
+  {
+    "id": "P04.9",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-9",
+    "source_excerpt": "**P04.9 · O que um leitor do Meso pode descobrir sobre uma dependência cujo repositório ele não pode ler?** · Agenda\n\nNome, caminho, origem e revisão podem revelar informação pelo próprio repositório pai, antes de qualquer leitura do destino.\n\n*Exemplo.* Um índice acessível a outra Sigla identifica pelo nome um repositório privado. A credencial do leitor impede abrir o repositório, mas o nome já foi exposto no índice.\n\n*Recomendação.* Definir o público autorizado a conhecer a existência e os identificadores do recurso antes de escolher onde gravá-los. Verificar o que um leitor vê diretamente no Git e tratar a política corporativa como dependência de PE-01.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-9",
+    "status": "DECISAO_HUMANA_RECUPERADA"
+  },
+  {
+    "id": "P04.10",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-10",
+    "source_excerpt": "**P04.10 · Que conteúdo obtido legitimamente em uma fonte pode ser conservado e compartilhado em outro escopo?** · Agenda\n\nA fonte pode permitir consulta e limitar retenção, cópia, síntese ou público destinatário. O próprio conteúdo derivado pode expor o que a origem restringe.\n\n*Exemplo.* O engenheiro pode ler o contrato de C. O Meso de A tem um público maior. Uma cópia do contrato e uma frase que revele sua regra de exceção são dois objetos a avaliar.\n\n*Recomendação.* Representar separadamente o direito de consultar a origem, conservar o derivado e distribuí-lo ao público pretendido. Usar referência autorizada com o mínimo de metadados permitido quando a reprodução exceder os direitos disponíveis.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-10",
+    "status": "DECISAO_HUMANA_RECUPERADA"
+  },
+  {
+    "id": "P04.11",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-11",
+    "source_excerpt": "**P04.11 · Qual evento torna uma revisão de conhecimento disponível como referência validada aos demais usuários?** · Agenda\n\nO Git é canônico, e uma contribuição de trabalho pode existir no remoto antes da validação. É preciso definir quem responde pela passagem, para qual destino e em qual escopo a primeira entrega a oferece.\n\n*Exemplo.* Um agente envia em uma branch a correção do Micro de A. A equipe consulta uma revisão anterior no Meso.\n\n*Recomendação.* Identificar a revisão proposta, a verificação exigida e a autoridade aplicável ao destino. Explicitar a revisão que o consumidor pode usar. Se a primeira versão só preparar a alteração localmente, registrar a contribuição e o passo de publicação ainda necessário.",
+    "destination": "PENDENCIAS-P01-P09.md#p04-11",
+    "status": "DECISAO_HUMANA_RECUPERADA"
+  },
+  {
+    "id": "P04.12",
+    "group": "P04",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p04-12",
+    "source_excerpt": "**P04.12 · O que deve acontecer quando o consumidor encontra uma revisão da base cuja representação ele só compreende parcialmente?** · Desdobramento\n\nD02-PEN-005 mantém schemas, índices, adaptadores e nomes em definição. O comportamento diante de incompatibilidade pode ser especificado antes da escolha técnica.\n\n*Exemplo.* Um produtor passa a distinguir “fonte inacessível” de “fonte fora da seleção”. Um consumidor antigo lê o restante, mas trata ambas como cobertura completa.\n\n*Recomendação.* Exigir que a consulta preserve a distinção ou declare a limitação e recupere uma representação autorizada e inteligível. Avaliar a compatibilidade pelo significado que o usuário ou agente consegue verificar ao final.\n\n## P01 · Distribuição e acesso — PE-01\n\nA raiz é atualizada ao iniciar. As dependências da atividade são carregadas ao abrir o Workspace, com a credencial do usuário, na revisão indicada pelo pai e com indicação do acesso parcial. O acesso GitHub por Sigla e o acesso AWS independente são relatos sobre a empresa. Políticas e mecanismos reais precisam de validação no ambiente autorizado. [Distribuição e acesso, revisão 3](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/notas/DISTRIBUICAO-E-ACESSO.md)",
+    "destination": "PENDENCIAS-P01-P09.md#p04-12",
+    "status": "DECISAO_HUMANA_RECUPERADA"
+  },
+  {
+    "id": "P05.1",
+    "group": "P05",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p05-1",
+    "source_excerpt": "**P05.1 · Qual sinal, se necessário, caracteriza o término da atividade?** · Agenda\n\nSó então o time escolhe o destino da branch ou da pasta.\n\n*Exemplo.* O refinamento foi aprovado, uma história acabou, outra ainda tem tasks em aberto.\n\n*Recomendação.* Começar por uma declaração do time sobre o conjunto. Avaliar se basta registrá-la ou se é preciso algum sinal adicional.",
+    "destination": "PENDENCIAS-P01-P09.md#p05-1",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P05.2",
+    "group": "P05",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p05-2",
+    "source_excerpt": "**P05.2 · Quem efetiva o vínculo da Sigla depois da permissão do Analista?** · Agenda\n\nA responsabilidade pela autorização já está definida.\n\n*Exemplo.* O Analista permite consultar o índice da Sigla B a partir da atividade da Sigla A.\n\n*Recomendação.* Comparar o agente efetivando o vínculo sob autorização e a efetivação por um membro autorizado. Em ambos os casos, registrar o resultado verificável.",
+    "destination": "PENDENCIAS-P01-P09.md#p05-2",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P05.3",
+    "group": "P05",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p05-3",
+    "source_excerpt": "**P05.3 · Em que condições outro Workspace pode consultar um histórico?** · Agenda\n\nA finalidade de recuperar contexto já foi aceita.\n\n*Exemplo.* Uma atividade nova precisa saber por que o time arquivou uma decisão anterior.\n\n*Recomendação.* Manter identificado o Workspace de origem e decidir que material a consulta pode apresentar ao público da nova atividade. Validar os limites de acesso reais.",
+    "destination": "PENDENCIAS-P01-P09.md#p05-3",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P05.4",
+    "group": "P05",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p05-4",
+    "source_excerpt": "**P05.4 · O que alguém precisa encontrar na pasta de uma atividade para retomá-la?** · Agenda\n\nO layout interno continua aberto.\n\n*Exemplo.* Um colega abre uma atividade interrompida e precisa separar o requisito vigente, a hipótese descartada e a decisão que o explica.\n\n*Recomendação.* Testar o layout com essa retomada e com uma consulta histórica. Escolher diretórios e formatos depois de definir o percurso de leitura.",
+    "destination": "PENDENCIAS-P01-P09.md#p05-4",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P05.5",
+    "group": "P05",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p05-5",
+    "source_excerpt": "**P05.5 · O repositório de Workspaces deve acumular a função do repositório Meso?** · Agenda\n\nSão responsabilidades distintas que podem ou não compartilhar armazenamento físico.\n\n*Exemplo.* Um Meso destina seus índices a um público mais amplo do que uma atividade com documentos restritos.\n\n*Recomendação.* Confrontar público, finalidade, manutenção e arquivamento dos dois antes da decisão, acompanhando P01.1.",
+    "destination": "PENDENCIAS-P01-P09.md#p05-5",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P05.6",
+    "group": "P05",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p05-6",
+    "source_excerpt": "**P05.6 · Quais informações permitem decidir sobre a inclusão de um repositório sugerido pelo agente?** · Desdobramento\n\nO papel do Engenheiro e a consulta prévia já estão decididos. Falta concretizar a apresentação da sugestão.\n\n*Exemplo.* Uma alteração de tarifa depende de confirmar o tratamento do campo em C. O Engenheiro precisa entender qual lacuna diminuiria ao incluí-lo, a revisão pertinente e que parte continuaria sem resposta.\n\n*Recomendação.* Mostrar a razão da sugestão, a fonte da relação, o ganho esperado, a revisão e os direitos ainda necessários. Registrar a decisão e permitir retomar a parte independente se a inclusão for adiada.\n\n\n## P06 · Agente, etapas e histórias — PE-06\n\nO agente deve adaptar sua atuação à etapa. A aprovação formal e delimitada do refinamento cabe ao Analista. ServiceNow/IUClick é o destino definido para criar, modificar e alterar o status de histórias. O contrato corporativo e as permissões de cada operação exigem validação interna. [Atuação por etapa](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/notas/ATUACAO-POR-ETAPA.md) · [R06](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/evidencias/WORKSPACE-R06.md)",
+    "destination": "PENDENCIAS-P01-P09.md#p05-6",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P06.1",
+    "group": "P06",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p06-1",
+    "source_excerpt": "**P06.1 · Qual sinal determina a etapa de cada item?** · Agenda\n\nUm Workspace pode conter histórias em etapas distintas.\n\n*Exemplo.* A primeira história já está no planejamento de testes, enquanto outra ainda tem uma regra de negócio em aberto.\n\n*Recomendação.* Identificar a etapa por item a partir do último marco comprovado. Permitir que o usuário corrija um enquadramento incorreto.",
+    "destination": "PENDENCIAS-P01-P09.md#p06-1",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P06.2",
+    "group": "P06",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p06-2",
+    "source_excerpt": "**P06.2 · Que condição permite propor a passagem de uma etapa à seguinte?** · Agenda\n\nA aprovação formal que encerra o refinamento já tem responsável.\n\n*Exemplo.* Uma história tem critérios redigidos, mas a equipe ainda discute uma exceção material.\n\n*Recomendação.* Especificar por transição o resultado exigido e o ato humano aplicável. Mostrar o que falta antes de sugerir avanço.",
+    "destination": "PENDENCIAS-P01-P09.md#p06-2",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P06.3",
+    "group": "P06",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p06-3",
+    "source_excerpt": "**P06.3 · Como tratar uma mensagem que corrige uma etapa anterior?** · Agenda\n\nA correção pode mudar decisões e artefatos derivados.\n\n*Exemplo.* Durante o plano de testes, o Analista redefine o que caracteriza um pedido duplicado.\n\n*Recomendação.* Recuperar a definição anterior e apontar a história, os critérios e os testes atingidos. Mostrar quais partes ainda podem continuar.",
+    "destination": "PENDENCIAS-P01-P09.md#p06-3",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P06.4",
+    "group": "P06",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p06-4",
+    "source_excerpt": "**P06.4 · Que informação o agente precisa recuperar antes de retomar um item interrompido?** · Agenda\n\nO estado do Workspace, a revisão do código e o status corporativo podem ter evoluído.\n\n*Exemplo.* Outra pessoa retoma uma história depois que o contrato de integração mudou.\n\n*Recomendação.* Entregar uma síntese recuperável de etapa, última decisão, referências, ressalvas e próxima ação, conferindo as revisões que sustentam a retomada.",
+    "destination": "PENDENCIAS-P01-P09.md#p06-4",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P06.5",
+    "group": "P06",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p06-5",
+    "source_excerpt": "**P06.5 · O que conta como uma entrega suficiente em cada atividade do agente?** · Agenda\n\nFalta concretizar competências, fontes e resultados por etapa.\n\n*Exemplo.* Na regra contra duplicidade, a história precisa de comportamento observável e o plano de testes precisa incluir o caso de dois pedidos legítimos.\n\n*Recomendação.* Construir um exemplo aceito por etapa sobre a mesma demanda. Usar os exemplos para derivar critérios, entregáveis e responsabilidades.",
+    "destination": "PENDENCIAS-P01-P09.md#p06-5",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P06.6",
+    "group": "P06",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p06-6",
+    "source_excerpt": "**P06.6 · Quais transições de história no ServiceNow/IUClick o produto deve oferecer?** · Agenda\n\nOs verbos gerais estão definidos, mas faltam os estados, gatilhos e atos válidos.\n\n*Exemplo.* Depois do aceite do refinamento, criar uma história e alterar seu status posteriormente representam eventos diferentes.\n\n*Recomendação.* Preparar uma matriz por transição com gatilho, papel autorizado, efeito esperado e evidência de sucesso. O responsável interno valida o contrato real.",
+    "destination": "PENDENCIAS-P01-P09.md#p06-6",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P06.7",
+    "group": "P06",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p06-7",
+    "source_excerpt": "**P06.7 · Onde termina o suporte a tasks, subtasks e bugs na primeira entrega?** · Desdobramento\n\nO detalhamento pelo agente já está previsto. A integração definida expressamente para histórias tem um alcance próprio.\n\n*Exemplo.* O engenheiro quer decompor uma história em subtasks e depois vê-las no sistema corporativo.\n\n*Recomendação.* Definir por tipo se a saída é uma descrição revisável ou se requer operação no sistema. Validar separadamente qualquer operação adicional pretendida.\n\n\n## P07 · Extensões por escopo — PE-07\n\nA direção para a primeira entrega, depois do onboarding, é que o agente possa incorporar e recuperar skills, instruções, comportamentos, documentação e ferramentas em cada escopo autorizado. O caso do MCP de IBM ODM ilustra a descoberta por dependência. A autorização para ler a documentação e a autorização para operar a ferramenta são verificadas separadamente. [Extensões por escopo](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/notas/EXTENSOES-POR-ESCOPO.md)",
+    "destination": "PENDENCIAS-P01-P09.md#p06-7",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P07.1",
+    "group": "P07",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p07-1",
+    "source_excerpt": "**P07.1 · Que informação mínima torna uma extensão apta a ser incorporada em cada tipo?** · Agenda\n\nUma instrução de leitura e uma ferramenta executável apresentam exigências diferentes.\n\n*Exemplo.* Uma equipe quer incluir a orientação de uso do ODM e uma integração para consultá-lo.\n\n*Recomendação.* Começar por finalidade, escopo de origem, revisão, tarefa de exemplo e atos permitidos. Definir a verificação apropriada a cada tipo.",
+    "destination": "PENDENCIAS-P01-P09.md#p07-1",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P07.2",
+    "group": "P07",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p07-2",
+    "source_excerpt": "**P07.2 · Como o agente reconhece que uma extensão de outro escopo se aplica à atividade?** · Agenda\n\nA recuperação deve funcionar mesmo que a pessoa desconheça seu nome.\n\n*Exemplo.* Ao analisar uma resposta no consumidor, o agente chega pela dependência à orientação do integrador.\n\n*Recomendação.* Fazer o agente explicar o caminho entre a necessidade e a extensão, incluindo a condição que torna o recurso pertinente.",
+    "destination": "PENDENCIAS-P01-P09.md#p07-2",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P07.3",
+    "group": "P07",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p07-3",
+    "source_excerpt": "**P07.3 · Que regra resolve orientações incompatíveis de escopos diferentes?** · Agenda\n\nPrecedência funcional e permissão para executar uma operação são questões distintas.\n\n*Exemplo.* Uma instrução da Sigla e uma do repositório indicam procedimentos divergentes para consultar a mesma decisão.\n\n*Recomendação.* Expor a divergência e suas origens. Definir quem resolve o caso antes de fixar precedência automática. Incluir instruções comuns da raiz e sua aplicabilidade aos executores.",
+    "destination": "PENDENCIAS-P01-P09.md#p07-3",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P07.4",
+    "group": "P07",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p07-4",
+    "source_excerpt": "**P07.4 · Como uma atividade descobre o impacto da atualização ou retirada de uma extensão?** · Agenda\n\nÉ preciso conseguir localizar os consumidores da orientação afetada.\n\n*Exemplo.* Um MCP é substituído durante o refinamento de uma história que ainda cita a versão antiga.\n\n*Recomendação.* Preservar a referência histórica e testar se o usuário identifica quais orientações ainda são aplicáveis e qual dependência precisa de revisão.",
+    "destination": "PENDENCIAS-P01-P09.md#p07-4",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P07.5",
+    "group": "P07",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p07-5",
+    "source_excerpt": "**P07.5 · O que o agente deve entregar quando encontra a extensão, mas não pode operá-la?** · Desdobramento\n\nA permissão para conhecer o recurso já está dissociada da autoridade operacional.\n\n*Exemplo.* O agente localiza a skill do ODM e o contrato emitido pelo integrador, mas não possui a permissão exigida para consultar a regra.\n\n*Recomendação.* Entregar o que as fontes acessíveis demonstram e especificar qual evidência uma pessoa autorizada poderia obter. Conferir no banco as operações realmente disponíveis.\n\n\n## P08 · Arquitetura e solução — PE-08\n\nO Motor mapeia relações técnicas. O Analista delimita a solução do ponto de vista funcional. Preservar evidências já pertence à PE-03. A extensão da entrega arquitetural condiciona as perguntas seguintes. [Retomada do Motor e da Arquitetura](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/RETOMADA-MOTOR-E-ARQUITETURA.md) · [Escopo da primeira entrega](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md#pendencias)",
+    "destination": "PENDENCIAS-P01-P09.md#p07-5",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P08.1",
+    "group": "P08",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p08-1",
+    "source_excerpt": "**P08.1 · Qual entrega arquitetural o Analista precisa receber nesta versão?** · Agenda\n\nAs opções documentadas são evidências de relações, mapa candidato e base verificável.\n\n*Exemplo.* Uma atividade atravessa duas Siglas e usa um componente que também serve a outra solução.\n\n*Recomendação.* Comparar as três saídas com a mesma pergunta realista. Escolher a menor que permita ao Analista reconhecer e delimitar a solução.",
+    "destination": "PENDENCIAS-P01-P09.md#p08-1",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P08.2",
+    "group": "P08",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p08-2",
+    "source_excerpt": "**P08.2 · Como o Analista expressa a fronteira funcional da solução?** · Agenda\n\nO mecanismo depende da saída escolhida.\n\n*Exemplo.* A regra antifraude participa de abertura de conta e de concessão de crédito, com papéis distintos.\n\n*Recomendação.* Descrever finalidade, entrada, resultado e papel do componente em cada percurso. Registrar a decisão do Analista com seu alcance.",
+    "destination": "PENDENCIAS-P01-P09.md#p08-2",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P08.3",
+    "group": "P08",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p08-3",
+    "source_excerpt": "**P08.3 · Como reconhecer a mesma solução entre revisões ou entre Workspaces?** · Agenda\n\nÉ preciso decidir se a entrega arquitetural necessita de identidade própria.\n\n*Exemplo.* Duas atividades chamam a mesma jornada por nomes diferentes.\n\n*Recomendação.* Começar por uma referência estável e por quem pode confirmar equivalência, se o recorte escolhido exigir identidade persistente.",
+    "destination": "PENDENCIAS-P01-P09.md#p08-3",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P08.4",
+    "group": "P08",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p08-4",
+    "source_excerpt": "**P08.4 · O que deve constar na revisão de uma solução para o leitor reproduzir sua composição?** · Agenda\n\nUm mapa pode combinar componentes em revisões distintas.\n\n*Exemplo.* Um componente passa para a revisão 2 e outro continua na revisão 1.\n\n*Recomendação.* Preservar as revisões de cada relação técnica e da delimitação funcional que foi validada. Aplicar P04 aos itens afetados.",
+    "destination": "PENDENCIAS-P01-P09.md#p08-4",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P08.5",
+    "group": "P08",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p08-5",
+    "source_excerpt": "**P08.5 · Qual manutenção da representação arquitetural cabe à primeira entrega?** · Agenda\n\nUma alteração pode afetar uma relação técnica sem mudar a finalidade da solução.\n\n*Exemplo.* Um consumidor migra de chamada direta para evento e o processo de negócio continua com o mesmo objetivo.\n\n*Recomendação.* Definir quando a atualização técnica basta e quando a nova composição volta ao Analista. Condicionar a escolha a P08.1 e o público do resultado a P01.2.",
+    "destination": "PENDENCIAS-P01-P09.md#p08-5",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P08.6",
+    "group": "P08",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p08-6",
+    "source_excerpt": "**P08.6 · Quem responde pelo catálogo arquitetural e pela publicação de uma composição reconhecida, caso existam nesta versão?** · Agenda\n\nA delimitação da solução pelo Analista já tem autoridade definida. Falta decidir a propriedade e o ciclo de publicação da representação.\n\n*Exemplo.* Duas Siglas mantêm componentes de uma solução. Há um mapa candidato e uma composição funcional confirmada que mudam em momentos diferentes.\n\n*Recomendação.* Definir quem mantém a identidade, confirma a passagem de candidato à revisão utilizável e escolhe o destino conforme o público autorizado. Avaliar nomenclatura, armazenamento e catálogo na raiz depois de P08.1.\n\n\n## P09 · Conhecimento de Negócios — PE-09\n\nIncorporar o significado de negócio que excede a análise técnica faz parte do escopo. A organização transversal ainda é hipótese. O caso sintético do novo canal permite avançar sem material interno. [Conhecimento de Negócios](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/notas/NEGOCIOS.md)",
+    "destination": "PENDENCIAS-P01-P09.md#p08-6",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P09.1",
+    "group": "P09",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p09-1",
+    "source_excerpt": "**P09.1 · Qual pergunta de negócio deve orientar o primeiro exemplo?** · Agenda\n\nEscolher uma cuja resposta altere um requisito.\n\n*Exemplo.* O canal anterior exige análise manual. O novo canal deve encaminhar o mesmo caso?\n\n*Recomendação.* Usar o exemplo do canal, ou outro sintético que o usuário reconheça, deixando explícito o que já se conhece pela implementação.",
+    "destination": "PENDENCIAS-P01-P09.md#p09-1",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P09.2",
+    "group": "P09",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p09-2",
+    "source_excerpt": "**P09.2 · Que fonte pode demonstrar a regra de negócio aplicável ao caso escolhido?** · Agenda\n\nDocumentação técnica e evidência de execução sustentam o comportamento observado.\n\n*Exemplo.* O código encaminha a proposta, mas só uma política ou orientação legítima esclarece se ambos os canais estão abrangidos.\n\n*Recomendação.* Distinguir políticas, relatos e evidências operacionais. Validar com a área competente a abrangência da fonte e o acesso permitido.",
+    "destination": "PENDENCIAS-P01-P09.md#p09-2",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P09.3",
+    "group": "P09",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p09-3",
+    "source_excerpt": "**P09.3 · Quem pode validar o significado da regra para a atividade?** · Agenda\n\nA autoria de uma implementação não determina a autoridade sobre o produto.\n\n*Exemplo.* O responsável pelo serviço conhece o encaminhamento atual, mas a área do produto pode ter autoridade para decidir sobre o novo canal.\n\n*Recomendação.* Registrar o papel responsável, o alcance de sua manifestação e como solicitar o esclarecimento. Confirmar o responsável real apenas no contexto autorizado.",
+    "destination": "PENDENCIAS-P01-P09.md#p09-3",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P09.4",
+    "group": "P09",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p09-4",
+    "source_excerpt": "**P09.4 · Qual unidade organiza o conhecimento para que as pessoas consigam encontrá-lo?** · Agenda\n\nProduto, domínio, processo e jornada são candidatos.\n\n*Exemplo.* A mesma política aparece em dois canais e atravessa várias soluções.\n\n*Recomendação.* Testar a recuperação partindo da história e da regra, antes de decidir a unidade, sua transversalidade ou a estrutura física.",
+    "destination": "PENDENCIAS-P01-P09.md#p09-4",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P09.5",
+    "group": "P09",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p09-5",
+    "source_excerpt": "**P09.5 · Qual é a menor resposta de negócio útil ao engenheiro e ao agente?** · Agenda\n\nA saída precisa mudar concretamente o refinamento.\n\n*Exemplo.* Ao escrever a história do novo canal, o analista precisa saber se o encaminhamento é obrigatório e que parte permanece indefinida.\n\n*Recomendação.* Testar um registro com significado, alcance, fonte, responsável, vigência e consequência para a história. Manter a lacuna visível quando faltar confirmação.",
+    "destination": "PENDENCIAS-P01-P09.md#p09-5",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P09.6",
+    "group": "P09",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p09-6",
+    "source_excerpt": "**P09.6 · Como saber qual orientação de negócio estava vigente no momento relevante?** · Agenda\n\nA data de uma decisão de produto pode diferir da revisão do código.\n\n*Exemplo.* Uma regra de análise manual termina no próximo mês, enquanto o código ainda conserva o fluxo anterior.\n\n*Recomendação.* Registrar vigência, histórico e confirmação da área responsável. Vincular o efeito prático à história e aplicar P04 para revalidar os derivados autorizados.",
+    "destination": "PENDENCIAS-P01-P09.md#p09-6",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "P09.7",
+    "group": "P09",
+    "nature": "PERGUNTA_HISTORICA",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md#p09-7",
+    "source_excerpt": "**P09.7 · Que público precisa ver a regra de negócio, sua justificativa e as eventuais exceções?** · Agenda\n\nUma política pode ser consultável por uma equipe e ter restrições de cópia.\n\n*Exemplo.* O agente de outra Sigla encontra a referência à política, mas o Workspace tem público mais amplo que a fonte.\n\n*Recomendação.* Definir com a área responsável quais referências ou resumos podem ser usados no destino. Aplicar as autorizações de P04 sem inferir direito de redistribuição.\n\n## Como as decisões se encadeiam\n\n| Quando surgirem estes casos | Usar estes itens juntos | Critério para a rodada |\n|---|---|---|\n| C03 · A contém duas regras de segmento e uma chamada a C. O caso do campo enviado a B e C permite examinar o limite de cada evidência. | P03.1, P03.3–6, P03.11–13, P03.16–18 | Um leitor localiza a evidência de A, reconhece o limite sobre C e entende a consequência para uma ação. |\n| C08 · O contrato em que a resposta se baseava mudou. | P03.14, P04.1–6 | O leitor reconhece qual afirmação perdeu validade, quais usos são atingidos e que evidência permite retomá-los. |\n| C01 e C04 · A raiz carrega, mas uma atividade entre Siglas só é parcialmente acessível. | P01.1–7, P03.5, P03.9, P04.7–10, P05.2–3 e P05.6 | A pessoa consegue explicar o que carregou, em qual revisão, quem pode ver o quê e qual parte pode continuar. |\n| C02 e variação por modalidade · A ferramenta local está desatualizada. Na variação Web, a versão pode não ser observável. | P02.1–5, P03.20 e P04.12 | A verificação indica o que cada modalidade conseguiu demonstrar com a mesma base. |\n| C05 · Uma correção de negócio chega durante o planejamento. | P04.6, P05.4, P06.1–6, P09.2–6 | Outro engenheiro consegue recuperar a mudança e localizar histórias, decisões e testes afetados. |\n| C06 e variação posterior · O consumidor permite descobrir o MCP do ODM via dependência do integrador. Em outra rodada, o MCP é substituído. | P07.1–5, P04.2–4 e P04.7 | A orientação do consumidor aponta para a versão pertinente e o usuário distingue leitura, operação e autorização. |\n| C07 · A aplicação encaminha o caso para análise manual e um novo canal entra na jornada. | P08.1–6, P09.1–7 | O Analista consegue delimitar a solução e identificar quem pode responder se o comportamento vale para o novo canal. |\n\nEstes são critérios para revisar a futura especificação. Os cenários não foram executados como testes de produto. [Cenários C01–C08](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md#cenarios) · [Roteiro de revisão](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/roteiro/REFINAMENTO-E-REVISAO.md)\n\n### Escolhas que podem esperar\n\n- **Encaminhamento de engenharia.** A forma do Motor (programa, script ou conjunto de ferramentas), o que usa análise determinística ou assistida, os formatos, os nomes de arquivos, os adaptadores e os indicadores quantitativos devem ser avaliados contra os exemplos aceitos. Para esse confronto, a engenharia pode produzir alternativas e evidências sem exigir que o usuário desenhe a implementação. P03.19, P03.20, P03.22 e P04.12 definem o que elas terão de preservar.\n- **Validação no banco.** O modelo de acesso por Sigla e serviço e as estruturas corporativas para atualização de ferramentas são relatos do usuário. As políticas, operações, autenticação, meios de obtenção, revisões observáveis e contratos internos de Git, AWS, ServiceNow/IUClick, Devin, Claude Code e ODM precisam de fontes e profissionais autorizados. Uma resposta de produto pode fixar o resultado desejado enquanto a viabilidade operacional permanece a verificar.\n- **Decisões condicionais.** P08.1 determina quanta materialização arquitetural fará parte desta versão. Se a escolha for apenas preservar evidências de relações, os itens sobre catálogo, identidade, manutenção ou publicação de uma base própria podem ser adiados com a razão registrada. Em P06.7 ainda cabe decidir sobre operações corporativas adicionais. A segunda rodada confirmou a inclusão do fluxo excepcional de P03.21, com as condições de HUM-03.\n- **Base e continuidade.** D02-PEN-006 trata da manutenção das cópias. D01-PEN-001/A está materialmente reconciliada no escopo R2. A parcela B dessa pendência registra que a transcrição original integral permanece sem recuperação. Isso não invalida as decisões reproduzidas. Os gates documentais do piloto e os 49 critérios operacionais não são pré-requisitos desta entrevista.\n\n### Registro de continuidade na abertura de P04\n\n| Campo | Situação na abertura de P04 |\n|---|---|\n| Questão inicial | P04.1 · Alcance da atualização incremental e critério de reaproveitamento. |\n| Resposta e alcance | O [fechamento do P03](#fechamento-p03) registra a autorização entre Siglas e o uso imediato de atribuição declarada com origem e revisão. |\n| Próxima revisão | Avaliar as respostas à [rodada de P04](#p04-abertura) por ID; P04.6 já tem uma resposta aplicável. P03.22 e P03.20/C-P03-07 continuam nos refinamentos reservados. |\n| Persistência oficial | **NÃO PERSISTIDO no GitHub.** A base versionada é o HEAD citado no início. Este caderno é material de trabalho para a entrevista. |\n\n**Verificação documental.** As instruções do Projeto foram recebidas automaticamente. O HEAD da branch da primeira entrega foi resolvido no GitHub e as leituras foram fixadas nesse commit. O manifesto da primeira entrega identifica a revisão funcional 1. O manifesto D02 da fundação identifica D02-doc-2, e a branch de consolidação foi confirmada em `8bbd93151640865995fa8a8dfe3d2d5db15da6ec`. Os tamanhos e SHA-256 das cinco cópias 00–04 disponíveis na conversa coincidem com o recibo versionado dessas Fontes. Isso permite identificar os documentos consultados. A aplicação de alterações futuras no Projeto e a publicação de decisões no Git exigem evidências próprias. [Manifesto da primeira entrega](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/primeira-entrega/MANIFESTO.json) · [Manifesto D02](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/docs/01-discovery/discovery-02/MANIFESTO.json) · [Recibo das cinco Fontes](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/5f1d502a0b75fa24eb7616f930c2cf0415485ec8/auditorias/prontidao-discovery-02/FONTES-NATIVAS-APLICADAS.json)",
+    "destination": "PENDENCIAS-P01-P09.md#p09-7",
+    "status": "PENDENTE_REFINAMENTO"
+  },
+  {
+    "id": "R03/P03.1",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Consolidar no onboarding todo conhecimento suficientemente válido identificado. Para uma chamada HTTP consumida, permitir recuperar URL, verbo, campos de entrada com tipos e exemplos quando possível, campos de saída, headers, parâmetros de consulta, variáveis de caminho, configurações de timeout e status esperados. Explicar o tratamento dado pelo próprio repositório às respostas quando ele muda uma conclusão material. A política de explicação, referência e enriquecimento está na seção 2.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.1",
+    "source_detail": "Ed. 2, 4, 7 e 8; C-P03-01/02, R1/R2.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.2",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "A finalidade do onboarding é fixa. O Engenheiro indica o que importar. O Motor examina, conforme aplicável, responsabilidades, fluxos, regras, contratos de entrada e saída, integrações, APIs, workers, tópicos, filas, bancos, configurações, variáveis, bibliotecas, frameworks, recursos de infraestrutura e procedimentos documentados de operação e teste. O uso frequente de AWS e Terraform foi relatado pelo usuário para seu ambiente. O DoD corrigido está na seção 3.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.2",
+    "source_detail": "Ed. 2, 4, 7 e 8; C-P03-03/08, R4.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.3",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Relacionar cada afirmação à revisão e à evidência tão específica quanto o material permitir, do geral ao particular. Uma referência pode chegar a arquivo, seção, classe, método, linha, coluna, cláusula contratual ou bloco de infraestrutura. Quando a explicação requer duas fontes, manter ambas.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.3",
+    "source_detail": "Ed. 2.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.4",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "O Meso reúne os repositórios da Sigla como submódulos e indexa suas responsabilidades para conduzir uma dúvida até os Micro pertinentes. O índice identifica o material estudado, suas revisões e os limites conhecidos. O catálogo da raiz encaminha o assunto à Sigla quando ela for inicialmente desconhecida. A delimitação funcional de uma solução, inclusive entre Siglas, compete ao Analista.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.4",
+    "source_detail": "Ed. 2–4, 7–10; R6–R8, S3.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.5",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "O usuário dispensou conhecer ou provar o total de repositórios da Sigla. Uma busca pode abranger todos os repositórios que o agente consiga encontrar dentro do acesso permitido. O resultado identifica a seleção ou busca efetiva, o que foi obtido e analisado e as falhas conhecidas.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.5",
+    "source_detail": "Ed. 2; P03.7 e P03.9.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.6",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Na relação examinada por um lado, registrar sentido, contrato ou evento observado, origem e revisão, limite da conclusão e o que teria de ser consultado no outro lado. O agente pode sugerir a inclusão de um repositório pertinente na atividade; a decisão cabe ao Engenheiro.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.6",
+    "source_detail": "Ed. 2 e 4; C-P03-01.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.7",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Quatro entradas: indicação de repositórios em diretório local, repositórios arrastados para a pasta da Plataforma, links GitHub ou busca por Sigla no GitHub. A pasta local usa a branch em que está, salvo indicação do Engenheiro, e retrata a cópia de trabalho autorizada com alterações locais distinguidas do commit-base. O link remoto para a raiz usa `main`; um link de branch específica é escolha explícita. Falha de obtenção segue P03.9.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.7",
+    "source_detail": "Ed. 2, 4 e 5; C-P03-04/05.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.8",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Segundo o usuário, o nome do repositório identifica obrigatoriamente sua Sigla no ambiente descrito. O Motor identifica esse pertencimento e organiza a cópia na pasta correspondente. A participação em atividade de outra Sigla preserva o pertencimento original.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.8",
+    "source_detail": "Ed. 2 e 3.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.9",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Para cada parte material incompleta, indicar revisão, conteúdo examinado, material faltante, motivo conhecido, consequência e ponto de retomada. Entregar a parte sustentada. Delimitar a conclusão que depende da fonte ausente.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.9",
+    "source_detail": "Ed. 2.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.10",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Uma nova execução ou um novo entendimento validado sobre um repositório deve refletir-se no material pertinente de sua Sigla. O Meso se enriquece conforme os seus Micro. Preservar a revisão conhecida dos demais repositórios e a cobertura da rodada.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.10",
+    "source_detail": "Ed. 2 e 3; S1.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.11",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Na interação posterior, confrontar a evidência com a ação concreta pretendida. O agente explica o que pode afirmar ou fazer com segurança e quais decisões ainda dependem de outra fonte.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.11",
+    "source_detail": "Ed. 2; distinção produtor/consumidor da ed. 8.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.12",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Diante de divergência, confrontar objeto, revisão, condições e natureza das fontes. Preservar evidências e interpretações concorrentes e identificar a evidência necessária para distingui-las. Teste documentado e execução observada sustentam afirmações diferentes.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.12",
+    "source_detail": "Ed. 2, 8 e 9; S1/S3.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.13",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Durante a produção, a falta de suporte imprescindível à fidelidade da base ou à delimitação de sua cobertura impede a conclusão dependente. Se a criticidade continuar incerta após investigação autorizada, levar a dúvida ao Engenheiro. Na interação, avaliar o impacto sobre a pergunta ou ação quando ela existir. O agente pode entregar o trabalho independente.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.13",
+    "source_detail": "Ed. 2 e 7, com a correção da ed. 8; [casos aceitos de A](../evidencias/ESCLARECIMENTOS-ONBOARDING.md).",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.14",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Regra de pipeline **relatada pelo usuário** para os repositórios em questão: a release branch mais recente representa o código de HOM. Registrar o commit efetivamente examinado. A primeira entrega pode interpretar evidência autorizada de implantação ou configuração fornecida pelo Engenheiro, delimitando componente, revisão e ambiente. Atribuir uma ocorrência a uma requisição precisa de evidência daquela ocorrência.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.14",
+    "source_detail": "Ed. 2–5; C-P03-06.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.15",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Quando necessária intervenção, levar a menor pergunta útil, as hipóteses ainda compatíveis, as referências, as tentativas autorizadas e a decisão afetada. Diferenciar dúvida factual sobre a revisão de escolha de produto futura.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.15",
+    "source_detail": "Ed. 2.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.16",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Catalogar e comunicar cada lacuna ou incoerência tão logo percebida, com a informação sustentada, a limitação e a próxima ação. O aviso explicita se o agente pode continuar sozinho ou se uma decisão humana é necessária naquele momento.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.16",
+    "source_detail": "Ed. 2 e 3.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.17",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Reapresentar uma ressalva nas perguntas e atividades em que houver dependência direta ou indireta, inclusive fora do Workspace. Mostrar a relação concreta e a consequência para o pedido atual. Se a ligação ainda for hipótese, explicitar o que falta para confirmá-la.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.17",
+    "source_detail": "Ed. 2.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.18",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "A primeira entrega prioriza o Motor sem interface gráfica própria construída pela equipe. O agente apresenta em linguagem direta a afirmação afetada, a fonte, a limitação e a próxima ação. A informação de detalhe deve ser acessível por assunto.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.18",
+    "source_detail": "Ed. 2.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.19",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "Ao atender a um pedido, investigar até haver resposta suficientemente fundamentada conforme sua natureza, escopo, critérios e implicações. Reportar dúvidas e inconclusões e oferecer aprofundamento conforme a resposta do Engenheiro. Para encerrar o onboarding, usar o DoD do produtor da seção 3.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.19",
+    "source_detail": "Ed. 2 e 8.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.20",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "**Avaliação adiada.** O usuário reservou a definição de testes, métodos, resultados esperados, responsáveis e provas de segurança, precisão e confiabilidade das bases.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.20",
+    "source_detail": "Ed. 2, 7 e 8; C-P03-07/R10.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.21",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "A primeira entrega oferecerá o fluxo de solicitação excepcional de execução local da aplicação estudada nas condições de HUM-03. Após esgotar investigações autorizadas diante de uma dúvida intransponível, oferecer esclarecimento direto pelo Engenheiro. Para propor execução, indicar dúvida, tentativas, finalidade, ambiente, dados, pré-requisitos, comandos e efeitos e obter permissão específica por ocorrência.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.21",
+    "source_detail": "Ed. 2 e 3; [HUM-03](../../REGISTRO.md#hum-03). A segunda resposta rotulada “P03.2” na primeira rodada foi vinculada a P03.21 pelo assunto e pela posição.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P03.22",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "O conjunto de documentos e referências deve favorecer navegação, leitura, compreensão, explicação e modificação autorizada por qualquer agente, com profundidade, qualidade, rapidez e precisão, buscando menor consumo de ACUs, tokens, contexto e recursos. A direção funcional foi aceita; a estrutura física, a granularidade, os formatos, os índices e as instruções concretas ficam **postergados**.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "P03.22",
+    "source_detail": "Ed. 2, 4, 5, 7 e 8; R5.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/C-P03-01",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "**Aceito.** A explicação da resposta da integração alcança as condições, os caminhos e os efeitos materiais encontrados dentro de A, incluindo encerramento sem publicação. Para o receptor seguinte valem os limites de P03.6.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "C-P03-01",
+    "source_detail": "Ed. 3–4; P03.1.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/C-P03-02",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "**Aceito.** Uma origem principal por fato, referências nos demais pontos e atualização de todo significado afetado.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "C-P03-02",
+    "source_detail": "Ed. 4; P03.1, P03.12, P03.22.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/C-P03-03",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "**Direção aceita.** Cobrir aspectos e unidades tanto quanto possível e declarar os limites. A edição 8 fixou o DoD da produção, sem pressupor uma pergunta particular de uso.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "C-P03-03",
+    "source_detail": "Ed. 4 e 8; P03.2.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/C-P03-04",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "**Aceito.** Quando o objeto é a pasta indicada, retratar a cópia de trabalho examinada, incluindo alterações autorizadas e arquivos novos pertinentes, distinguindo-a do commit-base. A exigência de atualização anterior a todo push tem regras próprias na seção 4.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "C-P03-04",
+    "source_detail": "Ed. 4–5, 7–9; P03.7 e R9.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/C-P03-05",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "**Aceito.** Um link GitHub que nomeia explicitamente outra branch escolhe essa branch; o link remoto para a raiz mantém o padrão `main`. Falta de acesso é tratada como cobertura parcial.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "C-P03-05",
+    "source_detail": "Ed. 4–5; P03.7.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/C-P03-06",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "**Aceito.** Registrar parâmetro, padrão declarado no código, ponto de substituição e valor efetivo se houver evidência autorizada, ou seu desconhecimento quando faltar. A forma física desse registro segue em P03.22.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "C-P03-06",
+    "source_detail": "Ed. 5; P03.14.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/C-P03-07",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "**Adiado.** Comparação entre representações quanto a precisão, tempo, recursos e custo por tarefa e modalidade de agente pertence à futura avaliação de P03.20.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "C-P03-07",
+    "source_detail": "Ed. 4–8 e fechamento da ed. 10.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/C-P03-08",
+    "group": "P03",
+    "nature": "SALDO_FUNCIONAL_DOCUMENTADO",
+    "description": "**Aceito no que se aplica.** Para mensageria, documentar contrato, origem/destino conhecidos e efeitos do processamento, inclusive sucesso, duplicidade ou falha quando demonstrados. Para banco, operação, dados lidos/alterados e efeitos de resultados relevantes, inclusive vazio ou erro.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+    "source_locator": "C-P03-08",
+    "source_detail": "Ed. 4; P03.1–2.",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Conservar condições da descrição; P04 retifica consentimento genérico de leitura, preservando S2; sem prova de engenharia."
+  },
+  {
+    "id": "R03/P04.1",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Reaproveitar conhecimento cuja validade permaneça demonstrável para a nova revisão; investigar alterações e dependências afetadas. Economia de trabalho não permite presumir validade porque um arquivo ficou igual. Alcance incremental e métodos ainda precisam de demonstração.",
+    "source_message": null,
+    "source_locator": "C1-A3, aceite anterior relatado; HUM-08; engenharia posterior",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.2",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Ao detectar mudança, impedir o uso como atual das afirmações afetadas e das conclusões dependentes; preservar informação independente. Registrar impacto indireto incerto e destino inacessível, sem alegar atualização nele.",
+    "source_message": null,
+    "source_locator": "C1-A3, aceite anterior relatado; HUM-08",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.3",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Restabelecer a validade somente por evidências pertinentes à afirmação e ao estado estudado. Código pode sustentar comportamento previsto; ocorrência executada exige sua evidência. Parte inconclusiva conserva ressalva.",
+    "source_message": null,
+    "source_locator": "C1-A3, aceite anterior relatado; HUM-08",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.4",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Distinguir atualização individual Micro de composição Micro/Meso/raiz. Identificar revisões e ponteiros, manter composição anterior identificada, registrar falha e retomar a etapa incompleta. Corrigir raiz se significado ou referência forem afetados. Não prometer atomicidade física.",
+    "source_message": null,
+    "source_locator": "C1-A3, aceite anterior relatado; D02-RET-004; U3/C-P04-05 reforça correspondência",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.5",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Quando a base mudar, reexaminar o significado das contribuições antes de incorporar. Reler revisão vigente, aproveitar partes independentes verificadas, preservar divergências que a evidência não resolve. Ausência de conflito textual não prova compatibilidade semântica.",
+    "source_message": null,
+    "source_locator": "C1-A3, aceite anterior relatado; P03/S1/S3",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.6",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Esclarecimento reutilizável preserva fonte, natureza, revisão, condição e público. Para novo entendimento, pedido único ao Analista com entendimento, origem, destino e efeito; silêncio gera pendência, negativa descarta aquele destino. Correção inequívoca segue S1.",
+    "source_message": null,
+    "source_locator": "P03/S2, C1-A1/A3/A4; U3/C-P04-01 mantém aprovações específicas",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.7",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Eliminar consentimento genérico adicional para ler fontes internas já legitimamente acessíveis. Manter aceites específicos de decisões humanas, operações sensíveis e alterações já expressamente definidas. Não derivar direitos de uma cópia disponível.",
+    "source_message": null,
+    "source_locator": "U3/C-P04-01, decisão direta; substitui leitura absoluta de U2",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.8",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Dispensar controle próprio de expiração; reconhecer restrições reais encontradas. Conhecimento pode permanecer quando conservação e distribuição continuam legítimas; perda de fundamento impede uso da cópia. Ausência de expiração não é irrevogabilidade.",
+    "source_message": null,
+    "source_locator": "U3/C-P04-02, decisão direta; delimita U1/U2",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.9",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Aceitar publicidade corporativa da existência e identidade dos repositórios; leitura do índice não cria acesso ao destino. Classificação padrão de Workspaces/mapas permanece em P01.",
+    "source_message": null,
+    "source_locator": "U2/P04.9 e U3/C-P04-03; decisão direta",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.10",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Circulação legítima entre camadas como padrão, sem aprovações repetitivas; origem principal por fato, preferir referências suficientes e autorizadas, proteger segredos/dados/direitos de terceiros, conservar origem/revisão/alcance/restrições conhecidas.",
+    "source_message": null,
+    "source_locator": "U3/C-P04-03/07, decisão direta; delimita 'sem limitações' de U2",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.11",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Conhecimento reflete estado efetivamente usado: branch, commit-base e alterações locais pertinentes. Cada atividade mantém revisão/composição escolhida, sem promoção silenciosa de outra branch. Preservar ponteiros pretendidos dos submódulos.",
+    "source_message": null,
+    "source_locator": "U1/P04.11, U2/P04.11 aceita recomendação; A3 e U3/C-P04-05/08",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/P04.12",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Usar informações independentes suficientemente compreendidas. Nunca usar como premissa informação de significado material não recuperado; buscar outra evidência autorizada ou apresentar limitação e suspender conclusão dependente.",
+    "source_message": null,
+    "source_locator": "U3/P04.12, decisão direta; não confundir Git atualizado e compreensão",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-01",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "A frase intermediária 'descartar sistema de autorizações' é delimitada: remover apenas consentimento genérico para leitura interna acessível. Preservar aprovações específicas existentes.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "P04.7, P03/S1/S2, HUM-06/09, PE-01/06",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-02",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Sem gerenciador próprio de expiração. Reconhecer perda efetiva de acesso e legitimidade de retenção/distribuição. Não continuar usando apenas porque existe cópia.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "P04.8, D02-PEN-004, PE-01",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-03",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Compartilhar legitimamente entre camadas sem repetição de aprovação; origem principal, referência preferida quando suficiente/autorizada, respeito a dados e direitos, proveniência preservada. Tecnologia de classificação não escolhida agora.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "P04.9/10, C-P03-02, P01/P03.22",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/P04.12",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Timeout compreendido pode sustentar resposta independente; contrato incompreendido não pode ser declarado conferido. Obter evidência autorizada alternativa ou explicitar limitação.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "P04.12, P03.11/13/19, PE-02/04",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-04",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Ao iniciar agente na pasta da Plataforma, não ler automaticamente bases de todos os repositórios, Siglas, Macro, Workspaces, arquitetura e negócio. Refinar depois descoberta gradual, dirigida e otimizada para evitar contexto excessivo, custo e imprecisão.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "P03.22, PE-02, P01.4, PE-07/08/09",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-05",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Engenharia deve demonstrar correspondência entre estado usado, commit-base, diferenças locais e conhecimento; atualização de submódulos preserva ponteiros/composição e não muda branch silenciosamente.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "P04.4/11, P03.7, D02-PEN-003, PE-01/04",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-06",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Distinguir falta de acesso direto, falta de onboarding, referência indireta e conhecimento histórico legítimo. Não baixar C não significa inexistir informação sobre C.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "P03.6/9, P04.7/12, HUM-06",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-07",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Manter uma origem principal por fato e referências ou derivados verificáveis. Mudança de significado exige revalidar consumidores afetados conforme P04.1–4.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "C-P03-02, P04.1–4/10, HUM-08",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-08",
+    "group": "P04",
+    "nature": "RELATO_CORPORATIVO",
+    "description": "Relato humano: modificações chegam à main após pipeline que efetivamente faz deploy em PROD; processo correspondente nas releases/HOM. Adotar convenção no universo relatado, mantendo commit exato.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "P03.14/P04.11; natureza RELATO, inspeção corporativa posterior",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-09",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "CLI local é referência concreta; Web/Desktop não presumem mesma cópia nem contexto automático. Comportamento funcional comum e máxima agnosticidade/flexibilidade, com particularidades de cada ferramenta.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "PE-02/P02, P03.22, D02-PEN-005",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "R03/U3/C-P04-10",
+    "group": "P04",
+    "nature": "DECISAO_OU_ACEITE_QUALIFICADO",
+    "description": "Reservar cenário para qualidade: resultados esperados, recuperação de evidência, lacunas e custo por modalidade. Mecanismos de cumprimento de restrições/princípios/instruções por todos os agentes serão definidos posteriormente.",
+    "source_message": "518d8f93-6536-4b3b-a49d-86faf5033896",
+    "source_locator": "P03.20/C-P03-07, PE-02/04/07, avaliação futura",
+    "destination": "P04-CONSOLIDADO.md",
+    "history": "U1→U2→U3; ver histórico e qualificações no registro consolidado"
+  },
+  {
+    "id": "HUM-01",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-01 — Profundidade e qualidade\n\nNatureza: Intenção/direção de produto reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.1; revisão fonte R5.\n\nInvestigar amplamente os repositórios e aprofundar quanto viável: aspectos técnicos, execução documentada, testes, documentação, regras de negócio, arquitetura, relações e conhecimento existente. Explicar responsabilidades, fluxos, contratos, dependências, regras e riscos com suportes e contraevidências. Construir evidências exatas por repositório/commit/arquivo/linhas/contrato; avaliar precisão e segurança da absorção. Declarar escopo lido/não lido, exclusões, inacessibilidades, contraditórios e limites. Integralidade é intenção de cobertura; não prova compreensão perfeita nem autoriza execução.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-01",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-02",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-02 — Autonomia fundamentada\n\nNatureza: Direção de produto reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.2; revisão fonte R5.\n\nInvestigar autonomamente fontes autorizadas e dependências pertinentes, formular hipóteses e esgotar esclarecimento documental legítimo antes de escalar. Pedir intervenção por impedimento material, autoridade necessária ou decisão de produto realmente ambígua. Reduzir tarefas rotineiras do engenheiro, sem ampliar acesso ou substituir evidência por confiança.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-02",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-03",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-03 — Execução local excepcional futura\n\nNatureza: Decisão/restrição humana reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.3; revisão fonte R5.\n\nNa IDE futura, somente diante de dúvida, pendência ou necessidade de esclarecimento intransponível após tentativas autorizadas esgotadas, pode-se pedir permissão específica ao engenheiro para subir a aplicação localmente. O engenheiro pode responder diretamente em alternativa. Documentar dúvida, tentativas, finalidade, ambiente/dados, pré-requisitos, comandos e efeitos previstos; solicitar apenas insumos faltantes necessários se a dependência for real. Conhecer como executar não autoriza executar. Esta missão documental proíbe solicitar/usar a exceção para executar aplicações. Retifica D01-RST-001 no alcance descrito em RETIFICACOES.md, preservando a decisão e a autoridade humana.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-03",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-04",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-04 — Nenhuma refatoração no onboarding\n\nNatureza: Decisão/restrição humana reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.4; revisão fonte R5.\n\nDurante onboarding/importação: absolutamente nenhuma refatoração da aplicação, renomeação de APIs, reorganização de arquivos ou modernização oportunista. A orientação Agent-Centric passa a valer desde a importação para modificações e implementações posteriores autorizadas no escopo efetivamente necessário; não exige reestruturar todo arquivo tocado, dependência ou repositório. Mudança arquitetural adicional depende de especificação e escopo próprios.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-04",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-05",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-05 — Topologia Micro/Meso/Macro\n\nNatureza: Decisão conceitual/topológica reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.5; revisão fonte R5.\n\nConhecimento canônico em Git. Micro é o repositório individual. Meso é um repositório específico por sigla/conta e contém Micro como Git submodules. Macro é workspace com repositório Git e contém Meso como submodules. A relação organizacional fina sigla/conta/projeto/domínio continua a refinar sem reabrir essa escolha. Não há sincronização de ponteiros, acesso herdado ou direito de redistribuição implícitos. Clonagem, atualização, permissões e UX ainda exigem especificação. D01-REL-004 e D01-DEC-006 sustentam a topologia; a síntese genérica D01-REL-003 deve ser lida pela retificação D02.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-05",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-06",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-06 — Autorizações herdadas do D01\n\nNatureza: Síntese editorial de decisões e intenções D01-R2. Modo: Síntese do documento D01-R2 consultado, não declaração humana direta integral no pedido R4/R5. Fonte: D02-S01 §4.6; revisão fonte R5.\n\nPreservar separadamente: inventário/leitura inicial autorizados no onboarding; consulta posterior ao legado diante de lacuna, que exige permissão e aviso de inconformidade; buscas exteriores, precedidas de finalidade/fonte/escopo e autorização; execução; escrita/publicação; armazenamento derivado; redistribuição; exclusão. Uso provisório Agent-First é permitido e referência preferencial/padrão, mantendo originais; consultas e código nessa fase dependem do escopo autorizado e não significam verificação definitiva. Exclusão sempre requer aprovação expressa do objeto/revisão. Sistemas inacessíveis podem ser estudados por fontes indiretas autorizadas, sem inventar implementação interna ou exigir submódulo para todo sistema. Preservar referência externa e incorporar só derivado legitimamente armazenável e compartilhável. Suportar autorização pontual/reutilizável e individual/coletiva sem criar acesso inexistente, permanência irrestrita ou direito fora de escopo. Identidade, validade, revogação, schema e mecanismo de fiscalização são propostas a especificar; registros segregados são controles desta missão, sem etiqueta de decisão técnica humana.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-06",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-07",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-07 — Dez axiomas\n\nNatureza: Direções de produto reproduzidas; semântica operacional candidata. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.7; revisão fonte R5.\n\nOs dez rótulos são Agent-Centric, Agent-Oriented, AI-Intent, SDD, Harness Engineering, Contexto Mínimo Necessário, Roteamento de Contexto, Contexto-Ótimo, AI-Based Architecture e agnosticidade de modelo/agente/ferramenta. O dono das definições temáticas é docs/fundacao/axiomas-arquiteturais.md, AX-01..AX-10 revisão 1. Nomes, direção, interpretação proposta, tecnologia exemplificativa, dependências e evidência de capacidade são classes distintas. Sem ratificação PGC/CT, stack aprovada, garantia de eficácia ou capacidade implementada.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-07",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-08",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-08 — Atualização e drift\n\nNatureza: Direção/restrição de produto reproduzida. Modo: Declaração reproduzida pelo usuário na missão R4, conforme dossiê R5; original histórico não recuperado. Fonte: D02-S01 §4.8; revisão fonte R5.\n\nMudança agêntica deve atualizar ou revalidar conhecimento afetado no mesmo ciclo commit/PR, antes de fechar, relacionando código/contrato/conhecimento/validação. Multirrepositório explicita commits e ponteiros em transação lógica verificável, sem prometer atomicidade física. Inconsistência mantém o ciclo dependente aberto/bloqueado. Drift tem quatro estágios com entrada/saída/prova: detectar alteração externa; invalidar conhecimento afetado e impedir uso como atual; reconciliar conteúdo/relações; verificar nova revisão contra evidências. Detecção não corrige; reconciliação sem verificação não restaura validade. Sem monitor real, detecção ocorre na próxima leitura/ciclo executado. Mecanismos técnicos são candidatos.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-08",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-09",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-09 — Colaboração, papéis e pendências\n\nNatureza: Síntese editorial de decisões/intenção D01-R2. Modo: Síntese do documento D01-R2 consultado, não declaração humana direta integral no pedido R4/R5. Fonte: D02-S01 §4.9; revisão fonte R5.\n\nCompartilhar e consolidar entre autorizados preservando autonomia, concorrência, revisão-base, publicação controlada e rastreabilidade. Push de trabalho não publica conhecimento aprovado. Esclarecimentos/correções do engenheiro depois do onboarding retroalimentam Micro/Meso/Macro pertinentes com autorização e validação. Catalogar pendências estruturadas, hierarquizadas, instrutivas e disponíveis por relevância em cada leitura/ciclo, sem carregar tudo sempre. D01-NEC-001, REL-005, DEC-007, DEC-016 e DEC-017 sustentam a direção; algoritmo, gatilhos e modalidade de workspace continuam candidatos.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-09",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-10",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-10 — Nomes de documentos futuros\n\nNatureza: Proposta editorial preservada do índice material R3. Modo: Reconstrução/síntese editorial indicada no PM; não decisão técnica humana. Fonte: D02-S01 §4.9; revisão fonte R5.\n\nAGENTES.MD e PENDENCIAS.MD são nomes propostos para artefatos da IDE futura: finalidade, contrato e reconhecimento por ferramentas ainda a definir. São distintos de AGENTS.md operacional; não renomeá-lo, substituí-lo ou criar colisões, inclusive em sistemas sem distinção de maiúsculas. Nenhum desses dois artefatos futuros é criado nesta consolidação.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-10",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  },
+  {
+    "id": "HUM-11",
+    "group": "TRANSVERSAL",
+    "nature": "CONFORME_DECLARACAO_DA_FONTE",
+    "description": "## HUM-11 — Maturidade e backlog\n\nNatureza: Síntese editorial de limites e direção de discovery. Modo: Reconstrução/síntese editorial indicada no PM; não decisão técnica humana. Fonte: D02-S01 §4.10; revisão fonte R5.\n\nInvestigar e especificar produto completo, UX, regras de negócio, permissões, estados, exceções, segurança, evidências e operação, sem antecipar implementação. Conclusão com pendências não críticas preserva catálogo/ressalvas; criticidade requer critérios rigorosos e incerteza material escala. Taxonomia, limiares, layout, stack e mecanismos candidatos não são decisões aprovadas. Relatos do banco/CI-CD/GMUD/scheduled/ambientes/acesso não são políticas universais nem implantação comprovada.",
+    "source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/0cc6456fbd7613b9a4369d60684d0fe1170a2ed2/docs/01-discovery/discovery-02/REGISTRO.md#hum-11",
+    "destination": "BASE-P03-HUM.md",
+    "conditions": "Aplicar retificações e P04 sem alterar origem histórica/natureza."
+  }
+]

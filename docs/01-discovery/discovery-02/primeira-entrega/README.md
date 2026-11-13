@@ -1,3 +1,11 @@
+# Rota vigente R03 — 13/11/2026
+
+Leia a [consolidação P03/P04 R03](consolidacao-r03/README.md) na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o manifesto R03 e o recibo posterior por commit imutável. P03 conserva seus aceites e adiamentos; P04 está funcionalmente encerrado no alcance qualificado pela fonte recuperada, com proveniência indireta dos aceites iniciais. P01–P09 têm catálogo granular e prompt de continuidade. A R03 distingue decisão, proposta, relato corporativo e comprovação; sem código de produto, merge, ratificação ou mudança de permissões.
+
+O conteúdo abaixo é o snapshot anterior, preservado literalmente. Pontos de retomada, estados de entrevista e hashes anteriores valem para a revisão ali identificada; ler a sobreposição R03 para o saldo atual. Os manifestos D02-doc-2/R01/R02 permanecem históricos, sem certificar os novos bytes desta navegação.
+
+---
+
 # Primeira entrega da Plataforma/IDE de Engenharia Agêntica
 
 **Comece aqui para continuar o Discovery da primeira entrega.** O perímetro funcional da revisão 1 está fechado em nove frentes. Há decisões sobre como a Plataforma deve se comportar e pontos ainda a especificar. O trabalho seguinte é aprofundar uma frente por vez, registrar o saldo de cada rodada e revisar o conjunto quando as nove tiverem sido percorridas. A regra de comunicar lacunas assim que percebidas continua valendo durante todo o percurso.

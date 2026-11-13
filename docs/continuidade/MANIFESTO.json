@@ -1,39 +1,40 @@
 {
   "schema_version": "continuidade-1",
   "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
-  "branch": "proposta/discovery-02-consolidacao",
-  "record_id": "CONT-REG-0003",
-  "revision": 2,
-  "record_path": "docs/continuidade/CONT-REG-0003.json",
+  "branch": "proposta/d02-primeira-entrega-refinamentos",
+  "record_id": "CONT-REG-0004",
+  "revision": 3,
+  "record_path": "docs/continuidade/CONT-REG-0004.json",
   "normative_effect": "AUSENTE",
-  "status": "ORIENTACAO_VIGENTE_DISCOVERY",
-  "replaces_active_route": "CONT-REG-0002; critério de prontidão da entrevista substituído pela determinação direta de 01/11/2026",
-  "historical_manifest": "docs/continuidade/historico/pre-d02/MANIFESTO.json",
+  "status": "ORIENTACAO_VIGENTE_DISCOVERY_R03",
+  "base_commit": "0cc6456fbd7613b9a4369d60684d0fe1170a2ed2",
+  "replaces_active_route": "CONT-REG-0003 apenas na rota temática; prontidão do Discovery preservada",
+  "historical_manifest": "docs/continuidade/historico/pre-r03/MANIFESTO.json",
   "files": [
     {
       "path": "RETOMADA.md",
-      "bytes": 1315,
-      "sha256": "7481b231f0691ed3b4c110c9e49766c7e23baa1e9c5ad5ce9c69531122859059"
-    },
-    {
-      "path": "docs/continuidade/CONT-REG-0003.json",
-      "bytes": 1564,
-      "sha256": "206de92f2b32d7a2d80f1e22d82c16406ef044fafc4f6df6ca00afde59f66ce2"
-    },
-    {
-      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
-      "bytes": 8273,
-      "sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a"
+      "bytes": 2300,
+      "sha256": "1f729cbbc71486aadf5b5d7c41960e3b73a5e97f4fae8e94a9ff2c21e9104727"
     },
     {
       "path": "docs/01-discovery/discovery-02/RETOMADA.md",
-      "bytes": 3614,
-      "sha256": "9c98611ac71c3c005062c0a932de0aeec587af80d97cf4b52e0b7d5e4aa45aa1"
+      "bytes": 4568,
+      "sha256": "f40c7193242ef790b8753a9cf9309ed71af56bb4a8272819cdfb35bac648ae7c"
     },
     {
-      "path": "docs/01-discovery/discovery-02/PRONTIDAO.md",
-      "bytes": 3658,
-      "sha256": "ef35add1f16037211d48a0c398435dcfc961df9850161765d0fb1b2bc85043f0"
+      "path": "docs/continuidade/CONT-REG-0004.json",
+      "bytes": 1949,
+      "sha256": "82c2b56fbc047814428d3124102bbe9eff29f6fa82099d90ee7b485651864e9d"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/README.md",
+      "bytes": 4926,
+      "sha256": "0c0cd0912bcab3e7d9f99014d4b20996c9a5af49182a34e1f3c148613e9b78d3"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/CONTINUIDADE.md",
+      "bytes": 6694,
+      "sha256": "7afe9b4066a6c7624b266738bdab740d769d619d66dd92f36e0905a5829765e8"
     }
   ]
 }
