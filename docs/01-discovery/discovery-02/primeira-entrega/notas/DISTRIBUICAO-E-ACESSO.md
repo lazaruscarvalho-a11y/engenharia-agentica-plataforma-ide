@@ -1,3 +1,13 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](../consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](../consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](../consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
 # Distribuição da raiz da Plataforma e acesso aos contextos de trabalho
 
 **Revisão 3 · Fluxo aceito em Discovery.** A primeira entrega distribui a raiz comum pelo GitHub. Ao iniciar, o usuário atualiza essa raiz. Ao abrir um Workspace, a Plataforma busca os repositórios pertinentes com a credencial do usuário e informa quais foram carregados, em que revisão e onde faltou acesso. O modelo de extensões locais abrange skills, instruções, comportamentos, documentação e MCPs acrescentados depois do onboarding. [Extensões por escopo](EXTENSOES-POR-ESCOPO.md)

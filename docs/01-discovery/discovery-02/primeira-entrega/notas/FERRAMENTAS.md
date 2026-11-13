@@ -1,3 +1,13 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](../consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](../consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](../consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
 # Devin e Claude Code na primeira entrega do Motor
 
 **Revisão 1 · Decisão de escopo em Discovery.** As ferramentas de IA da primeira entrega do Motor de Onboarding serão **Devin**, nas modalidades **Web, CLI e Desktop**, e **Claude Code**. Segundo o usuário, são as duas ferramentas utilizadas com mais frequência e consistência na empresa. O panorama anterior incluía também o GitHub Copilot. A decisão atual retira o suporte específico ao Copilot da primeira entrega e deixa sua eventual inclusão para outro momento.

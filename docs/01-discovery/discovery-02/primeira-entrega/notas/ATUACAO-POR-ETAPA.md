@@ -1,3 +1,13 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](../consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](../consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](../consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
 # Atuação do agente por etapa na primeira entrega
 
 **Revisão 1 · Direção de produto em Discovery.** A primeira entrega da Plataforma deve orquestrar como o agente interpreta uma mensagem, investiga o assunto, atua e responde conforme a etapa e o objetivo da atividade no Workspace. O usuário requer essa capacidade já na primeira entrega e pede que a orquestração seja consistente, clara, detalhada e resiliente. O termo *papel* descreve aqui a atuação esperada naquele momento. A quantidade de agentes, a distribuição de responsabilidades técnicas e o mecanismo de orquestração continuam em refinamento.

@@ -1,0 +1,411 @@
+{
+  "schema_version": "consolidacao-r04-1",
+  "revision": 4,
+  "date": "2026-11-13",
+  "timezone": "America/Sao_Paulo",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/d02-primeira-entrega-refinamentos",
+  "pr": 9,
+  "base_commit": "5b9550b56d0929109231863b4546936e1b4d7ee1",
+  "base_tree": "a1cee1beec8c855f40a02b3311868882d5119734",
+  "source_thread": "01a1d60a-f1ae-7173-94cb-03aec33bf344",
+  "source_messages": 46,
+  "scope": "Consolidação documental autorizada da sessão P01–P09; sem implementação/merge/ratificação",
+  "publication_status": "CANDIDATO; comprovação por recibo posterior separado e releitura por commit imutável",
+  "self_reference": "Não inclui o próprio hash nem o recibo que certificará o content_commit; a localização imutável será dada pelo recibo.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 5910,
+      "sha256": "ab927bed1bc59dd19c4db43353c859318ea9ba6af40f6395216672e8de0a8d3e",
+      "git_blob_sha1": "ab7f10a81b93ffcd6b1d4afa6eae72e9104541bb"
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "bytes": 4502,
+      "sha256": "a55e204ef8313fc92b19ec1792032fafadf223b69fd054046103fd0b4e05ac37",
+      "git_blob_sha1": "c15bfb7ba0ef2d321e70d292cbbbefd6127524fa"
+    },
+    {
+      "path": "RETOMADA.md",
+      "bytes": 3547,
+      "sha256": "b3086aab7a7f0c317b2c496e346c8448eef7795cd34e62df57cee34dc6c4c604",
+      "git_blob_sha1": "53398bd259b28436de5c9888a022e50061203f3d"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/README.md",
+      "bytes": 2237,
+      "sha256": "67a6cf3950a08fbda3e932540e33c1b36ca9e1a621d8758231c686a4aeecd4b3",
+      "git_blob_sha1": "8741a1e4d2afd67a30f312e5b37721fa9239d688"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REGISTRO.md",
+      "bytes": 16707,
+      "sha256": "ef5f5408020305d3acfc49519c044caa9fd9a8475f2eee804a3ece942782c5cd",
+      "git_blob_sha1": "054b7385cb636ef482c449b0430ea7dd5180e04d"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA-MOTOR-E-ARQUITETURA.md",
+      "bytes": 9666,
+      "sha256": "7f6c310d7c8c92b93fcdb4c58f6ba83d7caeaea46e7272fa83b3381a87963d6f",
+      "git_blob_sha1": "5ec9f8e288e93f6c9ac727abbf30df7e05d84107"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "bytes": 5722,
+      "sha256": "76fc646861cb836b6a4de7e415156064d203e489bb3fcb13598fee5c8ea5c1b4",
+      "git_blob_sha1": "fe3afec815b4bba6ad77c24248af3a8d9a90a8be"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md",
+      "bytes": 45218,
+      "sha256": "9cf05f5c131f49eacbfcecff7fab1ea8ab2c3f012629d02668cfad1a05e23511",
+      "git_blob_sha1": "7bc829a43c44e797cf064b8e8313594c2264110b"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/README.md",
+      "bytes": 9067,
+      "sha256": "cd19693919654297c46e82576149c1b04bf47a73b3e17f91751855c7c02f6867",
+      "git_blob_sha1": "774ead2500292502d399051cd5337065216209c9"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/CONTINUIDADE.md",
+      "bytes": 3520,
+      "sha256": "d6177f902c1cd635b3c0dd463700674268532f0bcac6c8b506a50b489475ad84",
+      "git_blob_sha1": "184317512eaacc1247ba53a3a03df1d3c007ff95"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/FONTES-E-LIMITES.md",
+      "bytes": 7860,
+      "sha256": "254dd0040557c4d4f7a65f9d9ca4ccab641d8af9075f598efbdc5f92390ed0f2",
+      "git_blob_sha1": "d1dfed3504dc86b3c07ef4459f8c0b36b375ca34"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/HISTORICO-E-RETIFICACOES.md",
+      "bytes": 3744,
+      "sha256": "e46054f7cff884ff8e759e90a27720d58c0e6e1709fc36795b727024bff5e457",
+      "git_blob_sha1": "721dbbc1de5e913e33ab7377a82ac8324a4f8f6b"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/PROMPT-NOVA-SESSAO.md",
+      "bytes": 2224,
+      "sha256": "fe100aa27df6b109b4052f5646a0d943e4f7ed9cc9c275fc1fbeaeb0c65669b5",
+      "git_blob_sha1": "d810dbee7ce440a2617dd665635eb3b8edfa1cfd"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/RASTREABILIDADE.json",
+      "bytes": 192846,
+      "sha256": "a8e7a389e8a93e066d14bbc2ef2cb1f4d258645745a47aa0265891e32cfec684",
+      "git_blob_sha1": "411f01269f3938ff9b1b8348fce83494afbfd5e5"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/README.md",
+      "bytes": 2848,
+      "sha256": "598fe8ddbd4fe01a7578c3fcbc36fac50e799787ef16b62847bb06e3c34e8adf",
+      "git_blob_sha1": "3577645fa5a53d6f43257f64c84826195d6261ea"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/REFINAMENTOS-POSTERGADOS.md",
+      "bytes": 11883,
+      "sha256": "265ce7a884f47227e2b46d070057f4d6b8b0b3c9b071c328c27fe38462bd011b",
+      "git_blob_sha1": "d1e7968acc414590a1d56695aff83996ab7dd683"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/REGISTRO-DECISOES.md",
+      "bytes": 72985,
+      "sha256": "aaf4a8e60d0dc68baa044181af0814afa715171d0a253697a6ab96f42ad3b56f",
+      "git_blob_sha1": "3cffadce1adfea974082937be67c0ac8880f721f"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/SALDO-P01-P09.md",
+      "bytes": 11907,
+      "sha256": "ed6f0cb7750942b575512c65cd246841f41beb1459b8dea30071cca26d9c0a5c",
+      "git_blob_sha1": "a6af9fa60ef8511e44c260c9aa920ed4054d615c"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/VERIFICACAO.md",
+      "bytes": 3306,
+      "sha256": "116598943c532963defadea7ad6e297fd8303f6de975fd7ac556ba0ca91a9d48",
+      "git_blob_sha1": "0ceba12e45aa54c0c64238b636701a3c2fe4b76e"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md",
+      "bytes": 7062,
+      "sha256": "db963b09fb9b76de2667221e28308c4e77af60380408ea6dc123196629f179d5",
+      "git_blob_sha1": "ff217869d4aca7df9ca4d6323e87cfb0f0410744"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "bytes": 47826,
+      "sha256": "6cfbfc9aa8215547668b58d23da4c270078ce349b8322ce57d1f058c29faffbd",
+      "git_blob_sha1": "0d3675489b135fe6a179da479b5e05387ac685e4"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "bytes": 21837,
+      "sha256": "21c57e933959234a7a81ca2f6387456165f321fe5f46a5e00b23f27506008f87",
+      "git_blob_sha1": "10798178fdff5ae016540962a59af55f04a642ef"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md",
+      "bytes": 28292,
+      "sha256": "36ceaf6dde5e504c2dd1cc47703d5dde994221f8cb6e7d042d8a72196c86e167",
+      "git_blob_sha1": "ec48a458a0d932b7e8abbdea0020fa389d797c86"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md",
+      "bytes": 18467,
+      "sha256": "92ea7ba8312864035229237af9ede543a463a70d17343e6bd26e633bf4c21e91",
+      "git_blob_sha1": "e8c4712b4ddd0c404ea96fb4dbbb66d9f99f6bb6"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md",
+      "bytes": 22221,
+      "sha256": "fbe5a53575fc0039feca813931e3be679c5eaf20426e15fa433d579d4ff84110",
+      "git_blob_sha1": "128479a2b36e6191443a06aa4f9e71bf1a6f62f5"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md",
+      "bytes": 17903,
+      "sha256": "4a4d1f94efdb91a7809c8c7d841d09a0977c8e34b2996515e6fbaee3065c0260",
+      "git_blob_sha1": "627665131f595646273d77644f64a58f0455f3a7"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md",
+      "bytes": 23684,
+      "sha256": "1038490ca1cccf2c6b25b06cf1aab6cb875549c052cd0eaa793af46af5c73be5",
+      "git_blob_sha1": "b7d8a11d45106857a2a11472634523df14268545"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md",
+      "bytes": 17410,
+      "sha256": "c3e18729b9f5cc2ecdff4a11ec2f231b15c6d2376cb7194586b5edfc34fd1e4d",
+      "git_blob_sha1": "610c460eb705732a7b659c7e0fae053f21ca560d"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/ATUACAO-POR-ETAPA.md",
+      "bytes": 6619,
+      "sha256": "bc3a085404ddb7ea1f572e50f44f1aaa5a9bca4aef5ec6edbd794b1e42dd82f8",
+      "git_blob_sha1": "64c32d5690f31c6250bca7be5e442831aa343f57"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/DISTRIBUICAO-E-ACESSO.md",
+      "bytes": 9682,
+      "sha256": "151400e347e09a45355c0178671b358142e05878c0d893040435889b912efb09",
+      "git_blob_sha1": "3eefa9a14cef82e0e451e8246ccc9438beffa346"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/EXTENSOES-POR-ESCOPO.md",
+      "bytes": 5486,
+      "sha256": "d4e72205a2efbb7257b453363ab80d27f35c9321822e0cfa71779779c063a6c4",
+      "git_blob_sha1": "9a64ac662ac843bc02e38aedec8da70f949f7aa1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/FERRAMENTAS.md",
+      "bytes": 4669,
+      "sha256": "b85c7483fcd3574d7364fc48a0f8b3e77c40c64963ee8701db5fd2a643530cf5",
+      "git_blob_sha1": "c7e1f4ce83edce9b8a580a37675ca59060683eb9"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/NEGOCIOS.md",
+      "bytes": 5281,
+      "sha256": "15821a45acf33edc2172a4e89d1b48a9fdf223d3fbe476fdf9761076f2201a6c",
+      "git_blob_sha1": "7b4c35e29c2a121f513f64ae9e7d263b82e6ced5"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+      "bytes": 27697,
+      "sha256": "85fc44860c7d2dda0c3d027d9eeaca1bd2b8b18f84d4ba9853ac5980877d5b1a",
+      "git_blob_sha1": "b0ae50bd25384c7155c8b14137e5941170139962"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md",
+      "bytes": 25910,
+      "sha256": "c5679650ef22eea8c2c88b51d262418fdc763c8dcc55b0b9378e28e22674eb0a",
+      "git_blob_sha1": "07423c4a96a58792dc5964dfc316f339f7ddbd2b"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/roteiro/REFINAMENTO-E-REVISAO.md",
+      "bytes": 11353,
+      "sha256": "9f9e9e1d4efcc63333a6dae58fd259f9bfe9bafeeff7a30545f7ed19a1dbb954",
+      "git_blob_sha1": "d78a1d2326b845ddd8c055d7a4d3e183861e8e2d"
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "bytes": 10588,
+      "sha256": "28ecf67a347f003d18f70023cdde8dbfd935890fa44fa574b3cda998556e4963",
+      "git_blob_sha1": "d1497286febea404db0ae2afbf4896cabe866724"
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0005.json",
+      "bytes": 2139,
+      "sha256": "09dd4c9bfae664c88623cd8fd846b4455ab572873e3bf14104d26a2503611c72",
+      "git_blob_sha1": "a209a7e99663b72b0da9419b245f5b64313c314c"
+    },
+    {
+      "path": "docs/continuidade/MANIFESTO.json",
+      "bytes": 1436,
+      "sha256": "fd421de57dcc2113fed06084a1ad221d8de1d1f8e57db6548901e5efc8d092c8",
+      "git_blob_sha1": "de4638e5cb63208f847a0d6a5096a36ff1bbd39f"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-r04/MANIFESTO.json",
+      "bytes": 1541,
+      "sha256": "ad26302ffe09b4cdd0acd0f98346a4a079ce4afeb30a2f1f6f2f8864fa0055b2",
+      "git_blob_sha1": "68861727240adf96d7f02b3cff9a82738d3085a5"
+    }
+  ],
+  "preserved_original_suffixes": [
+    {
+      "path": "AGENTS.md",
+      "original_bytes": 4663,
+      "original_sha256": "a9e98dc4d85021b90289915b1657e536b02e35760b05995d5a672fdcea44de12",
+      "original_blob": "dd53ab45c51e19659aaf415420064c81ccfee49d",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "RETOMADA.md",
+      "original_bytes": 2300,
+      "original_sha256": "1f729cbbc71486aadf5b5d7c41960e3b73a5e97f4fae8e94a9ff2c21e9104727",
+      "original_blob": "7bf0c95871d836755e6d517676007d5a30a9e156",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "original_bytes": 3255,
+      "original_sha256": "5ab26906e289049c070d201ff70862e8282c513615c5b208370d04a6e154304a",
+      "original_blob": "03b4c44e08b3db59b2c20c3f77ae14bde696235f",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/README.md",
+      "original_bytes": 1083,
+      "original_sha256": "ae4093bae20189642729940eea8f32786322932e981214706047fafb33a43b2d",
+      "original_blob": "2de88fff1884ee38dbd1321dde21c199c81cebf4",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REGISTRO.md",
+      "original_bytes": 15553,
+      "original_sha256": "345b560989981e56a5cb8e0f11086c5696e273499b27174815b0543811994979",
+      "original_blob": "218644384fd07a999590f237586e941b1655407b",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "original_bytes": 4568,
+      "original_sha256": "f40c7193242ef790b8753a9cf9309ed71af56bb4a8272819cdfb35bac648ae7c",
+      "original_blob": "aab7ec809e47d1cd13db8d0c4e28d2bb737b54dc",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA-MOTOR-E-ARQUITETURA.md",
+      "original_bytes": 8512,
+      "original_sha256": "8b31e40e8fa16017a424da23343d529a8aa3365bf209e92799c6406b650fd4a6",
+      "original_blob": "7cc6642ee6b0e9c8c456ceae925caf61c81cc647",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/README.md",
+      "original_bytes": 7964,
+      "original_sha256": "f43dd3e2631ce02f5b43e7154114604fc0b75b7f1efd60af7d2cfdb53ca8db65",
+      "original_blob": "81c1594339e9910cf20d043f802cdd33fcf6e9ae",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md",
+      "original_bytes": 44115,
+      "original_sha256": "76f939d1e365e8026fa3257ffd213786aab096e69709565339dc0e718f753539",
+      "original_blob": "f052594d78ebed8f80ac0dbfa6a39b7600549a6e",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/roteiro/REFINAMENTO-E-REVISAO.md",
+      "original_bytes": 10241,
+      "original_sha256": "2fa62b8e5ed96f23d1e7ce28e46ebacfec09cf4f3ba395e4f13e147454a480a5",
+      "original_blob": "d9db8983083370db4e94110ddfb464c29c924be6",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+      "original_bytes": 26585,
+      "original_sha256": "2b48216d4d3900542f893089d2f2dbc05d4c16997c8ab8e77287ebeb499a8d06",
+      "original_blob": "4d04e075012caa90467c3bcb15413a78722f7b01",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md",
+      "original_bytes": 24798,
+      "original_sha256": "38f52399a9a29efa9db67e8e76e83d11c056cccc41019d595a0d1ea97248d03d",
+      "original_blob": "194ebd1e3094b8e5acf5ff1b54ee13b9dd30a807",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/DISTRIBUICAO-E-ACESSO.md",
+      "original_bytes": 8570,
+      "original_sha256": "32ba98624f6d6b0f549d27f301f84d67d830d9348f05b47d8f39e56d75b7a2d2",
+      "original_blob": "19ce7c341b4aa4d3bbd720f5a9df42c0e4d16906",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/FERRAMENTAS.md",
+      "original_bytes": 3557,
+      "original_sha256": "6568e0b05ae8957b0424a187949734f0dea4bc82a942a902e51005f9e776a412",
+      "original_blob": "1bfa9dcfe125ab30a1b840e5c32d5d7cc433592b",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/ATUACAO-POR-ETAPA.md",
+      "original_bytes": 5507,
+      "original_sha256": "83f0859c519b69ff07e1e7de33cb031d643485873039f067e32dbbea3066d5c8",
+      "original_blob": "b2d8cbca8535e4f85e186a5380017c8cb74d9005",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/EXTENSOES-POR-ESCOPO.md",
+      "original_bytes": 4374,
+      "original_sha256": "26e427125e774dd6e1ca057771f132c74cc2a8ff2a98eafd0fb8641922f2e707",
+      "original_blob": "8544a21f6f84120b9ce2233c2edec2073d10eb69",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/notas/NEGOCIOS.md",
+      "original_bytes": 4169,
+      "original_sha256": "1a4f727f39f5a6afb3cce1ba10acbc5ebec7fc7a8cd59216893414aa287d2819",
+      "original_blob": "cfe7bec42ef07874f368a93d0f05ea5fe9d45b6c",
+      "method": "sufixo literal preservado"
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "original_bytes": 8273,
+      "original_sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+      "original_blob": "e5d2c1f186d6b3ae24e6df90b74db4f0dc9efddd",
+      "method": "sufixo literal preservado"
+    }
+  ],
+  "checks": {
+    "sources": 46,
+    "user_messages": 24,
+    "assistant_final_messages": 22,
+    "pages": 3,
+    "last_hasMore": false,
+    "source_texts_preserved": 46,
+    "question_ids": 77,
+    "records": 84,
+    "current_records": 52,
+    "inherited_records": 32,
+    "source_refs_valid": true,
+    "original_suffixes_preserved": 18,
+    "original_blobs_equal": 18,
+    "local_links_checked": 375,
+    "local_link_errors": [],
+    "explicit_anchors_checked": 351,
+    "continuity_checker_status": "VERIFICADO_LOCALMENTE",
+    "continuity_checker_record": "CONT-REG-0005",
+    "continuity_checker_files": 5,
+    "independent_audit": false,
+    "audit_kind": "AUTOVERIFICACAO_DOCUMENTAL",
+    "operational_ca": "49 NOT_RUN",
+    "native_project_updated": false
+  }
+}

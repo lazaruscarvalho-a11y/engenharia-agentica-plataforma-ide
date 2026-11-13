@@ -1,3 +1,13 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](../consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](../consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](../consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
 # Inclusão de capacidades por escopo após o onboarding
 
 **Revisão 1 · Direção de produto para a primeira entrega.** O usuário deve poder acrescentar skills, instruções, comportamentos e documentação a um **repositório, Sigla, Workspace ou arquitetura**, inclusive depois de seu onboarding e de sua internalização. O caso do IBM ODM inclui também uma ferramenta disponibilizada via MCP e as orientações que tornam seu uso compreensível. A manifestação desta conversa é a fonte direta da direção. O caso serve de referência para o Discovery.
