@@ -1,0 +1,4458 @@
+{
+  "schema_version": "r04-traceability-1",
+  "date": "2026-11-13",
+  "source_thread": "01a1d60a-f1ae-7173-94cb-03aec33bf344",
+  "base_commit": "5b9550b56d0929109231863b4546936e1b4d7ee1",
+  "sources": [
+    {
+      "id": "R04-U001",
+      "turn_id": "01a1d60a-f274-7bf1-a824-44863a91d2db",
+      "message_id": "01a1d60a-f5d9-7130-858e-269f6718a952",
+      "role": "user",
+      "group": "00",
+      "original_chars": 1352,
+      "original_utf8_sha256": "efe5c8ac6ffe767f8b7ae9a29f739a51192031371ce27d714cb4a7aee82d4456",
+      "published_chars": 663,
+      "published_utf8_sha256": "aab49ceecf2c4e8532c78858167ed2d40a7c8d8800f088027e7a7ae9520a29a2",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md",
+      "anchor": "r04-u001",
+      "transformation": "somente envelope de referência removido",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-U002",
+      "turn_id": "01a1d60b-2ac2-7161-ad20-8bea80bdc0e3",
+      "message_id": "01a1d60b-2b47-7372-9784-6f6217360c23",
+      "role": "user",
+      "group": "00",
+      "original_chars": 1372,
+      "original_utf8_sha256": "65b68c37b66c03db60fb391cd96a67d8bffa73c3705fe03b662bcd453b1bb8a6",
+      "published_chars": 673,
+      "published_utf8_sha256": "926faa367e55946e10224c62698ff7ac048d74e13520f7b9382956ee3193e518",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md",
+      "anchor": "r04-u002",
+      "transformation": "somente envelope de referência removido",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A002",
+      "turn_id": "01a1d60b-2ac2-7161-ad20-8bea80bdc0e3",
+      "message_id": "msg_0e7fa371be357a1b016af74f7dbe7087d2953f77f3a0227709",
+      "role": "assistant",
+      "group": "00",
+      "original_chars": 2851,
+      "original_utf8_sha256": "509e60d8951115f43b9144f61f8284e3d3ae4224d4522e8a057eafa565227bf0",
+      "published_chars": 2851,
+      "published_utf8_sha256": "509e60d8951115f43b9144f61f8284e3d3ae4224d4522e8a057eafa565227bf0",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md",
+      "anchor": "r04-a002",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U003",
+      "turn_id": "01a1d60f-2ce3-7b21-ada0-00b22891d5d4",
+      "message_id": "01a1d60f-2d37-7fa2-8081-1546a1a12dca",
+      "role": "user",
+      "group": "P01",
+      "original_chars": 187,
+      "original_utf8_sha256": "091409e21e8d660612aa6cc071563f88e490487d0915cc290580919172c95dd0",
+      "published_chars": 187,
+      "published_utf8_sha256": "091409e21e8d660612aa6cc071563f88e490487d0915cc290580919172c95dd0",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u003",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A003",
+      "turn_id": "01a1d60f-2ce3-7b21-ada0-00b22891d5d4",
+      "message_id": "msg_0e7fa371be357a1b016af7500a74ac87d293bff3005fe385c4",
+      "role": "assistant",
+      "group": "P01",
+      "original_chars": 14137,
+      "original_utf8_sha256": "0ffb8c6a4ed73a9685f41b12aea6ee05ecc79b13fd968282195ab32e2ce5002b",
+      "published_chars": 14137,
+      "published_utf8_sha256": "0ffb8c6a4ed73a9685f41b12aea6ee05ecc79b13fd968282195ab32e2ce5002b",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a003",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U004",
+      "turn_id": "01a1d623-59b7-7ff2-b73c-21d2b29b81b2",
+      "message_id": "01a1d623-5a38-7f73-805c-7059bcfcf987",
+      "role": "user",
+      "group": "P01",
+      "original_chars": 1939,
+      "original_utf8_sha256": "266656e93d1d9a5c76497a8760c3c5e6cba329158827c7f855a1ba0ef543a2a8",
+      "published_chars": 1939,
+      "published_utf8_sha256": "266656e93d1d9a5c76497a8760c3c5e6cba329158827c7f855a1ba0ef543a2a8",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u004",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A004",
+      "turn_id": "01a1d623-59b7-7ff2-b73c-21d2b29b81b2",
+      "message_id": "msg_0e7fa371be357a1b016af755904d1c87d2beb90d80cc023301",
+      "role": "assistant",
+      "group": "P01",
+      "original_chars": 14251,
+      "original_utf8_sha256": "65852008c6b159aa98c7196e89e56de46f486b7373f1cdf2440daf53157d6645",
+      "published_chars": 14251,
+      "published_utf8_sha256": "65852008c6b159aa98c7196e89e56de46f486b7373f1cdf2440daf53157d6645",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a004",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U005",
+      "turn_id": "01a1d633-b8ea-7730-85a6-d42b37ffbc4e",
+      "message_id": "01a1d633-b956-7743-9ced-3a5461cb774c",
+      "role": "user",
+      "group": "P01",
+      "original_chars": 156,
+      "original_utf8_sha256": "6732b4f60ea2c1ee79dd935e354a883b6e0b37b5bd734b19d21dcaab95d9a0f7",
+      "published_chars": 156,
+      "published_utf8_sha256": "6732b4f60ea2c1ee79dd935e354a883b6e0b37b5bd734b19d21dcaab95d9a0f7",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u005",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A005",
+      "turn_id": "01a1d633-b8ea-7730-85a6-d42b37ffbc4e",
+      "message_id": "msg_0e7fa371be357a1b016af75943455087d2beab942f97211b42",
+      "role": "assistant",
+      "group": "P01",
+      "original_chars": 6396,
+      "original_utf8_sha256": "3a1753dbc6e005227ad4f67b18c5e1dd378279b684dad785e3b09229b6ea6a61",
+      "published_chars": 6396,
+      "published_utf8_sha256": "3a1753dbc6e005227ad4f67b18c5e1dd378279b684dad785e3b09229b6ea6a61",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a005",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U006",
+      "turn_id": "01a1d639-1226-7853-9d2e-adfc26769735",
+      "message_id": "01a1d639-1296-7572-b99b-bb2259df9d28",
+      "role": "user",
+      "group": "P01",
+      "original_chars": 949,
+      "original_utf8_sha256": "f2121c3bdf970dca6e894407bfddf914b62aba852f853cdfc6311d45a23f513e",
+      "published_chars": 949,
+      "published_utf8_sha256": "f2121c3bdf970dca6e894407bfddf914b62aba852f853cdfc6311d45a23f513e",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u006",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A006",
+      "turn_id": "01a1d639-1226-7853-9d2e-adfc26769735",
+      "message_id": "msg_0e7fa371be357a1b016af75ae2728487d290da2cc7092403e1",
+      "role": "assistant",
+      "group": "P01",
+      "original_chars": 4067,
+      "original_utf8_sha256": "8c15b47d7009c1354555c84dfd8d4969c0288732a5e5cedd8d93918d7d65c7e6",
+      "published_chars": 4067,
+      "published_utf8_sha256": "8c15b47d7009c1354555c84dfd8d4969c0288732a5e5cedd8d93918d7d65c7e6",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a006",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U007",
+      "turn_id": "01a1d63b-b064-74f0-8896-7f560329a338",
+      "message_id": "01a1d63b-b0d9-75a2-95e3-12e3f4ec6cab",
+      "role": "user",
+      "group": "P01",
+      "original_chars": 30,
+      "original_utf8_sha256": "a0bb2c06f23e5b148196bc6035b0eccec73f9a9a48ffc624544cdc5aca0f76ba",
+      "published_chars": 30,
+      "published_utf8_sha256": "a0bb2c06f23e5b148196bc6035b0eccec73f9a9a48ffc624544cdc5aca0f76ba",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u007",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A007",
+      "turn_id": "01a1d63b-b064-74f0-8896-7f560329a338",
+      "message_id": "msg_0e7fa371be357a1b016af75b376f6087d2bb2f86f30afadcbb",
+      "role": "assistant",
+      "group": "P01",
+      "original_chars": 399,
+      "original_utf8_sha256": "d40d702c9c6fdeba8ccb4ada5c3c11af4f15a328b8dbb436558ebc9f8680280e",
+      "published_chars": 399,
+      "published_utf8_sha256": "d40d702c9c6fdeba8ccb4ada5c3c11af4f15a328b8dbb436558ebc9f8680280e",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a007",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U008",
+      "turn_id": "01a1d63b-ebf4-7ea0-b938-c0da8fc92d59",
+      "message_id": "01a1d63b-ec48-7de1-9d8c-199de19c18de",
+      "role": "user",
+      "group": "P01",
+      "original_chars": 21,
+      "original_utf8_sha256": "3bc11eb688a10990c62181c0affeec67be35e722acb6f18d335ab704a27aaacb",
+      "published_chars": 21,
+      "published_utf8_sha256": "3bc11eb688a10990c62181c0affeec67be35e722acb6f18d335ab704a27aaacb",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u008",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A008",
+      "turn_id": "01a1d63b-ebf4-7ea0-b938-c0da8fc92d59",
+      "message_id": "msg_0e7fa371be357a1b016af75b4504e887d2884214dae8a45cb7",
+      "role": "assistant",
+      "group": "P01",
+      "original_chars": 411,
+      "original_utf8_sha256": "4008487daa053336346e7336553a342da24541ca880065c08cf5188cd467eb02",
+      "published_chars": 411,
+      "published_utf8_sha256": "4008487daa053336346e7336553a342da24541ca880065c08cf5188cd467eb02",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a008",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U009",
+      "turn_id": "01a1d63d-9443-74d1-b736-641b238b9410",
+      "message_id": "01a1d63d-9493-7771-8f2c-8452ed3a5e9d",
+      "role": "user",
+      "group": "P02",
+      "original_chars": 175,
+      "original_utf8_sha256": "cd7e469ae0520965bc912c096d7f11dfdd16c0bac2bdd52abe2d01afe9fddc0f",
+      "published_chars": 175,
+      "published_utf8_sha256": "cd7e469ae0520965bc912c096d7f11dfdd16c0bac2bdd52abe2d01afe9fddc0f",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-u009",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A009",
+      "turn_id": "01a1d63d-9443-74d1-b736-641b238b9410",
+      "message_id": "msg_0e7fa371be357a1b016af75c1ffa5487d299b897ff67bae2d7",
+      "role": "assistant",
+      "group": "P02",
+      "original_chars": 11280,
+      "original_utf8_sha256": "bcb12b5768f63cd3c6ce8f02219310d7f779968d485d8d180d3e55d91c57b894",
+      "published_chars": 11280,
+      "published_utf8_sha256": "bcb12b5768f63cd3c6ce8f02219310d7f779968d485d8d180d3e55d91c57b894",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-a009",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U010",
+      "turn_id": "01a1d64a-c826-7033-8466-0323659c4c7e",
+      "message_id": "01a1d64a-c89a-70a1-9692-b2f1411c02b4",
+      "role": "user",
+      "group": "P02",
+      "original_chars": 1507,
+      "original_utf8_sha256": "8f5041fd8f7176b11ac2f76989cc21f56f994d7e4f92784eea167be037112b71",
+      "published_chars": 1507,
+      "published_utf8_sha256": "8f5041fd8f7176b11ac2f76989cc21f56f994d7e4f92784eea167be037112b71",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-u010",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A010",
+      "turn_id": "01a1d64a-c826-7033-8466-0323659c4c7e",
+      "message_id": "msg_0e7fa371be357a1b016af75f3ed06c87d2a68eab5f43d3550e",
+      "role": "assistant",
+      "group": "P02",
+      "original_chars": 4953,
+      "original_utf8_sha256": "f01cd66be0900942d6f49cedd02bce921fa61a4154bc44bc9ee45f0b7b437479",
+      "published_chars": 4953,
+      "published_utf8_sha256": "f01cd66be0900942d6f49cedd02bce921fa61a4154bc44bc9ee45f0b7b437479",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-a010",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U011",
+      "turn_id": "01a1d64c-95a3-7ba2-b277-1e1009c234cb",
+      "message_id": "01a1d64c-95f6-72f3-9498-2e6e7b92b4a6",
+      "role": "user",
+      "group": "P02",
+      "original_chars": 116,
+      "original_utf8_sha256": "a19fa52fb27f73a51ee150d78e259aece2c4cbe24b4c5597bbe4a07ccd4142b5",
+      "published_chars": 116,
+      "published_utf8_sha256": "a19fa52fb27f73a51ee150d78e259aece2c4cbe24b4c5597bbe4a07ccd4142b5",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-u011",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A011",
+      "turn_id": "01a1d64c-95a3-7ba2-b277-1e1009c234cb",
+      "message_id": "msg_0e7fa371be357a1b016af75f8e691887d280dcb1bac4651961",
+      "role": "assistant",
+      "group": "P02",
+      "original_chars": 753,
+      "original_utf8_sha256": "9a8c4cfd135f496f35cfde34192b8d13032299f4676f238b1c619db1cef69594",
+      "published_chars": 753,
+      "published_utf8_sha256": "9a8c4cfd135f496f35cfde34192b8d13032299f4676f238b1c619db1cef69594",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-a011",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U012",
+      "turn_id": "01a1d64d-dd20-74f1-a6b5-e73b709a5a51",
+      "message_id": "01a1d64d-dd74-70e2-9cfa-3552fca30c3a",
+      "role": "user",
+      "group": "P03",
+      "original_chars": 309,
+      "original_utf8_sha256": "dc15a1b8c8172c9c55acb4d1654e64c732e608b9e5791b0b69aa53d14b0c9120",
+      "published_chars": 309,
+      "published_utf8_sha256": "dc15a1b8c8172c9c55acb4d1654e64c732e608b9e5791b0b69aa53d14b0c9120",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md",
+      "anchor": "r04-u012",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A012",
+      "turn_id": "01a1d64d-dd20-74f1-a6b5-e73b709a5a51",
+      "message_id": "msg_0e7fa371be357a1b016af7609181d087d29a4e15c9ac0cd2bc",
+      "role": "assistant",
+      "group": "P03",
+      "original_chars": 15486,
+      "original_utf8_sha256": "02d8619ab8738dc827c2358108cb184b2c0fdc8c8243fc9f1cf812c23c8fe9f2",
+      "published_chars": 15486,
+      "published_utf8_sha256": "02d8619ab8738dc827c2358108cb184b2c0fdc8c8243fc9f1cf812c23c8fe9f2",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md",
+      "anchor": "r04-a012",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U013",
+      "turn_id": "01a1d65b-7e40-7d00-9e97-04544da5afa8",
+      "message_id": "01a1d65b-7ed8-7f21-8d34-03d50cdd6efa",
+      "role": "user",
+      "group": "P03",
+      "original_chars": 1945,
+      "original_utf8_sha256": "fb0b9cba570636e1ade5ae1809e35f5df4dfc81a3632c3fb3b367768d4f0be57",
+      "published_chars": 1945,
+      "published_utf8_sha256": "fb0b9cba570636e1ade5ae1809e35f5df4dfc81a3632c3fb3b367768d4f0be57",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md",
+      "anchor": "r04-u013",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A013",
+      "turn_id": "01a1d65b-7e40-7d00-9e97-04544da5afa8",
+      "message_id": "msg_0e7fa371be357a1b016af76384420c87d2a9fc326661e75974",
+      "role": "assistant",
+      "group": "P03",
+      "original_chars": 7573,
+      "original_utf8_sha256": "3fb8d60c9cf250178e56332db4ce29b47a7dd0f079cdb604359b0e539c5fff27",
+      "published_chars": 7573,
+      "published_utf8_sha256": "3fb8d60c9cf250178e56332db4ce29b47a7dd0f079cdb604359b0e539c5fff27",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md",
+      "anchor": "r04-a013",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U014",
+      "turn_id": "01a1d660-7653-7422-8f75-b0e314c25295",
+      "message_id": "01a1d660-76a4-7f51-9738-29cec8819dbb",
+      "role": "user",
+      "group": "P05",
+      "original_chars": 77,
+      "original_utf8_sha256": "0e7b172d2d083c4e641900078a5758c729c6c01ef01f437955d0640f3165134f",
+      "published_chars": 77,
+      "published_utf8_sha256": "0e7b172d2d083c4e641900078a5758c729c6c01ef01f437955d0640f3165134f",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md",
+      "anchor": "r04-u014",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A014",
+      "turn_id": "01a1d660-7653-7422-8f75-b0e314c25295",
+      "message_id": "msg_0e7fa371be357a1b016af764d5ed1887d2a4927fa8a539083b",
+      "role": "assistant",
+      "group": "P05",
+      "original_chars": 10487,
+      "original_utf8_sha256": "c09fcc252a923255afb2a7a9ade7444df946ea5ea276d8d19ebe82602ceaf1c8",
+      "published_chars": 10487,
+      "published_utf8_sha256": "c09fcc252a923255afb2a7a9ade7444df946ea5ea276d8d19ebe82602ceaf1c8",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md",
+      "anchor": "r04-a014",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U015",
+      "turn_id": "01a1d666-1856-7b22-a6e7-f9804da0c705",
+      "message_id": "01a1d666-18af-7bf2-b534-92eebbcc8b87",
+      "role": "user",
+      "group": "P05",
+      "original_chars": 619,
+      "original_utf8_sha256": "584e8479e3ecfd77d99fc9324bffbb3e835343e65787ffc8ebb81b7189368d0e",
+      "published_chars": 619,
+      "published_utf8_sha256": "584e8479e3ecfd77d99fc9324bffbb3e835343e65787ffc8ebb81b7189368d0e",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md",
+      "anchor": "r04-u015",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A015",
+      "turn_id": "01a1d666-1856-7b22-a6e7-f9804da0c705",
+      "message_id": "msg_0e7fa371be357a1b016af7663a143487d29e86733a027d14f8",
+      "role": "assistant",
+      "group": "P05",
+      "original_chars": 4657,
+      "original_utf8_sha256": "db5cf43c86a4b90226561a2548cfe695507598bc48a0c599d1602c303291a065",
+      "published_chars": 4657,
+      "published_utf8_sha256": "db5cf43c86a4b90226561a2548cfe695507598bc48a0c599d1602c303291a065",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md",
+      "anchor": "r04-a015",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U016",
+      "turn_id": "01a1d667-6e52-73c2-b45a-beef45f7389a",
+      "message_id": "01a1d667-6ea5-73f2-b780-12a2cc246a71",
+      "role": "user",
+      "group": "P06",
+      "original_chars": 63,
+      "original_utf8_sha256": "4572e4b73f678478cf4a41519ee1710201a18c440c1719c2b4fff0bf271deffe",
+      "published_chars": 63,
+      "published_utf8_sha256": "4572e4b73f678478cf4a41519ee1710201a18c440c1719c2b4fff0bf271deffe",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md",
+      "anchor": "r04-u016",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A016",
+      "turn_id": "01a1d667-6e52-73c2-b45a-beef45f7389a",
+      "message_id": "msg_0e7fa371be357a1b016af7669ce5e887d2b1c4706a3cd56c9c",
+      "role": "assistant",
+      "group": "P06",
+      "original_chars": 10244,
+      "original_utf8_sha256": "948503476152d02b6fb76f2ddf47efc47d27afc8a9d5b5675cbbdeca23835b01",
+      "published_chars": 10244,
+      "published_utf8_sha256": "948503476152d02b6fb76f2ddf47efc47d27afc8a9d5b5675cbbdeca23835b01",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md",
+      "anchor": "r04-a016",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U017",
+      "turn_id": "01a1d674-fc1f-7780-abd4-b3546aa0a552",
+      "message_id": "01a1d674-fc90-7772-9a5f-af4951a47e9b",
+      "role": "user",
+      "group": "P06",
+      "original_chars": 2654,
+      "original_utf8_sha256": "63e1402540f13f5e844591a66f462ca48f8e0a8399fa08b8dab92696410574ca",
+      "published_chars": 2654,
+      "published_utf8_sha256": "63e1402540f13f5e844591a66f462ca48f8e0a8399fa08b8dab92696410574ca",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md",
+      "anchor": "r04-u017",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A017",
+      "turn_id": "01a1d674-fc1f-7780-abd4-b3546aa0a552",
+      "message_id": "msg_0e7fa371be357a1b016af76a0743c887d2889bfb144f97c465",
+      "role": "assistant",
+      "group": "P06",
+      "original_chars": 6510,
+      "original_utf8_sha256": "b0d50519ac8981d776f23f1ee1a45004f533ce52031614de0ce27983905af4ff",
+      "published_chars": 6510,
+      "published_utf8_sha256": "b0d50519ac8981d776f23f1ee1a45004f533ce52031614de0ce27983905af4ff",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md",
+      "anchor": "r04-a017",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U018",
+      "turn_id": "01a1d676-36a0-7161-b596-e9adf69e09e5",
+      "message_id": "01a1d676-36e3-78b0-88f1-da323776bea9",
+      "role": "user",
+      "group": "P07",
+      "original_chars": 73,
+      "original_utf8_sha256": "7d4bf18b853e56cc9854c42a5be77fd5e8cee1e50eed97f55f7b5335a258192f",
+      "published_chars": 73,
+      "published_utf8_sha256": "7d4bf18b853e56cc9854c42a5be77fd5e8cee1e50eed97f55f7b5335a258192f",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md",
+      "anchor": "r04-u018",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A018",
+      "turn_id": "01a1d676-36a0-7161-b596-e9adf69e09e5",
+      "message_id": "msg_0e7fa371be357a1b016af76a728a7087d2a8f3fa5b82aa5b77",
+      "role": "assistant",
+      "group": "P07",
+      "original_chars": 9509,
+      "original_utf8_sha256": "348c106be3082a2e0cd229a2642d00cbb7cb9c20dc22ce7c103a1cf4c900d040",
+      "published_chars": 9509,
+      "published_utf8_sha256": "348c106be3082a2e0cd229a2642d00cbb7cb9c20dc22ce7c103a1cf4c900d040",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md",
+      "anchor": "r04-a018",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U019",
+      "turn_id": "01a1d67f-dcbb-7c33-85cd-b3eee41aaa6b",
+      "message_id": "01a1d67f-dd2a-7fc0-a547-0883cf0e5dc3",
+      "role": "user",
+      "group": "P07",
+      "original_chars": 2142,
+      "original_utf8_sha256": "a1c29d2d540cf33a46f15628639a908c1cd30833206c018e0af35f76942818f5",
+      "published_chars": 2142,
+      "published_utf8_sha256": "a1c29d2d540cf33a46f15628639a908c1cd30833206c018e0af35f76942818f5",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md",
+      "anchor": "r04-u019",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A019",
+      "turn_id": "01a1d67f-dcbb-7c33-85cd-b3eee41aaa6b",
+      "message_id": "msg_0e7fa371be357a1b016af76cbf2ba087d2895d3491a5c7642a",
+      "role": "assistant",
+      "group": "P07",
+      "original_chars": 3520,
+      "original_utf8_sha256": "52a918cbbcd1648ed8d2de6f4e9842e84e80ee53816e935f7e0a91f219abeb4d",
+      "published_chars": 3520,
+      "published_utf8_sha256": "52a918cbbcd1648ed8d2de6f4e9842e84e80ee53816e935f7e0a91f219abeb4d",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md",
+      "anchor": "r04-a019",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U020",
+      "turn_id": "01a1d680-fcf5-7a21-ba37-91680be9fc75",
+      "message_id": "01a1d680-fd47-7292-929f-e8f1f3790eda",
+      "role": "user",
+      "group": "P08",
+      "original_chars": 49,
+      "original_utf8_sha256": "1dea1a5810341b4abe82174d4f7d2ddb2e22bd9f1cba37fe411c0771e429d52b",
+      "published_chars": 49,
+      "published_utf8_sha256": "1dea1a5810341b4abe82174d4f7d2ddb2e22bd9f1cba37fe411c0771e429d52b",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md",
+      "anchor": "r04-u020",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A020",
+      "turn_id": "01a1d680-fcf5-7a21-ba37-91680be9fc75",
+      "message_id": "msg_0e7fa371be357a1b016af76d3c8b6887d292abb820b4f04f18",
+      "role": "assistant",
+      "group": "P08",
+      "original_chars": 10915,
+      "original_utf8_sha256": "161b4d114e0b37f85832a5d0b3ef351cb4d89ef2b408d2c847fbf6ae4a7958c1",
+      "published_chars": 10915,
+      "published_utf8_sha256": "161b4d114e0b37f85832a5d0b3ef351cb4d89ef2b408d2c847fbf6ae4a7958c1",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md",
+      "anchor": "r04-a020",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U021",
+      "turn_id": "01a1d68b-8105-70e3-8994-77d9a4e4fe80",
+      "message_id": "01a1d68b-8158-7f00-b826-916f1cd432f3",
+      "role": "user",
+      "group": "P08",
+      "original_chars": 3170,
+      "original_utf8_sha256": "7471097b298f857d98e08bf0d822c074d46d05f81aec6b0916001301fcfece85",
+      "published_chars": 3170,
+      "published_utf8_sha256": "7471097b298f857d98e08bf0d822c074d46d05f81aec6b0916001301fcfece85",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md",
+      "anchor": "r04-u021",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A021",
+      "turn_id": "01a1d68b-8105-70e3-8994-77d9a4e4fe80",
+      "message_id": "msg_0e7fa371be357a1b016af76ff6da7487d2b5325c243ed73771",
+      "role": "assistant",
+      "group": "P08",
+      "original_chars": 6694,
+      "original_utf8_sha256": "5e0fd63fdc547a7645ac02f8f1b688667c0975ba466e04f98e169303564e13e9",
+      "published_chars": 6694,
+      "published_utf8_sha256": "5e0fd63fdc547a7645ac02f8f1b688667c0975ba466e04f98e169303564e13e9",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md",
+      "anchor": "r04-a021",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U022",
+      "turn_id": "01a1d68d-9f7d-7971-93e5-b30e596d1350",
+      "message_id": "01a1d68d-9fd1-7851-8478-ae4b422592ee",
+      "role": "user",
+      "group": "P09",
+      "original_chars": 50,
+      "original_utf8_sha256": "efa799569a74ec37af6cbb541f15814b32292b367984e0274ec758730fea6e83",
+      "published_chars": 50,
+      "published_utf8_sha256": "efa799569a74ec37af6cbb541f15814b32292b367984e0274ec758730fea6e83",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md",
+      "anchor": "r04-u022",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A022",
+      "turn_id": "01a1d68d-9f7d-7971-93e5-b30e596d1350",
+      "message_id": "msg_0e7fa371be357a1b016af7707a998087d2bef18327449a2937",
+      "role": "assistant",
+      "group": "P09",
+      "original_chars": 10730,
+      "original_utf8_sha256": "b09d155dad7d5924348c076f7de596e61af1a238b0cc3df5bd13f7ec13f9c677",
+      "published_chars": 10730,
+      "published_utf8_sha256": "b09d155dad7d5924348c076f7de596e61af1a238b0cc3df5bd13f7ec13f9c677",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md",
+      "anchor": "r04-a022",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U023",
+      "turn_id": "01a1d740-e615-7230-bc9f-b97667b37771",
+      "message_id": "01a1d740-e695-7380-ac92-8336d8202983",
+      "role": "user",
+      "group": "P09",
+      "original_chars": 253,
+      "original_utf8_sha256": "2aba736bada2cf74c821a1a1238e949cf562fd922759bf5d8a0fe3be982e5abf",
+      "published_chars": 253,
+      "published_utf8_sha256": "2aba736bada2cf74c821a1a1238e949cf562fd922759bf5d8a0fe3be982e5abf",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md",
+      "anchor": "r04-u023",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    },
+    {
+      "id": "R04-A023",
+      "turn_id": "01a1d740-e615-7230-bc9f-b97667b37771",
+      "message_id": "msg_0e7fa371be357a1b016af79e40494887d2bcb3d86f6849f50c",
+      "role": "assistant",
+      "group": "P09",
+      "original_chars": 3813,
+      "original_utf8_sha256": "7e97790e77b769d1e6a6f7a865a93cf6b5fe4f838a4ea344a455312a652368a6",
+      "published_chars": 3813,
+      "published_utf8_sha256": "7e97790e77b769d1e6a6f7a865a93cf6b5fe4f838a4ea344a455312a652368a6",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md",
+      "anchor": "r04-a023",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "pergunta/proposta/exemplo/análise editorial; não é aceite humano"
+    },
+    {
+      "id": "R04-U024",
+      "turn_id": "01a1d744-238c-7992-9528-c71cb9c38f32",
+      "message_id": "01a1d744-23e4-7112-9a0d-be2e1e6e3f64",
+      "role": "user",
+      "group": "00",
+      "original_chars": 670,
+      "original_utf8_sha256": "3280d4189c1e9bbdcef286c2b317d42231b0fc736bee330b497877c222ad87c8",
+      "published_chars": 670,
+      "published_utf8_sha256": "3280d4189c1e9bbdcef286c2b317d42231b0fc736bee330b497877c222ad87c8",
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md",
+      "anchor": "r04-u024",
+      "transformation": "conteúdo textual integral preservado",
+      "nature": "manifestação humana direta de discovery"
+    }
+  ],
+  "records": [
+    {
+      "id": "R04-DEC-001",
+      "questions": [
+        "P01.1"
+      ],
+      "definition": "A visibilidade dos Workspaces é a do repositório compartilhado: internal ou private e seus efeitos. O time responsável pelo repositório de Workspaces da Sigla decide, inclusive na discordância entre times. Branches da atividade e conteúdo arquivado acompanham o público do repositório.",
+      "human_sources": [
+        "R04-U004",
+        "R04-U006",
+        "R04-U008"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A003",
+        "R04-A004",
+        "R04-A005",
+        "R04-A006",
+        "R04-A007"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "",
+      "qualification": "U004 inicialmente atribuía a escolha ao time criador do Workspace; U006 escolhe visibilidade compartilhada; U008 aceita expressamente o responsável sugerido em A007. Não foi escolhida segregação por participante nem repositórios separados por visibilidade.",
+      "consumers": [
+        "P05.3",
+        "P05.5",
+        "P09.7"
+      ]
+    },
+    {
+      "id": "R04-DEC-002",
+      "questions": [
+        "P01.2"
+      ],
+      "definition": "A descoberta e leitura dos mapas seguem internal/private e as consequências do repositório de publicação; referência a destino privado não concede leitura desse destino.",
+      "human_sources": [
+        "R04-U004"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A003",
+        "R04-A004"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Destino e organização concreta no refinamento da camada arquitetural.",
+      "qualification": "",
+      "consumers": [
+        "P08.6",
+        "P09.7"
+      ]
+    },
+    {
+      "id": "R04-DEC-003",
+      "questions": [
+        "P01.3"
+      ],
+      "definition": "Raiz comum de distribuição, instalação local e Macro são a mesma estrutura: o repositório Macro clonado do GitHub, sob o qual estarão Mesos, Micros, skills, camadas e configurações. Permanece a topologia existente por submódulos.",
+      "human_sources": [
+        "R04-U004"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A004"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Layout, obtenção incremental e mecanismos de atualização; identidade física Workspace/Meso continua não escolhida.",
+      "qualification": "",
+      "consumers": [
+        "P02.2",
+        "P05.5",
+        "P03.22"
+      ]
+    },
+    {
+      "id": "R04-DEC-004",
+      "questions": [
+        "P01.4"
+      ],
+      "definition": "Clone inicial preservado. A preparação conjunta no primeiro uso diário foi apresentada como sugestão para refinamento posterior. O gatilho diário foi depois definido para atualização das modalidades de IA em P02.4; não se transfere automaticamente esse aceite para todo Macro/MCP/skill/recurso.",
+      "human_sources": [
+        "R04-U004",
+        "R04-U010",
+        "R04-U011"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A004",
+        "R04-A005",
+        "R04-A009",
+        "R04-A010",
+        "R04-A011"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Preparação de Macro/MCPs/skills, unidade por instalação/máquina/modalidade, alterações locais, resultado parcial e relação com verificações durante o trabalho.",
+      "qualification": "Sugestão original não final: git pull e atualização de Devin CLI/Claude Code/ferramentas/MCPs/skills; não é rotina implementada.",
+      "consumers": [
+        "P02.4",
+        "P02.5",
+        "P03-PUSH"
+      ]
+    },
+    {
+      "id": "R04-DEC-005",
+      "questions": [
+        "P01.5"
+      ],
+      "definition": "Falhas devem apresentar aviso, estado/commit confirmado, trabalho independente que pode continuar e ação dependente que aguarda recuperação. Aplicar as regras existentes de suficiência, evidências e ressalvas.",
+      "human_sources": [
+        "R04-U004"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A004"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Mecanismos e ensaios de recuperação.",
+      "qualification": "",
+      "consumers": [
+        "P02.5",
+        "P07.5"
+      ]
+    },
+    {
+      "id": "R04-DEC-006",
+      "questions": [
+        "P01.6"
+      ],
+      "definition": "Usar o acesso existente do usuário à conta corporativa GitHub. Direitos efetivos continuam por operação e destino. A impressão de autenticação normalmente já presente é relato/expectativa, não inspeção do ambiente.",
+      "human_sources": [
+        "R04-U004"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A004",
+        "R04-A005"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Procedimentos corporativos, operações concretas e demais ferramentas DataDog, AWS, ServiceNow/IUClick, ContentStack/CMS e outras; aprofundamento posterior.",
+      "qualification": "",
+      "consumers": [
+        "P06.6",
+        "P06.7",
+        "P07.5"
+      ]
+    },
+    {
+      "id": "R04-DEC-007",
+      "questions": [
+        "P01.7"
+      ],
+      "definition": "Alinhar estudo, novos entendimentos, conhecimento, instruções e detalhes às estruturas, princípios, diretrizes e critérios da Base de Conhecimento da camada. Preparar na branch local e enviar junto às demais alterações ou isoladamente mediante autorização de git commit e git push.",
+      "human_sources": [
+        "R04-U004",
+        "R04-U006"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A003",
+        "R04-A004",
+        "R04-A005",
+        "R04-A006"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Pipeline, coordenação técnica multirrepositório e passagem a homologação/produção.",
+      "qualification": "O esclarecimento U006 resolve o alcance funcional do envio. Não introduz abertura obrigatória de PR do produto. S1/S2/S3 e atualização/revalidação pré-push são preservados; autorizar esta publicação não executa operações de aplicações.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-008",
+      "questions": [
+        "P01.7"
+      ],
+      "definition": "Vocabulário transversal: utilizar branch, homologação e produção no contexto do fluxo. Para identidade documental/técnica, utilizar versão, commit de referência, verificação ou validação conforme o significado. A instrução tem alcance pretendido para todas as sessões do Projeto.",
+      "human_sources": [
+        "R04-U006"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A006"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Aplicação nativa no Projeto ChatGPT não executada; o pacote no Git fica preparado para essa manutenção.",
+      "qualification": "Não reescrever fontes históricas nem substituir a palavra dentro de nomes de arquivos ou citações antigas. Não aplicar convenção de deploy de aplicações à main documental indiscriminadamente.",
+      "consumers": [
+        "todos os grupos",
+        "docs/chatgpt/INSTRUCOES-PERMANENTES.md"
+      ]
+    },
+    {
+      "id": "R04-DEC-009",
+      "questions": [
+        "P02.1"
+      ],
+      "definition": "Base funcional comum para o máximo possível de ferramentas de IA: definições, instruções, configurações, parametrizações e recursos permitem lidar de maneira semelhante com a Plataforma e suas operações. Aproveitar particularidades por adaptações explícitas.",
+      "human_sources": [
+        "R04-U010"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A009",
+        "R04-A010"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Capacidades e adequações concretas por modalidade.",
+      "qualification": "A expressão toda ferramenta é direção de compatibilidade, não prova de suporte universal.",
+      "consumers": [
+        "P03.22",
+        "P07.1",
+        "P06.5"
+      ]
+    },
+    {
+      "id": "R04-DEC-010",
+      "questions": [
+        "P02.1"
+      ],
+      "definition": "Suporte específico da primeira entrega permanece Devin Web, Devin CLI, Devin Desktop e Claude Code. GitHub Copilot não é acrescentado a esse recorte; permanece possibilidade posterior.",
+      "human_sources": [
+        "R04-U011"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A010",
+        "R04-A011"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "",
+      "qualification": "O “Não” de U011 responde à pergunta contextualizada de A010 sobre inclusão do Copilot; não nega o objetivo amplo de portabilidade.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-011",
+      "questions": [
+        "P02.2",
+        "P02.3"
+      ],
+      "definition": "Descoberta do conhecimento e preparação das configurações seguem a base comum com adaptações específicas. A descoberta gradual de P04 é preservada. Conteúdo, arquivos, momento de preparação, destinos e procedimentos concretos ficam postergados.",
+      "human_sources": [
+        "R04-U010"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A009",
+        "R04-A010"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Representação, instruções de entrada por modalidade, obtenção do estado correto e escopo material das configurações.",
+      "qualification": "",
+      "consumers": [
+        "P03.22",
+        "P07.2"
+      ]
+    },
+    {
+      "id": "R04-DEC-012",
+      "questions": [
+        "P02.4"
+      ],
+      "definition": "No primeiro uso diário, atualizar cada modalidade para a última versão disponível. Diferenças temporárias de versão entre engenheiros são expressamente aceitas.",
+      "human_sources": [
+        "R04-U010",
+        "R04-U011"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A009",
+        "R04-A010",
+        "R04-A011"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Mecanismos, origem corporativa da distribuição, comprovação de versão/resultado, Web/Desktop/CLI e falhas.",
+      "qualification": "Retifica a expectativa inicial de igualdade contínua. Não foi escolhida versão-alvo corporativa uniforme. A atualização do Macro não comprova atualização de executável/serviço.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-013",
+      "questions": [
+        "P02.5"
+      ],
+      "definition": "Aplicar a regra aceita aos cenários das modalidades: mensagem identifica componente afetado, o que foi confirmado, trabalho que continua e condição para retomar a ação dependente.",
+      "human_sources": [
+        "R04-U010"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A009",
+        "R04-A010"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Cenários, meios de comprovação e recuperação.",
+      "qualification": "",
+      "consumers": [
+        "P07.5"
+      ]
+    },
+    {
+      "id": "R04-DEC-014",
+      "questions": [
+        "P03.20"
+      ],
+      "definition": "Em etapa mais madura, um agente de IA (ChatGPT) definirá cenários de testes minuciosos, críticos, criteriosos e rigorosos. Agentes de IA também executarão e avaliarão resultados com base nas definições, requisitos e critérios estabelecidos.",
+      "human_sources": [
+        "R04-U013"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A012",
+        "R04-A013"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Casos concretos, fontes, resultados esperados, procedimentos, evidências e critérios quantitativos.",
+      "qualification": "Define responsáveis e sequência, não uma execução atual nem independência automaticamente comprovada entre autores/avaliadores.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-015",
+      "questions": [
+        "P03.20"
+      ],
+      "definition": "C-P03-07 segue o mesmo encaminhamento: comparar futuramente qualidade, tempo, contexto, recursos e custo por tarefa/modalidade. Considerar produzir, consultar e manter, preservando condições e exceções materiais.",
+      "human_sources": [
+        "R04-U013"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A012",
+        "R04-A013"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Alternativas, medições disponíveis, condições de comparação e compromissos; sem benchmark/limiar aprovado.",
+      "qualification": "",
+      "consumers": [
+        "P03.22",
+        "P02.1"
+      ]
+    },
+    {
+      "id": "R04-DEC-016",
+      "questions": [
+        "P03.22"
+      ],
+      "definition": "Detalhamento concreto posterior por agentes, orientado pelas definições existentes. Comparar agrupamentos pela finalidade da consulta e manutenção do significado, usando os casos de P03.20/C-P03-07.",
+      "human_sources": [
+        "R04-U013"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A012",
+        "R04-A013"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Entrada, unidades, arquivos, formatos, índices, instruções, estrutura física e descoberta gradual.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-017",
+      "questions": [
+        "P03.22"
+      ],
+      "definition": "Percurso aceito de manutenção: encontrar a regra → localizar sua origem → alterar no escopo autorizado → identificar referências afetadas → verificar o resultado.",
+      "human_sources": [
+        "R04-U013"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A012",
+        "R04-A013"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Mecanismo concreto.",
+      "qualification": "",
+      "consumers": [
+        "P07.4",
+        "P08.5"
+      ]
+    },
+    {
+      "id": "R04-DEC-018",
+      "questions": [
+        "P03.22"
+      ],
+      "definition": "Preparar futuramente um pequeno Micro e um Meso que o encaminhe, demonstrando consulta rápida de parâmetro e compreensão/modificação de regra com condições, exceções e referências afetadas; comparar para fundamentar a estrutura.",
+      "human_sources": [
+        "R04-U013"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A012",
+        "R04-A013"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Produção dos exemplares, ensaios e escolha da estrutura.",
+      "qualification": "Não reintroduz consulta bem-sucedida de outro agente como DoD do produtor.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-019",
+      "questions": [
+        "P03.20",
+        "P03.22"
+      ],
+      "definition": "Pontos que exigem concretização factual ficam para refinamentos posteriores: a etapa atual é levantamento, definição e detalhamento de requisitos. Os exemplos não autorizam implementar/executar aplicações.",
+      "human_sources": [
+        "R04-U013"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A013"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Contratos produtor/consumidor, correspondência ao estado, garantia pré-push e recuperação/composição multirrepositório.",
+      "qualification": "",
+      "consumers": [
+        "todos os grupos"
+      ]
+    },
+    {
+      "id": "R04-DEC-020",
+      "questions": [
+        "P05.1"
+      ],
+      "definition": "O time declara explicitamente o encerramento da atividade, identificando alcance e destino dos itens restantes. O agente pode reunir informações e apontar pendências antes. O término é distinto da aprovação do refinamento; destino de branch/pasta conserva R06.",
+      "human_sources": [
+        "R04-U015"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A014",
+        "R04-A015"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Registro do encerramento e mecanismos de arquivamento; não autoriza excluir branches nesta missão.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-021",
+      "questions": [
+        "P05.2"
+      ],
+      "definition": "O próprio agente efetiva o vínculo de Sigla autorizado pelo Analista com direitos disponíveis e informa resultado ou impedimento. Não implica incluir todos os repositórios nem reinstalar consentimento genérico de leitura.",
+      "human_sources": [
+        "R04-U015"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A014",
+        "R04-A015"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Arquivos, obtenção dos índices e mecanismo de vínculo.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-022",
+      "questions": [
+        "P05.3"
+      ],
+      "definition": "Consulta histórica segue R06, P01 e P04: direitos efetivos, origem, alcance e contexto histórico preservados; itens conservam pertencimento original. Não se cria controle adicional de leitores.",
+      "human_sources": [
+        "R04-U004",
+        "R04-U006",
+        "R04-U008",
+        "R04-U015"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A014",
+        "R04-A015"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Descoberta e recuperação material do histórico.",
+      "qualification": "Regra herdada aplicada editorialmente em A014/A015; não há nova mensagem humana exclusiva de P05.3 nem licença para promover decisão antiga automaticamente a atual.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-023",
+      "questions": [
+        "P05.4"
+      ],
+      "definition": "Retomada deve recuperar objetivo/alcance, fontes/evidências, requisitos e decisões vigentes, hipóteses descartadas/substituídas e motivos, pendências/impedimentos/dependências, estado do trabalho, branches/commits/composição e próxima ação/escolha necessária.",
+      "human_sources": [
+        "R04-U015"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A014",
+        "R04-A015"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Layout, formatos, recuperação e ensaio por agente.",
+      "qualification": "",
+      "consumers": [
+        "P06.4"
+      ]
+    },
+    {
+      "id": "R04-DEC-024",
+      "questions": [
+        "P05.5"
+      ],
+      "definition": "Repositório de Workspaces deve organizar, indexar e rotear seu conteúdo e relações para que analistas em outras máquinas/sessões obtenham, compreendam e trabalhem com agentes nos Workspaces sem remapear integralmente o entendimento válido. Abrange relações entre Micro, Meso, tarefas, atividades e refinamentos.",
+      "human_sources": [
+        "R04-U015"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A015"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Identidade física do repositório Workspace com Meso, índices, recuperação e manutenção.",
+      "qualification": "O “de certa maneira, sim” é especificado pelo próprio usuário como função de roteamento. Não basta para afirmar identidade física com Meso. Reuso não dispensa revalidar mudanças relevantes.",
+      "consumers": [
+        "P06.4",
+        "P08.3",
+        "P09.4"
+      ]
+    },
+    {
+      "id": "R04-DEC-025",
+      "questions": [
+        "P05.6"
+      ],
+      "definition": "Sugestão de inclusão informa repositório/Sigla, razão/evidência, lacuna ou tarefa atendida, branch/commit pertinente quando conhecido, direitos/condições faltantes, limitações que permanecerão e continuidade independente. O Engenheiro decide; agente registra decisão e efetiva inclusão autorizada.",
+      "human_sources": [
+        "R04-U015"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A014",
+        "R04-A015"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Apresentação, armazenamento e inclusão concreta.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-026",
+      "questions": [
+        "P06.1"
+      ],
+      "definition": "Identificar etapa por item pelo último marco comprovado, decisões registradas e trabalho pendente; permitir correção explícita pelo usuário. Status corporativo pode integrar os sinais; papel concreto definido na integração.",
+      "human_sources": [
+        "R04-U017"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A016",
+        "R04-A017"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Estrutura de estados e mecanismo de enquadramento.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-027",
+      "questions": [
+        "P06.1"
+      ],
+      "definition": "Haverá registro/atualização de progresso entre etapas, fases e pontos de cada tarefa, desde refinamento até deploy em produção.",
+      "human_sources": [
+        "R04-U017"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A017"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Níveis, marcos/evidências, interrupção/retorno e relação entre estado documental, branch e status corporativo.",
+      "qualification": "Abrange acompanhamento do ciclo; não é autorização de deploy ou especificação pronta da pipeline.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-028",
+      "questions": [
+        "P06.2"
+      ],
+      "definition": "Propor avanço quando resultados exigidos estiverem demonstrados e pendências materiais tiverem tratamento compatível; apresentar fundamento, avaliar dúvidas, riscos, lacunas e insuficiências e respeitar ato humano aplicável. Analista aprova refinamento.",
+      "human_sources": [
+        "R04-U017"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A016",
+        "R04-A017"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Condições concretas de transições e demais atos pertinentes.",
+      "qualification": "Avaliar pendências não significa exigir ausência absoluta de toda pendência independente.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-029",
+      "questions": [
+        "P06.3"
+      ],
+      "definition": "Mudança de etapa anterior: recuperar definição anterior/nova manifestação; distinguir esclarecimento/correção/decisão/conflito; identificar dependentes; reexaminar partes atingidas; informar efeito sobre etapa atual; preservar continuidade independente. Mensagem nos testes pode afetar outras etapas.",
+      "human_sources": [
+        "R04-U017"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A016",
+        "R04-A017"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Rastreamento e propagação concreta.",
+      "qualification": "",
+      "consumers": [
+        "P07.4",
+        "P08.5"
+      ]
+    },
+    {
+      "id": "R04-DEC-030",
+      "questions": [
+        "P06.4"
+      ],
+      "definition": "Retomar item usando o conteúdo de P05.4, identificando sua etapa e conferindo o estado que fundamenta a próxima ação, inclusive mudanças relevantes desde a interrupção.",
+      "human_sources": [
+        "R04-U015",
+        "R04-U017"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A016",
+        "R04-A017"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Recuperação, conciliação com status corporativo e demonstração.",
+      "qualification": "Conteúdo herdado de P05/P04; não houve nova pergunta humana exclusiva de P06.4.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-031",
+      "questions": [
+        "P06.5"
+      ],
+      "definition": "Agentes prepararão futuramente exemplo encadeado da mesma demanda para detalhar competências, fontes, entregáveis e critérios observáveis por etapa.",
+      "human_sources": [
+        "R04-U017"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A016",
+        "R04-A017"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Exemplos e avaliação concretos em articulação com P03.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-032",
+      "questions": [
+        "P06.5"
+      ],
+      "definition": "Agentes assumirão papéis específicos conforme contexto, atividade e etapa do Workspace/tarefa: negócios, PM, PA, PO, arquitetura, engenharia, cloud/AWS, QA, testes, deploy e outras dimensões pertinentes; interpretarão e responderão conforme esses papéis.",
+      "human_sources": [
+        "R04-U017"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A017"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Catálogo, competências, sinais de troca, transferência de contexto, quantidade e distribuição dos agentes.",
+      "qualification": "Papéis de atuação não conferem automaticamente autoridade humana, permissões operacionais ou independência entre avaliadores.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-033",
+      "questions": [
+        "P06.6"
+      ],
+      "definition": "Na integração futura, elaborar matriz por operação: gatilho, responsável, condições, efeito e evidência de sucesso, fundamentada no contrato real. Nomes de estados, APIs e autenticação não são escolhidos agora.",
+      "human_sources": [
+        "R04-U017"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A016",
+        "R04-A017"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Contratos, estados, direitos efetivos, falhas e resultados incertos.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-034",
+      "questions": [
+        "P06.7"
+      ],
+      "definition": "Suporte corporativo da entrega abrange também tasks, subtasks e bugs, além de histórias, com operações aplicáveis a especificar por tipo.",
+      "human_sources": [
+        "R04-U017"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A016",
+        "R04-A017"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Operações/estados/relacionamentos concretos por tipo.",
+      "qualification": "O “Sim, também” aceita a ampliação funcional descrita em A016; não comprova conector ou igualdade de contratos entre tipos.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-035",
+      "questions": [
+        "P07.1"
+      ],
+      "definition": "Extensões: finalidade, origem/escopo, versão/commit, aplicabilidade, entradas/resultados pertinentes, pré-requisitos/dependências, operações/limites, exemplo e verificação proporcional ao tipo. Diferenciar instrução/documento de ferramenta executável.",
+      "human_sources": [
+        "R04-U019"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A018",
+        "R04-A019"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Campos, arquivos e procedimentos de verificação.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-036",
+      "questions": [
+        "P07.2"
+      ],
+      "definition": "Descobrir por necessidade/fontes do trabalho; seguir relações até escopo ofertante; verificar aplicabilidade; conservar origem; explicar pertinência. Não aplicar recurso de um repositório indiscriminadamente à Sigla.",
+      "human_sources": [
+        "R04-U019"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A018",
+        "R04-A019"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Índices, sinais e mecanismo de descoberta gradual.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-037",
+      "questions": [
+        "P07.3"
+      ],
+      "definition": "Identificar orientações/origens/condições; conciliar por contexto/evidência; aplicar compatíveis; preservar/apresentar incompatibilidade material; solicitar esclarecimento ao responsável competente quando necessário; registrar fundamento/alcance da resolução. Não presumir que o mais local vence.",
+      "human_sources": [
+        "R04-U019"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A018",
+        "R04-A019"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Casos concretos, identificação do responsável pelo assunto e eventual hierarquia automática.",
+      "qualification": "Autoridade operacional continua distinta de orientação. A frase copiada “ainda precisamos definir aplicação” foi lida em A019 como concretização futura, pois a conduta funcional foi expressamente aceita.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-038",
+      "questions": [
+        "P07.4"
+      ],
+      "definition": "Atualização/substituição/retirada: identificar mudança/recurso, preservar histórico legítimo, localizar consumidores conhecidos e avaliar impacto, informar orientações aplicáveis, atualizar/revalidar atingidos, preservar independente e identificar ação que aguarda.",
+      "human_sources": [
+        "R04-U019"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A018",
+        "R04-A019"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Detecção, rastreamento, atualização e recuperação.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-039",
+      "questions": [
+        "P07.5"
+      ],
+      "definition": "Agente explica contexto, ferramenta/operação, detalhes pertinentes, impedimento e causa conhecida de forma coesa, objetiva e clara para o engenheiro compreender e intervir/sugerir solução. Distinguir observação, causa comprovada e causa ainda não determinada; indicar impacto, evidência necessária, continuidade independente e retomada.",
+      "human_sources": [
+        "R04-U019"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A018",
+        "R04-A019"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Apresentação, contratos reais e mecanismos.",
+      "qualification": "A distinção causa conhecida/desconhecida e a continuidade são explicitações editoriais sustentadas por P03/P04/P02; não uma nova frase humana literal.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-040",
+      "questions": [
+        "P08.1"
+      ],
+      "definition": "Descoberta arquitetural compreende relação entre diferentes repositórios/aplicações, particularidades, efeitos, consequências e propriedades. Analista delimita alcance/abrangência com ajuda, instruções, explicações e sugestões do agente.",
+      "human_sources": [
+        "R04-U021"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A020",
+        "R04-A021"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Procedimento de descoberta e representação concreta.",
+      "qualification": "",
+      "consumers": [
+        "P09.4"
+      ]
+    },
+    {
+      "id": "R04-DEC-041",
+      "questions": [
+        "P08.2"
+      ],
+      "definition": "Registrar finalidade, entradas/situações, resultados, componentes/relações, papel de compartilhados, variantes/retornos/caminhos, fronteiras/partes desconhecidas e alcance confirmado pelo Analista. Distinguir confirmado, candidato e desconhecido.",
+      "human_sources": [
+        "R04-U021"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A020",
+        "R04-A021"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Representação e demonstração.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-042",
+      "questions": [
+        "P08.3",
+        "P08.1"
+      ],
+      "definition": "Solução terá referência estável, identificação, reutilização e acesso; será um repositório próprio e comporá uma camada da Plataforma.",
+      "human_sources": [
+        "R04-U021"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A020",
+        "R04-A021"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Identificadores, nomes, organização física, equivalência/duplicidade e evolução da identidade.",
+      "qualification": "A escolha de base arquitetural própria decorre da manifestação explícita em P08.3 em conjunto com P08.1; mapas candidatos permanecem úteis durante descoberta, sem voltar a tratar a camada como apenas hipótese.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-043",
+      "questions": [
+        "P08.4"
+      ],
+      "definition": "Conhecimento da composição/solução/arquitetura segue estados de produção, homologação e branch atual conforme modificações locais do engenheiro, no mesmo princípio de Micro/Meso. Preservar composição efetivamente estudada, commits/ponteiros, diferenças locais e lacunas conforme P04.",
+      "human_sources": [
+        "R04-U021"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A020",
+        "R04-A021"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Armazenamento/versionamento físico e comprovação das correspondências.",
+      "qualification": "Não presume três repositórios físicos; não prova configuração/implantação de aplicações. Convenção main/PROD e release/HOM continua relato humano de P04.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-044",
+      "questions": [
+        "P08.5"
+      ],
+      "definition": "Identificar mudanças em componentes/relações; examinar efeito conjunto; atualizar/revalidar evidências no escopo autorizado; localizar dependentes; levar ao Analista mudanças na finalidade/fronteira/comportamento acordado ou dúvida material; preservar independente e identificar parte aguardando.",
+      "human_sources": [
+        "R04-U021"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A020",
+        "R04-A021"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Detecção, propagação e verificação.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-045",
+      "questions": [
+        "P08.6"
+      ],
+      "definition": "A solução não tem representante formal. Identificar, descobrir, criar ou commitar seu repositório não torna a pessoa responsável permanente; tampouco contribuições diretas ou mudanças indiretas em Meso/Micro participantes.",
+      "human_sources": [
+        "R04-U021"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A020",
+        "R04-A021"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Mecanismos colaborativos, conflitos, continuidade, publicação e recuperação.",
+      "qualification": "Rejeita a proposta anterior de time mantenedor formal. Autoria/proveniência, direitos reais e competência do Analista para delimitação continuam distintos; não inferir responsabilidade formal para Negócios por analogia.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-046",
+      "questions": [
+        "P09.1"
+      ],
+      "definition": "Adotar o exemplo sintético do canal existente que envia à análise manual e do novo canal: distinguir política abrangente de contingência/especificidade do canal. Caso serve para definir capacidade de recuperar significado/alcance/justificativa/consequência; não fixa a regra real do exemplo.",
+      "human_sources": [
+        "R04-U023"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A022",
+        "R04-A023"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Elaboração e avaliação detalhadas por agentes.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-047",
+      "questions": [
+        "P09.2"
+      ],
+      "definition": "Fundamentar entendimentos em fontes pertinentes com origem/natureza/alcance/temporalidade; distinguir implementado, declarado, hipótese e decisão futura; preservar contradições/contraevidência; buscar suporte material; entregar parcela sustentada com lacunas.",
+      "human_sources": [
+        "R04-U023"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A022",
+        "R04-A023"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Fontes corporativas específicas e mecanismos.",
+      "qualification": "Não foi aprovada hierarquia universal de fontes; código sustenta o comportamento evidenciado, não toda generalização para novos públicos/canais.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-048",
+      "questions": [
+        "P09.3"
+      ],
+      "definition": "Qualquer pessoa pode dar esclarecimentos. Receber a contribuição sem exigir classificação prévia em papel competente; preservar autoria quando identificada, contexto, alcance, fundamento, divergências e efeito na atividade.",
+      "human_sources": [
+        "R04-U023"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A022",
+        "R04-A023"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Representação e tratamento operacional dos esclarecimentos.",
+      "qualification": "Observação explícita retifica a proposta de restringir o fornecimento a papéis competentes. Não transforma toda declaração em fato comprovado nem revoga S2/aprovação do refinamento pelo Analista.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-049",
+      "questions": [
+        "P09.4"
+      ],
+      "definition": "Recuperação transversal por conceitos/regras e suas relações com produtos, processos, jornadas, soluções e aplicações; permitir caminho inverso partindo da atividade/aplicação. Manter origem principal por fato e referências/derivados verificáveis, com descoberta gradual.",
+      "human_sources": [
+        "R04-U023"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A022",
+        "R04-A023"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Unidade organizadora, taxonomia, identificadores, formatos e armazenamento. Repositório próprio de Negócios não foi escolhido.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-050",
+      "questions": [
+        "P09.5"
+      ],
+      "definition": "Resposta suficiente: significado; finalidade/justificativa conhecidas; condições/público/exceções/limites; fontes/fundamento; vigência; relação com implementado; consequência para atividade; lacunas/conflitos/próxima ação; autoria da manifestação quando identificada. Profundidade ajustada à necessidade.",
+      "human_sources": [
+        "R04-U023"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A022",
+        "R04-A023"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Formato e representação.",
+      "qualification": "P09.3 troca a exigência de responsável formal por autoria quando identificada; informação ausente continua limitação, não apagamento do trabalho independente.",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-051",
+      "questions": [
+        "P09.6"
+      ],
+      "definition": "Distinguir vigência de orientação e estado implementado: registrar temporalidade conhecida, histórico/substituições e relação aos estados de código; identificar diferenças materiais e revalidar afetados; apresentar incerteza quando faltar suporte.",
+      "human_sources": [
+        "R04-U023"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A022",
+        "R04-A023"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Registro temporal e integração com branch, homologação e produção.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-DEC-052",
+      "questions": [
+        "P09.7"
+      ],
+      "definition": "Aplicar direitos efetivos de fontes/destinos e internal/private conforme P01/P04; preservar origem/alcance/restrições conhecidas, preferir referências suficientes, considerar público do destino e apresentar fonte inacessível como lacuna. Sem nova classificação de leitores ou consentimento genérico por consulta.",
+      "human_sources": [
+        "R04-U023"
+      ],
+      "proposal_or_analysis_sources": [
+        "R04-A022",
+        "R04-A023"
+      ],
+      "nature": "definição/aceite humano no alcance descrito",
+      "stage": "requisito/direção de discovery; concretização não comprovada",
+      "pending": "Mecanismos nos recursos/destinos concretos.",
+      "qualification": "",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-1",
+      "questions": [
+        "P03.1"
+      ],
+      "definition": "Consolidar todo conhecimento suficientemente válido descoberto. Nas chamadas HTTP consumidas, recuperar URL/verbo, entradas com tipos e exemplos quando possível, saídas, headers, query/path parameters, timeout e status esperados. Explicar tratamento de respostas quando mudar conclusão material; não duplicar implementação sem necessidade.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1/2; BP-S02 ed.2/4/7/8; C-P03-01/02.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-2",
+      "questions": [
+        "P03.2"
+      ],
+      "definition": "Finalidade do onboarding é fixa; o engenheiro indica a entrada. Examinar, conforme aplicável, responsabilidades, fluxos, regras, contratos, integrações, APIs, workers, tópicos/filas, banco, configurações, variáveis, bibliotecas/frameworks, infraestrutura e procedimentos documentados de operação/teste. AWS/Terraform são relato do ambiente, sem escolha universal de stack.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1/3; BP-S02 ed.2/4/7/8; C-P03-03/08 e DoD corrigido.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-3",
+      "questions": [
+        "P03.3"
+      ],
+      "definition": "Ligar afirmação à revisão e à evidência mais específica permitida: arquivo/seção/classe/método/linha/coluna/cláusula/bloco de infraestrutura. Conservar as duas fontes quando a conclusão depender de ambas.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2; requisito transversal de rastreabilidade.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-4",
+      "questions": [
+        "P03.4"
+      ],
+      "definition": "Meso indexa responsabilidades dos Micro/submódulos e conduz a dúvida aos repositórios pertinentes, indicando material estudado/revisões/limites. Catálogo da raiz encaminha à Sigla desconhecida. Fronteira funcional de solução, inclusive entre Siglas, cabe ao Analista.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1/5; BP-S02 ed.2–4/7–10, R6–R8/S3; P08 permanece próprio.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-5",
+      "questions": [
+        "P03.5"
+      ],
+      "definition": "Não exigir conhecer/provar o total de repositórios da Sigla. Buscar todos que forem encontráveis no acesso permitido e declarar busca/seleção efetiva, obtidos/analisados/falhas. Ausência na seleção não prova inexistência.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2; P03.7/9.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-6",
+      "questions": [
+        "P03.6"
+      ],
+      "definition": "Relação examinada por um lado registra sentido, contrato/evento observado, origem/revisão, limite e fonte necessária do outro lado. Agente pode sugerir inclusão de repositório na atividade; Engenheiro decide.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2/4; C-P03-01 e cenários A/B/C.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-7",
+      "questions": [
+        "P03.7"
+      ],
+      "definition": "Entradas: diretório local, repositórios arrastados à pasta, links GitHub ou busca por Sigla. Local conserva branch existente salvo escolha do Engenheiro e distingue alterações autorizadas do commit-base. Link remoto de raiz usa main; link de branch é escolha explícita.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2/4/5; C-P03-04/05; falha→P03.9.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-8",
+      "questions": [
+        "P03.8"
+      ],
+      "definition": "No ambiente relatado, o nome do repositório identifica obrigatoriamente sua Sigla. Motor identifica pertencimento e organiza a cópia; uso em atividade de outra Sigla não transfere pertencimento.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2/3; natureza contextual do relato.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-9",
+      "questions": [
+        "P03.9"
+      ],
+      "definition": "Parte material incompleta identifica revisão, conteúdo examinado, material faltante, motivo conhecido, consequência e retomada. Entregar parcela sustentada e delimitar a conclusão dependente.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2; não converter inacessibilidade em inexistência.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-10",
+      "questions": [
+        "P03.10"
+      ],
+      "definition": "Nova execução ou entendimento validado deve refletir-se no material pertinente da Sigla; Meso enriquece a partir de seus Micro sem apagar revisões conhecidas dos demais nem cobertura da rodada.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1/4; BP-S02 ed.2/3; S1/S2/HUM-08.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-11",
+      "questions": [
+        "P03.11"
+      ],
+      "definition": "Na interação posterior, confrontar evidência com a ação concreta: explicitar o que pode afirmar/fazer e a decisão que depende de outra fonte. Não impor esse objetivo particular ao encerramento da produção.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1/3; BP-S02 ed.2/8; fronteira produtor/interação.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-12",
+      "questions": [
+        "P03.12"
+      ],
+      "definition": "Comparar objeto, revisão, condições e natureza das fontes diante de divergência. Preservar interpretações/evidências concorrentes e a prova que as distinguiria. Teste documentado não equivale a execução observada.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1/4; BP-S02 ed.2/8/9; S1/S3.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-13",
+      "questions": [
+        "P03.13"
+      ],
+      "definition": "Falta de suporte imprescindível à fidelidade ou delimitação da cobertura impede a conclusão dependente. Se criticidade continuar incerta após investigação autorizada, escalar ao Engenheiro. Parte independente pode ser entregue; uso posterior avalia impacto da ação concreta.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1/3; BP-S02 ed.2/7/8; BP-S05.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-14",
+      "questions": [
+        "P03.14"
+      ],
+      "definition": "Release branch mais recente representa HOM segundo o processo relatado pelo usuário. Registrar commit examinado; interpretar evidência autorizada fornecida sobre implantação/configuração com componente/revisão/ambiente. Ocorrência específica requer sua própria evidência.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2–5; C-P03-06; C-P04-08 posterior complementa o relato, sem comprovar pipeline.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-15",
+      "questions": [
+        "P03.15"
+      ],
+      "definition": "Intervenção leva menor pergunta útil, hipóteses compatíveis, referências, tentativas autorizadas e decisão afetada. Separar dúvida factual da revisão e escolha futura de produto.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2; HUM-02/03.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-16",
+      "questions": [
+        "P03.16"
+      ],
+      "definition": "Catalogar/comunicar lacuna ou incoerência tão logo percebida, com informação sustentada, limitação e próxima ação. Avisar se continua sozinho ou precisa de decisão humana agora.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2/3; BP-S05.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-17",
+      "questions": [
+        "P03.17"
+      ],
+      "definition": "Reapresentar ressalva em usos direta ou indiretamente dependentes, inclusive fora do Workspace; explicar relação e consequência concreta. Relação hipotética continua identificada com evidência faltante.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2; BP-S05.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-18",
+      "questions": [
+        "P03.18"
+      ],
+      "definition": "Primeira entrega prioriza Motor sem interface gráfica própria construída pela equipe. Agente explica afirmação afetada, fonte, limitação e próxima ação; detalhe deve ser recuperável por assunto.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2; não escolhe layout final.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-19",
+      "questions": [
+        "P03.19"
+      ],
+      "definition": "Interação investiga até resposta suficientemente fundamentada pela natureza, escopo, critérios e implicações do pedido; reporta inconclusões e oferece aprofundamento conforme Engenheiro. Produção encerra pelo DoD próprio.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1/3; BP-S02 ed.2/8.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P03-21",
+      "questions": [
+        "P03.21"
+      ],
+      "definition": "Solicitação excepcional de executar aplicação local só após dúvida intransponível e tentativas autorizadas esgotadas; oferecer resposta direta do Engenheiro, explicitar dúvida/tentativas/finalidade/ambiente/dados/pré-requisitos/comandos/efeitos e obter permissão por ocorrência. Esta missão não executa aplicações.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "BP-S01 §1; BP-S02 ed.2/3; HUM-03 e RET-001. A segunda resposta rotulada P03.2 foi vinculada editorialmente a P03.21 por posição/assunto, sem alterar o original.",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-1",
+      "questions": [
+        "P04.1"
+      ],
+      "definition": "Reaproveitar conhecimento cuja validade permaneça demonstrável para a nova revisão; investigar alterações e dependências afetadas. Economia de trabalho não permite presumir validade porque um arquivo ficou igual. Alcance incremental e métodos ainda precisam de demonstração.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "C1-A3, aceite anterior relatado; HUM-08; engenharia posterior",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-2",
+      "questions": [
+        "P04.2"
+      ],
+      "definition": "Ao detectar mudança, impedir o uso como atual das afirmações afetadas e das conclusões dependentes; preservar informação independente. Registrar impacto indireto incerto e destino inacessível, sem alegar atualização nele.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "C1-A3, aceite anterior relatado; HUM-08",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-3",
+      "questions": [
+        "P04.3"
+      ],
+      "definition": "Restabelecer a validade somente por evidências pertinentes à afirmação e ao estado estudado. Código pode sustentar comportamento previsto; ocorrência executada exige sua evidência. Parte inconclusiva conserva ressalva.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "C1-A3, aceite anterior relatado; HUM-08",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-4",
+      "questions": [
+        "P04.4"
+      ],
+      "definition": "Distinguir atualização individual Micro de composição Micro/Meso/raiz. Identificar revisões e ponteiros, manter composição anterior identificada, registrar falha e retomar a etapa incompleta. Corrigir raiz se significado ou referência forem afetados. Não prometer atomicidade física.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "C1-A3, aceite anterior relatado; D02-RET-004; U3/C-P04-05 reforça correspondência",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-5",
+      "questions": [
+        "P04.5"
+      ],
+      "definition": "Quando a base mudar, reexaminar o significado das contribuições antes de incorporar. Reler revisão vigente, aproveitar partes independentes verificadas, preservar divergências que a evidência não resolve. Ausência de conflito textual não prova compatibilidade semântica.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "C1-A3, aceite anterior relatado; P03/S1/S3",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-6",
+      "questions": [
+        "P04.6"
+      ],
+      "definition": "Esclarecimento reutilizável preserva fonte, natureza, revisão, condição e público. Para novo entendimento, pedido único ao Analista com entendimento, origem, destino e efeito; silêncio gera pendência, negativa descarta aquele destino. Correção inequívoca segue S1.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "P03/S2, C1-A1/A3/A4; U3/C-P04-01 mantém aprovações específicas",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-7",
+      "questions": [
+        "P04.7"
+      ],
+      "definition": "Eliminar consentimento genérico adicional para ler fontes internas já legitimamente acessíveis. Manter aceites específicos de decisões humanas, operações sensíveis e alterações já expressamente definidas. Não derivar direitos de uma cópia disponível.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "U3/C-P04-01, decisão direta; substitui leitura absoluta de U2",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-8",
+      "questions": [
+        "P04.8"
+      ],
+      "definition": "Dispensar controle próprio de expiração; reconhecer restrições reais encontradas. Conhecimento pode permanecer quando conservação e distribuição continuam legítimas; perda de fundamento impede uso da cópia. Ausência de expiração não é irrevogabilidade.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "U3/C-P04-02, decisão direta; delimita U1/U2",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-9",
+      "questions": [
+        "P04.9"
+      ],
+      "definition": "Aceitar publicidade corporativa da existência e identidade dos repositórios; leitura do índice não cria acesso ao destino. Classificação padrão de Workspaces/mapas permanece em P01.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "U2/P04.9 e U3/C-P04-03; decisão direta",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-10",
+      "questions": [
+        "P04.10"
+      ],
+      "definition": "Circulação legítima entre camadas como padrão, sem aprovações repetitivas; origem principal por fato, preferir referências suficientes e autorizadas, proteger segredos/dados/direitos de terceiros, conservar origem/revisão/alcance/restrições conhecidas.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "U3/C-P04-03/07, decisão direta; delimita 'sem limitações' de U2",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-11",
+      "questions": [
+        "P04.11"
+      ],
+      "definition": "Conhecimento reflete estado efetivamente usado: branch, commit-base e alterações locais pertinentes. Cada atividade mantém revisão/composição escolhida, sem promoção silenciosa de outra branch. Preservar ponteiros pretendidos dos submódulos.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "U1/P04.11, U2/P04.11 aceita recomendação; A3 e U3/C-P04-05/08",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    },
+    {
+      "id": "R04-HER-P04-12",
+      "questions": [
+        "P04.12"
+      ],
+      "definition": "Usar informações independentes suficientemente compreendidas. Nunca usar como premissa informação de significado material não recuperado; buscar outra evidência autorizada ou apresentar limitação e suspender conclusão dependente.",
+      "human_sources": [],
+      "proposal_or_analysis_sources": [],
+      "nature": "herança funcional R03; não é novo aceite humano R04",
+      "stage": "preservado no alcance documentado",
+      "pending": "Provas/mecanismos futuros e limites históricos da R03 preservados.",
+      "qualification": "U3/P04.12, decisão direta; não confundir Git atualizado e compreensão",
+      "inherited_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "consumers": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "P01.1",
+      "question": "Qual deve ser a visibilidade padrão do repositório de Workspaces de uma Sigla?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-001"
+      ],
+      "human_sources": [
+        "R04-U004",
+        "R04-U006",
+        "R04-U008"
+      ],
+      "pending": [],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p01-1"
+    },
+    {
+      "id": "P01.2",
+      "question": "Quem deve poder descobrir um mapa que referencia componentes de duas Siglas?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-002"
+      ],
+      "human_sources": [
+        "R04-U004"
+      ],
+      "pending": [
+        "Destino e organização concreta no refinamento da camada arquitetural."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p01-2"
+    },
+    {
+      "id": "P01.3",
+      "question": "Qual relação física a instalação deve manter com a raiz Git Macro?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-003"
+      ],
+      "human_sources": [
+        "R04-U004"
+      ],
+      "pending": [
+        "Layout, obtenção incremental e mecanismos de atualização; identidade física Workspace/Meso continua não escolhida."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p01-3"
+    },
+    {
+      "id": "P01.4",
+      "question": "Como o engenheiro deve iniciar a Plataforma na primeira entrega?",
+      "state": "PARCIAL_NO_DETALHE; modalidades diarias definidas em P02.4; demais rotina_POSTERGADA",
+      "records": [
+        "R04-DEC-004"
+      ],
+      "human_sources": [
+        "R04-U004",
+        "R04-U010",
+        "R04-U011"
+      ],
+      "pending": [
+        "Preparação de Macro/MCPs/skills, unidade por instalação/máquina/modalidade, alterações locais, resultado parcial e relação com verificações durante o trabalho."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p01-4"
+    },
+    {
+      "id": "P01.5",
+      "question": "Que trabalho pode continuar quando a atualização da raiz falha?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-005"
+      ],
+      "human_sources": [
+        "R04-U004"
+      ],
+      "pending": [
+        "Mecanismos e ensaios de recuperação."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p01-5"
+    },
+    {
+      "id": "P01.6",
+      "question": "Quais operações com o remoto a primeira entrega precisa autenticar?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-006"
+      ],
+      "human_sources": [
+        "R04-U004"
+      ],
+      "pending": [
+        "Procedimentos corporativos, operações concretas e demais ferramentas DataDog, AWS, ServiceNow/IUClick, ContentStack/CMS e outras; aprofundamento posterior."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p01-6"
+    },
+    {
+      "id": "P01.7",
+      "question": "Que publicação remota o usuário precisa conseguir iniciar pela Plataforma?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-007",
+        "R04-DEC-008"
+      ],
+      "human_sources": [
+        "R04-U004",
+        "R04-U006"
+      ],
+      "pending": [
+        "Pipeline, coordenação técnica multirrepositório e passagem a homologação/produção.",
+        "Aplicação nativa no Projeto ChatGPT não executada; o pacote no Git fica preparado para essa manutenção."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p01-7"
+    },
+    {
+      "id": "P02.1",
+      "question": "Quais tarefas definem suporte suficiente em cada modalidade?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-009",
+        "R04-DEC-010"
+      ],
+      "human_sources": [
+        "R04-U010",
+        "R04-U011"
+      ],
+      "pending": [
+        "Capacidades e adequações concretas por modalidade."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p02-1"
+    },
+    {
+      "id": "P02.2",
+      "question": "Como cada modalidade deve encontrar o conhecimento comum?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-011"
+      ],
+      "human_sources": [
+        "R04-U010"
+      ],
+      "pending": [
+        "Representação, instruções de entrada por modalidade, obtenção do estado correto e escopo material das configurações."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p02-2"
+    },
+    {
+      "id": "P02.3",
+      "question": "Em que momento a Plataforma pode preparar configurações específicas no repositório?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-011"
+      ],
+      "human_sources": [
+        "R04-U010"
+      ],
+      "pending": [
+        "Representação, instruções de entrada por modalidade, obtenção do estado correto e escopo material das configurações."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p02-3"
+    },
+    {
+      "id": "P02.4",
+      "question": "Qual evidência de versão efetiva é aceitável em cada modalidade?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-012"
+      ],
+      "human_sources": [
+        "R04-U010",
+        "R04-U011"
+      ],
+      "pending": [
+        "Mecanismos, origem corporativa da distribuição, comprovação de versão/resultado, Web/Desktop/CLI e falhas."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p02-4"
+    },
+    {
+      "id": "P02.5",
+      "question": "Qual é a continuidade esperada quando a atualização ou sua verificação falha?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-013"
+      ],
+      "human_sources": [
+        "R04-U010"
+      ],
+      "pending": [
+        "Cenários, meios de comprovação e recuperação."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p02-5"
+    },
+    {
+      "id": "P03.1",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-1"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-1"
+    },
+    {
+      "id": "P03.2",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-2"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-2"
+    },
+    {
+      "id": "P03.3",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-3"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-3"
+    },
+    {
+      "id": "P03.4",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-4"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-4"
+    },
+    {
+      "id": "P03.5",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-5"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-5"
+    },
+    {
+      "id": "P03.6",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-6"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-6"
+    },
+    {
+      "id": "P03.7",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-7"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-7"
+    },
+    {
+      "id": "P03.8",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-8"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-8"
+    },
+    {
+      "id": "P03.9",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-9"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-9"
+    },
+    {
+      "id": "P03.10",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-10"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-10"
+    },
+    {
+      "id": "P03.11",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-11"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-11"
+    },
+    {
+      "id": "P03.12",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-12"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-12"
+    },
+    {
+      "id": "P03.13",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-13"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-13"
+    },
+    {
+      "id": "P03.14",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-14"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-14"
+    },
+    {
+      "id": "P03.15",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-15"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-15"
+    },
+    {
+      "id": "P03.16",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-16"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-16"
+    },
+    {
+      "id": "P03.17",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-17"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-17"
+    },
+    {
+      "id": "P03.18",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-18"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-18"
+    },
+    {
+      "id": "P03.19",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-19"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-19"
+    },
+    {
+      "id": "P03.20",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "ENCAMINHAMENTO_DEFINIDO; concretizacao/avaliacao_POSTERGADA",
+      "records": [
+        "R04-DEC-014",
+        "R04-DEC-015",
+        "R04-DEC-019"
+      ],
+      "human_sources": [
+        "R04-U013"
+      ],
+      "pending": [
+        "Casos concretos, fontes, resultados esperados, procedimentos, evidências e critérios quantitativos.",
+        "Alternativas, medições disponíveis, condições de comparação e compromissos; sem benchmark/limiar aprovado.",
+        "Contratos produtor/consumidor, correspondência ao estado, garantia pré-push e recuperação/composição multirrepositório."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-20"
+    },
+    {
+      "id": "P03.21",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_FUNCIONAL; preservado",
+      "records": [
+        "R04-HER-P03-21"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-21"
+    },
+    {
+      "id": "P03.22",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "ENCAMINHAMENTO_DEFINIDO; concretizacao/avaliacao_POSTERGADA",
+      "records": [
+        "R04-DEC-016",
+        "R04-DEC-017",
+        "R04-DEC-018",
+        "R04-DEC-019"
+      ],
+      "human_sources": [
+        "R04-U013"
+      ],
+      "pending": [
+        "Entrada, unidades, arquivos, formatos, índices, instruções, estrutura física e descoberta gradual.",
+        "Mecanismo concreto.",
+        "Produção dos exemplares, ensaios e escolha da estrutura.",
+        "Contratos produtor/consumidor, correspondência ao estado, garantia pré-push e recuperação/composição multirrepositório."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p03-22"
+    },
+    {
+      "id": "P04.1",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-1"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-1"
+    },
+    {
+      "id": "P04.2",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-2"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-2"
+    },
+    {
+      "id": "P04.3",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-3"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-3"
+    },
+    {
+      "id": "P04.4",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-4"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-4"
+    },
+    {
+      "id": "P04.5",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-5"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-5"
+    },
+    {
+      "id": "P04.6",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-6"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-6"
+    },
+    {
+      "id": "P04.7",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-7"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-7"
+    },
+    {
+      "id": "P04.8",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-8"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-8"
+    },
+    {
+      "id": "P04.9",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-9"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-9"
+    },
+    {
+      "id": "P04.10",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-10"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-10"
+    },
+    {
+      "id": "P04.11",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-11"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-11"
+    },
+    {
+      "id": "P04.12",
+      "question": "Definição herdada na R03; ver fonte individual",
+      "state": "HERDADO_R03_NO_ALCANCE_QUALIFICADO; sem nova entrevista",
+      "records": [
+        "R04-HER-P04-12"
+      ],
+      "human_sources": [],
+      "pending": [
+        "Provas/mecanismos futuros e limites históricos da R03 preservados."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p04-12"
+    },
+    {
+      "id": "P05.1",
+      "question": "Qual sinal, se necessário, caracteriza o término da atividade?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-020"
+      ],
+      "human_sources": [
+        "R04-U015"
+      ],
+      "pending": [
+        "Registro do encerramento e mecanismos de arquivamento; não autoriza excluir branches nesta missão."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p05-1"
+    },
+    {
+      "id": "P05.2",
+      "question": "Quem efetiva o vínculo da Sigla depois da permissão do Analista?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-021"
+      ],
+      "human_sources": [
+        "R04-U015"
+      ],
+      "pending": [
+        "Arquivos, obtenção dos índices e mecanismo de vínculo."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p05-2"
+    },
+    {
+      "id": "P05.3",
+      "question": "Em que condições outro Workspace pode consultar um histórico?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-022"
+      ],
+      "human_sources": [
+        "R04-U004",
+        "R04-U006",
+        "R04-U008",
+        "R04-U015"
+      ],
+      "pending": [
+        "Descoberta e recuperação material do histórico."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p05-3"
+    },
+    {
+      "id": "P05.4",
+      "question": "O que alguém precisa encontrar na pasta de uma atividade para retomá-la?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-023"
+      ],
+      "human_sources": [
+        "R04-U015"
+      ],
+      "pending": [
+        "Layout, formatos, recuperação e ensaio por agente."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p05-4"
+    },
+    {
+      "id": "P05.5",
+      "question": "O repositório de Workspaces deve acumular a função do repositório Meso?",
+      "state": "ROTEAMENTO_FUNCIONAL_DEFINIDO; identidade_fisica_POSTERGADA",
+      "records": [
+        "R04-DEC-024"
+      ],
+      "human_sources": [
+        "R04-U015"
+      ],
+      "pending": [
+        "Identidade física do repositório Workspace com Meso, índices, recuperação e manutenção."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p05-5"
+    },
+    {
+      "id": "P05.6",
+      "question": "Quais informações permitem decidir sobre a inclusão de um repositório sugerido pelo agente?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-025"
+      ],
+      "human_sources": [
+        "R04-U015"
+      ],
+      "pending": [
+        "Apresentação, armazenamento e inclusão concreta."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p05-6"
+    },
+    {
+      "id": "P06.1",
+      "question": "Qual sinal determina a etapa de cada item?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-026",
+        "R04-DEC-027"
+      ],
+      "human_sources": [
+        "R04-U017"
+      ],
+      "pending": [
+        "Estrutura de estados e mecanismo de enquadramento.",
+        "Níveis, marcos/evidências, interrupção/retorno e relação entre estado documental, branch e status corporativo."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p06-1"
+    },
+    {
+      "id": "P06.2",
+      "question": "Que condição permite propor a passagem de uma etapa à seguinte?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-028"
+      ],
+      "human_sources": [
+        "R04-U017"
+      ],
+      "pending": [
+        "Condições concretas de transições e demais atos pertinentes."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p06-2"
+    },
+    {
+      "id": "P06.3",
+      "question": "Como tratar uma mensagem que corrige uma etapa anterior?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-029"
+      ],
+      "human_sources": [
+        "R04-U017"
+      ],
+      "pending": [
+        "Rastreamento e propagação concreta."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p06-3"
+    },
+    {
+      "id": "P06.4",
+      "question": "Que informação o agente precisa recuperar antes de retomar um item interrompido?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-030"
+      ],
+      "human_sources": [
+        "R04-U015",
+        "R04-U017"
+      ],
+      "pending": [
+        "Recuperação, conciliação com status corporativo e demonstração."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p06-4"
+    },
+    {
+      "id": "P06.5",
+      "question": "O que conta como uma entrega suficiente em cada atividade do agente?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-031",
+        "R04-DEC-032"
+      ],
+      "human_sources": [
+        "R04-U017"
+      ],
+      "pending": [
+        "Exemplos e avaliação concretos em articulação com P03.",
+        "Catálogo, competências, sinais de troca, transferência de contexto, quantidade e distribuição dos agentes."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p06-5"
+    },
+    {
+      "id": "P06.6",
+      "question": "Quais transições de história no ServiceNow/IUClick o produto deve oferecer?",
+      "state": "ENCAMINHAMENTO_FUNCIONAL; contrato_integracao_POSTERGADO",
+      "records": [
+        "R04-DEC-033"
+      ],
+      "human_sources": [
+        "R04-U017"
+      ],
+      "pending": [
+        "Contratos, estados, direitos efetivos, falhas e resultados incertos."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p06-6"
+    },
+    {
+      "id": "P06.7",
+      "question": "Onde termina o suporte a tasks, subtasks e bugs na primeira entrega?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-034"
+      ],
+      "human_sources": [
+        "R04-U017"
+      ],
+      "pending": [
+        "Operações/estados/relacionamentos concretos por tipo."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p06-7"
+    },
+    {
+      "id": "P07.1",
+      "question": "Que informação mínima torna uma extensão apta a ser incorporada em cada tipo?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-035"
+      ],
+      "human_sources": [
+        "R04-U019"
+      ],
+      "pending": [
+        "Campos, arquivos e procedimentos de verificação."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p07-1"
+    },
+    {
+      "id": "P07.2",
+      "question": "Como o agente reconhece que uma extensão de outro escopo se aplica à atividade?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-036"
+      ],
+      "human_sources": [
+        "R04-U019"
+      ],
+      "pending": [
+        "Índices, sinais e mecanismo de descoberta gradual."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p07-2"
+    },
+    {
+      "id": "P07.3",
+      "question": "Que regra resolve orientações incompatíveis de escopos diferentes?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-037"
+      ],
+      "human_sources": [
+        "R04-U019"
+      ],
+      "pending": [
+        "Casos concretos, identificação do responsável pelo assunto e eventual hierarquia automática."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p07-3"
+    },
+    {
+      "id": "P07.4",
+      "question": "Como uma atividade descobre o impacto da atualização ou retirada de uma extensão?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-038"
+      ],
+      "human_sources": [
+        "R04-U019"
+      ],
+      "pending": [
+        "Detecção, rastreamento, atualização e recuperação."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p07-4"
+    },
+    {
+      "id": "P07.5",
+      "question": "O que o agente deve entregar quando encontra a extensão, mas não pode operá-la?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-039"
+      ],
+      "human_sources": [
+        "R04-U019"
+      ],
+      "pending": [
+        "Apresentação, contratos reais e mecanismos."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p07-5"
+    },
+    {
+      "id": "P08.1",
+      "question": "Qual entrega arquitetural o Analista precisa receber nesta versão?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-040",
+        "R04-DEC-042"
+      ],
+      "human_sources": [
+        "R04-U021"
+      ],
+      "pending": [
+        "Procedimento de descoberta e representação concreta.",
+        "Identificadores, nomes, organização física, equivalência/duplicidade e evolução da identidade."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p08-1"
+    },
+    {
+      "id": "P08.2",
+      "question": "Como o Analista expressa a fronteira funcional da solução?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-041"
+      ],
+      "human_sources": [
+        "R04-U021"
+      ],
+      "pending": [
+        "Representação e demonstração."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p08-2"
+    },
+    {
+      "id": "P08.3",
+      "question": "Como reconhecer a mesma solução entre revisões ou entre Workspaces?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-042"
+      ],
+      "human_sources": [
+        "R04-U021"
+      ],
+      "pending": [
+        "Identificadores, nomes, organização física, equivalência/duplicidade e evolução da identidade."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p08-3"
+    },
+    {
+      "id": "P08.4",
+      "question": "O que deve constar na revisão de uma solução para o leitor reproduzir sua composição?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-043"
+      ],
+      "human_sources": [
+        "R04-U021"
+      ],
+      "pending": [
+        "Armazenamento/versionamento físico e comprovação das correspondências."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p08-4"
+    },
+    {
+      "id": "P08.5",
+      "question": "Qual manutenção da representação arquitetural cabe à primeira entrega?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-044"
+      ],
+      "human_sources": [
+        "R04-U021"
+      ],
+      "pending": [
+        "Detecção, propagação e verificação."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p08-5"
+    },
+    {
+      "id": "P08.6",
+      "question": "Quem responde pelo catálogo arquitetural e pela publicação de uma composição reconhecida, caso existam nesta versão?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-045"
+      ],
+      "human_sources": [
+        "R04-U021"
+      ],
+      "pending": [
+        "Mecanismos colaborativos, conflitos, continuidade, publicação e recuperação."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p08-6"
+    },
+    {
+      "id": "P09.1",
+      "question": "Qual pergunta de negócio deve orientar o primeiro exemplo?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-046"
+      ],
+      "human_sources": [
+        "R04-U023"
+      ],
+      "pending": [
+        "Elaboração e avaliação detalhadas por agentes."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p09-1"
+    },
+    {
+      "id": "P09.2",
+      "question": "Que fonte pode demonstrar a regra de negócio aplicável ao caso escolhido?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-047"
+      ],
+      "human_sources": [
+        "R04-U023"
+      ],
+      "pending": [
+        "Fontes corporativas específicas e mecanismos."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p09-2"
+    },
+    {
+      "id": "P09.3",
+      "question": "Quem pode validar o significado da regra para a atividade?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-048"
+      ],
+      "human_sources": [
+        "R04-U023"
+      ],
+      "pending": [
+        "Representação e tratamento operacional dos esclarecimentos."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p09-3"
+    },
+    {
+      "id": "P09.4",
+      "question": "Qual unidade organiza o conhecimento para que as pessoas consigam encontrá-lo?",
+      "state": "RECUPERACAO_TRANSVERSAL_DEFINIDA; taxonomia/armazenamento_POSTERGADOS",
+      "records": [
+        "R04-DEC-049"
+      ],
+      "human_sources": [
+        "R04-U023"
+      ],
+      "pending": [
+        "Unidade organizadora, taxonomia, identificadores, formatos e armazenamento. Repositório próprio de Negócios não foi escolhido."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p09-4"
+    },
+    {
+      "id": "P09.5",
+      "question": "Qual é a menor resposta de negócio útil ao engenheiro e ao agente?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-050"
+      ],
+      "human_sources": [
+        "R04-U023"
+      ],
+      "pending": [
+        "Formato e representação."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p09-5"
+    },
+    {
+      "id": "P09.6",
+      "question": "Como saber qual orientação de negócio estava vigente no momento relevante?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-051"
+      ],
+      "human_sources": [
+        "R04-U023"
+      ],
+      "pending": [
+        "Registro temporal e integração com branch, homologação e produção."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p09-6"
+    },
+    {
+      "id": "P09.7",
+      "question": "Que público precisa ver a regra de negócio, sua justificativa e as eventuais exceções?",
+      "state": "DEFINICAO_FUNCIONAL_ESTABELECIDA; mecanismos posteriores",
+      "records": [
+        "R04-DEC-052"
+      ],
+      "human_sources": [
+        "R04-U023"
+      ],
+      "pending": [
+        "Mecanismos nos recursos/destinos concretos."
+      ],
+      "r03_source": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/94b5e42960713670d1519a74fe8dd0f7b3afc03e/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md#p09-7"
+    }
+  ],
+  "deferred": [
+    {
+      "id": "R04-PEN-002",
+      "record": "R04-DEC-002",
+      "questions": [
+        "P01.2"
+      ],
+      "text": "Destino e organização concreta no refinamento da camada arquitetural.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U004"
+      ]
+    },
+    {
+      "id": "R04-PEN-003",
+      "record": "R04-DEC-003",
+      "questions": [
+        "P01.3"
+      ],
+      "text": "Layout, obtenção incremental e mecanismos de atualização; identidade física Workspace/Meso continua não escolhida.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U004"
+      ]
+    },
+    {
+      "id": "R04-PEN-004",
+      "record": "R04-DEC-004",
+      "questions": [
+        "P01.4"
+      ],
+      "text": "Preparação de Macro/MCPs/skills, unidade por instalação/máquina/modalidade, alterações locais, resultado parcial e relação com verificações durante o trabalho.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U004",
+        "R04-U010",
+        "R04-U011"
+      ]
+    },
+    {
+      "id": "R04-PEN-005",
+      "record": "R04-DEC-005",
+      "questions": [
+        "P01.5"
+      ],
+      "text": "Mecanismos e ensaios de recuperação.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U004"
+      ]
+    },
+    {
+      "id": "R04-PEN-006",
+      "record": "R04-DEC-006",
+      "questions": [
+        "P01.6"
+      ],
+      "text": "Procedimentos corporativos, operações concretas e demais ferramentas DataDog, AWS, ServiceNow/IUClick, ContentStack/CMS e outras; aprofundamento posterior.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U004"
+      ]
+    },
+    {
+      "id": "R04-PEN-007",
+      "record": "R04-DEC-007",
+      "questions": [
+        "P01.7"
+      ],
+      "text": "Pipeline, coordenação técnica multirrepositório e passagem a homologação/produção.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U004",
+        "R04-U006"
+      ]
+    },
+    {
+      "id": "R04-PEN-008",
+      "record": "R04-DEC-008",
+      "questions": [
+        "P01.7"
+      ],
+      "text": "Aplicação nativa no Projeto ChatGPT não executada; o pacote no Git fica preparado para essa manutenção.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U006"
+      ]
+    },
+    {
+      "id": "R04-PEN-009",
+      "record": "R04-DEC-009",
+      "questions": [
+        "P02.1"
+      ],
+      "text": "Capacidades e adequações concretas por modalidade.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U010"
+      ]
+    },
+    {
+      "id": "R04-PEN-011",
+      "record": "R04-DEC-011",
+      "questions": [
+        "P02.2",
+        "P02.3"
+      ],
+      "text": "Representação, instruções de entrada por modalidade, obtenção do estado correto e escopo material das configurações.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U010"
+      ]
+    },
+    {
+      "id": "R04-PEN-012",
+      "record": "R04-DEC-012",
+      "questions": [
+        "P02.4"
+      ],
+      "text": "Mecanismos, origem corporativa da distribuição, comprovação de versão/resultado, Web/Desktop/CLI e falhas.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U010",
+        "R04-U011"
+      ]
+    },
+    {
+      "id": "R04-PEN-013",
+      "record": "R04-DEC-013",
+      "questions": [
+        "P02.5"
+      ],
+      "text": "Cenários, meios de comprovação e recuperação.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U010"
+      ]
+    },
+    {
+      "id": "R04-PEN-014",
+      "record": "R04-DEC-014",
+      "questions": [
+        "P03.20"
+      ],
+      "text": "Casos concretos, fontes, resultados esperados, procedimentos, evidências e critérios quantitativos.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U013"
+      ]
+    },
+    {
+      "id": "R04-PEN-015",
+      "record": "R04-DEC-015",
+      "questions": [
+        "P03.20"
+      ],
+      "text": "Alternativas, medições disponíveis, condições de comparação e compromissos; sem benchmark/limiar aprovado.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U013"
+      ]
+    },
+    {
+      "id": "R04-PEN-016",
+      "record": "R04-DEC-016",
+      "questions": [
+        "P03.22"
+      ],
+      "text": "Entrada, unidades, arquivos, formatos, índices, instruções, estrutura física e descoberta gradual.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U013"
+      ]
+    },
+    {
+      "id": "R04-PEN-017",
+      "record": "R04-DEC-017",
+      "questions": [
+        "P03.22"
+      ],
+      "text": "Mecanismo concreto.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U013"
+      ]
+    },
+    {
+      "id": "R04-PEN-018",
+      "record": "R04-DEC-018",
+      "questions": [
+        "P03.22"
+      ],
+      "text": "Produção dos exemplares, ensaios e escolha da estrutura.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U013"
+      ]
+    },
+    {
+      "id": "R04-PEN-019",
+      "record": "R04-DEC-019",
+      "questions": [
+        "P03.20",
+        "P03.22"
+      ],
+      "text": "Contratos produtor/consumidor, correspondência ao estado, garantia pré-push e recuperação/composição multirrepositório.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U013"
+      ]
+    },
+    {
+      "id": "R04-PEN-020",
+      "record": "R04-DEC-020",
+      "questions": [
+        "P05.1"
+      ],
+      "text": "Registro do encerramento e mecanismos de arquivamento; não autoriza excluir branches nesta missão.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U015"
+      ]
+    },
+    {
+      "id": "R04-PEN-021",
+      "record": "R04-DEC-021",
+      "questions": [
+        "P05.2"
+      ],
+      "text": "Arquivos, obtenção dos índices e mecanismo de vínculo.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U015"
+      ]
+    },
+    {
+      "id": "R04-PEN-022",
+      "record": "R04-DEC-022",
+      "questions": [
+        "P05.3"
+      ],
+      "text": "Descoberta e recuperação material do histórico.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U004",
+        "R04-U006",
+        "R04-U008",
+        "R04-U015"
+      ]
+    },
+    {
+      "id": "R04-PEN-023",
+      "record": "R04-DEC-023",
+      "questions": [
+        "P05.4"
+      ],
+      "text": "Layout, formatos, recuperação e ensaio por agente.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U015"
+      ]
+    },
+    {
+      "id": "R04-PEN-024",
+      "record": "R04-DEC-024",
+      "questions": [
+        "P05.5"
+      ],
+      "text": "Identidade física do repositório Workspace com Meso, índices, recuperação e manutenção.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U015"
+      ]
+    },
+    {
+      "id": "R04-PEN-025",
+      "record": "R04-DEC-025",
+      "questions": [
+        "P05.6"
+      ],
+      "text": "Apresentação, armazenamento e inclusão concreta.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U015"
+      ]
+    },
+    {
+      "id": "R04-PEN-026",
+      "record": "R04-DEC-026",
+      "questions": [
+        "P06.1"
+      ],
+      "text": "Estrutura de estados e mecanismo de enquadramento.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U017"
+      ]
+    },
+    {
+      "id": "R04-PEN-027",
+      "record": "R04-DEC-027",
+      "questions": [
+        "P06.1"
+      ],
+      "text": "Níveis, marcos/evidências, interrupção/retorno e relação entre estado documental, branch e status corporativo.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U017"
+      ]
+    },
+    {
+      "id": "R04-PEN-028",
+      "record": "R04-DEC-028",
+      "questions": [
+        "P06.2"
+      ],
+      "text": "Condições concretas de transições e demais atos pertinentes.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U017"
+      ]
+    },
+    {
+      "id": "R04-PEN-029",
+      "record": "R04-DEC-029",
+      "questions": [
+        "P06.3"
+      ],
+      "text": "Rastreamento e propagação concreta.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U017"
+      ]
+    },
+    {
+      "id": "R04-PEN-030",
+      "record": "R04-DEC-030",
+      "questions": [
+        "P06.4"
+      ],
+      "text": "Recuperação, conciliação com status corporativo e demonstração.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U015",
+        "R04-U017"
+      ]
+    },
+    {
+      "id": "R04-PEN-031",
+      "record": "R04-DEC-031",
+      "questions": [
+        "P06.5"
+      ],
+      "text": "Exemplos e avaliação concretos em articulação com P03.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U017"
+      ]
+    },
+    {
+      "id": "R04-PEN-032",
+      "record": "R04-DEC-032",
+      "questions": [
+        "P06.5"
+      ],
+      "text": "Catálogo, competências, sinais de troca, transferência de contexto, quantidade e distribuição dos agentes.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U017"
+      ]
+    },
+    {
+      "id": "R04-PEN-033",
+      "record": "R04-DEC-033",
+      "questions": [
+        "P06.6"
+      ],
+      "text": "Contratos, estados, direitos efetivos, falhas e resultados incertos.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U017"
+      ]
+    },
+    {
+      "id": "R04-PEN-034",
+      "record": "R04-DEC-034",
+      "questions": [
+        "P06.7"
+      ],
+      "text": "Operações/estados/relacionamentos concretos por tipo.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U017"
+      ]
+    },
+    {
+      "id": "R04-PEN-035",
+      "record": "R04-DEC-035",
+      "questions": [
+        "P07.1"
+      ],
+      "text": "Campos, arquivos e procedimentos de verificação.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U019"
+      ]
+    },
+    {
+      "id": "R04-PEN-036",
+      "record": "R04-DEC-036",
+      "questions": [
+        "P07.2"
+      ],
+      "text": "Índices, sinais e mecanismo de descoberta gradual.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U019"
+      ]
+    },
+    {
+      "id": "R04-PEN-037",
+      "record": "R04-DEC-037",
+      "questions": [
+        "P07.3"
+      ],
+      "text": "Casos concretos, identificação do responsável pelo assunto e eventual hierarquia automática.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U019"
+      ]
+    },
+    {
+      "id": "R04-PEN-038",
+      "record": "R04-DEC-038",
+      "questions": [
+        "P07.4"
+      ],
+      "text": "Detecção, rastreamento, atualização e recuperação.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U019"
+      ]
+    },
+    {
+      "id": "R04-PEN-039",
+      "record": "R04-DEC-039",
+      "questions": [
+        "P07.5"
+      ],
+      "text": "Apresentação, contratos reais e mecanismos.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U019"
+      ]
+    },
+    {
+      "id": "R04-PEN-040",
+      "record": "R04-DEC-040",
+      "questions": [
+        "P08.1"
+      ],
+      "text": "Procedimento de descoberta e representação concreta.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U021"
+      ]
+    },
+    {
+      "id": "R04-PEN-041",
+      "record": "R04-DEC-041",
+      "questions": [
+        "P08.2"
+      ],
+      "text": "Representação e demonstração.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U021"
+      ]
+    },
+    {
+      "id": "R04-PEN-042",
+      "record": "R04-DEC-042",
+      "questions": [
+        "P08.3",
+        "P08.1"
+      ],
+      "text": "Identificadores, nomes, organização física, equivalência/duplicidade e evolução da identidade.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U021"
+      ]
+    },
+    {
+      "id": "R04-PEN-043",
+      "record": "R04-DEC-043",
+      "questions": [
+        "P08.4"
+      ],
+      "text": "Armazenamento/versionamento físico e comprovação das correspondências.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U021"
+      ]
+    },
+    {
+      "id": "R04-PEN-044",
+      "record": "R04-DEC-044",
+      "questions": [
+        "P08.5"
+      ],
+      "text": "Detecção, propagação e verificação.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U021"
+      ]
+    },
+    {
+      "id": "R04-PEN-045",
+      "record": "R04-DEC-045",
+      "questions": [
+        "P08.6"
+      ],
+      "text": "Mecanismos colaborativos, conflitos, continuidade, publicação e recuperação.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U021"
+      ]
+    },
+    {
+      "id": "R04-PEN-046",
+      "record": "R04-DEC-046",
+      "questions": [
+        "P09.1"
+      ],
+      "text": "Elaboração e avaliação detalhadas por agentes.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U023"
+      ]
+    },
+    {
+      "id": "R04-PEN-047",
+      "record": "R04-DEC-047",
+      "questions": [
+        "P09.2"
+      ],
+      "text": "Fontes corporativas específicas e mecanismos.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U023"
+      ]
+    },
+    {
+      "id": "R04-PEN-048",
+      "record": "R04-DEC-048",
+      "questions": [
+        "P09.3"
+      ],
+      "text": "Representação e tratamento operacional dos esclarecimentos.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U023"
+      ]
+    },
+    {
+      "id": "R04-PEN-049",
+      "record": "R04-DEC-049",
+      "questions": [
+        "P09.4"
+      ],
+      "text": "Unidade organizadora, taxonomia, identificadores, formatos e armazenamento. Repositório próprio de Negócios não foi escolhido.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U023"
+      ]
+    },
+    {
+      "id": "R04-PEN-050",
+      "record": "R04-DEC-050",
+      "questions": [
+        "P09.5"
+      ],
+      "text": "Formato e representação.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U023"
+      ]
+    },
+    {
+      "id": "R04-PEN-051",
+      "record": "R04-DEC-051",
+      "questions": [
+        "P09.6"
+      ],
+      "text": "Registro temporal e integração com branch, homologação e produção.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U023"
+      ]
+    },
+    {
+      "id": "R04-PEN-052",
+      "record": "R04-DEC-052",
+      "questions": [
+        "P09.7"
+      ],
+      "text": "Mecanismos nos recursos/destinos concretos.",
+      "status": "POSTERGADO_PARA_REFINAMENTO",
+      "authority": "não executável sem especificação/escopo aplicável",
+      "human_sources": [
+        "R04-U023"
+      ]
+    }
+  ],
+  "inverse_sources": {
+    "R04-U001": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md",
+      "anchor": "r04-u001"
+    },
+    "R04-U002": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md",
+      "anchor": "r04-u002"
+    },
+    "R04-A002": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md",
+      "anchor": "r04-a002"
+    },
+    "R04-U003": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u003"
+    },
+    "R04-A003": {
+      "records": [
+        "R04-DEC-001",
+        "R04-DEC-002",
+        "R04-DEC-007"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a003"
+    },
+    "R04-U004": {
+      "records": [
+        "R04-DEC-001",
+        "R04-DEC-002",
+        "R04-DEC-003",
+        "R04-DEC-004",
+        "R04-DEC-005",
+        "R04-DEC-006",
+        "R04-DEC-007",
+        "R04-DEC-022"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u004"
+    },
+    "R04-A004": {
+      "records": [
+        "R04-DEC-001",
+        "R04-DEC-002",
+        "R04-DEC-003",
+        "R04-DEC-004",
+        "R04-DEC-005",
+        "R04-DEC-006",
+        "R04-DEC-007"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a004"
+    },
+    "R04-U005": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u005"
+    },
+    "R04-A005": {
+      "records": [
+        "R04-DEC-001",
+        "R04-DEC-004",
+        "R04-DEC-006",
+        "R04-DEC-007"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a005"
+    },
+    "R04-U006": {
+      "records": [
+        "R04-DEC-001",
+        "R04-DEC-007",
+        "R04-DEC-008",
+        "R04-DEC-022"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u006"
+    },
+    "R04-A006": {
+      "records": [
+        "R04-DEC-001",
+        "R04-DEC-007",
+        "R04-DEC-008"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a006"
+    },
+    "R04-U007": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u007"
+    },
+    "R04-A007": {
+      "records": [
+        "R04-DEC-001"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a007"
+    },
+    "R04-U008": {
+      "records": [
+        "R04-DEC-001",
+        "R04-DEC-022"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-u008"
+    },
+    "R04-A008": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md",
+      "anchor": "r04-a008"
+    },
+    "R04-U009": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-u009"
+    },
+    "R04-A009": {
+      "records": [
+        "R04-DEC-004",
+        "R04-DEC-009",
+        "R04-DEC-011",
+        "R04-DEC-012",
+        "R04-DEC-013"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-a009"
+    },
+    "R04-U010": {
+      "records": [
+        "R04-DEC-004",
+        "R04-DEC-009",
+        "R04-DEC-011",
+        "R04-DEC-012",
+        "R04-DEC-013"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-u010"
+    },
+    "R04-A010": {
+      "records": [
+        "R04-DEC-004",
+        "R04-DEC-009",
+        "R04-DEC-010",
+        "R04-DEC-011",
+        "R04-DEC-012",
+        "R04-DEC-013"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-a010"
+    },
+    "R04-U011": {
+      "records": [
+        "R04-DEC-004",
+        "R04-DEC-010",
+        "R04-DEC-012"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-u011"
+    },
+    "R04-A011": {
+      "records": [
+        "R04-DEC-004",
+        "R04-DEC-010",
+        "R04-DEC-012"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md",
+      "anchor": "r04-a011"
+    },
+    "R04-U012": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md",
+      "anchor": "r04-u012"
+    },
+    "R04-A012": {
+      "records": [
+        "R04-DEC-014",
+        "R04-DEC-015",
+        "R04-DEC-016",
+        "R04-DEC-017",
+        "R04-DEC-018"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md",
+      "anchor": "r04-a012"
+    },
+    "R04-U013": {
+      "records": [
+        "R04-DEC-014",
+        "R04-DEC-015",
+        "R04-DEC-016",
+        "R04-DEC-017",
+        "R04-DEC-018",
+        "R04-DEC-019"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md",
+      "anchor": "r04-u013"
+    },
+    "R04-A013": {
+      "records": [
+        "R04-DEC-014",
+        "R04-DEC-015",
+        "R04-DEC-016",
+        "R04-DEC-017",
+        "R04-DEC-018",
+        "R04-DEC-019"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md",
+      "anchor": "r04-a013"
+    },
+    "R04-U014": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md",
+      "anchor": "r04-u014"
+    },
+    "R04-A014": {
+      "records": [
+        "R04-DEC-020",
+        "R04-DEC-021",
+        "R04-DEC-022",
+        "R04-DEC-023",
+        "R04-DEC-025"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md",
+      "anchor": "r04-a014"
+    },
+    "R04-U015": {
+      "records": [
+        "R04-DEC-020",
+        "R04-DEC-021",
+        "R04-DEC-022",
+        "R04-DEC-023",
+        "R04-DEC-024",
+        "R04-DEC-025",
+        "R04-DEC-030"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md",
+      "anchor": "r04-u015"
+    },
+    "R04-A015": {
+      "records": [
+        "R04-DEC-020",
+        "R04-DEC-021",
+        "R04-DEC-022",
+        "R04-DEC-023",
+        "R04-DEC-024",
+        "R04-DEC-025"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md",
+      "anchor": "r04-a015"
+    },
+    "R04-U016": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md",
+      "anchor": "r04-u016"
+    },
+    "R04-A016": {
+      "records": [
+        "R04-DEC-026",
+        "R04-DEC-028",
+        "R04-DEC-029",
+        "R04-DEC-030",
+        "R04-DEC-031",
+        "R04-DEC-033",
+        "R04-DEC-034"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md",
+      "anchor": "r04-a016"
+    },
+    "R04-U017": {
+      "records": [
+        "R04-DEC-026",
+        "R04-DEC-027",
+        "R04-DEC-028",
+        "R04-DEC-029",
+        "R04-DEC-030",
+        "R04-DEC-031",
+        "R04-DEC-032",
+        "R04-DEC-033",
+        "R04-DEC-034"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md",
+      "anchor": "r04-u017"
+    },
+    "R04-A017": {
+      "records": [
+        "R04-DEC-026",
+        "R04-DEC-027",
+        "R04-DEC-028",
+        "R04-DEC-029",
+        "R04-DEC-030",
+        "R04-DEC-031",
+        "R04-DEC-032",
+        "R04-DEC-033",
+        "R04-DEC-034"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md",
+      "anchor": "r04-a017"
+    },
+    "R04-U018": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md",
+      "anchor": "r04-u018"
+    },
+    "R04-A018": {
+      "records": [
+        "R04-DEC-035",
+        "R04-DEC-036",
+        "R04-DEC-037",
+        "R04-DEC-038",
+        "R04-DEC-039"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md",
+      "anchor": "r04-a018"
+    },
+    "R04-U019": {
+      "records": [
+        "R04-DEC-035",
+        "R04-DEC-036",
+        "R04-DEC-037",
+        "R04-DEC-038",
+        "R04-DEC-039"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md",
+      "anchor": "r04-u019"
+    },
+    "R04-A019": {
+      "records": [
+        "R04-DEC-035",
+        "R04-DEC-036",
+        "R04-DEC-037",
+        "R04-DEC-038",
+        "R04-DEC-039"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md",
+      "anchor": "r04-a019"
+    },
+    "R04-U020": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md",
+      "anchor": "r04-u020"
+    },
+    "R04-A020": {
+      "records": [
+        "R04-DEC-040",
+        "R04-DEC-041",
+        "R04-DEC-042",
+        "R04-DEC-043",
+        "R04-DEC-044",
+        "R04-DEC-045"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md",
+      "anchor": "r04-a020"
+    },
+    "R04-U021": {
+      "records": [
+        "R04-DEC-040",
+        "R04-DEC-041",
+        "R04-DEC-042",
+        "R04-DEC-043",
+        "R04-DEC-044",
+        "R04-DEC-045"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md",
+      "anchor": "r04-u021"
+    },
+    "R04-A021": {
+      "records": [
+        "R04-DEC-040",
+        "R04-DEC-041",
+        "R04-DEC-042",
+        "R04-DEC-043",
+        "R04-DEC-044",
+        "R04-DEC-045"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md",
+      "anchor": "r04-a021"
+    },
+    "R04-U022": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md",
+      "anchor": "r04-u022"
+    },
+    "R04-A022": {
+      "records": [
+        "R04-DEC-046",
+        "R04-DEC-047",
+        "R04-DEC-048",
+        "R04-DEC-049",
+        "R04-DEC-050",
+        "R04-DEC-051",
+        "R04-DEC-052"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md",
+      "anchor": "r04-a022"
+    },
+    "R04-U023": {
+      "records": [
+        "R04-DEC-046",
+        "R04-DEC-047",
+        "R04-DEC-048",
+        "R04-DEC-049",
+        "R04-DEC-050",
+        "R04-DEC-051",
+        "R04-DEC-052"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md",
+      "anchor": "r04-u023"
+    },
+    "R04-A023": {
+      "records": [
+        "R04-DEC-046",
+        "R04-DEC-047",
+        "R04-DEC-048",
+        "R04-DEC-049",
+        "R04-DEC-050",
+        "R04-DEC-051",
+        "R04-DEC-052"
+      ],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md",
+      "anchor": "r04-a023"
+    },
+    "R04-U024": {
+      "records": [],
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md",
+      "anchor": "r04-u024"
+    }
+  },
+  "limits": [
+    "sem efeito normativo",
+    "sem capacidade implementada",
+    "sem aprovação implícita de sugestões",
+    "P04 originais iniciais ausentes",
+    "sem aplicação nativa do Projeto"
+  ]
+}

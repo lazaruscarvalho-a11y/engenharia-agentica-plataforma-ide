@@ -1,4 +1,16 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](primeira-entrega/consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](primeira-entrega/consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](primeira-entrega/consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
 # Retomada do Discovery do Motor e da Arquitetura
+
+> **Primeira entrega — sequência deste Discovery.** A [entrada da primeira entrega](primeira-entrega/README.md) reúne o escopo fechado para refinamento, as decisões posteriores e o roteiro para os próximos chats. O registro abaixo conserva o contexto e as perguntas da revisão 1 do Motor.
 
 **Registro:** D02-CONT-MOTOR-001 · **Revisão:** 1 · **Data:** 07/11/2026 · **Estado:** continuidade de produto em Discovery na proposta do PR #8.
 
@@ -11,7 +23,7 @@ Leia esta entrada depois da [retomada D02](RETOMADA.md) e junto à [especificaç
 | Conversa de refinamento de 07/11/2026 | Fonte direta das direções atuais. A consolidação em PDF distingue manifestações, interpretações e pendências. |
 | [D02-ESP-001](MOTOR-E-WORKSPACES-DE-ATIVIDADE.md) | Primeira incorporação revisável da relação motor e workspaces, publicada em `23711b042faca15bd1be53e8a89fb35010006148`. |
 | [D02](REGISTRO.md) e [axiomas](../../fundacao/axiomas-arquiteturais.md) | Base anterior consultada em `8bbd93151640865995fa8a8dfe3d2d5db15da6ec`. As retificações D02 governam as formulações históricas pertinentes. |
-| [Arquivo de workspaces na Biblioteca](https://chatgpt.com/space/file/libfile_bf76604522208191a034a3b222a85db8) | Fonte privada do panorama BASE-01, em particular P-008 e P-009/E-001. O acesso ao arquivo depende da conta. O PDF e D02-ESP-001 preservam a síntese necessária à retomada. |
+| Arquivo de Workspaces do panorama BASE-01 | Fonte privada utilizada na revisão 1, em particular P-008 e P-009/E-001. A [síntese R06 disponível no repositório](primeira-entrega/evidencias/WORKSPACE-R06.md) preserva as decisões posteriores pertinentes ao escopo da primeira entrega. |
 
 ## Direções de produto para preservar
 

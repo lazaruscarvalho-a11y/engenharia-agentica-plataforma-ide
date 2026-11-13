@@ -1,0 +1,66 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
+# Rota vigente R03 — 13/11/2026
+
+Leia a [consolidação P03/P04 R03](consolidacao-r03/README.md) na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o manifesto R03 e o recibo posterior por commit imutável. P03 conserva seus aceites e adiamentos; P04 está funcionalmente encerrado no alcance qualificado pela fonte recuperada, com proveniência indireta dos aceites iniciais. P01–P09 têm catálogo granular e prompt de continuidade. A R03 distingue decisão, proposta, relato corporativo e comprovação; sem código de produto, merge, ratificação ou mudança de permissões.
+
+O conteúdo abaixo é o snapshot anterior, preservado literalmente. Pontos de retomada, estados de entrevista e hashes anteriores valem para a revisão ali identificada; ler a sobreposição R03 para o saldo atual. Os manifestos D02-doc-2/R01/R02 permanecem históricos, sem certificar os novos bytes desta navegação.
+
+---
+
+# Primeira entrega da Plataforma/IDE de Engenharia Agêntica
+
+**Comece aqui para continuar o Discovery da primeira entrega.** O perímetro funcional da revisão 1 está fechado em nove frentes. Há decisões sobre como a Plataforma deve se comportar e pontos ainda a especificar. O trabalho seguinte é aprofundar uma frente por vez, registrar o saldo de cada rodada e revisar o conjunto quando as nove tiverem sido percorridas. A regra de comunicar lacunas assim que percebidas continua valendo durante todo o percurso.
+
+## Retomada vigente · revisão 2
+
+**Continuar por [P04.1 — atualização incremental](refinamentos/P04-ATUALIDADE.md#p04-rodada-1).** Na rodada do P03, 20 das 22 perguntas originais foram resolvidas funcionalmente. P03.22 ficou para o desenho concreto da estrutura documental, e P03.20/C-P03-07 para avaliação de qualidade e custo. Em P04, 11 das 12 fichas pedem decisão; P04.6 já tem resposta no caso central. As recomendações de P04 aguardam manifestação do usuário.
+
+- [Decisões do P03 e DoD do Motor](refinamentos/P03-CONHECIMENTO.md). Consultar para recuperar os aceites e seu alcance sem refazer a entrevista.
+- [Rodada completa do P04](refinamentos/P04-ATUALIDADE.md). Usar os IDs originais na próxima resposta.
+- [Caderno integral da entrevista, edição 11](refinamentos/historico/CADERNO-ED11.md) e [manifesto desta revisão](refinamentos/MANIFESTO-R02.json). O caderno conserva os bytes anteriores ao envio. As marcações de persistência registradas nele descrevem o momento de cada rodada; o histórico Git identifica esta publicação.
+
+| Para fazer o quê | Ler |
+|---|---|
+| Entender a entrega, os estados e suas fronteiras | [Escopo da primeira entrega](ESCOPO.md#mapa) e [princípios e limites](ESCOPO.md#limites) |
+| Começar uma sessão sobre uma frente | [Roteiro por frente e revisão geral](roteiro/REFINAMENTO-E-REVISAO.md) e [agenda de pendências](ESCOPO.md#pendencias) |
+| Consultar o que já foi aceito sobre suficiência e avisos | [Dois casos de onboarding de A e o momento de comunicar lacunas](evidencias/ESCLARECIMENTOS-ONBOARDING.md) |
+| Recuperar o Workspace sem depender da conversa de origem | [Referência funcional R06](evidencias/WORKSPACE-R06.md) |
+| Situar o exemplo da empresa envolvendo Devin | [Síntese funcional de acesso a ferramentas](evidencias/DEVIN-FERRAMENTAS.md) |
+| Conferir origem e integridade do pacote inicial | [Manifesto da publicação](MANIFESTO.json) e [fontes do escopo](ESCOPO.md#fontes) |
+
+## Situação das frentes
+
+| Frente | Ponto de partida da próxima rodada |
+|---|---|
+| PE-01 · Distribuição e acesso | Fluxo de atualizar a raiz ao iniciar e carregar a atividade ao abrir aceito. A visibilidade padrão dos repositórios de Workspaces continua em decisão. [Distribuição, revisão 3](notas/DISTRIBUICAO-E-ACESSO.md) |
+| PE-02 · Ferramentas de IA | Devin Web, CLI e Desktop e Claude Code. Especificar o suporte, a atualização e a verificação por modalidade. [Ferramentas](notas/FERRAMENTAS.md) |
+| PE-03 · Motor | P03 encerrado no alcance funcional acordado. DoD do produtor, entradas, evidências e roteamento consolidados. Estrutura concreta e avaliação ficam para seus refinamentos. [Fechamento do P03](refinamentos/P03-CONHECIMENTO.md) |
+| PE-04 · Evidências e pendências | Momento do aviso, evidências, correção e criticidade têm decisões herdadas. A rodada P04 detalha atualização, validade, autoridade e compartilhamento. [Fichas do P04](refinamentos/P04-ATUALIDADE.md) |
+| PE-05 · Workspace | R06 consolidou estado, estrutura, papéis e ciclo de vida. Retomar os detalhes operacionais residuais. [Síntese R06](evidencias/WORKSPACE-R06.md) |
+| PE-06 · Atuação por etapa | O agente adapta interpretação, investigação e resposta. Definir transições, recuperação e entregáveis de cada atividade. [Atuação por etapa](notas/ATUACAO-POR-ETAPA.md) |
+| PE-07 · Extensões | Inclusão pós-onboarding por escopo e recuperação direta ou indireta definidas. Refinar padrões, conflitos e permissões. [Extensões e caso ODM](notas/EXTENSOES-POR-ESCOPO.md) |
+| PE-08 · Arquitetura/Solução | A relação técnica mapeada e a fronteira funcional decidida pelo Analista estão diferenciadas. Deliberar qual saída arquitetural a primeira entrega deverá oferecer. [Contexto do Motor e da Arquitetura](../RETOMADA-MOTOR-E-ARQUITETURA.md) |
+| PE-09 · Negócios | A necessidade faz parte do escopo a refinar. Organização transversal, autoridade e forma de representação continuam abertas. [Conhecimento de Negócios](notas/NEGOCIOS.md) |
+
+**Ponto exato de retomada.** Na revisão nova de um repositório já estudado, que parte do Micro o Motor deve reexaminar e em que condições pode reaproveitar o restante? [P04.1](refinamentos/P04-ATUALIDADE.md#p04-rodada-1)
+
+## Mensagem para iniciar um novo chat
+
+> Vamos aprofundar uma frente da primeira entrega da Plataforma/IDE de Engenharia Agêntica. Use o GitHub conectado e o repositório `lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide`. Comece pela branch `proposta/d02-primeira-entrega-refinamentos`. Confirme o HEAD, leia por esse SHA `docs/01-discovery/discovery-02/primeira-entrega/README.md` e siga os links relativos na mesma revisão. Se esta branch já tiver sido integrada, localize a revisão sucessora e comprove a continuidade antes de usá-la.
+>
+> Se eu indicar uma frente PE, trabalhe nessa frente. Se eu não indicar, use o ponto de retomada registrado. Antes da primeira pergunta, recupere as definições vigentes dessa frente, as pendências relacionadas e o que já foi respondido. Apresente o grupo inteiro se o usuário pedir a próxima rodada. Mantenha os IDs para que ele possa responder em conjunto ou um por vez, com exemplos e critérios observáveis. Consulte outras frentes apenas quando houver uma dependência que possa mudar a resposta. Ao fim, apresente decisões, propostas, pendências, impactos e próxima pergunta. Diferencie o que ficou em conversa do que foi publicado em Git. Depois das nove frentes, faça a revisão geral prevista no roteiro.
+
+## Atualização da continuidade
+
+Esta proposta deriva da revisão `766f3323997e1cc4ae1fff7fc2bf31ce3ccd1455` da branch `proposta/d02-motor-workspaces-atividade` (PR #8). A [entrada D02](../RETOMADA.md) e o [estado da consolidação anterior](../../../../ESTADO-ATUAL.md) situam a fundação. Para esta primeira entrega, as definições adicionais estão no [escopo](ESCOPO.md) e nas notas deste diretório. O manifesto vincula os bytes da edição inicial às suas origens. Os commits posteriores registram o que mudar.
+
+No encerramento de cada rodada, atualizar a [agenda e o histórico do escopo](ESCOPO.md#revisoes) e indicar aqui a frente, a revisão produzida, o que ainda condiciona seu fechamento e o ponto exato de retomada. Uma alteração autorizada deve ser reaberta pelo commit publicado e comparada com o conteúdo revisado. O [roteiro](roteiro/REFINAMENTO-E-REVISAO.md) define o confronto transversal e o entregável final.

@@ -1,0 +1,28 @@
+{
+  "schema_version": "continuidade-record-1",
+  "record_id": "CONT-REG-0005",
+  "revision": 4,
+  "source_kind": "USER_DIRECT",
+  "source_ref": "R04-U024; mensagem 01a1d744-23e4-7112-9a0d-be2e1e6e3f64; sessão 01a1d60a-f1ae-7173-94cb-03aec33bf344",
+  "request": "Agora, todas as definições, requisitos, detalhes, instruções, princípios, restrições e diretrizes definidas nesta sessão durante o processo de respostas e esclarecimentos de todos os grupos até o momento devem ser incorporadas ao nosso repositório GitHub de acordo com a estrutura vigente, preservando todos os detalhes e informações de maneira minuciosa, sem deixar escapar nenhuma informação, preservando exemplos, respostas, esclarecimentos, recomendações e todas os seus desdobramentos e consequências. Essa é uma tarefa crítica e precisa ser realizada com máxima atenção, cuidado e cautela, de modo a deixarmos tudo pronto para próximos discoveries e refinamentos.\n",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/d02-primeira-entrega-refinamentos",
+  "base_commit": "5b9550b56d0929109231863b4546936e1b4d7ee1",
+  "entry": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/README.md",
+  "continuity": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/CONTINUIDADE.md",
+  "product_approval": "NAO_CONCEDIDA",
+  "product_approval_scope": "Este registro de persistência não concede aprovação adicional; os aceites humanos delimitados de requisitos desta sessão estão preservados no registro R04.",
+  "normative_effect": "AUSENTE",
+  "PGC_CT": "NAO_RATIFICADOS",
+  "ca_operacionais": "49 NOT_RUN",
+  "native_project_sources": "NAO_ATUALIZADAS_POR_ESTA_OPERACAO",
+  "publication_proof": "Recibo posterior separado e releitura imutável por bytes; sem prova, NAO_PERSISTIDO",
+  "limits": [
+    "sem merge",
+    "sem implementação da IDE",
+    "sem execução de aplicações",
+    "sem alteração de permissões/pipelines",
+    "sem dados internos/credenciais"
+  ],
+  "history": "CONT-REG-0004 e MANIFESTO R03 preservados; prontidão do Discovery inalterada."
+}

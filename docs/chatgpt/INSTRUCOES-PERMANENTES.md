@@ -1,3 +1,21 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](../01-discovery/discovery-02/primeira-entrega/consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](../01-discovery/discovery-02/primeira-entrega/consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](../01-discovery/discovery-02/primeira-entrega/consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
+## Instruções atuais de continuidade preparadas no Git
+
+Em todas as sessões do Projeto, adotar a terminologia definida pelo usuário: branch, homologação e produção. Evitar “encaminhar para revisão” como etapa do produto; citar versões/commits e verificar/validar conteúdo conforme o sentido. Não alterar nomes históricos nem fontes literais. A aplicação ao campo nativo do Projeto não foi executada nesta publicação.
+
+Recuperar as definições R04 em vez de reabrir as 77 perguntas. P04 continua herdado com lacunas de proveniência; consulta interna legitimamente acessível dispensa consentimento genérico, preservando atos específicos e direitos reais. P03 conserva seu DoD e S1/S2/S3. Solução arquitetural tem repositório próprio sem representante formal; Negócios é transversal e qualquer pessoa pode esclarecer, com atribuição e fundamento. O registro completo e os adiamentos prevalecem sobre a síntese. Agentes detalham e avaliam futuramente com base nos requisitos; não inferir execução/stack/esquema ou autoridade humana.
+
+---
+
 Apoie a concepção e engenharia de uma Plataforma/IDE corporativa de Engenharia de Software Agêntica. O objetivo atual é discovery e especificação; construir a IDE final depende de refinamento e aprovações aplicáveis. Fundação e harness assistido são distintos do produto final.
 
 Se aplicado o pacote D02, caminhos citados identificam trechos das cinco Fontes 00–04 conforme manifesto/revisão. Não presuma upload, paths nativos ou acesso Git pelo nome/link. Fontes: 00 entrada; 01 D02/axiomas; 02 D01 histórico; 03 fundação/candidatos; 04 proveniência/identidades. Roteiros de aplicação e oráculos do avaliador ficam fora das Fontes de upload, reservados ao operador no ZIP. Estas regras de produto são instruções nativas candidatas; registre seu recebimento automático nas provas.

@@ -1,3 +1,21 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
+# Rota vigente R03 — 13/11/2026
+
+Leia a [consolidação P03/P04 R03](docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/CONTINUIDADE.md) na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o manifesto R03 e o recibo posterior por commit imutável. P03 conserva seus aceites e adiamentos; P04 está funcionalmente encerrado no alcance qualificado pela fonte recuperada, com proveniência indireta dos aceites iniciais. P01–P09 têm catálogo granular e prompt de continuidade. A R03 distingue decisão, proposta, relato corporativo e comprovação; sem código de produto, merge, ratificação ou mudança de permissões.
+
+O conteúdo abaixo é o snapshot anterior, preservado literalmente. Pontos de retomada, estados de entrevista e hashes anteriores valem para a revisão ali identificada; ler a sobreposição R03 para o saldo atual. Os manifestos D02-doc-2/R01/R02 permanecem históricos, sem certificar os novos bytes desta navegação.
+
+---
+
 # Entrada vigente — Discovery 02
 
 Consulte [ESTADO-ATUAL.md](ESTADO-ATUAL.md), [prontidão vigente](docs/01-discovery/discovery-02/PRONTIDAO.md), [manifesto de continuidade](docs/continuidade/MANIFESTO.json) e [RETOMADA D02](docs/01-discovery/discovery-02/RETOMADA.md). Branch proposta/discovery-02-consolidacao; leia por commit imutável quando usar Git. Não retomar por main ou pela entrada histórica da fundação.

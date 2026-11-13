@@ -1,3 +1,21 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](primeira-entrega/consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](primeira-entrega/consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](primeira-entrega/consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
+# Rota vigente R03 — 13/11/2026
+
+Leia a [consolidação P03/P04 R03](primeira-entrega/consolidacao-r03/CONTINUIDADE.md) na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o manifesto R03 e o recibo posterior por commit imutável. P03 conserva seus aceites e adiamentos; P04 está funcionalmente encerrado no alcance qualificado pela fonte recuperada, com proveniência indireta dos aceites iniciais. P01–P09 têm catálogo granular e prompt de continuidade. A R03 distingue decisão, proposta, relato corporativo e comprovação; sem código de produto, merge, ratificação ou mudança de permissões.
+
+O conteúdo abaixo é o snapshot anterior, preservado literalmente. Pontos de retomada, estados de entrevista e hashes anteriores valem para a revisão ali identificada; ler a sobreposição R03 para o saldo atual. Os manifestos D02-doc-2/R01/R02 permanecem históricos, sem certificar os novos bytes desta navegação.
+
+---
+
 # Retomada Discovery 02 — revisão documental 4
 
 Entrada vigente D02-doc-2, por determinação direta do usuário em 01/11/2026. [Critério atual de prontidão](PRONTIDAO.md): Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa.

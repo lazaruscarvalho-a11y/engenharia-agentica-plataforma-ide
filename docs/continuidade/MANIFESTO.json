@@ -1,39 +1,39 @@
 {
   "schema_version": "continuidade-1",
   "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
-  "branch": "proposta/discovery-02-consolidacao",
-  "record_id": "CONT-REG-0003",
-  "revision": 2,
-  "record_path": "docs/continuidade/CONT-REG-0003.json",
+  "branch": "proposta/d02-primeira-entrega-refinamentos",
+  "record_id": "CONT-REG-0005",
+  "revision": 4,
+  "record_path": "docs/continuidade/CONT-REG-0005.json",
   "normative_effect": "AUSENTE",
-  "status": "ORIENTACAO_VIGENTE_DISCOVERY",
-  "replaces_active_route": "CONT-REG-0002; critério de prontidão da entrevista substituído pela determinação direta de 01/11/2026",
-  "historical_manifest": "docs/continuidade/historico/pre-d02/MANIFESTO.json",
+  "status": "ORIENTACAO_VIGENTE_DISCOVERY_R04",
+  "base_commit": "5b9550b56d0929109231863b4546936e1b4d7ee1",
+  "historical_manifest": "docs/continuidade/historico/pre-r04/MANIFESTO.json",
   "files": [
     {
       "path": "RETOMADA.md",
-      "bytes": 1315,
-      "sha256": "7481b231f0691ed3b4c110c9e49766c7e23baa1e9c5ad5ce9c69531122859059"
-    },
-    {
-      "path": "docs/continuidade/CONT-REG-0003.json",
-      "bytes": 1564,
-      "sha256": "206de92f2b32d7a2d80f1e22d82c16406ef044fafc4f6df6ca00afde59f66ce2"
-    },
-    {
-      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
-      "bytes": 8273,
-      "sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a"
+      "bytes": 3547,
+      "sha256": "b3086aab7a7f0c317b2c496e346c8448eef7795cd34e62df57cee34dc6c4c604"
     },
     {
       "path": "docs/01-discovery/discovery-02/RETOMADA.md",
-      "bytes": 3614,
-      "sha256": "9c98611ac71c3c005062c0a932de0aeec587af80d97cf4b52e0b7d5e4aa45aa1"
+      "bytes": 5722,
+      "sha256": "76fc646861cb836b6a4de7e415156064d203e489bb3fcb13598fee5c8ea5c1b4"
     },
     {
-      "path": "docs/01-discovery/discovery-02/PRONTIDAO.md",
-      "bytes": 3658,
-      "sha256": "ef35add1f16037211d48a0c398435dcfc961df9850161765d0fb1b2bc85043f0"
+      "path": "docs/continuidade/CONT-REG-0005.json",
+      "bytes": 2139,
+      "sha256": "09dd4c9bfae664c88623cd8fd846b4455ab572873e3bf14104d26a2503611c72"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/README.md",
+      "bytes": 2848,
+      "sha256": "598fe8ddbd4fe01a7578c3fcbc36fac50e799787ef16b62847bb06e3c34e8adf"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/CONTINUIDADE.md",
+      "bytes": 3520,
+      "sha256": "d6177f902c1cd635b3c0dd463700674268532f0bcac6c8b506a50b489475ad84"
     }
   ]
 }
