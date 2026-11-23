@@ -1,0 +1,162 @@
+{
+  "execucao": "S1-MERGE-EA-20261122-01",
+  "base": "1082b9640ef70f311362ffc2d33b60c488dadc1b",
+  "branch_proposta": "proposta/merge-documental-ea-20261122-s3",
+  "alcance": "Merge documental de discovery. Relação dos arquivos novos ou alterados, exceto este manifesto. Os registros históricos valem para suas respectivas revisões.",
+  "indice": "indice-contribuicoes.tsv",
+  "entre_origens_e_destinos": {
+    "fichas": 831,
+    "com_ancora_tematicas_e_proveniencia": 630,
+    "chaves_reversas": 5600,
+    "origens_primarias": 4285,
+    "blocos": 279,
+    "faixas": 144
+  },
+  "arquivos": {
+    "AGENTS.md": {
+      "bytes": 6453,
+      "sha256": "f102506cad94a60cc110b6c511d97fc1f86c1d6c43adf022feef68e9aea32823",
+      "blob": "5023a51ef1dc879bf1f53ee29da463f2434bdce7"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/consulta-origens.md": {
+      "bytes": 7188,
+      "sha256": "596fced456c3993743670e570e2202bd2ae753c9a10518c2416dfe07c05de937",
+      "blob": "bb15d8edc4ff190f5fe4037dc8ef5320105baf9b"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/correspondencia-ab.md": {
+      "bytes": 68915,
+      "sha256": "c50433fcdbdf27c864b5c08dd863b95774e8a990e9c1019ea7f10906ba16f16d",
+      "blob": "79e4137ffde6a1e4b3491badd2474b3878351e9d"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/indice-contribuicoes.tsv": {
+      "bytes": 131894,
+      "sha256": "d89d6ec33ce86c9fe9d05f2f3e63eb4f76a65c6298e29188db20b1afa0af025f",
+      "blob": "710089c3eb5399fd57529b78314ae911522c8d26"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/proveniencia.md": {
+      "bytes": 7094,
+      "sha256": "27005f2f84ab1c9728ad3da71dff1952f727e493c1ce6dbafe437985b2e060f2",
+      "blob": "04010e42e18cfdcaa62e28c0aac8f621c229b393"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/README.md": {
+      "bytes": 4608,
+      "sha256": "8861cb66758783ba335c7c77ce8629be22714ad4ef42778adc0c9b13c601c45a",
+      "blob": "1a318bd2491e3d6b2b82235f24ad7967a393765f"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/sucessoes.md": {
+      "bytes": 4881,
+      "sha256": "b0080ce37b444c17c9550871c1ad60c77c1f2dff43c2175b466c8c937e2f0703",
+      "blob": "ae31cc1eb402092caf3a144c22920890708160de"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/01-visao-e-autoridade.md": {
+      "bytes": 30421,
+      "sha256": "2f0c761eabf2073698fd530c3d0a8cf9b09720aec4fd6e2103229f21f754d448",
+      "blob": "1c674bcc4c751066123ea08eda3d8e489902cf6a"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/02-camadas-e-workspaces.md": {
+      "bytes": 24413,
+      "sha256": "e667fad3cd5fe829c608cf436d17d5f31064e14c6d0e5e1a5eee23d68971235f",
+      "blob": "931ebff5ec4ffb62c31837a33a9390a8d7fb32cc"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/03-onboarding-e-compreensao.md": {
+      "bytes": 14044,
+      "sha256": "2ce34155385c9ff7d5723c5d0a37eab8428996afe85775c6f6a363326f504a45",
+      "blob": "14921b8be718b964974a7fbfc2680bea1c36b09f"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/04-integracoes-e-harness.md": {
+      "bytes": 28126,
+      "sha256": "093c58c8629ac8360c5e8725cb303f01ff8eb12267eac3d4b775fbe082a2e4d0",
+      "blob": "95f28edcdf98467a37241399808f7f9770ab2a13"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/05-evidencias-e-memoria.md": {
+      "bytes": 15241,
+      "sha256": "934e51ee188a022fc0f281320d697df4187e8e908652d43b362df8a12dc3cfc4",
+      "blob": "8977d0b010eea83b47d1c483c867b920d3a0b61d"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/06-investigacao-e-contexto.md": {
+      "bytes": 11030,
+      "sha256": "926ea74ce7c8e8131146a90556d4d0f4ff1d05d16fd1be6c811893c0792e41cc",
+      "blob": "d982857ec135731bc9a59f322ab0e0f50d2437f6"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/07-validade-acesso-e-publicacao.md": {
+      "bytes": 12532,
+      "sha256": "b3ef7af4d97eb6eb1861d16f29e7186dee74b72ef90281a4ce19d2a056dbfb50",
+      "blob": "2b1a513e83b973de00baed08f3b8b83794cdd7f9"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/08-papeis-e-delegacao.md": {
+      "bytes": 30158,
+      "sha256": "c2b3e2cc99b842c728779223b5d6d0f34546c5c249b3bfb3eace26de238cebf4",
+      "blob": "7626c32de3a391f85e55f7e2a92dbde061e96824"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/09-documentacao-visual.md": {
+      "bytes": 20313,
+      "sha256": "be32ab64d881d585cbdbb920e2f0c6511310a05a1675137cbcc4c3cb1fa19ec8",
+      "blob": "ea79285aceb1be9ff53810db5a5aa7b6490d4c41"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/10-ferramentas-e-composicoes.md": {
+      "bytes": 26323,
+      "sha256": "ee5b7d9df12c146f3307cc2041d7f6d3e7003c07e28769dd54dcd952ff7c2497",
+      "blob": "571efa922c118f6b40bbc6c756f8e2907db03786"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/11-jornadas-e-casos.md": {
+      "bytes": 15754,
+      "sha256": "7c09ef38b3b5fbffa58651a87648964d71baa99d0e6a9ecd5a0de4231f49caa0",
+      "blob": "402e11c98f141d9905d77f17ca2585ecacde6ddd"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/12-avaliacao-riscos-e-provas.md": {
+      "bytes": 24137,
+      "sha256": "c69541d16b7aa180a640191333f677c0fa717ed52f3fa1fbb3e2b9344dfa1e87",
+      "blob": "f1e95334d90e861e8e5cf8e828ebd440e2ce5a22"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/13-decisoes-e-continuidade.md": {
+      "bytes": 42666,
+      "sha256": "3d0bf343f62325d1a4d518ece0df8094fcbcfe5a3a1373ce2447261712499074",
+      "blob": "5bae543b044a469673acb4f19bc3ccc2d339c918"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/14-fontes-e-historico.md": {
+      "bytes": 2938,
+      "sha256": "db6d7dcae60ec310c0fa27bfcf34293867c44d6442ce9c5704d0ee35fb8cd234",
+      "blob": "db71db0ed34978cf85bc31b89fdb1c12bdcd499e"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/README.md": {
+      "bytes": 9514,
+      "sha256": "6cf1b921e1c4d44f1f165d601326a6be5297582cbbae7002cb01e4916f89ca14",
+      "blob": "0af9084068d1d43835e3d0aa1dc17abedf02e696"
+    },
+    "docs/01-discovery/discovery-02/README.md": {
+      "bytes": 2718,
+      "sha256": "7d7c128a60eeba7019697d2ab73321a2800a39a06306405497c0e8020648ed04",
+      "blob": "76ee85e68295a235852eff8895564eb73ef2a180"
+    },
+    "docs/01-discovery/discovery-02/RETOMADA.md": {
+      "bytes": 6203,
+      "sha256": "1135fe3aba0ef69f537cf52c609588e4a697ab4b230d8b94d45958ff92a40807",
+      "blob": "b79a645a7c1722474ab6d78d0b1a54254e917252"
+    },
+    "docs/continuidade/CONT-REG-0006.json": {
+      "bytes": 1036,
+      "sha256": "29259e7e0baef9895011beaa4203037c28fa3a565cae4705deb29fe155b5b761",
+      "blob": "41867e4047f25a54e38846a7e8e9cfc8768baba0"
+    },
+    "docs/continuidade/historico/pre-merge-documental-r04/MANIFESTO.json": {
+      "bytes": 1436,
+      "sha256": "fd421de57dcc2113fed06084a1ad221d8de1d1f8e57db6548901e5efc8d092c8",
+      "blob": "de4638e5cb63208f847a0d6a5096a36ff1bbd39f"
+    },
+    "docs/continuidade/MANIFESTO.json": {
+      "bytes": 2000,
+      "sha256": "481a0bf1527f37741bbbbde99b145350f7473fff28c7316b7f9b844401a5dae6",
+      "blob": "17ca038af28a70ae4a3c02729e05b61fec794665"
+    },
+    "ESTADO-ATUAL.md": {
+      "bytes": 5045,
+      "sha256": "283e5e5f767c64567c72f13aa4c00eef07f89ca5017060373ab9212d08cec07f",
+      "blob": "3b32abe9cdb20cb88b4f68a462ff94ccece51d87"
+    },
+    "RETOMADA.md": {
+      "bytes": 4090,
+      "sha256": "89c3b8cc09076cb395ed982c9511722ddba2ac48630d4f128f327ffaa34e45fd",
+      "blob": "2807d7a1fdebc150b62959d44b0df75daaa47746"
+    }
+  }
+}
