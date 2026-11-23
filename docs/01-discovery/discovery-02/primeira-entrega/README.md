@@ -1,3 +1,9 @@
+# Discovery da primeira entrega — proposta de incorporação documental
+
+Nesta branch, comece pela [entrada de leitura por assunto](merge-documental/README.md). Ela reúne os acréscimos documentais e remete às decisões que continuam regendo a primeira entrega. Para conferir uma definição anterior e seu alcance, consulte o [registro R04](consolidacao-r04/REGISTRO-DECISOES.md). O texto abaixo conserva a rota da revisão precedente.
+
+---
+
 # Rota vigente R04 — 2026-11-13
 
 Esta entrada remete à [consolidação da sessão P01–P09 R04](consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](consolidacao-r04/SALDO-P01-P09.md).
