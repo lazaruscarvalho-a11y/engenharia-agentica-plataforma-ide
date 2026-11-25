@@ -1,0 +1,7 @@
+# Retomar o discovery
+
+1. Abra o [estado do discovery](ESTADO-ATUAL.md) e o [índice dos 14 temas](docs/01-discovery/discovery-02/primeira-entrega/merge-documental/README.md). Confira o commit consultado e o manifesto correspondente.
+2. Para **PE-08**, abra [visão e autoridade](docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/01-visao-e-autoridade.md#pe08). A Solução tem referência estável e repositório próprio. A próxima pergunta é **quais evidências distinguem a evolução de uma Solução da criação de outra?**
+3. Para **D02-PEN-001/002**, abra [onboarding e compreensão](docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/03-onboarding-e-compreensao.md) e [decisões e continuidade](docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/13-decisoes-e-continuidade.md). O refinamento trata da evidência suficiente e de como apresentar ao engenheiro uma lacuna material.
+
+A [retomada D02](docs/01-discovery/discovery-02/RETOMADA.md) e as instruções históricas que ela referencia conservam a rota da revisão em que foram escritas. Confira o [manifesto D02 no commit da revisão aplicada](https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/8bbd93151640865995fa8a8dfe3d2d5db15da6ec/docs/01-discovery/discovery-02/MANIFESTO.json). A prontidão do discovery continua baseada no acesso à documentação e na recuperação correta de decisões, limites e pendências. O uso das Fontes nativas segue o comprovante próprio de cada edição.
