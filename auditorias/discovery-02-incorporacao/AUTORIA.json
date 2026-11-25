@@ -1,0 +1,273 @@
+{
+  "files": [
+    {
+      "path": "auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md",
+      "bytes": 75442,
+      "sha256": "ada7257fabb483c921ab3ead2eb6fe7db2d1ccb742502da28dfa9c33b7431da6",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/entradas/MATRIZ-CORRECOES-74.md",
+      "bytes": 34636,
+      "sha256": "8a46579e766b20e7ac8a8a95e78787b00ff811a44134fc32834b03f7d91f88e1",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/entradas/RELATORIO-LIMITACOES-E-VERIFICACAO.md",
+      "bytes": 6151,
+      "sha256": "a3a89258f1189bd413c3c7a5773d9b4ae66a9a174c90cf11dfb74a5d3d1e4eef",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REGISTRO.md",
+      "bytes": 14928,
+      "sha256": "03d7884f556e21f0dfcf9b1a0a239cf592f04633b283a40d5d96d77edd84a8d6",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/fundacao/axiomas-arquiteturais.md",
+      "bytes": 9210,
+      "sha256": "427abd63c45728e2d11b5c8f2b9dfee561ddb1402b3a0fdb84f1b23481027b79",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "ARCHITECTURE_BLUEPRINT.MD",
+      "bytes": 3755,
+      "sha256": "d88f88544173826be7728d206ef51543cc0c4e4be2b7331726d73928cc606536",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md",
+      "bytes": 6922,
+      "sha256": "cd5ac777065c01fd9a601858a58d07cbd855386df18f363da63ddb0ff47d1b1e",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md",
+      "bytes": 5840,
+      "sha256": "d03c9824a31069e48ad30c7089e930ad6b110ac76bdb476fb0874f4d64296448",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/AVALIACAO.md",
+      "bytes": 4925,
+      "sha256": "bd954fd5098bf4225fc9cf76f5ac64442126dd3d97ccfe75066f6232571d9282",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETIFICACOES.md",
+      "bytes": 5214,
+      "sha256": "f6c3361f8716dfbe1ae2e0c396229706bc16b388cc52efbc34ce435f5d350e18",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/FONTES.md",
+      "bytes": 7226,
+      "sha256": "74e4d79a9722dcffcd0c6709314c9702e537e851dc193d7d7a86fd5b593345c7",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/BLUEPRINT-ORIGEM.md",
+      "bytes": 1507,
+      "sha256": "46668cc33df6daabdc11cc2e994a88169a72c38b2ec0f1e47d4f2c0a9ee971a9",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "bytes": 3525,
+      "sha256": "c04090103c9e0684fda56d3b21ae4a8bf9c1a5828b8b6d6ccc7517ac08918f59",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REVISAO.md",
+      "bytes": 9377,
+      "sha256": "a9a9391525a73f05c5a1cd9394a2f57ac01cc024fb3194e6adbb0a24b6fa9bea",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/README.md",
+      "bytes": 1083,
+      "sha256": "ae4093bae20189642729940eea8f32786322932e981214706047fafb33a43b2d",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MATRIZ.md",
+      "bytes": 51944,
+      "sha256": "e1bc4966ffe5d78afb163427866ea96751afc5c4f002196519a8032970567c23",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "bytes": 11742,
+      "sha256": "1410f7ebf7eef8749557d58fb947d916ab482eb68f5ed22afb715a0ec0aecde2",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "RETOMADA.md",
+      "bytes": 3821,
+      "sha256": "1e060f64797d26741a644b315ccc7159b9c7162059e845377e8c06d5229eafe0",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 3920,
+      "sha256": "535e1b624b5b14aecaf27427a30ff12b61bf56d3db6a32f84ed590d0481a896c",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/chatgpt/historico/pre-d02/INSTRUCOES-PERMANENTES.md.snapshot",
+      "bytes": 3920,
+      "sha256": "86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/chatgpt/historico/pre-d02/CONFIGURACAO.md.snapshot",
+      "bytes": 4883,
+      "sha256": "7409427e0f3e9e69534772ae9685ad5958fac3a3650e5e31a423152d29d9c641",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/chatgpt/historico/pre-d02/MANIFESTO-FONTES.md.snapshot",
+      "bytes": 7536,
+      "sha256": "8ed67dd3ea03e8a5a8368a81428ee445e3d705722a2b8d40df4951d23b632944",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "bytes": 8524,
+      "sha256": "d2cd062d9296ef232781b4efbfef8f139eb10be38fd9c64765c4312032c08e2c",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/chatgpt/CONFIGURACAO.md",
+      "bytes": 9802,
+      "sha256": "e83f0d19b18419ea78d8a717480e4eeba6d287e8be570bf46ebae3506d52a8c9",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+      "bytes": 7006,
+      "sha256": "aa9598e4cfd0bda2ddd9f13cd82b3081ddcbbf20a2acae25758c863a9271179a",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/MANIFESTO.json",
+      "bytes": 995,
+      "sha256": "4fcb123d5fe3cce51dce9103d65c152936f60602da1d3a167cd60a75fa5a2e45",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0002.json",
+      "bytes": 1929,
+      "sha256": "e1166d9dd2940c12df8b24e29683069be519ae6cde3ee463c94910977ccc8d47",
+      "author": "/root/autoria_d02",
+      "revision": "D02-doc-1"
+    },
+    {
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "author": "/root",
+      "revision": "D02-doc-1-integration",
+      "purpose": "ponte de indice ativo autorizada R4-024/028",
+      "bytes": 8148,
+      "sha256": "8d3abb6862600f1795f36b9c18a870545b868ffe4508d141a3046d7fe372a78d"
+    },
+    {
+      "path": "docs/fundacao/roteamento-contexto.md",
+      "author": "/root",
+      "revision": "D02-doc-1-integration",
+      "purpose": "ponte de indice ativo autorizada R4-024/028",
+      "bytes": 3424,
+      "sha256": "cbdbad56379ad63ebd9bbbf968b8e312c55a45321ddb68c529b7ad8eb782f282"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/RETOMADA.md",
+      "author": "/root",
+      "revision": "D02-doc-1-integration",
+      "purpose": "snapshot historico verificavel sem reescrever hashes anteriores",
+      "bytes": 2429,
+      "sha256": "ea15db4c98254e01496083a016b9a62b4cbf21cfcc0ee9f13d845216569c684f"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/docs/continuidade/CONT-REG-0001.json",
+      "author": "/root",
+      "revision": "D02-doc-1-integration",
+      "purpose": "snapshot historico verificavel sem reescrever hashes anteriores",
+      "bytes": 1189,
+      "sha256": "fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "author": "/root",
+      "revision": "D02-doc-1-integration",
+      "purpose": "snapshot historico verificavel sem reescrever hashes anteriores",
+      "bytes": 4202,
+      "sha256": "87739fa4430fe5a8b3108503b31d939b9a58b5599f9792569378057ae361c034"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/snapshot/docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "author": "/root",
+      "revision": "D02-doc-1-integration",
+      "purpose": "snapshot historico verificavel sem reescrever hashes anteriores",
+      "bytes": 3920,
+      "sha256": "86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d"
+    },
+    {
+      "path": "docs/continuidade/MANIFESTO.json",
+      "author": "/root",
+      "revision": "D02-doc-1-integration",
+      "bytes": 1312,
+      "sha256": "f24929d3dd72ce31ad731ca4ba8f8caad66a7e6d4a2ccfa7d6ce776cf26ba803"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-d02/LEIA-ME.md",
+      "author": "/root",
+      "revision": "D02-doc-1-freeze2",
+      "bytes": 848,
+      "sha256": "2420f82d389c6f0b6dce317d95483c41bb874bd9bbce5909c490e77d8dc50cde"
+    }
+  ],
+  "coordinator_generation_pending": [],
+  "limit": "Autoria documental; auditoria/testes/recibos finais nao certificados pelo autor.",
+  "coordinator_files": [
+    "BASELINE-REMOTA.json",
+    "IDENTIDADE-ENTRADAS.json",
+    "INSPECAO-CI.json",
+    "OBSERVACOES-E-OPERACOES.json",
+    "ORACULOS-PREVIOS.json",
+    "CENARIOS-PREDEFINIDOS.json",
+    "verificar-documentos.mjs",
+    "empacotar-fontes.py"
+  ],
+  "independent_auditor": "/root/auditoria_independente",
+  "author_task": "/root/autoria_d02",
+  "coordinator": "/root",
+  "source_scope": "All agents see curated repository and R5, no corporate transcript or credential transferred",
+  "integration_correction": "Freeze2: checker limited to active links as predefined; historical relative links retained byte for byte and documented; first failed result preserved",
+  "freeze3_correction": "Package read rejects path/mode/ancestor symlink before reading; evaluator-only artifacts excluded from native upload but preserved in durable package; candidate native rules remain attributable automatic channel"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "piloto",
+    "command": [
+      "python",
+      "-B",
+      "harness/governanca_assistida/test_fluxo.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "extensao",
+    "command": [
+      "python",
+      "-B",
+      "harness/governanca_assistida/test_fundacao.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "adversariais",
+    "command": [
+      "python",
+      "-B",
+      "auditorias/fundacao-integral/test_adversarial.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "documental",
+    "command": [
+      "python",
+      "-B",
+      "harness/verificar_fundacao.py"
+    ],
+    "exit_code": 0
+  }
+]

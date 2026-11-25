@@ -1,0 +1,42 @@
+{
+  "scope": "PUBLICACAO_INICIAL_IMPLEMENTACAO_ANTES_CORRECOES",
+  "commit": "b87a1c15d504d1c5a64124c8c351efffdbf4da05",
+  "tree_sha": "9edeb94b6b36e125eab5b5f18b4e67d6c20b2312",
+  "branch": "proposta/fundacao-integral-pm-fund-001-003",
+  "pr": 5,
+  "pr_url": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/pull/5",
+  "base": "f2189bf9481a48fb6281844326d35501952ebd0e",
+  "stale_expected_sha": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+  "stale_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "GithubGraphQLAPIError: [{'message': 'Something went wrong while executing your query on 2026-10-30T20:09:56Z. Please include `77D7:755BC:55C41B:89A028:6AE4F994` when reporting this issue.'}]"
+      }
+    ],
+    "structuredContent": {
+      "error": "GithubGraphQLAPIError: [{'message': 'Something went wrong while executing your query on 2026-10-30T20:09:56Z. Please include `77D7:755BC:55C41B:89A028:6AE4F994` when reporting this issue.'}]",
+      "error_code": "UNKNOWN"
+    },
+    "isError": true
+  },
+  "head_after_stale": "f2189bf9481a48fb6281844326d35501952ebd0e",
+  "correct_expected_sha": "f2189bf9481a48fb6281844326d35501952ebd0e",
+  "correct_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "success": true
+    },
+    "isError": false
+  },
+  "head_after_correct": "b87a1c15d504d1c5a64124c8c351efffdbf4da05",
+  "prior_blobs_preserved": 74,
+  "main_unmerged": true,
+  "normative_effect": "AUSENTE",
+  "notes": "Ensaio diferencial observado; erro da tentativa antiga foi UNKNOWN GraphQL, não código específico de conflito. Consulta confirmou ausência de movimento, seguida de atualização correta conferida. Sem garantia universal extrapolada."
+}

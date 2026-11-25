@@ -1,0 +1,18 @@
+{
+  "schema_version": "continuidade-record-1",
+  "record_id": "CONT-REG-0006",
+  "revision": 1,
+  "source_kind": "USER_DIRECT",
+  "source_ref": "S1-MERGE-EA-20261122-01",
+  "request": "Publicar apenas o escopo documental liberado, em branch e PR revisáveis, com comprovação separada para o Git e o Projeto.",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/merge-documental-ea-20261122-s3",
+  "base_commit": "1082b9640ef70f311362ffc2d33b60c488dadc1b",
+  "entry": "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/README.md",
+  "continuity": "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/13-decisoes-e-continuidade.md",
+  "previous_record": "docs/continuidade/CONT-REG-0005.json",
+  "normative_effect": "AUSENTE",
+  "product_approval": "NAO_CONCEDIDA",
+  "native_project_sources": "conferência e recibo independentes",
+  "publication_proof": "Releitura da proposta por commit e recibo da S3. Este registro identifica a redação proposta."
+}

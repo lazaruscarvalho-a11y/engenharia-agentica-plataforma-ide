@@ -1,0 +1,31 @@
+{
+  "schema_version": "continuidade-record-1",
+  "record_id": "CONT-REG-0004",
+  "revision": 3,
+  "source_kind": "USER_DIRECT",
+  "source_ref": "Pedido vigente do usuário de executar PROMPT-MASTER e consolidar P03/P04; ID de mensagem indisponível.",
+  "request": "Consolidar, auditar e persistir documentação P03/P04 e continuidade P01–P09 somente em proposta revisável verificada, com recibo e limites expressos.",
+  "source_mode": "USER_DIRECT_CURRENT_REQUEST",
+  "source": "Pedido atual de executar PROMPT-MASTER anexado e consolidar P03/P04; ID da mensagem atual indisponível, não inventado.",
+  "scope": "Persistência documental revisável autorizada, condicionada a verificação e releitura; preserve aceites prévios e distinção de natureza.",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/d02-primeira-entrega-refinamentos",
+  "base_commit": "0cc6456fbd7613b9a4369d60684d0fe1170a2ed2",
+  "entry": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/README.md",
+  "continuity": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/CONTINUIDADE.md",
+  "product_approval": "NAO_CONCEDIDA",
+  "product_approval_scope": "Este registro não concede aprovação adicional; aceites anteriores de produto permanecem preservados nos documentos.",
+  "normative_effect": "AUSENTE",
+  "PGC_CT": "NAO_RATIFICADOS",
+  "ca_operacionais": "49 NOT_RUN",
+  "native_project_sources": "NAO_ATUALIZADAS_POR_ESTA_OPERACAO",
+  "publication_proof": "Recibo posterior, commit e releitura por bytes; sem prova, NAO_PERSISTIDO",
+  "limits": [
+    "sem merge",
+    "sem código produtivo",
+    "sem execução de aplicações",
+    "sem alteração de permissões/pipelines",
+    "sem dados sensíveis"
+  ],
+  "history": "CONT-REG-0003 e determinação de prontidão de 01/11/2026 permanecem preservados; esta ponte muda a rota temática e não reabre a entrevista encerrada."
+}

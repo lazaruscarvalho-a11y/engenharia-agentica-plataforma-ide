@@ -1,0 +1,261 @@
+{
+  "schema_version": "d02-independent-findings-1",
+  "auditor": "/root/auditoria_independente",
+  "context": {
+    "inherited_parent_history": true,
+    "scope_of_authorship": [
+      "AUDITORIA-INDEPENDENTE.md",
+      "ACHADOS.json",
+      "CENARIOS-AUDITORIA.json"
+    ],
+    "product_content_edited": false
+  },
+  "candidate_review": "CONCLUIDO_FREEZE_3",
+  "findings": [
+    {
+      "id": "AUD-D02-001",
+      "severity": "MEDIO",
+      "mandatory_criterion": true,
+      "phase": "PRE_REVIEW_VERIFIER",
+      "path": "auditorias/discovery-02-incorporacao/verificar-documentos.mjs",
+      "location": "loop freeze: lstat seguido de readFile antes da condição st.isSymbolicLink",
+      "problem": "O verificador lê conteúdo de link simbólico antes de rejeitá-lo, contrariando a abstenção de atravessar links sem autorização.",
+      "impact": "Verificação de caminhos/isolamento não demonstra a precondição R4-027/R4-032; leitura indevida poderia ocorrer antes da rejeição.",
+      "gates": [
+        "A"
+      ],
+      "requested_fix": "Rejeitar tipo não regular/symlink antes de readFile; validar caminhos/estado em entradas baseline e confirmar ordenação de freeze.",
+      "state": "CORRIGIDO_RECHECADO_ESTATICAMENTE",
+      "recheck": {
+        "method": "Leitura independente do código; nenhuma execução de payload malicioso ou symlink real.",
+        "observed": "safeTarget valida cada ancestral via lstat antes leitura; inventory inválido lança INVALID_FREEZE_ABORTED_BEFORE_PAYLOAD_READ; modo regular é conferido antes readFile; ordenação e colisões têm rejeição explícita.",
+        "source_sha256": "24c4954ea5c069b123f56c1d739e24f9e9f22b50cb39b9aa64ccca261d0d5078",
+        "limitations": "Os fixtures de execução documental/estrutura serão rechecados após freeze."
+      }
+    },
+    {
+      "id": "AUD-D02-002",
+      "severity": "MEDIO",
+      "mandatory_criterion": true,
+      "path": "auditorias/discovery-02-incorporacao/empacotar-fontes.py",
+      "location": "for p in selected: read_bytes antes de is_symlink",
+      "problem": "Empacotador lê payload antes de rejeitar symlink e não rejeita ancestral symlink/mode.",
+      "impact": "Contrato de isolamento R4-027/032 deve estar preparado antes da execução F; helper congelado permite leitura fora da árvore via link.",
+      "gates": [
+        "A",
+        "F"
+      ],
+      "requested_fix": "Validar caminhos/modes/ancestrais e lstat antes de read_bytes, verificar selected_paths sem duplicatas/case collision e composição igual à seleção legítima.",
+      "state": "CORRIGIDO_RECHECADO_ESTATICAMENTE",
+      "recheck": {
+        "freeze": 3,
+        "observed": "safe_read verifica caminho e cada ancestral por lstat/S_ISLNK/st_reparse_tag e modo regular antes read_bytes; selected ordenado/único case-insensitive; modo remoto100644 exigido; payload reutilizado sem nova leitura.",
+        "scope": "Inspeção estática de contrato/script; execução F remota ainda NOT_RUN nesta etapa.",
+        "source_sha256": "f0cbf581645d984cf35088850af683eb4a5ff60966701b3eb863f057cacfae6a"
+      }
+    },
+    {
+      "id": "AUD-D02-003",
+      "severity": "MEDIO",
+      "mandatory_criterion": true,
+      "path": "docs/chatgpt/CONFIGURACAO.md; docs/chatgpt/MANIFESTO-FONTES.md; auditorias/discovery-02-incorporacao/empacotar-fontes.py",
+      "location": "Plano de cinco Fontes inclui PM/REVISAO/CONFIGURACAO/fixtures contendo gabarito do avaliador",
+      "problem": "Pacote integral de operador e Fontes do recuperador não estavam separados, expondo oráculos explícitos à futura RF que deveria receber apenas fontes e instruções mínimas.",
+      "impact": "Caso se aplicasse esse conjunto, não seria demonstrada RF cega ao gabarito; RF atual segue BLOQUEADO sem aplicação nativa.",
+      "gates": [
+        "A",
+        "RF"
+      ],
+      "requested_fix": "Preservar originais/provas integralmente no ZIP do operador, mas excluir material reservado ao avaliador das projeções de upload; manter todos proprietários canônicos de produto e mapa de cobertura/exclusões, documentar canais automáticos.",
+      "state": "CORRIGIDO_RECHECADO_DOCUMENTALMENTE",
+      "recheck": {
+        "freeze": 3,
+        "observed": "native_source exclui arquivos reservados ao avaliador; originais permanecem ZIP; docs/chatgpt separam operador e recuperador. HUM/AX/proprietários D01 permanecem elegíveis; Instruções e memória precisam atribuição como canais automáticos.",
+        "scope": "Plano preparado, não prova RF; geração/cobertura final do upload exige conferência em F.",
+        "sources": [
+          "auditorias/discovery-02-incorporacao/empacotar-fontes.py",
+          "docs/chatgpt/CONFIGURACAO.md",
+          "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+          "docs/chatgpt/MANIFESTO-FONTES.md"
+        ]
+      }
+    }
+  ],
+  "A": "PASS",
+  "freeze2_verification": {
+    "freeze_revision": 2,
+    "freeze_digest": "12a32892904aee5825469725227b7001ce2519518c638ba5a3c559223e607c1d",
+    "aggregate_match": true,
+    "files_checked": 44,
+    "files_failed": [],
+    "manifest_files_exact": true,
+    "manifest_freeze": true,
+    "protected": 171,
+    "protected_failed": [],
+    "test_summary": {
+      "total": 1057,
+      "passed": 1057,
+      "failed": 0,
+      "protectedFiles": 171,
+      "links": 158,
+      "aggregateCombinations": 625,
+      "semanticAudit": "SEPARATE_INDEPENDENT_AGENT",
+      "caOperacionais": "49 NOT_RUN"
+    },
+    "metadata_hashes": {
+      "CANDIDATO-CONGELADO.json": "7c79e7c57a1989e160fda8c7b222a64dc3b40295b756fdf290583be50bba2c20",
+      "TESTES-DOCUMENTAIS.json": "918ee32f7dfe77fd79f9286306afff51d0643a544e4b9e7b844ee2d3a2345707",
+      "TESTES-HERDADOS-RESUMO.json": "951fd427b36600304f8e3a614a46b43ca313c7f0c35aac2c13b5892280254f6a",
+      "CENARIOS-PREDEFINIDOS.json": "1a2d08014fde150c9638d3d549d55ccd43820f8c8d70927b31c1e3bf0754c692"
+    }
+  },
+  "inherited_test_verification": {
+    "method": "Releitura dos 18 logs locais e hash vs resumo, textos unittest e resultado.json da execução; auditor não reexecutou suítes.",
+    "observations": [
+      {
+        "suite": "piloto",
+        "hashes_match": true,
+        "unittest_text": "Ran 14 tests in 0.141s\r\n\r\nOK",
+        "expected_unit": 14,
+        "exit": 0
+      },
+      {
+        "suite": "extensao",
+        "hashes_match": true,
+        "unittest_text": "Ran 16 tests in 1.835s\r\n\r\nOK",
+        "expected_unit": 16,
+        "exit": 0
+      },
+      {
+        "suite": "adversariais",
+        "hashes_match": true,
+        "unittest_text": "Ran 16 tests in 1.944s\r\n\r\nOK",
+        "expected_unit": 16,
+        "exit": 0
+      },
+      {
+        "suite": "regressao-pgc",
+        "hashes_match": true,
+        "unittest_text": "Ran 10 tests in 2.424s\r\n\r\nOK",
+        "expected_unit": 10,
+        "exit": 0
+      },
+      {
+        "suite": "retomada",
+        "hashes_match": true,
+        "unittest_text": "Ran 9 tests in 0.082s\r\n\r\nOK",
+        "expected_unit": 9,
+        "exit": 0
+      },
+      {
+        "suite": "fundacao-estatica",
+        "hashes_match": true,
+        "unittest_text": null,
+        "expected_unit": null,
+        "exit": 0
+      },
+      {
+        "suite": "pgc-estatico",
+        "hashes_match": true,
+        "unittest_text": null,
+        "expected_unit": null,
+        "exit": 0
+      },
+      {
+        "suite": "catalogo-estatico",
+        "hashes_match": true,
+        "unittest_text": null,
+        "expected_unit": null,
+        "exit": 0
+      },
+      {
+        "suite": "snapshot-retomada",
+        "hashes_match": true,
+        "unittest_text": null,
+        "expected_unit": null,
+        "exit": 0
+      }
+    ],
+    "result_file_success": true,
+    "ca_not_run": true
+  },
+  "freeze3_verification": {
+    "freeze_revision": 3,
+    "freeze_digest": "99eae003f97711e19d0448c855952ea761119629b21d712feafbf2fa73d585ae",
+    "aggregate_match": true,
+    "files": 44,
+    "failures": [],
+    "manifest_exact": true,
+    "manifest_freeze": true,
+    "changed_from_freeze2": [
+      "auditorias/discovery-02-incorporacao/AUTORIA.json",
+      "auditorias/discovery-02-incorporacao/empacotar-fontes.py",
+      "docs/chatgpt/CONFIGURACAO.md",
+      "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "docs/chatgpt/MANIFESTO-FONTES.md",
+      "docs/continuidade/MANIFESTO.json"
+    ],
+    "tests": {
+      "total": 1057,
+      "passed": 1057,
+      "failed": 0,
+      "protectedFiles": 171,
+      "links": 158,
+      "aggregateCombinations": 625,
+      "semanticAudit": "SEPARATE_INDEPENDENT_AGENT",
+      "caOperacionais": "49 NOT_RUN"
+    },
+    "manifest_sha256": "4a18c14498099a9e78fae61a17ae9b2d4dd911b5429af5997aae3be164d6a6b4",
+    "freeze_file_sha256": "eeb0f275c01cfd19b18c63a0586c444b1c786b5921dd1736ea4047139ac3367c",
+    "tests_sha256": "f092d0a8b052e0b482a0e440f40de2398ea30df1a089f0a6ba34974155b32580"
+  },
+  "final_assessment": {
+    "candidate_freeze": 3,
+    "freeze_digest": "99eae003f97711e19d0448c855952ea761119629b21d712feafbf2fa73d585ae",
+    "mechanical_rule": "Qualquer crítico/alto aberto ou inconclusivo, ou médio obrigatório não corrigido, impede A; incerteza não é rebaixada.",
+    "blocking_findings": [],
+    "material_coverage": "HUM01..11 e AX01..10 examinados semanticamente; P-A..L preservados; fonte inversa sem decisão técnica indevidamente atribuída identificada.",
+    "A": "PASS",
+    "limits": "A é pré-publicação; não prova G/F/PS/PI/RG/RF/RN/Z. Critérios e limites de cada fase mantidos."
+  },
+  "freeze3_delta_tests": {
+    "observed": {
+      "scope": "DOCUMENTAL_DELTA_FREEZE3",
+      "freeze_revision": 3,
+      "fundacao_estatica": {
+        "exit_code": 0,
+        "passed": 236,
+        "total": 236,
+        "stdout_sha256": "57ad54cd96dee0b488804847c6468e92895f2a936e15deb6ea7068b4709d80b0"
+      },
+      "continuidade_atual": {
+        "status": "PASS",
+        "record_id": "CONT-REG-0002",
+        "files": 4
+      },
+      "reused_65_unit_tests": "Sources and fixtures unchanged since actual freeze2 run; doc-only delta does not affect these suites",
+      "documentary_checker": "1057/1057 rerun on freeze3"
+    },
+    "sha256": "98a082ff67aa7f2029c21eb6ba19ed10b84e22e38bf5c55f07a8ebc171881f14"
+  },
+  "output_revision": 2,
+  "history": [
+    {
+      "stage": "PRE_REVIEW_VERIFIER",
+      "A": "NOT_RUN",
+      "candidate_review": "AWAITING_FREEZE",
+      "reason": "Estados iniciais permaneceram indevidamente no topo após parecer; a precondição da coordenação recusou antes de qualquer escrita remota. Movidos para histórico e reconciliados com avaliação final."
+    }
+  ],
+  "current_candidate": {
+    "revision": 3,
+    "freeze_digest": "99eae003f97711e19d0448c855952ea761119629b21d712feafbf2fa73d585ae",
+    "files": 44
+  },
+  "output_reconciliation": {
+    "source": "Precondição mecânica da coordenação detectou inconsistência antes da publicação.",
+    "correction": "Campos top-level agora exprimem o mesmo A PASS/freeze3 da avaliação final; estados iniciais preservados somente no histórico.",
+    "frozen_content_changed": false,
+    "remote_write_at_detection": false
+  }
+}

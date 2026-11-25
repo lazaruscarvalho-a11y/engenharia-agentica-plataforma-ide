@@ -1,0 +1,396 @@
+{
+  "source_commit": "f2189bf9481a48fb6281844326d35501952ebd0e",
+  "source": "GitHub GET git/trees recursive; 101 entries; truncated=false",
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "sha": "e5c54d9162a3054ee5ad983c71e934782fbed69e",
+      "size": 274
+    },
+    {
+      "path": "AGENTS.md",
+      "sha": "f2b95a8705f65e1d3d610daafb944ed08e81b843",
+      "size": 1932
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "sha": "bc88929c6b22fa01a48b14f2e1f989f5c07ac703",
+      "size": 2269
+    },
+    {
+      "path": "README.md",
+      "sha": "7f09eefd43f83ed4fa385b87c9df87a85bf164de",
+      "size": 1806
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.2_candidata_ratificacao.zip",
+      "sha": "c4af413f0f552df18bd96094920bf272a6e1b54e",
+      "size": 75550
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.3_candidata_ratificacao.zip",
+      "sha": "3bab4af9afe14641f045c856061fe83f286cebdd",
+      "size": 279050
+    },
+    {
+      "path": "acervo/PGC-001_v1.1.3_candidata_ratificacao.zip.sha256",
+      "sha": "dceaf11d3a9fa4b1f3557fde1c399a94c0f3b505",
+      "size": 107
+    },
+    {
+      "path": "acervo/SHA256SUMS.txt",
+      "sha": "836bd7c2669f83690062ae46c5335949a1f5badd",
+      "size": 107
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/RELATORIO.md",
+      "sha": "b64b8eeb365e27748a7708646428e31405dc0b9a",
+      "size": 6734
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/conector-cas-real.json",
+      "sha": "8d46d71e0af5f49acf845ea043d2d6251a1d8fbd",
+      "size": 1065
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/retomada-processo-isolado.json",
+      "sha": "fdf1533d6877bd0f23a7236c0c7c2e889b27151c",
+      "size": 295
+    },
+    {
+      "path": "auditorias/implementacao-inc-gov-001/testes-locais.txt",
+      "sha": "bce16b9d58eabed6927c671585c6285e74b5d325",
+      "size": 1891
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/RELATORIO.md",
+      "sha": "b8e8a0d2a4e2a23199ee60ba742a04b028013ec5",
+      "size": 8187
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/SHA256-IMPORTACAO.txt",
+      "sha": "d92e487e96d25be92bd26fa20a27af12007b5346",
+      "size": 3932
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/integridade.json",
+      "sha": "2c868a82be0dd0e4504b424f877d91c2f691591f",
+      "size": 1068
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/reexecucao.json",
+      "sha": "b9ce4bcb5215dc9d318a6b7b67c6011d5e36960b",
+      "size": 2234
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/relatorio-estatico-reexecutado.md",
+      "sha": "5d9e9c515e71d77e9e3e3b5ee6965c0403edd391",
+      "size": 6770
+    },
+    {
+      "path": "auditorias/importacao-pgc-001-v1.1.2/verificar_importacao.py",
+      "sha": "c432c6e31df069a32112b241024966953d73aa91",
+      "size": 1880
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/RELATORIO.md",
+      "sha": "5f59fe2b43a96b8df91740a018dc51e7b29beb35",
+      "size": 3515
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/SHA256-REVISAO.txt",
+      "sha": "8078b648d58ed1fd13c810dfe1ef641176b5360e",
+      "size": 7978
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/comparacao-fontes.diff",
+      "sha": "434f91830954dcdd7ca867fb66a537f6de74c711",
+      "size": 50721
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/resultados.json",
+      "sha": "1d5e532d6bd6143747f9177a6379aa9fe7cb8ccc",
+      "size": 683
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/testes-documentais.txt",
+      "sha": "ba930c3918e72d2f25f4947095232a1d9a6f68dd",
+      "size": 1233
+    },
+    {
+      "path": "auditorias/revisao-pgc-001-v1.1.3/verificar_revisao.py",
+      "sha": "4c81908d566e130c6783888e2acdda5e9086e66a",
+      "size": 2073
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "sha": "33db43725d92cdc82f64ec2c5790a8f1f7f2a6f2",
+      "size": 7704
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/PGC-001.md",
+      "sha": "305deba10a36b047f01ebc231a9951f47b68a1d7",
+      "size": 16758
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "sha": "e7e2146f01073727ca6eb46b51328f601524315d",
+      "size": 1756
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/README.md",
+      "sha": "9e0951c66dddd0cc36ca0e1e833272b7492d9819",
+      "size": 5671
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "sha": "60556f99c5ed4da708c168115206e9011812e26e",
+      "size": 3587
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/SHA256SUMS.txt",
+      "sha": "5c531d5ce171bd8f9fb6bd4dc227b757aed1efe7",
+      "size": 1741
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "sha": "0fdbe2fe021539b12eef747e3c251f831b4c65a4",
+      "size": 12076
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "sha": "d5b47213b5a6d6fb08b36535c57ca4c8f157d148",
+      "size": 11827
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "sha": "98409771e7f8bc15a0af6af7704f34616fac0952",
+      "size": 13544
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "sha": "7a60e183a9f377e301535feeed8aeb934083faf0",
+      "size": 7238
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "sha": "30318700e329f3ba0545fd3db1f9953b91de2251",
+      "size": 10294
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "sha": "f43f4997e78f3695be9f829d825d32f2dafc89e3",
+      "size": 7850
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "sha": "3409537ec6c49d9c7a42b1946bc104a13abc9158",
+      "size": 7081
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "sha": "e5169766602de8657417557c5ca1287c8e530f18",
+      "size": 14370
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "sha": "cdccc9dc8cc1612fb0ade6581b42ab69e1d498bf",
+      "size": 8991
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "sha": "900d3772f85b4cc8dd1ff6dea95dcf6cf22b9f80",
+      "size": 100677
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "sha": "16b895215920d450b0ef2c6aaeea9dbc1a3a07fc",
+      "size": 16874
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.2_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "sha": "8b5ed705cc9654eea071f7f2d716d4c1ec5923dc",
+      "size": 6663
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/MATRIZ-DE-RASTREABILIDADE.md",
+      "sha": "94026a20e0a2fb6f16f121d45d4ee6e12ec7f455",
+      "size": 8753
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/PGC-001.md",
+      "sha": "e5fe025c2f571a409500deffbee67fff6174fef3",
+      "size": 16818
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/RATIFICACAO-INICIAL-MODELO.md",
+      "sha": "e0cba634035ae9574ca055199a6961881924eae3",
+      "size": 1756
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+      "sha": "be566753c11d908411312b78dfb321e9e0c58f04",
+      "size": 6958
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REGISTRO-DE-EMENDAS.md",
+      "sha": "4bafb291d14728ce917f830c2737713db3faa81f",
+      "size": 5416
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/REVISAO-TECNICA.md",
+      "sha": "1252e5c072efc815ece01ac7f017e2bc55ab1597",
+      "size": 4064
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/SHA256SUMS.txt",
+      "sha": "f3edadd9216464a8c3ec820b165dd21647bae9bd",
+      "size": 1927
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-001-classificacao-aprovacao.md",
+      "sha": "da687425dae237ffda799808aea25f8be166f457",
+      "size": 12481
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-002-modelo-proveniencia.md",
+      "sha": "bedd4ca71a6c6abc02cb41b04548324f432243ab",
+      "size": 12216
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-003-publicacao-concorrencia.md",
+      "sha": "1dda671836dee6acb92394c6f8374a19c6cbb3be",
+      "size": 13544
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-004-rastreabilidade-impactos.md",
+      "sha": "fa00706e27f90e78454161d1bf00b4562345f0bb",
+      "size": 7238
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-005-seguranca-autorizacao.md",
+      "sha": "04c7c1d65cae633962b3a31e8c00239e78c9d5ca",
+      "size": 10294
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-006-continuidade-recuperacao.md",
+      "sha": "69e52b8e7fcf832dfe74079f73f0cb36e52abbce",
+      "size": 7850
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-007-organizacao-contexto.md",
+      "sha": "765475a7cb1df2b9555fdc12f243b0cf123c61ff",
+      "size": 7081
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/contratos/CT-008-verificacao-adversarial.md",
+      "sha": "2bb768a1c4e6ba0db394c9e2b208713ceffb30af",
+      "size": 15367
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "sha": "de967da34bd95828a11c3f70d36ac7f242540553",
+      "size": 11322
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "sha": "ea72c3d4c8c1b3868ab2e46208bb0d69e0d8e05f",
+      "size": 101145
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "sha": "18b01636e441739a1c4c4105e65fd727d90ebc04",
+      "size": 17532
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "sha": "10e6b7c6c4e59d91723777122936e68de3229b7e",
+      "size": 7513
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/testar_revisao.py",
+      "sha": "01e2be93498c958d876e6bd357e9297710095868",
+      "size": 5493
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/INDICE.json",
+      "sha": "6de4c82bca2cf9bd952b27b99af8661045605676",
+      "size": 631
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/INICIO.md",
+      "sha": "55a52148590ae5ea92ca32f5226429795085f682",
+      "size": 2811
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/aceites/GOV-OP-0001.json",
+      "sha": "2624ee505449e5ad478644f5d55914455d2bfccd",
+      "size": 1863
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/ensaios/controle-condicional.json",
+      "sha": "4b0b3ce44cbff5ef576859a2c4a480b8acaea086",
+      "size": 193
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/recibos/GOV-OP-0001.json",
+      "sha": "f1a6a17b54d8396a76b08053b823cf7e1fb247e5",
+      "size": 1900
+    },
+    {
+      "path": "docs/01-discovery/governanca-assistida/registros/GOV-REG-0001.md",
+      "sha": "cf29296d8f5265bf50f3c9c96a9636a1b59a2354",
+      "size": 474
+    },
+    {
+      "path": "docs/06-execucao/propostas/INC-GOV-001-fluxo-assistido.md",
+      "sha": "478df24983121c27b6ea1237b2295a7891c205f2",
+      "size": 19695
+    },
+    {
+      "path": "docs/06-execucao/propostas/README.md",
+      "sha": "23687abef4e80c7988ee439040269a5a64cdb92b",
+      "size": 654
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO.md",
+      "sha": "a0d633067dab6c0508188bab9be9bca36af8ea36",
+      "size": 7715
+    },
+    {
+      "path": "harness/governanca_assistida/fluxo.py",
+      "sha": "65080c65d839aa2240532f4b2035183fc3f0de9b",
+      "size": 17639
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/aceite-nao-preenchido.json",
+      "sha": "ce3354e6459c1be3ca480d08dc76c7bab38d90e7",
+      "size": 428
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/recibo-nao-preenchido.json",
+      "sha": "db53b3c3ef4e124cfe4b6c39d20f45570eb5049c",
+      "size": 358
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/registro.json",
+      "sha": "3452296643e02221c8ebe1bc08ef45a1500aac45",
+      "size": 476
+    },
+    {
+      "path": "harness/governanca_assistida/retomar_snapshot.py",
+      "sha": "246741bb6f6c8ce6dc1818a0ca9308a5d7057b4b",
+      "size": 1248
+    },
+    {
+      "path": "harness/governanca_assistida/test_fluxo.py",
+      "sha": "d1f48af16cc0b0aaa43685160ad982c29a4e0554",
+      "size": 9678
+    }
+  ],
+  "allowed_changed": [
+    "README.md",
+    "AGENTS.md",
+    "ESTADO-ATUAL.md"
+  ]
+}

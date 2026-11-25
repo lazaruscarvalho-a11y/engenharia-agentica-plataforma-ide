@@ -1,0 +1,36 @@
+{
+  "schema_version": "continuidade-receipt-1",
+  "source_commit": "f6606efc33c79230b2cc93d48fc340ce96194e78",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/fundacao-integral-pm-fund-001-003",
+  "record_id": "CONT-REG-0001",
+  "revision": 1,
+  "readback": "13_FILES_BYTES_EQUAL",
+  "main": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+  "normative_effect": "AUSENTE",
+  "product_approval": "NAO_CONCEDIDA",
+  "native_configuration": "NAO_VERIFICADA",
+  "verification": "LOCAL_WINDOWS_9_COMMANDS_EXIT_0",
+  "files": [
+    {
+      "path": "RETOMADA.md",
+      "sha256": "ea15db4c98254e01496083a016b9a62b4cbf21cfcc0ee9f13d845216569c684f",
+      "bytes": 2429
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0001.json",
+      "sha256": "fe0b5b83a608b8ffa67eccd06f38086dbeac775c702a26e996c36ebb23e3fe36",
+      "bytes": 1189
+    },
+    {
+      "path": "docs/fundacao/PROVENIENCIA-RECUPERADA.md",
+      "sha256": "ef04efb8a5c096205f84cdf34547f54a7bf2dc749a94fcc2608d36a219247629",
+      "bytes": 4021
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "sha256": "86594e1e45aec705c9eaab947bebeca4a59f2cf42557c59e006d4b4dcfc9916d",
+      "bytes": 3920
+    }
+  ]
+}
