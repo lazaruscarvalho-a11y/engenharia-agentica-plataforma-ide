@@ -1,0 +1,1645 @@
+{
+  "alcance": [
+    "Discovery 02, consolidações da primeira entrega, visão, axiomas, método e referências ao histórico D01.",
+    "Recibos históricos vinculados ao seu commit e referências imutáveis para dependências externas ao recorte.",
+    "As três entradas raiz são novas. Os demais documentos preservam bytes, com ajustes de navegação e supressão de referências privadas registradas por arquivo."
+  ],
+  "arquivos": {
+    ".gitkeep": {
+      "blob_git": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tratamento": "PRESERVADO_DA_BASE"
+    },
+    "ARCHITECTURE_BLUEPRINT.MD": {
+      "blob_git": "16132a0823a52eb6696d8292e6cbfd6a744101e3",
+      "blob_origem": "7015dc526c83720116add3d7da32de4b5d7fb018",
+      "bytes": 3876,
+      "links": [
+        {
+          "de": "auditorias/discovery-02-incorporacao/BLUEPRINT-ORIGEM.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/auditorias/discovery-02-incorporacao/BLUEPRINT-ORIGEM.md"
+        }
+      ],
+      "sha256": "09adbc95a4b8140d1b4d8bf1fdf8fa48baf36d2e661dd2ebbb87d12392d9876f",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "ESTADO-ATUAL.md": {
+      "blob_git": "341c9c371ac955b434626928d2848b725ecae51b",
+      "bytes": 2778,
+      "sha256": "18df46434f3b8931174a9461c35d60bc99d1afeb9b45451030ed8400e3fef0e8",
+      "tratamento": "ENTRADA_NOVA"
+    },
+    "README.md": {
+      "blob_git": "7dbe16390d1fe52893fe4930c4b0f3290fc8b871",
+      "bytes": 1381,
+      "sha256": "df32f04c03bc9e612da301bc60de3bc0fe294286859ecaeb7838f29b86a10321",
+      "tratamento": "ENTRADA_NOVA"
+    },
+    "RETOMADA.md": {
+      "blob_git": "7c401966a9ea03c2016783abc137e4b30a14e9c4",
+      "bytes": 1548,
+      "sha256": "9b146b7426ade4ea0cf20b5d17b33722406849ca71684cfe5713594d56fd2a39",
+      "tratamento": "ENTRADA_NOVA"
+    },
+    "auditorias/consolidacao-p03-p04-r03/RECIBO-PUBLICACAO.json": {
+      "blob_git": "1a882ba7711b640bc31a7a9e067675105850b6cc",
+      "blob_origem": "1a882ba7711b640bc31a7a9e067675105850b6cc",
+      "bytes": 21247,
+      "sha256": "821d28970ad3e117d316ee8533afdc7a9fd26afc18eeea9b9c50c95490965b73",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json": {
+      "blob_git": "269e8c8e0df3bf68925781f64f039e9fb5c10b29",
+      "blob_origem": "269e8c8e0df3bf68925781f64f039e9fb5c10b29",
+      "bytes": 32432,
+      "sha256": "2abb9f5e7001f26bfda13ce66c4788585474cbadc71d141b99214502be646a0a",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/AVALIACAO.md": {
+      "blob_git": "5f6fbf979c3409e0ffeb555169ea1a675f02027d",
+      "blob_origem": "5f6fbf979c3409e0ffeb555169ea1a675f02027d",
+      "bytes": 4925,
+      "sha256": "bd954fd5098bf4225fc9cf76f5ac64442126dd3d97ccfe75066f6232571d9282",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/CONTRATOS-CANDIDATOS.md": {
+      "blob_git": "ea60273fc1434b567a2d5c3f9415a819b6d86c66",
+      "blob_origem": "b5ce7963be871e087839bc3d627acefeac349106",
+      "bytes": 5992,
+      "links": [
+        {
+          "de": "REVISAO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/REVISAO.md"
+        }
+      ],
+      "sha256": "125126d1c185127b98feeb9d4859905ec1669e68e0a08e765f7004565adae9ac",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/MATRIZ.md": {
+      "blob_git": "7eedd46f1e76e68d7e38209bc86a0fd8fbaa86cd",
+      "blob_origem": "7eedd46f1e76e68d7e38209bc86a0fd8fbaa86cd",
+      "bytes": 52582,
+      "sha256": "6f463678c5c2d1f9b6f7a9fbfcbb690dd8cc7c0e1f15651c6e7ffb92a2f2ee1c",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/MODELO-FUNCIONAL.md": {
+      "blob_git": "3df94540eb71291b144cdefd041ef82590cdb872",
+      "blob_origem": "3df94540eb71291b144cdefd041ef82590cdb872",
+      "bytes": 6922,
+      "sha256": "cd5ac777065c01fd9a601858a58d07cbd855386df18f363da63ddb0ff47d1b1e",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/MOTOR-E-WORKSPACES-DE-ATIVIDADE.md": {
+      "blob_git": "42ab4c9973e7310f3cfbae42e27bb7c119689dd9",
+      "blob_origem": "907e1e2081c5fb2d8a9f76808cf360ed7881aea0",
+      "bytes": 5638,
+      "links": [
+        {
+          "de": "../discovery-01/REGISTRO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-01/REGISTRO.md"
+        }
+      ],
+      "referencias_privadas_removidas": 1,
+      "sha256": "1a86e6660bc67d3d1b98d21339da592a34ebcc5ea5bb8804f793c40486a02435",
+      "tratamento": "NAVEGACAO_E_REMOCAO_DE_REFERENCIA_PRIVADA"
+    },
+    "docs/01-discovery/discovery-02/PRONTIDAO.md": {
+      "blob_git": "5046b4201a2cdb70d99bc46b0f6fd3fbfdd3866b",
+      "blob_origem": "5046b4201a2cdb70d99bc46b0f6fd3fbfdd3866b",
+      "bytes": 3658,
+      "sha256": "ef35add1f16037211d48a0c398435dcfc961df9850161765d0fb1b2bc85043f0",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/README.md": {
+      "blob_git": "911be273c446b8b2e0ddf21fcc89854a9187487c",
+      "blob_origem": "76ee85e68295a235852eff8895564eb73ef2a180",
+      "bytes": 3262,
+      "links": [
+        {
+          "de": "FONTES.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/FONTES.md"
+        },
+        {
+          "de": "REVISAO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/REVISAO.md"
+        },
+        {
+          "de": "../../chatgpt/CONFIGURACAO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/chatgpt/CONFIGURACAO.md"
+        },
+        {
+          "de": "../../chatgpt/INSTRUCOES-PERMANENTES.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/chatgpt/INSTRUCOES-PERMANENTES.md"
+        }
+      ],
+      "sha256": "d6b6f47b18adc9c9041f1eba15978b410f45adc423bcfcada431b9ac70f5a9ca",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/REGISTRO.md": {
+      "blob_git": "264d83b7c7b3048e7a63aee8e88efdd3d40dae86",
+      "blob_origem": "054b7385cb636ef482c449b0430ea7dd5180e04d",
+      "bytes": 16971,
+      "links": [
+        {
+          "de": "../../../auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/auditorias/discovery-02-incorporacao/entradas/PROMPT-MASTER-DISCOVERY-02-R5.md"
+        },
+        {
+          "de": "FONTES.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/FONTES.md"
+        }
+      ],
+      "sha256": "24e771bd2c6b638c10bc123f6c518900328bdb73a62e3931a7db170c994b4f90",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/RETIFICACOES.md": {
+      "blob_git": "a89e4c6341bbdbfe1907dbd18a7191fb93d328ae",
+      "blob_origem": "a89e4c6341bbdbfe1907dbd18a7191fb93d328ae",
+      "bytes": 6332,
+      "sha256": "978527c89c87216ff180b23509f9e4b65d9dba0430c7c5533a2007973f0ad286",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/RETOMADA.md": {
+      "blob_git": "72e721b922e188e7556096b32561b373abeffcc0",
+      "blob_origem": "b79a645a7c1722474ab6d78d0b1a54254e917252",
+      "bytes": 6742,
+      "links": [
+        {
+          "de": "primeira-entrega/consolidacao-r03/CONTINUIDADE.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/CONTINUIDADE.md"
+        },
+        {
+          "de": "FONTES.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/FONTES.md"
+        },
+        {
+          "de": "REVISAO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/REVISAO.md"
+        },
+        {
+          "de": "../../chatgpt/CONFIGURACAO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/chatgpt/CONFIGURACAO.md"
+        }
+      ],
+      "referencias_privadas_removidas": 1,
+      "sha256": "6baa3749c4dfd5fab44356703d366d86f4b76312eb7df4659d0ae7de1e58268c",
+      "tratamento": "NAVEGACAO_E_REMOCAO_DE_REFERENCIA_PRIVADA"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md": {
+      "blob_git": "56bbf30b05bc1ff2d93437434573938e29486d07",
+      "blob_origem": "7bc829a43c44e797cf064b8e8313594c2264110b",
+      "bytes": 47246,
+      "links": [
+        {
+          "de": "consolidacao-r03/ESCOPO-INTEGRADO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/ESCOPO-INTEGRADO.md"
+        },
+        {
+          "de": "refinamentos/P03-CONHECIMENTO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md"
+        },
+        {
+          "de": "refinamentos/P04-ATUALIDADE.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md"
+        },
+        {
+          "de": "refinamentos/P03-CONHECIMENTO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md"
+        },
+        {
+          "de": "refinamentos/P03-CONHECIMENTO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md"
+        },
+        {
+          "de": "refinamentos/P03-CONHECIMENTO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md"
+        },
+        {
+          "de": "refinamentos/P03-CONHECIMENTO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md"
+        },
+        {
+          "de": "refinamentos/P04-ATUALIDADE.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md"
+        },
+        {
+          "de": "refinamentos/P04-ATUALIDADE.md#p04-rodada-1",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md#p04-rodada-1"
+        },
+        {
+          "de": "refinamentos/historico/CADERNO-ED11.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md"
+        },
+        {
+          "de": "refinamentos/MANIFESTO-R02.json",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/MANIFESTO-R02.json"
+        },
+        {
+          "de": "MANIFESTO.json",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/MANIFESTO.json"
+        }
+      ],
+      "sha256": "2ad39921db6047922552246ff1561007f79f58ed6f6214da3edab7b84f54e185",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/README.md": {
+      "blob_git": "41ffd3119cb8799d7ec21f1d437e2b41ebaf5054",
+      "blob_origem": "0af9084068d1d43835e3d0aa1dc17abedf02e696",
+      "bytes": 11353,
+      "links": [
+        {
+          "de": "consolidacao-r03/README.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/README.md"
+        },
+        {
+          "de": "refinamentos/P04-ATUALIDADE.md#p04-rodada-1",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md#p04-rodada-1"
+        },
+        {
+          "de": "refinamentos/P03-CONHECIMENTO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md"
+        },
+        {
+          "de": "refinamentos/P04-ATUALIDADE.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md"
+        },
+        {
+          "de": "refinamentos/historico/CADERNO-ED11.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/historico/CADERNO-ED11.md"
+        },
+        {
+          "de": "refinamentos/MANIFESTO-R02.json",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/MANIFESTO-R02.json"
+        },
+        {
+          "de": "MANIFESTO.json",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/MANIFESTO.json"
+        },
+        {
+          "de": "refinamentos/P03-CONHECIMENTO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md"
+        },
+        {
+          "de": "refinamentos/P04-ATUALIDADE.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md"
+        },
+        {
+          "de": "../RETOMADA-MOTOR-E-ARQUITETURA.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/RETOMADA-MOTOR-E-ARQUITETURA.md"
+        },
+        {
+          "de": "refinamentos/P04-ATUALIDADE.md#p04-rodada-1",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md#p04-rodada-1"
+        }
+      ],
+      "sha256": "95958ddf16c10b3fe328495d9ce0b0ac82228ca2b427283579dca43d9c03b20a",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md": {
+      "blob_git": "eedb0a8b218708ff410f22b783a2695216fd9631",
+      "blob_origem": "eedb0a8b218708ff410f22b783a2695216fd9631",
+      "bytes": 30146,
+      "sha256": "478c1f71718765ee98ea18ff450b753a95dbb2e9acb0f6592118a45bbbedf61e",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md": {
+      "blob_git": "86c1157f18c0a4b2dd43aad98524ee6f57355e07",
+      "blob_origem": "91373a6d4466878c78a69cb428a47d6424b026b2",
+      "bytes": 13184,
+      "links": [
+        {
+          "de": "RASTREABILIDADE.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/RASTREABILIDADE.md"
+        }
+      ],
+      "sha256": "1870a379629a7abef4a2366f18b29cd58bad3fb40caffe87ecda5a1c4c1b074c",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/CONTINUIDADE.md": {
+      "blob_git": "184317512eaacc1247ba53a3a03df1d3c007ff95",
+      "blob_origem": "184317512eaacc1247ba53a3a03df1d3c007ff95",
+      "bytes": 3520,
+      "sha256": "d6177f902c1cd635b3c0dd463700674268532f0bcac6c8b506a50b489475ad84",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/FONTES-E-LIMITES.md": {
+      "blob_git": "4f263b1de898769bef01b9aa84ae2b323e241569",
+      "blob_origem": "d1dfed3504dc86b3c07ef4459f8c0b36b375ca34",
+      "bytes": 16416,
+      "links": [
+        {
+          "de": "fontes/CADERNO-00.md#r04-u001",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md#r04-u001"
+        },
+        {
+          "de": "fontes/CADERNO-00.md#r04-u002",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md#r04-u002"
+        },
+        {
+          "de": "fontes/CADERNO-00.md#r04-a002",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md#r04-a002"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u003",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u003"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a003",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a003"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u005",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u005"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a005",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a005"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u006",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u006"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a006",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a006"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u007",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u007"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a007",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a007"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u008",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u008"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a008",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a008"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u009",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u009"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a009",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a009"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u011",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u011"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a011",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a011"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-u012",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-u012"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a012",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a012"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-u013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-u013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a013"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-u014",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-u014"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a014",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a014"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-u015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-u015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a015"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u016",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u016"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a016",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a016"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-u018",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-u018"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a018",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a018"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-u019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-u019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a019"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-u020",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-u020"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a020",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a020"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-u021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-u021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a021"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-u022",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-u022"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a022",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a022"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-u023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-u023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a023"
+        },
+        {
+          "de": "fontes/CADERNO-00.md#r04-u024",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md#r04-u024"
+        }
+      ],
+      "sha256": "a1daf57a73d2ca6f1061bc83fac234b8e9cdffbf068128a35debd1324bc79d6d",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/HISTORICO-E-RETIFICACOES.md": {
+      "blob_git": "721dbbc1de5e913e33ab7377a82ac8324a4f8f6b",
+      "blob_origem": "721dbbc1de5e913e33ab7377a82ac8324a4f8f6b",
+      "bytes": 3744,
+      "sha256": "e46054f7cff884ff8e759e90a27720d58c0e6e1709fc36795b727024bff5e457",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/README.md": {
+      "blob_git": "06aa70626b7fd2b008d61f809b60101dbd9de3e2",
+      "blob_origem": "3577645fa5a53d6f43257f64c84826195d6261ea",
+      "bytes": 5080,
+      "links": [
+        {
+          "de": "RASTREABILIDADE.json",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/RASTREABILIDADE.json"
+        },
+        {
+          "de": "MANIFESTO-R04.json",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/MANIFESTO-R04.json"
+        },
+        {
+          "de": "PROMPT-NOVA-SESSAO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/PROMPT-NOVA-SESSAO.md"
+        },
+        {
+          "de": "fontes/CADERNO-00.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-00.md"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md"
+        }
+      ],
+      "sha256": "9e9ba6e3f1ae7091ec781d6b32d37ba22bb61063c99be6d7ae15eaf6093d4aa4",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/REFINAMENTOS-POSTERGADOS.md": {
+      "blob_git": "d1e7968acc414590a1d56695aff83996ab7dd683",
+      "blob_origem": "d1e7968acc414590a1d56695aff83996ab7dd683",
+      "bytes": 11883,
+      "sha256": "265ce7a884f47227e2b46d070057f4d6b8b0b3c9b071c328c27fe38462bd011b",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/REGISTRO-DECISOES.md": {
+      "blob_git": "390dda2ab470e4511898f13e3171007aac0913f1",
+      "blob_origem": "3cffadce1adfea974082937be67c0ac8880f721f",
+      "bytes": 104233,
+      "links": [
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u006",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u006"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u008",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u008"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a003",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a003"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a005",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a005"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a006",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a006"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a007",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a007"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a003",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a003"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u004"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u011",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u011"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a005",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a005"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a009",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a009"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a011",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a011"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a005",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a005"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u006",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u006"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a003",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a003"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a005",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a005"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a006",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a006"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u006",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u006"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-a006",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-a006"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a009",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a009"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u011",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u011"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a011",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a011"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a009",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a009"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u011",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u011"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a009",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a009"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a011",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a011"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-u010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-u010"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a009",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a009"
+        },
+        {
+          "de": "fontes/CADERNO-P02.md#r04-a010",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P02.md#r04-a010"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-u013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-u013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a012",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a012"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-u013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-u013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a012",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a012"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-u013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-u013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a012",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a012"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-u013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-u013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a012",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a012"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-u013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-u013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a012",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a012"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-u013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-u013"
+        },
+        {
+          "de": "fontes/CADERNO-P03.md#r04-a013",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P03.md#r04-a013"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-u015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-u015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a014",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a014"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-u015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-u015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a014",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a014"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a015"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u004",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u004"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u006",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u006"
+        },
+        {
+          "de": "fontes/CADERNO-P01.md#r04-u008",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P01.md#r04-u008"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-u015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-u015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a014",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a014"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-u015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-u015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a014",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a014"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-u015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-u015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-u015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-u015"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a014",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a014"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-a015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-a015"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a016",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a016"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a016",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a016"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a016",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a016"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P05.md#r04-u015",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P05.md#r04-u015"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a016",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a016"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a016",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a016"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a016",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a016"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-u017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-u017"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a016",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a016"
+        },
+        {
+          "de": "fontes/CADERNO-P06.md#r04-a017",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P06.md#r04-a017"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-u019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-u019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a018",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a018"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-u019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-u019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a018",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a018"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-u019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-u019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a018",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a018"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-u019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-u019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a018",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a018"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-u019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-u019"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a018",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a018"
+        },
+        {
+          "de": "fontes/CADERNO-P07.md#r04-a019",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P07.md#r04-a019"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-u021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-u021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a020",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a020"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-u021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-u021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a020",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a020"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-u021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-u021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a020",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a020"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-u021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-u021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a020",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a020"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-u021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-u021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a020",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a020"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-u021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-u021"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a020",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a020"
+        },
+        {
+          "de": "fontes/CADERNO-P08.md#r04-a021",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md#r04-a021"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-u023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-u023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a022",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a022"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-u023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-u023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a022",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a022"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-u023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-u023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a022",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a022"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-u023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-u023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a022",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a022"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-u023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-u023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a022",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a022"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-u023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-u023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a022",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a022"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-u023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-u023"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a022",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a022"
+        },
+        {
+          "de": "fontes/CADERNO-P09.md#r04-a023",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P09.md#r04-a023"
+        }
+      ],
+      "sha256": "01c88780b64adbca06c9c89b1ec1e680aab13e52e27791f49ac31a5c1374aafd",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/SALDO-P01-P09.md": {
+      "blob_git": "a6af9fa60ef8511e44c260c9aa920ed4054d615c",
+      "blob_origem": "a6af9fa60ef8511e44c260c9aa920ed4054d615c",
+      "bytes": 11907,
+      "sha256": "ed6f0cb7750942b575512c65cd246841f41beb1459b8dea30071cca26d9c0a5c",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/VERIFICACAO.md": {
+      "blob_git": "0ceba12e45aa54c0c64238b636701a3c2fe4b76e",
+      "blob_origem": "0ceba12e45aa54c0c64238b636701a3c2fe4b76e",
+      "bytes": 3306,
+      "sha256": "116598943c532963defadea7ad6e297fd8303f6de975fd7ac556ba0ca91a9d48",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/evidencias/DEVIN-FERRAMENTAS.md": {
+      "blob_git": "9496a8dfea09a4ba134d3813d9970d95fba58386",
+      "blob_origem": "9496a8dfea09a4ba134d3813d9970d95fba58386",
+      "bytes": 1810,
+      "sha256": "d00615763f84a103e62d9f8f762f441c1e56d709ef633ba49a085b710c44399c",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/evidencias/ESCLARECIMENTOS-ONBOARDING.md": {
+      "blob_git": "a907fdbabb2dc952fe46ff4542b219041d4fad7b",
+      "blob_origem": "a907fdbabb2dc952fe46ff4542b219041d4fad7b",
+      "bytes": 4068,
+      "sha256": "040f6c523c62e43a39f34331e5ac221bf8585f5eac8875519d94df2d848101ed",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/evidencias/WORKSPACE-R06.md": {
+      "blob_git": "189b5c375c32c9556b8f2090d5a8ed6615023521",
+      "blob_origem": "189b5c375c32c9556b8f2090d5a8ed6615023521",
+      "bytes": 5329,
+      "sha256": "7b074f0af71b11f52864e844a012aed5acda3e84bcba5b15263b40d79f415ddb",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/MANIFESTO.json": {
+      "blob_git": "1969286f2b4f58124c0d20516393f779400b4a0b",
+      "blob_origem": "1969286f2b4f58124c0d20516393f779400b4a0b",
+      "bytes": 7983,
+      "sha256": "085352b20f82db2170cee900d08998426f0336374d44e458a1454e6f686c7604",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/README.md": {
+      "blob_git": "ffbf4b06c3fdde46d7974a82b30108dbb4d569df",
+      "blob_origem": "1a318bd2491e3d6b2b82235f24ad7967a393765f",
+      "bytes": 4980,
+      "links": [
+        {
+          "de": "indice-contribuicoes.tsv",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/merge-documental/indice-contribuicoes.tsv"
+        },
+        {
+          "de": "MANIFESTO.json",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/merge-documental/MANIFESTO.json"
+        }
+      ],
+      "sha256": "df080e2d722576a83c60ffa96a44b69294939bbbef2ecb1239a701dab9275e16",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/consulta-origens.md": {
+      "blob_git": "bb15d8edc4ff190f5fe4037dc8ef5320105baf9b",
+      "blob_origem": "bb15d8edc4ff190f5fe4037dc8ef5320105baf9b",
+      "bytes": 7188,
+      "sha256": "596fced456c3993743670e570e2202bd2ae753c9a10518c2416dfe07c05de937",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/correspondencia-ab.md": {
+      "blob_git": "79e4137ffde6a1e4b3491badd2474b3878351e9d",
+      "blob_origem": "79e4137ffde6a1e4b3491badd2474b3878351e9d",
+      "bytes": 68915,
+      "sha256": "c50433fcdbdf27c864b5c08dd863b95774e8a990e9c1019ea7f10906ba16f16d",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/indice-contribuicoes.tsv": {
+      "blob_git": "710089c3eb5399fd57529b78314ae911522c8d26",
+      "blob_origem": "710089c3eb5399fd57529b78314ae911522c8d26",
+      "bytes": 131894,
+      "sha256": "d89d6ec33ce86c9fe9d05f2f3e63eb4f76a65c6298e29188db20b1afa0af025f",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/proveniencia.md": {
+      "blob_git": "04010e42e18cfdcaa62e28c0aac8f621c229b393",
+      "blob_origem": "04010e42e18cfdcaa62e28c0aac8f621c229b393",
+      "bytes": 7094,
+      "sha256": "27005f2f84ab1c9728ad3da71dff1952f727e493c1ce6dbafe437985b2e060f2",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/sucessoes.md": {
+      "blob_git": "ae31cc1eb402092caf3a144c22920890708160de",
+      "blob_origem": "ae31cc1eb402092caf3a144c22920890708160de",
+      "bytes": 4881,
+      "sha256": "b0080ce37b444c17c9550871c1ad60c77c1f2dff43c2175b466c8c937e2f0703",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/01-visao-e-autoridade.md": {
+      "blob_git": "d255e9c9af01b30dd670331807ebb68aca3cba8a",
+      "blob_origem": "1c674bcc4c751066123ea08eda3d8e489902cf6a",
+      "bytes": 30584,
+      "links": [
+        {
+          "de": "../../consolidacao-r04/fontes/CADERNO-P08.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r04/fontes/CADERNO-P08.md"
+        }
+      ],
+      "sha256": "740cfe402b7278acd66fb265b2aa2f63941049bfbcd1575c23aacd98767a9ceb",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/02-camadas-e-workspaces.md": {
+      "blob_git": "931ebff5ec4ffb62c31837a33a9390a8d7fb32cc",
+      "blob_origem": "931ebff5ec4ffb62c31837a33a9390a8d7fb32cc",
+      "bytes": 24413,
+      "sha256": "e667fad3cd5fe829c608cf436d17d5f31064e14c6d0e5e1a5eee23d68971235f",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/03-onboarding-e-compreensao.md": {
+      "blob_git": "14921b8be718b964974a7fbfc2680bea1c36b09f",
+      "blob_origem": "14921b8be718b964974a7fbfc2680bea1c36b09f",
+      "bytes": 14044,
+      "sha256": "2ce34155385c9ff7d5723c5d0a37eab8428996afe85775c6f6a363326f504a45",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/04-integracoes-e-harness.md": {
+      "blob_git": "95f28edcdf98467a37241399808f7f9770ab2a13",
+      "blob_origem": "95f28edcdf98467a37241399808f7f9770ab2a13",
+      "bytes": 28126,
+      "sha256": "093c58c8629ac8360c5e8725cb303f01ff8eb12267eac3d4b775fbe082a2e4d0",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/05-evidencias-e-memoria.md": {
+      "blob_git": "8977d0b010eea83b47d1c483c867b920d3a0b61d",
+      "blob_origem": "8977d0b010eea83b47d1c483c867b920d3a0b61d",
+      "bytes": 15241,
+      "sha256": "934e51ee188a022fc0f281320d697df4187e8e908652d43b362df8a12dc3cfc4",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/06-investigacao-e-contexto.md": {
+      "blob_git": "d982857ec135731bc9a59f322ab0e0f50d2437f6",
+      "blob_origem": "d982857ec135731bc9a59f322ab0e0f50d2437f6",
+      "bytes": 11030,
+      "sha256": "926ea74ce7c8e8131146a90556d4d0f4ff1d05d16fd1be6c811893c0792e41cc",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/07-validade-acesso-e-publicacao.md": {
+      "blob_git": "2b1a513e83b973de00baed08f3b8b83794cdd7f9",
+      "blob_origem": "2b1a513e83b973de00baed08f3b8b83794cdd7f9",
+      "bytes": 12532,
+      "sha256": "b3ef7af4d97eb6eb1861d16f29e7186dee74b72ef90281a4ce19d2a056dbfb50",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/08-papeis-e-delegacao.md": {
+      "blob_git": "7626c32de3a391f85e55f7e2a92dbde061e96824",
+      "blob_origem": "7626c32de3a391f85e55f7e2a92dbde061e96824",
+      "bytes": 30158,
+      "sha256": "c2b3e2cc99b842c728779223b5d6d0f34546c5c249b3bfb3eace26de238cebf4",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/09-documentacao-visual.md": {
+      "blob_git": "ea79285aceb1be9ff53810db5a5aa7b6490d4c41",
+      "blob_origem": "ea79285aceb1be9ff53810db5a5aa7b6490d4c41",
+      "bytes": 20313,
+      "sha256": "be32ab64d881d585cbdbb920e2f0c6511310a05a1675137cbcc4c3cb1fa19ec8",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/10-ferramentas-e-composicoes.md": {
+      "blob_git": "571efa922c118f6b40bbc6c756f8e2907db03786",
+      "blob_origem": "571efa922c118f6b40bbc6c756f8e2907db03786",
+      "bytes": 26323,
+      "sha256": "ee5b7d9df12c146f3307cc2041d7f6d3e7003c07e28769dd54dcd952ff7c2497",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/11-jornadas-e-casos.md": {
+      "blob_git": "402e11c98f141d9905d77f17ca2585ecacde6ddd",
+      "blob_origem": "402e11c98f141d9905d77f17ca2585ecacde6ddd",
+      "bytes": 15754,
+      "sha256": "7c09ef38b3b5fbffa58651a87648964d71baa99d0e6a9ecd5a0de4231f49caa0",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/12-avaliacao-riscos-e-provas.md": {
+      "blob_git": "dde8ab19e1f11e92c4e6d34acf08232ed204e289",
+      "blob_origem": "f1e95334d90e861e8e5cf8e828ebd440e2ce5a22",
+      "bytes": 24359,
+      "links": [
+        {
+          "de": "../../../../../00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md"
+        },
+        {
+          "de": "../../../../../chatgpt/pacotes/D02-doc-2/Fontes/03-FUNDACAO-E-CANDIDATOS.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/chatgpt/pacotes/D02-doc-2/Fontes/03-FUNDACAO-E-CANDIDATOS.md"
+        }
+      ],
+      "sha256": "2725f8939cb7e52e4675771b7b65c6e3bdedd70081f05e72fabe3836f3ac8365",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/13-decisoes-e-continuidade.md": {
+      "blob_git": "5bae543b044a469673acb4f19bc3ccc2d339c918",
+      "blob_origem": "5bae543b044a469673acb4f19bc3ccc2d339c918",
+      "bytes": 42666,
+      "sha256": "3d0bf343f62325d1a4d518ece0df8094fcbcfe5a3a1373ce2447261712499074",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/temas/14-fontes-e-historico.md": {
+      "blob_git": "db71db0ed34978cf85bc31b89fdb1c12bdcd499e",
+      "blob_origem": "db71db0ed34978cf85bc31b89fdb1c12bdcd499e",
+      "bytes": 2938,
+      "sha256": "db6d7dcae60ec310c0fa27bfcf34293867c44d6442ce9c5704d0ee35fb8cd234",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/notas/ATUACAO-POR-ETAPA.md": {
+      "blob_git": "64c32d5690f31c6250bca7be5e442831aa343f57",
+      "blob_origem": "64c32d5690f31c6250bca7be5e442831aa343f57",
+      "bytes": 6619,
+      "sha256": "bc3a085404ddb7ea1f572e50f44f1aaa5a9bca4aef5ec6edbd794b1e42dd82f8",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/notas/DISTRIBUICAO-E-ACESSO.md": {
+      "blob_git": "3eefa9a14cef82e0e451e8246ccc9438beffa346",
+      "blob_origem": "3eefa9a14cef82e0e451e8246ccc9438beffa346",
+      "bytes": 9682,
+      "sha256": "151400e347e09a45355c0178671b358142e05878c0d893040435889b912efb09",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/notas/EXTENSOES-POR-ESCOPO.md": {
+      "blob_git": "9a64ac662ac843bc02e38aedec8da70f949f7aa1",
+      "blob_origem": "9a64ac662ac843bc02e38aedec8da70f949f7aa1",
+      "bytes": 5486,
+      "sha256": "d4e72205a2efbb7257b453363ab80d27f35c9321822e0cfa71779779c063a6c4",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/notas/FERRAMENTAS.md": {
+      "blob_git": "c7e1f4ce83edce9b8a580a37675ca59060683eb9",
+      "blob_origem": "c7e1f4ce83edce9b8a580a37675ca59060683eb9",
+      "bytes": 4669,
+      "sha256": "b85c7483fcd3574d7364fc48a0f8b3e77c40c64963ee8701db5fd2a643530cf5",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/notas/NEGOCIOS.md": {
+      "blob_git": "7b4c35e29c2a121f513f64ae9e7d263b82e6ced5",
+      "blob_origem": "7b4c35e29c2a121f513f64ae9e7d263b82e6ced5",
+      "bytes": 5281,
+      "sha256": "15821a45acf33edc2172a4e89d1b48a9fdf223d3fbe476fdf9761076f2201a6c",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/referencias/Diagrama-Engenharia-Agentica.pdf": {
+      "blob_git": "3a358db0d73702bac2c098e4b1e4e05e7ac73558",
+      "blob_origem": "3a358db0d73702bac2c098e4b1e4e05e7ac73558",
+      "bytes": 48162,
+      "sha256": "0b61996350549691a93bd63011abf68baa6d4774f12afeb2a7ad015ec873972b",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/01-discovery/discovery-02/primeira-entrega/roteiro/REFINAMENTO-E-REVISAO.md": {
+      "blob_git": "855bf9fa66f848ad065057782b1bee2f0b9cf611",
+      "blob_origem": "d78a1d2326b845ddd8c055d7a4d3e183861e8e2d",
+      "bytes": 11851,
+      "links": [
+        {
+          "de": "../consolidacao-r03/CONTINUIDADE.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/CONTINUIDADE.md"
+        },
+        {
+          "de": "../refinamentos/P04-ATUALIDADE.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md"
+        },
+        {
+          "de": "../refinamentos/P03-CONHECIMENTO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md"
+        }
+      ],
+      "sha256": "c36d7e2e55244a3c2b1646758aa036434ed8b9de9f0dcfe35e6398eb81e6fbc5",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/fundacao/axiomas-arquiteturais.md": {
+      "blob_git": "591533e42eb978af1b0b3d4aafc1ded16f5f7a74",
+      "blob_origem": "591533e42eb978af1b0b3d4aafc1ded16f5f7a74",
+      "bytes": 9210,
+      "sha256": "427abd63c45728e2d11b5c8f2b9dfee561ddb1402b3a0fdb84f1b23481027b79",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/fundacao/capacidades.md": {
+      "blob_git": "4a72fc7e6f5f716f40e6b52c8497c31d22af1d8d",
+      "blob_origem": "4a72fc7e6f5f716f40e6b52c8497c31d22af1d8d",
+      "bytes": 8760,
+      "sha256": "eafadbd4e10de4ab3f3f397b1c74d18230fc42e7ae5237f50ac2917f72a8f3b1",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/fundacao/construcao-internalizacao.md": {
+      "blob_git": "1700d40d2b32dffc43408f95ddb55dc2226b791c",
+      "blob_origem": "1700d40d2b32dffc43408f95ddb55dc2226b791c",
+      "bytes": 8224,
+      "sha256": "a9384ac36e52b49664f5afda51e84301a2c8dd239dcd13d0806dfa400dc0aef6",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/fundacao/metodologia-fases.md": {
+      "blob_git": "8e9254fffba42bb9271eee1744708e027f6124a3",
+      "blob_origem": "8e9254fffba42bb9271eee1744708e027f6124a3",
+      "bytes": 9730,
+      "sha256": "8d958a4ecd5feb44d03b8679224ea52d3f6e8243f5cda69dbee11942882a234a",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/fundacao/protocolo-sessoes.md": {
+      "blob_git": "a470a04f2d89f465457f54fecf65d56bbb195967",
+      "blob_origem": "a470a04f2d89f465457f54fecf65d56bbb195967",
+      "bytes": 5172,
+      "sha256": "4e598caaca0141e0c864f4c45bcd7498b948c333600a0e9e9428d8824e693579",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/fundacao/registro-conhecimento.md": {
+      "blob_git": "cd978b93ee306431fad0125e0bfd88b1d201450f",
+      "blob_origem": "cd978b93ee306431fad0125e0bfd88b1d201450f",
+      "bytes": 12140,
+      "sha256": "05a64f5b2912a01feaf84e3cdc55b61b7e45a5aa8355f18a11d6314f81bb6b0d",
+      "tratamento": "BYTE_A_BYTE"
+    },
+    "docs/fundacao/roteamento-contexto.md": {
+      "blob_git": "c30b00d5f685e3bdd3e87d08cb3593a3733d6f4a",
+      "blob_origem": "41340941c473788bdcb963a8063bc97a7b56e0c0",
+      "bytes": 4281,
+      "links": [
+        {
+          "de": "../../AGENTS.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/AGENTS.md"
+        },
+        {
+          "de": "ecossistema-atual.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/fundacao/ecossistema-atual.md"
+        },
+        {
+          "de": "../01-discovery/INICIO-DISCOVERY.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/01-discovery/INICIO-DISCOVERY.md"
+        },
+        {
+          "de": "../chatgpt/MANIFESTO-FONTES.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/chatgpt/MANIFESTO-FONTES.md"
+        },
+        {
+          "de": "../chatgpt/CONFIGURACAO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/chatgpt/CONFIGURACAO.md"
+        },
+        {
+          "de": "../00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/README.md"
+        },
+        {
+          "de": "../../harness/governanca_assistida/OPERACAO.md",
+          "para": "https://github.com/lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide/blob/7385e67f64a8cf5725b5ee8f2f8a0e928651183a/harness/governanca_assistida/OPERACAO.md"
+        }
+      ],
+      "sha256": "7af829c3a7bd472f752804563cb7b4efebb1eeac2a11469c73678a708ab8f412",
+      "tratamento": "LINKS_FIXADOS_NO_COMMIT_DE_ORIGEM"
+    },
+    "docs/fundacao/visao-produto.md": {
+      "blob_git": "01205981adbde233450b2c32cb424eba8a08d0b8",
+      "blob_origem": "01205981adbde233450b2c32cb424eba8a08d0b8",
+      "bytes": 10910,
+      "sha256": "79c185bde0b2034bb75efe7a7da0e0251271d457f9365d1691f1b5b839760a38",
+      "tratamento": "BYTE_A_BYTE"
+    }
+  },
+  "base_commit": "ba820cbb7b92bd570e4848c4ca7eff48c44f04cd",
+  "branch_proposta": "proposta/promocao-documental-main-s3",
+  "conteudo_origem_commit": "7385e67f64a8cf5725b5ee8f2f8a0e928651183a",
+  "conteudo_origem_tree": "c51f0757eed64388e588fa80deb15df3211657c5",
+  "destino_proposto": "main",
+  "fora_do_recorte": [
+    "Workflows, código e scripts de operação, configuração do editor e alterações administrativas.",
+    "Acervos e pacotes normativos PGC/CT, harness e artefatos operacionais do piloto C1.",
+    "Fontes nativas, guia restrito, originais e provas privadas."
+  ],
+  "integridade": "Inventário de todos os arquivos da árvore proposta, exceto este manifesto.",
+  "manifesto_origem": "docs/01-discovery/discovery-02/primeira-entrega/merge-documental/MANIFESTO.json",
+  "manifesto_origem_alcance": "Delta histórico de S3 sobre R04. Este manifesto identifica a composição proposta para main.",
+  "normative_effect": "AUSENTE",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "schema_version": "promocao-documental-1"
+}
