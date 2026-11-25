@@ -1,0 +1,1063 @@
+{
+  "scope": "CONFORMIDADE_PGC_INTEGRAL_NAO_LIBERADA",
+  "catalog_commit": "b010b9a25ac23eb157c4b63ac25dfb5b2f64bda6",
+  "pgc": "NAO_RATIFICADO",
+  "discovery_exploratorio": "PERMITIDO_PELO_ESCOPO_AUTORIZADO",
+  "note": "Os testes normativos podem ser implementados em ambiente isolado sem ratificação produtiva. Esse runtime completo ainda não existe; o piloto e a CI exploratória não substituem os oráculos. Não marcar NOT_RUN como PASS.",
+  "cases": [
+    {
+      "case_id": "CA-01",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-001",
+        "PGC-N-002",
+        "PGC-N-003",
+        "PGC-N-004"
+      ],
+      "contract_owners": [
+        "CT-001"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "semantic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-02",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-002",
+        "PGC-N-006"
+      ],
+      "contract_owners": [
+        "CT-001"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "semantic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-03",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-002",
+        "PGC-N-006",
+        "PGC-N-015"
+      ],
+      "contract_owners": [
+        "CT-001",
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "mixed",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-04",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-002",
+        "PGC-N-004",
+        "PGC-N-006"
+      ],
+      "contract_owners": [
+        "CT-001"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "semantic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-05",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-002",
+        "PGC-N-004",
+        "PGC-N-006",
+        "PGC-N-021"
+      ],
+      "contract_owners": [
+        "CT-001",
+        "CT-008"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "mixed",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-06",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-002",
+        "PGC-N-006",
+        "PGC-N-016"
+      ],
+      "contract_owners": [
+        "CT-001",
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-07",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-010",
+        "PGC-N-011"
+      ],
+      "contract_owners": [
+        "CT-003"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-08",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-011"
+      ],
+      "contract_owners": [
+        "CT-003"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "mixed",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-09",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-014"
+      ],
+      "contract_owners": [
+        "CT-004"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-10",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-014"
+      ],
+      "contract_owners": [
+        "CT-004"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-11",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-009"
+      ],
+      "contract_owners": [
+        "CT-002"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-12",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-007",
+        "PGC-N-010"
+      ],
+      "contract_owners": [
+        "CT-001",
+        "CT-003"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-13",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-019",
+        "PGC-N-025"
+      ],
+      "contract_owners": [
+        "CT-006"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-14",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-018",
+        "PGC-N-023"
+      ],
+      "contract_owners": [
+        "CT-003"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-15",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-012",
+        "PGC-N-023"
+      ],
+      "contract_owners": [
+        "CT-003"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-16",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-019",
+        "PGC-N-020"
+      ],
+      "contract_owners": [
+        "CT-006",
+        "CT-007"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "mixed",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-17",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-009",
+        "PGC-N-011"
+      ],
+      "contract_owners": [
+        "CT-002",
+        "CT-003"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-18",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-018",
+        "PGC-N-022",
+        "PGC-N-025"
+      ],
+      "contract_owners": [
+        "CT-003",
+        "CT-006",
+        "CT-008"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-19",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-015"
+      ],
+      "contract_owners": [
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-20",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-015"
+      ],
+      "contract_owners": [
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-21",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-017"
+      ],
+      "contract_owners": [
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-22",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-015"
+      ],
+      "contract_owners": [
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-23",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-016"
+      ],
+      "contract_owners": [
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-24",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-015"
+      ],
+      "contract_owners": [
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "mixed",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-25",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-003"
+      ],
+      "contract_owners": [
+        "CT-001"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "semantic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-26",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-021"
+      ],
+      "contract_owners": [
+        "CT-008"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "semantic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-27",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-013"
+      ],
+      "contract_owners": [
+        "CT-002"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-28",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-013",
+        "PGC-N-014",
+        "PGC-N-020"
+      ],
+      "contract_owners": [
+        "CT-002",
+        "CT-004",
+        "CT-007"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-29",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-024"
+      ],
+      "contract_owners": [
+        "CT-006"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-30",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-008"
+      ],
+      "contract_owners": [
+        "CT-002"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-31",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-010",
+        "PGC-N-016"
+      ],
+      "contract_owners": [
+        "CT-003",
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-32",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-006",
+        "PGC-N-007",
+        "PGC-N-009",
+        "PGC-N-021"
+      ],
+      "contract_owners": [
+        "CT-001",
+        "CT-002",
+        "CT-008"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-33",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-005"
+      ],
+      "contract_owners": [
+        "CT-002"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-34",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-012",
+        "PGC-N-014"
+      ],
+      "contract_owners": [
+        "CT-003",
+        "CT-004"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-35",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-012",
+        "PGC-N-018",
+        "PGC-N-022",
+        "PGC-N-023",
+        "PGC-N-025"
+      ],
+      "contract_owners": [
+        "CT-003",
+        "CT-006",
+        "CT-008"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-36",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-001",
+        "PGC-N-003",
+        "PGC-N-019",
+        "PGC-N-025"
+      ],
+      "contract_owners": [
+        "CT-001",
+        "CT-006"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-37",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-007"
+      ],
+      "contract_owners": [
+        "CT-001"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-38",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-017"
+      ],
+      "contract_owners": [
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-39",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-023"
+      ],
+      "contract_owners": [
+        "CT-003"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-40",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-011"
+      ],
+      "contract_owners": [
+        "CT-003"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-41",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-015"
+      ],
+      "contract_owners": [
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-42",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-008"
+      ],
+      "contract_owners": [
+        "CT-002"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-43",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-006",
+        "PGC-N-007",
+        "PGC-N-010",
+        "PGC-N-016"
+      ],
+      "contract_owners": [
+        "CT-001",
+        "CT-003",
+        "CT-005"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-44",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-002",
+        "PGC-N-006",
+        "PGC-N-007"
+      ],
+      "contract_owners": [
+        "CT-001"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "mixed",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-45",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-010"
+      ],
+      "contract_owners": [
+        "CT-003"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-46",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-005",
+        "PGC-N-007",
+        "PGC-N-010",
+        "PGC-N-018",
+        "PGC-N-022"
+      ],
+      "contract_owners": [
+        "CT-001",
+        "CT-002",
+        "CT-003",
+        "CT-008"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-47",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-018",
+        "PGC-N-022",
+        "PGC-N-023"
+      ],
+      "contract_owners": [
+        "CT-003",
+        "CT-008"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-48",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-003",
+        "PGC-N-019",
+        "PGC-N-025"
+      ],
+      "contract_owners": [
+        "CT-001",
+        "CT-006"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "mixed",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    },
+    {
+      "case_id": "CA-49",
+      "status": "NOT_RUN",
+      "requirements": [
+        "PGC-N-006",
+        "PGC-N-007"
+      ],
+      "contract_owners": [
+        "CT-001"
+      ],
+      "environment": "isolated_synthetic_test_harness_NOT_PROVISIONED",
+      "required_runner_operations": [
+        "reset_fixture",
+        "inject_input_or_event",
+        "inspect_official_state",
+        "collect_receipts",
+        "evaluate_assertions"
+      ],
+      "oracle_kind": "deterministic",
+      "next_action": "Provisionar fixture isolada e adaptador do sistema real sob teste; implementar operações exigidas e avaliar os oráculos deste caso coletando recibos e revisões; manter NOT_RUN até a execução."
+    }
+  ]
+}

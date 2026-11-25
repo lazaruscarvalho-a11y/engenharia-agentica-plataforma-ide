@@ -1,0 +1,210 @@
+{
+  "base_commit": "27d20a7d839f35ae0014c54cd121157a656c91b1",
+  "base_tree": "8d133fe82cb85f918da5fecc3699a54356555d72",
+  "scope": "Correção atual de prontidão do Discovery; não é repetição de RG nem publicação do suplemento de controles anterior",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "bytes": 4663,
+      "sha256": "a9e98dc4d85021b90289915b1657e536b02e35760b05995d5a672fdcea44de12",
+      "git_blob_sha": "dd53ab45c51e19659aaf415420064c81ccfee49d"
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "mode": "100644",
+      "bytes": 2276,
+      "sha256": "f78dd5e9c507f14d824b1cef812cef760f6f579a7fe5337e9223ccc888b84530",
+      "git_blob_sha": "9ca17a0fcf09cd2becd215d3ff4d3da2ce612ab3"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "bytes": 3056,
+      "sha256": "ddd7eded1f8f837a415be890931f09ebc6e52c5b4b53e20ca4f772f6cf45a95f",
+      "git_blob_sha": "4c1357e89a77bcfe1c1a0a3cd058b8669ff47170"
+    },
+    {
+      "path": "RETOMADA.md",
+      "mode": "100644",
+      "bytes": 1315,
+      "sha256": "7481b231f0691ed3b4c110c9e49766c7e23baa1e9c5ad5ce9c69531122859059",
+      "git_blob_sha": "c68dfe973928f05cdd710efd7e999334c44c10e1"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/ACHADOS-SUPLEMENTO.json",
+      "mode": "100644",
+      "bytes": 8996,
+      "sha256": "5e527114ee3e6ad5d499dcd7578e1b5a1d85df8bc3b909abd8342ad8a7aa2005",
+      "git_blob_sha": "389190690366bdce284128cf12168528dff10e2e"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/AUDITORIA-PERSISTENCIA.md",
+      "mode": "100644",
+      "bytes": 6369,
+      "sha256": "49067f4e67f50051c25b316d70f5a353ed32f6515cfac448271ae6aeb408845e",
+      "git_blob_sha": "bd1fe146b6912360c332c493fd5249598054e16e"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/AUDITORIA-SUPLEMENTO.md",
+      "mode": "100644",
+      "bytes": 9457,
+      "sha256": "ed08085401882817332d96431236090c038b27c979b2b0f22a4145659f886899",
+      "git_blob_sha": "cc9566e3d8add1639e564a601c346b0b33c3fc1f"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/CONTINUIDADE-AVALIACAO-INICIAL.json",
+      "mode": "100644",
+      "bytes": 6249,
+      "sha256": "577dfbb8dc7bfd1a27e11d84b0613f7a051b3a538e7a77d0cdc2209d92b56b6f",
+      "git_blob_sha": "cf63ddf838e2de042de61eefbbb1f9a6ea6517bc"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/RECIBO-CONFIGURACAO.json",
+      "mode": "100644",
+      "bytes": 3931,
+      "sha256": "3da8ac6e0cf6c8f443b959db6fef9d27f1f36504399022cec85b2d48b12fdc41",
+      "git_blob_sha": "4e02244d651f64722aee6fd31a813ec97b66bc5d"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/RECIBO-CONTINUIDADE.json",
+      "mode": "100644",
+      "bytes": 7641,
+      "sha256": "5c44df21d6b4519b325bb5abd141d5b4cc246970d22c4e3bc0d0ea4ac40a5849",
+      "git_blob_sha": "0e8e8c82655e9d08fbdd56957cdd3f2961a940c5"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/RELATORIO.md",
+      "mode": "100644",
+      "bytes": 10692,
+      "sha256": "2d228971b50e879695ed7e4ffd0d700af29289424e07b029460fdaefb9831357",
+      "git_blob_sha": "11d67737419ecd19adc032097f8cd02f715c6f65"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/RESULTADO-FINAL.json",
+      "mode": "100644",
+      "bytes": 12192,
+      "sha256": "cd76aabf00fd3d1465542b4d2f76e4be342d39513fd8aa7b779dbb4f84fcf8cc",
+      "git_blob_sha": "fdc957022ed07773b2eb3582da5a20063df1f6d9"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/RG-TENTATIVA-1.md",
+      "mode": "100644",
+      "bytes": 14811,
+      "sha256": "2f30b072d57f6bbef9340b773a39ae41479ef77656f3b8086c8fdd2128ea8585",
+      "git_blob_sha": "d188df80d0827ddacca09d88512f8a3223865623"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/RG-TENTATIVA-2.md",
+      "mode": "100644",
+      "bytes": 32946,
+      "sha256": "8b9660ea18f7a5cf59ba08a9701717245a35746e83f0f817a96e2935af3bf5c5",
+      "git_blob_sha": "f8808a8696be31eb2410102addcf4abec0092dbf"
+    },
+    {
+      "path": "auditorias/discovery-02-incorporacao/VETOR-PRE-PERSISTENCIA.json",
+      "mode": "100644",
+      "bytes": 1271,
+      "sha256": "e45b2d5bac46a7602ed61ca7b8aa91e6270eee02033bea34cf819c128201af9e",
+      "git_blob_sha": "30193d0c02eff57ed0d9841985e2816f982b3c8c"
+    },
+    {
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "mode": "100644",
+      "bytes": 8692,
+      "sha256": "ce0fb8355133c16b4bf4f36fdf65f7bdfc2f9b1cf0fb3356d263f6f2ec0251b3",
+      "git_blob_sha": "28d9d5c8f3773ed77d48ebeacd90d9e68547b8f3"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MANIFESTO.json",
+      "mode": "100644",
+      "bytes": 77594,
+      "sha256": "a38aea8d0ecf9849fefed4e12973da03151683bc7cb2da41949b457340095d21",
+      "git_blob_sha": "5e6b370f94c58ef17d42c9568a2f369067d5b2b7"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/MATRIZ.md",
+      "mode": "100644",
+      "bytes": 52582,
+      "sha256": "6f463678c5c2d1f9b6f7a9fbfcbb690dd8cc7c0e1f15651c6e7ffb92a2f2ee1c",
+      "git_blob_sha": "7eedd46f1e76e68d7e38209bc86a0fd8fbaa86cd"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REGISTRO.md",
+      "mode": "100644",
+      "bytes": 15553,
+      "sha256": "345b560989981e56a5cb8e0f11086c5696e273499b27174815b0543811994979",
+      "git_blob_sha": "218644384fd07a999590f237586e941b1655407b"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETIFICACOES.md",
+      "mode": "100644",
+      "bytes": 6332,
+      "sha256": "978527c89c87216ff180b23509f9e4b65d9dba0430c7c5533a2007973f0ad286",
+      "git_blob_sha": "a89e4c6341bbdbfe1907dbd18a7191fb93d328ae"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "mode": "100644",
+      "bytes": 3614,
+      "sha256": "9c98611ac71c3c005062c0a932de0aeec587af80d97cf4b52e0b7d5e4aa45aa1",
+      "git_blob_sha": "59373c3f484a6c90821f8c707a80a32a8e29f229"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/REVISAO.md",
+      "mode": "100644",
+      "bytes": 1652,
+      "sha256": "33fe3d14af200199f2e32847356741b4963e7b9f248fa66b120afbdf1a98be43",
+      "git_blob_sha": "707b095a8e76c94e687ddd3adf9e59fef85a4712"
+    },
+    {
+      "path": "docs/chatgpt/CONFIGURACAO.md",
+      "mode": "100644",
+      "bytes": 2417,
+      "sha256": "6d1cbe3458ab70a0f680293599a3c6a6b3bd25836f97720c0c732785192da407",
+      "git_blob_sha": "5818cd33a3a620c63240277c8938a3e07a29aa7e"
+    },
+    {
+      "path": "docs/chatgpt/INSTRUCOES-PERMANENTES.md",
+      "mode": "100644",
+      "bytes": 8273,
+      "sha256": "1b870f4921bf57978d105ffce9139398e67d41ea901c447efa1b66afc05d8c8a",
+      "git_blob_sha": "e5d2c1f186d6b3ae24e6df90b74db4f0dc9efddd"
+    },
+    {
+      "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+      "mode": "100644",
+      "bytes": 2100,
+      "sha256": "18c3cff63d28f4aa31ca10e0e826548561668b960e21a83b886fd01c7471161f",
+      "git_blob_sha": "76638d0b6d3e76249b3b92f075a791ce9491c40d"
+    },
+    {
+      "path": "docs/chatgpt/PRIMEIRA-SESSAO.md",
+      "mode": "100644",
+      "bytes": 2008,
+      "sha256": "109d569bb264add813191dd7f2cb06d4d28b8e017831cc2cf649354b7e48172c",
+      "git_blob_sha": "58860b2b114a5d1f2bcf71a6d2d2bfc7d7621eaf"
+    },
+    {
+      "path": "docs/continuidade/MANIFESTO.json",
+      "mode": "100644",
+      "bytes": 1427,
+      "sha256": "3d032ce188e5c6e12262c86d5d53a85c07b7a142e15d475320f3e4a375ca72cb",
+      "git_blob_sha": "cfdc693cca5a9b91863a0f895733fc09da8199ac"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/PRONTIDAO.md",
+      "mode": "100644",
+      "bytes": 3658,
+      "sha256": "ef35add1f16037211d48a0c398435dcfc961df9850161765d0fb1b2bc85043f0",
+      "git_blob_sha": "5046b4201a2cdb70d99bc46b0f6fd3fbfdd3866b"
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0003.json",
+      "mode": "100644",
+      "bytes": 1564,
+      "sha256": "206de92f2b32d7a2d80f1e22d82c16406ef044fafc4f6df6ca00afde59f66ce2",
+      "git_blob_sha": "ece7572696b026a47c1f73f748bda7a7b4bac443"
+    }
+  ]
+}

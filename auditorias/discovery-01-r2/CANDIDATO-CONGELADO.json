@@ -1,0 +1,88 @@
+{
+  "revision": 2,
+  "freeze": 2,
+  "base_commit": "d9e48c3d36598d40f9d2e38caf836bccb5fac97f",
+  "digest": "b344b88e90f9d755e976ab7a0f645744e47c731ba4cdc8acd79599bfa376f95a",
+  "files": [
+    {
+      "path": "ESTADO-ATUAL.md",
+      "bytes": 9911,
+      "sha256": "39715c380f5e7834a295f577e202c27a68ba09f80992b365618d0673616336d3"
+    },
+    {
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "bytes": 7634,
+      "sha256": "ae0b300e8a3d4b64d7c1c96fe703656d7ff6e3e292866b9bde40508c18336bd3"
+    },
+    {
+      "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+      "bytes": 7536,
+      "sha256": "8ed67dd3ea03e8a5a8368a81428ee445e3d705722a2b8d40df4951d23b632944"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/README.md",
+      "bytes": 3016,
+      "sha256": "7eb6296ef4b05ddea674329898b6d552a783ae8ef72a06bb884504b45788e7bc"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/FONTES.md",
+      "bytes": 6150,
+      "sha256": "c5c60b902937a06d9b52a1e228064fa8a0fb3f1c8d2b8033300b1d4cc989ec2a"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REGISTRO.md",
+      "bytes": 47232,
+      "sha256": "0d57d323870968f1ed4201d9cd2bc075ddb0f77c973a0f07c1e766e7f3e658b8"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MODELO-FUNCIONAL.md",
+      "bytes": 22158,
+      "sha256": "a8ed633cd41f51c1c6b51da8f68a04f517c4af76c1d38dea573d0b6606d47e50"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MATRIZ.md",
+      "bytes": 48361,
+      "sha256": "4b55ef449ca673b7e8ff8f82a84da5b793173da27128eb8bdad39590a3bfc068"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REVISAO.md",
+      "bytes": 7793,
+      "sha256": "049026bc7e61f53c6bf2e87bc5dbe8c213debc6aabab31686749ec06660f67b8"
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/RETIFICACOES.md",
+      "bytes": 9079,
+      "sha256": "7e1f4ed9fddbbbadad4082785eb92d1492e8eb9a084c0759b71e83bbac21ab38"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "bytes": 5923,
+      "sha256": "28522e0a66e5cab85602c9846a36fcea46c55f14e56c9bbed7f6c34a60adc532"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/DOSSIE-REPRODUZIDO.md",
+      "bytes": 22738,
+      "sha256": "041a084c9f4be82ced21c71394125ba0464c14fb782cf844785f63d5b32beebf"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/COBERTURA.json",
+      "bytes": 48756,
+      "sha256": "ed559c772b0b2e313f509d1bd459cbdaa9a45f37bb5fba6dda338f72abfaae31"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/verificar_r2.mjs",
+      "bytes": 6976,
+      "sha256": "791b5a5cf1c026f2f68ca88a63a519fe94b385046ecad6a2f88b897119e448d9"
+    },
+    {
+      "path": "auditorias/discovery-01-r2/TESTES-DOCUMENTAIS.json",
+      "bytes": 4522,
+      "sha256": "d5a0ac245a1a20cb660813189620f6f690664bf01fb7dbe49a5faf5193d9db24"
+    }
+  ],
+  "changes_from_freeze1": [
+    "E12 antecedent unavailable now explicit; no invented alternative",
+    "Pending inverse scope aligned across registry/index/matrix",
+    "Two regression checks added and documentary tests rerun"
+  ]
+}

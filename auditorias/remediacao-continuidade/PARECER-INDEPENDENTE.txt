@@ -1,0 +1,13 @@
+PARECER INDEPENDENTE — REMEDIAÇÃO DE CONTINUIDADE
+Data: 30/10/2026. Auditor distinto do autor. Trabalho somente leitura no alvo.
+
+Resultado: nenhum P0/P1/P2 aberto no escopo auditado. O P2 encontrado de colisão do ID SRC-004 foi corrigido com SRC-REC-001/002, preservação da fonte histórica e atualização do manifesto. Revalidação local do manifesto passou; PROVENIENCIA-RECUPERADA.md: 4.202 bytes, SHA-256 87739fa4430fe5a8b3108503b31d939b9a58b5599f9792569378057ae361c034.
+
+Na cópia isolada anterior, os nove comandos de executar_verificacoes.py passaram: 65 testes (14 piloto, 16 extensão, 16 adversariais, 10 regressões e 9 retomada), fundação estática 219/219 e demais checks. Os 49 CA operacionais permanecem NOT_RUN. Os arquivos de implementação desses testes não mudaram no delta documental revalidado.
+
+Rechecagem adicional de harness/empacotar_chatgpt.py: comparação exata confirmou apenas quatro inclusões em FONTES-01-FUNDACAO.md, linhas 30–32: RETOMADA.md, PROVENIENCIA-RECUPERADA.md, CONT-REG-0001.json e MANIFESTO.json. Inspeção e avaliação da lista pelo AST confirmaram os quatro caminhos e os oito contratos distintos CT-001..CT-008 em FONTES-02, linhas 39–43. Todos existem. Nenhuma outra lógica mudou. A leitura e comparação de cada blob ao manifesto fornecido continuam antes da criação da saída (linhas 56–62); a geração usa o cache de bytes conferidos (linhas 68–75).
+SHA-256 do empacotador rechecado: 80961c236edbd9fb8de18fecabef91d27bcbb7de0329a1d4828c0eea53a21b4a.
+
+Limitações: a rechecagem do empacotador foi estática; não gerei nem validei o pacote final contra árvore remota. Essa conferência e a releitura remota final cabem à coordenação. A ferramenta offline não autentica o manifesto. Revisei o workflow estaticamente; não atesto aqui execuções remotas de Actions. Não reli os chats de origem para autenticar suas referências. Testes locais não comprovam sessão nativa, configuração do Projeto, memória entre chats, homologação ou conformidade integral do PGC. O teste cego em outro chat é evidência separada. Nenhuma autorização de merge, ratificação, ativação normativa ou produção resulta deste parecer.
+
+Evidências locais desta revisão: comparacao.json, resultados-verificacoes/ e revalidacao-delta.json no diretório deste parecer. O alvo não foi alterado pelo auditor.

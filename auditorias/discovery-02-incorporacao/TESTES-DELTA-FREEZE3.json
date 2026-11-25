@@ -1,0 +1,17 @@
+{
+  "scope": "DOCUMENTAL_DELTA_FREEZE3",
+  "freeze_revision": 3,
+  "fundacao_estatica": {
+    "exit_code": 0,
+    "passed": 236,
+    "total": 236,
+    "stdout_sha256": "57ad54cd96dee0b488804847c6468e92895f2a936e15deb6ea7068b4709d80b0"
+  },
+  "continuidade_atual": {
+    "status": "PASS",
+    "record_id": "CONT-REG-0002",
+    "files": 4
+  },
+  "reused_65_unit_tests": "Sources and fixtures unchanged since actual freeze2 run; doc-only delta does not affect these suites",
+  "documentary_checker": "1057/1057 rerun on freeze3"
+}

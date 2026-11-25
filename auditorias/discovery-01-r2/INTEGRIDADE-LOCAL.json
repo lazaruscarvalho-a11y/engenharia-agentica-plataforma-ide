@@ -1,0 +1,90 @@
+{
+  "kind": "DOCUMENTARY_INTEGRITY_ONLY",
+  "files": 19,
+  "hashes": [
+    {
+      "path": "ESTADO-ATUAL.md",
+      "pass": true
+    },
+    {
+      "path": "docs/01-discovery/INICIO-DISCOVERY.md",
+      "pass": true
+    },
+    {
+      "path": "docs/chatgpt/MANIFESTO-FONTES.md",
+      "pass": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/README.md",
+      "pass": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/FONTES.md",
+      "pass": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REGISTRO.md",
+      "pass": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MODELO-FUNCIONAL.md",
+      "pass": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/MATRIZ.md",
+      "pass": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/REVISAO.md",
+      "pass": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-01/RETIFICACOES.md",
+      "pass": true
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "pass": true
+    },
+    {
+      "path": "auditorias/discovery-01-r2/DOSSIE-REPRODUZIDO.md",
+      "pass": true
+    },
+    {
+      "path": "auditorias/discovery-01-r2/COBERTURA.json",
+      "pass": true
+    },
+    {
+      "path": "auditorias/discovery-01-r2/verificar_r2.mjs",
+      "pass": true
+    },
+    {
+      "path": "auditorias/discovery-01-r2/TESTES-DOCUMENTAIS.json",
+      "pass": true
+    },
+    {
+      "path": "auditorias/discovery-01-r2/AUDITORIA-INDEPENDENTE.md",
+      "pass": true
+    },
+    {
+      "path": "auditorias/discovery-01-r2/RELATORIO.md",
+      "pass": true
+    },
+    {
+      "path": "auditorias/discovery-01-r2/verificar_integridade.mjs",
+      "pass": true
+    },
+    {
+      "path": "auditorias/discovery-01-r2/CANDIDATO-CONGELADO.json",
+      "pass": true
+    }
+  ],
+  "local_links": 456,
+  "broken_paths": [],
+  "broken_anchors": [],
+  "pass": true,
+  "limits": [
+    "Links to explicitly declared later evidence files are planned until their separate commit is read back.",
+    "No remote URL reachability or corporate authorization inferred."
+  ]
+}

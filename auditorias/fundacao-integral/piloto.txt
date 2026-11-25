@@ -1,0 +1,19 @@
+test_GOV_T_001_fluxo_positivo_e_estados (__main__.FlowTests.test_GOV_T_001_fluxo_positivo_e_estados) ... ok
+test_GOV_T_002_ambiguo_recusa_e_fonte_indireta (__main__.FlowTests.test_GOV_T_002_ambiguo_recusa_e_fonte_indireta) ... ok
+test_GOV_T_003_parcial_exige_novo_conteudo_e_aceite (__main__.FlowTests.test_GOV_T_003_parcial_exige_novo_conteudo_e_aceite) ... ok
+test_GOV_T_004_um_byte_e_revogacao_bloqueiam (__main__.FlowTests.test_GOV_T_004_um_byte_e_revogacao_bloqueiam) ... ok
+test_GOV_T_005_sem_escrita_sem_CAS_destino_errado (__main__.FlowTests.test_GOV_T_005_sem_escrita_sem_CAS_destino_errado) ... ok
+test_GOV_T_006_CAS_conflito_sem_sobrescrita (__main__.FlowTests.test_GOV_T_006_CAS_conflito_sem_sobrescrita) ... ok
+test_GOV_T_007_timeout_antes_e_indeterminado_nao_repetem (__main__.FlowTests.test_GOV_T_007_timeout_antes_e_indeterminado_nao_repetem) ... ok
+test_GOV_T_007_timeout_depois_e_repeticao (__main__.FlowTests.test_GOV_T_007_timeout_depois_e_repeticao) ... ok
+test_GOV_T_008_indice_fonte_ausente_e_travessia (__main__.FlowTests.test_GOV_T_008_indice_fonte_ausente_e_travessia) ... ok
+test_GOV_T_008_retomada_sem_diario_e_sem_aceite_reutilizavel (__main__.FlowTests.test_GOV_T_008_retomada_sem_diario_e_sem_aceite_reutilizavel) ... ok
+test_GOV_T_009_segredo_injection_origem_sem_permissao (__main__.FlowTests.test_GOV_T_009_segredo_injection_origem_sem_permissao) ... ok
+test_GOV_T_010_correcao_nova_revisao_preserva_historico (__main__.FlowTests.test_GOV_T_010_correcao_nova_revisao_preserva_historico) ... ok
+test_GOV_T_010_recibo_ausente_e_timeout_recuperavel (__main__.FlowTests.test_GOV_T_010_recibo_ausente_e_timeout_recuperavel) ... ok
+test_GOV_T_010_releitura_divergente_preserva_commit (__main__.FlowTests.test_GOV_T_010_releitura_divergente_preserva_commit) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.126s
+
+OK

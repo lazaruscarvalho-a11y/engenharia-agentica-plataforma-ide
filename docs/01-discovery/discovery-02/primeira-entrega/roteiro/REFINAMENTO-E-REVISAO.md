@@ -1,0 +1,56 @@
+# Rota vigente R04 — 2026-11-13
+
+Esta entrada remete à [consolidação da sessão P01–P09 R04](../consolidacao-r04/CONTINUIDADE.md), na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o recibo `auditorias/consolidacao-sessao-r04/RECIBO-PUBLICACAO.json` e leia pelo content_commit imutável. [Registro de definições](../consolidacao-r04/REGISTRO-DECISOES.md) · [saldo e adiamentos](../consolidacao-r04/SALDO-P01-P09.md).
+
+O levantamento dos grupos está encerrado no alcance documentado; mecanismos/esquemas/avaliações/integrações concretos permanecem postergados. R04 prevalece sobre estados intermediários abaixo, preservando aceites P03/P04, natureza das fontes e limites normativos. Vocabulário de trabalho: branch, homologação e produção; versão/commit/verificação/validação quando necessário. Não inferir implementação nem atualização nativa do Projeto.
+
+O conteúdo anterior abaixo é histórico, preservado literalmente. Seus hashes, propostas e pontos de retomada valem para seus snapshots. As demais restrições pertinentes continuam aplicáveis.
+
+---
+
+# Rota vigente R03 — 13/11/2026
+
+Leia a [consolidação P03/P04 R03](../consolidacao-r03/CONTINUIDADE.md) na branch `proposta/d02-primeira-entrega-refinamentos`, PR #9. Confira o manifesto R03 e o recibo posterior por commit imutável. P03 conserva seus aceites e adiamentos; P04 está funcionalmente encerrado no alcance qualificado pela fonte recuperada, com proveniência indireta dos aceites iniciais. P01–P09 têm catálogo granular e prompt de continuidade. A R03 distingue decisão, proposta, relato corporativo e comprovação; sem código de produto, merge, ratificação ou mudança de permissões.
+
+O conteúdo abaixo é o snapshot anterior, preservado literalmente. Pontos de retomada, estados de entrevista e hashes anteriores valem para a revisão ali identificada; ler a sobreposição R03 para o saldo atual. Os manifestos D02-doc-2/R01/R02 permanecem históricos, sem certificar os novos bytes desta navegação.
+
+---
+
+# Refinamento por frente e revisão geral da primeira entrega
+
+**Roteiro de trabalho proposto para as próximas sessões.** O [escopo consolidado](../ESCOPO.md) registra as decisões, suas fontes e as perguntas em aberto. O [índice de continuidade](../README.md) orienta a retomada. Use uma frente PE como assunto principal por sessão. Uma pendência P pode afetar várias frentes e uma frente pode depender de várias pendências. Os exemplos abaixo usam dados sintéticos. São casos para discutir critérios de aceite, sem resultados de testes atribuídos.
+
+## Como conduzir uma sessão
+
+1. **Recuperar a base.** Conferir a rota de continuidade, a branch e o HEAD. Ler por commit imutável a seção PE escolhida, as decisões citadas, suas retificações e apenas as dependências materiais. Conferir a versão das demais fontes utilizadas. Se a conversa já tem uma resposta posterior, recuperar sua origem e delimitar o que ela altera.
+2. **Escolher uma decisão.** Partir de um pedido realista de um usuário da futura Plataforma. Explicar o que ele precisa obter, quem tem autoridade e qual evidência já permite responder. O agente consulta as fontes autorizadas antes de trazer a pergunta ao engenheiro. Uma lacuna que afeta parte da tarefa não impede o avanço nas demais.
+3. **Refinar o comportamento.** Acompanhar o caso desde o gatilho até a saída. Descrever o que cada pessoa vê e pode fazer, o que o agente consulta ou produz e como o trabalho continua após erro, acesso parcial, interrupção ou mudança de revisão, conforme o caso. Formular o critério observável junto da regra que ele pretende verificar.
+4. **Registrar o saldo.** Identificar a frente, os P e cenários afetados, a revisão e as fontes. Distinguir decisão expressa, relato do ambiente corporativo, interpretação, proposta e dúvida remanescente. Registrar cada esclarecimento somente no alcance recebido. Para questão ainda aberta, explicar o efeito sobre o uso, o trabalho que pode continuar e a próxima evidência ou decisão necessária.
+
+## Pergunta inicial e entrega de cada frente
+
+A revisão 1 iniciou por **PE-03 com P03**. A [rodada atual do P04](../refinamentos/P04-ATUALIDADE.md) parte do [fechamento funcional de P03](../refinamentos/P03-CONHECIMENTO.md). A tabela abaixo mantém as perguntas de partida de cada frente. Ler PE-04 como dependência ao tratar o exemplo A/B/C. Se o usuário escolher outra frente, usar diretamente a linha correspondente. Ajustar a pergunta quando a base vigente já contiver a resposta.
+
+| Frente e pendências relacionadas | Primeira pergunta concreta | Insumos mínimos | Entrega para revisão |
+|---|---|---|---|
+| PE-01 · Distribuição e acesso · P01, P04, P05 | Se um repositório de Workspaces puder conter refinamentos reservados à Sigla, quem deve poder descobrir sua existência e ler esses dados? | Fluxo aceito de atualizar a raiz e carregar a atividade, relato de acesso por Sigla e serviço, R06 e caso C01. | Matriz de públicos e conteúdos, inclusive metadados de submódulos, e percurso de abertura com acesso parcial. Registrar a classificação padrão como aberta até haver decisão. |
+| PE-02 · Ferramentas · P02 | Que evidência informa ao usuário qual versão ou capacidade ele está utilizando no Devin Web, em comparação com o CLI? | Modalidades Devin Web, CLI e Desktop, Claude Code, objetivo de atualização e caso C02. | Quadro por modalidade com evidência disponível, limitação, experiência em caso de falha e continuidade possível. Remeter a validação dos mecanismos internos ao ambiente autorizado. |
+| PE-03 · Motor · P03, P04 | Que informação mínima no Micro de A e no Meso da sua Sigla permite saber, ao encontrar uma chamada a C, o que foi coberto e o que ficou fora? | Cenário A/B/C, revisões sintéticas de A e B, trecho de chamada e limites de seleção. | Um exemplar Micro e um Meso relacionados por revisão e evidência. Verificar se o leitor localiza o contrato, o alcance da conclusão e a pendência sobre C. |
+| PE-04 · Evidência e validade · P03, P04 | Uma história pede mudar uma tarifa que depende da regra de segmento. Que evidência permite avançar e que parte da mudança precisa aguardar? | Dois casos já aceitos de onboarding de A com ressalva, C03 e mudança de contrato em C08. | Registro de uma afirmação, evidência, revisão, dependência e impacto. Mostrar o primeiro aviso, a reapresentação no uso e como distinguir conhecimento invalidado de conhecimento revalidado. |
+| PE-05 · Workspace · P05, P01, P04 | Em que situação o time precisa sinalizar que o conjunto de histórias e tasks terminou para poder escolher entre descartar a branch e arquivar a pasta? | R06, escolha da Sigla executora, distinção entre fim do refinamento e fim da atividade, caso C04. | Jornada da atividade com papéis, decisões, estado guardado e acesso ao histórico. Destacar separadamente quem permite o vínculo da Sigla e a atribuição ainda aberta de quem o efetiva. |
+| PE-06 · Agente por etapa · P06, P03, P05 | Se o Analista corrigir uma regra durante o planejamento dos testes, o que o agente precisa recuperar e apresentar antes de prosseguir? | Direção de atuação por etapa, aprovação formal do refinamento, histórico sintético da regra e C05. | Exemplo antes/depois vinculando regra, história, critérios e testes. Especificar sinais de etapa, recuperação e decisão humana. Preservar o limite entre planejamento e execução em serviços corporativos. |
+| PE-07 · Extensões · P07, P02, P04 | Se uma atividade depender de uma extensão do repositório integrador e ela tiver sido substituída, como o agente identifica qual orientação ainda se aplica? | Escopos de extensão, dependências e versões sintéticas, C06. | Exemplo de descoberta, conflito ou retirada, com origem, efeitos nos consumidores e permissões separadas para ler documentação e usar a ferramenta. |
+| PE-08 · Arquitetura e solução · P08, P01, P04 | Para uma solução que atravessa duas Siglas, qual saída o Analista precisa na primeira entrega para delimitar sua fronteira funcional? | Relações do Motor, componente compartilhado por soluções, autorização de leitura e C07. | Comparar, no mesmo exemplo, o registro de relações, o mapa proposto e a base arquitetural verificável. Registrar qual saída foi escolhida ou o que impede a escolha. |
+| PE-09 · Negócios · P09, P03, P08 | O canal antigo encaminha um caso para análise manual. Quem pode confirmar se o novo canal deve seguir a mesma regra, e com base em quê? | C07, distinção entre comportamento observado, política e finalidade, fonte de negócio sintética. | Exemplo de consulta que liga jornada, regra, responsável, vigência e impacto sobre a história. Registrar o que continua desconhecido se faltar uma fonte legítima. |
+
+## Quando as fontes divergem
+
+Comparar as passagens e revisões exatas, suas origens e o objeto de cada afirmação. Uma divergência pode desaparecer ao separar, por exemplo, a Sigla que guarda o Workspace das Siglas cujos índices ele consulta. Se houver uma retificação expressa do mesmo ponto, preservar a redação anterior no histórico, vincular a nova decisão e identificar os cenários atingidos. Se não houver resposta suficiente, explicitar as leituras plausíveis e levar ao responsável apenas a escolha com consequência material. Manter as demais partes do refinamento utilizáveis. Um aceite de exemplo, de fluxo ou de revisão documental vale no objeto e alcance acordados.
+
+## Revisão transversal e fechamento
+
+Congelar a revisão que será examinada e identificar os trechos ainda propostos. Usar casos que atravessem mais de uma frente, como abrir uma atividade entre Siglas, encontrar um contrato incompleto, corrigir a regra de negócio e retomar o planejamento. Verificar se as mesmas identidades, permissões, revisões, limites de cobertura e responsabilidades se mantêm do começo ao fim. Confrontar o que a interface comunica com a evidência que o Motor e o Workspace conseguem oferecer. Para conhecimento afetado por mudança, conferir em que momento fica inválido, como se reconcilia e o que sustenta sua volta ao uso. Quando houver revisor independente disponível, encaminhar-lhe a versão congelada e os critérios de revisão.
+
+O **entregável de fechamento** é uma revisão integrada do escopo com decisões e fontes por PE, cenários e resultados esperados, conflitos e impactos tratados, pendências remanescentes e ponto exato de retomada. Distinguir critérios documentados de testes executados. Indicar a próxima decisão humana apenas onde necessária.
+
+Quando a escrita estiver autorizada, preparar nova revisão em branch e PR revisáveis e preservar as anteriores. Confirmar por releitura no commit imutável, comparação de conteúdo ou hashes e recibo com destino e estado de recuperação. Após timeout, consultar o destino antes de repetir. Se a base mudou, revalidá-la. Limitar a duas tentativas totais por mesma falha e suspender escrita dependente enquanto o resultado for incerto. Sem gravação comprovada, registrar **NÃO PERSISTIDO**. A publicação para revisão mantém separados o aceite documental, a aprovação de requisitos e a autorização para construir ou operar o produto.

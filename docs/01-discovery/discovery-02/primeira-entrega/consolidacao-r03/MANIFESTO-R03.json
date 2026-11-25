@@ -1,0 +1,164 @@
+{
+  "schema_version": "consolidacao-r03-1",
+  "revision": 3,
+  "date": "2026-11-13",
+  "timezone": "America/Sao_Paulo",
+  "repository": "lazaruscarvalho-a11y/engenharia-agentica-plataforma-ide",
+  "branch": "proposta/d02-primeira-entrega-refinamentos",
+  "pr": 9,
+  "base_commit": "0cc6456fbd7613b9a4369d60684d0fe1170a2ed2",
+  "base_tree": "8d008e547df6f70eefb524e9878f090a657b59c5",
+  "scope": "Sobreposição documental P03/P04 e continuidade P01–P09; sem código produtivo/ratificação/merge",
+  "prompt_master_sha256": "53861418583ec712b414acdf3bcc1775195bdaed502f77fd7d1ee0ab78b42e1b",
+  "sources_index": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/INVENTARIO-FONTES.json",
+  "traceability": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/RASTREABILIDADE.md",
+  "publication_status": "CANDIDATO; comprovação por recibo posterior separado e releitura imutável",
+  "history": "Manifestos anteriores e acervos preservados; oito entradas recebem prefixo de navegação e conservam abaixo os bytes anteriores.",
+  "self_reference": "Este manifesto não inclui seu próprio hash; obtê-lo pelo commit e recibo posterior. Recibo não integra o próprio conteúdo certificado.",
+  "files": [
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/AUDITORIA.md",
+      "bytes": 9052,
+      "sha256": "28a2e735bcc5b06ff4dba1b8222a6f6c4ce7b606e8660e18948b94bb55ac941e",
+      "git_blob_sha1": "c467522800ed0dde5f3a932cc78dcc7b29e51c7d"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/BASE-P03-HUM.md",
+      "bytes": 30146,
+      "sha256": "478c1f71718765ee98ea18ff450b753a95dbb2e9acb0f6592118a45bbbedf61e",
+      "git_blob_sha1": "eedb0a8b218708ff410f22b783a2695216fd9631"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/CONTINUIDADE.md",
+      "bytes": 6694,
+      "sha256": "7afe9b4066a6c7624b266738bdab740d769d619d66dd92f36e0905a5829765e8",
+      "git_blob_sha1": "82d300311316d9d11899aa7ee596d745d5cb306e"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/ESCOPO-INTEGRADO.md",
+      "bytes": 31015,
+      "sha256": "04db6cce38cfcc9266991112b8ac3697fcb35e12c8e90dba470ff748cf58e054",
+      "git_blob_sha1": "c061e85a68b1bea3a6ccfab9e2e1f0d1c2b75a34"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/FONTES.md",
+      "bytes": 17493,
+      "sha256": "4450cfcc0c44b3a9ae241c01ab93e5935d83d2bc498945db603a206f463f3769",
+      "git_blob_sha1": "bf8def369aa831590a2e68e11ef37644d21b175c"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/INVENTARIO-FONTES.json",
+      "bytes": 28927,
+      "sha256": "83398480a0de3227478dfc9dfb2e6765feec65e4e801ae3b1c3bb593e95c914b",
+      "git_blob_sha1": "8283c6af4d3f04269b35e89510cb15a2142a9ab6"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/P04-CONSOLIDADO.md",
+      "bytes": 12998,
+      "sha256": "fff78d9ae3cf098e3cc77028e007befaea8f819b7d8d61c27c425f99b54a1963",
+      "git_blob_sha1": "91373a6d4466878c78a69cb428a47d6424b026b2"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PENDENCIAS-P01-P09.md",
+      "bytes": 104276,
+      "sha256": "86bc672f51b297e4d49a35c598ec734d277133e52c9d8a4ce840820a7af4d057",
+      "git_blob_sha1": "e508019e794f37dec320a163164114debf0111f1"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PLANO-E-EXECUCAO.md",
+      "bytes": 3955,
+      "sha256": "c120651ac123fd386526b49903ae5a1ffb4b334ffdf9dcd1103af15cefa4c4d6",
+      "git_blob_sha1": "21a3923d8482e5593f57fd7158d12717de3741d2"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/PROMPT-NOVA-SESSAO.md",
+      "bytes": 3089,
+      "sha256": "6d5e9c31638af339654dc0e097273479ff322db467dc17b8152a6881067a5b79",
+      "git_blob_sha1": "2543e344ba9cea76493b667497fca9ae9cef0849"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/RASTREABILIDADE.md",
+      "bytes": 8035,
+      "sha256": "0bbcae24411a21ee8c4d66d966bb6cb1a82cef9cb3f79686e733a3105a6f042e",
+      "git_blob_sha1": "f9f14337e730fb8f7e02e49bbdf6e4e2801f1bc3"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/README.md",
+      "bytes": 4926,
+      "sha256": "0c0cd0912bcab3e7d9f99014d4b20996c9a5af49182a34e1f3c148613e9b78d3",
+      "git_blob_sha1": "6383885aac373ea67896ccc03069f77610411ab2"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/consolidacao-r03/UNIDADES.json",
+      "bytes": 146561,
+      "sha256": "54cbdec0065ee0ed54c6f4916befc42d15c955a7b69cdae9977ca8e5a2efe46b",
+      "git_blob_sha1": "b5a44e314bca2b4be83c435af3fbdf74a811bc3f"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/ESCOPO.md",
+      "bytes": 44115,
+      "sha256": "76f939d1e365e8026fa3257ffd213786aab096e69709565339dc0e718f753539",
+      "git_blob_sha1": "f052594d78ebed8f80ac0dbfa6a39b7600549a6e"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/README.md",
+      "bytes": 7964,
+      "sha256": "f43dd3e2631ce02f5b43e7154114604fc0b75b7f1efd60af7d2cfdb53ca8db65",
+      "git_blob_sha1": "81c1594339e9910cf20d043f802cdd33fcf6e9ae"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P03-CONHECIMENTO.md",
+      "bytes": 26585,
+      "sha256": "2b48216d4d3900542f893089d2f2dbc05d4c16997c8ab8e77287ebeb499a8d06",
+      "git_blob_sha1": "4d04e075012caa90467c3bcb15413a78722f7b01"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/refinamentos/P04-ATUALIDADE.md",
+      "bytes": 24798,
+      "sha256": "38f52399a9a29efa9db67e8e76e83d11c056cccc41019d595a0d1ea97248d03d",
+      "git_blob_sha1": "194ebd1e3094b8e5acf5ff1b54ee13b9dd30a807"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/primeira-entrega/roteiro/REFINAMENTO-E-REVISAO.md",
+      "bytes": 10241,
+      "sha256": "2fa62b8e5ed96f23d1e7ce28e46ebacfec09cf4f3ba395e4f13e147454a480a5",
+      "git_blob_sha1": "d9db8983083370db4e94110ddfb464c29c924be6"
+    },
+    {
+      "path": "docs/01-discovery/discovery-02/RETOMADA.md",
+      "bytes": 4568,
+      "sha256": "f40c7193242ef790b8753a9cf9309ed71af56bb4a8272819cdfb35bac648ae7c",
+      "git_blob_sha1": "aab7ec809e47d1cd13db8d0c4e28d2bb737b54dc"
+    },
+    {
+      "path": "docs/continuidade/CONT-REG-0004.json",
+      "bytes": 1949,
+      "sha256": "82c2b56fbc047814428d3124102bbe9eff29f6fa82099d90ee7b485651864e9d",
+      "git_blob_sha1": "c43e04eb0a9d1ef1f19d7d71a7b964de5b002c48"
+    },
+    {
+      "path": "docs/continuidade/historico/pre-r03/MANIFESTO.json",
+      "bytes": 1427,
+      "sha256": "3d032ce188e5c6e12262c86d5d53a85c07b7a142e15d475320f3e4a375ca72cb",
+      "git_blob_sha1": "cfdc693cca5a9b91863a0f895733fc09da8199ac"
+    },
+    {
+      "path": "docs/continuidade/MANIFESTO.json",
+      "bytes": 1541,
+      "sha256": "ad26302ffe09b4cdd0acd0f98346a4a079ce4afeb30a2f1f6f2f8864fa0055b2",
+      "git_blob_sha1": "68861727240adf96d7f02b3cff9a82738d3085a5"
+    },
+    {
+      "path": "ESTADO-ATUAL.md",
+      "bytes": 3255,
+      "sha256": "5ab26906e289049c070d201ff70862e8282c513615c5b208370d04a6e154304a",
+      "git_blob_sha1": "03b4c44e08b3db59b2c20c3f77ae14bde696235f"
+    },
+    {
+      "path": "RETOMADA.md",
+      "bytes": 2300,
+      "sha256": "1f729cbbc71486aadf5b5d7c41960e3b73a5e97f4fae8e94a9ff2c21e9104727",
+      "git_blob_sha1": "7bf0c95871d836755e6d517676007d5a30a9e156"
+    }
+  ]
+}

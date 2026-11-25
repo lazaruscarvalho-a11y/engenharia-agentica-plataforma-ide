@@ -1,0 +1,28 @@
+{
+  "schema_version": "continuidade-1",
+  "record_id": "CONT-REG-0003",
+  "revision": 2,
+  "kind": "PEDIDO_OPERACIONAL",
+  "source_kind": "USER_DIRECT",
+  "source_ref": "Determinação direta do usuário nesta conversa em 01/11/2026; ID de mensagem não exposto.",
+  "request": "Corrigir completamente repositório, Fontes e Instruções do Projeto, removendo RG como pendência ou bloqueio do Discovery; verificar aplicação efetiva antes de declarar conclusão.",
+  "normative_effect": "AUSENTE",
+  "product_approval": "NAO_CONCEDIDA",
+  "readiness_rule": "Prontidão para Discovery significa conseguir ler a documentação vigente e recuperar corretamente decisões, restrições, pendências de produto e ponto de continuidade. RG e os demais gates da consolidação PM-R5 não são pendências nem bloqueios da entrevista. Não reexecutá-los para liberar o Discovery e não exigir INTEGRALMENTE_COMPROVADO para conversar. Somente um impedimento atual, material e demonstrado pode bloquear a etapa que dele dependa.",
+  "current_entry": "docs/01-discovery/discovery-02/PRONTIDAO.md",
+  "scope": [
+    "documentação em branch/PR sem merge",
+    "cinco Fontes do Projeto",
+    "Instruções nativas e releitura integral"
+  ],
+  "prohibited": [
+    "merge",
+    "ratificação PGC/CT",
+    "execução de aplicações",
+    "implementação da IDE",
+    "alteração de pipelines/permissões",
+    "aceite humano fictício"
+  ],
+  "pending": [],
+  "next_action": "Continuar D02-PEN-001/002 conforme a continuidade documental e respostas reais do usuário."
+}

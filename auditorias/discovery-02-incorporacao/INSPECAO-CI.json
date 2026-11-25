@@ -1,0 +1,168 @@
+{
+  "schema_version": "d02-ci-inspection-1",
+  "base_commit": "e37af725a162c577cfa9ffde286d0fcf69294429",
+  "base_tree": "7c580558a308162430b061b58857e11e254e960b",
+  "inventory_complete": true,
+  "workflow_paths": [
+    ".github/workflows/fundacao.yml"
+  ],
+  "triggers": {
+    "push_branches": [
+      "proposta/fundacao-integral-pm-fund-001-003"
+    ],
+    "pull_request": "all",
+    "workflow_dispatch": "not invoked"
+  },
+  "permissions": {
+    "contents": "read"
+  },
+  "actions": [
+    "actions/checkout@v4",
+    "actions/setup-python@v5",
+    "actions/upload-artifact@v4"
+  ],
+  "commands": [
+    "python -B harness/executar_verificacoes.py --saida resultados-ci"
+  ],
+  "effects": "9 static/documentary and local synthetic test suites; temporary SQLite fixtures and subprocess Python; output resultados-ci and artifact evidencias-exploratorias; no application/build/deployment command or reusable workflow",
+  "network": "Existing GitHub Actions may retrieve official actions/Python and upload synthetic test artifact; no repository script imports a network client or makes a remote publication",
+  "secrets_referenced": [],
+  "source_files": [
+    {
+      "path": ".github/workflows/fundacao.yml",
+      "mode": "100644",
+      "sha": "c5c2a7b9c2dc24290a182e40cc0aec218126960f",
+      "size": 610
+    },
+    {
+      "path": "auditorias/fundacao-integral/test_adversarial.py",
+      "mode": "100644",
+      "sha": "21c54e5163bad923d9a49079a0f896c7f1c607ad",
+      "size": 12301
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/auditar_pacote.py",
+      "mode": "100644",
+      "sha": "de967da34bd95828a11c3f70d36ac7f242540553",
+      "size": 11322
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/casos-adversariais.json",
+      "mode": "100644",
+      "sha": "ea72c3d4c8c1b3868ab2e46208bb0d69e0d8e05f",
+      "size": 101145
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/gerar_catalogo.py",
+      "mode": "100644",
+      "sha": "18b01636e441739a1c4c4105e65fd727d90ebc04",
+      "size": 17532
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/relatorio-verificacao.md",
+      "mode": "100644",
+      "sha": "10e6b7c6c4e59d91723777122936e68de3229b7e",
+      "size": 7513
+    },
+    {
+      "path": "docs/00-governanca/PGC-001_v1.1.3_candidata_ratificacao/verificacoes/testar_revisao.py",
+      "mode": "100644",
+      "sha": "01e2be93498c958d876e6bd357e9297710095868",
+      "size": 5493
+    },
+    {
+      "path": "harness/empacotar_chatgpt.py",
+      "mode": "100644",
+      "sha": "96b5f366bd3b72592473a3d67a3e82314f00225b",
+      "size": 5781
+    },
+    {
+      "path": "harness/executar_verificacoes.py",
+      "mode": "100644",
+      "sha": "e152eb24a9f910583f75187a58116a96e6591080",
+      "size": 2193
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO-FUNDACAO.md",
+      "mode": "100644",
+      "sha": "7128ab883c73cc62d1862a944763515ac9038f04",
+      "size": 6365
+    },
+    {
+      "path": "harness/governanca_assistida/OPERACAO.md",
+      "mode": "100644",
+      "sha": "a0d633067dab6c0508188bab9be9bca36af8ea36",
+      "size": 7715
+    },
+    {
+      "path": "harness/governanca_assistida/fluxo.py",
+      "mode": "100644",
+      "sha": "65080c65d839aa2240532f4b2035183fc3f0de9b",
+      "size": 17639
+    },
+    {
+      "path": "harness/governanca_assistida/fundacao.py",
+      "mode": "100644",
+      "sha": "9e6dafdab8331448f8b07d76570d97827aa17764",
+      "size": 14033
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/aceite-nao-preenchido.json",
+      "mode": "100644",
+      "sha": "ce3354e6459c1be3ca480d08dc76c7bab38d90e7",
+      "size": 428
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/recibo-nao-preenchido.json",
+      "mode": "100644",
+      "sha": "db53b3c3ef4e124cfe4b6c39d20f45570eb5049c",
+      "size": 358
+    },
+    {
+      "path": "harness/governanca_assistida/modelos/registro.json",
+      "mode": "100644",
+      "sha": "3452296643e02221c8ebe1bc08ef45a1500aac45",
+      "size": 476
+    },
+    {
+      "path": "harness/governanca_assistida/retomar_snapshot.py",
+      "mode": "100644",
+      "sha": "246741bb6f6c8ce6dc1818a0ca9308a5d7057b4b",
+      "size": 1248
+    },
+    {
+      "path": "harness/governanca_assistida/test_fluxo.py",
+      "mode": "100644",
+      "sha": "d1f48af16cc0b0aaa43685160ad982c29a4e0554",
+      "size": 9678
+    },
+    {
+      "path": "harness/governanca_assistida/test_fundacao.py",
+      "mode": "100644",
+      "sha": "cc1158c939d616e8a2c5ef1ef3d2a85f95d0ff8c",
+      "size": 9896
+    },
+    {
+      "path": "harness/test_retomada.py",
+      "mode": "100644",
+      "sha": "adbc69b7d6c7841a9d64acc09feaaaea05b618dc",
+      "size": 3210
+    },
+    {
+      "path": "harness/verificar_fundacao.py",
+      "mode": "100644",
+      "sha": "b822ad954e64f4dba6d69fc7f9620f91b18bcc91",
+      "size": 3646
+    },
+    {
+      "path": "harness/verificar_retomada.py",
+      "mode": "100644",
+      "sha": "1f3b10c01ff862ade6766c215bfc5afae5b934bf",
+      "size": 2816
+    }
+  ],
+  "local_execution_plan": "Separate isolated copy, sanitized env, no credentials provided, -B; PGC generators only --check, original not executed on protected acervo; no installations/build/applications",
+  "external_integrations_visibility": "Not completely observable through connector; no material risky effect found in Git tree/workflow. No administration mutation.",
+  "inspection_limit": "Source and calls inspected; not a proof that mutable action tags never change or that external integrations absent",
+  "prepublication_revalidate": true
+}
